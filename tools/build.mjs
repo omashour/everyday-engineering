@@ -6,6 +6,7 @@ import { parseArgs, videoDir, fail, ok, info, hf, writeJson, rel } from "./lib/c
 import { loadVideo, videoTiming } from "./lib/video.mjs";
 import { buildProject, editedSinceBuild } from "./lib/project.mjs";
 import { validateVideo } from "./lib/validate.mjs";
+import { saveAndPush } from "./lib/git.mjs";
 
 const args = parseArgs();
 const dir = videoDir(args._[0]);
@@ -46,6 +47,7 @@ if (!args["no-check"]) {
   const code = hf(["check", out]);
   if (code !== 0) console.log("⚠ HyperFrames check reported problems (see above). The project still opens in preview.");
 }
+saveAndPush(`${v.name.slice(0, 3)}: build${draft ? " (draft timing)" : ""}`);
 info(`Next: npm run preview -- ${v.name.slice(0, 3)}`);
 
 function fmtTime(s) {

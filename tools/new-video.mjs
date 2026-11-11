@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { parseArgs, P, fail, ok, info, readYaml, rel } from "./lib/core.mjs";
 import { setTopicStatus } from "./lib/topics.mjs";
+import { saveAndPush } from "./lib/git.mjs";
 
 const args = parseArgs();
 const arg = args._.join(" ").trim();
@@ -56,4 +57,5 @@ w("shorts.yaml", `shorts:\n  - title: ""\n    hook: ""\n    scenes: []\n    end:
 w("assets-needed.md", `# Assets needed — ${num}\n\nNone yet.\n`);
 if (topic) setTopicStatus(topic.id, "scripted", { video: num });
 ok(`Created ${rel(dir)}`);
+saveAndPush(`${num}: new video "${title}"`);
 info("Next: write scenes.yaml (Claude.ai skill does this), then npm run validate -- " + num);

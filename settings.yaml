@@ -1,0 +1,6 @@
+# Repo-wide settings for the local tools.
+git:
+  # Commit and push to GitHub automatically after new-video, tts-pack, transcribe,
+  # build, upload-sheet and publish. Audio, renders and builds are never pushed
+  # (see .gitignore). Set to false to push only with `npm run save`.
+  auto_push: true

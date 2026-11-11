@@ -21,6 +21,7 @@
     "thumbnail": "node tools/thumbnail.mjs",
     "upload-sheet": "node tools/upload-sheet.mjs",
     "publish": "node tools/publish.mjs",
+    "save": "node tools/save.mjs",
     "branding": "node tools/branding.mjs",
     "gallery": "node tools/gallery.mjs",
     "docs": "node tools/docs.mjs",

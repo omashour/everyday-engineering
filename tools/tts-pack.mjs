@@ -8,6 +8,7 @@ import path from "node:path";
 import { parseArgs, videoDir, ok, info, readYaml, rel, P } from "./lib/core.mjs";
 import { loadVideo } from "./lib/video.mjs";
 import { tokens } from "./lib/timing.mjs";
+import { saveAndPush } from "./lib/git.mjs";
 
 const args = parseArgs();
 const dir = videoDir(args._[0]);
@@ -82,4 +83,5 @@ chunks.forEach((c, i) => {
 fs.writeFileSync(path.join(dir, "tts.md"), md);
 fs.mkdirSync(path.join(dir, "audio"), { recursive: true });
 ok(`Wrote ${rel(path.join(dir, "script.md"))} and ${rel(path.join(dir, "tts.md"))} (${chunks.length} chunk(s), ${total} words, ~${mmss(t)})`);
+saveAndPush(`${v.name.slice(0, 3)}: script and voice package`);
 info("Record the chunks in Gemini, save them in audio/, then: npm run transcribe -- <id>");

@@ -65,7 +65,7 @@ npm run upload-sheet -- NNN    → upload.md (everything to paste into YouTube) 
 The user pastes output from `validate`, `build` or HyperFrames `check`, or describes a visual problem ("S04 equation overlaps the figure"). Ask only for the specific scene's YAML if you don't have it. Reply with **only the changed scene(s)** as YAML, not the whole file. Common fixes: a cue not found → copy the phrase exactly from `say`; text too long → shorten or split the scene; overlapping figure → change `view`, positions or `figure_side`.
 
 ### 5. Track
-After upload the user runs `npm run publish -- NNN --url <link>` locally (moves the topic to covered.yaml). If asked to update the tracker yourself with a connector, make the same change: remove the backlog entry, append a one-line entry to covered.yaml with video, title, published date, style, url, topic, phase, playlist, concepts (from the chapters).
+After upload the user runs `npm run publish -- NNN --url <link>` locally (moves the topic to covered.yaml and pushes to GitHub automatically; the user then presses Sync in this Project). If asked to update the tracker yourself with a connector, make the same change: remove the backlog entry, append a one-line entry to covered.yaml with video, title, published date, style, url, topic, phase, playlist, concepts (from the chapters).
 
 ## Token rules
 - Steps 1–2 need only the small YAML files and styles.md. Don't load components.md until step 3.

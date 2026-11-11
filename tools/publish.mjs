@@ -4,6 +4,7 @@ import path from "node:path";
 import { parseArgs, videoDir, fail, ok, info } from "./lib/core.mjs";
 import { loadVideo } from "./lib/video.mjs";
 import { moveToCovered } from "./lib/topics.mjs";
+import { saveAndPush } from "./lib/git.mjs";
 
 const args = parseArgs();
 const dir = videoDir(args._[0]);
@@ -26,4 +27,5 @@ const entry = {
 };
 moveToCovered(v.meta.topic, entry);
 ok(`Recorded ${entry.video} as published in topics/covered.yaml${v.meta.topic ? ` and removed ${v.meta.topic} from the backlog` : ""}.`);
-info("Commit and push so Claude.ai sees it: git add -A && git commit -m \"Publish " + entry.video + "\" && git push");
+if (saveAndPush(`${entry.video}: published (${args.url})`)) info("In Claude.ai, press Sync on the project's GitHub context (or re-upload covered.yaml) so topic suggestions skip this video.");
+else info("Then run `npm run save` to push it to GitHub.");

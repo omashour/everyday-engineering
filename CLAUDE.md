@@ -9,4 +9,4 @@ Pipeline for the Everyday Engineering YouTube channel. README.md explains the wo
 - **After changing components:** `npm run gallery` (visual check, contact sheet), `npm test`, `npm run docs` (regenerates `styles/index.yaml` and the skill's components.md), `npm run package-skill`.
 - **HyperFrames rules that bite:** style the scene root by `#id`, never by class; never tween visibility on `.clip`; no CSS transform on elements GSAP transforms; every `<audio>` needs an id. Run `npx hyperframes check <project>`.
 - Never edit files with PowerShell `Get-Content`/`Set-Content` round trips: they corrupt UTF-8 (×, ≈, →). Use the Edit tool or Node.
-- Ask before creating the GitHub repo, pushing, or changing the channel name/tagline.
+- The owner asked for automatic GitHub pushes: the work commands call `saveAndPush` (`tools/lib/git.mjs`), controlled by `settings.yaml` → `git.auto_push`. Ask before force-pushing, rewriting history, or changing the channel name/tagline.

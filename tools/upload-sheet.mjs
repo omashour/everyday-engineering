@@ -8,6 +8,7 @@ import path from "node:path";
 import { parseArgs, videoDir, ok, info, readYaml, rel, P } from "./lib/core.mjs";
 import { loadVideo, videoTiming } from "./lib/video.mjs";
 import { buildCues, toSrt } from "./lib/captions.mjs";
+import { saveAndPush } from "./lib/git.mjs";
 
 const args = parseArgs();
 const dir = videoDir(args._[0]);
@@ -124,9 +125,10 @@ ${shortBlocks.length ? `\n## Shorts\n${shortBlocks.join("\n")}` : ""}
 ## After uploading
 \`\`\`
 npm run publish -- ${num} --url <video link>
-git add -A && git commit -m "Publish ${num}" && git push
 \`\`\`
+(It records the video as covered and pushes to GitHub automatically.)
 `;
 fs.writeFileSync(path.join(dir, "upload.md"), md);
 ok(`Wrote ${rel(path.join(dir, "upload.md"))} and ${rel(srtFile)} (${cues.length} caption lines)`);
 if (warn.length) info(`${warn.length} thing(s) to check — see the top of upload.md.`);
+saveAndPush(`${num}: upload sheet and captions`);

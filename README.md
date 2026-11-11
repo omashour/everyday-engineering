@@ -63,9 +63,13 @@ In the project, just say **"suggest topics"**.
 | 11. Render | `npm run render -- 002` → `renders/002-….mp4` |
 | 12. Shorts + thumbnails | `npm run shorts -- 002`, `npm run render -- 002 --short 1`, `npm run thumbnail -- 002` |
 | 13. Upload sheet | `npm run upload-sheet -- 002` → `upload.md` (title, full description with chapters, tags, settings, end-screen time, pinned comment, Shorts texts) + `captions.srt` |
-| 14. Publish | upload using `upload.md`, then `npm run publish -- 002 --url https://youtu.be/…` and `git push` |
+| 14. Publish | upload using `upload.md`, then `npm run publish -- 002 --url https://youtu.be/…` |
 
 `npm run status` shows every video's stage and its next command.
+
+### Saving to GitHub
+`new-video`, `tts-pack`, `transcribe`, `build`, `upload-sheet` and `publish` commit and push to GitHub automatically. After editing files by hand, run `npm run save` (optionally with a message: `npm run save -- "fix S04 wording"`). If you're offline, work is saved on this PC and goes up with the next save. Turn automatic pushing off in `settings.yaml`, or skip it once with `--no-push`.
+Audio recordings, renders and generated projects are never pushed (too large), so keep a backup of `videos/*/audio/` yourself.
 Before recording the real voice you can preview timing with a free robot voice: `npm run draft-voice -- 002` (delete `audio/narration-draft.wav` afterwards).
 
 ### Editing a video
@@ -87,5 +91,3 @@ Before recording the real voice you can preview timing with a free robot voice: 
 | `videos/NNN-slug/` | one folder per video: scenes.yaml, metadata, audio, project, renders |
 | `skill/everyday-engineering/` | the Claude.ai skill (`npm run package-skill` zips it) |
 | `tools/` | all commands (`tools/lib` = engine, `tools/runtime` = in-video helpers) |
-
-Audio, renders and generated projects are not committed (see `.gitignore`); back up `videos/*/audio/` yourself if you want to keep the raw recordings.

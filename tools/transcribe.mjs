@@ -6,6 +6,7 @@ import path from "node:path";
 import os from "node:os";
 import { parseArgs, videoDir, fail, ok, info, run, hf, readJson, writeJson, rel, readYaml, P } from "./lib/core.mjs";
 import { rawAudioFiles } from "./lib/video.mjs";
+import { saveAndPush } from "./lib/git.mjs";
 
 const args = parseArgs();
 const dir = videoDir(args._[0]);
@@ -34,4 +35,5 @@ const words = readJson(res.transcriptPath).map(({ text, start, end }) => ({ text
 writeJson(path.join(dir, "audio", "words.json"), words);
 fs.rmSync(tmp, { recursive: true, force: true });
 ok(`${words.length} words timed (${res.engine}) → ${rel(path.join(dir, "audio", "words.json"))}`);
+saveAndPush(`${path.basename(dir).slice(0, 3)}: narration timing`);
 info(`Next: npm run build -- ${path.basename(dir).slice(0, 3)}`);
