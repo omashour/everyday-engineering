@@ -21,7 +21,7 @@ function title(text, highlight = [], dark = false) {
   const hl = [].concat(highlight ?? []).filter(Boolean);
   let h = esc(text);
   for (const w of hl) h = h.replace(esc(w), `<span style="background:${b.colors.marker};color:${b.colors.ink};padding:0 12px;border-radius:10px;box-decoration-break:clone;-webkit-box-decoration-break:clone">${esc(w)}</span>`);
-  return `<div style="font:800 96px/1.05 Inter,sans-serif;letter-spacing:-2px;color:${dark ? "#fff" : b.colors.ink};${dark ? "text-shadow:0 4px 18px rgba(0,0,0,.6);" : ""}">${h}</div>`;
+  return `<div style="font:800 84px/1.05 Inter,sans-serif;letter-spacing:-2px;color:${dark ? "#fff" : b.colors.ink};${dark ? "text-shadow:0 4px 18px rgba(0,0,0,.6);" : ""}">${h}</div>`;
 }
 const badge = `<img src="assets/media/logo.svg" style="position:absolute;right:28px;top:28px;width:96px;height:96px;border-radius:50%">`;
 
@@ -44,9 +44,9 @@ variants.forEach((v, i) => {
     html = `<div style="position:absolute;inset:0;background:#fff;display:flex"><div style="width:52%;height:100%;overflow:hidden"><img src="${img}" style="width:100%;height:100%;object-fit:cover"></div>
       <div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:30px;padding:0 50px">${title(v.text, v.highlight)}${math ? `<div style="font-size:70px;color:${b.colors.ink};position:relative;align-self:flex-start;padding:6px 24px">${math}<span style="position:absolute;inset:-6px -14px;border:6px solid ${b.colors.red};border-radius:50%;transform:rotate(-3deg)"></span></div>` : ""}</div>${badge}</div>`;
   } else {
-    html = `<div style="position:absolute;inset:0;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px;padding:40px 70px;text-align:center">
+    html = `<div style="position:absolute;inset:0;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:36px;padding:40px 150px 40px 70px;text-align:center">
       ${title(v.text, v.highlight)}
-      ${math ? `<div style="font-size:110px;color:${b.colors.ink};position:relative;padding:4px 40px">${math}<span style="position:absolute;inset:-10px -20px;border:7px solid ${b.colors.red};border-radius:50%;transform:rotate(-3deg)"></span></div>` : ""}
+      ${math ? `<div style="font-size:64px;color:${b.colors.ink};position:relative;padding:0 50px">${math}<span style="position:absolute;inset:-14px -10px;border:7px solid ${b.colors.red};border-radius:50%;transform:rotate(-3deg)"></span></div>` : ""}
       ${v.note ? `<div style="position:absolute;right:70px;bottom:60px;font:700 64px Caveat,cursive;color:${b.colors.red};transform:rotate(-4deg)">${esc(v.note)}</div>` : ""}${badge}</div>`;
   }
   const out = path.join(outDir, `thumb-${i + 1}.png`);
