@@ -74,5 +74,5 @@ Full video: [paste the main video's link]
 ## After uploading
 ```
 npm run publish -- 001 --url <video link>
-git add -A && git commit -m "Publish 001" && git push
 ```
+(It records the video as covered and pushes to GitHub automatically.)
