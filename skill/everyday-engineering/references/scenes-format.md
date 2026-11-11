@@ -149,9 +149,12 @@ variants:                     # 2 variants for YouTube's A/B test
 shorts:                        # 30–60 s each; scenes play back to back with their narration
   - title: "Why 2× speed means 4× braking distance #shorts"
     hook: "2× speed = 4× braking distance?!"   # banner pinned at the top, ≤ 6 words
-    scenes: [S01, S04, S08]     # pick scenes that make sense on their own; total ≤ ~55 s of narration
+    scenes: [S01, S04, S08]     # FIRST scene must be the hook; scenes must make sense alone; total ≤ ~55 s of narration
     end: "Full video on the channel"
+    description: "Why does doubling your speed quadruple your braking distance? One line of algebra.\n\nFull video: [paste the main video's link]"   # optional; hashtags are added automatically
 ```
+
+Shorts rules: open on the hook scene (a Short has about 1–2 seconds to stop the scroll), end on the payoff (the key result), and leave a reason to watch the full video. Usually: hook scene + the scene with the key result + the "remember this" scene.
 
 ## Quality checklist (run through before delivering)
 - [ ] Hook ≤ 40 words, real-world visual, surprising number or question

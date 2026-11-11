@@ -19,6 +19,7 @@
     "render": "node tools/render.mjs",
     "shorts": "node tools/shorts.mjs",
     "thumbnail": "node tools/thumbnail.mjs",
+    "upload-sheet": "node tools/upload-sheet.mjs",
     "publish": "node tools/publish.mjs",
     "branding": "node tools/branding.mjs",
     "gallery": "node tools/gallery.mjs",

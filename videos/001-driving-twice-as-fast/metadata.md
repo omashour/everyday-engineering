@@ -3,7 +3,7 @@
 **Title:** Driving Twice as Fast Is 4 Times More Dangerous
 **Alternates:** Why Speeding Is Worse Than You Think (The Math) · The One Equation Every Road Engineer Knows
 
-**Playlist:** Math for Engineers
+**Playlist:** math-for-engineers
 
 **Description:**
 Double your speed and your braking distance doesn't double. It quadruples. Here's the one line of algebra behind it, d = v²/2a, and how engineers use it to set speed limits, sight distances and brake designs.

@@ -17,3 +17,19 @@ description: |-
   For students, future engineers and anyone who likes understanding how things work. New videos every [DAY]. Subscribe and start seeing the math in everything around you.
 
 links: []                           # e.g. [{title: Website, url: https://…}]
+
+# Added to the end of every video description by `npm run upload-sheet`.
+description_footer: |-
+  New videos every [DAY]: math, physics and engineering, explained through everyday things.
+  Subscribe: https://www.youtube.com/@EverydayEngineeringExplained
+hashtags: "#engineering #math #EverydayEngineering"   # YouTube shows the first 3 above the title
+
+# Upload-form defaults shown in upload.md
+youtube:
+  audience: "No, it's not made for kids"
+  category: Education
+  language: English
+  caption_certification: None
+  license: Standard YouTube License
+  shorts_hashtags: "#shorts #engineering #math"
+  altered_content_note: "decide per video using YouTube's current guidance on realistic AI-generated content (the narration voice is AI-generated)."

@@ -62,7 +62,8 @@ In the project, just say **"suggest topics"**.
 | 10. Watch / edit | `npm run preview -- 002` (HyperFrames Studio: click anything to edit) |
 | 11. Render | `npm run render -- 002` → `renders/002-….mp4` |
 | 12. Shorts + thumbnails | `npm run shorts -- 002`, `npm run render -- 002 --short 1`, `npm run thumbnail -- 002` |
-| 13. Publish | upload, then `npm run publish -- 002 --url https://youtu.be/…` and `git push` |
+| 13. Upload sheet | `npm run upload-sheet -- 002` → `upload.md` (title, full description with chapters, tags, settings, end-screen time, pinned comment, Shorts texts) + `captions.srt` |
+| 14. Publish | upload using `upload.md`, then `npm run publish -- 002 --url https://youtu.be/…` and `git push` |
 
 `npm run status` shows every video's stage and its next command.
 Before recording the real voice you can preview timing with a free robot voice: `npm run draft-voice -- 002` (delete `audio/narration-draft.wav` afterwards).

@@ -13,7 +13,8 @@ for (const d of dirs) {
   const num = d.slice(0, 3);
   let stage, next;
   if (covered.has(num)) { stage = "published"; next = "—"; }
-  else if (has(`renders/${d}.mp4`)) { stage = "rendered"; next = `upload, then npm run publish -- ${num} --url …`; }
+  else if (has(`renders/${d}.mp4`) && has("upload.md")) { stage = "ready to upload"; next = `upload with upload.md, then npm run publish -- ${num} --url …`; }
+  else if (has(`renders/${d}.mp4`)) { stage = "rendered"; next = `npm run upload-sheet -- ${num}`; }
   else if (has("audio/words.json") && has("project/index.html")) { stage = "built"; next = `npm run preview -- ${num}, then npm run render -- ${num}`; }
   else if (has("audio/words.json")) { stage = "transcribed"; next = `npm run build -- ${num}`; }
   else if (rawAudioFiles(dir).length) { stage = "audio in"; next = `npm run transcribe -- ${num}`; }

@@ -51,6 +51,19 @@ test("tokens normalise apostrophes, punctuation and small numbers", () => {
   assert.deepEqual(tokens("Doesn't it — 2 times?"), ["doesnt", "it", "two", "times"]);
 });
 
+test("captions keep the script's exact words, stay short and never overlap", async () => {
+  const { buildCues, toSrt } = await import("../lib/captions.mjs");
+  const scenes = [{ id: "S01", say: "Double your speed and your braking distance doesn't double. It quadruples — fourteen meters becomes fifty five." }];
+  const { words, duration } = syntheticWords(scenes);
+  const cues = buildCues(scenes, buildTiming(scenes, words, duration));
+  assert.equal(cues.map((c) => c.text).join(" "), "Double your speed and your braking distance doesn't double. It quadruples fourteen meters becomes fifty five.");
+  for (let i = 0; i < cues.length; i++) {
+    assert.ok(cues[i].text.length <= 42);
+    if (cues[i + 1]) assert.ok(cues[i].end <= cues[i + 1].start);
+  }
+  assert.match(toSrt(cues), /^1\n00:00:00,\d{3} --> /);
+});
+
 test("draft timing is about 150 words per minute", () => {
   const { duration } = syntheticWords([{ say: Array(150).fill("word").join(" ") }]);
   assert.ok(duration > 55 && duration < 70);

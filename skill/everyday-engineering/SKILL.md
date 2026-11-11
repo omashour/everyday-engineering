@@ -39,7 +39,7 @@ Read `references/styles.md`. Rank A, B, C, D, F for the chosen topic and show th
 Read `references/scenes-format.md`, `references/components.md` and `references/channel.md` (once per conversation). Then produce these files for `videos/NNN-slug/` (NNN = next free number: highest `video` in backlog/covered + 1; slug = 3–6 words of the title):
 
 1. `scenes.yaml` — the whole video: narration (`say`) and visuals (`component` + `params`) for every scene. This is the main deliverable.
-2. `metadata.md` — title + 2 alternates, description (leave the chapters line as `[paste chapters.txt here]`), tags, playlist, pinned comment (a quick question with the answer).
+2. `metadata.md` — exactly these fields, each starting a line: `**Title:**` (≤ 60 characters), `**Alternates:**` (2, separated by ` · `), `**Playlist:**` (a playlist id from channel.md), `**Description:**` (2–4 short paragraphs: the hook, what the viewer learns, assumptions; then a line `Chapters` and a line `[paste chapters.txt here]`), `**Tags:**` (comma-separated, under 400 characters), `**Pinned comment:**` (a quick question with its answer). Don't add the channel footer, subscribe link or hashtags: `npm run upload-sheet` adds them and fills in the chapters.
 3. `thumbnail.yaml` — 2 variants for A/B testing.
 4. `shorts.yaml` — 1–2 Shorts built from scene ids.
 5. `assets-needed.md` — photos the user must supply (what, where to find free ones: Wikimedia Commons / Openverse, license to record). Write "None" if not needed.
@@ -56,7 +56,8 @@ npm run transcribe -- NNN
 npm run build -- NNN           → then: npm run preview -- NNN
 npm run shorts -- NNN
 npm run thumbnail -- NNN
-npm run render -- NNN
+npm run render -- NNN          (and: npm run render -- NNN --short 1)
+npm run upload-sheet -- NNN    → upload.md (everything to paste into YouTube) + captions.srt
 ```
 (`npm run draft-voice -- NNN` makes a free robot-voice placeholder to preview timing before recording.)
 
