@@ -1,0 +1,29 @@
+# Everyday Engineering brand. Every video, thumbnail and channel image reads this file.
+# Colors are approximated from the current logo (navy / white / lightbulb yellow).
+# To match exactly: open the logo file in any image editor, pick the navy and yellow,
+# and paste the hex values here. Then rebuild.
+name: Everyday Engineering
+handle: "@EverydayEngineeringExplained"
+tagline: Big ideas. Everyday examples.
+colors:
+  navy: "#1B2B5E"      # logo background; title cards, end screens
+  ink: "#1B2B5E"       # text and diagrams on white
+  paper: "#FFFFFF"     # video background
+  text: "#1A1A1A"
+  muted: "#5B6478"
+  marker: "#F7C933"    # lightbulb yellow: highlighter fill only, never thin lines/text on white
+  red: "#E8452C"       # circles, arrows, final answers, forces
+  blue: "#1F6FB2"      # graphs, secondary diagrams
+  green: "#2E9E5B"     # checks, reactions
+  grid: "#E6E9F0"
+fonts:
+  body: Inter          # OFL, bundled
+  hand: Caveat         # OFL, bundled; red handwritten notes
+formats:
+  long:  { width: 1920, height: 1080, base_px: 40, safe_margin_px: 96 }
+  short: { width: 1080, height: 1920, base_px: 46, safe_margin_px: 72, safe_top_px: 340, safe_bottom_px: 420 }   # top leaves room for the Shorts hook banner
+# Optional quiet background music for every video: put an open-licensed file in
+# assets/music/ and record its license in assets/LICENSES.md.
+music:
+  file: null           # e.g. calm-bed.mp3
+  volume: 0.06

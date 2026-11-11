@@ -1,0 +1,12 @@
+# Two variants for YouTube's thumbnail A/B test. Render: npm run thumbnail -- 001
+# templates: photo (full photo + text), equation (white whiteboard look), split (photo left, math right)
+variants:
+  - template: equation
+    text: "2× SPEED = 4× DISTANCE"
+    highlight: ["4×"]
+    tex: "d = \\frac{v^2}{2a}"
+    note: "it's squared!"
+  - template: photo
+    image: road-placeholder.svg      # replace with your real road photo
+    text: "Twice as Fast, 4× the Distance"
+    highlight: ["4×"]

@@ -1,0 +1,41 @@
+{
+  "name": "everyday-engineering",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Production pipeline for the Everyday Engineering YouTube channel: topics, styles, scripts, and HyperFrames video builds.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "status": "node tools/status.mjs",
+    "new-video": "node tools/new-video.mjs",
+    "validate": "node tools/validate.mjs",
+    "tts-pack": "node tools/tts-pack.mjs",
+    "draft-voice": "node tools/draft-voice.mjs",
+    "transcribe": "node tools/transcribe.mjs",
+    "build": "node tools/build.mjs",
+    "preview": "node tools/preview.mjs",
+    "render": "node tools/render.mjs",
+    "shorts": "node tools/shorts.mjs",
+    "thumbnail": "node tools/thumbnail.mjs",
+    "publish": "node tools/publish.mjs",
+    "branding": "node tools/branding.mjs",
+    "gallery": "node tools/gallery.mjs",
+    "docs": "node tools/docs.mjs",
+    "package-skill": "node tools/package-skill.mjs",
+    "test": "node --test \"tools/test/*.test.mjs\""
+  },
+  "dependencies": {
+    "@fontsource/caveat": "5.3.0",
+    "@fontsource/inter": "5.3.0",
+    "@tabler/icons": "3.51.0",
+    "gsap": "3.15.1",
+    "hyperframes": "0.9.34",
+    "katex": "0.19.1",
+    "yaml": "2.9.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

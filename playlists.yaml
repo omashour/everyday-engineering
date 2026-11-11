@@ -1,0 +1,5 @@
+# Playlists on the channel. Create each one in YouTube Studio when its first video goes up.
+- {id: math-for-engineers, title: "Math for Engineers", description: "The math every engineer uses, explained through real things.", phases: [math]}
+- {id: why-the-world-works, title: "Why the World Works This Way", description: "Short stories about the engineering behind everyday life.", phases: [math, physics, chemistry]}
+- {id: engineering-problems, title: "Engineering Problems, Solved Step by Step", description: "Textbook-style problems with full solutions.", phases: [eng-fundamentals]}
+- {id: industrial-engineering, title: "Industrial Engineering", description: "Optimization, queues, quality and supply chains.", phases: [industrial]}

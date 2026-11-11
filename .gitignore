@@ -1,0 +1,27 @@
+node_modules/
+dist/
+
+# Generated per video (rebuild any time from scenes.yaml + audio)
+videos/*/project/
+videos/*/shorts/*/project/
+videos/*/shorts/*/narration.wav
+videos/*/renders/
+videos/*/thumbnails/
+videos/*/timing.json
+
+# Narration audio is large; keep it on your PC (and back it up), not in git.
+# words.json (the timing) IS committed, so Claude.ai / another PC can see timing.
+videos/*/audio/*.wav
+videos/*/audio/*.mp3
+videos/*/audio/*.m4a
+videos/*/audio/*.flac
+
+styles/gallery/project/
+styles/gallery/project-short/
+styles/gallery/_snap/
+channel/branding/out/
+
+.hyperframes/
+*.log
+.DS_Store
+Thumbs.db

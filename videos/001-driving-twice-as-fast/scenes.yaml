@@ -1,0 +1,143 @@
+# Example / pilot video. Shows every step of the pipeline end to end.
+# It is deliberately short (~2.5 min) — a real episode targets 6–12 min.
+video:
+  id: "001"
+  topic: T01
+  title: "Driving Twice as Fast Is 4 Times More Dangerous"
+  style: "B hook + A body"
+  playlist: math-for-engineers
+  voice_note: "Slightly playful in the hook."
+  pronounce: {}
+
+scenes:
+  - id: S01
+    component: photo-overlay
+    chapter: "14 m becomes 55 m"
+    say: >-
+      Double your speed and your braking distance doesn't double. It quadruples.
+      Fourteen meters becomes fifty five. Here's the one equation behind it,
+      and why every road engineer knows it by heart.
+    params:
+      src: road-placeholder.svg
+      credit: "Placeholder illustration: replace with a real road photo"
+      title: "2× speed → 4× braking distance"
+      overlays:
+        - {type: measure, from: [12, 74], to: [24, 74], label: "≈ 14 m at 50 km/h", label_dy: -5, cue: "fourteen meters"}
+        - {type: measure, from: [12, 88], to: [61, 88], label: "≈ 55 m at 100 km/h", label_dy: -5, cue: "fifty five"}
+        - {type: label, pos: [80, 40], text: "Why?", color: red, cue: "one equation"}
+
+  - id: S02
+    component: title-card
+    say: >-
+      Let's work it out with nothing more than algebra.
+    params:
+      kicker: "Everyday Engineering · Algebra"
+      title: "Why Driving Twice as Fast Is 4× More Dangerous"
+
+  - id: S03
+    component: equation-steps
+    chapter: "The braking equation"
+    say: >-
+      When you hit the brakes, the car slows down at a roughly constant rate. Call that
+      deceleration a. On a dry road it's about seven meters per second, every second.
+      The car starts at speed v and ends at zero. One of the basic equations of motion
+      connects those, and solving it for the distance gives d equals v squared over two a.
+    params:
+      heading: "The braking equation"
+      figure:
+        view: [1000, 520]
+        items:
+          - {type: ground, from: [20, 330], to: [980, 330]}
+          - {type: rect, pos: [40, 200], size: [300, 120], fill: blue, label: "car", cue: "car slows down"}
+          - {type: arrow, from: [360, 230], to: [620, 230], label: "speed $v$", color: blue, width: 6, cue: "starts at speed"}
+          - {type: arrow, from: [330, 120], to: [80, 120], label: "slowing $a$", color: red, width: 6, cue: "deceleration"}
+          - {type: dim, from: [190, 420], to: [940, 420], label: "$d$ = braking distance", cue: "for the distance"}
+      lines:
+        - {tex: "v_{\\text{end}}^2 = v^2 - 2ad", label: "motion", cue: "basic equations of motion"}
+        - {tex: "0 = v^2 - 2ad", cue: "ends at zero"}
+        - {tex: "d = \\dfrac{v^2}{2a}", mark: true, box: true, note: "speed is squared!", cue: "d equals"}
+
+  - id: S04
+    component: equation-steps
+    chapter: "Real numbers"
+    say: >-
+      That little square is everything. Double v, and v squared becomes four times bigger.
+      At fifty kilometers per hour, about fourteen meters per second, the car brakes in about
+      fourteen meters. At one hundred kilometers per hour, about twenty eight meters per second,
+      it needs about fifty five meters. Four times as far.
+    params:
+      heading: "Plug in real numbers  ($a \\approx 7\\ \\text{m/s}^2$)"
+      lines:
+        - {tex: "(2v)^2 = 4v^2", circle: true, cue: "double v"}
+        - {tex: "50\\ \\text{km/h} \\approx 13.9\\ \\text{m/s} \\;\\Rightarrow\\; d \\approx \\dfrac{13.9^2}{2 \\cdot 7} \\approx 14\\ \\text{m}", cue: "at fifty"}
+        - {tex: "100\\ \\text{km/h} \\approx 27.8\\ \\text{m/s} \\;\\Rightarrow\\; d \\approx \\dfrac{27.8^2}{2 \\cdot 7} \\approx 55\\ \\text{m}", mark: true, note: "4× farther", note_cue: "four times as far", cue: "at one hundred"}
+
+  - id: S05
+    component: graph
+    chapter: "The parabola"
+    say: >-
+      Here's the whole picture. Braking distance grows along a parabola. Every extra ten
+      kilometers per hour costs more distance than the ten before it, so the curve gets
+      steeper the faster you go.
+    params:
+      heading: "Braking distance vs speed"
+      x_range: [0, 130]
+      y_range: [0, 100]
+      x_label: "speed (km/h)"
+      y_label: "braking distance (m)"
+      functions:
+        - {expr: "(x/3.6)^2/14", label: "$d = v^2/2a$", cue: "parabola"}
+      points:
+        - {x: 50, y: 13.8, label: "14 m", cue: "whole picture"}
+        - {x: 100, y: 55.1, label: "55 m", cue: "every extra"}
+      tracer: {expr: "(x/3.6)^2/14", from: 0, to: 125, cue: "steeper", duration: 3}
+
+  - id: S06
+    component: bullets
+    chapter: "Where engineers use it"
+    say: >-
+      Engineers use this one line everywhere. It helps set speed limits near schools.
+      It decides how far a driver must be able to see before a curve or a junction.
+      And it tells car designers how much braking power a faster, heavier car needs.
+    params:
+      heading: "Where engineers use it"
+      items:
+        - {text: "Speed limits near schools", icon: school, cue: "speed limits"}
+        - {text: "Sight distance before curves and junctions", icon: road, cue: "how far a driver"}
+        - {text: "Brake design for faster, heavier cars", icon: car, cue: "car designers"}
+
+  - id: S07
+    component: table
+    chapter: "Reaction time"
+    say: >-
+      One honest detail. Before you even touch the brake pedal, you react, which takes
+      about one and a half seconds. During that time you're still moving at full speed,
+      and that part only doubles. So the total stopping distance grows a bit less than four
+      times, almost three times here. But the braking part, the part physics controls, quadruples.
+    params:
+      heading: "Total stopping distance (reaction 1.5 s, $a \\approx 7\\ \\text{m/s}^2$)"
+      headers: ["Speed", "Reaction", "Braking", "Total"]
+      rows:
+        - ["50 km/h", "21 m", "14 m", "35 m"]
+        - ["100 km/h", "42 m", "55 m", "97 m"]
+      row_cues: ["you react", "only doubles"]
+      highlight: {row: 1, col: 2, cue: "quadruples"}
+
+  - id: S08
+    component: answer-box
+    chapter: "The one line to remember"
+    say: >-
+      So remember this one line. Braking distance equals v squared over two a.
+      Twice the speed, four times the braking distance.
+    params:
+      label: "Remember"
+      tex: "d = \\dfrac{v^2}{2a}"
+      check: "Twice the speed → four times the braking distance"
+      check_cue: "twice the speed"
+
+  - id: S09
+    component: end-card
+    say: >-
+      Next time: why highway curves are not circles. See you there.
+    params:
+      line: "Next: Why highway curves aren't circles"

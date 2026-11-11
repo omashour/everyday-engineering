@@ -1,0 +1,6 @@
+# Vertical Shorts cut from this video. Build: npm run shorts -- 001
+shorts:
+  - title: "Why 2× speed means 4× braking distance #shorts"
+    hook: "2× speed = 4× braking distance?!"
+    scenes: [S01, S04, S08]
+    end: "Full video on the channel"

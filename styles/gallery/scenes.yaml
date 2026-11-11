@@ -1,0 +1,148 @@
+# Style gallery: one scene per component, to test them and to show what each style looks like.
+# Build + contact sheet: npm run gallery     (add --short to see the vertical layout)
+video:
+  id: gallery
+  title: "Style gallery"
+
+scenes:
+  - id: G01
+    component: title-card
+    say: Everyday Engineering style gallery. Every component, one scene each.
+    params: {kicker: "Style gallery", title: "Every Component, One Scene Each", subtitle: "A · B · C · D · F"}
+
+  - id: G02
+    component: big-fact
+    say: A million dollars in ten years is worth only about six hundred fourteen thousand today.
+    params: {label: "$1,000,000 in 10 years is worth today", value: "$614,000", count: {from: 1000000, to: 614000, prefix: "$"}, sub: "at 5% per year", cue: "worth only"}
+
+  - id: G03
+    component: photo-overlay
+    say: A real photo with measurements, arrows, callouts and math drawn on top.
+    params:
+      src: sample-photo.svg
+      title: "Real-world overlay"
+      overlays:
+        - {type: measure, from: [15, 70], to: [60, 70], label: "45 m", cue: "measurements"}
+        - {type: arrow, from: [80, 30], to: [65, 55], label: "force", cue: "arrows"}
+        - {type: callout, pos: [30, 45], text: "callout", cue: "callouts"}
+        - {type: tex, pos: [75, 80], tex: "F = ma", cue: "math"}
+
+  - id: G04
+    component: equation-steps
+    say: Whiteboard equations appear line by line, with a marker, a red circle, a note and a boxed result.
+    params:
+      heading: "Equation steps"
+      lines:
+        - {tex: "x^2 - 5x + 6 = 0", cue: "line by line"}
+        - {tex: "(x-2)(x-3) = 0", mark: true, cue: "marker"}
+        - {tex: "x = 2 \\;\\text{or}\\; x = 3", circle: true, note: "two roots", cue: "red circle"}
+        - {tex: "x_1 + x_2 = 5", box: true, cue: "boxed result"}
+
+  - id: G05
+    component: diagram
+    say: A free body diagram drawn item by item, with supports, forces, a dimension and an angle.
+    params:
+      heading: "Diagram / free-body diagram"
+      view: [1000, 560]
+      items:
+        - {type: rect, pos: [300, 230], size: [400, 60], fill: blue, cue: "free body diagram"}
+        - {type: support, pos: [320, 290], kind: pin, cue: "supports"}
+        - {type: support, pos: [680, 290], kind: roller}
+        - {type: force, pos: [500, 230], angle: -90, length: 150, tail: true, label: "$P = 10$ kN", cue: "forces"}
+        - {type: force, pos: [700, 260], angle: 30, length: 140, label: "$F$"}
+        - {type: dim, from: [300, 450], to: [700, 450], label: "$L = 4$ m", cue: "dimension"}
+        - {type: angle, pos: [700, 260], from_deg: 0, to_deg: 30, r: 80, label: "30°", cue: "angle"}
+
+  - id: G06
+    component: table
+    say: A table whose rows appear one at a time, with one highlighted cell.
+    params:
+      heading: "Table"
+      headers: ["Load", "Deflection", "Safe?"]
+      rows: [["1 kN", "2 mm", "yes"], ["5 kN", "9 mm", "yes"], ["10 kN", "21 mm", "no"]]
+      highlight: {row: 2, col: 2, cue: "highlighted"}
+
+  - id: G07
+    component: graph
+    say: A graph where the curve draws itself, an area fills in, and a dot travels along the curve.
+    params:
+      heading: "Graph lab"
+      x_range: [0, 10]
+      y_range: [-1.2, 1.2]
+      x_label: "time $t$ (s)"
+      y_label: "displacement"
+      functions: [{expr: "exp(-0.3*x)*cos(3*x)", label: "damped", cue: "draws itself"}, {expr: "exp(-0.3*x)", dashed: true, color: red}]
+      area: {expr: "exp(-0.3*x)*cos(3*x)", from: 0, to: 0.52, cue: "area"}
+      tracer: {expr: "exp(-0.3*x)*cos(3*x)", from: 0, to: 10, cue: "dot travels", duration: 2.5}
+      side: [{tex: "x(t) = e^{-0.3t}\\cos 3t", cue: "curve"}]
+
+  - id: G08
+    component: bullets
+    say: Bullet points with icons, one at a time.
+    params:
+      heading: "Bullets"
+      items: [{text: "Factories", icon: building-factory-2}, {text: "Bridges", icon: building-bridge-2}, {text: "Circuits", icon: circuit-resistor}]
+
+  - id: G09
+    component: timeline
+    say: A story timeline. The bridge opened in June two thousand, swayed, closed after two days, and reopened in two thousand two.
+    params:
+      heading: "Timeline"
+      events:
+        - {when: "10 Jun 2000", text: "Bridge opens", cue: "opened"}
+        - {when: "Same day", text: "It sways under the crowd", cue: "swayed"}
+        - {when: "12 Jun 2000", text: "Closed", cue: "closed"}
+        - {when: "Feb 2002", text: "Reopens with dampers", cue: "reopened"}
+
+  - id: G10
+    component: quote
+    say: A short, sourced quote.
+    params: {text: "Everything should be made as simple as possible, but not simpler.", who: "commonly attributed to Albert Einstein"}
+
+  - id: G11
+    component: image
+    say: A full frame image with an archive treatment and caption.
+    params: {src: sample-photo.svg, caption: "Archive look for history stories", treatment: archive, credit: "Sample illustration"}
+
+  - id: G12
+    component: problem-card
+    say: A problem card. Given the beam and the load. Find the reactions. Assume the beam's weight is negligible.
+    params:
+      title: "Problem 1"
+      figure:
+        view: [1000, 500]
+        items:
+          - {type: rect, pos: [150, 200], size: [700, 40], fill: grid}
+          - {type: support, pos: [150, 240], kind: pin}
+          - {type: support, pos: [850, 240], kind: roller}
+          - {type: force, pos: [430, 200], angle: -90, length: 130, tail: true, label: "12 kN"}
+          - {type: dim, from: [150, 400], to: [850, 400], label: "6 m"}
+      given: ["Simply supported beam, $L = 6$ m", "Point load 12 kN at 2.4 m", "Distributed load 2 kN/m from 3 m to 6 m"]
+      find: ["Reactions $R_A$ and $R_B$"]
+      assumptions: ["Beam weight negligible"]
+      cues: {given: "given", find: "find", assumptions: "assume"}
+
+  - id: G13
+    component: pause-try
+    say: Pause and try it.
+    params: {seconds: 3}
+
+  - id: G14
+    component: beam
+    say: The beam is solved automatically. Reactions first, then the shear force diagram, then the bending moment diagram.
+    params:
+      heading: "Beam: solved automatically"
+      length: 6
+      supports: [{type: pin, x: 0}, {type: roller, x: 6}]
+      loads: [{type: point, x: 2.4, P: 12}, {type: udl, x1: 3, x2: 6, w: 2}]
+      cues: {reactions: "reactions first", shear: "shear force", moment: "bending moment"}
+
+  - id: G15
+    component: answer-box
+    say: The answer, boxed with units, and a quick check that it makes sense.
+    params: {tex: "R_A = 8.7\\ \\text{kN},\\; R_B = 9.3\\ \\text{kN}", check: "$R_A + R_B = 18$ kN = total load ✓", check_cue: "quick check"}
+
+  - id: G16
+    component: end-card
+    say: And the end card.
+    params: {line: "Next: your first real video"}

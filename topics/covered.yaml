@@ -1,0 +1,3 @@
+# Published videos, one line each. `npm run publish -- <id> --url <youtube url>` appends here.
+# concepts: what the video taught, so the skill can suggest topics that build on it.
+- {video: "000", title: "What Is Industrial Engineering?", published: "2026-10", style: other, url: null, phase: industrial, series: null, concepts: [what industrial engineering is], note: "uploaded before this repo existed"}

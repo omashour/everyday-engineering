@@ -1,0 +1,19 @@
+# Channel page text. Paste into YouTube Studio → Customization → Basic info.
+# `npm run branding` uses banner_line, banner_schedule and logo_variant.
+name: Everyday Engineering          # matches the channel name (banner updated to match)
+logo_variant: classic               # classic = current logo; sine = optional refresh (see branding/logo-sine.svg)
+banner_line: Math, physics and engineering, explained through the world around you
+banner_schedule: New videos every [DAY]   # ← set your upload day, then run `npm run branding`
+
+description: |-
+  The math behind every bridge, highway, factory and phone. Everyday Engineering explains the math, physics and engineering behind the things you see every day, one clear visual step at a time.
+
+  On this channel:
+  • Math for engineers (algebra, trigonometry, calculus, probability, differential equations), always tied to a real use
+  • Why the world works the way it does: dams, highway curves, Wi-Fi, checkout lines
+  • Engineering problems solved step by step
+  • Industrial engineering: optimization, queueing, quality and supply chains
+
+  For students, future engineers and anyone who likes understanding how things work. New videos every [DAY]. Subscribe and start seeing the math in everything around you.
+
+links: []                           # e.g. [{title: Website, url: https://…}]

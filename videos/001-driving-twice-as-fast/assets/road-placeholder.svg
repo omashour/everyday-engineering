@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8EC5F0"/><stop offset="1" stop-color="#DCEEFB"/></linearGradient>
+  </defs>
+  <rect width="1920" height="620" fill="url(#sky)"/>
+  <path d="M0,560 Q300,470 620,540 T1300,520 T1920,540 L1920,640 L0,640 Z" fill="#7FB069"/>
+  <rect y="620" width="1920" height="460" fill="#6B8F5A"/>
+  <path d="M0,700 L1920,700 L1920,1040 L0,1040 Z" fill="#4A4F57"/>
+  <g fill="#F2F2F2">
+    <rect x="0" y="862" width="140" height="14"/><rect x="260" y="862" width="140" height="14"/><rect x="520" y="862" width="140" height="14"/>
+    <rect x="780" y="862" width="140" height="14"/><rect x="1040" y="862" width="140" height="14"/><rect x="1300" y="862" width="140" height="14"/>
+    <rect x="1560" y="862" width="140" height="14"/><rect x="1820" y="862" width="140" height="14"/>
+  </g>
+  <rect y="700" width="1920" height="10" fill="#F2F2F2"/><rect y="1030" width="1920" height="10" fill="#F2F2F2"/>
+  <g transform="translate(40,700)">
+    <path d="M20,90 L40,40 Q60,10 110,10 L230,10 Q275,10 300,45 L330,60 Q360,66 360,90 L360,120 L20,120 Z" fill="#E8452C"/>
+    <path d="M70,45 L95,22 L170,22 L170,55 Z M185,22 L260,22 Q280,25 295,50 L185,55 Z" fill="#BFE0F7"/>
+    <circle cx="90" cy="122" r="32" fill="#222"/><circle cx="90" cy="122" r="13" fill="#999"/>
+    <circle cx="290" cy="122" r="32" fill="#222"/><circle cx="290" cy="122" r="13" fill="#999"/>
+  </g>
+  <text x="1880" y="60" text-anchor="end" font-family="Inter, Arial" font-size="30" font-weight="700" fill="#1B2B5E" opacity="0.6">PLACEHOLDER – replace with a real road photo</text>
+</svg>

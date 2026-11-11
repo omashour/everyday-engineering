@@ -1,0 +1,52 @@
+/* Everyday Engineering base styles. Brand values arrive as CSS variables from
+   channel/brand.yaml (injected by tools/build.mjs). Sizes use rem; the root
+   font size differs for 16:9 long videos and 9:16 Shorts. */
+@font-face { font-family: "Inter"; font-weight: 400; src: url("assets/fonts/inter-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 600; src: url("assets/fonts/inter-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 800; src: url("assets/fonts/inter-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "Caveat"; font-weight: 700; src: url("assets/fonts/caveat-latin-700-normal.woff2") format("woff2"); }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { margin: 0; overflow: hidden; background: var(--paper); }
+body { font-family: "Inter", sans-serif; color: var(--text); }
+#root { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--paper); }
+
+.scene { position: absolute; inset: 0; background: var(--paper); overflow: hidden; }
+.scene.navy { background: var(--navy); color: #fff; }
+.scene-in { position: absolute; inset: 0; padding: var(--safe); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.8rem; }
+.heading { font-weight: 800; font-size: 1.5rem; color: var(--ink); letter-spacing: -0.01em; text-align: center; max-width: 90%; }
+.navy .heading { color: #fff; }
+.sub { font-size: 0.9rem; color: var(--muted); }
+.hand { font-family: "Caveat", cursive; font-weight: 700; }
+.red { color: var(--red); }
+/* Highlighter: painted over the text with multiply, so text stays dark and the paper turns yellow. */
+.mk { position: relative; white-space: nowrap; }
+.mk::before { content: ""; position: absolute; left: -0.15em; right: -0.15em; top: 0.12em; bottom: 0.05em; background: var(--marker); mix-blend-mode: multiply; border-radius: 0.15em; }
+.mk-bar { position: absolute; left: -0.3em; right: -0.3em; top: 8%; bottom: 4%; background: var(--marker); mix-blend-mode: multiply; border-radius: 0.2em; display: block; }
+.icon { width: 100%; height: 100%; display: block; }
+
+/* SVG figures */
+svg.fig { width: 100%; height: 100%; overflow: visible; }
+.fig-box { width: 100%; flex: 1 1 auto; min-height: 0; display: flex; align-items: center; justify-content: center; }
+.fo { width: 100%; height: 100%; display: flex; align-items: center; font-size: 42px; color: var(--ink); line-height: 1.15; }
+.fo.lbl { font-size: 40px; font-weight: 600; }
+.fo.red { color: var(--red); }
+.fo.math { font-size: 48px; }
+.fo.sz-l { font-size: 60px; } .fo.sz-xl { font-size: 80px; } .fo.sz-s { font-size: 32px; }
+.fo.hand { font-family: "Caveat", cursive; font-size: 54px; font-weight: 700; }
+.credit { position: absolute; right: 0.5rem; bottom: 0.4rem; font-size: 0.6rem; color: #fff; background: rgba(0,0,0,0.6); padding: 0.1rem 0.4rem; border-radius: 0.2rem; }
+.ico { display: block; }
+.dashed { stroke-dasharray: 14 10; }
+
+/* circles & arrows drawn around elements (equation highlights) */
+.circ { position: absolute; left: -6%; top: -30%; width: 112%; height: 160%; overflow: visible; pointer-events: none; }
+.note { position: absolute; left: 100%; top: 50%; margin-left: 1.2rem; transform-origin: 0 50%; white-space: nowrap; display: flex; align-items: center; gap: 0.4rem; color: var(--red); font-family: "Caveat", cursive; font-weight: 700; font-size: 1.15rem; }
+.note-y { transform: translateY(-50%); display: flex; align-items: center; gap: 0.4rem; }
+.note svg { width: 2.2rem; height: 1.2rem; overflow: visible; }
+
+/* layout helpers */
+.split { width: 100%; flex: 1 1 auto; min-height: 0; display: flex; gap: 2rem; align-items: center; }
+.split > * { flex: 1 1 0; min-width: 0; height: 100%; display: flex; flex-direction: column; justify-content: center; }
+.fmt-short .split { flex-direction: column; gap: 1rem; }
+.fmt-short .split > * { height: auto; flex: 1 1 0; width: 100%; }
+.fmt-short .scene-in { padding: var(--safe-top) var(--safe) var(--safe-bottom); }

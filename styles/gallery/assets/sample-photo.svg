@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6B26B"/><stop offset="1" stop-color="#FCE5CD"/></linearGradient></defs>
+  <rect width="1920" height="1080" fill="url(#s)"/>
+  <rect y="760" width="1920" height="320" fill="#3D6E8C"/>
+  <g fill="none" stroke="#2B2F3A" stroke-width="16">
+    <path d="M0,560 L1920,560"/>
+    <path d="M300,560 L300,900 M1620,560 L1620,900"/>
+    <path d="M300,300 L300,560 M1620,300 L1620,560"/>
+    <path d="M300,300 Q960,620 1620,300"/>
+  </g>
+  <g stroke="#2B2F3A" stroke-width="6">
+    <path d="M500,385 L500,560 M700,446 L700,560 M900,476 L900,560 M1020,476 L1020,560 M1220,446 L1220,560 M1420,385 L1420,560"/>
+  </g>
+  <text x="1880" y="60" text-anchor="end" font-family="Inter, Arial" font-size="30" font-weight="700" fill="#2B2F3A" opacity="0.6">Sample illustration</text>
+</svg>
