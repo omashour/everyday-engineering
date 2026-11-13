@@ -19,7 +19,7 @@ scenes:
       jumps to nineteen. Here's why.
     params:
       src: checkout.jpg
-      credit: "Photo: [author], [license] (see assets-needed.md)"
+      credit: "Image: AI-generated"
       title: "5% busier → about 2× the wait"
       shade: 0.35
       overlays:

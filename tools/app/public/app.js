@@ -240,12 +240,30 @@ function photosStep(el, d, dir) {
   el.innerHTML = `
     ${d.missingAssets.length ? `<div class="callout"><b>Still missing:</b> ${d.missingAssets.map((a) => `<code>${esc(a.file)}</code> (used in ${esc(a.usedIn.join(", "))})`).join(", ")}. “Make everything” waits until they're added.</div>` : ""}
     ${d.creditTodo.length ? `<div class="callout"><b>Photo credit not filled in</b> in ${esc(d.creditTodo.join(", "))}: the video would show “[author], [license]”. Ask Claude for the scene with the real credit (author and license from the photo's page) and paste it in step 1.</div>` : ""}
-    <p class="muted small">Photos the script needs (from assets-needed.md). Use your own photos or free ones from Wikimedia Commons / Openverse, and keep the credit line Claude wrote.</p>
-    <div class="copy"><pre>${esc(d.assetsNeeded || "None.")}</pre></div>
+    <p class="muted small">Images the script needs. Make each one with the AI prompt below (paste it into Gemini or ChatGPT and download the image), or use your own or a free photo (Wikimedia Commons / Openverse).</p>
+    <div id="prompts"></div>
+    <details><summary class="small">Full notes from Claude (assets-needed.md)</summary><div class="copy"><pre>${esc(d.assetsNeeded || "None.")}</pre></div></details>
     <p class="small">In this video now: ${d.assets.map((a) => `<code>${esc(a)}</code>`).join(", ") || "nothing"}</p>
     <div id="assetdrop"></div>
-    <p class="muted small">Name the file exactly as listed (for example road.jpg), or rename it before dropping.</p>`;
-  $("#assetdrop", el).appendChild(dropZone("Drop photos here (or click to choose)", async (files) => {
+    <p class="muted small">Drop each image on its own box: it's saved under the right name, whatever your file is called.</p>`;
+  // One AI prompt (```text block) per "## file" section of assets-needed.md, with a copy button.
+  const promptsEl = $("#prompts", el);
+  for (const sec of (d.assetsNeeded || "").split(/^## /m).slice(1)) {
+    const name = sec.split(/\s/)[0];
+    const prompt = sec.match(/```text\n([\s\S]*?)```/)?.[1]?.trim();
+    if (!prompt) continue;
+    const box = document.createElement("div");
+    box.innerHTML = `<h3>AI prompt for <code>${esc(name)}</code></h3>${copyBox(prompt)}`;
+    promptsEl.appendChild(box);
+  }
+  for (const a of d.missingAssets) {
+    $("#assetdrop", el).appendChild(dropZone(`Drop the image for ${esc(a.file)} here (used in ${esc(a.usedIn.join(", "))})`, async (files) => {
+      await upload(dir, "assets", files[0], a.file);
+      toast(`${a.file} added`);
+      render();
+    }));
+  }
+  $("#assetdrop", el).appendChild(dropZone(d.missingAssets.length ? "Other images (saved under their own names)" : "Drop photos here (or click to choose)", async (files) => {
     for (const f of files) await upload(dir, "assets", f);
     toast("Photos added");
     render();
