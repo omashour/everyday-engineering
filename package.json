@@ -9,6 +9,7 @@
   },
   "scripts": {
     "app": "node tools/app/server.mjs",
+    "shortcut": "node tools/app/install-shortcut.mjs",
     "status": "node tools/status.mjs",
     "new-video": "node tools/new-video.mjs",
     "validate": "node tools/validate.mjs",

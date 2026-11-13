@@ -16,7 +16,21 @@ write scenes.yaml + metadata ──►  npm run tts-pack ──► record chunks
 upload to YouTube ◄───────────────────────────────────────── npm run publish (updates the tracker)
 ```
 
-## One-time setup (Windows)
+## The app (no commands needed)
+
+Double-click **Everyday Engineering** on the desktop. It opens a page in your browser with every step as buttons:
+- **Videos:** each video's stage and next step; **Start a new video** from your topic list.
+- **Script from Claude:** paste Claude's whole answer; it is split into the five files and checked.
+- **Voice:** style instructions and each chunk with **Copy** buttons; drop each Gemini recording on its chunk (timing runs automatically when all are in). A free robot draft voice is one click.
+- **Make everything:** build, render, Shorts, thumbnails and the upload sheet in one go. Or step by step, plus **Watch & edit in Studio**.
+- **Upload to YouTube:** every field with a **Copy** button, the settings checklist, end-screen time, Shorts texts, and **Mark as published**.
+- **Settings:** Gemini voice, upload day, automatic GitHub saving.
+
+The app only runs on this PC (it is not reachable from the internet). Keep its small window open while you work; close it to stop. Each start also pulls the latest changes from GitHub.
+
+**New PC:** on GitHub open `setup/Setup Everyday Engineering.cmd` → **Download raw file**, then double-click it (if Windows warns, choose *More info → Run anyway*). It installs Git, Node.js and FFmpeg, downloads the repo, installs everything and puts the icon on the desktop. Copy over your `videos\*\audio` folders if you need old recordings.
+
+## One-time setup by hand (Windows)
 
 1. Install **Node.js 22+** (nodejs.org), **Git** (git-scm.com) and **FFmpeg**:
    ```powershell

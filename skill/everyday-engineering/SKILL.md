@@ -46,9 +46,9 @@ Read `references/scenes-format.md`, `references/components.md` and `references/c
 
 Before writing, **check every number and fact** (work the math out; state assumptions like "dry road, a ≈ 7 m/s²" on screen). After the files, list a short fact-check summary in chat (claim → how you verified it). Never invent quotes, dates or statistics; if unsure, say so and leave it out.
 
-**Delivering files:** if a GitHub connector with write access is connected, commit the five files to `videos/NNN-slug/` and set the topic's `status: scripted, video: "NNN"` in backlog.yaml, in one commit. Otherwise output each file in its own code block with its path as the heading, and tell the user to run `npm run new-video -- Txx` first, then save the files into that folder (replacing the templates).
+**Delivering files:** output each file in its own fenced code block, with a heading line naming the file just above it (e.g. `### scenes.yaml`); use a 4-backtick fence for metadata.md if it contains code fences. The user creates the video in the **Everyday Engineering app** on their desktop (New video → pick the topic), then pastes your whole answer into its "Script from Claude" box, which splits it into the five files and checks them. (If a GitHub connector with write access is connected and the user asks, you may instead commit the files to `videos/NNN-slug/`.)
 
-Then tell the user the local steps (copy exactly):
+Then tell the user, in one or two lines, to continue in the app: paste the script, record the voice chunks the app shows, drop the audio on the app, and press **Make everything**; the app's YouTube step has copy buttons for every upload field. For users who prefer commands, the equivalent is:
 ```
 npm run validate -- NNN
 npm run tts-pack -- NNN        → tts.md: record it in Gemini, save WAVs in audio/
@@ -62,10 +62,10 @@ npm run upload-sheet -- NNN    → upload.md (everything to paste into YouTube) 
 (`npm run draft-voice -- NNN` makes a free robot-voice placeholder to preview timing before recording.)
 
 ### 4. Fix problems
-The user pastes output from `validate`, `build` or HyperFrames `check`, or describes a visual problem ("S04 equation overlaps the figure"). Ask only for the specific scene's YAML if you don't have it. Reply with **only the changed scene(s)** as YAML, not the whole file. Common fixes: a cue not found → copy the phrase exactly from `say`; text too long → shorten or split the scene; overlapping figure → change `view`, positions or `figure_side`.
+The user pastes the app's check messages or job details (or output from `validate`, `build` or HyperFrames `check`), or describes a visual problem ("S04 equation overlaps the figure"). Ask only for the specific scene's YAML if you don't have it. Reply with **only the changed scene(s)** as YAML, not the whole file. Common fixes: a cue not found → copy the phrase exactly from `say`; text too long → shorten or split the scene; overlapping figure → change `view`, positions or `figure_side`.
 
 ### 5. Track
-After upload the user runs `npm run publish -- NNN --url <link>` locally (moves the topic to covered.yaml and pushes to GitHub automatically; the user then presses Sync in this Project). If asked to update the tracker yourself with a connector, make the same change: remove the backlog entry, append a one-line entry to covered.yaml with video, title, published date, style, url, topic, phase, playlist, concepts (from the chapters).
+After upload the user presses **Mark as published** in the app (or runs `npm run publish -- NNN --url <link>`): it moves the topic to covered.yaml and pushes to GitHub automatically; the user then presses Sync in this Project. If asked to update the tracker yourself with a connector, make the same change: remove the backlog entry, append a one-line entry to covered.yaml with video, title, published date, style, url, topic, phase, playlist, concepts (from the chapters).
 
 ## Token rules
 - Steps 1–2 need only the small YAML files and styles.md. Don't load components.md until step 3.
