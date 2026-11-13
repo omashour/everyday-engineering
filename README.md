@@ -2,6 +2,8 @@
 
 Everything for the **Everyday Engineering** YouTube channel: topics, styles, scripts, voice packages, and a local build that turns a script into an editable video project and renders it. Claude.ai does the creative writing; this PC does everything else with free, open-source tools.
 
+> **Start here: [instructions/](instructions/README.md)**: step-by-step guides (no coding) for installing on a new PC, setting up Claude.ai and YouTube, making a video, fixing problems, and backups. The rest of this page is the technical reference.
+
 ```
 Claude.ai (skill)                 Gemini 3.8 Flash TTS        This PC (free, local)
 ─────────────────                 ────────────────────        ───────────────────────────────────────
