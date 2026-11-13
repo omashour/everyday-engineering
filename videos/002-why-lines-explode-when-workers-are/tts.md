@@ -74,10 +74,10 @@ Three more customers an hour can double your wait in line. This cashier can serv
 ```
 
 ## Chunk 4 → save as `audio/narration-04.wav`
-Scenes S13–S14 · 77 words · about 0:31
+Scenes S13–S14 · 82 words · about 0:33
 
 ```text
 So here's what to remember. Waiting time depends on spare capacity, not on how busy things look. The last few percent of busy are the most expensive. And there are two ways to shorten a line. Add capacity, or remove randomness. Next time you're stuck in a slow line, look at the cashier. If she never gets a break, now you know why.
 
-Thanks for watching. If you like seeing the math hiding in everyday things, subscribe.
+If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
 ```

@@ -32,7 +32,7 @@ scenes:
 - 12–30 scenes. One idea per scene; 15–60 s per scene (40–150 words). Split longer ideas.
 - First scene = the hook: under 40 words (~15 s), on a real-world visual (style B `photo-overlay`, or `big-fact`). No "hi guys", no channel intro, no "in this video".
 - Second scene is usually a short `title-card` (one sentence of narration).
-- Last scene is always `end-card`: a short sign-off, e.g. "Thanks for watching. If you like seeing the math hiding in everyday things, subscribe." **Never mention the next video or any upcoming topic** in `say`, `line`, metadata or the pinned comment: no "next time…", no "in the next video…", no teaser. The user chooses topics one at a time.
+- Last scene is always `end-card`: a short sign-off asking viewers to like and subscribe, close to: "If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!" (vary the wording a little between videos). **Never mention the next video or any upcoming topic** in `say`, `line`, metadata or the pinned comment: no "next time…", no "in the next video…", no teaser. The user chooses topics one at a time.
 - Revisit the hook's promise in the last third (pay it off).
 
 **Narration (`say`) is speech, not text**
@@ -123,7 +123,7 @@ scenes:
 
   - id: S09
     component: end-card
-    say: Thanks for watching. If you like seeing the math hiding in everyday things, subscribe.
+    say: If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
     params: {line: "Thanks for watching"}
 ```
 

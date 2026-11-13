@@ -270,7 +270,7 @@ scenes:
   - id: S14
     component: end-card
     say: >-
-      Thanks for watching. If you like seeing the math hiding in everyday things,
-      subscribe.
+      If you liked this video, please give it a like and subscribe for more everyday
+      engineering. Thanks for watching!
     params:
       line: "Thanks for watching"

@@ -36,7 +36,7 @@ So remember this one line. Braking distance equals v squared over two a. Twice t
 
 ### S09 · end-card · ~2:09
 
-Thanks for watching. If you like seeing the math hiding in everyday things, subscribe.
+If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
 
 ---
-327 words · about 2:15 at 150 words per minute
+332 words · about 2:17 at 150 words per minute

@@ -56,7 +56,7 @@ So here's what to remember. Waiting time depends on spare capacity, not on how b
 
 ### S14 · end-card · ~5:28
 
-Thanks for watching. If you like seeing the math hiding in everyday things, subscribe.
+If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
 
 ---
-817 words · about 5:34 at 150 words per minute
+822 words · about 5:36 at 150 words per minute

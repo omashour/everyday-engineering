@@ -49,12 +49,12 @@ Engineers use this one line everywhere. It helps set speed limits near schools. 
 ```
 
 ## Chunk 2 → save as `audio/narration-02.wav`
-Scenes S07–S09 · 94 words · about 0:38
+Scenes S07–S09 · 99 words · about 0:40
 
 ```text
 One honest detail. Before you even touch the brake pedal, you react, which takes about one and a half seconds. During that time you're still moving at full speed, and that part only doubles. So the total stopping distance grows a bit less than four times, almost three times here. But the braking part, the part physics controls, quadruples.
 
 So remember this one line. Braking distance equals v squared over two a. Twice the speed, four times the braking distance.
 
-Thanks for watching. If you like seeing the math hiding in everyday things, subscribe.
+If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
 ```
