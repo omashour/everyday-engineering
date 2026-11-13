@@ -53,7 +53,7 @@ queueing theory, waiting line, utilization, M/M/1 queue, Kingman formula, probab
 - Caption certification: **None**
 - License: **Standard YouTube License**
 - Altered or synthetic content: **decide per video using YouTube's current guidance on realistic AI-generated content (the narration voice is AI-generated).**
-- End screen: from 4:29 to the end (9 s): one video ("Best for viewer") on the rectangle, Subscribe on the circle
+- End screen: from 4:30 to the end (8 s): one video ("Best for viewer") on the rectangle, Subscribe on the circle
 - Video length: **4:38**
 
 ## Pinned comment

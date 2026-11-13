@@ -28,7 +28,7 @@ Heading plus 2–5 short points that appear one by one, each optionally with an 
 ### `end-card` (navy background)
 Navy end screen with the logo and two empty slots where YouTube's end-screen video and subscribe elements sit. Always the last scene (5–20 s).
 
-- `line`: short closing line, e.g. 'Next: why highway curves aren't circles'
+- `line`: short closing line that names no specific upcoming topic, e.g. 'More everyday math, every week'
 
 ### `image`
 Full-frame photo with a slow zoom and optional caption. treatment 'archive' gives an old-photo look for history stories.
