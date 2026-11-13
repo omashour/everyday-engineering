@@ -36,7 +36,7 @@ So remember this one line. Braking distance equals v squared over two a. Twice t
 
 ### S09 · end-card · ~2:09
 
-Next time: why highway curves are not circles. See you there.
+Thanks for watching. If you like seeing the math hiding in everyday things, subscribe.
 
 ---
-324 words · about 2:14 at 150 words per minute
+327 words · about 2:15 at 150 words per minute

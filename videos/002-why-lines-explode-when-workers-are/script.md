@@ -56,7 +56,7 @@ So here's what to remember. Waiting time depends on spare capacity, not on how b
 
 ### S14 · end-card · ~5:28
 
-If you want to see more of the math hiding in everyday things, the next video is right here. See you there.
+Thanks for watching. If you like seeing the math hiding in everyday things, subscribe.
 
 ---
-825 words · about 5:37 at 150 words per minute
+817 words · about 5:34 at 150 words per minute

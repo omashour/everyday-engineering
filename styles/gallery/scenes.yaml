@@ -145,4 +145,4 @@ scenes:
   - id: G16
     component: end-card
     say: And the end card.
-    params: {line: "Next: your first real video"}
+    params: {line: "Thanks for watching"}

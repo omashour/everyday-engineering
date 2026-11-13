@@ -4,7 +4,7 @@ Generated from scenes.yaml.
 
 ## Settings
 - **Model:** gemini-3.8-flash-tts
-- **Voice:** (not chosen yet — set gemini.voice in channel/voice.yaml)
+- **Voice:** Cruz
 - **Language:** English
 - **Chunks:** 2 (about 280 words max each, split at scene boundaries)
 
@@ -49,12 +49,12 @@ Engineers use this one line everywhere. It helps set speed limits near schools. 
 ```
 
 ## Chunk 2 → save as `audio/narration-02.wav`
-Scenes S07–S09 · 91 words · about 0:36
+Scenes S07–S09 · 94 words · about 0:38
 
 ```text
 One honest detail. Before you even touch the brake pedal, you react, which takes about one and a half seconds. During that time you're still moving at full speed, and that part only doubles. So the total stopping distance grows a bit less than four times, almost three times here. But the braking part, the part physics controls, quadruples.
 
 So remember this one line. Braking distance equals v squared over two a. Twice the speed, four times the braking distance.
 
-Next time: why highway curves are not circles. See you there.
+Thanks for watching. If you like seeing the math hiding in everyday things, subscribe.
 ```

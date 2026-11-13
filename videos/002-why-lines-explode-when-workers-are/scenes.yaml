@@ -270,7 +270,7 @@ scenes:
   - id: S14
     component: end-card
     say: >-
-      If you want to see more of the math hiding in everyday things, the next video is
-      right here. See you there.
+      Thanks for watching. If you like seeing the math hiding in everyday things,
+      subscribe.
     params:
-      line: "More everyday math, every Friday"
+      line: "Thanks for watching"

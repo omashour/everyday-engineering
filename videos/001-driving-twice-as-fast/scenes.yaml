@@ -138,6 +138,7 @@ scenes:
   - id: S09
     component: end-card
     say: >-
-      Next time: why highway curves are not circles. See you there.
+      Thanks for watching. If you like seeing the math hiding in everyday things,
+      subscribe.
     params:
-      line: "Next: Why highway curves aren't circles"
+      line: "Thanks for watching"
