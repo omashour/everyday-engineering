@@ -3617,446 +3617,416 @@
   {
     "text": "weight.",
     "start": 247.82,
-    "end": 248.54
+    "end": 248.62
   },
   {
     "text": "So",
-    "start": 248.54,
+    "start": 248.62,
     "end": 248.86
   },
   {
     "text": "here's",
-    "start": 248.86,
-    "end": 249.26
-  },
-  {
-    "text": "what",
-    "start": 249.26,
+    "start": 248.94,
     "end": 249.42
   },
   {
-    "text": "to",
+    "text": "what",
     "start": 249.42,
     "end": 249.58
   },
   {
-    "text": "remember.",
+    "text": "to",
     "start": 249.58,
-    "end": 250.38
+    "end": 249.74
+  },
+  {
+    "text": "remember.",
+    "start": 249.74,
+    "end": 250.54
   },
   {
     "text": "Waiting",
-    "start": 250.38,
-    "end": 250.94
-  },
-  {
-    "text": "time",
-    "start": 250.94,
+    "start": 250.54,
     "end": 251.18
   },
   {
-    "text": "depends",
+    "text": "time",
     "start": 251.18,
-    "end": 251.58
+    "end": 251.5
+  },
+  {
+    "text": "depends",
+    "start": 251.5,
+    "end": 251.98
   },
   {
     "text": "on",
-    "start": 251.58,
-    "end": 251.82
+    "start": 251.98,
+    "end": 252.22
   },
   {
     "text": "spare",
-    "start": 251.82,
-    "end": 252.3
+    "start": 252.22,
+    "end": 252.7
   },
   {
     "text": "capacity,",
-    "start": 252.3,
-    "end": 253.02
-  },
-  {
-    "text": "not",
-    "start": 253.02,
-    "end": 253.26
-  },
-  {
-    "text": "on",
-    "start": 253.26,
-    "end": 253.42
-  },
-  {
-    "text": "how",
-    "start": 253.42,
+    "start": 252.7,
     "end": 253.58
   },
   {
-    "text": "busy",
+    "text": "not",
     "start": 253.58,
+    "end": 253.82
+  },
+  {
+    "text": "on",
+    "start": 253.82,
     "end": 253.98
   },
   {
-    "text": "things",
+    "text": "how",
     "start": 253.98,
-    "end": 254.3
-  },
-  {
-    "text": "look.",
-    "start": 254.3,
-    "end": 254.94
-  },
-  {
-    "text": "The",
-    "start": 254.94,
-    "end": 255.18
-  },
-  {
-    "text": "last",
-    "start": 255.18,
-    "end": 255.42
-  },
-  {
-    "text": "few",
-    "start": 255.42,
-    "end": 255.74
-  },
-  {
-    "text": "percent",
-    "start": 255.74,
-    "end": 256.06
-  },
-  {
-    "text": "of",
-    "start": 256.06,
-    "end": 256.22
+    "end": 254.14
   },
   {
     "text": "busy",
-    "start": 256.22,
-    "end": 256.7
+    "start": 254.14,
+    "end": 254.54
   },
   {
-    "text": "are",
-    "start": 256.7,
-    "end": 256.86
+    "text": "things",
+    "start": 254.54,
+    "end": 254.94
   },
   {
-    "text": "the",
-    "start": 256.86,
-    "end": 256.94
+    "text": "look.",
+    "start": 254.94,
+    "end": 255.34
   },
   {
-    "text": "most",
-    "start": 256.94,
-    "end": 257.18
+    "text": "The",
+    "start": 255.58,
+    "end": 255.82
   },
   {
-    "text": "expensive,",
-    "start": 257.18,
-    "end": 257.98
+    "text": "last",
+    "start": 255.82,
+    "end": 256.14
   },
   {
-    "text": "and",
-    "start": 257.98,
-    "end": 258.22
+    "text": "few",
+    "start": 256.14,
+    "end": 256.46
   },
   {
-    "text": "there",
-    "start": 258.22,
-    "end": 258.38
-  },
-  {
-    "text": "are",
-    "start": 258.38,
-    "end": 258.54
-  },
-  {
-    "text": "two",
-    "start": 258.54,
-    "end": 258.7
-  },
-  {
-    "text": "ways",
-    "start": 258.7,
-    "end": 258.94
-  },
-  {
-    "text": "to",
-    "start": 258.94,
-    "end": 259.1
-  },
-  {
-    "text": "shorten",
-    "start": 259.1,
-    "end": 259.58
-  },
-  {
-    "text": "a",
-    "start": 259.58,
-    "end": 259.66
-  },
-  {
-    "text": "line.",
-    "start": 259.66,
-    "end": 260.06
-  },
-  {
-    "text": "Add",
-    "start": 260.22,
-    "end": 260.62
-  },
-  {
-    "text": "capacity,",
-    "start": 260.62,
-    "end": 261.34
-  },
-  {
-    "text": "or",
-    "start": 261.34,
-    "end": 261.66
-  },
-  {
-    "text": "remove",
-    "start": 261.66,
-    "end": 262.14
-  },
-  {
-    "text": "randomness.",
-    "start": 262.14,
-    "end": 263.1
-  },
-  {
-    "text": "Next",
-    "start": 263.42,
-    "end": 263.74
-  },
-  {
-    "text": "time",
-    "start": 263.74,
-    "end": 263.98
-  },
-  {
-    "text": "you're",
-    "start": 263.98,
-    "end": 264.22
-  },
-  {
-    "text": "stuck",
-    "start": 264.22,
-    "end": 264.46
-  },
-  {
-    "text": "in",
-    "start": 264.46,
-    "end": 264.54
-  },
-  {
-    "text": "a",
-    "start": 264.54,
-    "end": 264.62
-  },
-  {
-    "text": "slow",
-    "start": 264.62,
-    "end": 264.94
-  },
-  {
-    "text": "line,",
-    "start": 264.94,
-    "end": 265.26
-  },
-  {
-    "text": "look",
-    "start": 265.26,
-    "end": 265.42
-  },
-  {
-    "text": "at",
-    "start": 265.42,
-    "end": 265.5
-  },
-  {
-    "text": "the",
-    "start": 265.5,
-    "end": 265.58
-  },
-  {
-    "text": "cashier.",
-    "start": 265.58,
-    "end": 266.46
-  },
-  {
-    "text": "If",
-    "start": 266.46,
-    "end": 266.7
-  },
-  {
-    "text": "she",
-    "start": 266.7,
-    "end": 266.94
-  },
-  {
-    "text": "never",
-    "start": 266.94,
-    "end": 267.18
-  },
-  {
-    "text": "gets",
-    "start": 267.18,
-    "end": 267.42
-  },
-  {
-    "text": "a",
-    "start": 267.42,
-    "end": 267.5
-  },
-  {
-    "text": "break,",
-    "start": 267.5,
-    "end": 268.06
-  },
-  {
-    "text": "now",
-    "start": 268.06,
-    "end": 268.3
-  },
-  {
-    "text": "you",
-    "start": 268.3,
-    "end": 268.46
-  },
-  {
-    "text": "know",
-    "start": 268.46,
-    "end": 268.78
-  },
-  {
-    "text": "why.",
-    "start": 268.78,
-    "end": 269.74
-  },
-  {
-    "text": "Next",
-    "start": 269.74,
-    "end": 270.22
-  },
-  {
-    "text": "time,",
-    "start": 270.22,
-    "end": 270.62
-  },
-  {
-    "text": "why",
-    "start": 270.62,
-    "end": 271.1
-  },
-  {
-    "text": "10",
-    "start": 271.1,
-    "end": 271.42
-  },
-  {
-    "text": "parts",
-    "start": 271.42,
-    "end": 271.74
-  },
-  {
-    "text": "that",
-    "start": 271.74,
-    "end": 271.9
-  },
-  {
-    "text": "each",
-    "start": 271.9,
-    "end": 272.14
-  },
-  {
-    "text": "work",
-    "start": 272.14,
-    "end": 272.3
-  },
-  {
-    "text": "99%",
-    "start": 272.46,
-    "end": 273.02
+    "text": "percent",
+    "start": 256.46,
+    "end": 256.78
   },
   {
     "text": "of",
-    "start": 273.18,
-    "end": 273.26
+    "start": 256.78,
+    "end": 256.94
+  },
+  {
+    "text": "busy",
+    "start": 256.94,
+    "end": 257.5
+  },
+  {
+    "text": "are",
+    "start": 257.5,
+    "end": 257.66
   },
   {
     "text": "the",
+    "start": 257.66,
+    "end": 257.82
+  },
+  {
+    "text": "most",
+    "start": 257.82,
+    "end": 258.06
+  },
+  {
+    "text": "expensive,",
+    "start": 258.06,
+    "end": 259.02
+  },
+  {
+    "text": "and",
+    "start": 259.02,
+    "end": 259.26
+  },
+  {
+    "text": "there",
+    "start": 259.26,
+    "end": 259.5
+  },
+  {
+    "text": "are",
+    "start": 259.5,
+    "end": 259.66
+  },
+  {
+    "text": "two",
+    "start": 259.66,
+    "end": 259.9
+  },
+  {
+    "text": "ways",
+    "start": 259.9,
+    "end": 260.14
+  },
+  {
+    "text": "to",
+    "start": 260.14,
+    "end": 260.3
+  },
+  {
+    "text": "shorten",
+    "start": 260.3,
+    "end": 260.7
+  },
+  {
+    "text": "a",
+    "start": 260.7,
+    "end": 260.86
+  },
+  {
+    "text": "line.",
+    "start": 260.86,
+    "end": 261.42
+  },
+  {
+    "text": "Add",
+    "start": 261.42,
+    "end": 261.74
+  },
+  {
+    "text": "capacity",
+    "start": 261.74,
+    "end": 262.46
+  },
+  {
+    "text": "or",
+    "start": 262.62,
+    "end": 262.94
+  },
+  {
+    "text": "remove",
+    "start": 262.94,
+    "end": 263.5
+  },
+  {
+    "text": "randomness.",
+    "start": 263.5,
+    "end": 264.7
+  },
+  {
+    "text": "Next",
+    "start": 264.7,
+    "end": 265.1
+  },
+  {
+    "text": "time",
+    "start": 265.1,
+    "end": 265.26
+  },
+  {
+    "text": "you're",
+    "start": 265.26,
+    "end": 265.5
+  },
+  {
+    "text": "stuck",
+    "start": 265.5,
+    "end": 265.74
+  },
+  {
+    "text": "in",
+    "start": 265.74,
+    "end": 265.9
+  },
+  {
+    "text": "a",
+    "start": 265.9,
+    "end": 265.98
+  },
+  {
+    "text": "slow",
+    "start": 265.98,
+    "end": 266.3
+  },
+  {
+    "text": "line,",
+    "start": 266.3,
+    "end": 266.62
+  },
+  {
+    "text": "look",
+    "start": 266.62,
+    "end": 266.78
+  },
+  {
+    "text": "at",
+    "start": 266.78,
+    "end": 266.94
+  },
+  {
+    "text": "the",
+    "start": 266.94,
+    "end": 267.02
+  },
+  {
+    "text": "cashier.",
+    "start": 267.02,
+    "end": 267.98
+  },
+  {
+    "text": "If",
+    "start": 267.98,
+    "end": 268.22
+  },
+  {
+    "text": "she",
+    "start": 268.22,
+    "end": 268.38
+  },
+  {
+    "text": "never",
+    "start": 268.38,
+    "end": 268.62
+  },
+  {
+    "text": "gets",
+    "start": 268.62,
+    "end": 268.86
+  },
+  {
+    "text": "a",
+    "start": 268.86,
+    "end": 268.94
+  },
+  {
+    "text": "break,",
+    "start": 268.94,
+    "end": 269.66
+  },
+  {
+    "text": "now",
+    "start": 269.66,
+    "end": 269.98
+  },
+  {
+    "text": "you",
+    "start": 269.98,
+    "end": 270.22
+  },
+  {
+    "text": "know",
+    "start": 270.22,
+    "end": 270.54
+  },
+  {
+    "text": "why.",
+    "start": 270.54,
+    "end": 271.34
+  },
+  {
+    "text": "If",
+    "start": 271.34,
+    "end": 271.58
+  },
+  {
+    "text": "you",
+    "start": 271.58,
+    "end": 271.74
+  },
+  {
+    "text": "like",
+    "start": 271.74,
+    "end": 271.98
+  },
+  {
+    "text": "this",
+    "start": 271.98,
+    "end": 272.14
+  },
+  {
+    "text": "video,",
+    "start": 272.14,
+    "end": 272.54
+  },
+  {
+    "text": "please",
+    "start": 272.54,
+    "end": 272.94
+  },
+  {
+    "text": "give",
+    "start": 272.94,
+    "end": 273.1
+  },
+  {
+    "text": "it",
+    "start": 273.1,
+    "end": 273.26
+  },
+  {
+    "text": "a",
     "start": 273.26,
     "end": 273.34
   },
   {
-    "text": "time",
+    "text": "like",
     "start": 273.34,
-    "end": 273.5
+    "end": 273.58
   },
   {
-    "text": "make",
+    "text": "and",
     "start": 273.66,
-    "end": 273.82
+    "end": 273.9
   },
   {
-    "text": "a",
-    "start": 273.98,
-    "end": 274.06
+    "text": "subscribe",
+    "start": 273.9,
+    "end": 274.3
   },
   {
-    "text": "machine",
-    "start": 274.06,
-    "end": 274.38
+    "text": "for",
+    "start": 274.3,
+    "end": 274.46
   },
   {
-    "text": "that",
-    "start": 274.38,
-    "end": 274.54
+    "text": "more",
+    "start": 274.46,
+    "end": 274.7
   },
   {
-    "text": "fails",
-    "start": 274.54,
-    "end": 275.02
+    "text": "everyday",
+    "start": 274.7,
+    "end": 275.18
   },
   {
-    "text": "almost",
-    "start": 275.02,
-    "end": 275.34
+    "text": "engineering.",
+    "start": 275.18,
+    "end": 275.98
   },
   {
-    "text": "one",
-    "start": 275.34,
-    "end": 275.58
+    "text": "Thanks",
+    "start": 275.98,
+    "end": 276.3
   },
   {
-    "text": "time",
-    "start": 275.58,
-    "end": 275.82
+    "text": "for",
+    "start": 276.3,
+    "end": 276.46
   },
   {
-    "text": "in",
-    "start": 275.82,
-    "end": 276.06
-  },
-  {
-    "text": "10.",
-    "start": 276.06,
-    "end": 276.62
-  },
-  {
-    "text": "See",
-    "start": 276.62,
-    "end": 276.86
-  },
-  {
-    "text": "you",
-    "start": 276.86,
-    "end": 277.02
-  },
-  {
-    "text": "there.",
-    "start": 277.02,
-    "end": 277.42
+    "text": "watching.",
+    "start": 276.46,
+    "end": 276.94
   }
 ]
