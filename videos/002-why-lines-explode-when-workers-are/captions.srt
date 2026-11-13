@@ -471,61 +471,61 @@ better day. Less idle time, lower cost per
 customer. For the people in line, it's
 
 119
-00:04:07,180 --> 00:04:08,540
+00:04:07,180 --> 00:04:08,620
 twice the wait.
 
 120
-00:04:08,540 --> 00:04:10,380
+00:04:08,620 --> 00:04:10,540
 So here's what to remember.
 
 121
-00:04:10,380 --> 00:04:13,020
+00:04:10,540 --> 00:04:13,580
 Waiting time depends on spare capacity,
 
 122
-00:04:13,020 --> 00:04:14,940
+00:04:13,580 --> 00:04:15,340
 not on how busy things look.
 
 123
-00:04:14,940 --> 00:04:17,180
+00:04:15,580 --> 00:04:18,060
 The last few percent of busy are the most
 
 124
-00:04:17,180 --> 00:04:19,100
+00:04:18,060 --> 00:04:20,300
 expensive. And there are two ways to
 
 125
-00:04:19,100 --> 00:04:20,060
+00:04:20,300 --> 00:04:21,420
 shorten a line.
 
 126
-00:04:20,220 --> 00:04:23,100
+00:04:21,420 --> 00:04:24,700
 Add capacity, or remove randomness.
 
 127
-00:04:23,420 --> 00:04:25,260
+00:04:24,700 --> 00:04:26,620
 Next time you're stuck in a slow line,
 
 128
-00:04:25,260 --> 00:04:26,460
+00:04:26,620 --> 00:04:27,980
 look at the cashier.
 
 129
-00:04:26,460 --> 00:04:28,780
+00:04:27,980 --> 00:04:30,540
 If she never gets a break, now you know
 
 130
-00:04:30,620 --> 00:04:31,320
+00:04:30,540 --> 00:04:31,340
 why.
 
 131
-00:04:31,740 --> 00:04:34,060
+00:04:31,340 --> 00:04:33,340
 If you liked this video, please give it a
 
 132
-00:04:34,380 --> 00:04:36,060
+00:04:33,340 --> 00:04:35,180
 like and subscribe for more everyday
 
 133
-00:04:36,060 --> 00:04:37,420
+00:04:35,180 --> 00:04:36,940
 engineering. Thanks for watching!
