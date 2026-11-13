@@ -4,7 +4,7 @@ Copy each box into YouTube Studio.
 
 ## Files
 - [x] Video: `renders/002-why-lines-explode-when-workers-are.mp4`
-- [x] Thumbnails: `thumbnails/thumb-1.png`
+- [x] Thumbnails (upload all for YouTube's A/B test: Thumbnail → Test & compare): `thumbnails/thumb-1.png`, `thumbnails/thumb-2.png`
 - [x] Captions: `captions.srt` (Subtitles → Add language: English → Upload file → With timing)
 
 ## Title (46 characters)
