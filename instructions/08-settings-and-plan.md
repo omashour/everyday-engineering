@@ -25,7 +25,9 @@ The channel moves through phases, in this order:
 4. **eng-fundamentals**: solved engineering problems
 5. **industrial**: industrial engineering
 
-Claude only suggests topics from the current phase. To move on, change the first line of `topics\backlog.yaml`, e.g. `# CURRENT PHASE: physics`, then save to GitHub (`npm run save`) and refresh the Claude.ai context. Ask Claude to "suggest new physics topics for the backlog" when the phase needs more ideas. Long-range ideas are in `topics\roadmap.md`.
+Each topic belongs to exactly one phase: its main discipline, not the math it uses. Waiting lines, quality control, factory planning and reliability are **industrial** even though they use math. Claude only suggests topics from the current phase.
+
+To move on: in the app, open **Settings → Current phase**, choose the next phase and press **Save settings**. It's saved to GitHub automatically. Then press **Sync** in your Claude.ai project. From then on, Claude's suggestions and the app's new-video list switch completely to that phase. Ask Claude to "suggest new physics topics for the backlog" when the phase needs more ideas. Long-range ideas are in `topics\roadmap.md`.
 
 ## Habits that help the channel grow
 
