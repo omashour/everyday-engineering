@@ -95,6 +95,7 @@ async function renderHome() {
   <h1>Your videos</h1>
   <p class="muted">Each video goes: script from Claude → voice from Gemini → video here → upload to YouTube.</p>
   ${setup.length ? `<div class="callout">Before your first video: ${setup.join(" and ")} in <a href="#/settings">Settings</a>.</div>` : ""}
+  ${backupCard(s.settings.backup)}
   <div class="card">
     <h2>Start a new video</h2>
     <p class="muted small">First ask Claude.ai (in your Everyday Engineering project) to <b>suggest topics</b>, pick one, then create it here.</p>
@@ -110,6 +111,7 @@ async function renderHome() {
       <div><div class="muted small">Video ${v.id}</div><h2>${esc(v.title)}</h2><div class="small" style="margin-top:6px">Next: <b>${esc(v.next)}</b></div></div>
       <div><span class="pill ${v.stage === "published" ? "done" : ""}">${STAGE_LABEL[v.stage] ?? v.stage}</span><div class="bar" style="margin-top:12px"><i style="width:${Math.round((v.stageIndex / 8) * 100)}%"></i></div></div>
     </a>`).join("") || `<p class="muted">No videos yet.</p>`}</div>`;
+  wireBackup();
   $("#create").onclick = async () => {
     const topic = $("#own").value.trim() || $("#topic").value;
     if (!topic) return alert("Choose a topic or type a title.");
@@ -123,6 +125,31 @@ async function renderHome() {
       }
     } catch (e) { alert(e.message); }
   };
+}
+
+// ------------------------------------------------------------------ backup
+const ago = (iso) => {
+  const d = (Date.now() - Date.parse(iso)) / 864e5;
+  return d < 1 ? "today" : d < 2 ? "yesterday" : `${Math.floor(d)} days ago`;
+};
+/** Home-page card: last backup, how many files changed since, and the Back up button. */
+function backupCard(b) {
+  if (!b.folder) return `<div class="callout"><b>Backup:</b> your voice recordings, images and videos are only on this PC (GitHub doesn't keep them). <a href="#/settings">Choose a backup folder</a> to protect them.</div>`;
+  const stale = !b.last || b.pending > 0;
+  const status = !b.last ? "Never backed up." : `Last backup ${ago(b.last.time)}.${b.pending ? ` <b>${b.pending} new or changed file(s)</b> since then.` : " Everything is backed up ✓"}`;
+  return `<div class="${stale ? "callout" : "card"} row"><div class="grow small"><b>Backup</b> · ${status}</div><button ${stale ? `class="primary"` : ""} data-backup>Back up now</button></div>`;
+}
+function wireBackup(root = document) {
+  for (const btn of root.querySelectorAll("[data-backup]")) btn.onclick = () => runBackup(btn.dataset.backup === "restore");
+}
+async function runBackup(restore = false) {
+  if (restore && !confirm("Copy recordings, images, thumbnails and videos from the backup folder to this PC? Files already on this PC are left alone.")) return;
+  try {
+    const { job } = await api("POST", "/api/backup", { restore });
+    const j = await runJob(job);
+    if (j.code === 0) toast(restore ? "Restored from backup" : "Backed up");
+    render();
+  } catch (e) { alert(e.message); }
 }
 
 // ------------------------------------------------------------------ settings
@@ -139,11 +166,28 @@ async function renderSettings() {
     <select id="day">${["", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "Monday and Thursday", "Tuesday and Friday"].map((d) => `<option ${d === s.uploadDay ? "selected" : ""} value="${d}">${d || "Not set"}</option>`).join("")}</select>
     <h3>GitHub</h3>
     <label class="row small"><input type="checkbox" id="push" ${s.autoPush ? "checked" : ""} /> Save progress to GitHub automatically (scripts and topic list only — never audio or videos)</label>
+    <h3>Backup folder</h3>
+    <p class="muted small">GitHub keeps scripts and plans, but not your voice recordings, images, thumbnails or videos. “Back up now” copies those here; only new or changed files are copied, and nothing is ever deleted. Pick a folder that syncs to the cloud (Google Drive, OneDrive, Dropbox) or an external drive. This setting is for this PC only.</p>
+    <input id="bfolder" list="bsugg" value="${esc(s.backup.folder)}" placeholder="For example G:\\My Drive\\Everyday Engineering backup" />
+    <datalist id="bsugg">${s.backup.suggestions.map((f) => `<option value="${esc(f)}"></option>`).join("")}</datalist>
+    ${s.backup.suggestions.length ? `<p class="small">Found on this PC: ${s.backup.suggestions.map((f) => `<a href="#" data-pick="${esc(f)}">${esc(f)}</a>`).join(" · ")}</p>` : ""}
+    <p class="small">${s.backup.last ? `Last backup ${ago(s.backup.last.time)} (${s.backup.last.files} files).` : "No backup yet."}</p>
+    <div class="row">
+      <button data-backup ${s.backup.folder ? "" : "disabled"}>Back up now</button>
+      <button data-backup="restore" ${s.backup.folder ? "" : "disabled"}>Restore from backup (new PC)</button>
+      <button id="bopen" ${s.backup.folder ? "" : "disabled"}>Open backup folder</button>
+    </div>
     <p style="margin-top:16px"><button class="primary" id="save">Save settings</button></p>
   </div>`;
+  for (const a of view.querySelectorAll("[data-pick]")) a.onclick = (e) => { e.preventDefault(); $("#bfolder").value = a.dataset.pick; };
+  wireBackup(view);
+  $("#bopen").onclick = () => api("POST", "/api/backup/open", {});
   $("#save").onclick = async () => {
-    await api("POST", "/api/settings", { voice: $("#voice").value, uploadDay: $("#day").value, autoPush: $("#push").checked });
-    toast("Settings saved");
+    try {
+      await api("POST", "/api/settings", { voice: $("#voice").value, uploadDay: $("#day").value, autoPush: $("#push").checked, backupFolder: $("#bfolder").value });
+      toast("Settings saved");
+      render();
+    } catch (e) { alert(e.message); }
   };
 }
 

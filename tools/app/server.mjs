@@ -15,6 +15,7 @@ import { ttsPack } from "../lib/ttspack.mjs";
 import { uploadSheet } from "../lib/uploadsheet.mjs";
 import { splitClaudeOutput, SCRIPT_FILES } from "../lib/claudeparse.mjs";
 import { missingAssets, creditPlaceholders } from "../lib/assets.mjs";
+import { backupConfig, setBackupFolder, suggestedFolders, filesSinceBackup, backupFolderProblem } from "../lib/backup.mjs";
 
 const PORT = Number(process.env.EE_PORT ?? 4317);
 const PUBLIC = path.join(P.root, "tools", "app", "public");
@@ -133,7 +134,8 @@ function settings() {
   const voice = readYaml(path.join(P.channel, "voice.yaml"), {});
   const about = readYaml(path.join(P.channel, "about.yaml"), {});
   const s = readYaml(path.join(P.root, "settings.yaml"), {});
-  return { voice: voice.gemini?.voice ?? "", uploadDay: about.upload_day ?? "", autoPush: s?.git?.auto_push !== false };
+  const bk = backupConfig();
+  return { voice: voice.gemini?.voice ?? "", uploadDay: about.upload_day ?? "", autoPush: s?.git?.auto_push !== false, backup: { folder: bk.folder, last: bk.last, pending: filesSinceBackup(), suggestions: suggestedFolders() } };
 }
 function setYamlKey(file, keyPath, value) {
   const doc = YAML.parseDocument(fs.readFileSync(file, "utf8"));
@@ -196,7 +198,24 @@ async function route(req, res) {
     if (typeof b.voice === "string") setYamlKey(path.join(P.channel, "voice.yaml"), ["gemini", "voice"], b.voice.trim() || null);
     if (typeof b.uploadDay === "string") setYamlKey(path.join(P.channel, "about.yaml"), ["upload_day"], b.uploadDay.trim() || null);
     if (typeof b.autoPush === "boolean") setYamlKey(path.join(P.root, "settings.yaml"), ["git", "auto_push"], b.autoPush);
+    if (typeof b.backupFolder === "string") {
+      const f = b.backupFolder.trim();
+      const problem = f && backupFolderProblem(f);
+      if (problem) return send(res, 400, { error: problem });
+      setBackupFolder(f);
+    }
     return send(res, 200, settings());
+  }
+  if (req.method === "POST" && p === "/api/backup") {
+    const b = await json(req);
+    if (!backupConfig().folder) return send(res, 400, { error: "Choose a backup folder in Settings first." });
+    const restore = !!b.restore;
+    return send(res, 200, { job: startJob(restore ? "Restore from backup" : "Back up", [[restore ? "Restore from backup" : "Back up recordings, images and videos", ["backup.mjs", ...(restore ? ["--restore"] : [])]]]).id });
+  }
+  if (req.method === "POST" && p === "/api/backup/open") {
+    const f = backupConfig().folder;
+    if (f && fs.existsSync(f)) openInOS(f);
+    return send(res, 200, { ok: true });
   }
   if (req.method === "POST" && p === "/api/new-video") {
     const b = await json(req);

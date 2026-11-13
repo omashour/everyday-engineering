@@ -25,7 +25,7 @@ From then on, just double-click **Everyday Engineering** on the desktop.
 
 ## Bring your old files (if you're moving from another PC)
 
-GitHub has the scripts and plans, but **not** voice recordings, images, videos or thumbnails. Copy them from the old PC or your backup: see [guide 7](07-backups-and-moving.md).
+GitHub has the scripts and plans, but **not** voice recordings, images, videos or thumbnails. In the app, open **Settings → Backup folder**, choose the folder you backed up to, save, and press **Restore from backup (new PC)**. See [guide 7](07-backups-and-moving.md).
 
 ## Check it works
 

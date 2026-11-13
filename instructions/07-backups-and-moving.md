@@ -2,25 +2,36 @@
 
 ## What's where
 
-| Kept on GitHub (automatic) | Only on this PC (back it up yourself) |
+| Kept on GitHub (automatic) | Only on this PC (use the app's backup) |
 |---|---|
 | Topic list, roadmap, covered videos | Voice recordings: `videos\*\audio\` |
 | Every video's script, titles, descriptions, captions, upload sheet | Images: `videos\*\assets\` |
-| Styles, settings, branding source files | Finished videos: `videos\*\renders\` |
-| The app and the Claude.ai skill | Thumbnails: `videos\*\thumbnails\` |
-| | Edited Studio projects: `videos\*\project\` |
+| Styles, settings, branding source files | Thumbnails: `videos\*\thumbnails\` |
+| The app and the Claude.ai skill | Finished videos: `videos\*\renders\` |
 
-GitHub only gets small text files on purpose: recordings and videos are large and are your raw material.
+GitHub only gets small text files on purpose. Recordings and videos are large, and they are your raw material.
 
-## Set up a backup (do this now)
+## Set up the backup (once per PC)
 
-The simplest option: once a week, or after each published video, copy the whole `videos` folder to an external drive or cloud folder (OneDrive, Google Drive). Copying it as one zip file works best with cloud folders.
+1. In the app, open **Settings → Backup folder**.
+2. Pick a folder that is **not on this PC's drive alone**: a cloud folder (Google Drive, OneDrive, Dropbox) or an external drive. The app lists the cloud folders it finds; click one to use it, or type a full path, e.g. `G:\My Drive\Everyday Engineering backup`.
+3. Press **Save settings**, then **Back up now**.
 
-The most important things to keep are **`audio`** and **`assets`**. With them, the app can rebuild every video exactly. Renders can always be made again.
+## Back up regularly
+
+The home page shows a **Backup** bar: when you last backed up, and how many files are new or changed since then. Whenever it's highlighted (for example after recording a voice or rendering a video), press **Back up now**.
+
+- Only new or changed files are copied, so it's quick after the first time.
+- Nothing is ever deleted from the backup, even if you delete a video on the PC.
+- If you use a cloud folder, wait for it to finish syncing before switching off the PC.
+
+Edits made by hand in Studio live in the video's project, which isn't backed up. Render the video after editing; the rendered MP4 is backed up.
 
 ## Moving to another PC
 
 1. Install on the new PC with [guide 2](02-install-on-a-new-pc.md).
-2. Copy the `videos` folder from your backup into the new `everyday-engineering` folder. Say **No** to replacing files that are already there; GitHub's copies are current.
-3. Open the app. Every video shows the right stage.
-4. Optionally, remove the old PC's copy. Don't use both PCs on the same video at the same time.
+2. Make sure the backup folder is available on the new PC (sign in to Google Drive/OneDrive, or plug in the drive).
+3. In the app: **Settings → Backup folder**, choose the same folder, **Save settings**, then **Restore from backup (new PC)**. Files already on the new PC are left alone.
+4. Every video now shows the right stage. Don't work on the same video on two PCs at the same time.
+
+For people who prefer commands: `npm run backup`, `npm run backup -- --restore`, and `npm run backup -- --to "<folder>"`.

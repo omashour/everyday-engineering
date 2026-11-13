@@ -25,3 +25,6 @@ channel/branding/out/
 *.log
 .DS_Store
 Thumbs.db
+
+# Per-PC settings (backup folder, last backup time)
+.local/

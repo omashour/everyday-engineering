@@ -10,7 +10,7 @@ Plain-language guides for running the channel with this repo. No coding needed.
 | 4 | [Set up the YouTube channel](04-youtube-channel-setup.md) | Once: logo, banner, description, playlists, defaults |
 | 5 | [Make a video, start to finish](05-making-a-video.md) | Every video |
 | 6 | [Edit a video and fix problems](06-editing-and-troubleshooting.md) | When something looks or sounds wrong |
-| 7 | [Backups and moving to another PC](07-backups-and-moving.md) | Now (set up a backup), and when you switch PCs |
+| 7 | [Backups and moving to another PC](07-backups-and-moving.md) | Now (choose a backup folder), and when you switch PCs |
 | 8 | [Settings, updates and the content plan](08-settings-and-plan.md) | Changing voice/upload day, moving to the next phase |
 
 ## How the pieces fit
