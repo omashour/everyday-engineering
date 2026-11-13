@@ -58,6 +58,6 @@ node tools\app\install-shortcut.mjs
 
 echo.
 echo Done. Opening the app - next time, use the "Everyday Engineering" icon on your desktop.
-echo Remember: voice recordings are not on GitHub. Copy your old PC's videos\*\audio folders here if you need them.
+echo Remember: recordings and videos are not on GitHub. To bring them back: app Settings, Backup folder, Restore from backup.
 start "" "%DEST%\Everyday Engineering.cmd"
 pause
