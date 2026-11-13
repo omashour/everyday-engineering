@@ -45,6 +45,10 @@ export default {
       const a = Math.atan2(y2 - y1, x2 - x1);
       return `<path d="M${x2 - s * Math.cos(a - 0.45)},${y2 - s * Math.sin(a - 0.45)} L${x2},${y2} L${x2 - s * Math.cos(a + 0.45)},${y2 - s * Math.sin(a + 0.45)} Z" fill="${c}"/>`;
     };
+    // Keep pills inside the frame: estimate a pill's width from its text, then slide it inward if needed.
+    const pillPx = short ? 52 : 30, margin = short ? 40 : 30;
+    const pillW = (t) => String(t ?? "").replace(/\$[^$]*\$|\*\*/g, (m) => (m === "**" ? "" : "xxxxxx")).length * pillPx * 0.56 + pillPx * 1.2;
+    const fit = (left, w) => Math.min(Math.max(left, margin), W - margin - w); // returns a left edge inside the frame
     let svg = `<svg class="po-svg" viewBox="0 0 ${W} ${H}">`;
     let js = "";
     ovs.forEach((o, i) => {
@@ -64,10 +68,12 @@ export default {
         const ex = x + dir * W * 0.08, ey = y - H * 0.08;
         g += `<circle class="pop" cx="${x}" cy="${y}" r="12" fill="${red}" stroke="#fff" stroke-width="4"/>`;
         g += `<polyline class="stroke" pathLength="1" points="${x},${y} ${ex},${ey} ${ex + dir * 40},${ey}" fill="none" stroke="#fff" stroke-width="5"/>`;
-        g += fo(ex + dir * 50, ey, `<span class="po-pill">${ctx.rich(o.text)}</span>`, 900, 200, dir > 0 ? "start" : "end");
+        const pw = pillW(o.text), want = dir > 0 ? ex + 50 : ex - 50 - pw;
+        g += fo(fit(want, pw), ey, `<span class="po-pill">${ctx.rich(o.text)}</span>`, Math.max(pw, 200) + 40, 200, "start");
         kind = "draw";
       } else if (o.type === "label") {
-        g += fo(X(o.pos[0]), Y(o.pos[1]), `<span class="po-pill ${o.color === "red" ? "red" : ""}">${ctx.rich(o.text)}</span>`);
+        const pw = pillW(o.text), lw = Math.min(pw + 40, W - 2 * margin);
+        g += fo(fit(X(o.pos[0]) - lw / 2, lw) + lw / 2, Y(o.pos[1]), `<span class="po-pill ${o.color === "red" ? "red" : ""}" style="white-space:normal;text-align:center">${ctx.rich(o.text)}</span>`, lw);
       } else if (o.type === "box") {
         const [x, y, w, h] = [X(o.pos[0]), Y(o.pos[1]), X(o.size[0]), Y(o.size[1])];
         g += `<rect class="stroke" pathLength="1" x="${x}" y="${y}" width="${w}" height="${h}" rx="14" fill="none" stroke="${red}" stroke-width="7"/>`;
@@ -83,7 +89,7 @@ export default {
     const src = ctx.asset(p.src);
     const [fx, fy] = p.focus ?? [50, 50];
     const bandH = (ctx.width * 9) / 16;
-    const kb = `<div class="po-kb" id="${ctx.uid("kb")}"><img src="${src}" alt="" style="object-position:${fx}% ${fy}%"><span class="po-shade" style="opacity:${p.shade ?? 0.25}"></span>${svg}</div>`;
+    const kb = `<div class="po-kb" id="${ctx.uid("kb")}" data-layout-allow-overflow><img src="${src}" alt="" style="object-position:${fx}% ${fy}%"><span class="po-shade" style="opacity:${p.shade ?? 0.25}"></span>${svg}</div>`;
     const html = `<div class="po-wrap">
   ${short ? `<img class="po-fill" src="${src}" alt=""><div class="po-band" style="top:${((ctx.height - bandH) / 2).toFixed(1)}px;height:${bandH.toFixed(1)}px">${kb}</div>` : kb}
   ${p.title ? `<div class="po-title-row"><div class="po-title" id="${ctx.uid("t")}">${ctx.rich(p.title)}</div></div>` : ""}

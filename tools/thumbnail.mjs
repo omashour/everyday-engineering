@@ -30,7 +30,8 @@ variants.forEach((v, i) => {
   let img = "";
   if (v.image) {
     const f = path.join(dir, "assets", v.image);
-    if (!fs.existsSync(f)) fail(`thumbnail ${i + 1}: missing assets/${v.image}`);
+    // Skip (don't stop) so the other thumbnails and the next steps still run.
+    if (!fs.existsSync(f)) return console.log(`⚠ Thumbnail ${i + 1} skipped: add assets/${v.image}, then make thumbnails again.`);
     assets.push({ from: f, name: v.image });
     img = `assets/media/${v.image}`;
   }

@@ -77,7 +77,7 @@ export default {
         const id = ctx.uid(`${k}l${i}`);
         const [x1, y1, x2, y2] = k === "h" ? [box.x, gf.Y(l.y), box.x + box.w, gf.Y(l.y)] : [gf.X(l.x), box.y, gf.X(l.x), box.y + box.h];
         let g = `<line class="dashed" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${ctx.brand.colors.red}" stroke-width="3"/>`;
-        if (l.label) g += k === "h" ? fo(box.x + box.w - 10, y1 - 30, ctx.rich(l.label), 600, 70, "end", "red") : fo(x1 + 12, box.y + 30, ctx.rich(l.label), 600, 70, "start", "red");
+        if (l.label) g += k === "h" ? fo(box.x + box.w - 10, y1 - 30, ctx.rich(l.label), 600, 70, "end", "red") : x1 > box.x + box.w * 0.7 ? fo(x1 - 12, box.y + 30, ctx.rich(l.label), 600, 70, "end", "red") : fo(x1 + 12, box.y + 30, ctx.rich(l.label), 600, 70, "start", "red"); // labels near the right edge go on the left of the line so they stay on screen
         svg += `<g id="${id}">${g}</g>`;
         js += ctx.call("fade", `#${id}`, cue(l.cue, ctx.start + ctx.dur * 0.5));
       });

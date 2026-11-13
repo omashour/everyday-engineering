@@ -270,7 +270,7 @@ scenes:
   - id: S14
     component: end-card
     say: >-
-      Next time, why ten parts that each work ninety nine percent of the time make a
-      machine that fails almost one time in ten. See you there.
+      If you want to see more of the math hiding in everyday things, the next video is
+      right here. See you there.
     params:
-      line: "Next: why 99% reliable parts aren't enough"
+      line: "More everyday math, every Friday"

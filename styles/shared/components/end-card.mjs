@@ -1,7 +1,7 @@
 export default {
   name: "end-card",
   describe: "Navy end screen with the logo and two empty slots where YouTube's end-screen video and subscribe elements sit. Always the last scene (5–20 s).",
-  params: { line: "short closing line, e.g. 'Next: why highway curves aren't circles'" },
+  params: { line: "short closing line that names no specific upcoming topic, e.g. 'More everyday math, every week'" },
   required: [],
   navy: true,
   css: `

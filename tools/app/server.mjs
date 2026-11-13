@@ -14,6 +14,7 @@ import { validateVideo } from "../lib/validate.mjs";
 import { ttsPack } from "../lib/ttspack.mjs";
 import { uploadSheet } from "../lib/uploadsheet.mjs";
 import { splitClaudeOutput, SCRIPT_FILES } from "../lib/claudeparse.mjs";
+import { missingAssets, creditPlaceholders } from "../lib/assets.mjs";
 
 const PORT = Number(process.env.EE_PORT ?? 4317);
 const PUBLIC = path.join(P.root, "tools", "app", "public");
@@ -108,6 +109,8 @@ async function videoDetail(dir) {
   const out = { ...st, assets: list(path.join(vdir, "assets")), thumbnails: list(path.join(vdir, "thumbnails"), [".png"]), renders: list(path.join(vdir, "renders"), [".mp4"]), files: {} };
   for (const f of SCRIPT_FILES) out.files[f] = fs.existsSync(path.join(vdir, f));
   out.assetsNeeded = fs.existsSync(path.join(vdir, "assets-needed.md")) ? fs.readFileSync(path.join(vdir, "assets-needed.md"), "utf8") : "";
+  out.missingAssets = missingAssets(vdir);
+  out.creditTodo = creditPlaceholders(vdir);
   out.built = fs.existsSync(path.join(vdir, "project", "index.html"));
   out.timed = fs.existsSync(path.join(vdir, "audio", "words.json")) && fs.existsSync(path.join(vdir, "audio", "narration-full.wav"));
   out.shortsSpec = (readYaml(path.join(vdir, "shorts.yaml"), { shorts: [] }).shorts ?? []).map((s, i) => ({ n: i + 1, title: s.title, built: fs.existsSync(path.join(vdir, "shorts", `short-${i + 1}`, "project", "index.html")) }));
@@ -257,6 +260,7 @@ async function route(req, res) {
     let steps;
     if (step === "make-all") {
       const d = await videoDetail(dir);
+      if (d.missingAssets.length && !b.allowMissing) return send(res, 400, { error: `Add these photos first (step 2, Photos), or the video renders with empty frames:\n${d.missingAssets.map((a) => `• ${a.file} (used in ${a.usedIn.join(", ")})`).join("\n")}` });
       steps = [];
       if (!d.timed) steps.push(["Time the narration", ["transcribe.mjs", id]]);
       steps.push(["Build the video", ["build.mjs", id, ...(b.force ? ["--force"] : [])]], ["Render the video", ["render.mjs", id]], ["Build the Shorts", ["shorts.mjs", id]]);

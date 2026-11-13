@@ -56,7 +56,7 @@ So here's what to remember. Waiting time depends on spare capacity, not on how b
 
 ### S14 · end-card · ~5:28
 
-Next time, why ten parts that each work ninety nine percent of the time make a machine that fails almost one time in ten. See you there.
+If you want to see more of the math hiding in everyday things, the next video is right here. See you there.
 
 ---
-830 words · about 5:39 at 150 words per minute
+825 words · about 5:37 at 150 words per minute

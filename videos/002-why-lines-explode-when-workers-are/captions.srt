@@ -1,0 +1,535 @@
+1
+00:00:00,160 --> 00:00:02,560
+This cashier is busy ninety percent of the
+
+2
+00:00:02,560 --> 00:00:04,960
+time. The average wait in her line is nine
+
+3
+00:00:04,960 --> 00:00:07,120
+minutes. Make her busy ninety five percent
+
+4
+00:00:07,280 --> 00:00:09,200
+of the time, and the wait jumps to
+
+5
+00:00:09,200 --> 00:00:11,280
+nineteen. Here's why.
+
+6
+00:00:11,280 --> 00:00:13,360
+It's one of the most useful equations in
+
+7
+00:00:13,360 --> 00:00:15,280
+engineering, and it starts with a simple
+
+8
+00:00:15,280 --> 00:00:16,080
+question.
+
+9
+00:00:16,080 --> 00:00:17,520
+Start with two numbers.
+
+10
+00:00:17,520 --> 00:00:20,000
+The first is how fast customers arrive.
+
+11
+00:00:20,000 --> 00:00:22,320
+Say fifty four people join the line every
+
+12
+00:00:22,320 --> 00:00:24,560
+hour. Engineers call this the arrival
+
+13
+00:00:24,560 --> 00:00:26,000
+rate, lambda.
+
+14
+00:00:26,000 --> 00:00:28,080
+The second is how fast the cashier can
+
+15
+00:00:28,080 --> 00:00:30,240
+serve them. On average she takes one
+
+16
+00:00:30,320 --> 00:00:32,240
+minute per customer, so she can serve
+
+17
+00:00:32,240 --> 00:00:33,440
+sixty an hour.
+
+18
+00:00:33,440 --> 00:00:35,600
+That's the service rate, mu.
+
+19
+00:00:35,600 --> 00:00:37,760
+Divide the first by the second and you get
+
+20
+00:00:37,760 --> 00:00:38,950
+the utilization, rho.
+
+21
+00:00:38,960 --> 00:00:42,480
+Fifty four over sixty is zero point nine.
+
+22
+00:00:42,480 --> 00:00:44,480
+She's busy ninety percent of the time, and
+
+23
+00:00:44,480 --> 00:00:45,920
+free the other ten.
+
+24
+00:00:46,160 --> 00:00:47,360
+Here's a puzzle.
+
+25
+00:00:47,360 --> 00:00:49,840
+If she's free ten percent of the time, why
+
+26
+00:00:49,840 --> 00:00:51,440
+is there a line at all?
+
+27
+00:00:51,440 --> 00:00:53,280
+Because customers don't arrive on a
+
+28
+00:00:53,280 --> 00:00:55,760
+schedule. If one person showed up exactly
+
+29
+00:00:55,760 --> 00:00:57,840
+every sixty seven seconds, nobody would
+
+30
+00:00:57,840 --> 00:01:00,430
+ever wait. But real customers arrive at
+
+31
+00:01:00,430 --> 00:01:02,910
+random. Sometimes three walk up at once.
+
+32
+00:01:02,910 --> 00:01:04,910
+Sometimes nobody comes for minutes.
+
+33
+00:01:04,910 --> 00:01:06,590
+The bursts build a line.
+
+34
+00:01:06,590 --> 00:01:08,910
+The quiet gaps are idle time she can never
+
+35
+00:01:08,910 --> 00:01:09,630
+get back.
+
+36
+00:01:09,950 --> 00:01:12,110
+Queueing theory turns this into one
+
+37
+00:01:12,110 --> 00:01:14,670
+formula. For one cashier, with random
+
+38
+00:01:14,670 --> 00:01:16,830
+arrivals and random service times, the
+
+39
+00:01:16,830 --> 00:01:20,030
+average wait in line is rho over one minus
+
+40
+00:01:20,030 --> 00:01:22,350
+rho, times the average service time.
+
+41
+00:01:22,350 --> 00:01:24,110
+Look at the bottom of that fraction.
+
+42
+00:01:24,110 --> 00:01:26,670
+One minus rho is the spare capacity.
+
+43
+00:01:26,670 --> 00:01:28,830
+It's the share of time she's free.
+
+44
+00:01:28,830 --> 00:01:31,310
+At ninety percent busy, the spare capacity
+
+45
+00:01:31,310 --> 00:01:32,590
+is zero point one.
+
+46
+00:01:32,590 --> 00:01:35,390
+Nine tenths divided by one tenth is nine.
+
+47
+00:01:35,390 --> 00:01:37,390
+Times one minute, that's a nine minute
+
+48
+00:01:37,390 --> 00:01:38,020
+wait.
+
+49
+00:01:38,030 --> 00:01:40,430
+Now run the same formula for other levels
+
+50
+00:01:40,430 --> 00:01:43,070
+of busy. At fifty percent busy, the wait
+
+51
+00:01:43,070 --> 00:01:43,727
+is one minute.
+
+52
+00:01:43,737 --> 00:01:45,900
+Seventy five percent gives three minutes.
+
+53
+00:01:45,910 --> 00:01:47,950
+Eighty percent gives four.
+
+54
+00:01:47,950 --> 00:01:49,870
+Ninety percent, nine minutes.
+
+55
+00:01:49,870 --> 00:01:52,350
+Ninety five percent, nineteen minutes.
+
+56
+00:01:52,350 --> 00:01:54,110
+And at ninety nine percent busy, the
+
+57
+00:01:54,110 --> 00:01:56,430
+average wait is ninety nine minutes.
+
+58
+00:01:56,430 --> 00:01:58,510
+Plot it and you get this curve.
+
+59
+00:01:58,510 --> 00:02:00,670
+For a long time it barely rises.
+
+60
+00:02:00,860 --> 00:02:02,780
+Going from zero to seventy percent busy
+
+61
+00:02:02,780 --> 00:02:04,540
+adds only a little over two minutes of
+
+62
+00:02:04,540 --> 00:02:07,180
+waiting. Then the curve bends upward, and
+
+63
+00:02:07,180 --> 00:02:09,260
+past ninety percent it shoots almost
+
+64
+00:02:09,260 --> 00:02:11,580
+straight up. It looks like a hockey stick.
+
+65
+00:02:11,580 --> 00:02:13,580
+Every extra percent of busy costs more
+
+66
+00:02:13,580 --> 00:02:15,340
+waiting than the one before.
+
+67
+00:02:15,340 --> 00:02:17,500
+So why does going from ninety to ninety
+
+68
+00:02:17,580 --> 00:02:19,340
+five percent double the wait?
+
+69
+00:02:19,340 --> 00:02:21,340
+Look at the spare capacity again.
+
+70
+00:02:21,340 --> 00:02:23,500
+At ninety percent, she's free ten percent
+
+71
+00:02:23,500 --> 00:02:25,980
+of the time. At ninety five, only five
+
+72
+00:02:25,980 --> 00:02:28,060
+percent. You've cut her spare time in
+
+73
+00:02:28,060 --> 00:02:29,900
+half, and the spare time sits on the
+
+74
+00:02:29,900 --> 00:02:31,180
+bottom of the fraction.
+
+75
+00:02:31,180 --> 00:02:33,260
+Halve the bottom, and you roughly double
+
+76
+00:02:33,260 --> 00:02:35,980
+the answer. Nine minutes becomes nineteen.
+
+77
+00:02:36,220 --> 00:02:38,460
+And what if she's busy one hundred percent
+
+78
+00:02:38,460 --> 00:02:40,540
+of the time, with customers arriving
+
+79
+00:02:40,540 --> 00:02:42,780
+exactly as fast as she can serve them?
+
+80
+00:02:42,780 --> 00:02:45,420
+The spare capacity is zero, and you'd be
+
+81
+00:02:45,420 --> 00:02:46,780
+dividing by zero.
+
+82
+00:02:46,780 --> 00:02:49,180
+In practice, the line never settles down.
+
+83
+00:02:49,180 --> 00:02:51,420
+Every random burst adds people, and
+
+84
+00:02:51,420 --> 00:02:53,260
+there's no quiet time to clear them.
+
+85
+00:02:53,260 --> 00:02:55,820
+On average, the line just keeps growing.
+
+86
+00:02:55,820 --> 00:02:57,820
+Notice what causes all this.
+
+87
+00:02:57,820 --> 00:03:00,370
+Randomness. A more general version, called
+
+88
+00:03:00,370 --> 00:03:02,850
+Kingman's formula, adds a variability
+
+89
+00:03:02,850 --> 00:03:05,010
+factor. It measures how unpredictable the
+
+90
+00:03:05,010 --> 00:03:06,770
+arrivals and service times are.
+
+91
+00:03:06,770 --> 00:03:09,250
+Fully random, like our cashier, the factor
+
+92
+00:03:09,250 --> 00:03:11,410
+is one. Make everything perfectly regular,
+
+93
+00:03:11,490 --> 00:03:13,570
+and it drops to zero, and so does the
+
+94
+00:03:13,570 --> 00:03:15,650
+wait. That's why engineers fight
+
+95
+00:03:15,650 --> 00:03:18,290
+variability. Appointment slots, scheduled
+
+96
+00:03:18,290 --> 00:03:20,530
+deliveries and standard work all shorten a
+
+97
+00:03:20,530 --> 00:03:22,930
+line without hiring anyone.
+
+98
+00:03:22,930 --> 00:03:25,250
+This one curve shapes a lot of design
+
+99
+00:03:25,250 --> 00:03:27,650
+decisions. Call centers use queueing math
+
+100
+00:03:27,650 --> 00:03:29,490
+like this to decide how many agents to
+
+101
+00:03:29,490 --> 00:03:32,050
+staff. Hospitals keep spare beds, because
+
+102
+00:03:32,050 --> 00:03:34,130
+a full ward means long waits for the next
+
+103
+00:03:34,130 --> 00:03:36,930
+patient. Computer servers slow to a crawl
+
+104
+00:03:36,930 --> 00:03:38,290
+as they near full load.
+
+105
+00:03:38,290 --> 00:03:40,370
+And in factories, a machine that's almost
+
+106
+00:03:40,370 --> 00:03:42,770
+always busy piles up unfinished parts in
+
+107
+00:03:42,770 --> 00:03:43,890
+front of it.
+
+108
+00:03:43,890 --> 00:03:46,050
+Three more customers an hour can double
+
+109
+00:03:46,050 --> 00:03:47,170
+your wait in line.
+
+110
+00:03:47,170 --> 00:03:49,330
+This cashier can serve sixty customers an
+
+111
+00:03:49,330 --> 00:03:51,890
+hour. With thirty arriving each hour, the
+
+112
+00:03:51,890 --> 00:03:53,490
+average wait is one minute.
+
+113
+00:03:53,490 --> 00:03:55,570
+With fifty four, it's nine.
+
+114
+00:03:55,730 --> 00:03:58,130
+Add just three more, to fifty seven, and
+
+115
+00:03:58,130 --> 00:04:00,290
+the wait jumps to nineteen minutes.
+
+116
+00:04:00,300 --> 00:04:02,220
+On the manager's spreadsheet, that's a
+
+117
+00:04:02,220 --> 00:04:04,940
+better day. Less idle time, lower cost per
+
+118
+00:04:04,940 --> 00:04:07,180
+customer. For the people in line, it's
+
+119
+00:04:07,180 --> 00:04:08,540
+twice the wait.
+
+120
+00:04:08,540 --> 00:04:10,380
+So here's what to remember.
+
+121
+00:04:10,380 --> 00:04:13,020
+Waiting time depends on spare capacity,
+
+122
+00:04:13,020 --> 00:04:14,940
+not on how busy things look.
+
+123
+00:04:14,940 --> 00:04:17,180
+The last few percent of busy are the most
+
+124
+00:04:17,180 --> 00:04:19,100
+expensive. And there are two ways to
+
+125
+00:04:19,100 --> 00:04:20,060
+shorten a line.
+
+126
+00:04:20,220 --> 00:04:23,100
+Add capacity, or remove randomness.
+
+127
+00:04:23,420 --> 00:04:25,260
+Next time you're stuck in a slow line,
+
+128
+00:04:25,260 --> 00:04:26,460
+look at the cashier.
+
+129
+00:04:26,460 --> 00:04:28,780
+If she never gets a break, now you know
+
+130
+00:04:28,780 --> 00:04:29,740
+why.
+
+131
+00:04:29,740 --> 00:04:32,237
+Next time, why ten parts that each work
+
+132
+00:04:32,247 --> 00:04:34,060
+ninety nine percent of the time make a
+
+133
+00:04:34,060 --> 00:04:36,620
+machine that fails almost one time in ten.
+
+134
+00:04:36,620 --> 00:04:37,420
+See you there.

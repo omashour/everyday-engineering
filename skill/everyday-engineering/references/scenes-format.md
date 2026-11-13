@@ -32,7 +32,7 @@ scenes:
 - 12–30 scenes. One idea per scene; 15–60 s per scene (40–150 words). Split longer ideas.
 - First scene = the hook: under 40 words (~15 s), on a real-world visual (style B `photo-overlay`, or `big-fact`). No "hi guys", no channel intro, no "in this video".
 - Second scene is usually a short `title-card` (one sentence of narration).
-- Last scene is always `end-card` (one or two sentences pointing to the next video).
+- Last scene is always `end-card`: one or two sentences inviting the viewer to the end-screen video and to subscribe. **Never name or tease a specific next topic** (the user hasn't chosen it yet, and the voice is recorded before the next video exists). Only mention a specific video if the user explicitly asks you to and names it.
 - Revisit the hook's promise in the last third (pay it off).
 
 **Narration (`say`) is speech, not text**
@@ -123,8 +123,8 @@ scenes:
 
   - id: S09
     component: end-card
-    say: Next time, why highway curves are not circles. See you there.
-    params: {line: "Next: Why highway curves aren't circles"}
+    say: If you want to see more of the math hiding in everyday things, the next video is right here. See you there.
+    params: {line: "More everyday math, every week"}
 ```
 
 ## thumbnail.yaml

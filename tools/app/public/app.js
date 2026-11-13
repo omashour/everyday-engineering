@@ -154,7 +154,7 @@ async function renderVideo(dir) {
   const errors = d.validation.problems.filter((p) => p.level === "error");
   const steps = [
     { key: "script", title: "Script from Claude", done: st >= 1 && !errors.length },
-    { key: "photos", title: "Photos", done: st >= 1 && !/\| `?[\w.-]+\.(jpg|jpeg|png|webp)/i.test(d.assetsNeeded) || d.assets.some((a) => !a.includes("placeholder")), optional: true },
+    { key: "photos", title: "Photos", done: st >= 1 && !d.missingAssets.length && !d.creditTodo.length, optional: !d.missingAssets.length && !d.creditTodo.length },
     { key: "voice", title: "Voice (Gemini)", done: d.timed && !d.draftOnly },
     { key: "video", title: "Build and render the video", done: d.renders.includes(`${dir}.mp4`) },
     { key: "extras", title: "Shorts and thumbnails", done: d.thumbnails.length > 0 && d.shortsSpec.every((s) => d.renders.includes(`${dir}-short-${s.n}.mp4`)) },
@@ -238,6 +238,8 @@ async function upload(dir, kind, file, name) {
 
 function photosStep(el, d, dir) {
   el.innerHTML = `
+    ${d.missingAssets.length ? `<div class="callout"><b>Still missing:</b> ${d.missingAssets.map((a) => `<code>${esc(a.file)}</code> (used in ${esc(a.usedIn.join(", "))})`).join(", ")}. “Make everything” waits until they're added.</div>` : ""}
+    ${d.creditTodo.length ? `<div class="callout"><b>Photo credit not filled in</b> in ${esc(d.creditTodo.join(", "))}: the video would show “[author], [license]”. Ask Claude for the scene with the real credit (author and license from the photo's page) and paste it in step 1.</div>` : ""}
     <p class="muted small">Photos the script needs (from assets-needed.md). Use your own photos or free ones from Wikimedia Commons / Openverse, and keep the credit line Claude wrote.</p>
     <div class="copy"><pre>${esc(d.assetsNeeded || "None.")}</pre></div>
     <p class="small">In this video now: ${d.assets.map((a) => `<code>${esc(a)}</code>`).join(", ") || "nothing"}</p>
