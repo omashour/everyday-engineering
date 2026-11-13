@@ -41,6 +41,7 @@ function runningJob() {
 /** steps: [[label, toolArgs]] run one after another; stops at the first failure. */
 function startJob(label, steps, video) {
   if (runningJob()) throw new Error(`"${runningJob().label}" is still running. Wait for it to finish.`);
+  closeOpenFiles();
   const job = { id: ++jobSeq, label, video, running: true, code: null, log: "", step: "" };
   jobs.set(job.id, job);
   (async () => {
@@ -166,10 +167,24 @@ function serveFile(req, res, file) {
   if (range) {
     const start = range[1] ? +range[1] : 0, end = range[2] ? +range[2] : size - 1;
     res.writeHead(206, { "Content-Type": type, "Content-Range": `bytes ${start}-${end}/${size}`, "Accept-Ranges": "bytes", "Content-Length": end - start + 1 });
-    return fs.createReadStream(file, { start, end }).pipe(res);
+    return stream(fs.createReadStream(file, { start, end }), res);
   }
   res.writeHead(200, { "Content-Type": type, "Content-Length": size, "Accept-Ranges": "bytes", "Cache-Control": "no-store" });
-  fs.createReadStream(file).pipe(res);
+  stream(fs.createReadStream(file), res);
+}
+// Open file streams. On Windows an open file can't be replaced, so a video playing in the app
+// would block re-rendering it: every stream is closed when its request ends and when a job starts.
+const openStreams = new Set();
+function stream(s, res) {
+  openStreams.add(s);
+  const done = () => { openStreams.delete(s); s.destroy(); };
+  s.on("close", () => openStreams.delete(s));
+  res.on("close", done);
+  s.pipe(res);
+}
+function closeOpenFiles() {
+  for (const s of openStreams) s.destroy();
+  openStreams.clear();
 }
 
 function openInOS(target) {

@@ -63,7 +63,12 @@ async function runJob(jobId, onDone) {
   }
 }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+/** Stop and unload every video player on the page, so Windows lets the tools replace the files. */
+function releaseVideos() {
+  for (const v of document.querySelectorAll("video")) { v.pause(); v.removeAttribute("src"); v.load(); }
+}
 async function step(dir, stepName, extra = {}, label) {
+  releaseVideos();
   try {
     const { job } = await api("POST", `/api/video/${dir}/run`, { step: stepName, label, ...extra });
     await runJob(job, () => render());
