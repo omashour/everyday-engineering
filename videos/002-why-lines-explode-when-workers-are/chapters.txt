@@ -1,0 +1,11 @@
+0:00 9 minutes vs 19 minutes
+0:15 How busy is busy?
+0:45 Why anyone waits at all
+1:09 The waiting-line formula
+1:56 The hockey stick curve
+2:15 Why 5% doubles the wait
+2:35 At 100% busy
+2:55 Randomness is the real cause
+3:22 Where engineers use this
+3:43 Three more customers an hour
+4:08 What to remember
