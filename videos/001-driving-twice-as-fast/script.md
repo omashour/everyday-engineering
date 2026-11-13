@@ -1,6 +1,6 @@
 # Driving Twice as Fast Is 4 Times More Dangerous
 
-Generated from scenes.yaml by `npm run tts-pack`. Edit scenes.yaml, not this file.
+Generated from scenes.yaml. Edit scenes.yaml, not this file.
 
 ### S01 · photo-overlay · ~0:00
 

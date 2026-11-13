@@ -8,6 +8,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "app": "node tools/app/server.mjs",
     "status": "node tools/status.mjs",
     "new-video": "node tools/new-video.mjs",
     "validate": "node tools/validate.mjs",

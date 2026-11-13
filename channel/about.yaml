@@ -1,6 +1,7 @@
 # Channel page text. Paste into YouTube Studio → Customization → Basic info.
 # `npm run branding` uses banner_line, banner_schedule and logo_variant.
 name: Everyday Engineering          # matches the channel name (banner updated to match)
+upload_day: null                    # e.g. Tuesday — replaces every [DAY] below (set it in the app's Settings)
 logo_variant: classic               # classic = current logo; sine = optional refresh (see branding/logo-sine.svg)
 banner_line: Math, physics and engineering, explained through the world around you
 banner_schedule: New videos every [DAY]   # ← set your upload day, then run `npm run branding`

@@ -64,6 +64,48 @@ test("captions keep the script's exact words, stay short and never overlap", asy
   assert.match(toSrt(cues), /^1\n00:00:00,\d{3} --> /);
 });
 
+test("pasted Claude answer splits into the five files (headings, paths, nested markdown fences)", async () => {
+  const { splitClaudeOutput } = await import("../lib/claudeparse.mjs");
+  const answer = [
+    "Here is the package.",
+    "",
+    "### `videos/002-every-scale/scenes.yaml`",
+    "```yaml",
+    "video:",
+    "  id: \"002\"",
+    "scenes: []",
+    "```",
+    "",
+    "**metadata.md**",
+    "",
+    "````markdown",
+    "**Title:** Every Scale",
+    "```text",
+    "not the end",
+    "```",
+    "````",
+    "",
+    "#### thumbnail.yaml",
+    "```yaml",
+    "variants: []",
+    "```",
+    "shorts.yaml:",
+    "```yaml",
+    "shorts: []",
+    "```",
+    "Mentioned scenes.yaml again here without a block.",
+    "### assets-needed.md",
+    "```markdown",
+    "None",
+    "```",
+  ].join("\n");
+  const f = splitClaudeOutput(answer);
+  assert.deepEqual(Object.keys(f).sort(), ["assets-needed.md", "metadata.md", "scenes.yaml", "shorts.yaml", "thumbnail.yaml"]);
+  assert.equal(f["scenes.yaml"], 'video:\n  id: "002"\nscenes: []');
+  assert.match(f["metadata.md"], /not the end\n```$/);
+  assert.equal(f["assets-needed.md"], "None");
+});
+
 test("draft timing is about 150 words per minute", () => {
   const { duration } = syntheticWords([{ say: Array(150).fill("word").join(" ") }]);
   assert.ok(duration > 55 && duration < 70);

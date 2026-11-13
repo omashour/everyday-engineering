@@ -12,10 +12,11 @@ import path from "node:path";
 import { P, brand as loadBrand, readYaml, ok, info, rel, parseArgs } from "./lib/core.mjs";
 import { logoSvg } from "./lib/logo.mjs";
 import { renderStill } from "./lib/still.mjs";
+import { aboutWithDay } from "./lib/uploadsheet.mjs";
 
 const args = parseArgs();
 const b = loadBrand();
-const about = readYaml(path.join(P.channel, "about.yaml"));
+const about = aboutWithDay();
 const dir = path.join(P.channel, "branding");
 const out = path.join(dir, "out");
 fs.mkdirSync(out, { recursive: true });

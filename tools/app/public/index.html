@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Everyday Engineering Studio</title>
+  <link rel="icon" href="/logo.svg" />
+  <link rel="stylesheet" href="/app.css" />
+</head>
+<body>
+  <header class="top">
+    <a href="#/" class="brand"><img src="/logo.svg" alt="" /><span>Everyday Engineering</span></a>
+    <nav>
+      <a href="#/">Videos</a>
+      <a href="#/settings">Settings</a>
+      <a href="https://claude.ai/projects" target="_blank" rel="noopener">Claude.ai ↗</a>
+      <a href="https://aistudio.google.com/" target="_blank" rel="noopener">Gemini ↗</a>
+      <a href="https://studio.youtube.com/" target="_blank" rel="noopener">YouTube Studio ↗</a>
+    </nav>
+  </header>
+  <main id="view"><p class="muted">Loading…</p></main>
+  <aside id="job" class="job hidden">
+    <div class="job-head"><span class="spin"></span><b id="job-title"></b><span id="job-step" class="muted"></span><button id="job-toggle" class="link">Details</button></div>
+    <pre id="job-log" class="hidden"></pre>
+  </aside>
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
