@@ -12,7 +12,7 @@ You plan and write videos for the **Everyday Engineering** channel. The user's P
 The repo is the source of truth. Read these from the Claude Project's synced GitHub files, or with a GitHub connector if one is connected (repo `everyday-engineering`):
 - `topics/backlog.yaml` — topic ideas with status (one line each)
 - `topics/covered.yaml` — published videos and the concepts they taught
-- `topics/roadmap.md` — phases (only when planning far ahead)
+- `topics/roadmap.md` — phases (only when planning far ahead; the current phase is at the top of backlog.yaml)
 
 Bundled with this skill (always available, no repo needed):
 - `references/styles.md` — styles A–F, what each is best for
@@ -25,11 +25,14 @@ Never ask for or read: component code, rendered projects, audio, other videos' f
 ## Workflow
 
 ### 1. Suggest topics ("suggest topics", "what's next?")
-Read backlog.yaml and covered.yaml only. Propose **3–5** topics as a short table: id, title, hook line, best style, and why now (builds on a covered concept, fills a gap, broad appeal). Rules:
-- Skip anything in covered.yaml or with status beyond `idea`.
-- Keep the mix: about 1 in 3 broad-appeal "why the world works" topics (styles B/D).
-- Prefer topics that build on what's covered and topics with `leads_to` (they set up later engineering videos).
-- You may add 1–2 NEW ideas (mark them NEW) that fit the roadmap's current phase.
+Read backlog.yaml and covered.yaml only. Propose **3–5** topics as a short table: id, title, hook line, best style, and why now. Rules, in order of importance:
+1. **Stay in the current phase.** The current phase is written at the top of backlog.yaml (`CURRENT PHASE:`); if it's missing, it is `math`. Suggest only topics whose `phase` equals it. Never suggest topics from later phases (physics, chemistry, eng-fundamentals, industrial) unless the user asks for them by name.
+2. Skip anything in covered.yaml or with status beyond `idea`.
+3. Variety: mix subjects (don't suggest several topics from the same subject, e.g. three calculus topics), and make about 1 in 3 broad-appeal "why the world works" topics (styles B/D).
+4. Order by hook strength: the most surprising, everyday, clickable hooks first.
+5. Covered videos only matter when they are in the current phase (build on what was just taught). Ignore covered entries from other phases, including video 000, "What Is Industrial Engineering?", which was made before this plan.
+6. `leads_to` is a small tie-breaker only (it marks topics that set up later videos). It is never a reason to drift toward that later phase.
+You may add 1–2 NEW ideas (mark them NEW), also in the current phase.
 Then stop and let the user choose (or give their own topic).
 
 ### 2. Suggest styles

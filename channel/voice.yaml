@@ -3,13 +3,9 @@ gemini:
   model: gemini-3.8-flash-tts
   # Voice not chosen yet. Try a few prebuilt voices in AI Studio with the style below
   # (e.g. Kore, Charon, Puck, Aoede…), then write the winner here and keep it for every video.
-  voice: null
+  voice: Cruz
   style: >-
-    A clear, warm, confident engineering teacher talking to one curious student.
-    Energetic and intriguing in the opening hook, then calm and steady for explanations.
-    Natural pace (about 150 words per minute), short pauses between sentences and a
-    longer pause between paragraphs. Emphasize the surprising number or result in each section.
-    Never rush through math.
+    A clear, warm, confident engineering teacher talking to one curious student. Energetic and intriguing in the opening hook, then calm and steady for explanations. Natural pace (about 150 words per minute), short pauses between sentences and a longer pause between paragraphs. Emphasize the surprising number or result in each section. Never rush through math.
   # Max words per recording chunk. Lower it if AI Studio cuts long text off.
   chunk_max_words: 280
 
@@ -22,8 +18,8 @@ pronounce:
   Laplace: la-PLAHSS
 
 transcription:
-  model: base.en      # used if Parakeet is not installed; HyperFrames picks Parakeet automatically when present
-  chunk_gap_s: 0.35   # silence inserted between joined chunks
+  model: base.en # used if Parakeet is not installed; HyperFrames picks Parakeet automatically when present
+  chunk_gap_s: 0.35 # silence inserted between joined chunks
 
 # Writing rules for narration (the skill follows these):
 rules:

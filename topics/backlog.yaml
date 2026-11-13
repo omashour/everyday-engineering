@@ -1,3 +1,7 @@
+# CURRENT PHASE: math
+#   Suggest only topics with phase: math until this line changes. Order of phases:
+#   math → physics → chemistry → eng-fundamentals → industrial (see topics/roadmap.md).
+#
 # Topic backlog. One entry per idea. The skill reads this (compact on purpose).
 # status: idea | scripted | recorded | built | published   (published entries move to covered.yaml)
 # styles: best body styles in order (A whiteboard, B real-world, C graph lab, D story, F problem solver)

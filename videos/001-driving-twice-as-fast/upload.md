@@ -2,9 +2,6 @@
 
 Copy each box into YouTube Studio.
 
-## ⚠ Check first
-- The description still says [DAY]: set your upload day (app → Settings, or upload_day in channel/about.yaml).
-
 ## Files
 - [x] Video: `renders/001-driving-twice-as-fast.mp4`
 - [x] Thumbnails (upload all for YouTube's A/B test: Thumbnail → Test & compare): `thumbnails/thumb-1.png`, `thumbnails/thumb-2.png`
@@ -16,7 +13,7 @@ Driving Twice as Fast Is 4 Times More Dangerous
 ```
 Alternates: Why Speeding Is Worse Than You Think (The Math) · The One Equation Every Road Engineer Knows
 
-## Description (704 characters)
+## Description (705 characters)
 ```text
 Double your speed and your braking distance doesn't double. It quadruples. Here's the one line of algebra behind it, d = v²/2a, and how engineers use it to set speed limits, sight distances and brake designs.
 
@@ -31,7 +28,7 @@ Chapters
 
 Assumes a deceleration of about 7 m/s² on a dry road and a 1.5 s reaction time; real values vary with tires, road and driver.
 
-New videos every [DAY]: math, physics and engineering, explained through everyday things.
+New videos every Friday: math, physics and engineering, explained through everyday things.
 Subscribe: https://www.youtube.com/@EverydayEngineeringExplained
 
 #engineering #math #EverydayEngineering
