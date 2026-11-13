@@ -15,6 +15,8 @@ import { ttsPack } from "../lib/ttspack.mjs";
 import { uploadSheet } from "../lib/uploadsheet.mjs";
 import { splitClaudeOutput, SCRIPT_FILES } from "../lib/claudeparse.mjs";
 import { missingAssets, creditPlaceholders } from "../lib/assets.mjs";
+import { PHASES, PHASE_LABEL, currentPhase, setCurrentPhase } from "../lib/topics.mjs";
+import { saveAndPush } from "../lib/git.mjs";
 import { backupConfig, setBackupFolder, suggestedFolders, filesSinceBackup, backupFolderProblem } from "../lib/backup.mjs";
 
 const PORT = Number(process.env.EE_PORT ?? 4317);
@@ -136,7 +138,7 @@ function settings() {
   const about = readYaml(path.join(P.channel, "about.yaml"), {});
   const s = readYaml(path.join(P.root, "settings.yaml"), {});
   const bk = backupConfig();
-  return { voice: voice.gemini?.voice ?? "", uploadDay: about.upload_day ?? "", autoPush: s?.git?.auto_push !== false, backup: { folder: bk.folder, last: bk.last, pending: filesSinceBackup(), suggestions: suggestedFolders() } };
+  return { voice: voice.gemini?.voice ?? "", uploadDay: about.upload_day ?? "", autoPush: s?.git?.auto_push !== false, phase: currentPhase(), phases: PHASES.map((id) => ({ id, label: PHASE_LABEL[id] })), backup: { folder: bk.folder, last: bk.last, pending: filesSinceBackup(), suggestions: suggestedFolders() } };
 }
 function setYamlKey(file, keyPath, value) {
   const doc = YAML.parseDocument(fs.readFileSync(file, "utf8"));
@@ -213,6 +215,10 @@ async function route(req, res) {
     if (typeof b.voice === "string") setYamlKey(path.join(P.channel, "voice.yaml"), ["gemini", "voice"], b.voice.trim() || null);
     if (typeof b.uploadDay === "string") setYamlKey(path.join(P.channel, "about.yaml"), ["upload_day"], b.uploadDay.trim() || null);
     if (typeof b.autoPush === "boolean") setYamlKey(path.join(P.root, "settings.yaml"), ["git", "auto_push"], b.autoPush);
+    if (typeof b.phase === "string" && b.phase !== currentPhase()) {
+      setCurrentPhase(b.phase);
+      saveAndPush(`Current phase: ${b.phase}`);
+    }
     if (typeof b.backupFolder === "string") {
       const f = b.backupFolder.trim();
       const problem = f && backupFolderProblem(f);

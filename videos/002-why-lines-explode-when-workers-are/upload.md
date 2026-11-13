@@ -46,7 +46,7 @@ queueing theory, waiting line, utilization, M/M/1 queue, Kingman formula, probab
 ```
 
 ## Settings
-- Playlist: **Math for Engineers**
+- Playlist: **Industrial Engineering**
 - Audience: **No, it's not made for kids**
 - Category: **Education**
 - Video language: **English**

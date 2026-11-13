@@ -105,7 +105,7 @@ async function renderHome() {
     <h2>Start a new video</h2>
     <p class="muted small">First ask Claude.ai (in your Everyday Engineering project) to <b>suggest topics</b>, pick one, then create it here.</p>
     <div class="row">
-      <select id="topic" class="grow"><option value="">Choose a topic from your list…</option>${s.topics.map((t) => `<option value="${esc(t.id)}">${esc(t.id)} — ${esc(t.title)}</option>`).join("")}</select>
+      <select id="topic" class="grow"><option value="">Choose a topic from your list…</option>${topicOptions(s)}</select>
       <span class="muted">or</span>
       <input id="own" class="grow" placeholder="Type your own title" />
       <button class="primary" id="create">Create video</button>
@@ -130,6 +130,16 @@ async function renderHome() {
       }
     } catch (e) { alert(e.message); }
   };
+}
+
+/** Topics of the current phase first; other phases in a separate group marked "later". */
+function topicOptions(s) {
+  const opt = (t) => `<option value="${esc(t.id)}">${esc(t.id)} — ${esc(t.title)}</option>`;
+  const label = Object.fromEntries(s.settings.phases.map((p) => [p.id, p.label]));
+  const cur = s.topics.filter((t) => (t.phase ?? "math") === s.settings.phase);
+  const later = s.topics.filter((t) => (t.phase ?? "math") !== s.settings.phase);
+  return `<optgroup label="Current phase: ${esc(label[s.settings.phase] ?? s.settings.phase)}">${cur.map(opt).join("")}</optgroup>`
+    + (later.length ? `<optgroup label="Other phases (not now)">${later.map((t) => opt({ ...t, title: `${t.title} [${t.phase}]` })).join("")}</optgroup>` : "");
 }
 
 // ------------------------------------------------------------------ backup
@@ -169,6 +179,9 @@ async function renderSettings() {
     <h3>Upload day</h3>
     <p class="muted small">Shown in every description ("New videos every …") and on the banner.</p>
     <select id="day">${["", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "Monday and Thursday", "Tuesday and Friday"].map((d) => `<option ${d === s.uploadDay ? "selected" : ""} value="${d}">${d || "Not set"}</option>`).join("")}</select>
+    <h3>Current phase</h3>
+    <p class="muted small">Claude suggests topics only from this phase, and the new-video list shows them first. Change it when you're ready to move on; it's saved to GitHub, then press Sync in your Claude.ai project.</p>
+    <select id="phase">${s.phases.map((p) => `<option value="${p.id}" ${p.id === s.phase ? "selected" : ""}>${esc(p.label)}</option>`).join("")}</select>
     <h3>GitHub</h3>
     <label class="row small"><input type="checkbox" id="push" ${s.autoPush ? "checked" : ""} /> Save progress to GitHub automatically (scripts and topic list only — never audio or videos)</label>
     <h3>Backup folder</h3>
@@ -189,7 +202,7 @@ async function renderSettings() {
   $("#bopen").onclick = () => api("POST", "/api/backup/open", {});
   $("#save").onclick = async () => {
     try {
-      await api("POST", "/api/settings", { voice: $("#voice").value, uploadDay: $("#day").value, autoPush: $("#push").checked, backupFolder: $("#bfolder").value });
+      await api("POST", "/api/settings", { voice: $("#voice").value, uploadDay: $("#day").value, autoPush: $("#push").checked, backupFolder: $("#bfolder").value, phase: $("#phase").value });
       toast("Settings saved");
       render();
     } catch (e) { alert(e.message); }

@@ -7,6 +7,21 @@ import { P } from "./core.mjs";
 const BACKLOG = path.join(P.topics, "backlog.yaml");
 const COVERED = path.join(P.topics, "covered.yaml");
 
+export const PHASES = ["math", "physics", "chemistry", "eng-fundamentals", "industrial"];
+export const PHASE_LABEL = { math: "Math (with engineering uses)", physics: "Physics", chemistry: "Chemistry", "eng-fundamentals": "Engineering problems, solved", industrial: "Industrial engineering" };
+
+/** The phase on the first line of backlog.yaml ("# CURRENT PHASE: math"); math if missing. */
+export function currentPhase() {
+  const m = fs.readFileSync(BACKLOG, "utf8").match(/^# CURRENT PHASE:\s*([\w-]+)/m);
+  return m && PHASES.includes(m[1]) ? m[1] : "math";
+}
+export function setCurrentPhase(phase) {
+  if (!PHASES.includes(phase)) throw Object.assign(new Error(`Unknown phase ${phase}`), { status: 400 });
+  const s = fs.readFileSync(BACKLOG, "utf8");
+  const line = `# CURRENT PHASE: ${phase}`;
+  fs.writeFileSync(BACKLOG, /^# CURRENT PHASE:.*$/m.test(s) ? s.replace(/^# CURRENT PHASE:.*$/m, line) : `${line}\n${s}`);
+}
+
 export function setTopicStatus(id, status, extra = {}) {
   const doc = YAML.parseDocument(fs.readFileSync(BACKLOG, "utf8"));
   const item = doc.contents.items.find((n) => n.get("id") === id);

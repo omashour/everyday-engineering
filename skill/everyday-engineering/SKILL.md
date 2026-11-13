@@ -26,13 +26,15 @@ Never ask for or read: component code, rendered projects, audio, other videos' f
 
 ### 1. Suggest topics ("suggest topics", "what's next?")
 Read backlog.yaml and covered.yaml only. Propose **3–5** topics as a short table: id, title, hook line, best style, and why now. Rules, in order of importance:
-1. **Stay in the current phase.** The current phase is written at the top of backlog.yaml (`CURRENT PHASE:`); if it's missing, it is `math`. Suggest only topics whose `phase` equals it. Never suggest topics from later phases (physics, chemistry, eng-fundamentals, industrial) unless the user asks for them by name.
+1. **Stay in the current phase.** The current phase is written at the top of backlog.yaml (`CURRENT PHASE:`); if it's missing, it is `math`. Suggest only topics whose `phase` equals it. Never suggest topics from other phases (math, physics, chemistry, eng-fundamentals, industrial) unless the user asks for them by name. When the phase changes, switch completely: nothing from the previous phase.
 2. Skip anything in covered.yaml or with status beyond `idea`.
 3. Variety: mix subjects (don't suggest several topics from the same subject, e.g. three calculus topics), and make about 1 in 3 broad-appeal "why the world works" topics (styles B/D).
 4. Order by hook strength: the most surprising, everyday, clickable hooks first.
 5. Covered videos only matter when they are in the current phase (build on what was just taught). Ignore covered entries from other phases, including video 000, "What Is Industrial Engineering?", which was made before this plan.
 6. `leads_to` is a small tie-breaker only (it marks topics that set up later videos). It is never a reason to drift toward that later phase.
 You may add 1–2 NEW ideas (mark them NEW), also in the current phase.
+
+**A topic's phase is its main discipline, not the math it uses.** Queueing and waiting lines, quality control and Six Sigma, production planning and linear programming for factories, reliability and maintenance, engineering economics (break-even, present value), scheduling, inventory, logistics and supply chains are **industrial** topics even though they use math. A **math** topic teaches a math idea through everyday things and general engineering (roads, buildings, bridges, machines, electronics, everyday objects). If a suggested or NEW topic would really belong to another phase, leave it out. When the user asks you to add ideas to the backlog, give each the right `phase`.
 Then stop and let the user choose (or give their own topic).
 
 ### 2. Suggest styles

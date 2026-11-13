@@ -1,6 +1,6 @@
 **Title:** Why Lines Explode When Workers Are Almost Busy
 **Alternates:** 5% Busier Means Twice the Wait · Why a 95% Busy Cashier Doubles Your Wait
-**Playlist:** math-for-engineers
+**Playlist:** industrial-engineering
 **Description:** A cashier who is busy 90% of the time gives an average wait of 9 minutes. Make her 95% busy and the wait jumps to 19. Just three more customers an hour doubles the line.
 
 In this video you'll learn what utilization is, the queueing formula Wq = ρ/(1−ρ) × service time, why the spare capacity (1−ρ) on the bottom makes the curve shoot up like a hockey stick, and why randomness, not laziness, is what creates lines (Kingman's formula).
