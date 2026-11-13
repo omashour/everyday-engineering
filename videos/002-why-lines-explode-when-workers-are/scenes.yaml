@@ -1,25 +1,276 @@
-# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 002`.
 video:
   id: "002"
   topic: T26
   title: "Why Lines Explode When Workers Are Almost Busy"
-  style: ""            # e.g. "B hook + A body"
+  style: "B hook + C body"
   playlist: math-for-engineers
-  voice_note: ""
-  pronounce: {}
+  phase: math
+  series: null
+  voice_note: "Land the jump from nine to nineteen minutes clearly each time it comes up."
+  pronounce: {rho: row, mu: myoo, Kingman: KING-man}
 
 scenes:
   - id: S01
-    component: title-card
-    chapter: "Intro"
+    component: photo-overlay
+    chapter: "9 minutes vs 19 minutes"
     say: >-
-      Replace me with the hook.
+      This cashier is busy ninety percent of the time. The average wait in her line
+      is nine minutes. Make her busy ninety five percent of the time, and the wait
+      jumps to nineteen. Here's why.
     params:
+      src: checkout.jpg
+      credit: "Photo: [author], [license] (see assets-needed.md)"
+      title: "5% busier → about 2× the wait"
+      shade: 0.35
+      overlays:
+        - {type: callout, pos: [20, 35], text: "Busy 90%: wait ≈ 9 min", side: left, cue: "nine minutes"}
+        - {type: box, pos: [40, 30], size: [55, 55], label: "the line", cue: "average wait"}
+        - {type: callout, pos: [62, 20], text: "Busy 95%: wait ≈ 19 min", side: right, cue: "jumps to nineteen"}
+        - {type: label, pos: [50, 92], text: "Assumes 1 min per customer, random arrivals"}
+
+  - id: S02
+    component: title-card
+    say: >-
+      It's one of the most useful equations in engineering, and it starts with a simple question.
+    params:
+      kicker: "Everyday Engineering · Probability"
       title: "Why Lines Explode When Workers Are Almost Busy"
 
-  - id: S99
+  - id: S03
+    component: equation-steps
+    chapter: "How busy is busy?"
+    say: >-
+      Start with two numbers. The first is how fast customers arrive. Say fifty four
+      people join the line every hour. Engineers call this the arrival rate, lambda.
+      The second is how fast the cashier can serve them. On average she takes one minute
+      per customer, so she can serve sixty an hour. That's the service rate, mu.
+      Divide the first by the second and you get the utilization, rho.
+      Fifty four over sixty is zero point nine. She's busy ninety percent of the time,
+      and free the other ten.
+    params:
+      heading: "How busy is the cashier?"
+      figure_side: left
+      figure:
+        view: [1000, 520]
+        items:
+          - {type: arrow, from: [40, 260], to: [150, 260], label: "$\\lambda$", color: blue, cue: "how fast customers arrive"}
+          - {type: circle, pos: [210, 260], r: 28, fill: blue, cue: "join the line"}
+          - {type: circle, pos: [290, 260], r: 28, fill: blue}
+          - {type: circle, pos: [370, 260], r: 28, fill: blue}
+          - {type: circle, pos: [450, 260], r: 28, fill: blue}
+          - {type: rect, pos: [540, 180], size: [200, 160], fill: marker, label: "cashier", cue: "serve them"}
+          - {type: arrow, from: [760, 260], to: [940, 260], label: "$\\mu$", color: red, cue: "sixty an hour"}
+      lines:
+        - {tex: "\\lambda = 54 \\text{ customers/hour}", cue: "arrival rate"}
+        - {tex: "\\mu = 60 \\text{ customers/hour}", cue: "service rate"}
+        - {tex: "\\rho = \\dfrac{\\lambda}{\\mu}", cue: "utilization"}
+        - {tex: "\\rho = \\dfrac{54}{60} = 0.90", mark: true, box: true, note: "busy 90%", cue: "Fifty four over sixty"}
+
+  - id: S04
+    component: diagram
+    chapter: "Why anyone waits at all"
+    say: >-
+      Here's a puzzle. If she's free ten percent of the time, why is there a line at all?
+      Because customers don't arrive on a schedule. If one person showed up exactly every
+      sixty seven seconds, nobody would ever wait. But real customers arrive at random.
+      Sometimes three walk up at once. Sometimes nobody comes for minutes. The bursts
+      build a line. The quiet gaps are idle time she can never get back.
+    params:
+      heading: "Same number of customers, different timing"
+      view: [1000, 600]
+      items:
+        - {type: text, pos: [120, 110], text: "Scheduled: nobody waits", color: green, cue: "on a schedule"}
+        - {type: line, from: [120, 180], to: [960, 180], color: muted}
+        - {type: circle, pos: [180, 180], r: 16, fill: green, cue: "sixty seven seconds"}
+        - {type: circle, pos: [300, 180], r: 16, fill: green}
+        - {type: circle, pos: [420, 180], r: 16, fill: green}
+        - {type: circle, pos: [540, 180], r: 16, fill: green}
+        - {type: circle, pos: [660, 180], r: 16, fill: green}
+        - {type: circle, pos: [780, 180], r: 16, fill: green}
+        - {type: circle, pos: [900, 180], r: 16, fill: green}
+        - {type: text, pos: [120, 350], text: "Random: lines form", color: red, cue: "arrive at random"}
+        - {type: line, from: [120, 420], to: [960, 420], color: muted}
+        - {type: circle, pos: [190, 420], r: 16, fill: red, cue: "three walk up"}
+        - {type: circle, pos: [215, 420], r: 16, fill: red}
+        - {type: circle, pos: [240, 420], r: 16, fill: red}
+        - {type: circle, pos: [430, 420], r: 16, fill: red}
+        - {type: circle, pos: [500, 420], r: 16, fill: red}
+        - {type: circle, pos: [525, 420], r: 16, fill: red}
+        - {type: circle, pos: [900, 420], r: 16, fill: red}
+        - {type: text, pos: [215, 490], text: "line builds!", hand: true, color: red, anchor: middle, cue: "build a line"}
+        - {type: dim, from: [545, 470], to: [880, 470], label: "idle", cue: "quiet gaps"}
+
+  - id: S05
+    component: equation-steps
+    chapter: "The waiting-line formula"
+    say: >-
+      Queueing theory turns this into one formula. For one cashier, with random arrivals
+      and random service times, the average wait in line is rho over one minus rho,
+      times the average service time. Look at the bottom of that fraction. One minus rho
+      is the spare capacity. It's the share of time she's free. At ninety percent busy,
+      the spare capacity is zero point one. Nine tenths divided by one tenth is nine.
+      Times one minute, that's a nine minute wait.
+    params:
+      heading: "Average wait in line"
+      lines:
+        - {text: "One server, random arrivals and service", cue: "For one cashier"}
+        - {tex: "W_q = \\dfrac{\\rho}{1-\\rho} \\times t_s", mark: true, cue: "rho over one minus rho"}
+        - {tex: "1-\\rho = \\text{spare capacity}", circle: true, cue: "Look at the bottom"}
+        - {tex: "W_q = \\dfrac{0.9}{0.1} \\times 1 \\text{ min}", cue: "Nine tenths"}
+        - {tex: "W_q = 9 \\text{ min}", box: true, cue: "nine minute wait"}
+
+  - id: S06
+    component: table
+    say: >-
+      Now run the same formula for other levels of busy. At fifty percent busy, the wait
+      is one minute. Seventy five percent gives three minutes. Eighty percent gives four.
+      Ninety percent, nine minutes. Ninety five percent, nineteen minutes. And at
+      ninety nine percent busy, the average wait is ninety nine minutes.
+    params:
+      heading: "Average wait, 1 minute per customer"
+      headers: ["Cashier busy", "Spare capacity", "Average wait"]
+      rows:
+        - ["50%", "50%", "1 min"]
+        - ["75%", "25%", "3 min"]
+        - ["80%", "20%", "4 min"]
+        - ["90%", "10%", "9 min"]
+        - ["95%", "5%", "19 min"]
+        - ["99%", "1%", "99 min"]
+      row_cues: ["fifty percent busy", "Seventy five percent", "Eighty percent", "Ninety percent", "Ninety five percent", "ninety nine percent busy"]
+      highlight: {row: 4, col: 2, cue: "nineteen minutes"}
+
+  - id: S07
+    component: graph
+    chapter: "The hockey stick curve"
+    say: >-
+      Plot it and you get this curve. For a long time it barely rises. Going from zero
+      to seventy percent busy adds only a little over two minutes of waiting. Then the
+      curve bends upward, and past ninety percent it shoots almost straight up. It looks
+      like a hockey stick. Every extra percent of busy costs more waiting than the one before.
+    params:
+      x_range: [0, 100]
+      y_range: [0, 40]
+      x_label: "cashier busy (%)"
+      y_label: "average wait (min)"
+      functions:
+        - {expr: "(x/100)/(1-x/100)", from: 0, to: 97.5, label: "$W_q = \\frac{\\rho}{1-\\rho}$", cue: "this curve"}
+      tracer: {expr: "(x/100)/(1-x/100)", from: 0, to: 97, cue: "barely rises", duration: 8}
+      points:
+        - {x: 70, y: 2.33, label: "70% → 2.3 min", cue: "seventy percent busy"}
+        - {x: 90, y: 9, label: "9 min", cue: "past ninety percent"}
+        - {x: 95, y: 19, label: "19 min", cue: "straight up"}
+
+  - id: S08
+    component: equation-steps
+    chapter: "Why 5% doubles the wait"
+    say: >-
+      So why does going from ninety to ninety five percent double the wait? Look at the
+      spare capacity again. At ninety percent, she's free ten percent of the time.
+      At ninety five, only five percent. You've cut her spare time in half, and the spare
+      time sits on the bottom of the fraction. Halve the bottom, and you roughly double
+      the answer. Nine minutes becomes nineteen.
+    params:
+      heading: "Halve the spare time, double the wait"
+      size: l
+      lines:
+        - {tex: "\\rho = 0.90: \\quad \\dfrac{0.90}{0.10} = 9 \\text{ min}", cue: "free ten percent"}
+        - {tex: "\\rho = 0.95: \\quad \\dfrac{0.95}{0.05} = 19 \\text{ min}", circle: true, circle_cue: "cut her spare time", cue: "only five percent"}
+        - {text: "Spare time halved → wait about doubled", mark: true, box: true, cue: "Nine minutes becomes"}
+
+  - id: S09
+    component: big-fact
+    chapter: "At 100% busy"
+    say: >-
+      And what if she's busy one hundred percent of the time, with customers arriving
+      exactly as fast as she can serve them? The spare capacity is zero, and you'd be
+      dividing by zero. In practice, the line never settles down. Every random burst adds
+      people, and there's no quiet time to clear them. On average, the line just keeps growing.
+    params:
+      label: "Busy 100% of the time"
+      value: "∞"
+      sub: "the line never clears"
+      cue: "dividing by zero"
+
+  - id: S10
+    component: equation-steps
+    chapter: "Randomness is the real cause"
+    say: >-
+      Notice what causes all this. Randomness. A more general version, called Kingman's
+      formula, adds a variability factor. It measures how unpredictable the arrivals and
+      service times are. Fully random, like our cashier, the factor is one. Make everything
+      perfectly regular, and it drops to zero, and so does the wait. That's why engineers
+      fight variability. Appointment slots, scheduled deliveries and standard work all
+      shorten a line without hiring anyone.
+    params:
+      heading: "Randomness is the real cause"
+      lines:
+        - {tex: "W_q \\approx \\dfrac{\\rho}{1-\\rho} \\times \\dfrac{c_a^2 + c_s^2}{2} \\times t_s", mark: true, cue: "Kingman's formula"}
+        - {text: "$c_a, c_s$ = how unpredictable", note: "variability", cue: "how unpredictable"}
+        - {tex: "\\text{fully random: } \\dfrac{1^2 + 1^2}{2} = 1", cue: "Fully random"}
+        - {tex: "\\text{perfectly regular: } \\dfrac{0^2 + 0^2}{2} = 0", box: true, cue: "perfectly regular"}
+
+  - id: S11
+    component: bullets
+    chapter: "Where engineers use this"
+    say: >-
+      This one curve shapes a lot of design decisions. Call centers use queueing math like
+      this to decide how many agents to staff. Hospitals keep spare beds, because a full
+      ward means long waits for the next patient. Computer servers slow to a crawl as they
+      near full load. And in factories, a machine that's almost always busy piles up
+      unfinished parts in front of it.
+    params:
+      heading: "Where the curve shows up"
+      items:
+        - {text: "Call centers: how many agents", icon: headset, cue: "Call centers"}
+        - {text: "Hospitals: keep spare beds", icon: building-hospital, cue: "spare beds"}
+        - {text: "Servers: slow near full load", icon: server, cue: "Computer servers"}
+        - {text: "Factories: unfinished parts pile up", icon: building-factory, cue: "in factories"}
+
+  - id: S12
+    component: graph
+    chapter: "Three more customers an hour"
+    say: >-
+      Three more customers an hour can double your wait in line. This cashier can serve
+      sixty customers an hour. With thirty arriving each hour, the average wait is one
+      minute. With fifty four, it's nine. Add just three more, to fifty seven, and the
+      wait jumps to nineteen minutes. On the manager's spreadsheet, that's a better day.
+      Less idle time, lower cost per customer. For the people in line, it's twice the wait.
+    params:
+      heading: "Same cashier, 1 minute per customer"
+      x_range: [0, 60]
+      y_range: [0, 40]
+      x_label: "customers arriving per hour"
+      y_label: "average wait (min)"
+      functions:
+        - {expr: "x/(60-x)", from: 0, to: 58.5, color: blue, cue: "sixty customers an hour"}
+      vlines:
+        - {x: 60, label: "capacity: 60/hour"}
+      points:
+        - {x: 30, y: 1, label: "1 min", cue: "thirty arriving"}
+        - {x: 54, y: 9, label: "9 min", cue: "With fifty four"}
+        - {x: 57, y: 19, label: "19 min", cue: "fifty seven"}
+      side:
+        - {tex: "+3 \\text{ customers/hour} \\Rightarrow 2\\times \\text{ wait}", cue: "twice the wait"}
+
+  - id: S13
+    component: bullets
+    chapter: "What to remember"
+    say: >-
+      So here's what to remember. Waiting time depends on spare capacity, not on how busy
+      things look. The last few percent of busy are the most expensive. And there are two
+      ways to shorten a line. Add capacity, or remove randomness. Next time you're stuck in
+      a slow line, look at the cashier. If she never gets a break, now you know why.
+    params:
+      heading: "Remember"
+      items:
+        - {text: "Wait depends on ==spare capacity==", icon: hourglass, cue: "depends on spare capacity"}
+        - {text: "The last few percent cost most", icon: trending-up, cue: "last few percent"}
+        - {text: "Fix: add capacity or cut randomness", icon: tool, cue: "two ways"}
+
+  - id: S14
     component: end-card
     say: >-
-      See you in the next one.
+      Next time, why ten parts that each work ninety nine percent of the time make a
+      machine that fails almost one time in ten. See you there.
     params:
-      line: ""
+      line: "Next: why 99% reliable parts aren't enough"

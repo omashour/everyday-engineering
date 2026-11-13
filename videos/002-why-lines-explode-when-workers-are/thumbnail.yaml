@@ -1,9 +1,10 @@
 variants:
   - template: equation
-    text: ""
-    highlight: []
-    tex: ""
+    text: "5% BUSIER = 2× WAIT"
+    highlight: ["2×"]
+    tex: "W_q = \\frac{\\rho}{1-\\rho}"
+    note: "watch the bottom!"
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: checkout.jpg
+    text: "Why Your Line Takes Forever"
+    highlight: ["Forever"]

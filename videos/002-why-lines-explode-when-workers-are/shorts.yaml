@@ -1,5 +1,11 @@
 shorts:
-  - title: ""
-    hook: ""
-    scenes: []
+  - title: "Why 5% busier means twice the wait #shorts"
+    hook: "5% busier = 2× the wait?!"
+    scenes: [S01, S08]
     end: "Full video on the channel"
+    description: "A cashier busy 90% of the time: 9-minute wait. At 95%: 19 minutes. The reason is one fraction.\n\nFull video: [paste the main video's link]"
+  - title: "3 more customers an hour doubles the line #shorts"
+    hook: "+3 customers = 2× the wait"
+    scenes: [S12]
+    end: "Full video on the channel"
+    description: "Going from 54 to 57 customers an hour takes the average wait from 9 to 19 minutes. Here's the curve.\n\nFull video: [paste the main video's link]"
