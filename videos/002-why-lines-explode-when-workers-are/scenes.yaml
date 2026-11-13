@@ -1,0 +1,25 @@
+# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 002`.
+video:
+  id: "002"
+  topic: T26
+  title: "Why Lines Explode When Workers Are Almost Busy"
+  style: ""            # e.g. "B hook + A body"
+  playlist: math-for-engineers
+  voice_note: ""
+  pronounce: {}
+
+scenes:
+  - id: S01
+    component: title-card
+    chapter: "Intro"
+    say: >-
+      Replace me with the hook.
+    params:
+      title: "Why Lines Explode When Workers Are Almost Busy"
+
+  - id: S99
+    component: end-card
+    say: >-
+      See you in the next one.
+    params:
+      line: ""
