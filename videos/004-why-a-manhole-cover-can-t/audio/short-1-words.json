@@ -1,0 +1,437 @@
+[
+  {
+    "text": "A",
+    "start": 0.16,
+    "end": 0.32
+  },
+  {
+    "text": "thin",
+    "start": 0.32,
+    "end": 0.64
+  },
+  {
+    "text": "square",
+    "start": 0.72,
+    "end": 1.12
+  },
+  {
+    "text": "manhole",
+    "start": 1.12,
+    "end": 1.84
+  },
+  {
+    "text": "cover",
+    "start": 1.84,
+    "end": 2.16
+  },
+  {
+    "text": "can",
+    "start": 2.16,
+    "end": 2.4
+  },
+  {
+    "text": "fall",
+    "start": 2.4,
+    "end": 2.64
+  },
+  {
+    "text": "into",
+    "start": 2.64,
+    "end": 2.8
+  },
+  {
+    "text": "its",
+    "start": 2.8,
+    "end": 2.96
+  },
+  {
+    "text": "own",
+    "start": 2.96,
+    "end": 3.2
+  },
+  {
+    "text": "hole.",
+    "start": 3.2,
+    "end": 3.84
+  },
+  {
+    "text": "A",
+    "start": 3.84,
+    "end": 4
+  },
+  {
+    "text": "round",
+    "start": 4,
+    "end": 4.48
+  },
+  {
+    "text": "one",
+    "start": 4.48,
+    "end": 4.72
+  },
+  {
+    "text": "never",
+    "start": 4.88,
+    "end": 5.28
+  },
+  {
+    "text": "can.",
+    "start": 5.28,
+    "end": 5.92
+  },
+  {
+    "text": "Here's",
+    "start": 5.92,
+    "end": 6.4
+  },
+  {
+    "text": "why.",
+    "start": 6.4,
+    "end": 6.96
+  },
+  {
+    "text": "The",
+    "start": 6.96,
+    "end": 7.2
+  },
+  {
+    "text": "longest",
+    "start": 7.2,
+    "end": 7.68
+  },
+  {
+    "text": "line",
+    "start": 7.68,
+    "end": 8
+  },
+  {
+    "text": "across",
+    "start": 8,
+    "end": 8.32
+  },
+  {
+    "text": "a",
+    "start": 8.32,
+    "end": 8.48
+  },
+  {
+    "text": "square",
+    "start": 8.48,
+    "end": 8.88
+  },
+  {
+    "text": "is",
+    "start": 8.88,
+    "end": 9.04
+  },
+  {
+    "text": "its",
+    "start": 9.04,
+    "end": 9.28
+  },
+  {
+    "text": "diagonal,",
+    "start": 9.28,
+    "end": 10.08
+  },
+  {
+    "text": "about",
+    "start": 10.08,
+    "end": 10.32
+  },
+  {
+    "text": "one",
+    "start": 10.32,
+    "end": 10.48
+  },
+  {
+    "text": "point",
+    "start": 10.64,
+    "end": 10.88
+  },
+  {
+    "text": "four",
+    "start": 10.88,
+    "end": 11.2
+  },
+  {
+    "text": "one",
+    "start": 11.2,
+    "end": 11.28
+  },
+  {
+    "text": "times",
+    "start": 11.52,
+    "end": 11.76
+  },
+  {
+    "text": "the",
+    "start": 11.76,
+    "end": 11.92
+  },
+  {
+    "text": "side.",
+    "start": 11.92,
+    "end": 12.64
+  },
+  {
+    "text": "Tip",
+    "start": 12.64,
+    "end": 12.96
+  },
+  {
+    "text": "a",
+    "start": 13.12,
+    "end": 13.2
+  },
+  {
+    "text": "thin",
+    "start": 13.2,
+    "end": 13.52
+  },
+  {
+    "text": "square",
+    "start": 13.52,
+    "end": 13.84
+  },
+  {
+    "text": "cover",
+    "start": 13.84,
+    "end": 14.16
+  },
+  {
+    "text": "on",
+    "start": 14.16,
+    "end": 14.32
+  },
+  {
+    "text": "its",
+    "start": 14.32,
+    "end": 14.48
+  },
+  {
+    "text": "edge,",
+    "start": 14.48,
+    "end": 14.88
+  },
+  {
+    "text": "line",
+    "start": 14.88,
+    "end": 15.2
+  },
+  {
+    "text": "it",
+    "start": 15.2,
+    "end": 15.28
+  },
+  {
+    "text": "up",
+    "start": 15.28,
+    "end": 15.44
+  },
+  {
+    "text": "with",
+    "start": 15.44,
+    "end": 15.52
+  },
+  {
+    "text": "the",
+    "start": 15.52,
+    "end": 15.6
+  },
+  {
+    "text": "open's",
+    "start": 15.6,
+    "end": 16.08
+  },
+  {
+    "text": "diagonal,",
+    "start": 16.08,
+    "end": 16.8
+  },
+  {
+    "text": "and",
+    "start": 16.8,
+    "end": 17.04
+  },
+  {
+    "text": "it",
+    "start": 17.28,
+    "end": 17.44
+  },
+  {
+    "text": "slips",
+    "start": 17.44,
+    "end": 18
+  },
+  {
+    "text": "through.",
+    "start": 18,
+    "end": 18.64
+  },
+  {
+    "text": "A",
+    "start": 18.64,
+    "end": 18.88
+  },
+  {
+    "text": "circle",
+    "start": 18.88,
+    "end": 19.36
+  },
+  {
+    "text": "is",
+    "start": 19.36,
+    "end": 19.52
+  },
+  {
+    "text": "the",
+    "start": 19.52,
+    "end": 19.68
+  },
+  {
+    "text": "same",
+    "start": 19.68,
+    "end": 19.92
+  },
+  {
+    "text": "width",
+    "start": 19.92,
+    "end": 20.32
+  },
+  {
+    "text": "in",
+    "start": 20.32,
+    "end": 20.48
+  },
+  {
+    "text": "every",
+    "start": 20.48,
+    "end": 20.8
+  },
+  {
+    "text": "direction.",
+    "start": 20.8,
+    "end": 21.68
+  },
+  {
+    "text": "Put",
+    "start": 21.68,
+    "end": 21.92
+  },
+  {
+    "text": "a",
+    "start": 21.92,
+    "end": 22.08
+  },
+  {
+    "text": "sixty",
+    "start": 22.08,
+    "end": 22.48
+  },
+  {
+    "text": "centimeter",
+    "start": 22.48,
+    "end": 23.04
+  },
+  {
+    "text": "round",
+    "start": 23.04,
+    "end": 23.28
+  },
+  {
+    "text": "cover",
+    "start": 23.28,
+    "end": 23.52
+  },
+  {
+    "text": "on",
+    "start": 23.52,
+    "end": 23.6
+  },
+  {
+    "text": "a",
+    "start": 23.6,
+    "end": 23.76
+  },
+  {
+    "text": "fifty",
+    "start": 23.76,
+    "end": 24
+  },
+  {
+    "text": "six",
+    "start": 24,
+    "end": 24.24
+  },
+  {
+    "text": "centimeter",
+    "start": 24.24,
+    "end": 24.8
+  },
+  {
+    "text": "opening,",
+    "start": 24.8,
+    "end": 25.28
+  },
+  {
+    "text": "and",
+    "start": 25.28,
+    "end": 25.44
+  },
+  {
+    "text": "there's",
+    "start": 25.44,
+    "end": 25.68
+  },
+  {
+    "text": "no",
+    "start": 25.68,
+    "end": 25.84
+  },
+  {
+    "text": "gap",
+    "start": 25.84,
+    "end": 26.24
+  },
+  {
+    "text": "wide",
+    "start": 26.24,
+    "end": 26.48
+  },
+  {
+    "text": "enough.",
+    "start": 26.48,
+    "end": 27.04
+  },
+  {
+    "text": "The",
+    "start": 27.04,
+    "end": 27.2
+  },
+  {
+    "text": "full",
+    "start": 27.2,
+    "end": 27.44
+  },
+  {
+    "text": "video",
+    "start": 27.44,
+    "end": 27.6
+  },
+  {
+    "text": "has",
+    "start": 27.76,
+    "end": 27.92
+  },
+  {
+    "text": "the",
+    "start": 27.92,
+    "end": 28
+  },
+  {
+    "text": "geometry.",
+    "start": 28,
+    "end": 28.64
+  }
+]

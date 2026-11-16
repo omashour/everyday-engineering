@@ -1,0 +1,392 @@
+[
+  {
+    "text": "This",
+    "start": 0.24,
+    "end": 0.48
+  },
+  {
+    "text": "curved",
+    "start": 0.48,
+    "end": 1.04
+  },
+  {
+    "text": "triangle",
+    "start": 1.04,
+    "end": 1.68
+  },
+  {
+    "text": "is",
+    "start": 1.76,
+    "end": 2
+  },
+  {
+    "text": "as",
+    "start": 2,
+    "end": 2.24
+  },
+  {
+    "text": "wide",
+    "start": 2.24,
+    "end": 2.56
+  },
+  {
+    "text": "as",
+    "start": 2.56,
+    "end": 2.8
+  },
+  {
+    "text": "a",
+    "start": 2.8,
+    "end": 2.96
+  },
+  {
+    "text": "circle",
+    "start": 2.96,
+    "end": 3.44
+  },
+  {
+    "text": "in",
+    "start": 3.44,
+    "end": 3.68
+  },
+  {
+    "text": "every",
+    "start": 3.68,
+    "end": 4
+  },
+  {
+    "text": "direction.",
+    "start": 4,
+    "end": 4.96
+  },
+  {
+    "text": "Draw",
+    "start": 4.96,
+    "end": 5.36
+  },
+  {
+    "text": "an",
+    "start": 5.36,
+    "end": 5.52
+  },
+  {
+    "text": "equilateral",
+    "start": 5.52,
+    "end": 6.32
+  },
+  {
+    "text": "triangle,",
+    "start": 6.32,
+    "end": 6.88
+  },
+  {
+    "text": "then",
+    "start": 6.88,
+    "end": 7.04
+  },
+  {
+    "text": "from",
+    "start": 7.2,
+    "end": 7.36
+  },
+  {
+    "text": "each",
+    "start": 7.36,
+    "end": 7.68
+  },
+  {
+    "text": "corner",
+    "start": 7.68,
+    "end": 8
+  },
+  {
+    "text": "draw",
+    "start": 8.16,
+    "end": 8.48
+  },
+  {
+    "text": "an",
+    "start": 8.48,
+    "end": 8.64
+  },
+  {
+    "text": "arc",
+    "start": 8.64,
+    "end": 9.12
+  },
+  {
+    "text": "joining",
+    "start": 9.12,
+    "end": 9.6
+  },
+  {
+    "text": "the",
+    "start": 9.6,
+    "end": 9.68
+  },
+  {
+    "text": "other",
+    "start": 9.68,
+    "end": 9.92
+  },
+  {
+    "text": "two.",
+    "start": 9.92,
+    "end": 10.56
+  },
+  {
+    "text": "Squeeze",
+    "start": 10.56,
+    "end": 11.04
+  },
+  {
+    "text": "it",
+    "start": 11.04,
+    "end": 11.2
+  },
+  {
+    "text": "between",
+    "start": 11.2,
+    "end": 11.52
+  },
+  {
+    "text": "two",
+    "start": 11.52,
+    "end": 11.68
+  },
+  {
+    "text": "plates,",
+    "start": 11.68,
+    "end": 12.24
+  },
+  {
+    "text": "and",
+    "start": 12.24,
+    "end": 12.4
+  },
+  {
+    "text": "the",
+    "start": 12.4,
+    "end": 12.56
+  },
+  {
+    "text": "gap",
+    "start": 12.56,
+    "end": 13.04
+  },
+  {
+    "text": "never",
+    "start": 13.04,
+    "end": 13.44
+  },
+  {
+    "text": "changes.",
+    "start": 13.44,
+    "end": 14.4
+  },
+  {
+    "text": "It's",
+    "start": 14.4,
+    "end": 14.64
+  },
+  {
+    "text": "called",
+    "start": 14.64,
+    "end": 14.88
+  },
+  {
+    "text": "a",
+    "start": 14.88,
+    "end": 15.04
+  },
+  {
+    "text": "relot",
+    "start": 15.04,
+    "end": 15.6
+  },
+  {
+    "text": "triangle.",
+    "start": 15.68,
+    "end": 16.48
+  },
+  {
+    "text": "San",
+    "start": 16.48,
+    "end": 16.8
+  },
+  {
+    "text": "Francisco",
+    "start": 16.8,
+    "end": 17.36
+  },
+  {
+    "text": "uses",
+    "start": 17.36,
+    "end": 17.68
+  },
+  {
+    "text": "it",
+    "start": 17.68,
+    "end": 17.84
+  },
+  {
+    "text": "for",
+    "start": 17.84,
+    "end": 18
+  },
+  {
+    "text": "some",
+    "start": 18,
+    "end": 18.24
+  },
+  {
+    "text": "small",
+    "start": 18.24,
+    "end": 18.56
+  },
+  {
+    "text": "water",
+    "start": 18.56,
+    "end": 18.88
+  },
+  {
+    "text": "valve",
+    "start": 18.88,
+    "end": 19.36
+  },
+  {
+    "text": "covers,",
+    "start": 19.36,
+    "end": 19.92
+  },
+  {
+    "text": "and",
+    "start": 19.92,
+    "end": 20.08
+  },
+  {
+    "text": "Britain's",
+    "start": 20.08,
+    "end": 20.56
+  },
+  {
+    "text": "twenty",
+    "start": 20.56,
+    "end": 20.8
+  },
+  {
+    "text": "and",
+    "start": 20.96,
+    "end": 21.12
+  },
+  {
+    "text": "fifty",
+    "start": 21.12,
+    "end": 21.44
+  },
+  {
+    "text": "pence",
+    "start": 21.44,
+    "end": 21.76
+  },
+  {
+    "text": "coins",
+    "start": 21.84,
+    "end": 22.16
+  },
+  {
+    "text": "are",
+    "start": 22.16,
+    "end": 22.32
+  },
+  {
+    "text": "seven",
+    "start": 22.32,
+    "end": 22.56
+  },
+  {
+    "text": "sided",
+    "start": 22.64,
+    "end": 23.04
+  },
+  {
+    "text": "cousins,",
+    "start": 23.04,
+    "end": 23.68
+  },
+  {
+    "text": "so",
+    "start": 23.68,
+    "end": 23.92
+  },
+  {
+    "text": "machines",
+    "start": 23.92,
+    "end": 24.32
+  },
+  {
+    "text": "measure",
+    "start": 24.32,
+    "end": 24.64
+  },
+  {
+    "text": "them",
+    "start": 24.64,
+    "end": 24.8
+  },
+  {
+    "text": "the",
+    "start": 24.8,
+    "end": 24.88
+  },
+  {
+    "text": "same",
+    "start": 24.88,
+    "end": 25.12
+  },
+  {
+    "text": "however",
+    "start": 25.2,
+    "end": 25.52
+  },
+  {
+    "text": "they're",
+    "start": 25.52,
+    "end": 25.76
+  },
+  {
+    "text": "turned.",
+    "start": 25.76,
+    "end": 26.48
+  },
+  {
+    "text": "The",
+    "start": 26.48,
+    "end": 26.64
+  },
+  {
+    "text": "full",
+    "start": 26.64,
+    "end": 26.96
+  },
+  {
+    "text": "video",
+    "start": 26.96,
+    "end": 27.28
+  },
+  {
+    "text": "shows",
+    "start": 27.28,
+    "end": 27.52
+  },
+  {
+    "text": "the",
+    "start": 27.52,
+    "end": 27.6
+  },
+  {
+    "text": "math.",
+    "start": 27.6,
+    "end": 28
+  }
+]
