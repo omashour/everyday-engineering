@@ -7,6 +7,7 @@ Generated from scenes.yaml.
 - **Voice:** Cruz
 - **Language:** English
 - **Chunks:** 4 (about 280 words max each, split at scene boundaries)
+- **Shorts:** 2 separate recordings (short-1.wav …)
 
 ## How to record
 1. Open the Gemini speech generation page in Google AI Studio and pick the model and voice above.
@@ -78,4 +79,24 @@ So why aren't all manhole covers Reuleaux triangles? Because not falling in is o
 So here's the principle. A rigid round cover can't pass through a smaller round opening, because its diameter is bigger than the opening's, however you turn it. A square doesn't get that protection. Its diagonal is about one point four one times its side, which can open a route through. And the Reuleaux triangle shows that constant width isn't just for circles. That's the clever idea behind the round cover on your street.
 
 If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+```
+
+## Short 1 (Why manhole covers are round #shorts) → save as `audio/short-1.wav`
+Its own recording · 87 words · about 0:35. Same voice and style, with a little more energy.
+
+```text
+A thin square manhole cover can fall into its own hole. A round one never can. Here's why.
+
+The longest line across a square is its diagonal, about one point four one times the side. Tip a thin square cover on its edge, line it up with the opening's diagonal, and it slips through.
+
+A circle is the same width in every direction. Put a sixty centimeter round cover on a fifty six centimeter opening, and there's no gap wide enough. The full video has the geometry.
+```
+
+## Short 2 (This shape has constant width too #shorts) → save as `audio/short-2.wav`
+Its own recording · 78 words · about 0:31. Same voice and style, with a little more energy.
+
+```text
+This curved triangle is as wide as a circle in every direction. Draw an equilateral triangle, then from each corner draw an arc joining the other two. Squeeze it between two plates, and the gap never changes.
+
+It's called a Reuleaux triangle. San Francisco uses it for some small water-valve covers. And Britain's twenty and fifty pence coins are seven-sided cousins, so machines measure them the same however they're turned. The full video shows the math.
 ```

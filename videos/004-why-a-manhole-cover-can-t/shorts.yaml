@@ -1,11 +1,76 @@
 shorts:
   - title: "Why manhole covers are round #shorts"
     hook: "Why manhole covers are round"
-    scenes: [S01, S05]
     end: "Full video on the channel"
     description: "A thin square cover tipped on its edge can pass along the opening's diagonal. A round cover is the same width in every direction, so it can't fit through a smaller round opening.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: A1
+        component: photo-overlay
+        say: >-
+          A thin square manhole cover can fall into its own hole. A round one never can.
+          Here's why.
+        params:
+          src: manhole-cover.jpg
+          credit: "Image: AI-generated"
+          overlays:
+            - {type: label, pos: [50, 80], text: "Square? It can fall in.", cue: "A thin square"}
+            - {type: callout, pos: [72, 40], text: "Round: never", side: right, cue: "A round one"}
+      - id: A2
+        component: equation-steps
+        say: >-
+          The longest line across a square is its diagonal, about one point four one times
+          the side. Tip a thin square cover on its edge, line it up with the opening's diagonal,
+          and it slips through.
+        params:
+          heading: "A square's weak spot"
+          lines:
+            - {tex: 'd = s\sqrt{2} \approx 1.41\,s', mark: true, cue: "its diagonal"}
+            - {text: "On edge, along the diagonal → falls in", box: true, cue: "Tip a thin"}
+      - id: A3
+        component: table
+        say: >-
+          A circle is the same width in every direction. Put a sixty centimeter round cover
+          on a fifty six centimeter opening, and there's no gap wide enough. The full video
+          has the geometry.
+        params:
+          heading: "60 cm cover, 56 cm opening"
+          headers: ["", "Square", "Round"]
+          rows:
+            - ["Widest gap", "≈ 79 cm", "56 cm"]
+            - ["Falls in?", "{red}Yes{/red}", "No"]
+          row_cues: ["fifty six centimeter", "no gap wide"]
+          highlight: {row: 1, cue: "no gap wide"}
   - title: "This shape has constant width too #shorts"
     hook: "Not round, still constant width"
-    scenes: [S08, S10]
     end: "Full video on the channel"
     description: "The Reuleaux triangle has constant width, just like a circle. Britain's 20p and 50p coins use seven-sided cousins of it.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: B1
+        component: diagram
+        say: >-
+          This curved triangle is as wide as a circle in every direction. Draw an equilateral
+          triangle, then from each corner draw an arc joining the other two. Squeeze it between
+          two plates, and the gap never changes.
+        params:
+          heading: "Same width every way"
+          view: [1000, 600]
+          items:
+            - {type: polygon, points: [[350, 470], [650, 470], [500, 210.2]], color: muted, dashed: true, cue: "Draw an equilateral"}
+            - {type: path, d: "M 650 470 A 300 300 0 0 0 500 210.2", color: red, width: 5, cue: "from each corner"}
+            - {type: path, d: "M 500 210.2 A 300 300 0 0 0 350 470", color: red, width: 5, cue: "joining the other"}
+            - {type: path, d: "M 350 470 A 300 300 0 0 0 650 470", color: red, width: 5, cue: "joining the other"}
+            - {type: line, from: [300, 210.2], to: [760, 210.2], color: blue, width: 5, cue: "two plates"}
+            - {type: line, from: [300, 510.2], to: [760, 510.2], color: blue, width: 5, cue: "two plates"}
+            - {type: dim, from: [820, 210.2], to: [820, 510.2], label: "$w$", cue: "never changes"}
+      - id: B2
+        component: bullets
+        say: >-
+          It's called a Reuleaux triangle. San Francisco uses it for some small water-valve
+          covers. And Britain's twenty and fifty pence coins are seven-sided cousins, so
+          machines measure them the same however they're turned. The full video shows the math.
+        params:
+          heading: "Reuleaux triangle"
+          items:
+            - {text: "San Francisco valve covers", icon: droplet, cue: "San Francisco"}
+            - {text: "UK 20p and 50p coins", icon: coin, cue: "fifty pence"}
+            - {text: "Same width, however turned", icon: ruler-measure, cue: "machines measure"}
