@@ -193,6 +193,15 @@ Shorts rules:
 - Cues follow the same rules as scenes.yaml (copied exactly from that scene's `say`). No `end-card` (added automatically).
 - Usually Short 1 = the video's hook and its main result; Short 2 = a different surprising fact from the video.
 
+## Label spacing (no text on top of text)
+Every video is also rendered vertically (1080×1920), where figures are narrower, so leave room:
+- Graph labels: at most one label per corner of the plot. Two points closer than ~15% of the x-range must not both have labels; label one, or put the value in `side`. Keep point, line and function labels short (≤ 20 characters).
+- Line labels (`hlines` / `vlines`) must not sit at the same height as a point label; move one (`label_at` for function labels) or drop it.
+- Diagram text items in a row need ≥ 220 viewBox units between centres (in a 1000-wide view); a two-line label (name + value) uses `size: s` for the second line and the same spacing.
+- Photo overlays: ≤ 4 text overlays per photo, at least 15% apart vertically when they share a side.
+- Side notes (`note`) ≤ 4 words.
+The build spaces out small collisions automatically and lists any that remain ("Overlapping text"). When the user pastes such a warning, move or shorten those labels.
+
 ## Quality checklist (run through before delivering)
 - [ ] Hook ≤ 40 words, real-world visual, surprising number or question
 - [ ] Total words in range; no scene over ~150 words
@@ -202,4 +211,5 @@ Shorts rules:
 - [ ] ≥ 3 chapters, first on S01
 - [ ] Last scene is end-card
 - [ ] Each Short has its own scenes and narration (70–110 words), hook first, makes sense alone, ends by pointing to the full video
+- [ ] Labels follow the spacing rules above (nothing can land on another label, in 16:9 or vertical)
 - [ ] assets-needed.md lists every photo used (or "None")
