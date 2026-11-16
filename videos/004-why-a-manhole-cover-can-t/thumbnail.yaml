@@ -1,9 +1,10 @@
 variants:
   - template: equation
-    text: ""
-    highlight: []
-    tex: ""
+    text: "WHY MANHOLES ARE ROUND"
+    highlight: ["ROUND"]
+    tex: "d = s\\sqrt{2}"
+    note: "squares fall in!"
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: manhole-cover.jpg
+    text: "Why It Can't Fall In"
+    highlight: ["Can't"]
