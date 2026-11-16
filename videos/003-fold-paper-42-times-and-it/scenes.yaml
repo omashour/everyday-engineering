@@ -1,25 +1,280 @@
-# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 003`.
 video:
   id: "003"
   topic: T39
   title: "Fold Paper 42 Times and It Reaches the Moon"
-  style: ""            # e.g. "B hook + A body"
+  style: "B hook + C body"
   playlist: math-for-engineers
+  phase: math
+  series: null
   voice_note: ""
-  pronounce: {}
+  pronounce: {Gallivan: GAL-ih-vun}
 
 scenes:
   - id: S01
-    component: title-card
-    chapter: "Intro"
+    component: photo-overlay
+    chapter: "42 folds to the Moon"
     say: >-
-      Replace me with the hook.
+      Fold a sheet of paper in half forty two times, and it would be thicker than
+      the distance to the Moon. No tricks. Just one number doubling. Here's the math,
+      and why engineers take doubling seriously.
     params:
-      title: "Fold Paper 42 Times and It Reaches the Moon"
+      src: folding-paper.jpg
+      credit: "Image: AI-generated"
+      title: "42 folds → past the Moon"
+      overlays:
+        - {type: callout, pos: [58, 64], text: "≈ 0.1 mm thick", side: right, cue: "a sheet of paper"}
+        - {type: tex, pos: [50, 32], tex: "0.1\\,\\text{mm}\\times 2^{42} \\approx 440{,}000\\text{ km}", cue: "distance to the Moon"}
+        - {type: label, pos: [50, 86], text: "each fold: ×2", cue: "one number doubling"}
 
-  - id: S99
-    component: end-card
+  - id: S02
+    component: title-card
+    say: Let's follow the folds, one doubling at a time.
+    params: {kicker: "Everyday Engineering · Exponentials", title: "Fold Paper 42 Times and It Reaches the Moon"}
+
+  - id: S03
+    component: diagram
+    chapter: "One fold doubles"
     say: >-
-      See you in the next one.
+      Start with an ordinary sheet of printer paper. It's about a tenth of a millimeter
+      thick. Fold it in half once, and now you have two layers. Fold again, and you have
+      four layers. Again, eight. Every fold doubles the number of layers, so every fold
+      doubles the thickness. That's the whole rule.
     params:
-      line: ""
+      heading: "Every fold doubles the layers"
+      view: [1000, 600]
+      items:
+        - {type: ground, from: [40, 480], to: [960, 480]}
+        - {type: rect, pos: [100, 465], size: [140, 15], fill: blue, cue: "printer paper"}
+        - {type: text, pos: [170, 440], text: "0.1 mm", anchor: middle, cue: "tenth of a millimeter"}
+        - {type: rect, pos: [330, 450], size: [140, 30], fill: blue, cue: "two layers"}
+        - {type: rect, pos: [560, 420], size: [140, 60], fill: blue, cue: "four layers"}
+        - {type: rect, pos: [790, 360], size: [140, 120], fill: blue, cue: "eight"}
+        - {type: text, pos: [170, 530], text: "1 layer", anchor: middle}
+        - {type: text, pos: [400, 530], text: "2 layers", anchor: middle}
+        - {type: text, pos: [630, 530], text: "4 layers", anchor: middle}
+        - {type: text, pos: [860, 530], text: "8 layers", anchor: middle}
+        - {type: text, pos: [500, 180], text: "×2 every fold", hand: true, size: l, color: red, anchor: middle, cue: "doubles the thickness"}
+
+  - id: S04
+    component: table
+    chapter: "The first ten folds"
+    say: >-
+      Let's write it down. Zero folds, zero point one millimeters. One fold, zero point two.
+      Then zero point four, zero point eight, one point six, three point two, and six point four.
+      At fold seven, the stack is twelve point eight millimeters, thicker than most phones.
+      At fold ten, it's one hundred and two millimeters. That's about ten centimeters,
+      the height of a coffee mug. Ten folds made it about a thousand times thicker.
+    params:
+      heading: "Thickness after each fold (0.1 mm paper)"
+      headers: ["Folds $n$", "Layers", "Thickness"]
+      rows:
+        - ["0", "1", "0.1 mm"]
+        - ["1", "2", "0.2 mm"]
+        - ["2", "4", "0.4 mm"]
+        - ["3", "8", "0.8 mm"]
+        - ["4", "16", "1.6 mm"]
+        - ["5", "32", "3.2 mm"]
+        - ["6", "64", "6.4 mm"]
+        - ["7", "128", "12.8 mm"]
+        - ["10", "1,024", "102.4 mm ≈ 10 cm"]
+      row_cues: ["Zero folds", "One fold", "zero point four", "zero point eight", "one point six", "three point two", "six point four", "fold seven", "fold ten"]
+      highlight: {row: 8, cue: "a thousand times"}
+
+  - id: S05
+    component: equation-steps
+    chapter: "The formula"
+    say: >-
+      Here's the pattern as a formula. Call the starting thickness t. After n folds,
+      the thickness T is t times two to the n. Now notice something handy. Two to the ten
+      is one thousand and twenty four. That's almost exactly a thousand. So every ten folds
+      multiplies the thickness by about a thousand. Ten folds, about ten centimeters.
+      Twenty folds, about a hundred meters. Thirty folds, about a hundred kilometers.
+    params:
+      heading: "Thickness after n folds (t = 0.1 mm)"
+      lines:
+        - {tex: "T = t \\cdot 2^{n}", mark: true, cue: "t times two"}
+        - {tex: "2^{10} = 1024 \\approx 1000", circle: true, cue: "one thousand and twenty four"}
+        - {tex: "10\\text{ folds} \\approx 10\\text{ cm}", cue: "about ten centimeters"}
+        - {tex: "20\\text{ folds} \\approx 100\\text{ m}", cue: "about a hundred meters"}
+        - {tex: "30\\text{ folds} \\approx 100\\text{ km}", box: true, note: "×1000 per 10 folds", cue: "about a hundred kilometers"}
+
+  - id: S06
+    component: graph
+    chapter: "Adding vs doubling"
+    say: >-
+      Now compare two ways to grow. The blue line adds one new sheet at every step.
+      That's linear growth. The red curve doubles at every step. That's exponential growth.
+      For the first few steps, they look almost the same. But after ten steps, the added
+      sheets make a stack just one point one millimeters thick. The doubled stack is over
+      a hundred millimeters. Adding is slow and steady. Doubling runs away.
+    params:
+      heading: "Adding a sheet vs doubling"
+      x_range: [0, 10]
+      y_range: [0, 110]
+      x_label: "step $n$"
+      y_label: "thickness (mm)"
+      functions:
+        - {expr: "0.1*(x+1)", label: "add one sheet", color: blue, cue: "one new sheet"}
+        - {expr: "0.1*exp(0.693147*x)", label: "double", color: red, cue: "doubles at every"}
+      points:
+        - {x: 10, y: 1.1, label: "1.1 mm", cue: "one point one"}
+        - {x: 10, y: 102.4, label: "102.4 mm", cue: "over a hundred"}
+      side:
+        - {tex: "T = 0.1\\,(n+1)", cue: "linear growth"}
+        - {tex: "T = 0.1 \\cdot 2^{n}", cue: "exponential growth"}
+
+  - id: S07
+    component: graph
+    chapter: "Past Everest and into space"
+    say: >-
+      Keep folding, and switch the scale to kilometers. For about twenty folds, the curve
+      hugs the floor. By then the stack is about a hundred meters, as tall as a thirty storey
+      building. Three folds later, it's taller than the Burj Khalifa, the tallest building
+      in the world. At fold twenty seven, it's thirteen kilometers. That's higher than
+      Mount Everest, and higher than airliners fly. At fold thirty, it's about a hundred
+      and seven kilometers. You've folded your way past the edge of space.
+    params:
+      heading: "Folds 0 to 30, in kilometers"
+      x_range: [0, 30]
+      y_range: [0, 110]
+      x_label: "folds $n$"
+      y_label: "thickness (km)"
+      functions:
+        - {expr: "0.0000001*exp(0.693147*x)", color: red, cue: "hugs the floor"}
+      hlines:
+        - {y: 8.85, label: "Everest 8.85 km", cue: "Mount Everest"}
+        - {y: 100, label: "edge of space 100 km", cue: "edge of space"}
+      points:
+        - {x: 27, y: 13.4, label: "13.4 km", cue: "thirteen kilometers"}
+        - {x: 30, y: 107.4, label: "107 km", cue: "a hundred and seven"}
+
+  - id: S08
+    component: graph
+    chapter: "Reaching the Moon"
+    say: >-
+      Now picture the stack in thousands of kilometers. The Moon is about three hundred
+      and eighty four thousand kilometers away. At fold forty, the stack is about a hundred
+      and ten thousand kilometers. At fold forty one, two hundred and twenty thousand.
+      Still only partway there. Then fold forty two doubles it again, to about four hundred
+      and forty thousand kilometers. You've passed the Moon. Half the whole journey happened
+      on the very last fold.
+    params:
+      heading: "Folds 0 to 42, in thousands of km"
+      x_range: [0, 42]
+      y_range: [0, 460]
+      x_label: "folds $n$"
+      y_label: "thickness (1000 km)"
+      functions:
+        - {expr: "0.0000000001*exp(0.693147*x)", color: red, cue: "thousands of kilometers"}
+      hlines:
+        - {y: 384.4, label: "Moon: 384,400 km", cue: "three hundred and eighty four"}
+      points:
+        - {x: 40, y: 110, label: "110,000 km", cue: "a hundred and ten"}
+        - {x: 41, y: 219.9, label: "220,000 km", cue: "two hundred and twenty"}
+        - {x: 42, y: 439.8, label: "440,000 km", cue: "four hundred and forty"}
+
+  - id: S09
+    component: equation-steps
+    chapter: "Working backwards with logs"
+    say: >-
+      We can also run it backwards. How many folds does it take to reach the Moon?
+      Set t times two to the n equal to the distance. Put both in meters, and divide.
+      That gives two to the n equals about three point eight four times ten to the twelve.
+      To solve for an exponent, you use a logarithm. Log base two of that number is
+      forty one point eight. You can't make eight tenths of a fold, so round up.
+      Forty two folds.
+    params:
+      heading: "How many folds to the Moon?"
+      lines:
+        - {tex: "t \\cdot 2^{n} = D", cue: "equal to the distance"}
+        - {tex: "2^{n} = \\dfrac{384{,}400{,}000\\text{ m}}{0.0001\\text{ m}} \\approx 3.84\\times 10^{12}", cue: "three point eight four"}
+        - {tex: "n = \\log_2\\!\\left(3.84\\times 10^{12}\\right) \\approx 41.8", circle: true, cue: "forty one point eight"}
+        - {tex: "n = 42\\text{ folds}", box: true, note: "round up!", cue: "round up"}
+
+  - id: S10
+    component: diagram
+    chapter: "Why you can't really do it"
+    say: >-
+      Why can't you actually fold paper forty two times? Because every fold that doubles
+      the thickness also halves the paper. Take a standard sheet of printer paper. After
+      seven folds, it's a little block about two centimeters across and more than a
+      centimeter thick. It's nearly a cube, and folding a cube in half is close to
+      impossible. That's why most people get stuck at around seven folds.
+    params:
+      heading: "Every fold halves the paper"
+      view: [1000, 600]
+      items:
+        - {type: rect, pos: [80, 140], size: [300, 400], fill: blue, label: "one sheet", cue: "standard sheet"}
+        - {type: arrow, from: [420, 340], to: [640, 340], label: "7 folds", color: red, cue: "After seven folds"}
+        - {type: rect, pos: [700, 310], size: [40, 40], fill: blue, cue: "little block"}
+        - {type: text, pos: [720, 400], text: "≈ 2 cm × 2 cm × 1.3 cm", anchor: middle, cue: "more than a"}
+        - {type: text, pos: [720, 470], text: "nearly a cube!", hand: true, size: l, color: red, anchor: middle, cue: "nearly a cube"}
+
+  - id: S11
+    component: timeline
+    chapter: "Twelve folds in 2002"
+    say: >-
+      For years, people said seven folds was the limit. Then in two thousand and one,
+      a high school student in California named Britney Gallivan got an extra credit
+      challenge. Fold something in half twelve times. She worked out the math first.
+      Then, in January two thousand and two, she folded a strip of toilet paper about
+      one point two kilometers long in half twelve times, all in the same direction.
+    params:
+      heading: "Britney Gallivan's twelve folds"
+      events:
+        - {when: "Before 2001", text: "\"Seven folds is the limit\"", cue: "seven folds was"}
+        - {when: "2001", text: "Extra-credit challenge: 12 folds", cue: "extra credit challenge"}
+        - {when: "Jan 2002", text: "12 folds, ≈ 1.2 km of toilet paper", cue: "January two thousand"}
+
+  - id: S12
+    component: equation-steps
+    chapter: "The paper you'd need"
+    say: >-
+      Her formula gives the length of paper you need for n folds in one direction.
+      L equals pi t over six, times two to the n plus four, times two to the n minus one.
+      Two to the n shows up twice, so the length grows like four to the n. Every extra
+      fold needs about four times more paper. Now plug in forty two folds of printer paper.
+      You'd need a strip about ten to the twenty one meters long. That's roughly a hundred
+      thousand light years, about the width of our galaxy.
+    params:
+      heading: "Gallivan's formula (one-direction folds)"
+      lines:
+        - {tex: "L = \\dfrac{\\pi t}{6}\\,(2^{n}+4)(2^{n}-1)", mark: true, cue: "L equals pi"}
+        - {tex: "L \\propto 4^{n}", note: "×4 per fold", cue: "four to the n"}
+        - {tex: "n = 42,\\quad t = 0.1\\text{ mm}", cue: "forty two folds of"}
+        - {tex: "L \\approx 10^{21}\\text{ m} \\approx 100{,}000\\text{ light-years}", box: true, cue: "ten to the twenty one"}
+
+  - id: S13
+    component: bullets
+    chapter: "Doubling in engineering"
+    say: >-
+      This isn't just a party trick. Engineers run into doubling all the time. For decades,
+      the number of transistors on a computer chip doubled about every two years. In a
+      nuclear reactor, each splitting atom releases neutrons that can split more atoms,
+      so the reaction has to be carefully controlled. And money growing at seven percent
+      a year doubles about every ten years. Whenever something doubles at a steady rate,
+      the folded paper curve is waiting.
+    params:
+      heading: "Doubling in engineering"
+      items:
+        - {text: "Chips: transistors doubled ≈ every 2 years", icon: cpu, cue: "computer chip"}
+        - {text: "Reactors: one split atom triggers more", icon: atom, cue: "nuclear reactor"}
+        - {text: "Money at 7%: doubles in ≈ 10 years", icon: coin, cue: "seven percent"}
+
+  - id: S14
+    component: big-fact
+    chapter: "Remember this"
+    say: >-
+      So here's the one thing to remember. Ten doublings is about a thousand times.
+      Forty two doublings turn a tenth of a millimeter into four hundred and forty thousand
+      kilometers. That's how a sheet of paper, at least on paper, reaches the Moon.
+    params:
+      label: "Remember"
+      value: "$2^{10} \\approx 1000$"
+      sub: "42 folds × 0.1 mm → 440,000 km"
+      cue: "about a thousand times"
+
+  - id: S15
+    component: end-card
+    say: If you enjoyed this one, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+    params: {line: "Thanks for watching"}

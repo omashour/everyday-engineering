@@ -1,5 +1,11 @@
 shorts:
-  - title: ""
-    hook: ""
-    scenes: []
+  - title: "Fold paper 42 times and it reaches the Moon #shorts"
+    hook: "42 folds reaches the Moon?!"
+    scenes: [S01, S08]
     end: "Full video on the channel"
+    description: "Each fold doubles the thickness. 42 doublings of 0.1 mm is about 440,000 km, past the Moon.\n\nFull video: [paste the main video's link]"
+  - title: "Why you can't fold paper more than 7 times #shorts"
+    hook: "Why paper stops at 7 folds"
+    scenes: [S10, S11]
+    end: "Full video on the channel"
+    description: "Every fold doubles the thickness and halves the paper. Then in 2002 a student folded paper 12 times.\n\nFull video: [paste the main video's link]"
