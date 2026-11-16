@@ -6,6 +6,7 @@ import path from "node:path";
 import { parseArgs, videoDir, fail, ok, info, hf, rel } from "./lib/core.mjs";
 import { loadVideo, videoTiming } from "./lib/video.mjs";
 import { buildProject, editedSinceBuild } from "./lib/project.mjs";
+import { printOverlaps } from "./lib/overlap.mjs";
 
 const args = parseArgs();
 const dir = videoDir(args._[0]);
@@ -20,4 +21,5 @@ for (const w of warnings) console.log(`⚠ ${w}`);
 const m = Math.floor(duration / 60), s = Math.round(duration % 60);
 ok(`Vertical full video: ${rel(out)}  (${m}:${String(s).padStart(2, "0")})`);
 if (!args["no-check"]) hf(["check", out]);
+await printOverlaps(out);
 info(`Render: npm run render -- ${v.name.slice(0, 3)} --vertical`);

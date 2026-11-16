@@ -11,6 +11,7 @@ import { loadVideo, videoTiming } from "./lib/video.mjs";
 import { buildProject } from "./lib/project.mjs";
 import { loadShorts, standaloneTiming } from "./lib/shorts.mjs";
 import { rich } from "./lib/kit.mjs";
+import { printOverlaps } from "./lib/overlap.mjs";
 
 const args = parseArgs();
 const dir = videoDir(args._[0]);
@@ -89,5 +90,6 @@ for (const sh of shorts) {
   for (const w of warnings) console.log(`⚠ ${w}`);
   ok(`Short ${n}${sh.standalone ? " (own script)" : ""}: ${rel(path.join(sdir, "project"))} (${duration.toFixed(1)} s)  — ${esc(sh.title)}`);
   if (!args["no-check"]) hf(["check", path.join(sdir, "project")]);
+  await printOverlaps(path.join(sdir, "project"));
 }
 info(`Preview: npm run preview -- ${v.name.slice(0, 3)} --short 1     Render: npm run render -- ${v.name.slice(0, 3)} --short 1`);

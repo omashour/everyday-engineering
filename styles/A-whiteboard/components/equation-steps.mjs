@@ -23,7 +23,9 @@ export default {
 .eq-box { position:absolute; inset:-0.4em -0.7em; border:0.13rem solid var(--red); border-radius:0.35rem; display:block; }
 .fmt-short .eq-line { font-size:0.95rem; }
 .fmt-short .eq-col.l .eq-line { font-size:1.2rem; }
-.fmt-short .note { position:absolute; left:auto; right:0; top:100%; margin:0.3rem 0 0; }
+.fmt-short .note { position:absolute; left:auto; right:0; top:100%; margin:0.5rem 0 0; }
+.fmt-short .note .note-y { transform:none; }
+.fmt-short :has(> .note) { margin-bottom:1.8rem; }
 .fmt-short .eq-label { min-width: 0; }`,
   render(p, ctx) {
     const lines = p.lines ?? [];

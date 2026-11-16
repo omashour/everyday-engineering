@@ -129,6 +129,8 @@
     };
     measure();
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
+    // measure again whenever the scene gets its size (hidden scenes are shown by the player later)
+    if (window.ResizeObserver) { let last = 0; new ResizeObserver(() => { const h = el.clientHeight; if (h && h !== last) { last = h; measure(); } }).observe(el); }
   };
 
   function measureCss() {
@@ -197,7 +199,18 @@
       root.classList.remove("ee-measure");
       window.__eeOverlaps = (window.__eeOverlaps || []).filter((x) => x.scene !== sel).concat(left.map((p) => ({ scene: sel, a: p[0], b: p[1] })));
     };
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(run); else run();
+    // run once, when the scene is actually laid out (the player keeps inactive scenes hidden) and fonts are in
+    let done = false;
+    const go = () => {
+      if (done || !root.getBoundingClientRect().width) return;
+      done = true;
+      run();
+    };
+    const ready = document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve();
+    ready.then(() => {
+      go();
+      if (!done && window.ResizeObserver) new ResizeObserver(() => go()).observe(root);
+    });
   };
 
   window.EE = E;
