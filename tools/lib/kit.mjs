@@ -106,7 +106,7 @@ export function diagramItems(items = [], ctx) {
         break;
       }
       case "text":
-        out.push({ svg: fo(it.pos[0], it.pos[1], rich(it.text), `txt ${it.hand ? "hand" : ""} ${it.size ? "sz-" + it.size : ""}`, it.box_width ?? 700, 160, it.anchor ?? "middle").replace('class="fo', `style="color:${color}" class="fo`), kind: "fade", cue: it.cue });
+        out.push({ svg: fo(it.pos[0], it.pos[1], rich(it.text), `txt ${it.hand ? "hand" : ""} ${it.size ? "sz-" + it.size : ""}`, it.box_width ?? 700, 160, it.anchor ?? "middle").replace('style="justify-content', `style="color:${color};justify-content`), kind: "fade", cue: it.cue });
         break;
       case "tex":
         out.push({ svg: fo(it.pos[0], it.pos[1], tex(it.tex, true), `math ${it.size ? "sz-" + it.size : ""}`, it.box_width ?? 800, 220, it.anchor ?? "middle"), kind: "fade", cue: it.cue });

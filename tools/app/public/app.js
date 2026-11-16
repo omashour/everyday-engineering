@@ -363,6 +363,7 @@ function voiceStep(el, d, dir) {
     <h3>Style instructions</h3>${copyBox(t.style)}
     ${Object.keys(t.pronounce).length ? `<h3>Pronunciation</h3><table class="kv">${Object.entries(t.pronounce).map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</table>` : ""}
     <h3>Chunks (${t.chunks.length}) · ${t.totalWords} words · about ${t.length}</h3>
+    ${d.shortsSpec.length && !d.shortsSpec.some((x) => x.standalone) ? `<div class="callout">This video's Shorts are cut from the main narration (older format), so they have no recordings of their own. To give each Short its own script and recording, ask Claude in this video's chat: “write standalone Shorts for this video”, and paste its reply in step 1.</div>` : ""}
     <div id="chunks"></div>
     <div class="row" style="margin-top:12px">
       <button class="primary" id="time" ${d.audio.length ? "" : "disabled"}>Time the narration</button>

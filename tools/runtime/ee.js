@@ -78,7 +78,9 @@
     if (!el) return;
     const measure = () => {
       if (!el.clientHeight) return; // not laid out yet (measured again once fonts are ready)
-      el.style.zoom = ""; el.style.padding = "";
+      el.style.zoom = ""; el.style.padding = ""; el.style.transform = "";
+      // Chrome misplaces SVG foreignObject labels under CSS zoom, so figures with them only shrink, by transform
+      const fo = !!el.querySelector("foreignObject");
       const kids = [...el.children].filter((k) => getComputedStyle(k).position !== "absolute");
       if (!kids.length) return;
       const top = Math.min(...kids.map((k) => k.offsetTop)), bottom = Math.max(...kids.map((k) => k.offsetTop + k.offsetHeight));
@@ -90,15 +92,40 @@
       const roomW = el.clientWidth - p[1] - p[3];
       const natural = (k) => { const w0 = k.style.width; k.style.width = "max-content"; const w = k.offsetWidth; k.style.width = w0; return w; };
       const needW = Math.max(1, ...kids.filter((k) => !k.classList.contains("heading")).map((k) => Math.min(natural(k), roomW)));
-      let z;
+      let z = 1;
       if (need > room + 1) z = Math.max(0.55, (room / need) * 0.98);
       else if (grow > 1) {
         z = Math.min(grow, (room * 0.85) / need, (roomW * 0.95) / needW);
-        if (z < 1.08) return;
-      } else return;
-      el.style.zoom = String(z);
-      // zoom also shrinks the padding; scale it back up so the safe margins (and Shorts' banner area) stay the same
-      el.style.padding = p.map((v) => `${(v / z).toFixed(1)}px`).join(" ");
+        if (z < 1.08 || fo) z = 1;
+      }
+      const apply = (zz) => {
+        if (fo) { el.style.transformOrigin = "50% 50%"; el.style.transform = zz === 1 ? "" : `scale(${zz})`; return; }
+        el.style.zoom = zz === 1 ? "" : String(zz);
+        // zoom also shrinks the padding; scale it back up so the safe margins (and Shorts' banner area) stay the same
+        el.style.padding = zz === 1 ? "" : p.map((v) => `${(v / zz).toFixed(1)}px`).join(" ");
+      };
+      apply(z);
+      // Width check on what is really drawn (equations, tables, graph labels): nothing may cross the side margins.
+      // measure without animation transforms (pop-ins start small, slides start shifted)
+      if (!document.getElementById("ee-measure-css")) { const st = document.createElement("style"); st.id = "ee-measure-css"; st.textContent = ".ee-measure, .ee-measure * { transform: none !important; }"; document.head.appendChild(st); }
+      el.classList.add("ee-measure");
+      for (let pass = 0; pass < 3; pass++) {
+        const r = el.getBoundingClientRect();
+        const L = r.left + p[3], R = r.right - p[1], C = (L + R) / 2;
+        let lo = Infinity, hi = -Infinity;
+        for (const d of el.querySelectorAll("*")) {
+          const b = d.getBoundingClientRect();
+          if (!b.width || !b.height) continue;
+          lo = Math.min(lo, b.left); hi = Math.max(hi, b.right);
+        }
+        if (!(hi > lo)) break;
+        const f = Math.min(lo < L - 1 ? (C - L) / (C - lo) : 1, hi > R + 1 ? (R - C) / (hi - C) : 1);
+        if (f >= 0.995) break;
+        z = Math.max(0.45, (fo ? Math.min(z, f) : z * f) * 0.97);
+        if (fo) break; // measured unscaled (transform is off while measuring): one pass is exact
+        apply(z);
+      }
+      el.classList.remove("ee-measure");
     };
     measure();
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
