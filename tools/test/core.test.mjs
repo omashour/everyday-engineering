@@ -106,6 +106,45 @@ test("pasted Claude answer splits into the five files (headings, paths, nested m
   assert.equal(f["assets-needed.md"], "None");
 });
 
+test("pasted Claude answer in ONE block with FILE markers (inner fences kept, outer fence and END dropped)", async () => {
+  const { splitClaudeOutput } = await import("../lib/claudeparse.mjs");
+  const block = (end) => [
+    "Here's the full package. Press Copy and paste it into the app.",
+    "",
+    "~~~~~text",
+    "===== FILE: scenes.yaml =====",
+    "video:",
+    "  id: \"003\"",
+    "scenes: []",
+    "",
+    "===== FILE: metadata.md =====",
+    "**Title:** Every Scale",
+    "",
+    "===== FILE: thumbnail.yaml =====",
+    "variants: []",
+    "===== FILE: shorts.yaml =====",
+    "```yaml",
+    "shorts: []",
+    "```",
+    "===== FILE: assets-needed.md =====",
+    "## scale.jpg",
+    "```text",
+    "Photorealistic wide 16:9 photo of a kitchen scale.",
+    "```",
+    ...(end ? ["===== END ====="] : []),
+    "~~~~~",
+    "",
+    "Fact check: …",
+  ].join("\n");
+  for (const end of [true, false]) {
+    const f = splitClaudeOutput(block(end));
+    assert.deepEqual(Object.keys(f).sort(), ["assets-needed.md", "metadata.md", "scenes.yaml", "shorts.yaml", "thumbnail.yaml"]);
+    assert.equal(f["scenes.yaml"], 'video:\n  id: "003"\nscenes: []');
+    assert.equal(f["shorts.yaml"], "shorts: []");
+    assert.equal(f["assets-needed.md"], "## scale.jpg\n```text\nPhotorealistic wide 16:9 photo of a kitchen scale.\n```");
+  }
+});
+
 test("draft timing is about 150 words per minute", () => {
   const { duration } = syntheticWords([{ say: Array(150).fill("word").join(" ") }]);
   assert.ok(duration > 55 && duration < 70);

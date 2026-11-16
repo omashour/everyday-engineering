@@ -22,8 +22,8 @@ Shorts (style E) are made automatically from every video.
 ## Step 2. Create the video in the app
 
 1. Open the app (desktop icon). On the home page, **Start a new video**: pick the same topic from the list and press **Create video**.
-2. Back in Claude.ai, say **write the script**. Claude writes five files: `scenes.yaml`, `metadata.md`, `thumbnail.yaml`, `shorts.yaml` and `assets-needed.md`.
-3. In the app's video page, step **1. Script from Claude**: paste Claude's **whole answer** and save. The app splits it into the five files and checks them. If it reports a problem, paste the message back to Claude and paste its fix the same way.
+2. Back in Claude.ai, say **write the script**. Claude puts the whole package (five files: `scenes.yaml`, `metadata.md`, `thumbnail.yaml`, `shorts.yaml` and `assets-needed.md`) in **one block** with a single **Copy** button.
+3. Press **Copy** on that block. In the app's video page, step **1. Script from Claude**: paste it and save. The app splits it into the five files and checks them. If it reports a problem, paste the message back to Claude and paste its fix the same way.
 
 ## Step 3. Images
 

@@ -53,7 +53,25 @@ Read `references/scenes-format.md`, `references/components.md` and `references/c
 
 Before writing, **check every number and fact** (work the math out; state assumptions like "dry road, a ≈ 7 m/s²" on screen). After the files, list a short fact-check summary in chat (claim → how you verified it). Never invent quotes, dates or statistics; if unsure, say so and leave it out.
 
-**Delivering files:** output each file in its own fenced code block, with a heading line naming the file just above it (e.g. `### scenes.yaml`); use a 4-backtick fence for metadata.md if it contains code fences. The user creates the video in the **Everyday Engineering app** on their desktop (New video → pick the topic), then pastes your whole answer into its "Script from Claude" box, which splits it into the five files and checks them. (If a GitHub connector with write access is connected and the user asks, you may instead commit the files to `videos/NNN-slug/`.)
+**Delivering files: put the whole package in ONE code block**, so the user copies it with a single Copy button. Open the block with five tildes (`~~~~~text`) and close it with five tildes (`~~~~~`), so ``` fences inside the files (e.g. the image prompts) don't end it. Inside, start each file with a marker line, in this order, and finish with an END line:
+
+```
+~~~~~text
+===== FILE: scenes.yaml =====
+(file content)
+===== FILE: metadata.md =====
+(file content)
+===== FILE: thumbnail.yaml =====
+(file content)
+===== FILE: shorts.yaml =====
+(file content)
+===== FILE: assets-needed.md =====
+(file content)
+===== END =====
+~~~~~
+```
+
+Nothing else goes inside the block: no headings, no comments between files. Put the fact-check summary and any notes **after** the block. The user creates the video in the **Everyday Engineering app** on their desktop (New video → pick the topic), presses Copy on your block and pastes it into the app's "Script from Claude" box, which splits it into the five files and checks them. For fixes (step 4), keep sending only the changed scenes. (If a GitHub connector with write access is connected and the user asks, you may instead commit the files to `videos/NNN-slug/`.)
 
 Then tell the user, in one or two lines, to continue in the app: paste the script, record the voice chunks the app shows, drop the audio on the app, and press **Make everything**; the app's YouTube step has copy buttons for every upload field. For users who prefer commands, the equivalent is:
 ```

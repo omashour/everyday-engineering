@@ -258,7 +258,7 @@ function scriptStep(el, d, dir) {
       <li>In Claude.ai (your Everyday Engineering project) ask for the video package for this topic.</li>
       <li>Select <b>all</b> of Claude's answer, copy it, and paste it below. (Or drop the five files onto the box.)</li>
     </ol>
-    <textarea id="paste" placeholder="Paste Claude's whole answer here (it contains scenes.yaml, metadata.md, thumbnail.yaml, shorts.yaml and assets-needed.md)"></textarea>
+    <textarea id="paste" placeholder="In Claude.ai, press Copy on the package block (it holds scenes.yaml, metadata.md, thumbnail.yaml, shorts.yaml and assets-needed.md) and paste it here. Pasting Claude's whole answer also works."></textarea>
     <div class="row" style="margin-top:8px"><button class="primary" id="savescript">Save script</button>
       <span class="muted small">Files: ${Object.entries(d.files).map(([f, ok]) => `${ok ? "✓" : "✗"} ${f}`).join(" · ")}</span>
       <button class="link" id="openscenes">Open scenes.yaml</button></div>
