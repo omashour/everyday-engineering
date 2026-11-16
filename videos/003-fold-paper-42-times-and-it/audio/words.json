@@ -2331,7 +2331,7 @@
   },
   {
     "text": "We",
-    "start": 184.87,
+    "start": 184.79,
     "end": 185.03
   },
   {
@@ -2357,2166 +2357,2156 @@
   {
     "text": "backwards.",
     "start": 185.83,
-    "end": 186.47
+    "end": 186.55
   },
   {
     "text": "How",
-    "start": 186.47,
-    "end": 186.71
+    "start": 186.55,
+    "end": 186.79
   },
   {
     "text": "many",
-    "start": 186.71,
-    "end": 186.95
+    "start": 186.79,
+    "end": 187.03
   },
   {
     "text": "folds",
-    "start": 186.95,
-    "end": 187.43
+    "start": 187.03,
+    "end": 187.51
   },
   {
     "text": "does",
-    "start": 187.43,
-    "end": 187.59
-  },
-  {
-    "text": "it",
-    "start": 187.59,
+    "start": 187.51,
     "end": 187.67
   },
   {
-    "text": "take",
+    "text": "it",
     "start": 187.67,
-    "end": 187.83
+    "end": 187.75
   },
   {
-    "text": "to",
-    "start": 187.83,
+    "text": "take",
+    "start": 187.75,
     "end": 187.99
   },
   {
-    "text": "reach",
+    "text": "to",
     "start": 187.99,
-    "end": 188.23
+    "end": 188.15
+  },
+  {
+    "text": "reach",
+    "start": 188.15,
+    "end": 188.39
   },
   {
     "text": "the",
-    "start": 188.23,
-    "end": 188.31
+    "start": 188.39,
+    "end": 188.55
   },
   {
     "text": "moon?",
-    "start": 188.31,
-    "end": 188.95
-  },
-  {
-    "text": "Set",
-    "start": 188.95,
+    "start": 188.55,
     "end": 189.35
   },
   {
+    "text": "Set",
+    "start": 189.35,
+    "end": 189.91
+  },
+  {
     "text": "T",
-    "start": 189.51,
-    "end": 189.75
+    "start": 189.91,
+    "end": 190.15
   },
   {
     "text": "times",
-    "start": 189.99,
-    "end": 190.23
-  },
-  {
-    "text": "two",
-    "start": 190.23,
-    "end": 190.31
-  },
-  {
-    "text": "to",
     "start": 190.47,
-    "end": 190.63
-  },
-  {
-    "text": "the",
-    "start": 190.63,
-    "end": 190.71
-  },
-  {
-    "text": "n",
-    "start": 190.71,
-    "end": 190.87
-  },
-  {
-    "text": "equal",
-    "start": 191.03,
-    "end": 191.35
-  },
-  {
-    "text": "to",
-    "start": 191.35,
-    "end": 191.51
-  },
-  {
-    "text": "the",
-    "start": 191.51,
-    "end": 191.59
-  },
-  {
-    "text": "distance.",
-    "start": 191.59,
-    "end": 192.23
-  },
-  {
-    "text": "Put",
-    "start": 192.23,
-    "end": 192.55
-  },
-  {
-    "text": "both",
-    "start": 192.55,
-    "end": 192.79
-  },
-  {
-    "text": "in",
-    "start": 192.79,
-    "end": 193.03
-  },
-  {
-    "text": "meters",
-    "start": 193.03,
-    "end": 193.43
-  },
-  {
-    "text": "and",
-    "start": 193.59,
-    "end": 193.83
-  },
-  {
-    "text": "divide.",
-    "start": 193.83,
-    "end": 194.63
-  },
-  {
-    "text": "That",
-    "start": 194.63,
-    "end": 194.87
-  },
-  {
-    "text": "gives",
-    "start": 194.87,
-    "end": 195.43
-  },
-  {
-    "text": "two",
-    "start": 195.43,
-    "end": 195.59
-  },
-  {
-    "text": "to",
-    "start": 195.83,
-    "end": 195.99
-  },
-  {
-    "text": "the",
-    "start": 195.99,
-    "end": 196.15
-  },
-  {
-    "text": "n",
-    "start": 196.15,
-    "end": 196.39
-  },
-  {
-    "text": "equals",
-    "start": 196.47,
-    "end": 196.95
-  },
-  {
-    "text": "about",
-    "start": 196.95,
-    "end": 197.19
-  },
-  {
-    "text": "3.84",
-    "start": 197.19,
-    "end": 198.15
-  },
-  {
-    "text": "times",
-    "start": 198.31,
-    "end": 198.55
-  },
-  {
-    "text": "10",
-    "start": 198.55,
-    "end": 198.87
-  },
-  {
-    "text": "to",
-    "start": 198.87,
-    "end": 199.03
-  },
-  {
-    "text": "the",
-    "start": 199.03,
-    "end": 199.19
-  },
-  {
-    "text": "twelfth.",
-    "start": 199.19,
-    "end": 200.07
-  },
-  {
-    "text": "To",
-    "start": 200.07,
-    "end": 200.31
-  },
-  {
-    "text": "solve",
-    "start": 200.31,
-    "end": 200.63
-  },
-  {
-    "text": "for",
-    "start": 200.63,
-    "end": 200.79
-  },
-  {
-    "text": "an",
-    "start": 200.79,
-    "end": 200.95
-  },
-  {
-    "text": "exponent,",
-    "start": 200.95,
-    "end": 201.59
-  },
-  {
-    "text": "you",
-    "start": 201.59,
-    "end": 201.75
-  },
-  {
-    "text": "use",
-    "start": 201.75,
-    "end": 201.91
-  },
-  {
-    "text": "a",
-    "start": 201.91,
-    "end": 202.07
-  },
-  {
-    "text": "logarithm.",
-    "start": 202.07,
-    "end": 203.11
-  },
-  {
-    "text": "Log",
-    "start": 203.11,
-    "end": 203.43
-  },
-  {
-    "text": "base",
-    "start": 203.59,
-    "end": 203.75
+    "end": 190.79
   },
   {
     "text": "2",
-    "start": 203.91,
-    "end": 204.23
+    "start": 190.79,
+    "end": 191.11
   },
   {
-    "text": "of",
-    "start": 204.23,
-    "end": 204.31
+    "text": "to",
+    "start": 191.11,
+    "end": 191.27
   },
   {
-    "text": "that",
-    "start": 204.31,
-    "end": 204.47
+    "text": "the",
+    "start": 191.27,
+    "end": 191.43
   },
   {
-    "text": "number",
-    "start": 204.47,
-    "end": 204.79
+    "text": "N",
+    "start": 191.43,
+    "end": 191.67
   },
   {
-    "text": "is",
-    "start": 204.79,
-    "end": 204.95
+    "text": "equal",
+    "start": 191.83,
+    "end": 192.23
   },
   {
-    "text": "41.8.",
-    "start": 204.95,
-    "end": 206.47
+    "text": "to",
+    "start": 192.23,
+    "end": 192.39
   },
   {
-    "text": "You",
-    "start": 206.47,
-    "end": 206.71
+    "text": "the",
+    "start": 192.39,
+    "end": 192.47
   },
   {
-    "text": "can't",
-    "start": 206.71,
-    "end": 206.95
+    "text": "distance.",
+    "start": 192.47,
+    "end": 192.95
   },
   {
-    "text": "make",
-    "start": 206.95,
-    "end": 207.19
+    "text": "Put",
+    "start": 193.11,
+    "end": 193.35
   },
   {
-    "text": "eight",
-    "start": 207.19,
-    "end": 207.35
+    "text": "both",
+    "start": 193.35,
+    "end": 193.59
   },
   {
-    "text": "tenths",
-    "start": 207.43,
-    "end": 207.83
+    "text": "in",
+    "start": 193.59,
+    "end": 193.75
   },
   {
-    "text": "of",
-    "start": 207.83,
-    "end": 207.91
+    "text": "meters",
+    "start": 193.75,
+    "end": 194.15
   },
   {
-    "text": "a",
-    "start": 207.91,
-    "end": 207.99
+    "text": "and",
+    "start": 194.23,
+    "end": 194.47
   },
   {
-    "text": "fold,",
-    "start": 207.99,
-    "end": 208.39
+    "text": "divide.",
+    "start": 194.47,
+    "end": 195.03
   },
   {
-    "text": "so",
-    "start": 208.39,
-    "end": 208.63
+    "text": "That",
+    "start": 195.19,
+    "end": 195.43
   },
   {
-    "text": "round",
-    "start": 208.63,
-    "end": 209.03
+    "text": "gives",
+    "start": 195.43,
+    "end": 195.91
   },
   {
-    "text": "up",
-    "start": 209.03,
-    "end": 209.19
+    "text": "2",
+    "start": 195.91,
+    "end": 196.31
   },
   {
-    "text": "42",
-    "start": 209.43,
-    "end": 210.15
+    "text": "to",
+    "start": 196.31,
+    "end": 196.47
   },
   {
-    "text": "folds.",
-    "start": 210.15,
-    "end": 211.19
+    "text": "the",
+    "start": 196.47,
+    "end": 196.63
   },
   {
-    "text": "Why",
-    "start": 211.19,
-    "end": 211.59
+    "text": "n",
+    "start": 196.63,
+    "end": 196.87
   },
   {
-    "text": "can't",
-    "start": 211.59,
-    "end": 211.99
+    "text": "equals",
+    "start": 196.95,
+    "end": 197.51
+  },
+  {
+    "text": "about",
+    "start": 197.51,
+    "end": 197.83
+  },
+  {
+    "text": "3.84",
+    "start": 197.99,
+    "end": 199.19
+  },
+  {
+    "text": "times",
+    "start": 199.43,
+    "end": 199.67
+  },
+  {
+    "text": "10",
+    "start": 199.67,
+    "end": 199.99
+  },
+  {
+    "text": "to",
+    "start": 199.99,
+    "end": 200.15
+  },
+  {
+    "text": "the",
+    "start": 200.15,
+    "end": 200.31
+  },
+  {
+    "text": "twelfth.",
+    "start": 200.31,
+    "end": 201.11
+  },
+  {
+    "text": "To",
+    "start": 201.11,
+    "end": 201.35
+  },
+  {
+    "text": "solve",
+    "start": 201.35,
+    "end": 201.67
+  },
+  {
+    "text": "for",
+    "start": 201.67,
+    "end": 201.83
+  },
+  {
+    "text": "an",
+    "start": 201.83,
+    "end": 201.99
+  },
+  {
+    "text": "exponent,",
+    "start": 201.99,
+    "end": 202.63
   },
   {
     "text": "you",
-    "start": 211.99,
-    "end": 212.07
+    "start": 202.63,
+    "end": 202.79
   },
   {
-    "text": "actually",
-    "start": 212.07,
-    "end": 212.39
-  },
-  {
-    "text": "fold",
-    "start": 212.39,
-    "end": 212.87
-  },
-  {
-    "text": "paper",
-    "start": 212.87,
-    "end": 213.19
-  },
-  {
-    "text": "42",
-    "start": 213.19,
-    "end": 213.67
-  },
-  {
-    "text": "times?",
-    "start": 213.67,
-    "end": 214.31
-  },
-  {
-    "text": "Because",
-    "start": 214.31,
-    "end": 214.63
-  },
-  {
-    "text": "every",
-    "start": 214.63,
-    "end": 214.95
-  },
-  {
-    "text": "fold",
-    "start": 214.95,
-    "end": 215.27
-  },
-  {
-    "text": "that",
-    "start": 215.27,
-    "end": 215.43
-  },
-  {
-    "text": "doubles",
-    "start": 215.43,
-    "end": 215.83
-  },
-  {
-    "text": "the",
-    "start": 215.83,
-    "end": 215.99
-  },
-  {
-    "text": "thickness",
-    "start": 215.99,
-    "end": 216.71
-  },
-  {
-    "text": "also",
-    "start": 216.71,
-    "end": 217.03
-  },
-  {
-    "text": "has",
-    "start": 217.03,
-    "end": 217.27
-  },
-  {
-    "text": "the",
-    "start": 217.43,
-    "end": 217.67
-  },
-  {
-    "text": "paper.",
-    "start": 217.67,
-    "end": 218.47
-  },
-  {
-    "text": "Take",
-    "start": 218.47,
-    "end": 218.79
+    "text": "use",
+    "start": 202.79,
+    "end": 202.95
   },
   {
     "text": "a",
-    "start": 218.79,
-    "end": 218.87
+    "start": 202.95,
+    "end": 203.11
   },
   {
-    "text": "standard",
-    "start": 218.87,
-    "end": 219.19
+    "text": "logarithm.",
+    "start": 203.11,
+    "end": 204.07
   },
   {
-    "text": "sheet",
-    "start": 219.19,
-    "end": 219.51
+    "text": "Log",
+    "start": 204.07,
+    "end": 204.47
+  },
+  {
+    "text": "base",
+    "start": 204.47,
+    "end": 204.63
+  },
+  {
+    "text": "2",
+    "start": 204.87,
+    "end": 205.11
   },
   {
     "text": "of",
-    "start": 219.59,
-    "end": 219.67
+    "start": 205.11,
+    "end": 205.19
   },
   {
-    "text": "printer",
-    "start": 219.67,
-    "end": 220.07
+    "text": "that",
+    "start": 205.19,
+    "end": 205.35
   },
   {
-    "text": "paper.",
-    "start": 220.07,
-    "end": 220.47
+    "text": "number",
+    "start": 205.35,
+    "end": 205.59
   },
   {
-    "text": "After",
-    "start": 220.47,
-    "end": 220.79
+    "text": "is",
+    "start": 205.67,
+    "end": 205.83
   },
   {
-    "text": "seven",
-    "start": 220.79,
-    "end": 221.11
+    "text": "for",
+    "start": 205.83,
+    "end": 205.99
   },
   {
-    "text": "folds,",
-    "start": 221.11,
-    "end": 221.67
+    "text": "41.8.",
+    "start": 205.99,
+    "end": 207.43
   },
   {
-    "text": "it's",
-    "start": 221.67,
-    "end": 221.91
+    "text": "You",
+    "start": 207.43,
+    "end": 207.59
+  },
+  {
+    "text": "can't",
+    "start": 207.59,
+    "end": 207.83
+  },
+  {
+    "text": "make",
+    "start": 207.83,
+    "end": 207.99
+  },
+  {
+    "text": "eight",
+    "start": 207.99,
+    "end": 208.23
+  },
+  {
+    "text": "tenths",
+    "start": 208.31,
+    "end": 208.71
+  },
+  {
+    "text": "of",
+    "start": 208.71,
+    "end": 208.87
   },
   {
     "text": "a",
-    "start": 221.91,
+    "start": 208.87,
+    "end": 208.95
+  },
+  {
+    "text": "fold,",
+    "start": 208.95,
+    "end": 209.35
+  },
+  {
+    "text": "so",
+    "start": 209.35,
+    "end": 209.59
+  },
+  {
+    "text": "round",
+    "start": 209.59,
+    "end": 209.99
+  },
+  {
+    "text": "up.",
+    "start": 209.99,
+    "end": 210.39
+  },
+  {
+    "text": "42",
+    "start": 210.39,
+    "end": 211.11
+  },
+  {
+    "text": "folds.",
+    "start": 211.11,
+    "end": 211.99
+  },
+  {
+    "text": "Why",
+    "start": 212.23,
+    "end": 212.71
+  },
+  {
+    "text": "can't",
+    "start": 212.71,
+    "end": 213.11
+  },
+  {
+    "text": "you",
+    "start": 213.11,
+    "end": 213.27
+  },
+  {
+    "text": "actually",
+    "start": 213.27,
+    "end": 213.67
+  },
+  {
+    "text": "fold",
+    "start": 213.67,
+    "end": 214.15
+  },
+  {
+    "text": "paper",
+    "start": 214.15,
+    "end": 214.55
+  },
+  {
+    "text": "42",
+    "start": 214.55,
+    "end": 215.11
+  },
+  {
+    "text": "times?",
+    "start": 215.11,
+    "end": 215.75
+  },
+  {
+    "text": "Because",
+    "start": 215.75,
+    "end": 216.07
+  },
+  {
+    "text": "each",
+    "start": 216.07,
+    "end": 216.39
+  },
+  {
+    "text": "fold",
+    "start": 216.39,
+    "end": 216.79
+  },
+  {
+    "text": "makes",
+    "start": 216.79,
+    "end": 217.03
+  },
+  {
+    "text": "the",
+    "start": 217.03,
+    "end": 217.11
+  },
+  {
+    "text": "stack",
+    "start": 217.11,
+    "end": 217.51
+  },
+  {
+    "text": "thicker,",
+    "start": 217.51,
+    "end": 217.99
+  },
+  {
+    "text": "while",
+    "start": 217.99,
+    "end": 218.23
+  },
+  {
+    "text": "reducing",
+    "start": 218.23,
+    "end": 218.71
+  },
+  {
+    "text": "the",
+    "start": 218.71,
+    "end": 218.79
+  },
+  {
+    "text": "area",
+    "start": 218.79,
+    "end": 219.19
+  },
+  {
+    "text": "available",
+    "start": 219.19,
+    "end": 219.67
+  },
+  {
+    "text": "for",
+    "start": 219.67,
+    "end": 219.83
+  },
+  {
+    "text": "the",
+    "start": 219.83,
+    "end": 219.91
+  },
+  {
+    "text": "next",
+    "start": 219.91,
+    "end": 220.23
+  },
+  {
+    "text": "fold.",
+    "start": 220.23,
+    "end": 220.87
+  },
+  {
+    "text": "After",
+    "start": 220.87,
+    "end": 221.19
+  },
+  {
+    "text": "seven",
+    "start": 221.19,
+    "end": 221.51
+  },
+  {
+    "text": "folds,",
+    "start": 221.51,
     "end": 221.99
   },
   {
-    "text": "little",
+    "text": "an",
     "start": 221.99,
     "end": 222.15
   },
   {
-    "text": "block",
+    "text": "ordinary",
     "start": 222.15,
     "end": 222.55
   },
   {
-    "text": "about",
-    "start": 222.63,
+    "text": "sheet",
+    "start": 222.55,
     "end": 222.87
   },
   {
-    "text": "two",
+    "text": "could",
     "start": 222.87,
-    "end": 222.95
+    "end": 223.03
   },
   {
-    "text": "centimeters",
-    "start": 223.11,
-    "end": 223.75
+    "text": "already",
+    "start": 223.03,
+    "end": 223.27
   },
   {
-    "text": "across,",
-    "start": 223.75,
-    "end": 224.31
-  },
-  {
-    "text": "and",
-    "start": 224.31,
-    "end": 224.55
+    "text": "be",
+    "start": 223.27,
+    "end": 223.43
   },
   {
     "text": "more",
-    "start": 224.55,
-    "end": 224.71
+    "start": 223.43,
+    "end": 223.51
   },
   {
     "text": "than",
-    "start": 224.71,
-    "end": 224.87
+    "start": 223.51,
+    "end": 223.67
   },
   {
     "text": "a",
-    "start": 224.87,
-    "end": 225.03
+    "start": 223.67,
+    "end": 223.83
   },
   {
     "text": "centimeter",
-    "start": 225.03,
-    "end": 225.67
+    "start": 223.83,
+    "end": 224.39
   },
   {
-    "text": "thick.",
-    "start": 225.67,
-    "end": 226.23
+    "text": "thick,",
+    "start": 224.39,
+    "end": 224.95
   },
   {
-    "text": "It's",
-    "start": 226.23,
-    "end": 226.55
+    "text": "with",
+    "start": 224.95,
+    "end": 225.19
   },
   {
-    "text": "nearly",
-    "start": 226.55,
-    "end": 226.95
+    "text": "only",
+    "start": 225.19,
+    "end": 225.43
   },
   {
     "text": "a",
-    "start": 226.95,
-    "end": 227.11
+    "start": 225.43,
+    "end": 225.59
   },
   {
-    "text": "cube,",
-    "start": 227.11,
+    "text": "tiny",
+    "start": 225.59,
+    "end": 225.91
+  },
+  {
+    "text": "footprint",
+    "start": 225.91,
+    "end": 226.55
+  },
+  {
+    "text": "remaining.",
+    "start": 226.55,
+    "end": 227.43
+  },
+  {
+    "text": "At",
+    "start": 227.43,
     "end": 227.67
   },
   {
-    "text": "and",
+    "text": "that",
     "start": 227.67,
     "end": 227.91
   },
   {
-    "text": "folding",
+    "text": "point,",
     "start": 227.91,
-    "end": 228.31
+    "end": 228.47
   },
   {
-    "text": "a",
-    "start": 228.31,
-    "end": 228.39
+    "text": "bending",
+    "start": 228.47,
+    "end": 228.95
   },
   {
-    "text": "cube",
-    "start": 228.39,
-    "end": 228.71
+    "text": "the",
+    "start": 228.95,
+    "end": 229.11
   },
   {
-    "text": "in",
-    "start": 228.71,
-    "end": 228.87
+    "text": "growing",
+    "start": 229.11,
+    "end": 229.51
   },
   {
-    "text": "half",
-    "start": 228.87,
-    "end": 229.19
+    "text": "stack",
+    "start": 229.51,
+    "end": 229.91
   },
   {
-    "text": "is",
-    "start": 229.19,
-    "end": 229.35
+    "text": "becomes",
+    "start": 229.91,
+    "end": 230.39
   },
   {
-    "text": "close",
-    "start": 229.35,
-    "end": 229.67
+    "text": "extremely",
+    "start": 230.39,
+    "end": 231.11
   },
   {
-    "text": "to",
-    "start": 229.67,
-    "end": 229.83
-  },
-  {
-    "text": "impossible.",
-    "start": 229.83,
-    "end": 230.63
+    "text": "difficult.",
+    "start": 231.11,
+    "end": 231.83
   },
   {
     "text": "That's",
-    "start": 230.63,
-    "end": 230.95
+    "start": 232.07,
+    "end": 232.47
   },
   {
     "text": "why",
-    "start": 230.95,
-    "end": 231.19
-  },
-  {
-    "text": "most",
-    "start": 231.19,
-    "end": 231.35
-  },
-  {
-    "text": "people",
-    "start": 231.35,
-    "end": 231.51
-  },
-  {
-    "text": "get",
-    "start": 231.51,
-    "end": 231.75
-  },
-  {
-    "text": "stuck",
-    "start": 231.75,
-    "end": 231.99
-  },
-  {
-    "text": "at",
-    "start": 231.99,
-    "end": 232.15
-  },
-  {
-    "text": "around",
-    "start": 232.15,
-    "end": 232.39
-  },
-  {
-    "text": "seven",
-    "start": 232.39,
+    "start": 232.47,
     "end": 232.71
   },
   {
-    "text": "folds.",
+    "text": "most",
     "start": 232.71,
-    "end": 233.67
-  },
-  {
-    "text": "For",
-    "start": 233.67,
-    "end": 233.99
-  },
-  {
-    "text": "years,",
-    "start": 233.99,
-    "end": 234.47
+    "end": 232.95
   },
   {
     "text": "people",
-    "start": 234.47,
+    "start": 232.95,
+    "end": 233.19
+  },
+  {
+    "text": "can",
+    "start": 233.19,
+    "end": 233.35
+  },
+  {
+    "text": "only",
+    "start": 233.35,
+    "end": 233.59
+  },
+  {
+    "text": "manage",
+    "start": 233.59,
+    "end": 233.91
+  },
+  {
+    "text": "around",
+    "start": 233.91,
+    "end": 234.23
+  },
+  {
+    "text": "six",
+    "start": 234.23,
+    "end": 234.55
+  },
+  {
+    "text": "or",
+    "start": 234.55,
     "end": 234.71
   },
   {
-    "text": "said",
+    "text": "seven",
     "start": 234.71,
     "end": 235.03
   },
   {
-    "text": "seven",
+    "text": "folds",
     "start": 235.03,
-    "end": 235.35
+    "end": 235.43
   },
   {
-    "text": "folds",
-    "start": 235.35,
-    "end": 235.91
+    "text": "with",
+    "start": 235.43,
+    "end": 235.59
   },
   {
-    "text": "was",
-    "start": 235.91,
-    "end": 235.99
-  },
-  {
-    "text": "the",
-    "start": 235.99,
-    "end": 236.15
-  },
-  {
-    "text": "limit.",
-    "start": 236.15,
-    "end": 236.79
-  },
-  {
-    "text": "Then,",
-    "start": 236.79,
-    "end": 237.19
-  },
-  {
-    "text": "in",
-    "start": 237.19,
-    "end": 237.35
-  },
-  {
-    "text": "two",
-    "start": 237.35,
-    "end": 237.43
-  },
-  {
-    "text": "thousand",
-    "start": 237.59,
-    "end": 237.75
-  },
-  {
-    "text": "one,",
-    "start": 237.83,
-    "end": 238.15
-  },
-  {
-    "text": "a",
-    "start": 238.15,
-    "end": 238.31
-  },
-  {
-    "text": "high",
-    "start": 238.31,
-    "end": 238.55
-  },
-  {
-    "text": "school",
-    "start": 238.55,
-    "end": 238.87
-  },
-  {
-    "text": "student",
-    "start": 238.87,
-    "end": 239.19
-  },
-  {
-    "text": "in",
-    "start": 239.19,
-    "end": 239.35
-  },
-  {
-    "text": "California",
-    "start": 239.35,
-    "end": 239.83
-  },
-  {
-    "text": "named",
-    "start": 239.83,
-    "end": 240.15
-  },
-  {
-    "text": "Britney",
-    "start": 240.15,
-    "end": 240.55
-  },
-  {
-    "text": "Galavan",
-    "start": 240.63,
-    "end": 241.51
-  },
-  {
-    "text": "got",
-    "start": 241.59,
-    "end": 241.75
-  },
-  {
-    "text": "an",
-    "start": 241.75,
-    "end": 241.83
-  },
-  {
-    "text": "extra",
-    "start": 241.83,
-    "end": 242.07
-  },
-  {
-    "text": "credit",
-    "start": 242.07,
-    "end": 242.47
-  },
-  {
-    "text": "challenge.",
-    "start": 242.47,
-    "end": 243.03
-  },
-  {
-    "text": "fold",
-    "start": 243.26,
-    "end": 243.66
-  },
-  {
-    "text": "something",
-    "start": 243.66,
-    "end": 243.9
-  },
-  {
-    "text": "in",
-    "start": 243.9,
-    "end": 244.06
-  },
-  {
-    "text": "half",
-    "start": 244.06,
-    "end": 244.38
-  },
-  {
-    "text": "twelve",
-    "start": 244.38,
-    "end": 244.86
-  },
-  {
-    "text": "times.",
-    "start": 244.86,
-    "end": 245.58
-  },
-  {
-    "text": "She",
-    "start": 245.58,
-    "end": 245.82
-  },
-  {
-    "text": "worked",
-    "start": 245.82,
-    "end": 246.22
-  },
-  {
-    "text": "out",
-    "start": 246.22,
-    "end": 246.38
-  },
-  {
-    "text": "the",
-    "start": 246.38,
-    "end": 246.46
-  },
-  {
-    "text": "math",
-    "start": 246.46,
-    "end": 246.78
-  },
-  {
-    "text": "first.",
-    "start": 246.78,
-    "end": 247.18
-  },
-  {
-    "text": "Then",
-    "start": 247.18,
-    "end": 247.42
-  },
-  {
-    "text": "in",
-    "start": 247.58,
-    "end": 247.74
-  },
-  {
-    "text": "January",
-    "start": 247.74,
-    "end": 248.3
-  },
-  {
-    "text": "2002,",
-    "start": 248.3,
-    "end": 249.1
-  },
-  {
-    "text": "she",
-    "start": 249.1,
-    "end": 249.26
-  },
-  {
-    "text": "folded",
-    "start": 249.26,
-    "end": 249.66
-  },
-  {
-    "text": "a",
-    "start": 249.66,
-    "end": 249.74
-  },
-  {
-    "text": "strip",
-    "start": 249.74,
-    "end": 249.98
-  },
-  {
-    "text": "of",
-    "start": 249.98,
-    "end": 250.06
-  },
-  {
-    "text": "toilet",
-    "start": 250.06,
-    "end": 250.54
-  },
-  {
-    "text": "paper",
-    "start": 250.62,
-    "end": 250.94
-  },
-  {
-    "text": "about",
-    "start": 250.94,
-    "end": 251.18
-  },
-  {
-    "text": "1.2",
-    "start": 251.18,
-    "end": 251.82
-  },
-  {
-    "text": "kilometers",
-    "start": 251.82,
-    "end": 252.46
-  },
-  {
-    "text": "long",
-    "start": 252.46,
-    "end": 252.78
-  },
-  {
-    "text": "in",
-    "start": 252.86,
-    "end": 253.1
-  },
-  {
-    "text": "half",
-    "start": 253.1,
-    "end": 253.58
-  },
-  {
-    "text": "twelve",
-    "start": 253.58,
-    "end": 254.14
-  },
-  {
-    "text": "times,",
-    "start": 254.14,
-    "end": 254.7
-  },
-  {
-    "text": "all",
-    "start": 254.7,
-    "end": 255.02
-  },
-  {
-    "text": "in",
-    "start": 255.02,
-    "end": 255.18
-  },
-  {
-    "text": "the",
-    "start": 255.18,
-    "end": 255.26
-  },
-  {
-    "text": "same",
-    "start": 255.26,
-    "end": 255.58
-  },
-  {
-    "text": "direction.",
-    "start": 255.58,
-    "end": 256.78
-  },
-  {
-    "text": "Her",
-    "start": 256.78,
-    "end": 257.02
-  },
-  {
-    "text": "formula",
-    "start": 257.02,
-    "end": 257.66
-  },
-  {
-    "text": "gives",
-    "start": 257.66,
-    "end": 257.9
-  },
-  {
-    "text": "the",
-    "start": 257.9,
-    "end": 258.06
-  },
-  {
-    "text": "length",
-    "start": 258.06,
-    "end": 258.38
-  },
-  {
-    "text": "of",
-    "start": 258.38,
-    "end": 258.54
-  },
-  {
-    "text": "paper",
-    "start": 258.54,
-    "end": 258.86
-  },
-  {
-    "text": "you",
-    "start": 258.86,
-    "end": 259.02
-  },
-  {
-    "text": "need",
-    "start": 259.02,
-    "end": 259.18
-  },
-  {
-    "text": "for",
-    "start": 259.18,
-    "end": 259.42
-  },
-  {
-    "text": "n",
-    "start": 259.42,
-    "end": 259.66
-  },
-  {
-    "text": "folds",
-    "start": 259.82,
-    "end": 260.38
-  },
-  {
-    "text": "in",
-    "start": 260.38,
-    "end": 260.54
-  },
-  {
-    "text": "one",
-    "start": 260.54,
-    "end": 260.78
-  },
-  {
-    "text": "direction.",
-    "start": 260.78,
-    "end": 261.58
-  },
-  {
-    "text": "L",
-    "start": 261.58,
-    "end": 261.82
-  },
-  {
-    "text": "equals",
-    "start": 261.98,
-    "end": 262.46
-  },
-  {
-    "text": "π",
-    "start": 262.46,
-    "end": 262.62
-  },
-  {
-    "text": "T",
-    "start": 262.86,
-    "end": 263.1
-  },
-  {
-    "text": "over",
-    "start": 263.18,
-    "end": 263.42
-  },
-  {
-    "text": "6",
-    "start": 263.42,
-    "end": 263.74
-  },
-  {
-    "text": "times",
-    "start": 263.82,
-    "end": 264.14
-  },
-  {
-    "text": "2",
-    "start": 264.14,
-    "end": 264.46
-  },
-  {
-    "text": "to",
-    "start": 264.46,
-    "end": 264.62
-  },
-  {
-    "text": "the",
-    "start": 264.62,
-    "end": 264.78
-  },
-  {
-    "text": "n",
-    "start": 264.78,
-    "end": 265.02
-  },
-  {
-    "text": "plus",
-    "start": 265.02,
-    "end": 265.34
-  },
-  {
-    "text": "4",
-    "start": 265.34,
-    "end": 265.66
-  },
-  {
-    "text": "times",
-    "start": 265.74,
-    "end": 266.06
-  },
-  {
-    "text": "2",
-    "start": 266.06,
-    "end": 266.38
-  },
-  {
-    "text": "to",
-    "start": 266.38,
-    "end": 266.54
-  },
-  {
-    "text": "the",
-    "start": 266.54,
-    "end": 266.62
-  },
-  {
-    "text": "n",
-    "start": 266.62,
-    "end": 266.86
-  },
-  {
-    "text": "minus",
-    "start": 266.94,
-    "end": 267.34
-  },
-  {
-    "text": "1.",
-    "start": 267.34,
-    "end": 267.98
-  },
-  {
-    "text": "2",
-    "start": 267.98,
-    "end": 268.38
-  },
-  {
-    "text": "to",
-    "start": 268.38,
-    "end": 268.54
-  },
-  {
-    "text": "the",
-    "start": 268.54,
-    "end": 268.62
-  },
-  {
-    "text": "n",
-    "start": 268.62,
-    "end": 268.78
-  },
-  {
-    "text": "shows",
-    "start": 268.94,
-    "end": 269.18
-  },
-  {
-    "text": "up",
-    "start": 269.18,
-    "end": 269.34
-  },
-  {
-    "text": "twice,",
-    "start": 269.34,
-    "end": 269.74
-  },
-  {
-    "text": "so",
-    "start": 269.74,
-    "end": 269.98
-  },
-  {
-    "text": "the",
-    "start": 269.98,
-    "end": 270.06
-  },
-  {
-    "text": "length",
-    "start": 270.06,
-    "end": 270.46
-  },
-  {
-    "text": "grows",
-    "start": 270.46,
-    "end": 270.78
-  },
-  {
-    "text": "like",
-    "start": 270.78,
-    "end": 270.94
-  },
-  {
-    "text": "4",
-    "start": 270.94,
-    "end": 271.26
-  },
-  {
-    "text": "to",
-    "start": 271.26,
-    "end": 271.5
-  },
-  {
-    "text": "the",
-    "start": 271.5,
-    "end": 271.66
-  },
-  {
-    "text": "n.",
-    "start": 271.66,
-    "end": 272.14
-  },
-  {
-    "text": "Every",
-    "start": 272.14,
-    "end": 272.54
-  },
-  {
-    "text": "extra",
-    "start": 272.54,
-    "end": 272.86
-  },
-  {
-    "text": "fold",
-    "start": 272.86,
-    "end": 273.34
-  },
-  {
-    "text": "needs",
-    "start": 273.34,
-    "end": 273.66
-  },
-  {
-    "text": "about",
-    "start": 273.66,
-    "end": 273.82
-  },
-  {
-    "text": "four",
-    "start": 273.82,
-    "end": 274.22
-  },
-  {
-    "text": "times",
-    "start": 274.22,
-    "end": 274.54
-  },
-  {
-    "text": "more",
-    "start": 274.54,
-    "end": 274.78
-  },
-  {
-    "text": "paper.",
-    "start": 274.78,
-    "end": 275.66
-  },
-  {
-    "text": "Now",
-    "start": 275.66,
-    "end": 275.82
-  },
-  {
-    "text": "plug",
-    "start": 275.98,
-    "end": 276.38
-  },
-  {
-    "text": "in",
-    "start": 276.38,
-    "end": 276.54
-  },
-  {
-    "text": "42",
-    "start": 276.54,
-    "end": 277.02
-  },
-  {
-    "text": "folds",
-    "start": 277.02,
-    "end": 277.42
-  },
-  {
-    "text": "of",
-    "start": 277.42,
-    "end": 277.5
+    "text": "ordinary",
+    "start": 235.59,
+    "end": 236.07
   },
   {
     "text": "printer",
-    "start": 277.5,
-    "end": 277.9
+    "start": 236.07,
+    "end": 236.55
   },
   {
     "text": "paper.",
-    "start": 277.9,
-    "end": 278.38
-  },
-  {
-    "text": "You'd",
-    "start": 278.38,
-    "end": 278.7
-  },
-  {
-    "text": "need",
-    "start": 278.7,
-    "end": 278.86
-  },
-  {
-    "text": "a",
-    "start": 278.86,
-    "end": 278.94
-  },
-  {
-    "text": "strip",
-    "start": 278.94,
-    "end": 279.26
-  },
-  {
-    "text": "about",
-    "start": 279.26,
-    "end": 279.5
-  },
-  {
-    "text": "10",
-    "start": 279.5,
-    "end": 279.82
-  },
-  {
-    "text": "to",
-    "start": 279.82,
-    "end": 279.98
-  },
-  {
-    "text": "the",
-    "start": 279.98,
-    "end": 280.14
-  },
-  {
-    "text": "21",
-    "start": 280.14,
-    "end": 280.62
-  },
-  {
-    "text": "meters",
-    "start": 280.62,
-    "end": 281.02
-  },
-  {
-    "text": "long.",
-    "start": 281.02,
-    "end": 281.5
-  },
-  {
-    "text": "That's",
-    "start": 281.5,
-    "end": 281.82
-  },
-  {
-    "text": "roughly",
-    "start": 281.82,
-    "end": 282.22
-  },
-  {
-    "text": "a",
-    "start": 282.22,
-    "end": 282.38
-  },
-  {
-    "text": "hundred",
-    "start": 282.38,
-    "end": 282.62
-  },
-  {
-    "text": "thousand",
-    "start": 282.62,
-    "end": 283.02
-  },
-  {
-    "text": "light",
-    "start": 283.02,
-    "end": 283.34
-  },
-  {
-    "text": "years,",
-    "start": 283.34,
-    "end": 283.82
-  },
-  {
-    "text": "about",
-    "start": 283.82,
-    "end": 283.98
-  },
-  {
-    "text": "the",
-    "start": 283.98,
-    "end": 284.14
-  },
-  {
-    "text": "width",
-    "start": 284.14,
-    "end": 284.38
-  },
-  {
-    "text": "of",
-    "start": 284.38,
-    "end": 284.54
-  },
-  {
-    "text": "our",
-    "start": 284.54,
-    "end": 284.7
-  },
-  {
-    "text": "galaxy.",
-    "start": 284.7,
-    "end": 285.82
-  },
-  {
-    "text": "This",
-    "start": 285.82,
-    "end": 286.14
-  },
-  {
-    "text": "isn't",
-    "start": 286.14,
-    "end": 286.46
-  },
-  {
-    "text": "just",
-    "start": 286.46,
-    "end": 286.62
-  },
-  {
-    "text": "a",
-    "start": 286.62,
-    "end": 286.78
-  },
-  {
-    "text": "party",
-    "start": 286.78,
-    "end": 287.18
-  },
-  {
-    "text": "trick.",
-    "start": 287.18,
-    "end": 287.58
-  },
-  {
-    "text": "Engineers",
-    "start": 287.74,
-    "end": 288.38
-  },
-  {
-    "text": "run",
-    "start": 288.38,
-    "end": 288.54
-  },
-  {
-    "text": "into",
-    "start": 288.54,
-    "end": 288.78
-  },
-  {
-    "text": "doubling",
-    "start": 288.78,
-    "end": 289.34
-  },
-  {
-    "text": "all",
-    "start": 289.34,
-    "end": 289.5
-  },
-  {
-    "text": "the",
-    "start": 289.5,
-    "end": 289.66
-  },
-  {
-    "text": "time.",
-    "start": 289.66,
-    "end": 290.22
+    "start": 236.55,
+    "end": 237.51
   },
   {
     "text": "For",
-    "start": 290.22,
-    "end": 290.46
+    "start": 237.51,
+    "end": 237.83
   },
   {
-    "text": "decades",
-    "start": 290.46,
-    "end": 290.86
+    "text": "years,",
+    "start": 237.83,
+    "end": 238.31
   },
   {
-    "text": "the",
-    "start": 290.94,
-    "end": 291.02
+    "text": "people",
+    "start": 238.31,
+    "end": 238.63
   },
   {
-    "text": "number",
-    "start": 291.02,
-    "end": 291.26
+    "text": "commonly",
+    "start": 238.63,
+    "end": 239.03
   },
   {
-    "text": "of",
-    "start": 291.26,
-    "end": 291.42
-  },
-  {
-    "text": "transistors",
-    "start": 291.42,
-    "end": 291.98
-  },
-  {
-    "text": "on",
-    "start": 291.98,
-    "end": 292.14
-  },
-  {
-    "text": "a",
-    "start": 292.14,
-    "end": 292.22
-  },
-  {
-    "text": "computer",
-    "start": 292.22,
-    "end": 292.54
-  },
-  {
-    "text": "chip",
-    "start": 292.54,
-    "end": 292.94
-  },
-  {
-    "text": "doubled",
-    "start": 292.94,
-    "end": 293.34
-  },
-  {
-    "text": "about",
-    "start": 293.34,
-    "end": 293.5
-  },
-  {
-    "text": "every",
-    "start": 293.5,
-    "end": 293.74
-  },
-  {
-    "text": "two",
-    "start": 293.74,
-    "end": 293.9
-  },
-  {
-    "text": "years.",
-    "start": 294.06,
-    "end": 294.7
-  },
-  {
-    "text": "In",
-    "start": 294.7,
-    "end": 294.94
-  },
-  {
-    "text": "a",
-    "start": 294.94,
-    "end": 295.02
-  },
-  {
-    "text": "nuclear",
-    "start": 295.02,
-    "end": 295.58
-  },
-  {
-    "text": "reactor,",
-    "start": 295.58,
-    "end": 296.14
-  },
-  {
-    "text": "each",
-    "start": 296.14,
-    "end": 296.38
-  },
-  {
-    "text": "splitting",
-    "start": 296.38,
-    "end": 296.78
-  },
-  {
-    "text": "atom",
-    "start": 296.78,
-    "end": 297.18
-  },
-  {
-    "text": "releases",
-    "start": 297.18,
-    "end": 297.58
-  },
-  {
-    "text": "neutrons",
-    "start": 297.58,
-    "end": 298.14
-  },
-  {
-    "text": "that",
-    "start": 298.14,
-    "end": 298.22
-  },
-  {
-    "text": "can",
-    "start": 298.22,
-    "end": 298.38
-  },
-  {
-    "text": "split",
-    "start": 298.38,
-    "end": 298.78
-  },
-  {
-    "text": "more",
-    "start": 298.78,
-    "end": 298.94
-  },
-  {
-    "text": "atoms,",
-    "start": 298.94,
-    "end": 299.5
-  },
-  {
-    "text": "so",
-    "start": 299.5,
-    "end": 299.66
-  },
-  {
-    "text": "the",
-    "start": 299.66,
-    "end": 299.82
-  },
-  {
-    "text": "reaction",
-    "start": 299.82,
-    "end": 300.22
-  },
-  {
-    "text": "has",
-    "start": 300.22,
-    "end": 300.38
-  },
-  {
-    "text": "to",
-    "start": 300.38,
-    "end": 300.46
-  },
-  {
-    "text": "be",
-    "start": 300.46,
-    "end": 300.62
-  },
-  {
-    "text": "carefully",
-    "start": 300.62,
-    "end": 301.1
-  },
-  {
-    "text": "controlled.",
-    "start": 301.1,
-    "end": 301.9
-  },
-  {
-    "text": "And",
-    "start": 301.9,
-    "end": 302.22
-  },
-  {
-    "text": "money",
-    "start": 302.22,
-    "end": 302.7
-  },
-  {
-    "text": "growing",
-    "start": 302.7,
-    "end": 303.02
-  },
-  {
-    "text": "at",
-    "start": 303.02,
-    "end": 303.18
-  },
-  {
-    "text": "seven",
-    "start": 303.18,
-    "end": 303.42
-  },
-  {
-    "text": "percent",
-    "start": 303.42,
-    "end": 303.74
-  },
-  {
-    "text": "a",
-    "start": 303.74,
-    "end": 303.82
-  },
-  {
-    "text": "year",
-    "start": 303.82,
-    "end": 304.06
-  },
-  {
-    "text": "doubles",
-    "start": 304.14,
-    "end": 304.62
-  },
-  {
-    "text": "about",
-    "start": 304.62,
-    "end": 304.86
-  },
-  {
-    "text": "every",
-    "start": 304.86,
-    "end": 305.02
-  },
-  {
-    "text": "ten",
-    "start": 305.02,
-    "end": 305.18
-  },
-  {
-    "text": "years.",
-    "start": 305.34,
-    "end": 305.82
-  },
-  {
-    "text": "Whenever",
-    "start": 306.15,
-    "end": 306.55
-  },
-  {
-    "text": "something",
-    "start": 306.55,
-    "end": 306.79
-  },
-  {
-    "text": "doubles",
-    "start": 306.79,
-    "end": 307.19
-  },
-  {
-    "text": "at",
-    "start": 307.19,
-    "end": 307.35
-  },
-  {
-    "text": "a",
-    "start": 307.35,
-    "end": 307.43
-  },
-  {
-    "text": "steady",
-    "start": 307.43,
-    "end": 307.75
-  },
-  {
-    "text": "rate,",
-    "start": 307.75,
-    "end": 308.15
-  },
-  {
-    "text": "the",
-    "start": 308.15,
-    "end": 308.31
-  },
-  {
-    "text": "folded",
-    "start": 308.31,
-    "end": 308.79
-  },
-  {
-    "text": "paper",
-    "start": 308.79,
-    "end": 309.11
-  },
-  {
-    "text": "curve",
-    "start": 309.11,
-    "end": 309.43
-  },
-  {
-    "text": "is",
-    "start": 309.43,
-    "end": 309.59
-  },
-  {
-    "text": "waiting.",
-    "start": 309.59,
-    "end": 310.63
-  },
-  {
-    "text": "So",
-    "start": 310.95,
-    "end": 311.19
-  },
-  {
-    "text": "here's",
-    "start": 311.27,
-    "end": 311.67
-  },
-  {
-    "text": "the",
-    "start": 311.67,
-    "end": 311.83
-  },
-  {
-    "text": "one",
-    "start": 311.83,
-    "end": 312.07
-  },
-  {
-    "text": "thing",
-    "start": 312.07,
-    "end": 312.23
-  },
-  {
-    "text": "to",
-    "start": 312.23,
-    "end": 312.39
-  },
-  {
-    "text": "remember.",
-    "start": 312.39,
-    "end": 313.03
-  },
-  {
-    "text": "Ten",
-    "start": 313.03,
-    "end": 313.27
-  },
-  {
-    "text": "doublings",
-    "start": 313.43,
-    "end": 313.99
-  },
-  {
-    "text": "is",
-    "start": 313.99,
-    "end": 314.15
-  },
-  {
-    "text": "about",
-    "start": 314.15,
-    "end": 314.39
-  },
-  {
-    "text": "a",
-    "start": 314.39,
-    "end": 314.55
-  },
-  {
-    "text": "thousand",
-    "start": 314.55,
-    "end": 314.95
-  },
-  {
-    "text": "times.",
-    "start": 314.95,
-    "end": 315.59
-  },
-  {
-    "text": "Forty",
-    "start": 315.59,
-    "end": 315.99
-  },
-  {
-    "text": "two",
-    "start": 315.99,
-    "end": 316.07
-  },
-  {
-    "text": "doublings",
-    "start": 316.23,
-    "end": 316.79
-  },
-  {
-    "text": "turn",
-    "start": 316.79,
-    "end": 317.03
-  },
-  {
-    "text": "a",
-    "start": 317.03,
-    "end": 317.19
-  },
-  {
-    "text": "tenth",
-    "start": 317.19,
-    "end": 317.51
-  },
-  {
-    "text": "of",
-    "start": 317.51,
-    "end": 317.59
-  },
-  {
-    "text": "a",
-    "start": 317.59,
-    "end": 317.67
-  },
-  {
-    "text": "millimeter",
-    "start": 317.67,
-    "end": 318.15
-  },
-  {
-    "text": "into",
-    "start": 318.31,
-    "end": 318.55
-  },
-  {
-    "text": "four",
-    "start": 318.55,
-    "end": 318.87
-  },
-  {
-    "text": "hundred",
-    "start": 318.87,
-    "end": 319.03
-  },
-  {
-    "text": "and",
-    "start": 319.03,
-    "end": 319.11
-  },
-  {
-    "text": "forty",
-    "start": 319.19,
-    "end": 319.51
-  },
-  {
-    "text": "thousand",
-    "start": 319.51,
-    "end": 319.91
-  },
-  {
-    "text": "kilometers.",
-    "start": 319.91,
-    "end": 321.03
-  },
-  {
-    "text": "That's",
-    "start": 321.03,
-    "end": 321.35
-  },
-  {
-    "text": "how",
-    "start": 321.35,
-    "end": 321.59
-  },
-  {
-    "text": "a",
-    "start": 321.59,
-    "end": 321.75
-  },
-  {
-    "text": "sheet",
-    "start": 321.75,
-    "end": 321.99
-  },
-  {
-    "text": "of",
-    "start": 321.99,
-    "end": 322.15
-  },
-  {
-    "text": "paper,",
-    "start": 322.15,
-    "end": 322.55
-  },
-  {
-    "text": "at",
-    "start": 322.55,
-    "end": 322.71
-  },
-  {
-    "text": "least",
-    "start": 322.71,
-    "end": 322.95
-  },
-  {
-    "text": "on",
-    "start": 322.95,
-    "end": 323.11
-  },
-  {
-    "text": "paper,",
-    "start": 323.11,
-    "end": 323.59
-  },
-  {
-    "text": "reaches",
-    "start": 323.59,
-    "end": 324.07
-  },
-  {
-    "text": "the",
-    "start": 324.07,
-    "end": 324.23
-  },
-  {
-    "text": "moon.",
-    "start": 324.23,
-    "end": 324.87
-  },
-  {
-    "text": "If",
-    "start": 324.87,
-    "end": 325.11
+    "text": "believed",
+    "start": 239.03,
+    "end": 239.43
   },
   {
     "text": "you",
-    "start": 325.11,
-    "end": 325.27
+    "start": 239.43,
+    "end": 239.59
   },
   {
-    "text": "enjoyed",
-    "start": 325.27,
-    "end": 325.59
+    "text": "couldn't",
+    "start": 239.59,
+    "end": 239.83
   },
   {
-    "text": "this",
-    "start": 325.59,
-    "end": 325.75
+    "text": "fold",
+    "start": 239.83,
+    "end": 240.23
   },
   {
-    "text": "one,",
-    "start": 325.75,
-    "end": 326.07
+    "text": "paper",
+    "start": 240.23,
+    "end": 240.47
   },
   {
-    "text": "please",
-    "start": 326.07,
-    "end": 326.31
+    "text": "in",
+    "start": 240.47,
+    "end": 240.63
   },
   {
-    "text": "give",
-    "start": 326.31,
-    "end": 326.47
-  },
-  {
-    "text": "it",
-    "start": 326.47,
-    "end": 326.63
-  },
-  {
-    "text": "a",
-    "start": 326.63,
-    "end": 326.71
-  },
-  {
-    "text": "like",
-    "start": 326.71,
-    "end": 326.95
-  },
-  {
-    "text": "and",
-    "start": 326.95,
-    "end": 327.11
-  },
-  {
-    "text": "subscribe",
-    "start": 327.11,
-    "end": 327.59
-  },
-  {
-    "text": "for",
-    "start": 327.59,
-    "end": 327.75
+    "text": "half",
+    "start": 240.63,
+    "end": 240.95
   },
   {
     "text": "more",
-    "start": 327.75,
-    "end": 327.91
+    "start": 240.95,
+    "end": 241.11
   },
   {
-    "text": "everyday",
-    "start": 327.91,
-    "end": 328.47
+    "text": "than",
+    "start": 241.11,
+    "end": 241.27
   },
   {
-    "text": "engineering.",
-    "start": 328.47,
-    "end": 329.19
+    "text": "seven",
+    "start": 241.27,
+    "end": 241.67
   },
   {
-    "text": "Thanks",
-    "start": 329.19,
-    "end": 329.51
+    "text": "times.",
+    "start": 241.67,
+    "end": 242.39
+  },
+  {
+    "text": "Then",
+    "start": 242.39,
+    "end": 242.71
+  },
+  {
+    "text": "in",
+    "start": 242.79,
+    "end": 242.95
+  },
+  {
+    "text": "2001,",
+    "start": 242.95,
+    "end": 243.83
+  },
+  {
+    "text": "a",
+    "start": 243.83,
+    "end": 243.99
+  },
+  {
+    "text": "California",
+    "start": 243.99,
+    "end": 244.55
+  },
+  {
+    "text": "high",
+    "start": 244.55,
+    "end": 244.79
+  },
+  {
+    "text": "school",
+    "start": 244.79,
+    "end": 244.95
+  },
+  {
+    "text": "student",
+    "start": 244.95,
+    "end": 245.27
+  },
+  {
+    "text": "named",
+    "start": 245.27,
+    "end": 245.51
+  },
+  {
+    "text": "Britney",
+    "start": 245.51,
+    "end": 245.91
+  },
+  {
+    "text": "Gallavin",
+    "start": 245.91,
+    "end": 246.63
+  },
+  {
+    "text": "was",
+    "start": 246.71,
+    "end": 246.87
+  },
+  {
+    "text": "challenged",
+    "start": 246.87,
+    "end": 247.27
+  },
+  {
+    "text": "by",
+    "start": 247.27,
+    "end": 247.35
+  },
+  {
+    "text": "her",
+    "start": 247.35,
+    "end": 247.51
+  },
+  {
+    "text": "math",
+    "start": 247.51,
+    "end": 247.75
+  },
+  {
+    "text": "teacher",
+    "start": 247.75,
+    "end": 247.99
+  },
+  {
+    "text": "to",
+    "start": 247.99,
+    "end": 248.15
+  },
+  {
+    "text": "fold",
+    "start": 248.15,
+    "end": 248.39
+  },
+  {
+    "text": "something",
+    "start": 248.39,
+    "end": 248.55
+  },
+  {
+    "text": "in",
+    "start": 248.55,
+    "end": 248.71
+  },
+  {
+    "text": "half.",
+    "start": 248.71,
+    "end": 249.03
+  },
+  {
+    "text": "twelve",
+    "start": 249.36,
+    "end": 249.84
+  },
+  {
+    "text": "times",
+    "start": 249.84,
+    "end": 250.08
   },
   {
     "text": "for",
-    "start": 329.51,
-    "end": 329.67
+    "start": 250.08,
+    "end": 250.24
+  },
+  {
+    "text": "extra",
+    "start": 250.24,
+    "end": 250.56
+  },
+  {
+    "text": "credit.",
+    "start": 250.56,
+    "end": 251.2
+  },
+  {
+    "text": "In",
+    "start": 251.2,
+    "end": 251.44
+  },
+  {
+    "text": "January",
+    "start": 251.44,
+    "end": 252
+  },
+  {
+    "text": "2002,",
+    "start": 252,
+    "end": 252.72
+  },
+  {
+    "text": "she",
+    "start": 252.72,
+    "end": 252.96
+  },
+  {
+    "text": "folded",
+    "start": 252.96,
+    "end": 253.36
+  },
+  {
+    "text": "a",
+    "start": 253.36,
+    "end": 253.44
+  },
+  {
+    "text": "strip",
+    "start": 253.44,
+    "end": 253.68
+  },
+  {
+    "text": "of",
+    "start": 253.68,
+    "end": 253.84
+  },
+  {
+    "text": "toilet",
+    "start": 253.84,
+    "end": 254.24
+  },
+  {
+    "text": "paper",
+    "start": 254.24,
+    "end": 254.56
+  },
+  {
+    "text": "about",
+    "start": 254.72,
+    "end": 255.04
+  },
+  {
+    "text": "1.2",
+    "start": 255.04,
+    "end": 255.92
+  },
+  {
+    "text": "kilometers",
+    "start": 255.92,
+    "end": 256.56
+  },
+  {
+    "text": "long,",
+    "start": 256.56,
+    "end": 257.04
+  },
+  {
+    "text": "in",
+    "start": 257.04,
+    "end": 257.2
+  },
+  {
+    "text": "half",
+    "start": 257.36,
+    "end": 257.68
+  },
+  {
+    "text": "twelve",
+    "start": 257.68,
+    "end": 258.08
+  },
+  {
+    "text": "times,",
+    "start": 258.08,
+    "end": 258.56
+  },
+  {
+    "text": "all",
+    "start": 258.56,
+    "end": 258.8
+  },
+  {
+    "text": "in",
+    "start": 258.8,
+    "end": 258.96
+  },
+  {
+    "text": "the",
+    "start": 258.96,
+    "end": 259.12
+  },
+  {
+    "text": "same",
+    "start": 259.12,
+    "end": 259.44
+  },
+  {
+    "text": "direction.",
+    "start": 259.44,
+    "end": 260.48
+  },
+  {
+    "text": "Her",
+    "start": 260.48,
+    "end": 260.8
+  },
+  {
+    "text": "formula",
+    "start": 260.8,
+    "end": 261.36
+  },
+  {
+    "text": "gives",
+    "start": 261.36,
+    "end": 261.68
+  },
+  {
+    "text": "the",
+    "start": 261.68,
+    "end": 261.76
+  },
+  {
+    "text": "length",
+    "start": 261.76,
+    "end": 262.08
+  },
+  {
+    "text": "of",
+    "start": 262.08,
+    "end": 262.24
+  },
+  {
+    "text": "paper",
+    "start": 262.24,
+    "end": 262.56
+  },
+  {
+    "text": "you",
+    "start": 262.56,
+    "end": 262.72
+  },
+  {
+    "text": "need",
+    "start": 262.72,
+    "end": 262.96
+  },
+  {
+    "text": "for",
+    "start": 262.96,
+    "end": 263.12
+  },
+  {
+    "text": "n",
+    "start": 263.12,
+    "end": 263.36
+  },
+  {
+    "text": "folds",
+    "start": 263.52,
+    "end": 264.08
+  },
+  {
+    "text": "in",
+    "start": 264.08,
+    "end": 264.24
+  },
+  {
+    "text": "one",
+    "start": 264.24,
+    "end": 264.48
+  },
+  {
+    "text": "direction.",
+    "start": 264.48,
+    "end": 265.28
+  },
+  {
+    "text": "L",
+    "start": 265.28,
+    "end": 265.52
+  },
+  {
+    "text": "equals",
+    "start": 265.68,
+    "end": 266.16
+  },
+  {
+    "text": "π",
+    "start": 266.16,
+    "end": 266.32
+  },
+  {
+    "text": "over",
+    "start": 266.88,
+    "end": 267.12
+  },
+  {
+    "text": "six",
+    "start": 267.12,
+    "end": 267.44
+  },
+  {
+    "text": "times",
+    "start": 267.52,
+    "end": 267.84
+  },
+  {
+    "text": "2",
+    "start": 267.84,
+    "end": 268.16
+  },
+  {
+    "text": "to",
+    "start": 268.16,
+    "end": 268.32
+  },
+  {
+    "text": "the",
+    "start": 268.32,
+    "end": 268.48
+  },
+  {
+    "text": "n",
+    "start": 268.48,
+    "end": 268.72
+  },
+  {
+    "text": "plus",
+    "start": 268.72,
+    "end": 269.04
+  },
+  {
+    "text": "4",
+    "start": 269.04,
+    "end": 269.36
+  },
+  {
+    "text": "times",
+    "start": 269.44,
+    "end": 269.76
+  },
+  {
+    "text": "2",
+    "start": 269.76,
+    "end": 270.08
+  },
+  {
+    "text": "to",
+    "start": 270.08,
+    "end": 270.24
+  },
+  {
+    "text": "the",
+    "start": 270.24,
+    "end": 270.4
+  },
+  {
+    "text": "n",
+    "start": 270.4,
+    "end": 270.64
+  },
+  {
+    "text": "minus",
+    "start": 270.64,
+    "end": 271.04
+  },
+  {
+    "text": "1.",
+    "start": 271.04,
+    "end": 271.68
+  },
+  {
+    "text": "2",
+    "start": 271.68,
+    "end": 272.08
+  },
+  {
+    "text": "to",
+    "start": 272.08,
+    "end": 272.24
+  },
+  {
+    "text": "the",
+    "start": 272.24,
+    "end": 272.4
+  },
+  {
+    "text": "n",
+    "start": 272.4,
+    "end": 272.64
+  },
+  {
+    "text": "shows",
+    "start": 272.64,
+    "end": 272.88
+  },
+  {
+    "text": "up",
+    "start": 272.88,
+    "end": 273.04
+  },
+  {
+    "text": "twice,",
+    "start": 273.04,
+    "end": 273.44
+  },
+  {
+    "text": "so",
+    "start": 273.44,
+    "end": 273.68
+  },
+  {
+    "text": "the",
+    "start": 273.68,
+    "end": 273.76
+  },
+  {
+    "text": "length",
+    "start": 273.76,
+    "end": 274.16
+  },
+  {
+    "text": "grows",
+    "start": 274.16,
+    "end": 274.48
+  },
+  {
+    "text": "like",
+    "start": 274.48,
+    "end": 274.72
+  },
+  {
+    "text": "4",
+    "start": 274.72,
+    "end": 275.04
+  },
+  {
+    "text": "to",
+    "start": 275.04,
+    "end": 275.2
+  },
+  {
+    "text": "the",
+    "start": 275.2,
+    "end": 275.36
+  },
+  {
+    "text": "n.",
+    "start": 275.36,
+    "end": 275.92
+  },
+  {
+    "text": "Every",
+    "start": 275.92,
+    "end": 276.24
+  },
+  {
+    "text": "extra",
+    "start": 276.24,
+    "end": 276.56
+  },
+  {
+    "text": "fold",
+    "start": 276.56,
+    "end": 277.04
+  },
+  {
+    "text": "needs",
+    "start": 277.04,
+    "end": 277.36
+  },
+  {
+    "text": "about",
+    "start": 277.36,
+    "end": 277.52
+  },
+  {
+    "text": "four",
+    "start": 277.52,
+    "end": 277.92
+  },
+  {
+    "text": "times",
+    "start": 277.92,
+    "end": 278.24
+  },
+  {
+    "text": "more",
+    "start": 278.24,
+    "end": 278.56
+  },
+  {
+    "text": "paper.",
+    "start": 278.56,
+    "end": 279.36
+  },
+  {
+    "text": "Now",
+    "start": 279.36,
+    "end": 279.68
+  },
+  {
+    "text": "plug",
+    "start": 279.68,
+    "end": 280.08
+  },
+  {
+    "text": "in",
+    "start": 280.08,
+    "end": 280.24
+  },
+  {
+    "text": "42",
+    "start": 280.24,
+    "end": 280.72
+  },
+  {
+    "text": "folds",
+    "start": 280.72,
+    "end": 281.12
+  },
+  {
+    "text": "of",
+    "start": 281.12,
+    "end": 281.2
+  },
+  {
+    "text": "printer",
+    "start": 281.2,
+    "end": 281.6
+  },
+  {
+    "text": "paper.",
+    "start": 281.6,
+    "end": 282.08
+  },
+  {
+    "text": "You'd",
+    "start": 282.08,
+    "end": 282.4
+  },
+  {
+    "text": "need",
+    "start": 282.4,
+    "end": 282.56
+  },
+  {
+    "text": "a",
+    "start": 282.56,
+    "end": 282.64
+  },
+  {
+    "text": "strip",
+    "start": 282.64,
+    "end": 282.96
+  },
+  {
+    "text": "about",
+    "start": 282.96,
+    "end": 283.2
+  },
+  {
+    "text": "10",
+    "start": 283.2,
+    "end": 283.52
+  },
+  {
+    "text": "to",
+    "start": 283.52,
+    "end": 283.68
+  },
+  {
+    "text": "the",
+    "start": 283.68,
+    "end": 283.84
+  },
+  {
+    "text": "21",
+    "start": 283.84,
+    "end": 284.24
+  },
+  {
+    "text": "meters",
+    "start": 284.32,
+    "end": 284.72
+  },
+  {
+    "text": "long.",
+    "start": 284.72,
+    "end": 285.2
+  },
+  {
+    "text": "That's",
+    "start": 285.2,
+    "end": 285.52
+  },
+  {
+    "text": "roughly",
+    "start": 285.52,
+    "end": 285.92
+  },
+  {
+    "text": "10,000",
+    "start": 285.92,
+    "end": 286.72
+  },
+  {
+    "text": "light",
+    "start": 286.72,
+    "end": 287.04
+  },
+  {
+    "text": "years,",
+    "start": 287.04,
+    "end": 287.52
+  },
+  {
+    "text": "about",
+    "start": 287.52,
+    "end": 287.76
+  },
+  {
+    "text": "the",
+    "start": 287.76,
+    "end": 287.84
+  },
+  {
+    "text": "width",
+    "start": 287.84,
+    "end": 288.16
+  },
+  {
+    "text": "of",
+    "start": 288.16,
+    "end": 288.24
+  },
+  {
+    "text": "our",
+    "start": 288.24,
+    "end": 288.4
+  },
+  {
+    "text": "galaxy.",
+    "start": 288.4,
+    "end": 289.52
+  },
+  {
+    "text": "This",
+    "start": 289.52,
+    "end": 289.84
+  },
+  {
+    "text": "isn't",
+    "start": 289.84,
+    "end": 290.16
+  },
+  {
+    "text": "just",
+    "start": 290.16,
+    "end": 290.32
+  },
+  {
+    "text": "a",
+    "start": 290.32,
+    "end": 290.48
+  },
+  {
+    "text": "party",
+    "start": 290.48,
+    "end": 290.96
+  },
+  {
+    "text": "trick.",
+    "start": 290.96,
+    "end": 291.44
+  },
+  {
+    "text": "Engineers",
+    "start": 291.44,
+    "end": 292.08
+  },
+  {
+    "text": "run",
+    "start": 292.08,
+    "end": 292.24
+  },
+  {
+    "text": "into",
+    "start": 292.24,
+    "end": 292.48
+  },
+  {
+    "text": "doubling",
+    "start": 292.48,
+    "end": 293.04
+  },
+  {
+    "text": "all",
+    "start": 293.04,
+    "end": 293.2
+  },
+  {
+    "text": "the",
+    "start": 293.2,
+    "end": 293.44
+  },
+  {
+    "text": "time.",
+    "start": 293.44,
+    "end": 293.92
+  },
+  {
+    "text": "For",
+    "start": 293.92,
+    "end": 294.16
+  },
+  {
+    "text": "decades",
+    "start": 294.16,
+    "end": 294.56
+  },
+  {
+    "text": "the",
+    "start": 294.64,
+    "end": 294.8
+  },
+  {
+    "text": "number",
+    "start": 294.8,
+    "end": 294.96
+  },
+  {
+    "text": "of",
+    "start": 294.96,
+    "end": 295.12
+  },
+  {
+    "text": "transistors",
+    "start": 295.12,
+    "end": 295.76
+  },
+  {
+    "text": "on",
+    "start": 295.76,
+    "end": 295.84
+  },
+  {
+    "text": "a",
+    "start": 295.84,
+    "end": 295.92
+  },
+  {
+    "text": "computer",
+    "start": 295.92,
+    "end": 296.32
+  },
+  {
+    "text": "chip",
+    "start": 296.32,
+    "end": 296.64
+  },
+  {
+    "text": "doubled",
+    "start": 296.64,
+    "end": 297.04
+  },
+  {
+    "text": "about",
+    "start": 297.04,
+    "end": 297.28
+  },
+  {
+    "text": "every",
+    "start": 297.28,
+    "end": 297.52
+  },
+  {
+    "text": "two",
+    "start": 297.52,
+    "end": 297.76
+  },
+  {
+    "text": "years.",
+    "start": 297.76,
+    "end": 298.4
+  },
+  {
+    "text": "In",
+    "start": 298.4,
+    "end": 298.64
+  },
+  {
+    "text": "a",
+    "start": 298.64,
+    "end": 298.8
+  },
+  {
+    "text": "nuclear",
+    "start": 298.8,
+    "end": 299.28
+  },
+  {
+    "text": "reactor,",
+    "start": 299.28,
+    "end": 299.84
+  },
+  {
+    "text": "each",
+    "start": 299.84,
+    "end": 300.08
+  },
+  {
+    "text": "splitting",
+    "start": 300.08,
+    "end": 300.56
+  },
+  {
+    "text": "atom",
+    "start": 300.56,
+    "end": 300.88
+  },
+  {
+    "text": "releases",
+    "start": 300.88,
+    "end": 301.28
+  },
+  {
+    "text": "neutrons",
+    "start": 301.28,
+    "end": 301.84
+  },
+  {
+    "text": "that",
+    "start": 301.84,
+    "end": 302
+  },
+  {
+    "text": "can",
+    "start": 302,
+    "end": 302.16
+  },
+  {
+    "text": "split",
+    "start": 302.16,
+    "end": 302.48
+  },
+  {
+    "text": "more",
+    "start": 302.48,
+    "end": 302.64
+  },
+  {
+    "text": "atoms,",
+    "start": 302.64,
+    "end": 303.2
+  },
+  {
+    "text": "so",
+    "start": 303.2,
+    "end": 303.44
+  },
+  {
+    "text": "the",
+    "start": 303.44,
+    "end": 303.52
+  },
+  {
+    "text": "reaction",
+    "start": 303.52,
+    "end": 303.92
+  },
+  {
+    "text": "has",
+    "start": 303.92,
+    "end": 304.08
+  },
+  {
+    "text": "to",
+    "start": 304.08,
+    "end": 304.16
+  },
+  {
+    "text": "be",
+    "start": 304.16,
+    "end": 304.32
+  },
+  {
+    "text": "carefully",
+    "start": 304.32,
+    "end": 304.8
+  },
+  {
+    "text": "controlled.",
+    "start": 304.8,
+    "end": 305.6
+  },
+  {
+    "text": "And",
+    "start": 305.6,
+    "end": 305.84
+  },
+  {
+    "text": "money",
+    "start": 305.92,
+    "end": 306.4
+  },
+  {
+    "text": "growing",
+    "start": 306.4,
+    "end": 306.72
+  },
+  {
+    "text": "at",
+    "start": 306.72,
+    "end": 306.88
+  },
+  {
+    "text": "seven",
+    "start": 306.88,
+    "end": 307.2
+  },
+  {
+    "text": "percent",
+    "start": 307.2,
+    "end": 307.36
+  },
+  {
+    "text": "a",
+    "start": 307.52,
+    "end": 307.6
+  },
+  {
+    "text": "year",
+    "start": 307.6,
+    "end": 307.92
+  },
+  {
+    "text": "doubles",
+    "start": 307.92,
+    "end": 308.32
+  },
+  {
+    "text": "about",
+    "start": 308.32,
+    "end": 308.56
+  },
+  {
+    "text": "every",
+    "start": 308.56,
+    "end": 308.8
+  },
+  {
+    "text": "10",
+    "start": 308.8,
+    "end": 309.04
+  },
+  {
+    "text": "years.",
+    "start": 309.04,
+    "end": 309.68
+  },
+  {
+    "text": "Whenever",
+    "start": 309.68,
+    "end": 310.16
+  },
+  {
+    "text": "something",
+    "start": 310.16,
+    "end": 310.48
+  },
+  {
+    "text": "doubles",
+    "start": 310.48,
+    "end": 310.88
+  },
+  {
+    "text": "at",
+    "start": 310.88,
+    "end": 311.04
+  },
+  {
+    "text": "a",
+    "start": 311.04,
+    "end": 311.12
+  },
+  {
+    "text": "steady",
+    "start": 311.12,
+    "end": 311.52
+  },
+  {
+    "text": "rate,",
+    "start": 311.52,
+    "end": 311.84
+  },
+  {
+    "text": "the",
+    "start": 311.84,
+    "end": 312
+  },
+  {
+    "text": "folded",
+    "start": 312,
+    "end": 312.48
+  },
+  {
+    "text": "paper",
+    "start": 312.48,
+    "end": 312.8
+  },
+  {
+    "text": "curve",
+    "start": 312.8,
+    "end": 313.12
+  },
+  {
+    "text": "is",
+    "start": 313.12,
+    "end": 313.28
+  },
+  {
+    "text": "waiting.",
+    "start": 313.28,
+    "end": 313.92
+  },
+  {
+    "text": "So",
+    "start": 314.59,
+    "end": 314.91
+  },
+  {
+    "text": "here's",
+    "start": 314.99,
+    "end": 315.39
+  },
+  {
+    "text": "the",
+    "start": 315.39,
+    "end": 315.55
+  },
+  {
+    "text": "one",
+    "start": 315.55,
+    "end": 315.71
+  },
+  {
+    "text": "thing",
+    "start": 315.71,
+    "end": 315.95
+  },
+  {
+    "text": "to",
+    "start": 315.95,
+    "end": 316.11
+  },
+  {
+    "text": "remember.",
+    "start": 316.11,
+    "end": 316.75
+  },
+  {
+    "text": "10",
+    "start": 316.75,
+    "end": 317.15
+  },
+  {
+    "text": "doublings",
+    "start": 317.15,
+    "end": 317.71
+  },
+  {
+    "text": "is",
+    "start": 317.71,
+    "end": 317.95
+  },
+  {
+    "text": "about",
+    "start": 317.95,
+    "end": 318.11
+  },
+  {
+    "text": "a",
+    "start": 318.11,
+    "end": 318.27
+  },
+  {
+    "text": "thousand",
+    "start": 318.27,
+    "end": 318.67
+  },
+  {
+    "text": "times.",
+    "start": 318.67,
+    "end": 319.31
+  },
+  {
+    "text": "Fort",
+    "start": 319.31,
+    "end": 319.71
+  },
+  {
+    "text": "two",
+    "start": 319.71,
+    "end": 319.79
+  },
+  {
+    "text": "doublings",
+    "start": 319.95,
+    "end": 320.43
+  },
+  {
+    "text": "turn",
+    "start": 320.51,
+    "end": 320.75
+  },
+  {
+    "text": "a",
+    "start": 320.75,
+    "end": 320.91
+  },
+  {
+    "text": "tenth",
+    "start": 320.91,
+    "end": 321.23
+  },
+  {
+    "text": "of",
+    "start": 321.23,
+    "end": 321.31
+  },
+  {
+    "text": "a",
+    "start": 321.31,
+    "end": 321.39
+  },
+  {
+    "text": "millimeter",
+    "start": 321.39,
+    "end": 321.87
+  },
+  {
+    "text": "into",
+    "start": 322.03,
+    "end": 322.27
+  },
+  {
+    "text": "440,000",
+    "start": 322.27,
+    "end": 323.63
+  },
+  {
+    "text": "kilometers.",
+    "start": 323.63,
+    "end": 324.75
+  },
+  {
+    "text": "That's",
+    "start": 324.75,
+    "end": 325.07
+  },
+  {
+    "text": "how",
+    "start": 325.07,
+    "end": 325.31
+  },
+  {
+    "text": "a",
+    "start": 325.31,
+    "end": 325.47
+  },
+  {
+    "text": "sheet",
+    "start": 325.47,
+    "end": 325.71
+  },
+  {
+    "text": "of",
+    "start": 325.71,
+    "end": 325.87
+  },
+  {
+    "text": "paper,",
+    "start": 325.87,
+    "end": 326.27
+  },
+  {
+    "text": "at",
+    "start": 326.27,
+    "end": 326.43
+  },
+  {
+    "text": "least",
+    "start": 326.43,
+    "end": 326.67
+  },
+  {
+    "text": "on",
+    "start": 326.67,
+    "end": 326.83
+  },
+  {
+    "text": "paper,",
+    "start": 326.83,
+    "end": 327.31
+  },
+  {
+    "text": "reaches",
+    "start": 327.31,
+    "end": 327.79
+  },
+  {
+    "text": "the",
+    "start": 327.79,
+    "end": 327.95
+  },
+  {
+    "text": "moon.",
+    "start": 327.95,
+    "end": 328.59
+  },
+  {
+    "text": "If",
+    "start": 328.59,
+    "end": 328.83
+  },
+  {
+    "text": "you",
+    "start": 328.83,
+    "end": 328.99
+  },
+  {
+    "text": "enjoyed",
+    "start": 328.99,
+    "end": 329.31
+  },
+  {
+    "text": "this",
+    "start": 329.31,
+    "end": 329.47
+  },
+  {
+    "text": "one,",
+    "start": 329.47,
+    "end": 329.79
+  },
+  {
+    "text": "please",
+    "start": 329.79,
+    "end": 330.03
+  },
+  {
+    "text": "give",
+    "start": 330.03,
+    "end": 330.19
+  },
+  {
+    "text": "it",
+    "start": 330.19,
+    "end": 330.35
+  },
+  {
+    "text": "a",
+    "start": 330.35,
+    "end": 330.43
+  },
+  {
+    "text": "like",
+    "start": 330.43,
+    "end": 330.67
+  },
+  {
+    "text": "and",
+    "start": 330.67,
+    "end": 330.83
+  },
+  {
+    "text": "subscribe",
+    "start": 330.83,
+    "end": 331.31
+  },
+  {
+    "text": "for",
+    "start": 331.31,
+    "end": 331.47
+  },
+  {
+    "text": "more",
+    "start": 331.47,
+    "end": 331.63
+  },
+  {
+    "text": "everyday",
+    "start": 331.63,
+    "end": 332.19
+  },
+  {
+    "text": "engineering.",
+    "start": 332.19,
+    "end": 332.91
+  },
+  {
+    "text": "Thanks",
+    "start": 332.95,
+    "end": 333.27
+  },
+  {
+    "text": "for",
+    "start": 333.27,
+    "end": 333.43
   },
   {
     "text": "watching.",
-    "start": 329.67,
-    "end": 330.07
+    "start": 333.43,
+    "end": 333.91
   }
 ]
