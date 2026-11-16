@@ -23,18 +23,18 @@ Assumptions: paper 0.1 mm thick, ideal folds with no compression, average Earthâ
 
 Chapters
 0:00 42 folds to the Moon
-0:15 One fold doubles
-0:32 The first ten folds
-0:59 The formula
-1:25 Adding vs doubling
-1:51 Past Everest and into space
-2:18 Reaching the Moon
-2:43 Working backwards with logs
-3:10 Why you can't really do it
-3:32 Twelve folds in 2002
-3:55 The paper you'd need
-4:25 Doubling in engineering
-4:50 Remember this
+0:18 One fold doubles
+0:39 The first ten folds
+1:05 The formula
+1:31 Adding vs doubling
+1:57 Past Everest and into space
+2:24 Reaching the Moon
+2:49 Working backwards with logs
+3:15 Why you can't really do it
+3:38 Twelve folds in 2002
+4:00 The paper you'd need
+4:30 Doubling in engineering
+4:55 Remember this
 
 New videos every Friday: math, physics and engineering, explained through everyday things.
 Subscribe: https://www.youtube.com/@EverydayEngineeringExplained
@@ -55,8 +55,8 @@ paper folding, fold paper 42 times, paper to the moon, exponential growth, power
 - Caption certification: **None**
 - License: **Standard YouTube License**
 - Altered or synthetic content: **decide per video using YouTube's current guidance on realistic AI-generated content (the narration voice is AI-generated).**
-- End screen: from 5:04 to the end (7 s): one video ("Best for viewer") on the rectangle, Subscribe on the circle
-- Video length: **5:10**
+- End screen: from 5:09 to the end (7 s): one video ("Best for viewer") on the rectangle, Subscribe on the circle
+- Video length: **5:16**
 
 ## Pinned comment
 ```text
