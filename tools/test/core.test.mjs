@@ -149,3 +149,25 @@ test("draft timing is about 150 words per minute", () => {
   const { duration } = syntheticWords([{ say: Array(150).fill("word").join(" ") }]);
   assert.ok(duration > 55 && duration < 70);
 });
+
+test("shorts.yaml: standalone Shorts (own scenes) vs cut Shorts (scene ids)", async () => {
+  const fs = await import("node:fs");
+  const os = await import("node:os");
+  const path = await import("node:path");
+  const { loadShorts } = await import("../lib/shorts.mjs");
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "ee-shorts-"));
+  fs.writeFileSync(path.join(dir, "shorts.yaml"), [
+    "shorts:",
+    "  - title: Own",
+    "    scenes:",
+    "      - {id: A1, component: big-fact, say: \"Fold paper forty two times.\", params: {value: '42'}}",
+    "      - {id: A2, component: bullets, say: \"Each fold doubles it.\", params: {items: [{text: x}]}}",
+    "  - title: Cut",
+    "    scenes: [S01, S08]",
+  ].join("\n"));
+  const [a, b] = loadShorts(dir);
+  assert.equal(a.standalone, true);
+  assert.equal(a.words, 9);
+  assert.equal(b.standalone, false);
+  fs.rmSync(dir, { recursive: true, force: true });
+});

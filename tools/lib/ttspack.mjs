@@ -3,6 +3,7 @@
 import path from "node:path";
 import { readYaml, P } from "./core.mjs";
 import { tokens } from "./timing.mjs";
+import { loadShorts } from "./shorts.mjs";
 
 const WPM = 150;
 export const mmss = (s) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;
@@ -46,6 +47,17 @@ export function ttsPack(v) {
     length: mmss((c.words / WPM) * 60),
     text: c.parts.join("\n\n"),
   }));
+  // standalone Shorts: one extra recording each (audio/short-N.wav)
+  for (const sh of loadShorts(v.dir).filter((x) => x.standalone)) {
+    out.push({
+      n: out.length + 1, short: sh.n, title: sh.title,
+      file: `short-${sh.n}.wav`,
+      scenes: `Short ${sh.n}`,
+      words: sh.words,
+      length: mmss((sh.words / WPM) * 60),
+      text: sh.scenes.map((sc) => String(sc.say ?? "").trim()).filter(Boolean).join("\n\n"),
+    });
+  }
   const pronounce = { ...(voice.pronounce ?? {}), ...(v.meta.pronounce ?? {}) };
   const style = [g.style, v.meta.voice_note].filter(Boolean).join(" ");
   const pack = { model: g.model ?? "gemini-3.8-flash-tts", voice: g.voice ?? null, style, pronounce, chunks: out, totalWords: total, length: mmss(t), maxWords };
@@ -62,7 +74,7 @@ Generated from scenes.yaml.
 - **Model:** ${p.model}
 - **Voice:** ${p.voice ?? "(not chosen yet — set gemini.voice in channel/voice.yaml)"}
 - **Language:** English
-- **Chunks:** ${p.chunks.length} (about ${p.maxWords} words max each, split at scene boundaries)
+- **Chunks:** ${p.chunks.filter((c) => !c.short).length} (about ${p.maxWords} words max each, split at scene boundaries)${p.chunks.some((c) => c.short) ? `\n- **Shorts:** ${p.chunks.filter((c) => c.short).length} separate recordings (short-1.wav …)` : ""}
 
 ## How to record
 1. Open the Gemini speech generation page in Google AI Studio and pick the model and voice above.
@@ -80,6 +92,8 @@ ${p.style}
 `;
   const pr = Object.entries(p.pronounce);
   if (pr.length) md += `\n## Pronunciation\n| Term | Say it like |\n|---|---|\n` + pr.map(([k, val]) => `| ${k} | ${val} |`).join("\n") + "\n";
-  for (const c of p.chunks) md += `\n## Chunk ${c.n} → save as \`audio/${c.file}\`\nScenes ${c.scenes} · ${c.words} words · about ${c.length}\n\n\`\`\`text\n${c.text}\n\`\`\`\n`;
+  for (const c of p.chunks) md += c.short
+    ? `\n## Short ${c.short} (${c.title}) → save as \`audio/${c.file}\`\nIts own recording · ${c.words} words · about ${c.length}. Same voice and style, with a little more energy.\n\n\`\`\`text\n${c.text}\n\`\`\`\n`
+    : `\n## Chunk ${c.n} → save as \`audio/${c.file}\`\nScenes ${c.scenes} · ${c.words} words · about ${c.length}\n\n\`\`\`text\n${c.text}\n\`\`\`\n`;
   return md;
 }

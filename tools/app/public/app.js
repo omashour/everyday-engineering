@@ -185,6 +185,8 @@ async function renderSettings() {
       <label class="small">Music <select id="music">${["off", "quiet", "normal", "louder"].map((v) => `<option ${v === s.music ? "selected" : ""}>${v}</option>`).join("")}</select></label>
       <label class="small">Sound effects <select id="sfx">${["off", "quiet", "normal", "louder"].map((v) => `<option ${v === s.sfx ? "selected" : ""}>${v}</option>`).join("")}</select></label>
     </div>
+    <h3>Vertical full video</h3>
+    <label class="row small"><input type="checkbox" id="vfull" ${s.verticalFull ? "checked" : ""} /> Also make the whole video in vertical format (for TikTok, Reels…) as part of “Make everything” (adds a few minutes)</label>
     <h3>Current phase</h3>
     <p class="muted small">Claude suggests topics only from this phase, and the new-video list shows them first. Change it when you're ready to move on; it's saved to GitHub, then press Sync in your Claude.ai project.</p>
     <select id="phase">${s.phases.map((p) => `<option value="${p.id}" ${p.id === s.phase ? "selected" : ""}>${esc(p.label)}</option>`).join("")}</select>
@@ -208,7 +210,7 @@ async function renderSettings() {
   $("#bopen").onclick = () => api("POST", "/api/backup/open", {});
   $("#save").onclick = async () => {
     try {
-      await api("POST", "/api/settings", { voice: $("#voice").value, uploadDay: $("#day").value, autoPush: $("#push").checked, backupFolder: $("#bfolder").value, phase: $("#phase").value, music: $("#music").value, sfx: $("#sfx").value });
+      await api("POST", "/api/settings", { voice: $("#voice").value, uploadDay: $("#day").value, autoPush: $("#push").checked, backupFolder: $("#bfolder").value, phase: $("#phase").value, music: $("#music").value, sfx: $("#sfx").value, verticalFull: $("#vfull").checked });
       toast("Settings saved");
       render();
     } catch (e) { alert(e.message); }
@@ -373,7 +375,9 @@ function voiceStep(el, d, dir) {
     const got = [...have].find((a) => a.startsWith(base + "."));
     const div = document.createElement("div");
     div.className = "chunk";
-    div.innerHTML = `<div class="chunk-head"><b>Chunk ${c.n}</b><span class="muted small">Scenes ${esc(c.scenes)} · ${c.words} words · ~${c.length}</span></div>${copyBox(c.text)}`;
+    div.innerHTML = c.short
+      ? `<div class="chunk-head"><b>Short ${c.short}: ${esc(c.title)}</b><span class="muted small">Its own recording · ${c.words} words · ~${c.length} · a little more energy</span></div>${copyBox(c.text)}`
+      : `<div class="chunk-head"><b>Chunk ${c.n}</b><span class="muted small">Scenes ${esc(c.scenes)} · ${c.words} words · ~${c.length}</span></div>${copyBox(c.text)}`;
     div.appendChild(dropZone(got ? `✓ ${esc(got)} — drop again to replace` : `Drop chunk ${c.n}'s audio here (saved as ${base})`, async (files) => {
       const f = files[0];
       const ext = (f.name.match(/\.[^.]+$/)?.[0] ?? ".wav").toLowerCase();
@@ -442,7 +446,15 @@ function extrasStep(el, d, dir) {
       <button id="tfolder">Show thumbnails folder</button>
     </div>
     ${d.thumbnails.length ? `<h3>Thumbnails (upload both for YouTube's A/B test)</h3><div class="grid2 thumbs">${d.thumbnails.map((t) => `<img src="/api/video/${dir}/file?path=${enc("thumbnails/" + t)}&t=${Date.now()}" alt="">`).join("")}</div>` : ""}
-    ${d.shortsSpec.map((s) => { const f = `${dir}-short-${s.n}.mp4`; return d.renders.includes(f) ? `<h3>Short ${s.n}: ${esc(s.title ?? "")}</h3><video class="vertical" controls preload="metadata" src="/api/video/${dir}/file?path=${enc("renders/" + f)}"></video>` : ""; }).join("")}`;
+    ${d.shortsSpec.some((s) => s.standalone && !s.recorded) ? `<div class="callout">Record each Short's own voice first (step 3, Voice: the “Short 1”, “Short 2” boxes). Without it, the Short is built silent.</div>` : ""}
+    ${d.shortsSpec.some((s) => !s.standalone) ? `<p class="muted small">${d.shortsSpec.filter((s) => !s.standalone).map((s) => `Short ${s.n}`).join(", ")} reuse${d.shortsSpec.filter((s) => !s.standalone).length === 1 ? "s" : ""} pieces of the long video (older format). New scripts from Claude give each Short its own narration.</p>` : ""}
+    ${d.shortsSpec.map((s) => { const f = `${dir}-short-${s.n}.mp4`; return d.renders.includes(f) ? `<h3>Short ${s.n}: ${esc(s.title ?? "")}</h3><video class="vertical" controls preload="metadata" src="/api/video/${dir}/file?path=${enc("renders/" + f)}"></video>` : ""; }).join("")}
+    <h3>Vertical full video (TikTok, Instagram Reels, Facebook…)</h3>
+    <p class="muted small">The whole video laid out for a phone screen (1080×1920), with the same voice, music and effects.${d.vertical.inMakeAll ? " It's included in “Make everything” (Settings)." : " Make it here, or include it in “Make everything” in Settings."}</p>
+    <div class="row"><button id="vert" ${d.timed ? "" : "disabled"}>${d.renders.includes(d.vertical.file) ? "Remake" : "Make"} vertical full video</button>${d.renders.includes(d.vertical.file) ? `<button id="vfolder">Show file</button>` : ""}</div>
+    ${d.renders.includes(d.vertical.file) ? `<video class="vertical" controls preload="metadata" src="/api/video/${dir}/file?path=${enc("renders/" + d.vertical.file)}"></video>` : ""}`;
+  $("#vert", el).onclick = () => step(dir, "vertical", {}, "Vertical full video");
+  if ($("#vfolder", el)) $("#vfolder", el).onclick = () => api("POST", `/api/video/${dir}/open`, { sub: "renders" });
   $("#shorts", el).onclick = () => step(dir, "shorts", {}, "Build Shorts");
   $("#rshorts", el).onclick = () => step(dir, "render-shorts", {}, "Render Shorts");
   $("#thumbs", el).onclick = () => step(dir, "thumbnail", {}, "Make thumbnails");

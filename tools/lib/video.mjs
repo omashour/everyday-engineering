@@ -22,7 +22,8 @@ export function rawAudioFiles(dir) {
   if (!fs.existsSync(a)) return [];
   return fs
     .readdirSync(a)
-    .filter((f) => AUDIO_EXT.includes(path.extname(f).toLowerCase()) && f !== "narration-full.wav" && !f.startsWith("_"))
+    // Shorts' own recordings (short-1.wav …) are separate from the main narration
+    .filter((f) => AUDIO_EXT.includes(path.extname(f).toLowerCase()) && f !== "narration-full.wav" && !f.startsWith("_") && !/^short-\d+\./i.test(f))
     .sort((x, y) => x.localeCompare(y, undefined, { numeric: true }))
     .map((f) => path.join(a, f));
 }

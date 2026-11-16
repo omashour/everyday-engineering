@@ -15,6 +15,7 @@ import { ttsPack } from "../lib/ttspack.mjs";
 import { uploadSheet } from "../lib/uploadsheet.mjs";
 import { splitClaudeOutput, SCRIPT_FILES } from "../lib/claudeparse.mjs";
 import { missingAssets, creditPlaceholders } from "../lib/assets.mjs";
+import { loadShorts, shortRawAudio, shortTimed } from "../lib/shorts.mjs";
 import { PHASES, PHASE_LABEL, currentPhase, setCurrentPhase } from "../lib/topics.mjs";
 import { saveAndPush } from "../lib/git.mjs";
 import { backupConfig, setBackupFolder, suggestedFolders, filesSinceBackup, backupFolderProblem } from "../lib/backup.mjs";
@@ -117,7 +118,15 @@ async function videoDetail(dir) {
   out.creditTodo = creditPlaceholders(vdir);
   out.built = fs.existsSync(path.join(vdir, "project", "index.html"));
   out.timed = fs.existsSync(path.join(vdir, "audio", "words.json")) && fs.existsSync(path.join(vdir, "audio", "narration-full.wav"));
-  out.shortsSpec = (readYaml(path.join(vdir, "shorts.yaml"), { shorts: [] }).shorts ?? []).map((s, i) => ({ n: i + 1, title: s.title, built: fs.existsSync(path.join(vdir, "shorts", `short-${i + 1}`, "project", "index.html")) }));
+  let shorts = [];
+  try { shorts = loadShorts(vdir); } catch { /* reported by validation */ }
+  out.shortsSpec = shorts.map((s) => ({
+    n: s.n, title: s.title, standalone: s.standalone, words: s.words,
+    recorded: s.standalone ? !!shortRawAudio(vdir, s.n) : null,
+    timed: s.standalone ? shortTimed(vdir, s.n) : null,
+    built: fs.existsSync(path.join(vdir, "shorts", `short-${s.n}`, "project", "index.html")),
+  }));
+  out.vertical = { file: `${dir}-vertical.mp4`, built: fs.existsSync(path.join(vdir, "vertical", "project", "index.html")), inMakeAll: readYaml(path.join(P.root, "settings.yaml"), {})?.vertical_full === true };
   try {
     const v = loadVideo(vdir);
     const probs = await validateVideo(v);
@@ -125,9 +134,12 @@ async function videoDetail(dir) {
     // the whole narration in one piece, for reading it through before recording/building
     const says = v.scenes.filter((s) => String(s.say ?? "").trim());
     const flat = (s) => String(s.say).replace(/\s+/g, " ").trim();
+    // Shorts with their own script follow the main script
+    const own = shorts.filter((x) => x.standalone);
+    const shortsText = (labels) => own.map((sh) => `${labels ? `\n\n===== SHORT ${sh.n}: ${sh.title} (${sh.words} words, about ${Math.round(sh.words / 2.5)} s) =====\n` : "\n\n"}` + sh.scenes.filter((s) => String(s.say ?? "").trim()).map((s) => (labels ? `[${s.id}]\n` : "") + flat(s)).join("\n\n")).join("");
     out.fullScript = {
-      labelled: `${v.meta.title ?? v.name}\n\n` + says.map((s) => `[${s.id}${s.chapter ? ` · ${s.chapter}` : ""}]\n${flat(s)}`).join("\n\n") + `\n\n(${probs.words} words, about ${probs.minutes.toFixed(1)} minutes)`,
-      plain: says.map(flat).join("\n\n"),
+      labelled: `${v.meta.title ?? v.name}\n\n` + says.map((s) => `[${s.id}${s.chapter ? ` · ${s.chapter}` : ""}]\n${flat(s)}`).join("\n\n") + `\n\n(${probs.words} words, about ${probs.minutes.toFixed(1)} minutes)` + shortsText(true),
+      plain: says.map(flat).join("\n\n") + shortsText(false),
     };
     out.tts = ttsPack(v);
     delete out.tts.scriptMd;
@@ -145,7 +157,7 @@ function settings() {
   const about = readYaml(path.join(P.channel, "about.yaml"), {});
   const s = readYaml(path.join(P.root, "settings.yaml"), {});
   const bk = backupConfig();
-  return { voice: voice.gemini?.voice ?? "", uploadDay: about.upload_day ?? "", autoPush: s?.git?.auto_push !== false, music: s?.sound?.music ?? "normal", sfx: s?.sound?.sfx ?? "normal", phase: currentPhase(), phases: PHASES.map((id) => ({ id, label: PHASE_LABEL[id] })), backup: { folder: bk.folder, last: bk.last, pending: filesSinceBackup(), suggestions: suggestedFolders() } };
+  return { voice: voice.gemini?.voice ?? "", uploadDay: about.upload_day ?? "", autoPush: s?.git?.auto_push !== false, verticalFull: s?.vertical_full === true, music: s?.sound?.music ?? "normal", sfx: s?.sound?.sfx ?? "normal", phase: currentPhase(), phases: PHASES.map((id) => ({ id, label: PHASE_LABEL[id] })), backup: { folder: bk.folder, last: bk.last, pending: filesSinceBackup(), suggestions: suggestedFolders() } };
 }
 function setYamlKey(file, keyPath, value) {
   const doc = YAML.parseDocument(fs.readFileSync(file, "utf8"));
@@ -222,6 +234,7 @@ async function route(req, res) {
     if (typeof b.voice === "string") setYamlKey(path.join(P.channel, "voice.yaml"), ["gemini", "voice"], b.voice.trim() || null);
     if (typeof b.uploadDay === "string") setYamlKey(path.join(P.channel, "about.yaml"), ["upload_day"], b.uploadDay.trim() || null);
     if (typeof b.autoPush === "boolean") setYamlKey(path.join(P.root, "settings.yaml"), ["git", "auto_push"], b.autoPush);
+    if (typeof b.verticalFull === "boolean") setYamlKey(path.join(P.root, "settings.yaml"), ["vertical_full"], b.verticalFull);
     for (const k of ["music", "sfx"]) if (["off", "quiet", "normal", "louder"].includes(b[k])) setYamlKey(path.join(P.root, "settings.yaml"), ["sound", k], b[k]);
     if (typeof b.phase === "string" && b.phase !== currentPhase()) {
       setCurrentPhase(b.phase);
@@ -310,10 +323,14 @@ async function route(req, res) {
       const d = await videoDetail(dir);
       if (d.missingAssets.length && !b.allowMissing) return send(res, 400, { error: `Add these photos first (step 2, Photos), or the video renders with empty frames:\n${d.missingAssets.map((a) => `• ${a.file} (used in ${a.usedIn.join(", ")})`).join("\n")}` });
       steps = [];
-      if (!d.timed) steps.push(["Time the narration", ["transcribe.mjs", id]]);
+      // (re)time when the main narration isn't timed yet, or a Short's own recording is new
+      if (!d.timed || d.shortsSpec.some((s) => s.standalone && s.recorded && !s.timed)) steps.push(["Time the narration", ["transcribe.mjs", id]]);
       steps.push(["Build the video", ["build.mjs", id, ...(b.force ? ["--force"] : [])]], ["Render the video", ["render.mjs", id]], ["Build the Shorts", ["shorts.mjs", id]]);
       d.shortsSpec.forEach((s) => steps.push([`Render Short ${s.n}`, ["render.mjs", id, "--short", String(s.n)]]));
+      if (d.vertical.inMakeAll) steps.push(["Build the vertical video", ["vertical.mjs", id, "--force"]], ["Render the vertical video", ["render.mjs", id, "--vertical"]]);
       steps.push(["Thumbnails", ["thumbnail.mjs", id]], ["Upload sheet", ["upload-sheet.mjs", id]]);
+    } else if (step === "vertical") {
+      steps = [["Build the vertical video", ["vertical.mjs", id, "--force"]], ["Render the vertical video", ["render.mjs", id, "--vertical"]]];
     } else if (step === "render-short") steps = [[`Render Short ${b.n}`, ["render.mjs", id, "--short", String(+b.n || 1)]]];
     else if (step === "render-shorts") steps = (await videoDetail(dir)).shortsSpec.map((s) => [`Render Short ${s.n}`, ["render.mjs", id, "--short", String(s.n)]]);
     else if (step === "publish") {

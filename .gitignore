@@ -4,6 +4,7 @@ dist/
 # Generated per video (rebuild any time from scenes.yaml + audio)
 videos/*/project/
 videos/*/shorts/*/project/
+videos/*/vertical/
 videos/*/shorts/*/narration.wav
 videos/*/renders/
 videos/*/thumbnails/

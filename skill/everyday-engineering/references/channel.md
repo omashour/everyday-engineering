@@ -31,4 +31,4 @@ Warm, clear, confident teacher talking to one curious student; energetic in the 
 White whiteboard look or a strong photo; ≤ 5 words; one highlighted word or number; one equation or diagram at most; readable at phone size. Always 2 variants (A/B test).
 
 ## Shorts
-1–2 per video, 30–60 s, built from 2–4 scenes that make sense alone (usually the hook + the key result). Banner hook ≤ 6 words.
+1–2 per video, 30–45 s, each a standalone mini-video with its own narration (recorded separately) and 2–4 scenes: hook in the first sentence, one idea fully paid off, last line points to the full video. Their job is to make people want the full video. Banner hook ≤ 6 words. Format and rules: scenes-format.md → shorts.yaml.

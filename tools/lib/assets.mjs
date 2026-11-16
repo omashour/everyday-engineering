@@ -26,6 +26,10 @@ export function missingAssets(vdir) {
   let scenes = [];
   try { scenes = readYaml(path.join(vdir, "scenes.yaml"), {}).scenes ?? []; } catch { /* reported by validation */ }
   for (const s of scenes) collect(s?.params, s?.id ?? "a scene", need);
+  // Shorts with their own scenes can use images too
+  let shorts = [];
+  try { shorts = readYaml(path.join(vdir, "shorts.yaml"), {})?.shorts ?? []; } catch { /* reported by validation */ }
+  shorts.forEach((sh, i) => { for (const s of sh?.scenes ?? []) if (s && typeof s === "object") collect(s.params, `Short ${i + 1}`, need); });
   let variants = [];
   try { variants = readYaml(path.join(vdir, "thumbnail.yaml"), {}).variants ?? []; } catch { /* ignore */ }
   variants.forEach((v, i) => v?.image && collect(v.image, `thumbnail ${i + 1}`, need));

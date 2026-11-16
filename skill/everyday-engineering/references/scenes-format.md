@@ -145,16 +145,53 @@ variants:                     # 2 variants for YouTube's A/B test
 
 ## shorts.yaml
 
+Each Short is a **standalone mini-video with its own narration**, recorded separately (`audio/short-1.wav`). Never reuse the long video's sentences as-is; write for the Short.
+
 ```yaml
-shorts:                        # 30–60 s each; scenes play back to back with their narration
+shorts:
   - title: "Why 2× speed means 4× braking distance #shorts"
-    hook: "2× speed = 4× braking distance?!"   # banner pinned at the top, ≤ 6 words
-    scenes: [S01, S04, S08]     # FIRST scene must be the hook; scenes must make sense alone; total ≤ ~55 s of narration
-    end: "Full video on the channel"
-    description: "Why does doubling your speed quadruple your braking distance? One line of algebra.\n\nFull video: [paste the main video's link]"   # optional; hashtags are added automatically
+    hook: "2× speed = 4× braking distance?!"   # banner pinned at the top for the whole Short, ≤ 6 words
+    end: "Full video on the channel"            # end card text (added automatically, 3 s)
+    description: "Why does doubling your speed quadruple your braking distance? One line of algebra.\n\nFull video: [paste the main video's link]"   # hashtags are added automatically
+    scenes:                                    # 2–4 scenes, ids A1, A2… (Short 2: B1, B2…)
+      - id: A1
+        component: photo-overlay
+        say: >-
+          Double your speed and your braking distance doesn't double. It quadruples.
+        params:
+          src: road.jpg                        # may reuse the long video's images
+          credit: "Image: AI-generated"
+          title: "2× speed → 4× distance"
+          overlays:
+            - {type: measure, from: [12, 70], to: [88, 70], label: "4×", cue: "quadruples"}
+      - id: A2
+        component: equation-steps
+        say: >-
+          Braking distance is v squared over two a. Speed is squared, so two times the speed
+          gives two squared, four times the distance. At ninety kilometers an hour that's
+          forty five meters, not twenty two.
+        params:
+          lines:
+            - {tex: "d = \\dfrac{v^2}{2a}", cue: "v squared"}
+            - {tex: "(2v)^2 = 4v^2", circle: true, cue: "four times the distance"}
+      - id: A3
+        component: big-fact
+        say: >-
+          So leave four times the room. The full video shows where this formula comes from.
+        params:
+          value: "4×"
+          label: "the room you need at double speed"
 ```
 
-Shorts rules: open on the hook scene (a Short has about 1–2 seconds to stop the scroll), end on the payoff (the key result), and leave a reason to watch the full video. Usually: hook scene + the scene with the key result + the "remember this" scene.
+Shorts rules:
+- **Length:** 70–110 words of narration (30–45 s). Hard limit 120 words.
+- **First sentence is the hook** (≤ 12 words): a surprising number, claim or question that makes sense with the sound off thanks to the visual. No intro, no "in this video".
+- **One idea, fully paid off:** state the surprise, show the one step that explains it, land the result. It must make sense to someone who never sees the long video.
+- **Cue visuals early:** Shorts move fast, so cue each element on a word near the start of its sentence; every piece of text should stay on screen at least 2 s before the scene changes.
+- **Last sentence points to the full video** without naming any other topic, e.g. "The full video shows the math." No like/subscribe line (the end card does that).
+- **Visuals for a phone:** big and simple, few words on screen. Best components: `photo-overlay`, `big-fact`, `equation-steps` (≤ 3 lines), `graph` (one curve, ≤ 3 points), `bullets` (≤ 3). Avoid wide `table`s and dense diagrams.
+- Cues follow the same rules as scenes.yaml (copied exactly from that scene's `say`). No `end-card` (added automatically).
+- Usually Short 1 = the video's hook and its main result; Short 2 = a different surprising fact from the video.
 
 ## Quality checklist (run through before delivering)
 - [ ] Hook ≤ 40 words, real-world visual, surprising number or question
@@ -163,5 +200,6 @@ Shorts rules: open on the hook scene (a Short has about 1–2 seconds to stop th
 - [ ] Every number on screen matches the narration and is correct
 - [ ] Components and params exist in components.md; required params present
 - [ ] ≥ 3 chapters, first on S01
-- [ ] Last scene is end-card; Shorts scenes stand alone
+- [ ] Last scene is end-card
+- [ ] Each Short has its own scenes and narration (70–110 words), hook first, makes sense alone, ends by pointing to the full video
 - [ ] assets-needed.md lists every photo used (or "None")

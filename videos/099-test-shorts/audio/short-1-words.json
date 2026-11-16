@@ -1,0 +1,347 @@
+[
+  {
+    "text": "Fold",
+    "start": 0,
+    "end": 0.56
+  },
+  {
+    "text": "a",
+    "start": 0.56,
+    "end": 0.64
+  },
+  {
+    "text": "sheet",
+    "start": 0.64,
+    "end": 0.88
+  },
+  {
+    "text": "of",
+    "start": 0.88,
+    "end": 0.96
+  },
+  {
+    "text": "paper",
+    "start": 0.96,
+    "end": 1.28
+  },
+  {
+    "text": "42",
+    "start": 1.28,
+    "end": 1.92
+  },
+  {
+    "text": "times",
+    "start": 1.92,
+    "end": 2.16
+  },
+  {
+    "text": "and",
+    "start": 2.24,
+    "end": 2.4
+  },
+  {
+    "text": "it",
+    "start": 2.4,
+    "end": 2.56
+  },
+  {
+    "text": "would",
+    "start": 2.56,
+    "end": 2.8
+  },
+  {
+    "text": "reach",
+    "start": 2.8,
+    "end": 3.12
+  },
+  {
+    "text": "the",
+    "start": 3.12,
+    "end": 3.28
+  },
+  {
+    "text": "moon.",
+    "start": 3.28,
+    "end": 4.16
+  },
+  {
+    "text": "Every",
+    "start": 4.16,
+    "end": 4.56
+  },
+  {
+    "text": "fold",
+    "start": 4.56,
+    "end": 5.04
+  },
+  {
+    "text": "doubles",
+    "start": 5.04,
+    "end": 5.44
+  },
+  {
+    "text": "the",
+    "start": 5.44,
+    "end": 5.6
+  },
+  {
+    "text": "thickness.",
+    "start": 5.6,
+    "end": 6.48
+  },
+  {
+    "text": "Paper",
+    "start": 6.8,
+    "end": 7.2
+  },
+  {
+    "text": "is",
+    "start": 7.2,
+    "end": 7.44
+  },
+  {
+    "text": "a",
+    "start": 7.44,
+    "end": 7.6
+  },
+  {
+    "text": "tenth",
+    "start": 7.6,
+    "end": 8
+  },
+  {
+    "text": "of",
+    "start": 8,
+    "end": 8.08
+  },
+  {
+    "text": "a",
+    "start": 8.08,
+    "end": 8.16
+  },
+  {
+    "text": "millimeter",
+    "start": 8.16,
+    "end": 8.64
+  },
+  {
+    "text": "thick,",
+    "start": 8.8,
+    "end": 9.36
+  },
+  {
+    "text": "so",
+    "start": 9.36,
+    "end": 9.6
+  },
+  {
+    "text": "after",
+    "start": 9.6,
+    "end": 9.92
+  },
+  {
+    "text": "n",
+    "start": 9.92,
+    "end": 10.16
+  },
+  {
+    "text": "folds",
+    "start": 10.32,
+    "end": 10.64
+  },
+  {
+    "text": "it",
+    "start": 10.72,
+    "end": 10.8
+  },
+  {
+    "text": "is",
+    "start": 10.8,
+    "end": 11.04
+  },
+  {
+    "text": "0.1",
+    "start": 11.04,
+    "end": 11.84
+  },
+  {
+    "text": "millimeters",
+    "start": 11.84,
+    "end": 12.56
+  },
+  {
+    "text": "times",
+    "start": 12.56,
+    "end": 12.8
+  },
+  {
+    "text": "2",
+    "start": 12.8,
+    "end": 13.12
+  },
+  {
+    "text": "to",
+    "start": 13.12,
+    "end": 13.28
+  },
+  {
+    "text": "the",
+    "start": 13.28,
+    "end": 13.44
+  },
+  {
+    "text": "n.",
+    "start": 13.44,
+    "end": 14.32
+  },
+  {
+    "text": "For",
+    "start": 14.32,
+    "end": 14.64
+  },
+  {
+    "text": "30",
+    "start": 14.64,
+    "end": 15.12
+  },
+  {
+    "text": "folds",
+    "start": 15.12,
+    "end": 15.52
+  },
+  {
+    "text": "almost",
+    "start": 15.68,
+    "end": 16
+  },
+  {
+    "text": "nothing",
+    "start": 16,
+    "end": 16.4
+  },
+  {
+    "text": "happens.",
+    "start": 16.4,
+    "end": 17.52
+  },
+  {
+    "text": "Then",
+    "start": 17.52,
+    "end": 17.84
+  },
+  {
+    "text": "the",
+    "start": 17.84,
+    "end": 18
+  },
+  {
+    "text": "curve",
+    "start": 18,
+    "end": 18.48
+  },
+  {
+    "text": "explodes.",
+    "start": 18.48,
+    "end": 19.68
+  },
+  {
+    "text": "At",
+    "start": 19.68,
+    "end": 20
+  },
+  {
+    "text": "fold",
+    "start": 20,
+    "end": 20.48
+  },
+  {
+    "text": "42,",
+    "start": 20.48,
+    "end": 21.36
+  },
+  {
+    "text": "the",
+    "start": 21.36,
+    "end": 21.52
+  },
+  {
+    "text": "stack",
+    "start": 21.52,
+    "end": 22
+  },
+  {
+    "text": "is",
+    "start": 22,
+    "end": 22.24
+  },
+  {
+    "text": "440,000",
+    "start": 22.24,
+    "end": 23.92
+  },
+  {
+    "text": "kilometers.",
+    "start": 23.92,
+    "end": 25.28
+  },
+  {
+    "text": "The",
+    "start": 25.28,
+    "end": 25.52
+  },
+  {
+    "text": "moon",
+    "start": 25.52,
+    "end": 26
+  },
+  {
+    "text": "is",
+    "start": 26,
+    "end": 26.16
+  },
+  {
+    "text": "only",
+    "start": 26.16,
+    "end": 26.48
+  },
+  {
+    "text": "384,000",
+    "start": 26.48,
+    "end": 28.56
+  },
+  {
+    "text": "away.",
+    "start": 28.56,
+    "end": 29.36
+  },
+  {
+    "text": "The",
+    "start": 29.36,
+    "end": 29.6
+  },
+  {
+    "text": "full",
+    "start": 29.6,
+    "end": 30
+  },
+  {
+    "text": "video",
+    "start": 30,
+    "end": 30.32
+  },
+  {
+    "text": "shows",
+    "start": 30.32,
+    "end": 30.64
+  },
+  {
+    "text": "the",
+    "start": 30.64,
+    "end": 30.8
+  },
+  {
+    "text": "math.",
+    "start": 30.8,
+    "end": 31.84
+  }
+]

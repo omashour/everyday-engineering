@@ -4,6 +4,7 @@ import path from "node:path";
 import { loadComponents } from "./components.mjs";
 import { tokens, cueTime } from "./timing.mjs";
 import { iconExists } from "./kit.mjs";
+import { loadShorts } from "./shorts.mjs";
 
 const ID_RE = /^[A-Za-z][A-Za-z0-9_]*$/;
 
@@ -44,7 +45,22 @@ export async function validateVideo(v, { format = "long" } = {}) {
     }
     for (const name of collectIcons(s.params)) if (!iconExists(name)) warn(`${where}: unknown icon "${name}" (browse https://tabler.io/icons)`);
   });
-  if (v.scenes.length && !["end-card"].includes(v.scenes.at(-1).component)) warn("last scene is not an end-card");
+  if (format === "long" && v.scenes.length && !["end-card"].includes(v.scenes.at(-1).component)) warn("last scene is not an end-card");
+  if (format === "long") {
+    // Shorts with their own script get the same checks (they're built and recorded separately)
+    let shorts = [];
+    try { shorts = loadShorts(v.dir); } catch (e) { err(`shorts.yaml: ${e.message}`); }
+    for (const sh of shorts.filter((x) => x.standalone)) {
+      const sub = await validateVideo({ dir: v.dir, scenes: sh.scenes, meta: {} }, { format: "short" });
+      for (const p of sub) out.push({ level: p.level, msg: `Short ${sh.n}, ${p.msg}` });
+      if (sh.words < 45) warn(`Short ${sh.n} has ${sh.words} words (~${Math.round(sh.words / 2.5)} s); aim for 70–110 words (30–45 s).`);
+      if (sh.words > 130) warn(`Short ${sh.n} has ${sh.words} words (~${Math.round(sh.words / 2.5)} s); keep it under ~120 words so it stays under 50 s.`);
+      if (sh.scenes.some((s) => s.component === "end-card")) warn(`Short ${sh.n}: don't add an end-card; the Short's end card is added automatically.`);
+    }
+    for (const sh of shorts.filter((x) => !x.standalone)) {
+      for (const id of sh.spec.scenes ?? []) if (!v.scenes.some((s) => s.id === id)) err(`Short ${sh.n}: scene ${id} is not in scenes.yaml`);
+    }
+  }
   const first = tokens(v.scenes[0]?.say).length;
   if (format === "long" && first > 50) warn(`hook scene is ${first} words (~${Math.round(first / 2.5)} s). Keep the hook under ~15 s (≈40 words).`);
   const minutes = words / 150;

@@ -41,7 +41,8 @@ Step **3. Voice** shows everything with Copy buttons.
 1. Open Google AI Studio → speech generation. Choose model **Gemini 3.8 Flash TTS** and the voice shown in the app.
 2. Paste the **style instructions** into the style field.
 3. For each **chunk**: copy it, generate, listen, download, and drop the file on that chunk's box. Re-generate if a word sounds wrong; the pronunciation list in the app helps.
-4. When all chunks are in, the app times the narration automatically (about a minute).
+4. **Shorts:** below the chunks are boxes named **Short 1** and **Short 2**. Each Short has its own short script (30–45 seconds), written to hook people and send them to the full video. Record each one the same way, with the same voice, and drop it on its box.
+5. When everything is in, the app times the narration automatically (about a minute).
 
 Tip: **Make a free robot draft voice** lets you preview the whole video before recording the real voice.
 
@@ -49,11 +50,14 @@ Tip: **Make a free robot draft voice** lets you preview the whole video before r
 
 Step **4. Build and render**: press **Make everything**. In 5–15 minutes it:
 - builds the editable video project and renders the MP4;
-- builds and renders each Short;
+- builds and renders each Short from its own script and recording;
 - makes the thumbnails;
-- writes the upload sheet and captions.
+- writes the upload sheet and captions;
+- optionally, makes the **vertical full video** (see below).
 
 Everything is saved in the video's folder on your PC: `videos\NNN-name\renders\` (MP4s) and `thumbnails\` (PNGs).
+
+**Vertical full video, for TikTok, Instagram Reels, Facebook and similar:** the whole video laid out for a phone screen (1080×1920), with the same voice, music and effects. Make it in step **5. Shorts and thumbnails** with **Make vertical full video**; it's saved as `renders\NNN-name-vertical.mp4`. To have **Make everything** always include it, tick it in Settings.
 
 ## Step 6. Watch it
 

@@ -77,7 +77,8 @@ In the project, just say **"suggest topics"**.
 | 9. Build | `npm run build -- 002` (also writes `chapters.txt`) |
 | 10. Watch / edit | `npm run preview -- 002` (HyperFrames Studio: click anything to edit) |
 | 11. Render | `npm run render -- 002` → `renders/002-….mp4` |
-| 12. Shorts + thumbnails | `npm run shorts -- 002`, `npm run render -- 002 --short 1`, `npm run thumbnail -- 002` |
+| 12. Shorts + thumbnails | `npm run shorts -- 002`, `npm run render -- 002 --short 1`, `npm run thumbnail -- 002`. Shorts have their own scripts in shorts.yaml, recorded as `audio/short-1.wav` (timed by `transcribe`). |
+| 12b. Vertical full video (optional) | `npm run vertical -- 002`, then `npm run render -- 002 --vertical` → `renders/002-…-vertical.mp4` (TikTok, Reels) |
 | 13. Upload sheet | `npm run upload-sheet -- 002` → `upload.md` (title, full description with chapters, tags, settings, end-screen time, pinned comment, Shorts texts) + `captions.srt` |
 | 14. Publish | upload using `upload.md`, then `npm run publish -- 002 --url https://youtu.be/…` |
 

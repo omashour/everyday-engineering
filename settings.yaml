@@ -10,3 +10,7 @@ git:
 sound:
   music: normal
   sfx: normal
+
+# Also build and render the whole video in vertical format (1080x1920, for TikTok/Reels)
+# as part of "Make everything". It can always be made on its own from the app.
+vertical_full: false
