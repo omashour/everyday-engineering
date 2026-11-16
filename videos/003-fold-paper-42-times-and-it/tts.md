@@ -7,6 +7,7 @@ Generated from scenes.yaml.
 - **Voice:** Cruz
 - **Language:** English
 - **Chunks:** 4 (about 280 words max each, split at scene boundaries)
+- **Shorts:** 2 separate recordings (short-1.wav …)
 
 ## How to record
 1. Open the Gemini speech generation page in Google AI Studio and pick the model and voice above.
@@ -81,4 +82,24 @@ This isn't just a party trick. Engineers run into doubling all the time. For dec
 So here's the one thing to remember. Ten doublings is about a thousand times. Forty two doublings turn a tenth of a millimeter into four hundred and forty thousand kilometers. That's how a sheet of paper, at least on paper, reaches the Moon.
 
 If you enjoyed this one, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+```
+
+## Short 1 (Fold Paper 42 Times and It Reaches the Moon #shorts) → save as `audio/short-1.wav`
+Its own recording · 85 words · about 0:34. Same voice and style, with a little more energy.
+
+```text
+Fold a sheet of paper in half forty two times, and it would reach past the Moon. Sounds impossible? Watch.
+
+A sheet is about zero point one millimeters thick. Every fold doubles it. After ten folds, it's about ten centimeters. After twenty, about a hundred meters.
+
+Then the curve explodes. The Moon is about three hundred and eighty four thousand kilometers away. At fold forty two, the stack is about four hundred and forty thousand. The full math is in the video on our channel.
+```
+
+## Short 2 (Why you can't fold paper more than 7 times #shorts) → save as `audio/short-2.wav`
+Its own recording · 81 words · about 0:32. Same voice and style, with a little more energy.
+
+```text
+Why can't you fold paper more than about seven times? Every fold doubles the thickness and halves the area. After seven folds, a sheet is over a centimeter thick, with a footprint about the size of a postage stamp.
+
+Then in two thousand and two, a high school student named Britney Gallivan worked out the math, and folded a strip of toilet paper over a kilometer long in half twelve times. The full story is in the video on our channel.
 ```

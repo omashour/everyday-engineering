@@ -1,11 +1,82 @@
 shorts:
   - title: "Fold Paper 42 Times and It Reaches the Moon #shorts"
     hook: "42 folds reaches the Moon?!"
-    scenes: [S01, S08]
-    end: "Full video on the channel"
     description: "Mathematically, 42 doublings of 0.1 mm paper reach about 440,000 km, past the Moon's average distance of 384,400 km. Actually folding it that many times is physically impractical.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: A1
+        component: photo-overlay
+        say: >-
+          Fold a sheet of paper in half forty two times, and it would reach past the Moon.
+          Sounds impossible? Watch.
+        params:
+          src: folding-paper.jpg
+          credit: "Image: AI-generated"
+          overlays:
+            - {type: tex, pos: [50, 32], tex: '0.1\,\text{mm}\times 2^{42} \approx 440{,}000\text{ km}', cue: "past the Moon"}
+      - id: A2
+        component: equation-steps
+        say: >-
+          A sheet is about zero point one millimeters thick. Every fold doubles it.
+          After ten folds, it's about ten centimeters. After twenty, about a hundred meters.
+        params:
+          heading: "Every fold doubles it"
+          lines:
+            - {tex: 'T = 0.1\,\text{mm}\times 2^{n}', cue: "Every fold"}
+            - {tex: 'n = 10:\ T \approx 10\text{ cm}', cue: "ten folds"}
+            - {tex: 'n = 20:\ T \approx 100\text{ m}', cue: "After twenty"}
+      - id: A3
+        component: graph
+        say: >-
+          Then the curve explodes. The Moon is about three hundred and eighty four thousand
+          kilometers away. At fold forty two, the stack is about four hundred and forty thousand.
+          The full math is in the video on our channel.
+        params:
+          heading: "Thickness (1000 km)"
+          x_range: [0, 42]
+          y_range: [0, 460]
+          x_label: "folds $n$"
+          functions:
+            - {expr: "0.0000000001*exp(0.693147*x)", color: red, cue: "curve explodes"}
+          hlines:
+            - {y: 384.4, label: "Moon: 384,400 km", cue: "three hundred and eighty four"}
+          points:
+            - {x: 42, y: 439.8, label: "440,000 km", cue: "four hundred and forty"}
   - title: "Why you can't fold paper more than 7 times #shorts"
     hook: "Why paper stops at 7 folds"
-    scenes: [S10, S11]
-    end: "Full video on the channel"
     description: "Every fold makes the stack thicker and the footprint smaller. Then in 2002 a student folded a 1.2 km strip of toilet paper 12 times.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: B1
+        component: diagram
+        say: >-
+          Why can't you fold paper more than about seven times? Every fold doubles the
+          thickness and halves the area. After seven folds, a sheet is over a centimeter thick,
+          with a footprint about the size of a postage stamp.
+        params:
+          heading: "Thicker stack, smaller footprint"
+          view: [1000, 600]
+          items:
+            - {type: rect, pos: [60, 150], size: [210, 297], fill: blue, cue: "doubles the"}
+            - {type: text, pos: [165, 490], text: "0 folds", anchor: middle}
+            - {type: text, pos: [165, 525], text: "0.1 mm", size: s, anchor: middle}
+            - {type: rect, pos: [340, 298], size: [105, 149], fill: blue, cue: "halves the area"}
+            - {type: text, pos: [392, 490], text: "2 folds", anchor: middle}
+            - {type: text, pos: [392, 525], text: "0.4 mm", size: s, anchor: middle}
+            - {type: rect, pos: [540, 373], size: [53, 74], fill: blue, cue: "After seven"}
+            - {type: text, pos: [566, 490], text: "4 folds", anchor: middle}
+            - {type: text, pos: [566, 525], text: "1.6 mm", size: s, anchor: middle}
+            - {type: rect, pos: [770, 421], size: [19, 26], fill: red, cue: "over a centimeter"}
+            - {type: text, pos: [780, 490], text: "7 folds", anchor: middle}
+            - {type: text, pos: [780, 525], text: "12.8 mm", size: s, anchor: middle, cue: "over a centimeter"}
+            - {type: text, pos: [700, 360], text: "too stiff!", hand: true, size: l, color: red, anchor: middle, cue: "postage stamp"}
+      - id: B2
+        component: timeline
+        say: >-
+          Then in two thousand and two, a high school student named Britney Gallivan worked
+          out the math, and folded a strip of toilet paper over a kilometer long in half twelve
+          times. The full story is in the video on our channel.
+        params:
+          heading: "Britney Gallivan's twelve folds"
+          events:
+            - {when: "Before 2001", text: "Belief: 7 folds at most", cue: "Then in"}
+            - {when: "2001", text: "She works out the math", cue: "worked out"}
+            - {when: "Jan 2002", text: "12 folds, ≈ 1.2 km of toilet paper", cue: "twelve"}
