@@ -33,7 +33,13 @@ for (const [i, sh] of spec.shorts.entries()) {
   let cursor = 0;
   for (const s of scenes) {
     const t = timing.scenes[s.id];
-    const from = Math.max(0, t.speechStart - 0.15), to = t.speechEnd + 0.35;
+    // Keep the whole last word and a natural breath after it (transcribed word ends are often early),
+    // without reaching into the neighbouring scenes' words. Each piece also fades in/out (below).
+    const k = v.scenes.findIndex((x) => x.id === s.id);
+    const prevEnd = k > 0 ? timing.scenes[v.scenes[k - 1].id].speechEnd : 0;
+    const nextStart = k + 1 < v.scenes.length ? timing.scenes[v.scenes[k + 1].id].speechStart : Infinity;
+    const from = Math.max(0, prevEnd + 0.05, t.speechStart - 0.2);
+    const to = Math.min(t.speechEnd + 0.7, nextStart - 0.08);
     segs.push([from, to]);
     const shift = cursor - from;
     tScenes[s.id] = { ...t, start: cursor, end: cursor + (to - from), tokenTimes: t.tokenTimes.map((x) => x + shift), tokenEnds: t.tokenEnds.map((x) => x + shift) };
@@ -52,7 +58,8 @@ for (const [i, sh] of spec.shorts.entries()) {
   let shortAudio = null;
   if (audio) {
     shortAudio = path.join(sdir, "narration.wav");
-    const filter = segs.map(([a, z], k) => `[0:a]atrim=${a.toFixed(3)}:${z.toFixed(3)},asetpts=PTS-STARTPTS[s${k}]`).join(";") + ";" + segs.map((_, k) => `[s${k}]`).join("") + `concat=n=${segs.length}:v=0:a=1[out]`;
+    // short fade in and a gentle fade out on every piece, so cuts never click or chop a word
+    const filter = segs.map(([a, z], k) => `[0:a]atrim=${a.toFixed(3)}:${z.toFixed(3)},asetpts=PTS-STARTPTS,afade=t=in:d=0.05,afade=t=out:st=${Math.max(0, z - a - 0.3).toFixed(3)}:d=0.3[s${k}]`).join(";") + ";" + segs.map((_, k) => `[s${k}]`).join("") + `concat=n=${segs.length}:v=0:a=1[out]`;
     if (run("ffmpeg", ["-y", "-v", "error", "-i", `"${audio}"`, "-filter_complex", `"${filter}"`, "-map", "[out]", "-c:a", "pcm_s16le", `"${shortAudio}"`]) !== 0) fail("FFmpeg could not cut the Short's audio.");
   }
   const hook = sh.hook

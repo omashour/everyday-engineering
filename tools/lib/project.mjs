@@ -104,7 +104,9 @@ html{font-size:${F.base_px}px;}`;
       r = { html: `<div class="heading">⚠ ${esc(sc.component)}: ${esc(e.message)}</div>`, js: "" };
     }
     const navy = comp.navy || sc.params?.navy;
-    let js = idx === 0 ? "" : `EE.fade(tl, "#${sc.id}-in", 0, 0.3);\n`;
+    // whiteboard scenes stack their content in .scene-in; shrink it if it's taller than the frame
+    let js = r.fullBleed ? "" : `EE.fit("#${sc.id}-in");\n`;
+    if (idx > 0) js += `EE.fade(tl, "#${sc.id}-in", 0, 0.3);\n`;
     // a very slow drift keeps whiteboard scenes alive without distracting (photo scenes have their own zoom)
     if (!r.fullBleed && sc.params?.drift !== false) js += `EE.kenburns(tl, "#${sc.id}-in", 0, ${dur.toFixed(3)}, 1, 1.03);\n`;
     js += r.js;

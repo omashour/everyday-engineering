@@ -11,8 +11,8 @@ export default {
   required: ["headers", "rows"],
   css: `
 .tb { border-collapse:collapse; font-size:1.2rem; color: var(--ink); margin-top:0.6rem; }
-.tb th { background: var(--navy); color:#fff; font-weight:700; padding:0.5rem 1.4rem; }
-.tb td { padding:0.55rem 1.4rem; border-bottom:0.06rem solid var(--grid); text-align:center; }
+.tb th { background: var(--navy); color:#fff; font-weight:700; padding:var(--tbpad, 0.5rem) 1.4rem; }
+.tb td { padding:var(--tbpad, 0.55rem) 1.4rem; border-bottom:0.06rem solid var(--grid); text-align:center; }
 .tb tr.hl td, .tb td.hl { background: var(--marker); font-weight:700; }
 .fmt-short .tb { font-size:0.8rem; }`,
   render(p, ctx) {
@@ -22,7 +22,10 @@ export default {
     const times = ctx.times(cues);
     const hl = p.highlight;
     let html = p.heading ? `<div class="heading" id="${ctx.uid("h")}">${ctx.rich(p.heading)}</div>` : "";
-    html += `<table class="tb"><thead><tr id="${ctx.uid("hd")}">${(p.headers ?? []).map((h) => `<th>${ctx.rich(h)}</th>`).join("")}</tr></thead><tbody>`;
+    // long tables get tighter rows and smaller text so heading + every row fit the frame
+    const n = rows.length + 1, fit = Math.min(1, (ctx.fmt === "short" ? 12 : 7) / n);
+    const size = fit < 1 ? ` style="font-size:${((ctx.fmt === "short" ? 0.8 : 1.2) * Math.max(0.72, Math.sqrt(fit))).toFixed(2)}rem;--tbpad:${Math.max(0.2, 0.55 * fit).toFixed(2)}rem"` : "";
+    html += `<table class="tb"${size}><thead><tr id="${ctx.uid("hd")}">${(p.headers ?? []).map((h) => `<th>${ctx.rich(h)}</th>`).join("")}</tr></thead><tbody>`;
     let js = (p.heading ? ctx.call("rise", `#${ctx.uid("h")}`, ctx.start + 0.15) : "") + ctx.call("fade", `#${ctx.uid("hd")}`, ctx.start + 0.3);
     rows.forEach((r, i) => {
       html += `<tr id="${ctx.uid("r" + i)}">${r.map((c, j) => `<td id="${ctx.uid(`c${i}-${j}`)}">${ctx.rich(c)}</td>`).join("")}</tr>`;
