@@ -32,9 +32,9 @@ Chapters
 3:04 Working backwards with logs
 3:31 Why you can't really do it
 3:57 Twelve folds in 2002
-4:19 The paper you'd need
-4:49 Doubling in engineering
-5:14 Remember this
+4:26 The paper you'd need
+5:17 Doubling in engineering
+5:36 Remember this
 
 New videos every Friday: math, physics and engineering, explained through everyday things.
 Subscribe: https://www.youtube.com/@EverydayEngineeringExplained
@@ -55,8 +55,8 @@ paper folding, fold paper 42 times, paper to the moon, exponential growth, power
 - Caption certification: **None**
 - License: **Standard YouTube License**
 - Altered or synthetic content: **decide per video using YouTube's current guidance on realistic AI-generated content (the narration voice is AI-generated).**
-- End screen: from 5:28 to the end (7 s): one video ("Best for viewer") on the rectangle, Subscribe on the circle
-- Video length: **5:35**
+- End screen: from 6:01 to the end (8 s): one video ("Best for viewer") on the rectangle, Subscribe on the circle
+- Video length: **6:09**
 
 ## Pinned comment
 ```text

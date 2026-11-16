@@ -487,11 +487,11 @@ Britney Gallivan was challenged by her
 math teacher to fold something in half
 
 123
-00:04:09,360 --> 00:04:11,200
+00:04:09,360 --> 00:04:11,280
 twelve times for extra credit.
 
 124
-00:04:11,200 --> 00:04:12,960
+00:04:11,280 --> 00:04:12,960
 In January two thousand and two, she
 
 125
@@ -503,161 +503,169 @@ folded a strip of toilet paper about one
 point two kilometers long in half twelve
 
 127
-00:04:18,080 --> 00:04:19,690
+00:04:18,080 --> 00:04:20,400
 times, all in the same direction.
 
 128
-00:04:19,700 --> 00:04:21,710
+00:04:26,880 --> 00:04:30,720
 Gallivan also derived a formula for the
 
 129
-00:04:21,720 --> 00:04:23,360
+00:04:30,800 --> 00:04:34,560
 minimum length of paper needed when every
 
 130
-00:04:23,520 --> 00:04:24,240
+00:04:34,560 --> 00:04:35,920
 fold goes in
 
 131
-00:04:30,240 --> 00:04:32,240
+00:04:40,080 --> 00:04:41,120
 the same direction.
 
 132
-00:04:32,240 --> 00:04:33,750
-The equation shows that the required
+00:04:41,360 --> 00:04:42,640
+The equation shows that
 
 133
-00:04:33,760 --> 00:04:36,240
-length grows roughly fourfold with every
+00:04:50,080 --> 00:04:52,240
+the required length grows roughly fourfold
 
 134
-00:04:36,240 --> 00:04:37,040
-additional fold.
+00:04:52,240 --> 00:04:54,400
+with every additional fold.
 
 135
-00:04:39,680 --> 00:04:42,560
-For forty two folds of paper one tenth of
+00:04:54,400 --> 00:04:56,320
+For forty two
 
 136
-00:04:42,560 --> 00:04:42,610
-a millimeter thick, the theoretical length
+00:04:59,440 --> 00:05:02,000
+folds of paper one tenth of a
 
 137
-00:04:42,620 --> 00:04:44,240
-would be more than ten to the twenty one
+00:05:07,600 --> 00:05:09,920
+millimeter thick, the theoretical length
 
 138
-00:04:44,320 --> 00:04:45,920
-meters. That's approximately one hundred
+00:05:09,920 --> 00:05:11,341
+would be more than ten to the twenty one
 
 139
-00:04:45,920 --> 00:04:47,414
-thousand light years, comparable to the
+00:05:11,351 --> 00:05:11,430
+meters. That's approximately one hundred
 
 140
-00:04:47,424 --> 00:04:48,160
-diameter of the Milky Way.
+00:05:11,440 --> 00:05:13,550
+thousand light years, comparable to
 
 141
-00:04:48,160 --> 00:04:48,194
-Of course, this is a mathematical
+00:05:15,390 --> 00:05:17,087
+the diameter of the Milky Way.
 
 142
-00:04:48,204 --> 00:04:48,230
-extrapolation, not something we could
+00:05:17,097 --> 00:05:17,247
+Of course, this is a mathematical
 
 143
-00:04:48,240 --> 00:04:49,520
-physically build.
+00:05:17,257 --> 00:05:17,380
+extrapolation, not something we could
 
 144
-00:04:49,520 --> 00:04:51,440
-This isn't just a party trick.
+00:05:17,390 --> 00:05:17,433
+physically build.
 
 145
-00:04:51,440 --> 00:04:53,920
-Engineers run into doubling all the time.
+00:05:17,443 --> 00:05:17,593
+This isn't just a party trick.
 
 146
-00:04:53,920 --> 00:04:55,840
-For decades, the number of transistors on
+00:05:17,603 --> 00:05:17,780
+Engineers run into doubling all the time.
 
 147
-00:04:55,840 --> 00:04:57,760
-a computer chip doubled roughly every two
+00:05:17,790 --> 00:05:19,082
+For decades, the number of transistors on
 
 148
-00:04:57,760 --> 00:04:58,045
-years. That's Moore's law, an industry
+00:05:19,092 --> 00:05:19,133
+a computer chip doubled roughly every two
 
 149
-00:04:58,055 --> 00:04:58,390
-trend rather than a law of physics.
+00:05:19,143 --> 00:05:19,240
+years. That's Moore's law, an industry
 
 150
-00:04:58,400 --> 00:05:01,003
-In a nuclear reactor, neutrons released
+00:05:19,250 --> 00:05:19,380
+trend rather than a law of physics.
 
 151
-00:05:01,013 --> 00:05:02,480
-when an atom splits can go on to split
+00:05:19,390 --> 00:05:22,190
+In a nuclear reactor, neutrons released
 
 152
-00:05:02,480 --> 00:05:04,160
-more atoms, so the chain reaction has to
+00:05:22,190 --> 00:05:25,807
+when an atom splits can go on to split
 
 153
-00:05:04,160 --> 00:05:05,600
-be carefully controlled.
+00:05:25,817 --> 00:05:28,073
+more atoms, so the chain reaction has to
 
 154
-00:05:05,600 --> 00:05:07,670
-And money growing at seven percent a year,
+00:05:28,083 --> 00:05:28,660
+be carefully controlled.
 
 155
-00:05:07,680 --> 00:05:08,310
-with compound interest, doubles in a
+00:05:28,670 --> 00:05:28,776
+And money growing at seven percent a year,
 
 156
-00:05:08,320 --> 00:05:09,680
-little over ten years.
+00:05:28,786 --> 00:05:29,630
+with compound interest, doubles in a
 
 157
-00:05:14,590 --> 00:05:16,750
-So here's the one thing to remember.
+00:05:34,590 --> 00:05:36,830
+little over ten years.
 
 158
-00:05:16,750 --> 00:05:19,310
-Ten doublings is about a thousand times.
+00:05:36,830 --> 00:05:39,700
+So here's the one thing to remember.
 
 159
-00:05:19,310 --> 00:05:21,390
-Forty two doublings turn a tenth of a
+00:05:39,710 --> 00:05:40,580
+Ten doublings is about a thousand times.
 
 160
-00:05:21,390 --> 00:05:22,260
-millimeter into four hundred and forty
+00:05:40,590 --> 00:05:43,950
+Forty two doublings turn a tenth of a
 
 161
-00:05:22,270 --> 00:05:24,750
-thousand kilometers.
+00:05:43,950 --> 00:05:46,350
+millimeter into four hundred and forty
 
 162
-00:05:24,750 --> 00:05:26,830
-That's how a sheet of paper, at least on
+00:05:46,350 --> 00:05:46,820
+thousand kilometers.
 
 163
-00:05:26,830 --> 00:05:28,590
-paper, reaches the Moon.
+00:05:46,830 --> 00:05:50,750
+That's how a sheet of paper, at least
 
 164
-00:05:28,590 --> 00:05:30,430
-If you enjoyed this one, please give it a
+00:05:50,750 --> 00:05:52,750
+on paper, reaches the
 
 165
-00:05:30,430 --> 00:05:32,190
-like and subscribe for more everyday
+00:06:00,670 --> 00:06:01,710
+Moon.
 
 166
-00:05:32,190 --> 00:05:33,910
+00:06:01,710 --> 00:06:03,540
+If you enjoyed this one, please give it a
+
+167
+00:06:03,550 --> 00:06:07,390
+like and subscribe for more everyday
+
+168
+00:06:07,390 --> 00:06:08,590
 engineering. Thanks for watching!
