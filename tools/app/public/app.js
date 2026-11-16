@@ -179,6 +179,12 @@ async function renderSettings() {
     <h3>Upload day</h3>
     <p class="muted small">Shown in every description ("New videos every …") and on the banner.</p>
     <select id="day">${["", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "Monday and Thursday", "Tuesday and Friday"].map((d) => `<option ${d === s.uploadDay ? "selected" : ""} value="${d}">${d || "Not set"}</option>`).join("")}</select>
+    <h3>Music and sound effects</h3>
+    <p class="muted small">Generated for every video: a calm music bed that drops under the voice, plus soft pops, swipes, whooshes and dings when things appear. Applies the next time a video is built (Make everything).</p>
+    <div class="row">
+      <label class="small">Music <select id="music">${["off", "quiet", "normal", "louder"].map((v) => `<option ${v === s.music ? "selected" : ""}>${v}</option>`).join("")}</select></label>
+      <label class="small">Sound effects <select id="sfx">${["off", "quiet", "normal", "louder"].map((v) => `<option ${v === s.sfx ? "selected" : ""}>${v}</option>`).join("")}</select></label>
+    </div>
     <h3>Current phase</h3>
     <p class="muted small">Claude suggests topics only from this phase, and the new-video list shows them first. Change it when you're ready to move on; it's saved to GitHub, then press Sync in your Claude.ai project.</p>
     <select id="phase">${s.phases.map((p) => `<option value="${p.id}" ${p.id === s.phase ? "selected" : ""}>${esc(p.label)}</option>`).join("")}</select>
@@ -202,7 +208,7 @@ async function renderSettings() {
   $("#bopen").onclick = () => api("POST", "/api/backup/open", {});
   $("#save").onclick = async () => {
     try {
-      await api("POST", "/api/settings", { voice: $("#voice").value, uploadDay: $("#day").value, autoPush: $("#push").checked, backupFolder: $("#bfolder").value, phase: $("#phase").value });
+      await api("POST", "/api/settings", { voice: $("#voice").value, uploadDay: $("#day").value, autoPush: $("#push").checked, backupFolder: $("#bfolder").value, phase: $("#phase").value, music: $("#music").value, sfx: $("#sfx").value });
       toast("Settings saved");
       render();
     } catch (e) { alert(e.message); }

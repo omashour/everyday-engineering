@@ -6,6 +6,9 @@
 |---|---|
 | **Gemini voice** | The voice name shown in every voice step. Keep one voice for the whole channel. |
 | **Upload day** | Used in descriptions and on the banner. After changing it, remake the banner (`npm run branding`) and upload it. |
+| **Music and sound effects** | Each can be off, quiet, normal or louder. The music is a calm bed generated for each video; it drops under the voice and rises in pauses. Sound effects are soft pops, swipes, whooshes and dings on key moments. Changes apply the next time you press **Make everything**. In Studio, music and effects are separate tracks you can mute. |
+| **Current phase** | Which theme Claude suggests topics from (see below). |
+| **Backup folder** | Where **Back up now** copies recordings, images and videos (see guide 7). |
 | **Save progress to GitHub automatically** | Saves scripts and the topic list to GitHub after each step. Recordings and videos are never uploaded. |
 
 Pronunciations Gemini gets wrong go in `channel\voice.yaml` under `pronounce`.

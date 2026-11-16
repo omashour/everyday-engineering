@@ -19,7 +19,7 @@ for (const p of problems) console.log(`${p.level === "error" ? "✖" : "⚠"} ${
 const { words, duration } = syntheticWords(v.scenes, 120);
 const timing = buildTiming(v.scenes, words, duration);
 const out = path.join(dir, fmt === "short" ? "project-short" : "project");
-const { warnings } = await buildProject({ scenes: v.scenes, timing, fmt, outDir: out, videoDir: dir, audio: null, name: "style-gallery" });
+const { warnings } = await buildProject({ scenes: v.scenes, timing, fmt, outDir: out, videoDir: dir, audio: null, name: "style-gallery", sound: false });
 for (const w of warnings) console.log(`⚠ ${w}`);
 ok(`Built ${rel(out)}`);
 if (!args["no-check"]) hf(["check", out]);

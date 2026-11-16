@@ -58,6 +58,7 @@ Everything is saved in the video's folder on your PC: `videos\NNN-name\renders\`
 
 Watch the whole video and each Short in the app before uploading. Check:
 - the voice and visuals line up;
+- the music and sound effects support the voice without covering it (change their levels in Settings);
 - nothing is cut off at the edges, and nothing reads "[author]" or similar;
 - numbers on screen match what's said.
 

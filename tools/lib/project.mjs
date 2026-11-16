@@ -6,6 +6,7 @@ import { P, brand as loadBrand, copyFile, esc, rel } from "./core.mjs";
 import { tex, rich, icon } from "./kit.mjs";
 import { cueTime } from "./timing.mjs";
 import { loadComponents } from "./components.mjs";
+import { buildSound } from "./sound.mjs";
 
 const HF_VERSION = JSON.parse(fs.readFileSync(path.join(P.root, "package.json"), "utf8")).dependencies.hyperframes;
 
@@ -37,7 +38,8 @@ export function formatOf(brand, fmt) {
  * @param o.overlayHtml optional extra HTML on top of everything (Shorts hook banner)
  * @param o.overlayJs   JS for it
  * @param o.name      project name
- * @returns {warnings: string[], duration}
+ * @param o.sound     false = no generated music/sound effects (e.g. the gallery)
+ * @returns {warnings: string[], duration, sfx}
  */
 export async function buildProject(o) {
   const brand = loadBrand();
@@ -80,6 +82,8 @@ html{font-size:${F.base_px}px;}`;
   fs.rmSync(compDir, { recursive: true, force: true });
   fs.mkdirSync(compDir, { recursive: true });
   let body = "";
+  const calls = [], sceneStarts = [];
+  let endCardStart = null;
   o.scenes.forEach((sc, idx) => {
     const ta = o.timing.scenes[sc.id];
     const comp = reg[sc.component];
@@ -89,7 +93,9 @@ html{font-size:${F.base_px}px;}`;
     }
     const dur = ta.end - ta.start;
     const t = { ...ta, start: 0, end: dur, tokenTimes: ta.tokenTimes.map((x) => x - ta.start), tokenEnds: ta.tokenEnds?.map((x) => x - ta.start) };
-    const ctx = makeCtx(sc, t, brand, F, o.fmt, warnings, assetFn);
+    const ctx = makeCtx(sc, t, brand, F, o.fmt, warnings, assetFn, (fn, local) => calls.push({ fn, t: ta.start + local, component: sc.component }));
+    sceneStarts.push({ t: ta.start, index: idx });
+    if (/end/.test(sc.component)) endCardStart = ta.start;
     let r;
     try {
       r = comp.render(sc.params ?? {}, ctx);
@@ -139,12 +145,19 @@ ${js}
     const aDur = Math.min(total, o.timing.audioDuration ?? total);
     audioTag = `\n    <audio id="narration" src="assets/narration${path.extname(o.audio)}" data-start="0" data-duration="${aDur.toFixed(3)}" data-track-index="0" data-volume="1"></audio>`;
   }
-  if (brand.music?.file) {
+  for (const f of ["music.wav", "sfx.wav"]) fs.rmSync(path.join(out, "assets", f), { force: true });
+  let sfx = 0;
+  const ownMusic = brand.music?.file && fs.existsSync(path.join(P.assets, "music", brand.music.file));
+  if (ownMusic) {
     const mf = path.join(P.assets, "music", brand.music.file);
-    if (fs.existsSync(mf)) {
-      copyFile(mf, path.join(out, "assets", "music" + path.extname(mf)));
-      audioTag += `\n    <audio id="music" src="assets/music${path.extname(mf)}" data-start="0" data-duration="${total.toFixed(3)}" data-track-index="3" data-volume="${brand.music.volume ?? 0.08}"></audio>`;
-    }
+    copyFile(mf, path.join(out, "assets", "music" + path.extname(mf)));
+    audioTag += `\n    <audio id="music" src="assets/music${path.extname(mf)}" data-start="0" data-duration="${total.toFixed(3)}" data-track-index="3" data-volume="${brand.music.volume ?? 0.08}"></audio>`;
+  }
+  if (o.sound !== false) {
+    // generated music (unless you supplied your own file in brand.yaml) + sound effects, from settings.yaml → sound
+    const snd = buildSound({ outDir: out, total, narration: o.audio, calls, sceneStarts, endCardStart, skipMusic: ownMusic });
+    audioTag += snd.tags;
+    sfx = snd.events;
   }
 
   const html = `<!doctype html>
@@ -182,7 +195,7 @@ ${o.overlayJs ?? ""}
   if (!fs.existsSync(metaFile)) fs.writeFileSync(metaFile, JSON.stringify({ id: o.name, name: o.name, createdAt: new Date().toISOString() }, null, 2));
   fs.writeFileSync(path.join(out, "package.json"), JSON.stringify({ name: o.name, private: true, type: "module", scripts: { dev: `npx --yes hyperframes@${HF_VERSION} preview`, check: `npx --yes hyperframes@${HF_VERSION} check`, render: `npx --yes hyperframes@${HF_VERSION} render` } }, null, 2));
   fs.writeFileSync(path.join(out, ".ee-build.json"), JSON.stringify({ hash: hashProject(out), builtAt: new Date().toISOString() }, null, 2));
-  return { warnings, duration: total };
+  return { warnings, duration: total, sfx };
 }
 
 /** Hash of index.html + every scene file, to detect edits made after a build. */
@@ -201,7 +214,7 @@ export function editedSinceBuild(outDir) {
   return JSON.parse(fs.readFileSync(stamp, "utf8")).hash !== hashProject(outDir);
 }
 
-function makeCtx(sc, t, brand, F, fmt, warnings, assetFn) {
+function makeCtx(sc, t, brand, F, fmt, warnings, assetFn, onCall = () => {}) {
   const start = t.start, end = t.end, dur = end - start;
   const cue = (phrase) => {
     if (phrase == null || phrase === "") return null;
@@ -214,7 +227,12 @@ function makeCtx(sc, t, brand, F, fmt, warnings, assetFn) {
     cue, tex, rich, icon, esc,
     asset: assetFn,
     uid: (s) => `${sc.id}-${s}`,
-    call: (fn, ...args) => `EE.${fn}(tl, ${args.map((a) => (typeof a === "number" ? a.toFixed(3) : JSON.stringify(a))).join(", ")});\n`,
+    call: (fn, ...args) => {
+      // remember when things appear, for the sound effects (count's start time is its 4th argument)
+      const at = fn === "count" ? args[3] + (args[4] ?? 1.2) : args[1];
+      if (typeof at === "number") onCall(fn, at);
+      return `EE.${fn}(tl, ${args.map((a) => (typeof a === "number" ? a.toFixed(3) : JSON.stringify(a))).join(", ")});\n`;
+    },
     /** One time per item: its cue if given, else spread evenly through the scene. */
     times(items, win = {}) {
       const from = win.from ?? start + 0.5;

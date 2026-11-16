@@ -138,7 +138,7 @@ function settings() {
   const about = readYaml(path.join(P.channel, "about.yaml"), {});
   const s = readYaml(path.join(P.root, "settings.yaml"), {});
   const bk = backupConfig();
-  return { voice: voice.gemini?.voice ?? "", uploadDay: about.upload_day ?? "", autoPush: s?.git?.auto_push !== false, phase: currentPhase(), phases: PHASES.map((id) => ({ id, label: PHASE_LABEL[id] })), backup: { folder: bk.folder, last: bk.last, pending: filesSinceBackup(), suggestions: suggestedFolders() } };
+  return { voice: voice.gemini?.voice ?? "", uploadDay: about.upload_day ?? "", autoPush: s?.git?.auto_push !== false, music: s?.sound?.music ?? "normal", sfx: s?.sound?.sfx ?? "normal", phase: currentPhase(), phases: PHASES.map((id) => ({ id, label: PHASE_LABEL[id] })), backup: { folder: bk.folder, last: bk.last, pending: filesSinceBackup(), suggestions: suggestedFolders() } };
 }
 function setYamlKey(file, keyPath, value) {
   const doc = YAML.parseDocument(fs.readFileSync(file, "utf8"));
@@ -215,6 +215,7 @@ async function route(req, res) {
     if (typeof b.voice === "string") setYamlKey(path.join(P.channel, "voice.yaml"), ["gemini", "voice"], b.voice.trim() || null);
     if (typeof b.uploadDay === "string") setYamlKey(path.join(P.channel, "about.yaml"), ["upload_day"], b.uploadDay.trim() || null);
     if (typeof b.autoPush === "boolean") setYamlKey(path.join(P.root, "settings.yaml"), ["git", "auto_push"], b.autoPush);
+    for (const k of ["music", "sfx"]) if (["off", "quiet", "normal", "louder"].includes(b[k])) setYamlKey(path.join(P.root, "settings.yaml"), ["sound", k], b[k]);
     if (typeof b.phase === "string" && b.phase !== currentPhase()) {
       setCurrentPhase(b.phase);
       saveAndPush(`Current phase: ${b.phase}`);
