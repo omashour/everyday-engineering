@@ -122,6 +122,13 @@ async function videoDetail(dir) {
     const v = loadVideo(vdir);
     const probs = await validateVideo(v);
     out.validation = { problems: probs.map((p) => ({ level: p.level, msg: p.msg })), words: probs.words, minutes: +probs.minutes.toFixed(1), scenes: v.scenes.length };
+    // the whole narration in one piece, for reading it through before recording/building
+    const says = v.scenes.filter((s) => String(s.say ?? "").trim());
+    const flat = (s) => String(s.say).replace(/\s+/g, " ").trim();
+    out.fullScript = {
+      labelled: `${v.meta.title ?? v.name}\n\n` + says.map((s) => `[${s.id}${s.chapter ? ` · ${s.chapter}` : ""}]\n${flat(s)}`).join("\n\n") + `\n\n(${probs.words} words, about ${probs.minutes.toFixed(1)} minutes)`,
+      plain: says.map(flat).join("\n\n"),
+    };
     out.tts = ttsPack(v);
     delete out.tts.scriptMd;
     delete out.tts.ttsMd;

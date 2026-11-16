@@ -262,6 +262,10 @@ function scriptStep(el, d, dir) {
     <div class="row" style="margin-top:8px"><button class="primary" id="savescript">Save script</button>
       <span class="muted small">Files: ${Object.entries(d.files).map(([f, ok]) => `${ok ? "✓" : "✗"} ${f}`).join(" · ")}</span>
       <button class="link" id="openscenes">Open scenes.yaml</button></div>
+    ${d.fullScript ? `<h3>Read the full script</h3>
+    <p class="muted small">The whole narration in one piece, to read through (or paste into a doc or Claude) before you record and build. ${esc(String(d.validation.words))} words, about ${esc(String(d.validation.minutes))} minutes.</p>
+    <div class="row"><button class="primary" data-copytext="labelled">Copy full script</button><button data-copytext="plain">Copy narration only (no scene labels)</button></div>
+    <details style="margin-top:8px"><summary class="small">Show it here</summary><div class="copy"><pre>${esc(d.fullScript.labelled)}</pre></div></details>` : ""}
     <h3>Check</h3>${probsList(d.validation)}
     <p class="muted small">If there's a ✖ error, copy the message into the same Claude.ai chat; Claude sends back only the fixed scene — paste it here or into scenes.yaml.</p>`;
   const ta = $("#paste", el);
@@ -273,6 +277,12 @@ function scriptStep(el, d, dir) {
     await saveScript(dir, { files });
   });
   $("#savescript", el).onclick = () => saveScript(dir, { paste: ta.value });
+  for (const b of el.querySelectorAll("[data-copytext]")) b.onclick = async () => {
+    const text = d.fullScript[b.dataset.copytext];
+    try { await navigator.clipboard.writeText(text); }
+    catch { const t = document.createElement("textarea"); t.value = text; document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove(); }
+    toast("Script copied");
+  };
   $("#openscenes", el).onclick = () => api("POST", `/api/video/${dir}/open`, { file: "scenes.yaml" });
 }
 async function saveScript(dir, body) {

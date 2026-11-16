@@ -71,7 +71,9 @@ Before writing, **check every number and fact** (work the math out; state assump
 ~~~~~
 ```
 
-Nothing else goes inside the block: no headings, no comments between files. Put the fact-check summary and any notes **after** the block. The user creates the video in the **Everyday Engineering app** on their desktop (New video → pick the topic), presses Copy on your block and pastes it into the app's "Script from Claude" box, which splits it into the five files and checks them. For fixes (step 4), keep sending only the changed scenes. (If a GitHub connector with write access is connected and the user asks, you may instead commit the files to `videos/NNN-slug/`.)
+Nothing else goes inside the block: no headings, no comments between files. Put the fact-check summary and any notes **after** the block. The user creates the video in the **Everyday Engineering app** on their desktop (New video → pick the topic), presses Copy on your block and pastes it into the app's "Script from Claude" box, which splits it into the five files and checks them. For fixes (step 4), keep sending only the changed scenes.
+
+**Full script for review:** when the user asks to read, review or copy the full script ("show me the whole script"), give the complete narration as ONE plain-text block: the title, then each scene as a `[S01 · chapter]` line followed by its `say` text, and the word count and estimated minutes at the end. No YAML, no visuals. (The app's "Copy full script" button gives the same thing after the package is pasted.) Apply any changes the user asks for to the affected scenes only. (If a GitHub connector with write access is connected and the user asks, you may instead commit the files to `videos/NNN-slug/`.)
 
 Then tell the user, in one or two lines, to continue in the app: paste the script, record the voice chunks the app shows, drop the audio on the app, and press **Make everything**; the app's YouTube step has copy buttons for every upload field. For users who prefer commands, the equivalent is:
 ```

@@ -24,6 +24,7 @@ Shorts (style E) are made automatically from every video.
 1. Open the app (desktop icon). On the home page, **Start a new video**: pick the same topic from the list and press **Create video**.
 2. Back in Claude.ai, say **write the script**. Claude puts the whole package (five files: `scenes.yaml`, `metadata.md`, `thumbnail.yaml`, `shorts.yaml` and `assets-needed.md`) in **one block** with a single **Copy** button.
 3. Press **Copy** on that block. In the app's video page, step **1. Script from Claude**: paste it and save. The app splits it into the five files and checks them. If it reports a problem, paste the message back to Claude and paste its fix the same way.
+4. **Read the whole script before going further.** In the same step, press **Copy full script** (scene labels included) or **Copy narration only**, and read it through: paste it into a document, or read it under **Show it here**. You can also ask Claude "show me the whole script" in the chat. To change something, ask Claude for the changed scenes and paste them in step 1. Changes are cheapest now, before you record the voice.
 
 ## Step 3. Images
 
