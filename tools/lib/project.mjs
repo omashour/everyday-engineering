@@ -105,7 +105,8 @@ html{font-size:${F.base_px}px;}`;
     }
     const navy = comp.navy || sc.params?.navy;
     // whiteboard scenes stack their content in .scene-in; shrink it if it's taller than the frame
-    let js = r.fullBleed ? "" : `EE.fit("#${sc.id}-in");\n`;
+    // (vertical format: also enlarge small content, up to 1.5×, to use the tall phone screen)
+    let js = r.fullBleed ? "" : `EE.fit("#${sc.id}-in"${o.fmt === "short" ? ", 1.5" : ""});\n`;
     if (idx > 0) js += `EE.fade(tl, "#${sc.id}-in", 0, 0.3);\n`;
     // a very slow drift keeps whiteboard scenes alive without distracting (photo scenes have their own zoom)
     if (!r.fullBleed && sc.params?.drift !== false) js += `EE.kenburns(tl, "#${sc.id}-in", 0, ${dur.toFixed(3)}, 1, 1.03);\n`;

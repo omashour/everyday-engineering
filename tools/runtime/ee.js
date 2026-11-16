@@ -72,7 +72,8 @@
   /* Shrink a scene evenly (CSS zoom) when its stacked content is taller than the frame, so a
      heading or the last row is never cut off at the top or bottom. Uses layout sizes (offsetTop/
      offsetHeight), which animation transforms don't change. Measured now and again after fonts load. */
-  E.fit = (sel) => {
+  /* grow > 1 also ENLARGES content that is much smaller than the frame (vertical format: phone screens). */
+  E.fit = (sel, grow = 1) => {
     const el = document.querySelector(sel);
     if (!el) return;
     const measure = () => {
@@ -83,8 +84,13 @@
       const cs = getComputedStyle(el);
       const p = ["Top", "Right", "Bottom", "Left"].map((s) => parseFloat(cs["padding" + s]));
       const room = el.clientHeight - p[0] - p[2], need = bottom - top;
-      if (need <= room + 1) return;
-      const z = Math.max(0.55, (room / need) * 0.98);
+      const roomW = el.clientWidth - p[1] - p[3], needW = Math.max(...kids.map((k) => k.offsetWidth));
+      let z;
+      if (need > room + 1) z = Math.max(0.55, (room / need) * 0.98);
+      else if (grow > 1) {
+        z = Math.min(grow, (room * 0.85) / need, (roomW * 0.95) / needW);
+        if (z < 1.08) return;
+      } else return;
       el.style.zoom = String(z);
       // zoom also shrinks the padding; scale it back up so the safe margins (and Shorts' banner area) stay the same
       el.style.padding = p.map((v) => `${(v / z).toFixed(1)}px`).join(" ");

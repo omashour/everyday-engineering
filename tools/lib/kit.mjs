@@ -8,7 +8,7 @@ import { P, esc } from "./core.mjs";
 
 // ---------- text & math ----------
 export function tex(src, display = false) {
-  return katex.renderToString(String(src), { displayMode: display, throwOnError: false, output: "html", strict: "ignore" });
+  return katex.renderToString(String(src), { displayMode: display, throwOnError: false, output: "htmlAndMathml", strict: "ignore" }); // MathML is used inside SVG labels (see ee.css)
 }
 /** Rich text: $inline math$, **bold**, ==marker highlight==, {red}text{/red}. */
 export function rich(text) {

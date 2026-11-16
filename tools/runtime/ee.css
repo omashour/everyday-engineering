@@ -26,6 +26,11 @@ body { font-family: "Inter", sans-serif; color: var(--text); }
 .icon { width: 100%; height: 100%; display: block; }
 
 /* SVG figures */
+/* Chrome mis-positions KaTeX's layout (superscripts, fractions) inside SVG foreignObject, so labels
+   inside figures show KaTeX's MathML copy instead, which the browser lays out natively. */
+foreignObject .katex-html { display: none; }
+foreignObject .katex .katex-mathml { position: static; clip: auto; width: auto; height: auto; overflow: visible; padding: 0; }
+foreignObject math { font-family: "Cambria Math", "STIX Two Math", "Latin Modern Math", serif; font-size: 1.05em; }
 svg.fig { width: 100%; height: 100%; overflow: visible; }
 .fig-box { width: 100%; flex: 1 1 auto; min-height: 0; display: flex; align-items: center; justify-content: center; }
 .fo { width: 100%; height: 100%; display: flex; align-items: center; font-size: 42px; color: var(--ink); line-height: 1.15; }
