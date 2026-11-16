@@ -78,7 +78,7 @@
     if (!el) return;
     const measure = () => {
       if (!el.clientHeight) return; // not laid out yet (measured again once fonts are ready)
-      el.style.zoom = ""; el.style.padding = ""; el.style.transform = "";
+      el.style.zoom = ""; el.style.padding = ""; el.style.scale = "";
       // Chrome misplaces SVG foreignObject labels under CSS zoom, so figures with them only shrink, by transform
       const fo = !!el.querySelector("foreignObject");
       const kids = [...el.children].filter((k) => getComputedStyle(k).position !== "absolute");
@@ -99,7 +99,7 @@
         if (z < 1.08 || fo) z = 1;
       }
       const apply = (zz) => {
-        if (fo) { el.style.transformOrigin = "50% 50%"; el.style.transform = zz === 1 ? "" : `scale(${zz})`; return; }
+        if (fo) { el.style.scale = zz === 1 ? "" : String(zz); return; }
         el.style.zoom = zz === 1 ? "" : String(zz);
         // zoom also shrinks the padding; scale it back up so the safe margins (and Shorts' banner area) stay the same
         el.style.padding = zz === 1 ? "" : p.map((v) => `${(v / zz).toFixed(1)}px`).join(" ");
@@ -107,7 +107,7 @@
       apply(z);
       // Width check on what is really drawn (equations, tables, graph labels): nothing may cross the side margins.
       // measure without animation transforms (pop-ins start small, slides start shifted)
-      if (!document.getElementById("ee-measure-css")) { const st = document.createElement("style"); st.id = "ee-measure-css"; st.textContent = ".ee-measure, .ee-measure * { transform: none !important; }"; document.head.appendChild(st); }
+      measureCss();
       el.classList.add("ee-measure");
       for (let pass = 0; pass < 3; pass++) {
         const r = el.getBoundingClientRect();
@@ -129,6 +129,75 @@
     };
     measure();
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
+  };
+
+  function measureCss() {
+    if (document.getElementById("ee-measure-css")) return;
+    const st = document.createElement("style"); st.id = "ee-measure-css";
+    st.textContent = ".ee-measure, .ee-measure * { transform: none !important; scale: none !important; }";
+    document.head.appendChild(st);
+  }
+
+  /* Labels placed by coordinates (figure/graph labels, photo pills) can land on top of each other.
+     Shrink colliding labels a little (to 72% at most), then push one away vertically. Anything still
+     overlapping is listed in window.__eeOverlaps (read by the build's overlap report). */
+  E.declutter = (sel) => {
+    const root = document.querySelector(sel);
+    if (!root) return;
+    const run = () => {
+      measureCss();
+      root.classList.add("ee-measure");
+      const labs = [...root.querySelectorAll(".fo > span, .po-t > *")].filter((e) => e.textContent.trim() && e.getBoundingClientRect().width > 0);
+      const hit = (a, b) => {
+        const w = Math.min(a.right, b.right) - Math.max(a.left, b.left), h = Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top);
+        return w > 3 && h > 3 ? { w, h } : null;
+      };
+      const shrink = (L) => {
+        const base = +(L.dataset.eeBase || (L.dataset.eeBase = parseFloat(getComputedStyle(L).fontSize)));
+        const f = +(L.dataset.eeF || 1);
+        if (f <= 0.75) return false;
+        L.dataset.eeF = (f * 0.92).toFixed(3);
+        L.style.fontSize = (base * f * 0.92).toFixed(2) + "px";
+        return true;
+      };
+      const nudge = (L, dyPx) => {
+        const fobj = L.closest("foreignObject");
+        if (fobj) {
+          const m = fobj.ownerSVGElement && fobj.ownerSVGElement.getScreenCTM();
+          const k = m && m.d ? m.d : 1;
+          fobj.setAttribute("y", String(parseFloat(fobj.getAttribute("y")) + dyPx / k));
+          return;
+        }
+        const host = L.parentElement, layer = host.parentElement;
+        const k = layer.getBoundingClientRect().width / (layer.offsetWidth || 1) || 1;
+        host.style.top = (parseFloat(host.style.top) + dyPx / k).toFixed(1) + "px";
+      };
+      for (let it = 0; it < 10; it++) {
+        let any = false;
+        for (let i = 0; i < labs.length; i++) for (let j = i + 1; j < labs.length; j++) {
+          const A = labs[i], B = labs[j];
+          if (A.contains(B) || B.contains(A)) continue;
+          const a = A.getBoundingClientRect(), b = B.getBoundingClientRect();
+          const o = hit(a, b);
+          if (!o) continue;
+          any = true;
+          const s1 = shrink(A), s2 = shrink(B);
+          if (!s1 && !s2) {
+            const down = (b.top + b.bottom) / 2 >= (a.top + a.bottom) / 2;
+            nudge(B, (down ? 1 : -1) * (o.h + 6));
+          }
+        }
+        if (!any) break;
+      }
+      const left = [];
+      for (let i = 0; i < labs.length; i++) for (let j = i + 1; j < labs.length; j++) {
+        if (labs[i].contains(labs[j]) || labs[j].contains(labs[i])) continue;
+        if (hit(labs[i].getBoundingClientRect(), labs[j].getBoundingClientRect())) left.push([labs[i].textContent.trim().slice(0, 40), labs[j].textContent.trim().slice(0, 40)]);
+      }
+      root.classList.remove("ee-measure");
+      window.__eeOverlaps = (window.__eeOverlaps || []).filter((x) => x.scene !== sel).concat(left.map((p) => ({ scene: sel, a: p[0], b: p[1] })));
+    };
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(run); else run();
   };
 
   window.EE = E;
