@@ -1,0 +1,603 @@
+1
+00:00:00,160 --> 00:00:02,560
+Fold a sheet of paper in half forty two
+
+2
+00:00:02,560 --> 00:00:04,320
+times, and it would be thicker than the
+
+3
+00:00:04,320 --> 00:00:05,680
+distance to the Moon.
+
+4
+00:00:05,680 --> 00:00:08,720
+No tricks. Just one number doubling.
+
+5
+00:00:08,720 --> 00:00:11,040
+Here's the math, and why engineers take
+
+6
+00:00:11,040 --> 00:00:12,960
+doubling seriously.
+
+7
+00:00:12,960 --> 00:00:15,520
+Let's follow the folds, one doubling at a
+
+8
+00:00:15,520 --> 00:00:15,990
+time.
+
+9
+00:00:16,000 --> 00:00:18,000
+Start with an ordinary sheet of printer
+
+10
+00:00:18,000 --> 00:00:20,000
+paper. It's about a tenth of a millimeter
+
+11
+00:00:20,000 --> 00:00:22,560
+thick. Fold it in half once, and now you
+
+12
+00:00:22,560 --> 00:00:23,600
+have two layers.
+
+13
+00:00:23,600 --> 00:00:25,760
+Fold again, and you have four layers.
+
+14
+00:00:25,760 --> 00:00:27,120
+Again, eight.
+
+15
+00:00:27,120 --> 00:00:29,520
+Every fold doubles the number of layers,
+
+16
+00:00:29,520 --> 00:00:31,680
+so every fold doubles the thickness.
+
+17
+00:00:31,680 --> 00:00:33,200
+That's the whole rule.
+
+18
+00:00:33,200 --> 00:00:34,640
+Let's write it down.
+
+19
+00:00:34,640 --> 00:00:37,440
+Zero folds, zero point one millimeters.
+
+20
+00:00:37,440 --> 00:00:39,520
+One fold, zero point two.
+
+21
+00:00:39,520 --> 00:00:39,759
+Then zero point four, zero point eight,
+
+22
+00:00:39,769 --> 00:00:43,120
+one point six, three point
+
+23
+00:00:43,120 --> 00:00:45,440
+two, and six point four.
+
+24
+00:00:45,440 --> 00:00:47,190
+At fold seven, the stack is twelve point
+
+25
+00:00:47,200 --> 00:00:49,520
+eight millimeters, thicker than most
+
+26
+00:00:49,520 --> 00:00:51,830
+phones. At fold ten, it's one hundred and
+
+27
+00:00:51,840 --> 00:00:53,600
+two millimeters.
+
+28
+00:00:53,600 --> 00:00:55,360
+That's about ten centimeters, the height
+
+29
+00:00:55,360 --> 00:00:56,480
+of a coffee mug.
+
+30
+00:00:56,480 --> 00:00:58,560
+Ten folds made it about a thousand times
+
+31
+00:00:58,560 --> 00:00:59,280
+thicker.
+
+32
+00:00:59,670 --> 00:01:01,590
+Here's the pattern as a formula.
+
+33
+00:01:01,590 --> 00:01:03,670
+Call the starting thickness t.
+
+34
+00:01:03,670 --> 00:01:06,870
+After n folds, the thickness T is t times
+
+35
+00:01:06,870 --> 00:01:08,310
+two to the n.
+
+36
+00:01:08,310 --> 00:01:10,070
+Now notice something handy.
+
+37
+00:01:10,070 --> 00:01:11,420
+Two to the ten is one thousand and twenty
+
+38
+00:01:11,430 --> 00:01:14,870
+four. That's almost exactly a thousand.
+
+39
+00:01:14,870 --> 00:01:16,870
+So every ten folds multiplies the
+
+40
+00:01:16,870 --> 00:01:18,550
+thickness by about a thousand.
+
+41
+00:01:18,550 --> 00:01:20,710
+Ten folds, about ten centimeters.
+
+42
+00:01:20,710 --> 00:01:22,950
+Twenty folds, about a hundred meters.
+
+43
+00:01:22,950 --> 00:01:25,830
+Thirty folds, about a hundred kilometers.
+
+44
+00:01:25,830 --> 00:01:28,070
+Now compare two ways to grow.
+
+45
+00:01:28,070 --> 00:01:30,790
+The blue line adds one new sheet at every
+
+46
+00:01:30,790 --> 00:01:32,790
+step. That's linear growth.
+
+47
+00:01:32,790 --> 00:01:35,030
+The red curve doubles at every step.
+
+48
+00:01:35,030 --> 00:01:36,950
+That's exponential growth.
+
+49
+00:01:36,950 --> 00:01:39,110
+For the first few steps, they look almost
+
+50
+00:01:39,110 --> 00:01:41,910
+the same. But after ten steps, the added
+
+51
+00:01:41,910 --> 00:01:43,830
+sheets make a stack just one point one
+
+52
+00:01:43,830 --> 00:01:45,110
+millimeters thick.
+
+53
+00:01:45,110 --> 00:01:46,950
+The doubled stack is over a hundred
+
+54
+00:01:46,950 --> 00:01:49,750
+millimeters. Adding is slow and steady.
+
+55
+00:01:49,750 --> 00:01:51,910
+Doubling runs away.
+
+56
+00:01:51,910 --> 00:01:53,750
+Keep folding, and switch the scale to
+
+57
+00:01:53,750 --> 00:01:56,070
+kilometers. For about twenty folds, the
+
+58
+00:01:56,070 --> 00:01:57,590
+curve hugs the floor.
+
+59
+00:01:57,600 --> 00:01:59,120
+By then the stack is about a hundred
+
+60
+00:01:59,120 --> 00:02:00,880
+meters, as tall as a thirty storey
+
+61
+00:02:00,960 --> 00:02:03,120
+building. Three folds later, it's taller
+
+62
+00:02:03,120 --> 00:02:05,120
+than the Burj Khalifa, the tallest
+
+63
+00:02:05,120 --> 00:02:06,320
+building in the world.
+
+64
+00:02:06,320 --> 00:02:08,800
+At fold twenty seven, it's thirteen
+
+65
+00:02:08,800 --> 00:02:10,480
+kilometers. That's higher than Mount
+
+66
+00:02:10,480 --> 00:02:12,960
+Everest, and higher than airliners fly.
+
+67
+00:02:12,960 --> 00:02:14,550
+At fold thirty, it's about a hundred and
+
+68
+00:02:14,560 --> 00:02:16,000
+seven kilometers.
+
+69
+00:02:16,000 --> 00:02:17,920
+You've folded your way past the edge of
+
+70
+00:02:17,920 --> 00:02:19,200
+space.
+
+71
+00:02:19,200 --> 00:02:21,200
+Now picture the stack in thousands of
+
+72
+00:02:21,200 --> 00:02:22,870
+kilometers. The Moon is about three
+
+73
+00:02:22,880 --> 00:02:24,560
+hundred and eighty four thousand
+
+74
+00:02:24,560 --> 00:02:25,760
+kilometers away.
+
+75
+00:02:25,760 --> 00:02:27,686
+At fold forty, the stack is about a
+
+76
+00:02:27,696 --> 00:02:29,760
+hundred and ten thousand kilometers.
+
+77
+00:02:29,760 --> 00:02:31,200
+At fold forty one, two hundred and twenty
+
+78
+00:02:31,200 --> 00:02:34,480
+thousand. Still only partway there.
+
+79
+00:02:34,480 --> 00:02:37,120
+Then fold forty two doubles it again, to
+
+80
+00:02:37,120 --> 00:02:38,800
+about four hundred and forty thousand
+
+81
+00:02:38,800 --> 00:02:40,960
+kilometers. You've passed the Moon.
+
+82
+00:02:40,960 --> 00:02:42,880
+Half the whole journey happened on the
+
+83
+00:02:42,880 --> 00:02:44,240
+very last fold.
+
+84
+00:02:44,240 --> 00:02:45,920
+We can also run it backwards.
+
+85
+00:02:45,920 --> 00:02:47,760
+How many folds does it take to reach the
+
+86
+00:02:47,760 --> 00:02:50,960
+Moon? Set t times two to the n equal to
+
+87
+00:02:50,960 --> 00:02:51,680
+the distance.
+
+88
+00:02:51,680 --> 00:02:54,080
+Put both in meters, and divide.
+
+89
+00:02:54,080 --> 00:02:56,470
+That gives two to the n equals about three
+
+90
+00:02:56,480 --> 00:02:59,520
+point eight four times ten to the twelve.
+
+91
+00:02:59,520 --> 00:03:01,440
+To solve for an exponent, you use a
+
+92
+00:03:01,440 --> 00:03:04,280
+logarithm. Log base two of that number is
+
+93
+00:03:04,290 --> 00:03:05,910
+forty one point eight.
+
+94
+00:03:05,910 --> 00:03:08,070
+You can't make eight tenths of a fold, so
+
+95
+00:03:08,070 --> 00:03:10,630
+round up. Forty two folds.
+
+96
+00:03:10,630 --> 00:03:12,620
+Why can't you actually fold paper forty
+
+97
+00:03:12,630 --> 00:03:15,270
+two times? Because every fold that doubles
+
+98
+00:03:15,270 --> 00:03:17,910
+the thickness also halves the paper.
+
+99
+00:03:17,910 --> 00:03:19,910
+Take a standard sheet of printer paper.
+
+100
+00:03:19,910 --> 00:03:22,070
+After seven folds, it's a little block
+
+101
+00:03:22,070 --> 00:03:24,310
+about two centimeters across and more than
+
+102
+00:03:24,310 --> 00:03:25,670
+a centimeter thick.
+
+103
+00:03:25,670 --> 00:03:28,310
+It's nearly a cube, and folding a cube in
+
+104
+00:03:28,310 --> 00:03:30,070
+half is close to impossible.
+
+105
+00:03:30,070 --> 00:03:31,830
+That's why most people get stuck at around
+
+106
+00:03:31,830 --> 00:03:33,110
+seven folds.
+
+107
+00:03:33,110 --> 00:03:35,590
+For years, people said seven folds was the
+
+108
+00:03:35,590 --> 00:03:37,750
+limit. Then in two thousand and one, a
+
+109
+00:03:37,750 --> 00:03:39,590
+high school student in California named
+
+110
+00:03:39,590 --> 00:03:41,910
+Britney Gallivan got an extra credit
+
+111
+00:03:41,910 --> 00:03:44,310
+challenge. Fold something in half twelve
+
+112
+00:03:44,310 --> 00:03:46,630
+times. She worked out the math first.
+
+113
+00:03:46,630 --> 00:03:48,710
+Then, in January two thousand and two, she
+
+114
+00:03:48,710 --> 00:03:50,540
+folded a strip of toilet paper about one
+
+115
+00:03:50,550 --> 00:03:53,590
+point two kilometers long in half twelve
+
+116
+00:03:53,590 --> 00:03:56,230
+times, all in the same direction.
+
+117
+00:03:56,230 --> 00:03:58,470
+Her formula gives the length of paper you
+
+118
+00:03:58,470 --> 00:04:00,870
+need for n folds in one direction.
+
+119
+00:04:01,100 --> 00:04:04,300
+L equals pi t over six, times two to the n
+
+120
+00:04:04,460 --> 00:04:07,420
+plus four, times two to the n minus one.
+
+121
+00:04:07,420 --> 00:04:09,900
+Two to the n shows up twice, so the length
+
+122
+00:04:09,900 --> 00:04:11,580
+grows like four to the n.
+
+123
+00:04:11,580 --> 00:04:13,980
+Every extra fold needs about four times
+
+124
+00:04:13,980 --> 00:04:16,940
+more paper. Now plug in forty two folds of
+
+125
+00:04:16,940 --> 00:04:17,820
+printer paper.
+
+126
+00:04:17,820 --> 00:04:19,570
+You'd need a strip about ten to the twenty
+
+127
+00:04:19,580 --> 00:04:20,940
+one meters long.
+
+128
+00:04:20,940 --> 00:04:22,780
+That's roughly a hundred thousand light
+
+129
+00:04:22,780 --> 00:04:25,260
+years, about the width of our galaxy.
+
+130
+00:04:25,260 --> 00:04:27,180
+This isn't just a party trick.
+
+131
+00:04:27,180 --> 00:04:29,660
+Engineers run into doubling all the time.
+
+132
+00:04:29,660 --> 00:04:31,580
+For decades, the number of transistors on
+
+133
+00:04:31,580 --> 00:04:33,420
+a computer chip doubled about every two
+
+134
+00:04:33,500 --> 00:04:35,820
+years. In a nuclear reactor, each
+
+135
+00:04:35,820 --> 00:04:37,820
+splitting atom releases neutrons that can
+
+136
+00:04:37,820 --> 00:04:39,900
+split more atoms, so the reaction has to
+
+137
+00:04:39,900 --> 00:04:41,340
+be carefully controlled.
+
+138
+00:04:41,340 --> 00:04:43,580
+And money growing at seven percent a year
+
+139
+00:04:43,580 --> 00:04:45,420
+doubles about every ten years.
+
+140
+00:04:45,420 --> 00:04:47,180
+Whenever something doubles at a steady
+
+141
+00:04:47,180 --> 00:04:50,140
+rate, the folded paper curve is waiting.
+
+142
+00:04:50,380 --> 00:04:52,460
+So here's the one thing to remember.
+
+143
+00:04:52,460 --> 00:04:55,020
+Ten doublings is about a thousand times.
+
+144
+00:04:55,020 --> 00:04:57,100
+Forty two doublings turn a tenth of a
+
+145
+00:04:57,100 --> 00:04:57,970
+millimeter into four hundred and forty
+
+146
+00:04:57,980 --> 00:05:00,460
+thousand kilometers.
+
+147
+00:05:00,460 --> 00:05:02,380
+That's how a sheet of paper, at least on
+
+148
+00:05:02,380 --> 00:05:04,310
+paper, reaches the Moon.
+
+149
+00:05:04,310 --> 00:05:06,150
+If you enjoyed this one, please give it a
+
+150
+00:05:06,150 --> 00:05:07,910
+like and subscribe for more everyday
+
+151
+00:05:07,910 --> 00:05:09,590
+engineering. Thanks for watching!
