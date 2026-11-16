@@ -13,13 +13,13 @@ Fold Paper 42 Times and It Reaches the Moon
 ```
 Alternates: 42 Folds of Paper Would Pass the Moon · Why Doubling Is Scarier Than You Think
 
-## Description (1126 characters)
+## Description (1200 characters)
 ```text
-Fold a sheet of paper in half 42 times and, in theory, it would be thicker than the distance to the Moon. No tricks, just one number doubling.
+Fold a sheet of paper in half 42 times and, mathematically, it would be thicker than the distance to the Moon. It's a thought experiment, but the math checks out: every fold doubles the thickness.
 
-In this video we follow the folds one doubling at a time: the formula T = t·2ⁿ, the 2¹⁰ ≈ 1000 shortcut, why doubling beats adding, and how a logarithm tells you it takes exactly 42 folds. Then we see why you can't really do it, how Britney Gallivan folded paper 12 times in 2002, and where engineers meet doubling in chips, reactors and money.
+In this video we follow the folds one doubling at a time: the formula T = t·2ⁿ, the 2¹⁰ ≈ 1000 shortcut, why doubling beats adding, and how a logarithm tells you it takes 42 folds. Then we see why real paper stops at around seven folds, how Britney Gallivan folded paper 12 times in 2002, and where engineers meet doubling in chips, reactors and money.
 
-Assumptions: paper about 0.1 mm thick, perfect folds, average Earth–Moon distance 384,400 km.
+Assumptions: paper 0.1 mm thick, ideal folds with no compression, average Earth–Moon distance 384,400 km.
 
 Chapters
 0:00 42 folds to the Moon
@@ -66,11 +66,11 @@ Quick challenge: how many folds until the stack passes the Sun (about 150 millio
 ## Shorts
 ### Short 1
 - File: `renders/003-fold-paper-42-times-and-it-short-1.mp4`
-- Title: `Fold paper 42 times and it reaches the Moon #shorts`
+- Title: `Fold Paper 42 Times and It Reaches the Moon #shorts`
 - Related video: link it to the main video
 
 ```text
-Each fold doubles the thickness. 42 doublings of 0.1 mm is about 440,000 km, past the Moon.
+Mathematically, 42 doublings of 0.1 mm paper reach about 440,000 km, past the Moon's average distance of 384,400 km. Actually folding it that many times is physically impractical.
 
 Full video: [paste the main video's link]
 
@@ -83,7 +83,7 @@ Full video: [paste the main video's link]
 - Related video: link it to the main video
 
 ```text
-Every fold doubles the thickness and halves the paper. Then in 2002 a student folded paper 12 times.
+Every fold makes the stack thicker and the footprint smaller. Then in 2002 a student folded a 1.2 km strip of toilet paper 12 times.
 
 Full video: [paste the main video's link]
 
