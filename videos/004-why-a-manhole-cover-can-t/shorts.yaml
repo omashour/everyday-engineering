@@ -3,9 +3,9 @@ shorts:
     hook: "Why manhole covers are round"
     scenes: [S01, S05]
     end: "Full video on the channel"
-    description: "A square cover falls in along its diagonal. A round cover is the same width in every direction, so it never can.\n\nFull video: [paste the main video's link]"
-  - title: "This shape can't fall through its hole either #shorts"
-    hook: "Not round, still can't fall in"
+    description: "A thin square cover tipped on its edge can pass along the opening's diagonal. A round cover is the same width in every direction, so it can't fit through a smaller round opening.\n\nFull video: [paste the main video's link]"
+  - title: "This shape has constant width too #shorts"
+    hook: "Not round, still constant width"
     scenes: [S08, S10]
     end: "Full video on the channel"
-    description: "The Reuleaux triangle has constant width, just like a circle. San Francisco uses it for some water covers, and Britain uses its cousins for coins.\n\nFull video: [paste the main video's link]"
+    description: "The Reuleaux triangle has constant width, just like a circle. Britain's 20p and 50p coins use seven-sided cousins of it.\n\nFull video: [paste the main video's link]"

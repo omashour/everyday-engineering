@@ -3,7 +3,7 @@ variants:
     text: "WHY MANHOLES ARE ROUND"
     highlight: ["ROUND"]
     tex: "d = s\\sqrt{2}"
-    note: "squares fall in!"
+    note: "squares can slip!"
   - template: photo
     image: manhole-cover.jpg
     text: "Why It Can't Fall In"

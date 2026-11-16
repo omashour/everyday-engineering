@@ -14,15 +14,15 @@ scenes:
     component: photo-overlay
     chapter: "Why is it round?"
     say: >-
-      This manhole cover is round, and that's not just style. A square cover could fall
-      straight through its own hole. A round one never can. Here's the geometry, and a
-      strange shape that works just as well.
+      This manhole cover is round for a reason. A thin square cover can slip through its
+      own hole if you tilt and turn it. A round one never can. Here's the geometry, and a
+      strange shape that works as well.
     params:
       src: manhole-cover.jpg
       credit: "Image: AI-generated"
       title: "Why round?"
       overlays:
-        - {type: label, pos: [50, 88], text: "Square? It could drop through.", cue: "A square cover"}
+        - {type: label, pos: [50, 88], text: "Square? It can slip through.", cue: "A thin square"}
         - {type: callout, pos: [72, 40], text: "Round: can't fall in", side: right, cue: "never can"}
         - {type: measure, from: [30, 58], to: [70, 58], label: "same width every way", cue: "Here's the geometry"}
 
@@ -55,65 +55,70 @@ scenes:
 
   - id: S04
     component: equation-steps
-    chapter: "Why a square falls in"
+    chapter: "How a square can slip through"
     say: >-
       Now try a square cover with side s. The longest line across a square is its diagonal.
       By Pythagoras, the diagonal is the square root of s squared plus s squared. That's
       s times the square root of two, about one point four one times the side. So tip the
-      square cover up on its edge, and line it up with the diagonal of the opening.
-      It slips right through.
+      square cover up on its edge and turn it to line up with the opening's diagonal.
+      If it's thin enough, it slips right through.
     params:
-      heading: "A square falls along its diagonal"
+      heading: "A square can pass along its diagonal"
       figure_side: left
       figure:
         view: [600, 560]
         items:
-          - {type: rect, pos: [100, 80], size: [360, 360], color: navy}
-          - {type: line, from: [100, 440], to: [460, 80], color: red, dashed: true, cue: "its diagonal"}
+          - {type: rect, pos: [100, 80], size: [360, 360], color: muted, dashed: true}
+          - {type: text, pos: [280, 60], text: "cover outline (lying flat)", size: s, color: muted, anchor: middle}
+          - {type: rect, pos: [115, 95], size: [330, 330], color: navy}
+          - {type: line, from: [115, 425], to: [445, 95], color: red, dashed: true, cue: "its diagonal"}
           - {type: line, from: [153, 387], to: [407, 133], color: navy, width: 10, cue: "tip the square"}
-          - {type: dim, from: [100, 490], to: [460, 490], label: "$s$"}
+          - {type: dim, from: [115, 480], to: [445, 480], label: "opening"}
+          - {type: text, pos: [300, 530], text: "top view: cover on its edge", size: s, anchor: middle, cue: "thin enough"}
       lines:
         - {tex: "d = \\sqrt{s^2 + s^2}", cue: "By Pythagoras"}
         - {tex: "d = s\\sqrt{2} \\approx 1.41\\,s", mark: true, circle: true, cue: "one point four one"}
-        - {text: "Cover side $s$ < opening diagonal → falls in", box: true, cue: "slips right through"}
+        - {text: "Thin cover, on edge, along the diagonal → can pass", box: true, cue: "slips right through"}
 
   - id: S05
     component: table
     chapter: "Real numbers"
     say: >-
-      Let's put in real numbers. Say a cover is sixty centimeters across, and the lip is
-      two centimeters wide all around. The opening is then fifty six centimeters across.
-      For a square, the opening's diagonal is fifty six times one point four one, about
-      seventy nine centimeters. That's far more than sixty, so the square cover falls in.
-      For a circle, the widest gap in the opening is just fifty six centimeters, while the
-      cover is sixty in every direction. It can't fit.
+      Let's put in real numbers. Say a square cover is sixty centimeters across, and the lip
+      is two centimeters wide all around. The opening is then fifty six centimeters across.
+      Its diagonal is fifty six times one point four one, about seventy nine centimeters.
+      That's plenty of room for a sixty centimeter cover tipped on its edge. Now make it round.
+      The widest line across the opening is just fifty six centimeters, while the cover is
+      sixty in every direction. It can't fit.
     params:
       heading: "Example: 60 cm cover, 2 cm lip"
       headers: ["", "Square cover", "Round cover"]
       rows:
         - ["Cover width", "60 cm", "60 cm"]
         - ["Opening", "56 cm", "56 cm"]
-        - ["Widest gap in opening", "≈ 79 cm (diagonal)", "56 cm"]
+        - ["Longest line across opening", "≈ 79 cm (diagonal)", "56 cm"]
         - ["Cover's narrowest width", "60 cm", "60 cm"]
-        - ["Falls in?", "{red}Yes{/red}", "No"]
+        - ["Can it pass?", "{red}Yes, tipped on edge{/red}", "No"]
       row_cues: ["sixty centimeters across", "fifty six centimeters across", "about seventy nine", "sixty in every", "can't fit"]
       highlight: {row: 4, cue: "can't fit"}
 
   - id: S06
     component: bullets
-    chapter: "Other shapes fall too"
+    chapter: "Other shapes"
     say: >-
-      It's not just squares. A rectangle falls in the same way, along its diagonal.
-      A triangle is even easier. Its height is only about eighty seven percent of its side,
-      so tipped on edge, it can slip through along one side of the opening. The general rule
-      is simple. Most shapes get narrower or wider as you turn them. If the cover's narrowest
-      width is smaller than the opening's widest gap, it can fall in.
+      It's not just squares. A rectangular cover can also slip through a suitable opening
+      when it's tilted and turned. An equilateral triangle has a similar weakness. Its height
+      is only about eighty seven percent of its side, so it has a narrow direction that can
+      let it through. The key idea is that most shapes have different widths in different
+      directions. Whether a real cover actually passes also depends on its thickness and the
+      shape of the opening.
     params:
-      heading: "Other shapes fall too"
+      heading: "Other shapes can slip through"
       items:
-        - {text: "Rectangle: falls along its diagonal", icon: rectangle, cue: "A rectangle"}
-        - {text: "Triangle: height ≈ 0.87 × side", icon: triangle, cue: "eighty seven percent"}
-        - {text: "Rule: narrowest width vs widest gap", icon: ruler, cue: "general rule"}
+        - {text: "Rectangle: can pass when tilted and turned", icon: rectangle, cue: "rectangular cover"}
+        - {text: "Equilateral triangle: height ≈ 0.87 × side", icon: triangle, cue: "eighty seven percent"}
+        - {text: "Width changes with direction", icon: ruler, cue: "different widths"}
+        - {text: "Thickness and opening shape matter too", icon: box, cue: "its thickness"}
 
   - id: S07
     component: diagram
@@ -121,9 +126,9 @@ scenes:
     say: >-
       A circle is different. Measure it in any direction, and you get the same number,
       its diameter. This is called constant width. Picture two parallel plates squeezing
-      the cover. However you turn a circle, the plates stay exactly the same distance apart.
-      So the cover's narrowest width is its full diameter, and that's always bigger than
-      any gap in the smaller opening. There's simply no way in.
+      the cover. However you turn a circle, the plates stay the same distance apart.
+      So a rigid round cover's narrowest width is its full diameter, bigger than any line
+      across the smaller round opening. There's no way in.
     params:
       heading: "A circle has constant width"
       view: [1000, 600]
@@ -160,48 +165,61 @@ scenes:
 
   - id: S09
     component: equation-steps
-    chapter: "Less metal, same width"
+    chapter: "Same width, less area"
     say: >-
-      And it uses less metal. A round cover of width w has an area of pi over four, times
-      w squared. A Reuleaux triangle of the same width has an area of pi minus root three,
-      over two, times w squared. Work it out, and that's about ten percent less. In fact,
-      of all shapes with the same constant width, the Reuleaux triangle has the smallest
-      possible area, and the circle has the largest. One more surprise. Every shape of
-      constant width w has the same perimeter, pi times w.
+      And it has less area. A circle of width w has an area of pi over four, times w squared.
+      A Reuleaux triangle of the same width has an area of pi minus root three, over two,
+      times w squared. That's about ten point three percent less. For flat plates of equal
+      thickness, that would mean less metal, although real covers also need strength and a
+      supporting frame. Of all shapes with the same constant width, the Reuleaux triangle has
+      the smallest area, and the circle the largest. Yet every one of them has the same
+      perimeter, pi times w.
     params:
-      heading: "Reuleaux vs circle, same width w"
+      heading: "Same width w, different areas"
+      figure_side: left
+      figure:
+        view: [600, 520]
+        items:
+          - {type: circle, pos: [140, 280], r: 100, color: blue, cue: "pi over four"}
+          - {type: path, d: "M 530 353.2 A 200 200 0 0 0 430 180 A 200 200 0 0 0 330 353.2 A 200 200 0 0 0 530 353.2 Z", color: red, width: 4, cue: "pi minus root"}
+          - {type: dim, from: [40, 420], to: [240, 420], label: "$w$"}
+          - {type: dim, from: [330, 420], to: [530, 420], label: "$w$"}
+          - {type: text, pos: [140, 470], text: "0.785 w²", anchor: middle}
+          - {type: text, pos: [430, 470], text: "0.705 w²", anchor: middle}
       lines:
         - {tex: "A_{\\circ} = \\dfrac{\\pi}{4}\\,w^2 \\approx 0.785\\,w^2", cue: "pi over four"}
         - {tex: "A_{R} = \\dfrac{\\pi-\\sqrt{3}}{2}\\,w^2 \\approx 0.705\\,w^2", mark: true, cue: "pi minus root"}
-        - {tex: "\\dfrac{0.705}{0.785} \\approx 0.90", box: true, note: "≈ 10% less metal", cue: "ten percent less"}
+        - {tex: "1 - \\dfrac{0.705}{0.785} \\approx 10.3\\%", box: true, note: "less area", cue: "ten point three", note_cue: "equal thickness"}
         - {tex: "P = \\pi w \\;\\text{(every constant-width shape)}", cue: "same perimeter"}
 
   - id: S10
     component: bullets
     chapter: "Constant width in real life"
     say: >-
-      So do Reuleaux covers exist? They do. San Francisco's water department uses round
-      covers for drinking water and Reuleaux triangle covers for reclaimed water, so the two
-      are easy to tell apart. And in Britain, the twenty pence and fifty pence coins are
-      seven-sided curves of constant width. Coin machines can measure them just like round coins.
+      So do we use these shapes in real life? In San Francisco, some small water-valve
+      covers in the street are shaped like Reuleaux triangles, which helps set certain water
+      lines apart. Those are small valve covers, not full-size manhole covers. And in Britain,
+      the twenty pence and fifty pence coins are seven-sided curves of constant width. That
+      lets them roll and be measured consistently in vending machines, however they're turned.
     params:
       heading: "Constant width in real life"
       items:
-        - {text: "San Francisco: Reuleaux covers for reclaimed water", icon: droplet, cue: "San Francisco's"}
-        - {text: "UK 20p and 50p: seven-sided, constant width", icon: coin, cue: "twenty pence"}
-        - {text: "Machines measure them like round coins", icon: ruler-measure, cue: "Coin machines"}
+        - {text: "San Francisco: some Reuleaux valve covers", icon: droplet, cue: "San Francisco"}
+        - {text: "Small valve covers, not manhole covers", icon: info-circle, cue: "small valve covers"}
+        - {text: "UK 20p and 50p: seven curved sides", icon: coin, cue: "twenty pence"}
+        - {text: "Constant width: they roll in vending machines", icon: ruler-measure, cue: "vending machines"}
 
   - id: S11
     component: diagram
-    chapter: "Rollers that aren't round"
+    chapter: "Rollers vs wheels"
     say: >-
       Constant width has one more trick. Lay a flat board on rollers shaped like Reuleaux
-      triangles, and push. The board glides along perfectly level, just like on round rollers,
-      because the top of each roller is always w above the floor. Your eyes say it should
-      bump up and down. The geometry says it can't. There's a catch, though. Put a Reuleaux
-      wheel on a fixed axle and it wobbles, because its center moves up and down as it rolls.
+      triangles, and push. The board glides along perfectly level, because the floor and the
+      board always stay w apart. The rollers' centers bob up and down, but the board doesn't.
+      A fixed axle is different. Put a Reuleaux wheel on an ordinary axle through its center,
+      and the distance from axle to ground keeps changing, so the ride is bumpy.
     params:
-      heading: "Reuleaux rollers keep a board level"
+      heading: "Free rollers: the board stays level"
       view: [1000, 600]
       items:
         - {type: ground, from: [40, 500], to: [960, 500]}
@@ -209,39 +227,45 @@ scenes:
         - {type: path, d: "M 625 370.1 A 150 150 0 0 1 775 370.1 A 150 150 0 0 1 700 500 A 150 150 0 0 1 625 370.1 Z", color: blue, width: 5, cue: "rollers shaped like"}
         - {type: rect, pos: [150, 330], size: [700, 20], fill: navy, cue: "flat board"}
         - {type: arrow, from: [400, 270], to: [600, 270], label: "push", color: red, cue: "and push"}
-        - {type: dim, from: [100, 350], to: [100, 500], label: "$w$", cue: "always w above"}
-        - {type: text, pos: [500, 190], text: "board stays level!", hand: true, size: l, color: red, anchor: middle, cue: "it can't"}
-        - {type: text, pos: [500, 560], text: "On a fixed axle: it wobbles", size: s, color: muted, anchor: middle, cue: "fixed axle"}
+        - {type: dim, from: [100, 350], to: [100, 500], label: "$w$", cue: "always stay w"}
+        - {type: text, pos: [500, 190], text: "board stays level!", hand: true, size: l, color: red, anchor: middle, cue: "perfectly level"}
+        - {type: circle, pos: [300, 436.6], r: 7, fill: red, cue: "centers bob"}
+        - {type: circle, pos: [700, 413.4], r: 7, fill: red, cue: "centers bob"}
+        - {type: text, pos: [500, 440], text: "centers at different heights", size: s, color: muted, anchor: middle, cue: "centers bob"}
+        - {type: text, pos: [500, 560], text: "On a fixed axle through the center: bumpy ride", size: s, color: red, anchor: middle, cue: "fixed axle"}
 
   - id: S12
     component: bullets
-    chapter: "Why the circle still wins"
+    chapter: "Why the circle usually wins"
     say: >-
-      So why aren't all covers Reuleaux triangles? Round covers have extra advantages.
-      A round cover goes back on in any orientation, with no lining up. A heavy round cover
-      can be rolled instead of carried. And the shaft underneath is usually a round tube,
-      which handles the push of the surrounding soil well. Constant width keeps the cover
-      out of the hole. The circle adds everything else.
+      So why aren't all manhole covers Reuleaux triangles? Because not falling in is only one
+      design consideration. A round cover can go back on in any orientation, with no corners
+      to line up. A heavy round cover can be rolled instead of carried. And many access shafts
+      are round, so a round cover is a practical match. Other shapes can work too, with
+      well-designed frames, hinges or locks. But the circle combines constant width with
+      several practical advantages.
     params:
-      heading: "Why the circle still wins"
+      heading: "Why the circle usually wins"
       items:
-        - {text: "Fits back in any orientation", icon: rotate, cue: "any orientation"}
-        - {text: "Rolls instead of being carried", icon: wheel, cue: "rolled instead"}
-        - {text: "Round shafts resist soil pressure", icon: circle, cue: "round tube"}
+        - {text: "Goes back on in any orientation", icon: rotate, cue: "any orientation"}
+        - {text: "Can be rolled instead of carried", icon: wheel, cue: "rolled instead"}
+        - {text: "Many access shafts are round", icon: circle, cue: "access shafts"}
+        - {text: "Other shapes: frames, hinges, locks", icon: lock, cue: "Other shapes can"}
 
   - id: S13
     component: big-fact
-    chapter: "The rule"
+    chapter: "The principle"
     say: >-
-      So here's the rule. A cover can't fall in if its narrowest width is bigger than the
-      widest gap in the opening. A square fails, because its diagonal is one point four one
-      times its side. A circle passes, because its width never changes. That's why the cover
-      on your street is round.
+      So here's the principle. A rigid round cover can't pass through a smaller round opening,
+      because its diameter is bigger than the opening's, however you turn it. A square doesn't
+      get that protection. Its diagonal is about one point four one times its side, which can
+      open a route through. And the Reuleaux triangle shows that constant width isn't just for
+      circles. That's the clever idea behind the round cover on your street.
     params:
-      label: "Why it can't fall in"
+      label: "Why a round cover can't fall in"
       value: "Constant width"
-      sub: "narrowest cover width > widest gap in the hole"
-      cue: "its width never changes"
+      sub: "cover diameter > opening diameter, in every direction"
+      cue: "however you turn"
 
   - id: S14
     component: end-card
