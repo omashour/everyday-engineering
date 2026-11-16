@@ -367,297 +367,297 @@ thickness as all forty one previous folds
 combined.
 
 93
-00:03:04,870 --> 00:03:06,470
+00:03:04,790 --> 00:03:06,550
 We can also run it backwards.
 
 94
-00:03:06,470 --> 00:03:08,310
+00:03:06,550 --> 00:03:08,550
 How many folds does it take to reach the
 
 95
-00:03:08,310 --> 00:03:11,510
+00:03:08,550 --> 00:03:12,390
 Moon? Set t times two to the n equal to
 
 96
-00:03:11,510 --> 00:03:12,230
+00:03:12,390 --> 00:03:13,090
 the distance.
 
 97
-00:03:12,230 --> 00:03:14,630
+00:03:13,110 --> 00:03:15,030
 Put both in meters, and divide.
 
 98
-00:03:14,630 --> 00:03:17,060
+00:03:15,190 --> 00:03:17,740
 That gives two to the n equals about three
 
 99
-00:03:17,070 --> 00:03:20,070
+00:03:17,750 --> 00:03:21,110
 point eight four times ten to the twelve.
 
 100
-00:03:20,070 --> 00:03:22,070
+00:03:21,110 --> 00:03:23,110
 To solve for an exponent, you use a
 
 101
-00:03:22,070 --> 00:03:24,820
+00:03:23,110 --> 00:03:25,713
 logarithm. Log base two of that number is
 
 102
-00:03:24,830 --> 00:03:26,470
+00:03:25,723 --> 00:03:27,430
 forty one point eight.
 
 103
-00:03:26,470 --> 00:03:28,630
+00:03:27,430 --> 00:03:29,590
 You can't make eight tenths of a fold, so
 
 104
-00:03:28,630 --> 00:03:31,190
+00:03:29,590 --> 00:03:31,990
 round up. Forty two folds.
 
 105
-00:03:31,190 --> 00:03:33,180
+00:03:32,230 --> 00:03:34,540
 Why can't you actually fold paper forty
 
 106
-00:03:33,190 --> 00:03:35,900
+00:03:34,550 --> 00:03:37,110
 two times? Because each fold makes the
 
 107
-00:03:35,910 --> 00:03:38,870
+00:03:37,110 --> 00:03:39,190
 stack thicker while reducing the area
 
 108
-00:03:38,870 --> 00:03:40,470
+00:03:39,190 --> 00:03:40,870
 available for the next fold.
 
 109
-00:03:40,470 --> 00:03:43,750
+00:03:40,870 --> 00:03:43,030
 After seven folds, an ordinary sheet could
 
 110
-00:03:43,750 --> 00:03:46,230
+00:03:43,030 --> 00:03:44,950
 already be more than a centimeter thick,
 
 111
-00:03:46,230 --> 00:03:47,670
+00:03:44,950 --> 00:03:47,430
 with only a tiny footprint remaining.
 
 112
-00:03:47,670 --> 00:03:49,350
+00:03:47,430 --> 00:03:49,910
 At that point, bending the growing stack
 
 113
-00:03:49,350 --> 00:03:50,630
+00:03:49,910 --> 00:03:51,830
 becomes extremely difficult.
 
 114
-00:03:50,630 --> 00:03:52,150
+00:03:52,070 --> 00:03:53,910
 That's why most people can only manage
 
 115
-00:03:52,150 --> 00:03:53,276
+00:03:53,910 --> 00:03:56,070
 around six or seven folds with ordinary
 
 116
-00:03:53,286 --> 00:03:53,660
+00:03:56,070 --> 00:03:57,510
 printer paper.
 
 117
-00:03:53,670 --> 00:03:55,030
+00:03:57,510 --> 00:03:59,590
 For years, people commonly believed you
 
 118
-00:03:55,030 --> 00:03:55,990
+00:03:59,590 --> 00:04:01,270
 couldn't fold paper in half more than
 
 119
-00:03:55,990 --> 00:03:58,150
+00:04:01,270 --> 00:04:03,830
 seven times. Then in two thousand and one,
 
 120
-00:03:58,150 --> 00:04:00,150
+00:04:03,830 --> 00:04:05,510
 a California high school student named
 
 121
-00:04:00,150 --> 00:04:02,855
+00:04:05,510 --> 00:04:07,510
 Britney Gallivan was challenged by her
 
 122
-00:04:02,865 --> 00:04:04,380
+00:04:07,510 --> 00:04:09,030
 math teacher to fold something in half
 
 123
-00:04:04,380 --> 00:04:07,420
+00:04:09,360 --> 00:04:11,200
 twelve times for extra credit.
 
 124
-00:04:07,580 --> 00:04:09,260
+00:04:11,200 --> 00:04:12,960
 In January two thousand and two, she
 
 125
-00:04:09,260 --> 00:04:11,090
+00:04:12,960 --> 00:04:14,923
 folded a strip of toilet paper about one
 
 126
-00:04:11,100 --> 00:04:14,140
+00:04:14,933 --> 00:04:18,080
 point two kilometers long in half twelve
 
 127
-00:04:14,140 --> 00:04:15,870
+00:04:18,080 --> 00:04:19,690
 times, all in the same direction.
 
 128
-00:04:15,880 --> 00:04:17,970
+00:04:19,700 --> 00:04:21,710
 Gallivan also derived a formula for the
 
 129
-00:04:17,980 --> 00:04:19,660
+00:04:21,720 --> 00:04:23,360
 minimum length of paper needed when every
 
 130
-00:04:19,820 --> 00:04:20,540
+00:04:23,520 --> 00:04:24,240
 fold goes in
 
 131
-00:04:26,540 --> 00:04:28,540
+00:04:30,240 --> 00:04:32,240
 the same direction.
 
 132
-00:04:28,540 --> 00:04:30,050
+00:04:32,240 --> 00:04:33,750
 The equation shows that the required
 
 133
-00:04:30,060 --> 00:04:32,540
+00:04:33,760 --> 00:04:36,240
 length grows roughly fourfold with every
 
 134
-00:04:32,540 --> 00:04:33,340
+00:04:36,240 --> 00:04:37,040
 additional fold.
 
 135
-00:04:35,980 --> 00:04:38,860
+00:04:39,680 --> 00:04:42,560
 For forty two folds of paper one tenth of
 
 136
-00:04:38,860 --> 00:04:38,910
+00:04:42,560 --> 00:04:42,610
 a millimeter thick, the theoretical length
 
 137
-00:04:38,920 --> 00:04:40,620
+00:04:42,620 --> 00:04:44,240
 would be more than ten to the twenty one
 
 138
-00:04:40,620 --> 00:04:42,620
+00:04:44,320 --> 00:04:45,920
 meters. That's approximately one hundred
 
 139
-00:04:42,620 --> 00:04:43,714
+00:04:45,920 --> 00:04:47,414
 thousand light years, comparable to the
 
 140
-00:04:43,724 --> 00:04:44,370
+00:04:47,424 --> 00:04:48,160
 diameter of the Milky Way.
 
 141
-00:04:44,380 --> 00:04:44,457
+00:04:48,160 --> 00:04:48,194
 Of course, this is a mathematical
 
 142
-00:04:44,467 --> 00:04:44,530
+00:04:48,204 --> 00:04:48,230
 extrapolation, not something we could
 
 143
-00:04:44,540 --> 00:04:45,820
+00:04:48,240 --> 00:04:49,520
 physically build.
 
 144
-00:04:45,820 --> 00:04:47,580
+00:04:49,520 --> 00:04:51,440
 This isn't just a party trick.
 
 145
-00:04:47,740 --> 00:04:50,220
+00:04:51,440 --> 00:04:53,920
 Engineers run into doubling all the time.
 
 146
-00:04:50,220 --> 00:04:52,140
+00:04:53,920 --> 00:04:55,840
 For decades, the number of transistors on
 
 147
-00:04:52,140 --> 00:04:53,900
+00:04:55,840 --> 00:04:57,760
 a computer chip doubled roughly every two
 
 148
-00:04:54,060 --> 00:04:54,345
+00:04:57,760 --> 00:04:58,045
 years. That's Moore's law, an industry
 
 149
-00:04:54,355 --> 00:04:54,690
+00:04:58,055 --> 00:04:58,390
 trend rather than a law of physics.
 
 150
-00:04:54,700 --> 00:04:57,303
+00:04:58,400 --> 00:05:01,003
 In a nuclear reactor, neutrons released
 
 151
-00:04:57,313 --> 00:04:58,780
+00:05:01,013 --> 00:05:02,480
 when an atom splits can go on to split
 
 152
-00:04:58,780 --> 00:05:00,460
+00:05:02,480 --> 00:05:04,160
 more atoms, so the chain reaction has to
 
 153
-00:05:00,460 --> 00:05:01,900
+00:05:04,160 --> 00:05:05,600
 be carefully controlled.
 
 154
-00:05:01,900 --> 00:05:03,890
+00:05:05,600 --> 00:05:07,670
 And money growing at seven percent a year,
 
 155
-00:05:03,900 --> 00:05:04,610
+00:05:07,680 --> 00:05:08,310
 with compound interest, doubles in a
 
 156
-00:05:04,620 --> 00:05:05,820
+00:05:08,320 --> 00:05:09,680
 little over ten years.
 
 157
-00:05:10,950 --> 00:05:13,030
+00:05:14,590 --> 00:05:16,750
 So here's the one thing to remember.
 
 158
-00:05:13,030 --> 00:05:15,590
+00:05:16,750 --> 00:05:19,310
 Ten doublings is about a thousand times.
 
 159
-00:05:15,590 --> 00:05:17,670
+00:05:19,310 --> 00:05:21,390
 Forty two doublings turn a tenth of a
 
 160
-00:05:17,670 --> 00:05:19,510
+00:05:21,390 --> 00:05:22,260
 millimeter into four hundred and forty
 
 161
-00:05:19,510 --> 00:05:21,030
+00:05:22,270 --> 00:05:24,750
 thousand kilometers.
 
 162
-00:05:21,030 --> 00:05:23,110
+00:05:24,750 --> 00:05:26,830
 That's how a sheet of paper, at least on
 
 163
-00:05:23,110 --> 00:05:24,870
+00:05:26,830 --> 00:05:28,590
 paper, reaches the Moon.
 
 164
-00:05:24,870 --> 00:05:26,710
+00:05:28,590 --> 00:05:30,430
 If you enjoyed this one, please give it a
 
 165
-00:05:26,710 --> 00:05:28,470
+00:05:30,430 --> 00:05:32,190
 like and subscribe for more everyday
 
 166
-00:05:28,470 --> 00:05:30,070
+00:05:32,190 --> 00:05:33,910
 engineering. Thanks for watching!
