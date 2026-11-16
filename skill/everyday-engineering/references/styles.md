@@ -29,7 +29,7 @@ Timeline, archive-style photos, quotes, then the math that explains the event.
 - Components: `quote`, `timeline`
 
 ## E · Shorts
-Vertical 9:16 cut of the long video - hook banner, 2-3 scenes, end card. Built automatically from shorts.yaml.
+Vertical 9:16 standalone mini-videos with their own narration (recorded separately as short-1.wav ...) and their own 2-4 scenes - hook banner, end card. Never a list of long-video scene ids (scenes: [S01, S05] is the old format; do not use it). Format: scenes-format.md -> shorts.yaml.
 - Best for: every long video gets 1-2
 - Components: `short-end`
 
