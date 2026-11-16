@@ -19,8 +19,10 @@ export default {
 .gr-side { display:flex; flex-direction:column; gap:0.9rem; align-items:flex-start; font-size:1.25rem; color: var(--ink); }
 .gr-ax { font-size: 30px; }`,
   render(p, ctx) {
-    const VW = 1200, VH = 760;
-    const box = { x: 130, y: 40, w: 1000, h: 600 };
+    // vertical format (Shorts, vertical video): a tall plot that uses the phone screen
+    const tall = ctx.fmt === "short";
+    const VW = tall ? 1000 : 1200, VH = tall ? 1150 : 760;
+    const box = tall ? { x: 130, y: 60, w: 820, h: 960 } : { x: 130, y: 40, w: 1000, h: 600 };
     const gf = graphFrame(p, box);
     const colors = [ctx.brand.colors.blue, ctx.brand.colors.red, ctx.brand.colors.green, ctx.brand.colors.ink];
     const cue = (c, d) => ctx.cue(c) ?? d;

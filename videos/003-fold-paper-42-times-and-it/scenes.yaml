@@ -7,16 +7,17 @@ video:
   phase: math
   series: null
   voice_note: ""
-  pronounce: {Gallivan: GAL-ih-vun}
+  pronounce: {Gallivan: GAL-ih-vun, Kármán: KAR-mahn}
 
 scenes:
   - id: S01
     component: photo-overlay
     chapter: "42 folds to the Moon"
     say: >-
-      Fold a sheet of paper in half forty two times, and it would be thicker than
-      the distance to the Moon. No tricks. Just one number doubling. Here's the math,
-      and why engineers take doubling seriously.
+      Fold a sheet of paper in half forty two times, and mathematically, it would be
+      thicker than the distance to the Moon. Sounds impossible? The math checks out.
+      Every fold doubles the thickness. Here's the math, and why engineers take
+      doubling seriously.
     params:
       src: folding-paper.jpg
       credit: "Image: AI-generated"
@@ -24,7 +25,7 @@ scenes:
       overlays:
         - {type: callout, pos: [58, 64], text: "≈ 0.1 mm thick", side: right, cue: "a sheet of paper"}
         - {type: tex, pos: [50, 32], tex: "0.1\\,\\text{mm}\\times 2^{42} \\approx 440{,}000\\text{ km}", cue: "distance to the Moon"}
-        - {type: label, pos: [50, 86], text: "each fold: ×2", cue: "one number doubling"}
+        - {type: label, pos: [50, 86], text: "each fold: ×2", cue: "doubles the thickness"}
 
   - id: S02
     component: title-card
@@ -38,14 +39,15 @@ scenes:
       Start with an ordinary sheet of printer paper. It's about a tenth of a millimeter
       thick. Fold it in half once, and now you have two layers. Fold again, and you have
       four layers. Again, eight. Every fold doubles the number of layers, so every fold
-      doubles the thickness. That's the whole rule.
+      doubles the thickness. In this ideal version, we assume the paper never gets squashed,
+      so every layer stays a tenth of a millimeter thick.
     params:
       heading: "Every fold doubles the layers"
       view: [1000, 600]
       items:
         - {type: ground, from: [40, 480], to: [960, 480]}
         - {type: rect, pos: [100, 465], size: [140, 15], fill: blue, cue: "printer paper"}
-        - {type: text, pos: [170, 440], text: "0.1 mm", anchor: middle, cue: "tenth of a millimeter"}
+        - {type: text, pos: [170, 440], text: "0.1 mm", anchor: middle, cue: "about a tenth"}
         - {type: rect, pos: [330, 450], size: [140, 30], fill: blue, cue: "two layers"}
         - {type: rect, pos: [560, 420], size: [140, 60], fill: blue, cue: "four layers"}
         - {type: rect, pos: [790, 360], size: [140, 120], fill: blue, cue: "eight"}
@@ -54,6 +56,7 @@ scenes:
         - {type: text, pos: [630, 530], text: "4 layers", anchor: middle}
         - {type: text, pos: [860, 530], text: "8 layers", anchor: middle}
         - {type: text, pos: [500, 180], text: "×2 every fold", hand: true, size: l, color: red, anchor: middle, cue: "doubles the thickness"}
+        - {type: text, pos: [500, 250], text: "Ideal folds: paper never compresses", size: s, color: muted, anchor: middle, cue: "never gets squashed"}
 
   - id: S04
     component: table
@@ -102,23 +105,24 @@ scenes:
     component: graph
     chapter: "Adding vs doubling"
     say: >-
-      Now compare two ways to grow. The blue line adds one new sheet at every step.
-      That's linear growth. The red curve doubles at every step. That's exponential growth.
-      For the first few steps, they look almost the same. But after ten steps, the added
-      sheets make a stack just one point one millimeters thick. The doubled stack is over
-      a hundred millimeters. Adding is slow and steady. Doubling runs away.
+      Now compare two ways to grow. Both start with one sheet. The blue line adds one new
+      sheet at every step. That's linear growth. The red curve doubles the sheets at every
+      step. That's exponential growth. For the first few steps, they look almost the same.
+      But after ten steps, the blue stack has eleven sheets, just one point one millimeters
+      thick. The red stack has one thousand and twenty four sheets, over a hundred
+      millimeters. Adding is slow and steady. Doubling runs away.
     params:
       heading: "Adding a sheet vs doubling"
       x_range: [0, 10]
       y_range: [0, 110]
       x_label: "step $n$"
-      y_label: "thickness (mm)"
+      y_label: "stack thickness (mm)"
       functions:
         - {expr: "0.1*(x+1)", label: "add one sheet", color: blue, cue: "one new sheet"}
-        - {expr: "0.1*exp(0.693147*x)", label: "double", color: red, cue: "doubles at every"}
+        - {expr: "0.1*exp(0.693147*x)", label: "double", color: red, cue: "doubles the sheets"}
       points:
-        - {x: 10, y: 1.1, label: "1.1 mm", cue: "one point one"}
-        - {x: 10, y: 102.4, label: "102.4 mm", cue: "over a hundred"}
+        - {x: 10, y: 1.1, label: "11 sheets · 1.1 mm", cue: "one point one"}
+        - {x: 10, y: 102.4, label: "1,024 sheets · 102.4 mm", cue: "over a hundred"}
       side:
         - {tex: "T = 0.1\\,(n+1)", cue: "linear growth"}
         - {tex: "T = 0.1 \\cdot 2^{n}", cue: "exponential growth"}
@@ -132,7 +136,7 @@ scenes:
       building. Three folds later, it's taller than the Burj Khalifa, the tallest building
       in the world. At fold twenty seven, it's thirteen kilometers. That's higher than
       Mount Everest, and higher than airliners fly. At fold thirty, it's about a hundred
-      and seven kilometers. You've folded your way past the edge of space.
+      and seven kilometers. That's past the Kármán line, the commonly used boundary of space.
     params:
       heading: "Folds 0 to 30, in kilometers"
       x_range: [0, 30]
@@ -143,7 +147,7 @@ scenes:
         - {expr: "0.0000001*exp(0.693147*x)", color: red, cue: "hugs the floor"}
       hlines:
         - {y: 8.85, label: "Everest 8.85 km", cue: "Mount Everest"}
-        - {y: 100, label: "edge of space 100 km", cue: "edge of space"}
+        - {y: 100, label: "Kármán line 100 km", cue: "Kármán line"}
       points:
         - {x: 27, y: 13.4, label: "13.4 km", cue: "thirteen kilometers"}
         - {x: 30, y: 107.4, label: "107 km", cue: "a hundred and seven"}
@@ -156,8 +160,9 @@ scenes:
       and eighty four thousand kilometers away. At fold forty, the stack is about a hundred
       and ten thousand kilometers. At fold forty one, two hundred and twenty thousand.
       Still only partway there. Then fold forty two doubles it again, to about four hundred
-      and forty thousand kilometers. You've passed the Moon. Half the whole journey happened
-      on the very last fold.
+      and forty thousand kilometers. You've passed the Moon. And here's the astonishing part.
+      The final fold alone added more than two hundred thousand kilometers, as much thickness
+      as all forty one previous folds combined.
     params:
       heading: "Folds 0 to 42, in thousands of km"
       x_range: [0, 42]
@@ -167,11 +172,13 @@ scenes:
       functions:
         - {expr: "0.0000000001*exp(0.693147*x)", color: red, cue: "thousands of kilometers"}
       hlines:
-        - {y: 384.4, label: "Moon: 384,400 km", cue: "three hundred and eighty four"}
+        - {y: 384.4, label: "Moon (average): 384,400 km", cue: "three hundred and eighty four"}
       points:
         - {x: 40, y: 110, label: "110,000 km", cue: "a hundred and ten"}
         - {x: 41, y: 219.9, label: "220,000 km", cue: "two hundred and twenty"}
         - {x: 42, y: 439.8, label: "440,000 km", cue: "four hundred and forty"}
+      side:
+        - {tex: "\\text{fold 42 adds} \\approx 220{,}000\\text{ km}", cue: "final fold alone"}
 
   - id: S09
     component: equation-steps
@@ -195,71 +202,83 @@ scenes:
     component: diagram
     chapter: "Why you can't really do it"
     say: >-
-      Why can't you actually fold paper forty two times? Because every fold that doubles
-      the thickness also halves the paper. Take a standard sheet of printer paper. After
-      seven folds, it's a little block about two centimeters across and more than a
-      centimeter thick. It's nearly a cube, and folding a cube in half is close to
-      impossible. That's why most people get stuck at around seven folds.
+      Why can't you actually fold paper forty two times? Because each fold makes the stack
+      thicker while reducing the area available for the next fold. After seven folds, an
+      ordinary sheet could already be more than a centimeter thick, with only a tiny footprint
+      remaining. At that point, bending the growing stack becomes extremely difficult.
+      That's why most people can only manage around six or seven folds with ordinary
+      printer paper.
     params:
-      heading: "Every fold halves the paper"
+      heading: "Thicker stack, smaller footprint (A4 sheet)"
       view: [1000, 600]
       items:
-        - {type: rect, pos: [80, 140], size: [300, 400], fill: blue, label: "one sheet", cue: "standard sheet"}
-        - {type: arrow, from: [420, 340], to: [640, 340], label: "7 folds", color: red, cue: "After seven folds"}
-        - {type: rect, pos: [700, 310], size: [40, 40], fill: blue, cue: "little block"}
-        - {type: text, pos: [720, 400], text: "≈ 2 cm × 2 cm × 1.3 cm", anchor: middle, cue: "more than a"}
-        - {type: text, pos: [720, 470], text: "nearly a cube!", hand: true, size: l, color: red, anchor: middle, cue: "nearly a cube"}
+        - {type: rect, pos: [60, 150], size: [210, 297], fill: blue, cue: "makes the stack"}
+        - {type: text, pos: [165, 490], text: "0 folds", anchor: middle}
+        - {type: text, pos: [165, 525], text: "0.1 mm thick", size: s, anchor: middle}
+        - {type: rect, pos: [340, 298], size: [105, 149], fill: blue, cue: "reducing the area"}
+        - {type: text, pos: [392, 490], text: "2 folds", anchor: middle}
+        - {type: text, pos: [392, 525], text: "0.4 mm thick", size: s, anchor: middle}
+        - {type: rect, pos: [540, 373], size: [53, 74], fill: blue, cue: "next fold"}
+        - {type: text, pos: [566, 490], text: "4 folds", anchor: middle}
+        - {type: text, pos: [566, 525], text: "1.6 mm thick", size: s, anchor: middle}
+        - {type: rect, pos: [770, 421], size: [19, 26], fill: red, cue: "tiny footprint"}
+        - {type: text, pos: [780, 490], text: "7 folds", anchor: middle}
+        - {type: text, pos: [780, 525], text: "12.8 mm thick", size: s, anchor: middle, cue: "more than a centimeter"}
+        - {type: text, pos: [780, 360], text: "too stiff to bend!", hand: true, size: l, color: red, anchor: middle, cue: "extremely difficult"}
+      caption: "Footprints drawn to scale (top view, ideal folds)"
 
   - id: S11
     component: timeline
     chapter: "Twelve folds in 2002"
     say: >-
-      For years, people said seven folds was the limit. Then in two thousand and one,
-      a high school student in California named Britney Gallivan got an extra credit
-      challenge. Fold something in half twelve times. She worked out the math first.
-      Then, in January two thousand and two, she folded a strip of toilet paper about
-      one point two kilometers long in half twelve times, all in the same direction.
+      For years, people commonly believed you couldn't fold paper in half more than seven
+      times. Then in two thousand and one, a California high school student named Britney
+      Gallivan was challenged by her math teacher to fold something in half twelve times
+      for extra credit. In January two thousand and two, she folded a strip of toilet paper
+      about one point two kilometers long in half twelve times, all in the same direction.
     params:
       heading: "Britney Gallivan's twelve folds"
       events:
-        - {when: "Before 2001", text: "\"Seven folds is the limit\"", cue: "seven folds was"}
-        - {when: "2001", text: "Extra-credit challenge: 12 folds", cue: "extra credit challenge"}
+        - {when: "Before 2001", text: "Common belief: 7 folds at most", cue: "commonly believed"}
+        - {when: "2001", text: "Extra-credit challenge: 12 folds", cue: "extra credit"}
         - {when: "Jan 2002", text: "12 folds, ≈ 1.2 km of toilet paper", cue: "January two thousand"}
 
   - id: S12
     component: equation-steps
     chapter: "The paper you'd need"
     say: >-
-      Her formula gives the length of paper you need for n folds in one direction.
-      L equals pi t over six, times two to the n plus four, times two to the n minus one.
-      Two to the n shows up twice, so the length grows like four to the n. Every extra
-      fold needs about four times more paper. Now plug in forty two folds of printer paper.
-      You'd need a strip about ten to the twenty one meters long. That's roughly a hundred
-      thousand light years, about the width of our galaxy.
+      Gallivan also derived a formula for the minimum length of paper needed when every
+      fold goes in the same direction. The equation shows that the required length grows
+      roughly fourfold with every additional fold. For forty two folds of paper one tenth
+      of a millimeter thick, the theoretical length would be more than ten to the twenty one
+      meters. That's approximately one hundred thousand light years, comparable to the
+      diameter of the Milky Way. Of course, this is a mathematical extrapolation, not
+      something we could physically build.
     params:
-      heading: "Gallivan's formula (one-direction folds)"
+      heading: "Minimum length, all folds one direction"
       lines:
-        - {tex: "L = \\dfrac{\\pi t}{6}\\,(2^{n}+4)(2^{n}-1)", mark: true, cue: "L equals pi"}
-        - {tex: "L \\propto 4^{n}", note: "×4 per fold", cue: "four to the n"}
-        - {tex: "n = 42,\\quad t = 0.1\\text{ mm}", cue: "forty two folds of"}
-        - {tex: "L \\approx 10^{21}\\text{ m} \\approx 100{,}000\\text{ light-years}", box: true, cue: "ten to the twenty one"}
+        - {tex: "L = \\dfrac{\\pi t}{6}\\,(2^{n}+4)(2^{n}-1)", mark: true, cue: "minimum length"}
+        - {tex: "L \\propto 4^{n}", note: "×4 per fold", cue: "roughly fourfold"}
+        - {tex: "n = 42,\\quad t = 0.1\\text{ mm}", cue: "forty two folds"}
+        - {tex: "L \\approx 1.0\\times 10^{21}\\text{ m} \\approx 100{,}000\\text{ light-years}", box: true, cue: "ten to the twenty one"}
+        - {text: "≈ Milky Way's width (rough comparison, theoretical)", note: "not buildable!", cue: "Milky Way", note_cue: "mathematical extrapolation"}
 
   - id: S13
     component: bullets
     chapter: "Doubling in engineering"
     say: >-
       This isn't just a party trick. Engineers run into doubling all the time. For decades,
-      the number of transistors on a computer chip doubled about every two years. In a
-      nuclear reactor, each splitting atom releases neutrons that can split more atoms,
-      so the reaction has to be carefully controlled. And money growing at seven percent
-      a year doubles about every ten years. Whenever something doubles at a steady rate,
-      the folded paper curve is waiting.
+      the number of transistors on a computer chip doubled roughly every two years. That's
+      Moore's law, an industry trend rather than a law of physics. In a nuclear reactor,
+      neutrons released when an atom splits can go on to split more atoms, so the chain
+      reaction has to be carefully controlled. And money growing at seven percent a year,
+      with compound interest, doubles in a little over ten years.
     params:
       heading: "Doubling in engineering"
       items:
-        - {text: "Chips: transistors doubled ≈ every 2 years", icon: cpu, cue: "computer chip"}
-        - {text: "Reactors: one split atom triggers more", icon: atom, cue: "nuclear reactor"}
-        - {text: "Money at 7%: doubles in ≈ 10 years", icon: coin, cue: "seven percent"}
+        - {text: "Chips: transistor counts doubled ≈ every 2 years", icon: cpu, cue: "computer chip"}
+        - {text: "Reactors: neutrons can trigger more splits", icon: atom, cue: "nuclear reactor"}
+        - {text: "Money at 7%: doubles in ≈ 10.2 years", icon: coin, cue: "seven percent"}
 
   - id: S14
     component: big-fact

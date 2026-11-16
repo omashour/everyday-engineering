@@ -2,11 +2,11 @@
 **Alternates:** 42 Folds of Paper Would Pass the Moon · Why Doubling Is Scarier Than You Think
 **Playlist:** math-for-engineers
 **Description:**
-Fold a sheet of paper in half 42 times and, in theory, it would be thicker than the distance to the Moon. No tricks, just one number doubling.
+Fold a sheet of paper in half 42 times and, mathematically, it would be thicker than the distance to the Moon. It's a thought experiment, but the math checks out: every fold doubles the thickness.
 
-In this video we follow the folds one doubling at a time: the formula T = t·2ⁿ, the 2¹⁰ ≈ 1000 shortcut, why doubling beats adding, and how a logarithm tells you it takes exactly 42 folds. Then we see why you can't really do it, how Britney Gallivan folded paper 12 times in 2002, and where engineers meet doubling in chips, reactors and money.
+In this video we follow the folds one doubling at a time: the formula T = t·2ⁿ, the 2¹⁰ ≈ 1000 shortcut, why doubling beats adding, and how a logarithm tells you it takes 42 folds. Then we see why real paper stops at around seven folds, how Britney Gallivan folded paper 12 times in 2002, and where engineers meet doubling in chips, reactors and money.
 
-Assumptions: paper about 0.1 mm thick, perfect folds, average Earth–Moon distance 384,400 km.
+Assumptions: paper 0.1 mm thick, ideal folds with no compression, average Earth–Moon distance 384,400 km.
 
 Chapters
 [paste chapters.txt here]

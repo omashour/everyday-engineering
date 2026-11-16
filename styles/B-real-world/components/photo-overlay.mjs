@@ -16,6 +16,8 @@ export default {
 .po-kb img { width:100%; height:100%; object-fit:cover; display:block; }
 .po-shade { position:absolute; inset:0; background:#0B1330; display:block; }
 .po-svg { position:absolute; inset:0; width:100%; height:100%; overflow:visible; }
+.po-txt { position:absolute; left:0; top:0; transform-origin:0 0; }
+.po-t { position:absolute; display:flex; align-items:center; }
 .po-fill { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; filter: blur(28px) brightness(0.55); display:block; }
 .po-band { position:absolute; left:0; right:0; overflow:hidden; box-shadow:0 10px 40px rgba(0,0,0,0.45); }
 .fmt-short .po-pill { font-size:52px; padding:10px 24px; border-radius:16px; }
@@ -36,11 +38,15 @@ export default {
     const ovs = p.overlays ?? [];
     const times = ctx.times(ovs);
     const red = ctx.brand.colors.red, yel = ctx.brand.colors.marker;
+    // Text (pills, math cards) goes in an HTML layer over the photo, in the same W×H coordinates as the
+    // SVG lines. Not SVG foreignObject: Chrome breaks KaTeX there (superscripts and fractions vanish).
+    let tid = null;
     const fo = (x, y, inner, w = 900, h = 220, anchor = "middle") => {
       const dx = anchor === "start" ? 0 : anchor === "end" ? -w : -w / 2;
       const jc = anchor === "start" ? "flex-start" : anchor === "end" ? "flex-end" : "center";
-      return `<foreignObject x="${x + dx}" y="${y - h / 2}" width="${w}" height="${h}"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;display:flex;align-items:center;justify-content:${jc}">${inner}</div></foreignObject>`;
+      return `<div class="po-t" id="${tid}" style="left:${(x + dx).toFixed(1)}px;top:${(y - h / 2).toFixed(1)}px;width:${w}px;height:${h}px;justify-content:${jc}">${inner}</div>`;
     };
+    let txt = "";
     const head = (x1, y1, x2, y2, c, s = 26) => {
       const a = Math.atan2(y2 - y1, x2 - x1);
       return `<path d="M${x2 - s * Math.cos(a - 0.45)},${y2 - s * Math.sin(a - 0.45)} L${x2},${y2} L${x2 - s * Math.cos(a + 0.45)},${y2 - s * Math.sin(a + 0.45)} Z" fill="${c}"/>`;
@@ -53,14 +59,15 @@ export default {
     let js = "";
     ovs.forEach((o, i) => {
       const id = ctx.uid("o" + i);
-      let g = "";
+      tid = `${id}-t`;
+      let g = "", t = "";
       let kind = "pop";
       if (o.type === "measure" || o.type === "arrow") {
         const [x1, y1, x2, y2] = [X(o.from[0]), Y(o.from[1]), X(o.to[0]), Y(o.to[1])];
         const c = o.type === "measure" ? yel : red;
         g += `<line class="stroke" pathLength="1" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${c}" stroke-width="7" stroke-linecap="round"/>`;
         g += `<g class="pop">${head(x1, y1, x2, y2, c)}${o.type === "measure" ? head(x2, y2, x1, y1, c) : ""}</g>`;
-        if (o.label) g += fo((x1 + x2) / 2 + (o.label_dx ?? 0) * W / 100, (y1 + y2) / 2 + (o.label_dy ?? -6) * H / 100, `<span class="po-pill ${o.type === "measure" ? "yel" : "red"}">${ctx.rich(o.label)}</span>`);
+        if (o.label) t += fo((x1 + x2) / 2 + (o.label_dx ?? 0) * W / 100, (y1 + y2) / 2 + (o.label_dy ?? -6) * H / 100, `<span class="po-pill ${o.type === "measure" ? "yel" : "red"}">${ctx.rich(o.label)}</span>`);
         kind = "draw";
       } else if (o.type === "callout") {
         const [x, y] = [X(o.pos[0]), Y(o.pos[1])];
@@ -69,27 +76,31 @@ export default {
         g += `<circle class="pop" cx="${x}" cy="${y}" r="12" fill="${red}" stroke="#fff" stroke-width="4"/>`;
         g += `<polyline class="stroke" pathLength="1" points="${x},${y} ${ex},${ey} ${ex + dir * 40},${ey}" fill="none" stroke="#fff" stroke-width="5"/>`;
         const pw = pillW(o.text), want = dir > 0 ? ex + 50 : ex - 50 - pw;
-        g += fo(fit(want, pw), ey, `<span class="po-pill">${ctx.rich(o.text)}</span>`, Math.max(pw, 200) + 40, 200, "start");
+        t += fo(fit(want, pw), ey, `<span class="po-pill">${ctx.rich(o.text)}</span>`, Math.max(pw, 200) + 40, 200, "start");
         kind = "draw";
       } else if (o.type === "label") {
         const pw = pillW(o.text), lw = Math.min(pw + 40, W - 2 * margin);
-        g += fo(fit(X(o.pos[0]) - lw / 2, lw) + lw / 2, Y(o.pos[1]), `<span class="po-pill ${o.color === "red" ? "red" : ""}" style="white-space:normal;text-align:center">${ctx.rich(o.text)}</span>`, lw);
+        t += fo(fit(X(o.pos[0]) - lw / 2, lw) + lw / 2, Y(o.pos[1]), `<span class="po-pill ${o.color === "red" ? "red" : ""}" style="white-space:normal;text-align:center">${ctx.rich(o.text)}</span>`, lw);
       } else if (o.type === "box") {
         const [x, y, w, h] = [X(o.pos[0]), Y(o.pos[1]), X(o.size[0]), Y(o.size[1])];
         g += `<rect class="stroke" pathLength="1" x="${x}" y="${y}" width="${w}" height="${h}" rx="14" fill="none" stroke="${red}" stroke-width="7"/>`;
-        if (o.label) g += fo(x + w / 2, y - 40, `<span class="po-pill red">${ctx.rich(o.label)}</span>`);
+        if (o.label) t += fo(x + w / 2, y - 40, `<span class="po-pill red">${ctx.rich(o.label)}</span>`);
         kind = "draw";
       } else if (o.type === "tex") {
-        g += fo(X(o.pos[0]), Y(o.pos[1]), `<div class="po-card">${ctx.tex(o.tex, false)}</div>`, 1200, 300);
+        t += fo(X(o.pos[0]), Y(o.pos[1]), `<div class="po-card">${ctx.tex(o.tex, false)}</div>`, 1200, 300);
       }
-      svg += `<g id="${id}">${g}</g>`;
-      js += kind === "draw" ? ctx.call("drawGroup", `#${id}`, times[i], 0.7) : ctx.call("pop", `#${id}`, times[i]);
+      if (g) svg += `<g id="${id}">${g}</g>`;
+      txt += t;
+      if (kind === "draw") {
+        js += ctx.call("drawGroup", `#${id}`, times[i], 0.7);
+        if (t) js += ctx.call("fade", `#${id}-t`, times[i] + 0.42, 0.35);
+      } else js += ctx.call("pop", `#${t ? id + "-t" : id}`, times[i]);
     });
     svg += `</svg>`;
     const src = ctx.asset(p.src);
     const [fx, fy] = p.focus ?? [50, 50];
     const bandH = (ctx.width * 9) / 16;
-    const kb = `<div class="po-kb" id="${ctx.uid("kb")}" data-layout-allow-overflow><img src="${src}" alt="" style="object-position:${fx}% ${fy}%"><span class="po-shade" style="opacity:${p.shade ?? 0.25}"></span>${svg}</div>`;
+    const kb = `<div class="po-kb" id="${ctx.uid("kb")}" data-layout-allow-overflow><img src="${src}" alt="" style="object-position:${fx}% ${fy}%"><span class="po-shade" style="opacity:${p.shade ?? 0.25}"></span>${svg}<div class="po-txt" style="width:${W}px;height:${H}px;transform:scale(${(ctx.width / W).toFixed(5)})">${txt}</div></div>`;
     const html = `<div class="po-wrap">
   ${short ? `<img class="po-fill" src="${src}" alt=""><div class="po-band" style="top:${((ctx.height - bandH) / 2).toFixed(1)}px;height:${bandH.toFixed(1)}px">${kb}</div>` : kb}
   ${p.title ? `<div class="po-title-row"><div class="po-title" id="${ctx.uid("t")}">${ctx.rich(p.title)}</div></div>` : ""}

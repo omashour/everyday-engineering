@@ -77,6 +77,7 @@
     const el = document.querySelector(sel);
     if (!el) return;
     const measure = () => {
+      if (!el.clientHeight) return; // not laid out yet (measured again once fonts are ready)
       el.style.zoom = ""; el.style.padding = "";
       const kids = [...el.children].filter((k) => getComputedStyle(k).position !== "absolute");
       if (!kids.length) return;
@@ -84,7 +85,11 @@
       const cs = getComputedStyle(el);
       const p = ["Top", "Right", "Bottom", "Left"].map((s) => parseFloat(cs["padding" + s]));
       const room = el.clientHeight - p[0] - p[2], need = bottom - top;
-      const roomW = el.clientWidth - p[1] - p[3], needW = Math.max(...kids.map((k) => k.offsetWidth));
+      if (need <= 0) return;
+      // width that can't wrap: natural (max-content) width of everything except headings, which re-wrap when zoomed
+      const roomW = el.clientWidth - p[1] - p[3];
+      const natural = (k) => { const w0 = k.style.width; k.style.width = "max-content"; const w = k.offsetWidth; k.style.width = w0; return w; };
+      const needW = Math.max(1, ...kids.filter((k) => !k.classList.contains("heading")).map((k) => Math.min(natural(k), roomW)));
       let z;
       if (need > room + 1) z = Math.max(0.55, (room / need) * 0.98);
       else if (grow > 1) {
