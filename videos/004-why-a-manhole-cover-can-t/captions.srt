@@ -1,0 +1,571 @@
+1
+00:00:00,000 --> 00:00:02,640
+This manhole cover is round for a reason.
+
+2
+00:00:02,640 --> 00:00:04,800
+A thin square cover can slip through its
+
+3
+00:00:04,800 --> 00:00:06,640
+own hole if you tilt and turn it.
+
+4
+00:00:06,640 --> 00:00:08,400
+A round one never can.
+
+5
+00:00:08,400 --> 00:00:11,040
+Here's the geometry, and a strange shape
+
+6
+00:00:11,040 --> 00:00:12,320
+that works as well.
+
+7
+00:00:12,320 --> 00:00:14,560
+Let's prove it with a little geometry.
+
+8
+00:00:14,560 --> 00:00:17,440
+First, how does a cover stay up at all?
+
+9
+00:00:17,440 --> 00:00:19,440
+Around the top of the hole there's a small
+
+10
+00:00:19,440 --> 00:00:20,800
+ledge, called a lip.
+
+11
+00:00:20,800 --> 00:00:22,400
+The cover is slightly bigger than the
+
+12
+00:00:22,400 --> 00:00:24,320
+opening, so it rests on that lip.
+
+13
+00:00:24,320 --> 00:00:26,640
+To fall in, the cover would have to tip up
+
+14
+00:00:26,640 --> 00:00:28,720
+on its edge and find a gap in the opening
+
+15
+00:00:28,720 --> 00:00:30,880
+that's wider than the cover itself.
+
+16
+00:00:30,880 --> 00:00:33,760
+Now try a square cover with side s.
+
+17
+00:00:33,760 --> 00:00:35,920
+The longest line across a square is its
+
+18
+00:00:35,920 --> 00:00:38,480
+diagonal. By Pythagoras, the diagonal is
+
+19
+00:00:38,480 --> 00:00:40,240
+the square root of s squared plus s
+
+20
+00:00:40,240 --> 00:00:42,480
+squared. That's s times the square root of
+
+21
+00:00:42,480 --> 00:00:44,560
+two, about one point four one times the
+
+22
+00:00:44,560 --> 00:00:47,200
+side. So tip the square cover up on its
+
+23
+00:00:47,200 --> 00:00:48,960
+edge and turn it to line up with the
+
+24
+00:00:48,960 --> 00:00:50,240
+opening's diagonal.
+
+25
+00:00:50,240 --> 00:00:52,000
+If it's thin enough, it slips right
+
+26
+00:00:52,000 --> 00:00:52,720
+through.
+
+27
+00:00:52,720 --> 00:00:54,240
+Let's put in real numbers.
+
+28
+00:00:54,240 --> 00:00:56,400
+Say a square cover is sixty centimeters
+
+29
+00:00:56,400 --> 00:00:58,320
+across, and the lip is two centimeters
+
+30
+00:00:58,320 --> 00:00:59,120
+wide all around.
+
+31
+00:00:59,490 --> 00:01:01,650
+The opening is then fifty six centimeters
+
+32
+00:01:01,650 --> 00:01:04,130
+across. Its diagonal is fifty six times
+
+33
+00:01:04,130 --> 00:01:06,210
+one point four one, about seventy nine
+
+34
+00:01:06,210 --> 00:01:08,210
+centimeters. That's plenty of room for a
+
+35
+00:01:08,210 --> 00:01:10,610
+sixty centimeter cover tipped on its edge.
+
+36
+00:01:10,610 --> 00:01:11,970
+Now make it round.
+
+37
+00:01:11,970 --> 00:01:13,970
+The widest line across the opening is just
+
+38
+00:01:13,970 --> 00:01:16,370
+fifty six centimeters, while the cover is
+
+39
+00:01:16,370 --> 00:01:18,130
+sixty in every direction.
+
+40
+00:01:18,130 --> 00:01:19,570
+It can't fit.
+
+41
+00:01:19,570 --> 00:01:21,250
+It's not just squares.
+
+42
+00:01:21,250 --> 00:01:23,490
+A rectangular cover can also slip through
+
+43
+00:01:23,490 --> 00:01:25,410
+a suitable opening when it's tilted and
+
+44
+00:01:25,410 --> 00:01:27,810
+turned. An equilateral triangle has a
+
+45
+00:01:27,810 --> 00:01:28,770
+similar weakness.
+
+46
+00:01:28,770 --> 00:01:31,010
+Its height is only about eighty seven
+
+47
+00:01:31,010 --> 00:01:33,650
+percent of its side, so it has a narrow
+
+48
+00:01:33,650 --> 00:01:35,730
+direction that can let it through.
+
+49
+00:01:35,730 --> 00:01:38,210
+The key idea is that most shapes have
+
+50
+00:01:38,210 --> 00:01:40,530
+different widths in different directions.
+
+51
+00:01:40,530 --> 00:01:42,930
+Whether a real cover actually passes also
+
+52
+00:01:42,930 --> 00:01:44,690
+depends on its thickness and the shape of
+
+53
+00:01:44,690 --> 00:01:45,810
+the opening.
+
+54
+00:01:45,810 --> 00:01:47,410
+A circle is different.
+
+55
+00:01:47,410 --> 00:01:49,410
+Measure it in any direction, and you get
+
+56
+00:01:49,410 --> 00:01:51,410
+the same number, its diameter.
+
+57
+00:01:51,410 --> 00:01:53,410
+This is called constant width.
+
+58
+00:01:53,570 --> 00:01:56,050
+Picture two parallel plates squeezing the
+
+59
+00:01:56,050 --> 00:01:58,140
+cover. However you turn a circle, the
+
+60
+00:01:58,140 --> 00:02:00,380
+plates stay the same distance apart.
+
+61
+00:02:00,380 --> 00:02:03,020
+So a rigid round cover's narrowest width
+
+62
+00:02:03,020 --> 00:02:05,420
+is its full diameter, bigger than any line
+
+63
+00:02:05,420 --> 00:02:07,100
+across the smaller round opening.
+
+64
+00:02:07,100 --> 00:02:08,140
+There's no way in.
+
+65
+00:02:08,540 --> 00:02:10,380
+The circle isn't the only shape of
+
+66
+00:02:10,380 --> 00:02:11,580
+constant width.
+
+67
+00:02:11,580 --> 00:02:14,700
+Draw an equilateral triangle with side w.
+
+68
+00:02:14,700 --> 00:02:17,100
+Put a compass point on one corner and draw
+
+69
+00:02:17,100 --> 00:02:18,940
+an arc joining the other two.
+
+70
+00:02:18,940 --> 00:02:20,460
+Repeat from each corner.
+
+71
+00:02:20,460 --> 00:02:22,300
+You get a curved triangle called a
+
+72
+00:02:22,300 --> 00:02:24,380
+Reuleaux triangle, named after the German
+
+73
+00:02:24,380 --> 00:02:26,140
+engineer Franz Reuleaux.
+
+74
+00:02:26,140 --> 00:02:28,220
+Squeeze it between parallel plates, and
+
+75
+00:02:28,220 --> 00:02:31,100
+the gap is w in every direction.
+
+76
+00:02:31,100 --> 00:02:33,260
+And it has less area.
+
+77
+00:02:33,260 --> 00:02:36,460
+A circle of width w has an area of pi over
+
+78
+00:02:36,460 --> 00:02:38,220
+four, times w squared.
+
+79
+00:02:38,220 --> 00:02:40,380
+A Reuleaux triangle of the same width has
+
+80
+00:02:40,380 --> 00:02:43,020
+an area of pi minus root three, over two,
+
+81
+00:02:43,180 --> 00:02:44,620
+times w squared.
+
+82
+00:02:44,620 --> 00:02:47,180
+That's about ten point three percent less.
+
+83
+00:02:47,180 --> 00:02:49,260
+For flat plates of equal thickness, that
+
+84
+00:02:49,260 --> 00:02:51,100
+would mean less metal, although real
+
+85
+00:02:51,100 --> 00:02:53,340
+covers also need strength and a supporting
+
+86
+00:02:53,340 --> 00:02:55,740
+frame. Of all shapes with the same
+
+87
+00:02:55,740 --> 00:02:58,060
+constant width, the Reuleaux triangle has
+
+88
+00:02:58,060 --> 00:03:00,220
+the smallest area, and the circle the
+
+89
+00:03:00,220 --> 00:03:02,790
+largest. Yet every one of them has the
+
+90
+00:03:02,790 --> 00:03:05,830
+same perimeter, pi times w.
+
+91
+00:03:05,830 --> 00:03:08,630
+So do we use these shapes in real life?
+
+92
+00:03:08,630 --> 00:03:11,270
+In San Francisco, some small water valve
+
+93
+00:03:11,270 --> 00:03:12,550
+covers in the street are shaped like
+
+94
+00:03:12,550 --> 00:03:14,390
+Reuleaux triangles, which helps set
+
+95
+00:03:14,390 --> 00:03:15,910
+certain water lines apart.
+
+96
+00:03:15,910 --> 00:03:18,070
+Those are small valve covers, not full
+
+97
+00:03:18,150 --> 00:03:19,750
+size manhole covers.
+
+98
+00:03:19,750 --> 00:03:21,900
+And in Britain, the twenty pence and fifty
+
+99
+00:03:21,910 --> 00:03:24,390
+pence coins are seven sided curves of
+
+100
+00:03:24,390 --> 00:03:25,430
+constant width.
+
+101
+00:03:25,430 --> 00:03:27,140
+That lets them roll and be measured
+
+102
+00:03:27,150 --> 00:03:28,870
+consistently in vending machines, however
+
+103
+00:03:28,870 --> 00:03:30,070
+they're turned.
+
+104
+00:03:30,070 --> 00:03:32,390
+Constant width has one more trick.
+
+105
+00:03:32,390 --> 00:03:34,470
+Lay a flat board on rollers shaped like
+
+106
+00:03:34,470 --> 00:03:36,150
+Reuleaux triangles, and push.
+
+107
+00:03:36,150 --> 00:03:38,470
+The board glides along perfectly level,
+
+108
+00:03:38,470 --> 00:03:40,230
+because the floor and the board always
+
+109
+00:03:40,230 --> 00:03:41,750
+stay w apart.
+
+110
+00:03:41,750 --> 00:03:44,150
+The rollers' centers bob up and down, but
+
+111
+00:03:44,150 --> 00:03:45,030
+the board doesn't.
+
+112
+00:03:45,190 --> 00:03:47,110
+A fixed axle is different.
+
+113
+00:03:47,110 --> 00:03:49,270
+Put a Reuleaux wheel on an ordinary axle
+
+114
+00:03:49,270 --> 00:03:50,950
+through its center, and the distance from
+
+115
+00:03:50,950 --> 00:03:53,270
+axle to ground keeps changing, so the ride
+
+116
+00:03:53,270 --> 00:03:54,470
+is bumpy.
+
+117
+00:03:54,470 --> 00:03:56,950
+So why aren't all manhole covers Reuleaux
+
+118
+00:03:56,950 --> 00:03:59,750
+triangles? Because not falling in is only
+
+119
+00:03:59,750 --> 00:04:01,430
+one design consideration.
+
+120
+00:04:01,660 --> 00:04:03,980
+A round cover can go back on in any
+
+121
+00:04:03,980 --> 00:04:06,300
+orientation, with no corners to line up.
+
+122
+00:04:06,300 --> 00:04:08,540
+A heavy round cover can be rolled instead
+
+123
+00:04:08,540 --> 00:04:11,020
+of carried. And many access shafts are
+
+124
+00:04:11,020 --> 00:04:13,100
+round, so a round cover is a practical
+
+125
+00:04:13,100 --> 00:04:15,420
+match. Other shapes can work too, with
+
+126
+00:04:15,420 --> 00:04:18,380
+well designed frames, hinges or locks.
+
+127
+00:04:18,380 --> 00:04:20,620
+But the circle combines constant width
+
+128
+00:04:20,620 --> 00:04:23,420
+with several practical advantages.
+
+129
+00:04:23,740 --> 00:04:25,260
+So here's the principle.
+
+130
+00:04:25,260 --> 00:04:27,740
+A rigid round cover can't pass through a
+
+131
+00:04:27,740 --> 00:04:29,420
+smaller round opening, because its
+
+132
+00:04:29,420 --> 00:04:31,420
+diameter is bigger than the opening's,
+
+133
+00:04:31,420 --> 00:04:32,700
+however you turn it.
+
+134
+00:04:32,700 --> 00:04:34,940
+A square doesn't get that protection.
+
+135
+00:04:34,940 --> 00:04:37,500
+Its diagonal is about one point four one
+
+136
+00:04:37,500 --> 00:04:39,740
+times its side, which can open a route
+
+137
+00:04:39,740 --> 00:04:41,980
+through. And the Reuleaux triangle shows
+
+138
+00:04:41,980 --> 00:04:43,820
+that constant width isn't just for
+
+139
+00:04:43,820 --> 00:04:46,220
+circles. That's the clever idea behind the
+
+140
+00:04:46,220 --> 00:04:47,820
+round cover on your street.
+
+141
+00:04:47,820 --> 00:04:49,500
+If you liked this video, please give it a
+
+142
+00:04:49,500 --> 00:04:51,180
+like and subscribe for more everyday
+
+143
+00:04:51,180 --> 00:04:52,860
+engineering. Thanks for watching!
