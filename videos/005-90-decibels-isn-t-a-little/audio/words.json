@@ -1,0 +1,4167 @@
+[
+  {
+    "text": "This",
+    "start": 0.24,
+    "end": 0.48
+  },
+  {
+    "text": "machine",
+    "start": 0.48,
+    "end": 0.96
+  },
+  {
+    "text": "runs",
+    "start": 0.96,
+    "end": 1.2
+  },
+  {
+    "text": "at",
+    "start": 1.2,
+    "end": 1.44
+  },
+  {
+    "text": "about",
+    "start": 1.44,
+    "end": 1.68
+  },
+  {
+    "text": "90",
+    "start": 1.68,
+    "end": 2.08
+  },
+  {
+    "text": "decibels.",
+    "start": 2.08,
+    "end": 2.88
+  },
+  {
+    "text": "A",
+    "start": 2.88,
+    "end": 2.96
+  },
+  {
+    "text": "quieter",
+    "start": 2.96,
+    "end": 3.52
+  },
+  {
+    "text": "one",
+    "start": 3.52,
+    "end": 3.68
+  },
+  {
+    "text": "might",
+    "start": 3.68,
+    "end": 3.92
+  },
+  {
+    "text": "run",
+    "start": 3.92,
+    "end": 4.08
+  },
+  {
+    "text": "at",
+    "start": 4.08,
+    "end": 4.32
+  },
+  {
+    "text": "80.",
+    "start": 4.32,
+    "end": 5.04
+  },
+  {
+    "text": "That",
+    "start": 5.04,
+    "end": 5.28
+  },
+  {
+    "text": "sounds",
+    "start": 5.28,
+    "end": 5.6
+  },
+  {
+    "text": "like",
+    "start": 5.6,
+    "end": 5.84
+  },
+  {
+    "text": "a",
+    "start": 5.84,
+    "end": 5.92
+  },
+  {
+    "text": "small",
+    "start": 5.92,
+    "end": 6.32
+  },
+  {
+    "text": "difference,",
+    "start": 6.32,
+    "end": 6.96
+  },
+  {
+    "text": "but",
+    "start": 6.96,
+    "end": 7.12
+  },
+  {
+    "text": "it's",
+    "start": 7.12,
+    "end": 7.44
+  },
+  {
+    "text": "actually",
+    "start": 7.44,
+    "end": 7.92
+  },
+  {
+    "text": "10",
+    "start": 7.92,
+    "end": 8.32
+  },
+  {
+    "text": "times",
+    "start": 8.32,
+    "end": 8.72
+  },
+  {
+    "text": "the",
+    "start": 8.72,
+    "end": 8.88
+  },
+  {
+    "text": "sound",
+    "start": 8.88,
+    "end": 9.28
+  },
+  {
+    "text": "intensity.",
+    "start": 9.28,
+    "end": 10.16
+  },
+  {
+    "text": "Here's",
+    "start": 10.16,
+    "end": 10.56
+  },
+  {
+    "text": "the",
+    "start": 10.56,
+    "end": 10.64
+  },
+  {
+    "text": "math",
+    "start": 10.64,
+    "end": 10.96
+  },
+  {
+    "text": "and",
+    "start": 11.04,
+    "end": 11.28
+  },
+  {
+    "text": "why",
+    "start": 11.28,
+    "end": 11.52
+  },
+  {
+    "text": "it",
+    "start": 11.52,
+    "end": 11.68
+  },
+  {
+    "text": "matters",
+    "start": 11.68,
+    "end": 12.16
+  },
+  {
+    "text": "hearing.",
+    "start": 12.4,
+    "end": 13.44
+  },
+  {
+    "text": "Let's",
+    "start": 13.44,
+    "end": 13.76
+  },
+  {
+    "text": "see",
+    "start": 13.76,
+    "end": 13.92
+  },
+  {
+    "text": "what",
+    "start": 13.92,
+    "end": 14.16
+  },
+  {
+    "text": "a",
+    "start": 14.16,
+    "end": 14.32
+  },
+  {
+    "text": "decibel",
+    "start": 14.32,
+    "end": 15.12
+  },
+  {
+    "text": "really",
+    "start": 15.12,
+    "end": 15.44
+  },
+  {
+    "text": "measures.",
+    "start": 15.44,
+    "end": 16.56
+  },
+  {
+    "text": "Sound",
+    "start": 16.56,
+    "end": 16.96
+  },
+  {
+    "text": "carries",
+    "start": 16.96,
+    "end": 17.44
+  },
+  {
+    "text": "energy.",
+    "start": 17.44,
+    "end": 18.08
+  },
+  {
+    "text": "Engineers",
+    "start": 18.08,
+    "end": 18.64
+  },
+  {
+    "text": "measure",
+    "start": 18.64,
+    "end": 18.96
+  },
+  {
+    "text": "sound",
+    "start": 18.96,
+    "end": 19.28
+  },
+  {
+    "text": "intensity",
+    "start": 19.28,
+    "end": 19.76
+  },
+  {
+    "text": "in",
+    "start": 19.76,
+    "end": 20
+  },
+  {
+    "text": "watts",
+    "start": 20,
+    "end": 20.4
+  },
+  {
+    "text": "per",
+    "start": 20.56,
+    "end": 20.72
+  },
+  {
+    "text": "square",
+    "start": 20.72,
+    "end": 21.12
+  },
+  {
+    "text": "meter.",
+    "start": 21.12,
+    "end": 21.76
+  },
+  {
+    "text": "Under",
+    "start": 21.76,
+    "end": 22.08
+  },
+  {
+    "text": "ideal",
+    "start": 22.08,
+    "end": 22.48
+  },
+  {
+    "text": "conditions,",
+    "start": 22.48,
+    "end": 23.04
+  },
+  {
+    "text": "the",
+    "start": 23.04,
+    "end": 23.2
+  },
+  {
+    "text": "faintest",
+    "start": 23.2,
+    "end": 23.68
+  },
+  {
+    "text": "sound",
+    "start": 23.68,
+    "end": 24.08
+  },
+  {
+    "text": "a",
+    "start": 24.08,
+    "end": 24.24
+  },
+  {
+    "text": "healthy",
+    "start": 24.24,
+    "end": 24.56
+  },
+  {
+    "text": "human",
+    "start": 24.56,
+    "end": 24.8
+  },
+  {
+    "text": "ear",
+    "start": 24.8,
+    "end": 25.12
+  },
+  {
+    "text": "can",
+    "start": 25.12,
+    "end": 25.28
+  },
+  {
+    "text": "detect",
+    "start": 25.28,
+    "end": 25.68
+  },
+  {
+    "text": "has",
+    "start": 25.76,
+    "end": 26
+  },
+  {
+    "text": "an",
+    "start": 26,
+    "end": 26.16
+  },
+  {
+    "text": "intensity",
+    "start": 26.16,
+    "end": 26.72
+  },
+  {
+    "text": "of",
+    "start": 26.72,
+    "end": 26.88
+  },
+  {
+    "text": "about",
+    "start": 26.88,
+    "end": 27.2
+  },
+  {
+    "text": "one",
+    "start": 27.2,
+    "end": 27.36
+  },
+  {
+    "text": "trillionth",
+    "start": 27.52,
+    "end": 28.24
+  },
+  {
+    "text": "of",
+    "start": 28.24,
+    "end": 28.4
+  },
+  {
+    "text": "a",
+    "start": 28.4,
+    "end": 28.48
+  },
+  {
+    "text": "watt",
+    "start": 28.48,
+    "end": 28.96
+  },
+  {
+    "text": "per",
+    "start": 28.96,
+    "end": 29.12
+  },
+  {
+    "text": "square",
+    "start": 29.12,
+    "end": 29.52
+  },
+  {
+    "text": "meter.",
+    "start": 29.52,
+    "end": 30.16
+  },
+  {
+    "text": "A",
+    "start": 30.16,
+    "end": 30.4
+  },
+  {
+    "text": "jet",
+    "start": 30.4,
+    "end": 30.72
+  },
+  {
+    "text": "taking",
+    "start": 30.8,
+    "end": 31.2
+  },
+  {
+    "text": "off",
+    "start": 31.2,
+    "end": 31.44
+  },
+  {
+    "text": "nearby",
+    "start": 31.44,
+    "end": 31.92
+  },
+  {
+    "text": "can",
+    "start": 32,
+    "end": 32.16
+  },
+  {
+    "text": "produce",
+    "start": 32.16,
+    "end": 32.48
+  },
+  {
+    "text": "about",
+    "start": 32.48,
+    "end": 32.72
+  },
+  {
+    "text": "100",
+    "start": 32.72,
+    "end": 33.28
+  },
+  {
+    "text": "watts",
+    "start": 33.28,
+    "end": 33.68
+  },
+  {
+    "text": "per",
+    "start": 33.76,
+    "end": 33.92
+  },
+  {
+    "text": "square",
+    "start": 33.92,
+    "end": 34.24
+  },
+  {
+    "text": "meter.",
+    "start": 34.24,
+    "end": 34.8
+  },
+  {
+    "text": "That's",
+    "start": 34.8,
+    "end": 35.2
+  },
+  {
+    "text": "a",
+    "start": 35.2,
+    "end": 35.36
+  },
+  {
+    "text": "hundred",
+    "start": 35.36,
+    "end": 35.76
+  },
+  {
+    "text": "trillion",
+    "start": 35.76,
+    "end": 36.32
+  },
+  {
+    "text": "times",
+    "start": 36.32,
+    "end": 36.64
+  },
+  {
+    "text": "more",
+    "start": 36.64,
+    "end": 36.96
+  },
+  {
+    "text": "intense.",
+    "start": 36.96,
+    "end": 37.76
+  },
+  {
+    "text": "A",
+    "start": 37.76,
+    "end": 38
+  },
+  {
+    "text": "normal",
+    "start": 38,
+    "end": 38.4
+  },
+  {
+    "text": "numerical",
+    "start": 38.4,
+    "end": 38.96
+  },
+  {
+    "text": "scale",
+    "start": 38.96,
+    "end": 39.28
+  },
+  {
+    "text": "would",
+    "start": 39.28,
+    "end": 39.44
+  },
+  {
+    "text": "be",
+    "start": 39.44,
+    "end": 39.6
+  },
+  {
+    "text": "difficult",
+    "start": 39.6,
+    "end": 39.92
+  },
+  {
+    "text": "to",
+    "start": 39.92,
+    "end": 40.08
+  },
+  {
+    "text": "use",
+    "start": 40.08,
+    "end": 40.32
+  },
+  {
+    "text": "across",
+    "start": 40.32,
+    "end": 40.64
+  },
+  {
+    "text": "such",
+    "start": 40.64,
+    "end": 40.8
+  },
+  {
+    "text": "an",
+    "start": 40.8,
+    "end": 40.96
+  },
+  {
+    "text": "enormous",
+    "start": 40.96,
+    "end": 41.6
+  },
+  {
+    "text": "range.",
+    "start": 41.6,
+    "end": 42.24
+  },
+  {
+    "text": "So",
+    "start": 42.24,
+    "end": 42.56
+  },
+  {
+    "text": "engineers",
+    "start": 42.56,
+    "end": 43.12
+  },
+  {
+    "text": "use",
+    "start": 43.12,
+    "end": 43.28
+  },
+  {
+    "text": "a",
+    "start": 43.28,
+    "end": 43.36
+  },
+  {
+    "text": "logarithmic",
+    "start": 43.36,
+    "end": 44.24
+  },
+  {
+    "text": "scale",
+    "start": 44.24,
+    "end": 44.56
+  },
+  {
+    "text": "instead.",
+    "start": 44.56,
+    "end": 45.36
+  },
+  {
+    "text": "The",
+    "start": 45.36,
+    "end": 45.6
+  },
+  {
+    "text": "sound",
+    "start": 45.6,
+    "end": 46
+  },
+  {
+    "text": "intensity",
+    "start": 46,
+    "end": 46.56
+  },
+  {
+    "text": "level,",
+    "start": 46.56,
+    "end": 46.96
+  },
+  {
+    "text": "L",
+    "start": 47.12,
+    "end": 47.36
+  },
+  {
+    "text": "in",
+    "start": 47.52,
+    "end": 47.68
+  },
+  {
+    "text": "decibels,",
+    "start": 47.68,
+    "end": 48.48
+  },
+  {
+    "text": "equals",
+    "start": 48.48,
+    "end": 48.88
+  },
+  {
+    "text": "10",
+    "start": 48.88,
+    "end": 49.2
+  },
+  {
+    "text": "times",
+    "start": 49.2,
+    "end": 49.44
+  },
+  {
+    "text": "the",
+    "start": 49.44,
+    "end": 49.6
+  },
+  {
+    "text": "logarithm,",
+    "start": 49.6,
+    "end": 50.4
+  },
+  {
+    "text": "base",
+    "start": 50.4,
+    "end": 50.64
+  },
+  {
+    "text": "10",
+    "start": 50.72,
+    "end": 51.2
+  },
+  {
+    "text": "of",
+    "start": 51.2,
+    "end": 51.44
+  },
+  {
+    "text": "I",
+    "start": 51.44,
+    "end": 51.76
+  },
+  {
+    "text": "divided",
+    "start": 51.84,
+    "end": 52.32
+  },
+  {
+    "text": "by",
+    "start": 52.32,
+    "end": 52.48
+  },
+  {
+    "text": "I0.",
+    "start": 52.48,
+    "end": 53.68
+  },
+  {
+    "text": "Here",
+    "start": 53.68,
+    "end": 53.84
+  },
+  {
+    "text": "I0",
+    "start": 54,
+    "end": 54.64
+  },
+  {
+    "text": "is",
+    "start": 54.8,
+    "end": 54.96
+  },
+  {
+    "text": "the",
+    "start": 54.96,
+    "end": 55.04
+  },
+  {
+    "text": "reference",
+    "start": 55.04,
+    "end": 55.52
+  },
+  {
+    "text": "intensity,",
+    "start": 55.52,
+    "end": 56.16
+  },
+  {
+    "text": "one",
+    "start": 56.16,
+    "end": 56.24
+  },
+  {
+    "text": "trillionth",
+    "start": 56.4,
+    "end": 56.96
+  },
+  {
+    "text": "of",
+    "start": 56.96,
+    "end": 57.12
+  },
+  {
+    "text": "a",
+    "start": 57.12,
+    "end": 57.2
+  },
+  {
+    "text": "watt",
+    "start": 57.2,
+    "end": 57.52
+  },
+  {
+    "text": "per",
+    "start": 57.52,
+    "end": 57.68
+  },
+  {
+    "text": "square",
+    "start": 57.68,
+    "end": 58
+  },
+  {
+    "text": "meter.",
+    "start": 58,
+    "end": 58.64
+  },
+  {
+    "text": "A",
+    "start": 58.85,
+    "end": 59.01
+  },
+  {
+    "text": "logarithm",
+    "start": 59.01,
+    "end": 59.65
+  },
+  {
+    "text": "tells",
+    "start": 59.65,
+    "end": 59.97
+  },
+  {
+    "text": "how",
+    "start": 59.97,
+    "end": 60.13
+  },
+  {
+    "text": "many",
+    "start": 60.13,
+    "end": 60.37
+  },
+  {
+    "text": "factors",
+    "start": 60.37,
+    "end": 60.69
+  },
+  {
+    "text": "of",
+    "start": 60.69,
+    "end": 60.85
+  },
+  {
+    "text": "10",
+    "start": 60.85,
+    "end": 61.25
+  },
+  {
+    "text": "are",
+    "start": 61.25,
+    "end": 61.41
+  },
+  {
+    "text": "involved.",
+    "start": 61.41,
+    "end": 62.21
+  },
+  {
+    "text": "10",
+    "start": 62.21,
+    "end": 62.53
+  },
+  {
+    "text": "times",
+    "start": 62.53,
+    "end": 62.85
+  },
+  {
+    "text": "the",
+    "start": 62.85,
+    "end": 62.93
+  },
+  {
+    "text": "reference",
+    "start": 62.93,
+    "end": 63.33
+  },
+  {
+    "text": "intensity",
+    "start": 63.33,
+    "end": 63.89
+  },
+  {
+    "text": "gives",
+    "start": 63.89,
+    "end": 64.13
+  },
+  {
+    "text": "10",
+    "start": 64.13,
+    "end": 64.45
+  },
+  {
+    "text": "decibels,",
+    "start": 64.45,
+    "end": 65.33
+  },
+  {
+    "text": "100",
+    "start": 65.33,
+    "end": 65.81
+  },
+  {
+    "text": "times",
+    "start": 65.81,
+    "end": 65.97
+  },
+  {
+    "text": "gives",
+    "start": 66.13,
+    "end": 66.45
+  },
+  {
+    "text": "20",
+    "start": 66.45,
+    "end": 66.77
+  },
+  {
+    "text": "decibels,",
+    "start": 66.77,
+    "end": 67.57
+  },
+  {
+    "text": "and",
+    "start": 67.57,
+    "end": 67.81
+  },
+  {
+    "text": "a",
+    "start": 67.81,
+    "end": 67.97
+  },
+  {
+    "text": "trillion",
+    "start": 67.97,
+    "end": 68.45
+  },
+  {
+    "text": "times",
+    "start": 68.45,
+    "end": 68.93
+  },
+  {
+    "text": "gives",
+    "start": 68.93,
+    "end": 69.33
+  },
+  {
+    "text": "120",
+    "start": 69.33,
+    "end": 70.29
+  },
+  {
+    "text": "decibels.",
+    "start": 70.29,
+    "end": 71.49
+  },
+  {
+    "text": "Here's",
+    "start": 71.49,
+    "end": 71.97
+  },
+  {
+    "text": "how",
+    "start": 71.97,
+    "end": 72.21
+  },
+  {
+    "text": "everyday",
+    "start": 72.21,
+    "end": 72.69
+  },
+  {
+    "text": "sounds",
+    "start": 72.69,
+    "end": 73.17
+  },
+  {
+    "text": "compare.",
+    "start": 73.17,
+    "end": 73.73
+  },
+  {
+    "text": "The",
+    "start": 73.89,
+    "end": 74.13
+  },
+  {
+    "text": "reference",
+    "start": 74.13,
+    "end": 74.61
+  },
+  {
+    "text": "threshold",
+    "start": 74.61,
+    "end": 75.09
+  },
+  {
+    "text": "of",
+    "start": 75.09,
+    "end": 75.25
+  },
+  {
+    "text": "human",
+    "start": 75.25,
+    "end": 75.57
+  },
+  {
+    "text": "hearing",
+    "start": 75.57,
+    "end": 76.05
+  },
+  {
+    "text": "is",
+    "start": 76.05,
+    "end": 76.29
+  },
+  {
+    "text": "0",
+    "start": 76.29,
+    "end": 76.69
+  },
+  {
+    "text": "decibels.",
+    "start": 76.69,
+    "end": 77.65
+  },
+  {
+    "text": "A",
+    "start": 77.65,
+    "end": 77.81
+  },
+  {
+    "text": "soft",
+    "start": 77.81,
+    "end": 78.13
+  },
+  {
+    "text": "whisperer",
+    "start": 78.13,
+    "end": 78.61
+  },
+  {
+    "text": "around",
+    "start": 78.69,
+    "end": 78.93
+  },
+  {
+    "text": "30",
+    "start": 78.93,
+    "end": 79.33
+  },
+  {
+    "text": "decibels",
+    "start": 79.33,
+    "end": 79.97
+  },
+  {
+    "text": "has",
+    "start": 80.05,
+    "end": 80.21
+  },
+  {
+    "text": "a",
+    "start": 80.21,
+    "end": 80.37
+  },
+  {
+    "text": "thousand",
+    "start": 80.37,
+    "end": 80.69
+  },
+  {
+    "text": "times",
+    "start": 80.85,
+    "end": 81.09
+  },
+  {
+    "text": "the",
+    "start": 81.09,
+    "end": 81.25
+  },
+  {
+    "text": "reference",
+    "start": 81.25,
+    "end": 81.73
+  },
+  {
+    "text": "intensity.",
+    "start": 81.73,
+    "end": 82.53
+  },
+  {
+    "text": "Normal",
+    "start": 82.53,
+    "end": 83.09
+  },
+  {
+    "text": "conversation,",
+    "start": 83.09,
+    "end": 83.81
+  },
+  {
+    "text": "around",
+    "start": 83.81,
+    "end": 84.21
+  },
+  {
+    "text": "60,",
+    "start": 84.21,
+    "end": 84.93
+  },
+  {
+    "text": "has",
+    "start": 84.93,
+    "end": 85.25
+  },
+  {
+    "text": "a",
+    "start": 85.25,
+    "end": 85.41
+  },
+  {
+    "text": "million",
+    "start": 85.41,
+    "end": 85.89
+  },
+  {
+    "text": "times.",
+    "start": 85.89,
+    "end": 86.69
+  },
+  {
+    "text": "A",
+    "start": 86.69,
+    "end": 86.85
+  },
+  {
+    "text": "loud",
+    "start": 86.85,
+    "end": 87.25
+  },
+  {
+    "text": "motorcycle",
+    "start": 87.25,
+    "end": 87.89
+  },
+  {
+    "text": "engine,",
+    "start": 87.89,
+    "end": 88.21
+  },
+  {
+    "text": "around",
+    "start": 88.21,
+    "end": 88.61
+  },
+  {
+    "text": "95,",
+    "start": 88.61,
+    "end": 89.33
+  },
+  {
+    "text": "has",
+    "start": 89.49,
+    "end": 89.73
+  },
+  {
+    "text": "roughly",
+    "start": 89.73,
+    "end": 90.21
+  },
+  {
+    "text": "3",
+    "start": 90.21,
+    "end": 90.61
+  },
+  {
+    "text": "billion",
+    "start": 90.61,
+    "end": 91.17
+  },
+  {
+    "text": "times.",
+    "start": 91.17,
+    "end": 91.89
+  },
+  {
+    "text": "And",
+    "start": 91.89,
+    "end": 92.13
+  },
+  {
+    "text": "a",
+    "start": 92.13,
+    "end": 92.21
+  },
+  {
+    "text": "jet",
+    "start": 92.21,
+    "end": 92.61
+  },
+  {
+    "text": "taking",
+    "start": 92.61,
+    "end": 92.93
+  },
+  {
+    "text": "off",
+    "start": 92.93,
+    "end": 93.17
+  },
+  {
+    "text": "nearby,",
+    "start": 93.17,
+    "end": 93.81
+  },
+  {
+    "text": "around",
+    "start": 93.81,
+    "end": 94.13
+  },
+  {
+    "text": "140",
+    "start": 94.13,
+    "end": 94.85
+  },
+  {
+    "text": "decibels,",
+    "start": 94.85,
+    "end": 95.65
+  },
+  {
+    "text": "has",
+    "start": 95.65,
+    "end": 95.97
+  },
+  {
+    "text": "a",
+    "start": 95.97,
+    "end": 96.13
+  },
+  {
+    "text": "hundred",
+    "start": 96.13,
+    "end": 96.45
+  },
+  {
+    "text": "trillion",
+    "start": 96.61,
+    "end": 97.25
+  },
+  {
+    "text": "times.",
+    "start": 97.25,
+    "end": 98.05
+  },
+  {
+    "text": "These",
+    "start": 98.05,
+    "end": 98.29
+  },
+  {
+    "text": "levels",
+    "start": 98.29,
+    "end": 98.77
+  },
+  {
+    "text": "are",
+    "start": 98.77,
+    "end": 99.01
+  },
+  {
+    "text": "approximate",
+    "start": 99.01,
+    "end": 99.57
+  },
+  {
+    "text": "and",
+    "start": 99.65,
+    "end": 99.81
+  },
+  {
+    "text": "depend",
+    "start": 99.81,
+    "end": 100.13
+  },
+  {
+    "text": "on",
+    "start": 100.13,
+    "end": 100.29
+  },
+  {
+    "text": "the",
+    "start": 100.29,
+    "end": 100.37
+  },
+  {
+    "text": "source",
+    "start": 100.37,
+    "end": 100.69
+  },
+  {
+    "text": "and",
+    "start": 100.69,
+    "end": 100.85
+  },
+  {
+    "text": "distance,",
+    "start": 100.85,
+    "end": 101.49
+  },
+  {
+    "text": "but",
+    "start": 101.49,
+    "end": 101.65
+  },
+  {
+    "text": "the",
+    "start": 101.65,
+    "end": 101.81
+  },
+  {
+    "text": "mathematical",
+    "start": 101.81,
+    "end": 102.45
+  },
+  {
+    "text": "relationship",
+    "start": 102.45,
+    "end": 103.01
+  },
+  {
+    "text": "is",
+    "start": 103.01,
+    "end": 103.25
+  },
+  {
+    "text": "always",
+    "start": 103.25,
+    "end": 103.57
+  },
+  {
+    "text": "the",
+    "start": 103.57,
+    "end": 103.73
+  },
+  {
+    "text": "same.",
+    "start": 103.73,
+    "end": 104.29
+  },
+  {
+    "text": "Every",
+    "start": 104.29,
+    "end": 104.61
+  },
+  {
+    "text": "30",
+    "start": 104.61,
+    "end": 105.01
+  },
+  {
+    "text": "decibels",
+    "start": 105.01,
+    "end": 105.73
+  },
+  {
+    "text": "represents",
+    "start": 105.73,
+    "end": 106.21
+  },
+  {
+    "text": "another",
+    "start": 106.21,
+    "end": 106.53
+  },
+  {
+    "text": "factor",
+    "start": 106.53,
+    "end": 106.93
+  },
+  {
+    "text": "of",
+    "start": 106.93,
+    "end": 107.09
+  },
+  {
+    "text": "a",
+    "start": 107.09,
+    "end": 107.33
+  },
+  {
+    "text": "thousand.",
+    "start": 107.33,
+    "end": 108.37
+  },
+  {
+    "text": "Now",
+    "start": 108.37,
+    "end": 108.61
+  },
+  {
+    "text": "back",
+    "start": 108.69,
+    "end": 109.01
+  },
+  {
+    "text": "to",
+    "start": 109.01,
+    "end": 109.17
+  },
+  {
+    "text": "our",
+    "start": 109.17,
+    "end": 109.33
+  },
+  {
+    "text": "machines.",
+    "start": 109.33,
+    "end": 110.21
+  },
+  {
+    "text": "Going",
+    "start": 110.21,
+    "end": 110.61
+  },
+  {
+    "text": "from",
+    "start": 110.61,
+    "end": 110.77
+  },
+  {
+    "text": "80",
+    "start": 110.77,
+    "end": 111.25
+  },
+  {
+    "text": "to",
+    "start": 111.25,
+    "end": 111.41
+  },
+  {
+    "text": "90",
+    "start": 111.41,
+    "end": 111.81
+  },
+  {
+    "text": "decibels",
+    "start": 111.81,
+    "end": 112.45
+  },
+  {
+    "text": "adds",
+    "start": 112.45,
+    "end": 112.85
+  },
+  {
+    "text": "10.",
+    "start": 112.85,
+    "end": 113.49
+  },
+  {
+    "text": "In",
+    "start": 113.49,
+    "end": 113.65
+  },
+  {
+    "text": "the",
+    "start": 113.65,
+    "end": 113.81
+  },
+  {
+    "text": "formula,",
+    "start": 113.81,
+    "end": 114.29
+  },
+  {
+    "text": "10",
+    "start": 114.29,
+    "end": 114.61
+  },
+  {
+    "text": "more",
+    "start": 114.61,
+    "end": 114.85
+  },
+  {
+    "text": "decibels",
+    "start": 114.85,
+    "end": 115.41
+  },
+  {
+    "text": "means",
+    "start": 115.41,
+    "end": 115.57
+  },
+  {
+    "text": "the",
+    "start": 115.57,
+    "end": 115.65
+  },
+  {
+    "text": "logarithm",
+    "start": 115.65,
+    "end": 116.29
+  },
+  {
+    "text": "increases",
+    "start": 116.29,
+    "end": 116.77
+  },
+  {
+    "text": "by",
+    "start": 116.77,
+    "end": 116.93
+  },
+  {
+    "text": "exactly",
+    "start": 116.93,
+    "end": 117.41
+  },
+  {
+    "text": "one,",
+    "start": 117.41,
+    "end": 117.97
+  },
+  {
+    "text": "and",
+    "start": 117.97,
+    "end": 118.13
+  },
+  {
+    "text": "that",
+    "start": 118.13,
+    "end": 118.37
+  },
+  {
+    "text": "means",
+    "start": 118.37,
+    "end": 118.69
+  },
+  {
+    "text": "one",
+    "start": 118.69,
+    "end": 118.85
+  },
+  {
+    "text": "additional",
+    "start": 118.85,
+    "end": 119.33
+  },
+  {
+    "text": "factor",
+    "start": 119.33,
+    "end": 119.73
+  },
+  {
+    "text": "of",
+    "start": 119.73,
+    "end": 119.89
+  },
+  {
+    "text": "10.",
+    "start": 119.89,
+    "end": 120.53
+  },
+  {
+    "text": "So",
+    "start": 120.7,
+    "end": 120.94
+  },
+  {
+    "text": "90",
+    "start": 121.02,
+    "end": 121.42
+  },
+  {
+    "text": "decibels",
+    "start": 121.42,
+    "end": 122.06
+  },
+  {
+    "text": "represents",
+    "start": 122.06,
+    "end": 122.62
+  },
+  {
+    "text": "10",
+    "start": 122.62,
+    "end": 122.94
+  },
+  {
+    "text": "times",
+    "start": 122.94,
+    "end": 123.18
+  },
+  {
+    "text": "the",
+    "start": 123.18,
+    "end": 123.34
+  },
+  {
+    "text": "sound",
+    "start": 123.34,
+    "end": 123.66
+  },
+  {
+    "text": "intensity",
+    "start": 123.66,
+    "end": 124.14
+  },
+  {
+    "text": "of",
+    "start": 124.14,
+    "end": 124.3
+  },
+  {
+    "text": "80.",
+    "start": 124.3,
+    "end": 124.94
+  },
+  {
+    "text": "Go",
+    "start": 124.94,
+    "end": 125.18
+  },
+  {
+    "text": "up",
+    "start": 125.18,
+    "end": 125.26
+  },
+  {
+    "text": "to",
+    "start": 125.26,
+    "end": 125.42
+  },
+  {
+    "text": "100",
+    "start": 125.42,
+    "end": 125.82
+  },
+  {
+    "text": "decibels,",
+    "start": 125.82,
+    "end": 126.38
+  },
+  {
+    "text": "and",
+    "start": 126.38,
+    "end": 126.54
+  },
+  {
+    "text": "the",
+    "start": 126.54,
+    "end": 126.62
+  },
+  {
+    "text": "intensity",
+    "start": 126.62,
+    "end": 127.1
+  },
+  {
+    "text": "is",
+    "start": 127.1,
+    "end": 127.26
+  },
+  {
+    "text": "100",
+    "start": 127.26,
+    "end": 127.66
+  },
+  {
+    "text": "times",
+    "start": 127.66,
+    "end": 127.9
+  },
+  {
+    "text": "that",
+    "start": 127.9,
+    "end": 128.14
+  },
+  {
+    "text": "of",
+    "start": 128.14,
+    "end": 128.3
+  },
+  {
+    "text": "the",
+    "start": 128.3,
+    "end": 128.38
+  },
+  {
+    "text": "original",
+    "start": 128.38,
+    "end": 128.7
+  },
+  {
+    "text": "80",
+    "start": 128.7,
+    "end": 129.1
+  },
+  {
+    "text": "decibel",
+    "start": 129.1,
+    "end": 129.58
+  },
+  {
+    "text": "sound.",
+    "start": 129.66,
+    "end": 130.54
+  },
+  {
+    "text": "Here's",
+    "start": 130.54,
+    "end": 130.94
+  },
+  {
+    "text": "a",
+    "start": 130.94,
+    "end": 131.1
+  },
+  {
+    "text": "smaller",
+    "start": 131.1,
+    "end": 131.5
+  },
+  {
+    "text": "increase",
+    "start": 131.5,
+    "end": 131.9
+  },
+  {
+    "text": "with",
+    "start": 131.9,
+    "end": 132.06
+  },
+  {
+    "text": "a",
+    "start": 132.06,
+    "end": 132.14
+  },
+  {
+    "text": "surprisingly",
+    "start": 132.14,
+    "end": 132.7
+  },
+  {
+    "text": "big",
+    "start": 132.7,
+    "end": 132.94
+  },
+  {
+    "text": "meaning.",
+    "start": 132.94,
+    "end": 133.58
+  },
+  {
+    "text": "What",
+    "start": 133.58,
+    "end": 133.9
+  },
+  {
+    "text": "happens",
+    "start": 133.9,
+    "end": 134.22
+  },
+  {
+    "text": "when",
+    "start": 134.22,
+    "end": 134.46
+  },
+  {
+    "text": "you",
+    "start": 134.46,
+    "end": 134.62
+  },
+  {
+    "text": "double",
+    "start": 134.62,
+    "end": 135.02
+  },
+  {
+    "text": "the",
+    "start": 135.02,
+    "end": 135.18
+  },
+  {
+    "text": "intensity?",
+    "start": 135.18,
+    "end": 136.06
+  },
+  {
+    "text": "The",
+    "start": 136.06,
+    "end": 136.22
+  },
+  {
+    "text": "change",
+    "start": 136.22,
+    "end": 136.54
+  },
+  {
+    "text": "in",
+    "start": 136.54,
+    "end": 136.7
+  },
+  {
+    "text": "sound",
+    "start": 136.7,
+    "end": 137.02
+  },
+  {
+    "text": "level",
+    "start": 137.02,
+    "end": 137.34
+  },
+  {
+    "text": "is",
+    "start": 137.34,
+    "end": 137.5
+  },
+  {
+    "text": "10",
+    "start": 137.5,
+    "end": 137.82
+  },
+  {
+    "text": "times",
+    "start": 137.82,
+    "end": 138.06
+  },
+  {
+    "text": "the",
+    "start": 138.06,
+    "end": 138.14
+  },
+  {
+    "text": "logarithm",
+    "start": 138.14,
+    "end": 138.94
+  },
+  {
+    "text": "of",
+    "start": 138.94,
+    "end": 139.1
+  },
+  {
+    "text": "2.",
+    "start": 139.1,
+    "end": 139.66
+  },
+  {
+    "text": "That's",
+    "start": 139.66,
+    "end": 139.9
+  },
+  {
+    "text": "approximately",
+    "start": 139.98,
+    "end": 140.54
+  },
+  {
+    "text": "3",
+    "start": 140.54,
+    "end": 140.94
+  },
+  {
+    "text": "decibels.",
+    "start": 140.94,
+    "end": 141.82
+  },
+  {
+    "text": "So",
+    "start": 141.82,
+    "end": 142.06
+  },
+  {
+    "text": "every",
+    "start": 142.06,
+    "end": 142.38
+  },
+  {
+    "text": "3",
+    "start": 142.38,
+    "end": 142.62
+  },
+  {
+    "text": "decibel",
+    "start": 142.7,
+    "end": 143.18
+  },
+  {
+    "text": "increase",
+    "start": 143.26,
+    "end": 143.66
+  },
+  {
+    "text": "nearly",
+    "start": 143.66,
+    "end": 143.98
+  },
+  {
+    "text": "doubles",
+    "start": 143.98,
+    "end": 144.38
+  },
+  {
+    "text": "the",
+    "start": 144.38,
+    "end": 144.54
+  },
+  {
+    "text": "sound",
+    "start": 144.54,
+    "end": 144.78
+  },
+  {
+    "text": "intensity.",
+    "start": 144.78,
+    "end": 145.58
+  },
+  {
+    "text": "Going",
+    "start": 145.58,
+    "end": 145.9
+  },
+  {
+    "text": "from",
+    "start": 145.9,
+    "end": 146.14
+  },
+  {
+    "text": "85",
+    "start": 146.14,
+    "end": 146.62
+  },
+  {
+    "text": "to",
+    "start": 146.7,
+    "end": 146.86
+  },
+  {
+    "text": "88",
+    "start": 146.86,
+    "end": 147.26
+  },
+  {
+    "text": "decibels",
+    "start": 147.26,
+    "end": 147.74
+  },
+  {
+    "text": "was",
+    "start": 147.9,
+    "end": 148.14
+  },
+  {
+    "text": "approximately",
+    "start": 148.14,
+    "end": 148.62
+  },
+  {
+    "text": "a",
+    "start": 148.62,
+    "end": 148.78
+  },
+  {
+    "text": "doubling.",
+    "start": 148.78,
+    "end": 149.74
+  },
+  {
+    "text": "What",
+    "start": 149.74,
+    "end": 150.14
+  },
+  {
+    "text": "happens",
+    "start": 150.14,
+    "end": 150.54
+  },
+  {
+    "text": "when",
+    "start": 150.54,
+    "end": 150.86
+  },
+  {
+    "text": "two",
+    "start": 150.86,
+    "end": 151.1
+  },
+  {
+    "text": "independent",
+    "start": 151.1,
+    "end": 151.66
+  },
+  {
+    "text": "machines",
+    "start": 151.66,
+    "end": 152.14
+  },
+  {
+    "text": "each",
+    "start": 152.14,
+    "end": 152.38
+  },
+  {
+    "text": "produce",
+    "start": 152.38,
+    "end": 152.7
+  },
+  {
+    "text": "80",
+    "start": 152.7,
+    "end": 153.02
+  },
+  {
+    "text": "decibels",
+    "start": 153.02,
+    "end": 153.66
+  },
+  {
+    "text": "at",
+    "start": 153.66,
+    "end": 153.74
+  },
+  {
+    "text": "your",
+    "start": 153.74,
+    "end": 153.9
+  },
+  {
+    "text": "listening",
+    "start": 153.9,
+    "end": 154.38
+  },
+  {
+    "text": "position?",
+    "start": 154.38,
+    "end": 155.1
+  },
+  {
+    "text": "You",
+    "start": 155.1,
+    "end": 155.26
+  },
+  {
+    "text": "don't",
+    "start": 155.26,
+    "end": 155.5
+  },
+  {
+    "text": "add",
+    "start": 155.5,
+    "end": 155.74
+  },
+  {
+    "text": "the",
+    "start": 155.74,
+    "end": 155.9
+  },
+  {
+    "text": "decibel",
+    "start": 155.9,
+    "end": 156.46
+  },
+  {
+    "text": "numbers,",
+    "start": 156.46,
+    "end": 157.02
+  },
+  {
+    "text": "you",
+    "start": 157.02,
+    "end": 157.26
+  },
+  {
+    "text": "add",
+    "start": 157.26,
+    "end": 157.5
+  },
+  {
+    "text": "their",
+    "start": 157.5,
+    "end": 157.66
+  },
+  {
+    "text": "sound",
+    "start": 157.66,
+    "end": 158.06
+  },
+  {
+    "text": "intensities.",
+    "start": 158.06,
+    "end": 159.1
+  },
+  {
+    "text": "Two",
+    "start": 159.1,
+    "end": 159.42
+  },
+  {
+    "text": "machines",
+    "start": 159.42,
+    "end": 159.9
+  },
+  {
+    "text": "produce",
+    "start": 159.9,
+    "end": 160.3
+  },
+  {
+    "text": "twice",
+    "start": 160.3,
+    "end": 160.62
+  },
+  {
+    "text": "the",
+    "start": 160.62,
+    "end": 160.7
+  },
+  {
+    "text": "intensity,",
+    "start": 160.7,
+    "end": 161.42
+  },
+  {
+    "text": "giving",
+    "start": 161.42,
+    "end": 161.82
+  },
+  {
+    "text": "approximately",
+    "start": 161.82,
+    "end": 162.38
+  },
+  {
+    "text": "3",
+    "start": 162.38,
+    "end": 162.7
+  },
+  {
+    "text": "decibels",
+    "start": 162.7,
+    "end": 163.34
+  },
+  {
+    "text": "more.",
+    "start": 163.34,
+    "end": 163.74
+  },
+  {
+    "text": "So",
+    "start": 163.74,
+    "end": 163.9
+  },
+  {
+    "text": "80",
+    "start": 163.98,
+    "end": 164.46
+  },
+  {
+    "text": "plus",
+    "start": 164.46,
+    "end": 164.62
+  },
+  {
+    "text": "80",
+    "start": 164.62,
+    "end": 165.02
+  },
+  {
+    "text": "makes",
+    "start": 165.02,
+    "end": 165.34
+  },
+  {
+    "text": "about",
+    "start": 165.34,
+    "end": 165.5
+  },
+  {
+    "text": "83",
+    "start": 165.5,
+    "end": 165.9
+  },
+  {
+    "text": "decibels.",
+    "start": 166.06,
+    "end": 167.02
+  },
+  {
+    "text": "10",
+    "start": 167.02,
+    "end": 167.5
+  },
+  {
+    "text": "identical",
+    "start": 167.5,
+    "end": 168.14
+  },
+  {
+    "text": "independent",
+    "start": 168.14,
+    "end": 168.7
+  },
+  {
+    "text": "machines,",
+    "start": 168.7,
+    "end": 169.34
+  },
+  {
+    "text": "each",
+    "start": 169.34,
+    "end": 169.58
+  },
+  {
+    "text": "producing",
+    "start": 169.58,
+    "end": 169.98
+  },
+  {
+    "text": "80",
+    "start": 169.98,
+    "end": 170.3
+  },
+  {
+    "text": "decibels",
+    "start": 170.3,
+    "end": 170.78
+  },
+  {
+    "text": "at",
+    "start": 170.78,
+    "end": 170.94
+  },
+  {
+    "text": "that",
+    "start": 170.94,
+    "end": 171.02
+  },
+  {
+    "text": "position,",
+    "start": 171.02,
+    "end": 171.58
+  },
+  {
+    "text": "produce",
+    "start": 171.58,
+    "end": 171.98
+  },
+  {
+    "text": "10",
+    "start": 171.98,
+    "end": 172.22
+  },
+  {
+    "text": "times",
+    "start": 172.22,
+    "end": 172.46
+  },
+  {
+    "text": "the",
+    "start": 172.46,
+    "end": 172.62
+  },
+  {
+    "text": "combined",
+    "start": 172.62,
+    "end": 173.02
+  },
+  {
+    "text": "intensity",
+    "start": 173.02,
+    "end": 173.58
+  },
+  {
+    "text": "of",
+    "start": 173.58,
+    "end": 173.66
+  },
+  {
+    "text": "one",
+    "start": 173.66,
+    "end": 173.9
+  },
+  {
+    "text": "machine,",
+    "start": 173.9,
+    "end": 174.62
+  },
+  {
+    "text": "90",
+    "start": 174.62,
+    "end": 175.02
+  },
+  {
+    "text": "decibels.",
+    "start": 175.02,
+    "end": 175.9
+  },
+  {
+    "text": "But",
+    "start": 176.19,
+    "end": 176.43
+  },
+  {
+    "text": "does",
+    "start": 176.43,
+    "end": 176.83
+  },
+  {
+    "text": "90",
+    "start": 176.83,
+    "end": 177.23
+  },
+  {
+    "text": "decibels",
+    "start": 177.23,
+    "end": 177.95
+  },
+  {
+    "text": "sound",
+    "start": 177.95,
+    "end": 178.27
+  },
+  {
+    "text": "10",
+    "start": 178.27,
+    "end": 178.59
+  },
+  {
+    "text": "times",
+    "start": 178.59,
+    "end": 178.83
+  },
+  {
+    "text": "louder",
+    "start": 178.83,
+    "end": 179.31
+  },
+  {
+    "text": "than",
+    "start": 179.31,
+    "end": 179.55
+  },
+  {
+    "text": "80?",
+    "start": 179.55,
+    "end": 180.35
+  },
+  {
+    "text": "Not",
+    "start": 180.35,
+    "end": 180.67
+  },
+  {
+    "text": "necessarily.",
+    "start": 180.67,
+    "end": 181.71
+  },
+  {
+    "text": "Perceived",
+    "start": 181.71,
+    "end": 182.27
+  },
+  {
+    "text": "loudness",
+    "start": 182.27,
+    "end": 182.83
+  },
+  {
+    "text": "is",
+    "start": 182.83,
+    "end": 183.07
+  },
+  {
+    "text": "different",
+    "start": 183.07,
+    "end": 183.47
+  },
+  {
+    "text": "from",
+    "start": 183.47,
+    "end": 183.71
+  },
+  {
+    "text": "phys",
+    "start": 183.71,
+    "end": 184.27
+  },
+  {
+    "text": "intensity.",
+    "start": 184.67,
+    "end": 185.55
+  },
+  {
+    "text": "For",
+    "start": 185.55,
+    "end": 185.79
+  },
+  {
+    "text": "many",
+    "start": 185.79,
+    "end": 186.11
+  },
+  {
+    "text": "everyday",
+    "start": 186.11,
+    "end": 186.67
+  },
+  {
+    "text": "sounds,",
+    "start": 186.67,
+    "end": 187.15
+  },
+  {
+    "text": "a",
+    "start": 187.15,
+    "end": 187.31
+  },
+  {
+    "text": "10",
+    "start": 187.31,
+    "end": 187.63
+  },
+  {
+    "text": "decibel",
+    "start": 187.63,
+    "end": 188.19
+  },
+  {
+    "text": "increase",
+    "start": 188.19,
+    "end": 188.51
+  },
+  {
+    "text": "is",
+    "start": 188.51,
+    "end": 188.67
+  },
+  {
+    "text": "perceived",
+    "start": 188.67,
+    "end": 189.07
+  },
+  {
+    "text": "as",
+    "start": 189.07,
+    "end": 189.31
+  },
+  {
+    "text": "roughly",
+    "start": 189.31,
+    "end": 189.71
+  },
+  {
+    "text": "twice",
+    "start": 189.71,
+    "end": 190.03
+  },
+  {
+    "text": "as",
+    "start": 190.03,
+    "end": 190.19
+  },
+  {
+    "text": "loud.",
+    "start": 190.19,
+    "end": 190.83
+  },
+  {
+    "text": "So",
+    "start": 190.83,
+    "end": 190.99
+  },
+  {
+    "text": "the",
+    "start": 191.07,
+    "end": 191.23
+  },
+  {
+    "text": "louder",
+    "start": 191.23,
+    "end": 191.71
+  },
+  {
+    "text": "machine",
+    "start": 191.71,
+    "end": 192.11
+  },
+  {
+    "text": "may",
+    "start": 192.11,
+    "end": 192.35
+  },
+  {
+    "text": "sound",
+    "start": 192.35,
+    "end": 192.67
+  },
+  {
+    "text": "about",
+    "start": 192.67,
+    "end": 192.91
+  },
+  {
+    "text": "twice",
+    "start": 192.91,
+    "end": 193.23
+  },
+  {
+    "text": "as",
+    "start": 193.23,
+    "end": 193.39
+  },
+  {
+    "text": "loud,",
+    "start": 193.39,
+    "end": 193.95
+  },
+  {
+    "text": "even",
+    "start": 193.95,
+    "end": 194.19
+  },
+  {
+    "text": "though",
+    "start": 194.19,
+    "end": 194.43
+  },
+  {
+    "text": "its",
+    "start": 194.43,
+    "end": 194.67
+  },
+  {
+    "text": "intensity",
+    "start": 194.67,
+    "end": 195.31
+  },
+  {
+    "text": "is",
+    "start": 195.31,
+    "end": 195.55
+  },
+  {
+    "text": "10",
+    "start": 195.55,
+    "end": 195.87
+  },
+  {
+    "text": "times",
+    "start": 195.87,
+    "end": 196.27
+  },
+  {
+    "text": "greater.",
+    "start": 196.27,
+    "end": 196.99
+  },
+  {
+    "text": "That",
+    "start": 196.99,
+    "end": 197.23
+  },
+  {
+    "text": "distinction",
+    "start": 197.23,
+    "end": 197.87
+  },
+  {
+    "text": "becomes",
+    "start": 197.87,
+    "end": 198.35
+  },
+  {
+    "text": "especially",
+    "start": 198.35,
+    "end": 198.91
+  },
+  {
+    "text": "important",
+    "start": 198.91,
+    "end": 199.23
+  },
+  {
+    "text": "when",
+    "start": 199.23,
+    "end": 199.47
+  },
+  {
+    "text": "protecting",
+    "start": 199.47,
+    "end": 200.03
+  },
+  {
+    "text": "your",
+    "start": 200.03,
+    "end": 200.19
+  },
+  {
+    "text": "hearing.",
+    "start": 200.19,
+    "end": 201.23
+  },
+  {
+    "text": "This",
+    "start": 201.23,
+    "end": 201.39
+  },
+  {
+    "text": "is",
+    "start": 201.39,
+    "end": 201.55
+  },
+  {
+    "text": "why",
+    "start": 201.55,
+    "end": 201.79
+  },
+  {
+    "text": "workplace",
+    "start": 201.79,
+    "end": 202.43
+  },
+  {
+    "text": "noise",
+    "start": 202.43,
+    "end": 202.83
+  },
+  {
+    "text": "guidelines",
+    "start": 202.83,
+    "end": 203.23
+  },
+  {
+    "text": "consider",
+    "start": 203.39,
+    "end": 203.71
+  },
+  {
+    "text": "both",
+    "start": 203.71,
+    "end": 203.95
+  },
+  {
+    "text": "sound",
+    "start": 203.95,
+    "end": 204.35
+  },
+  {
+    "text": "level",
+    "start": 204.35,
+    "end": 204.91
+  },
+  {
+    "text": "and",
+    "start": 204.91,
+    "end": 205.15
+  },
+  {
+    "text": "exposure",
+    "start": 205.15,
+    "end": 205.79
+  },
+  {
+    "text": "time.",
+    "start": 205.79,
+    "end": 206.43
+  },
+  {
+    "text": "NIOSH,",
+    "start": 206.43,
+    "end": 207.31
+  },
+  {
+    "text": "the",
+    "start": 207.31,
+    "end": 207.47
+  },
+  {
+    "text": "U.S.",
+    "start": 207.47,
+    "end": 207.71
+  },
+  {
+    "text": "agency",
+    "start": 207.79,
+    "end": 208.19
+  },
+  {
+    "text": "that",
+    "start": 208.19,
+    "end": 208.35
+  },
+  {
+    "text": "researches",
+    "start": 208.35,
+    "end": 208.83
+  },
+  {
+    "text": "occupational",
+    "start": 208.83,
+    "end": 209.31
+  },
+  {
+    "text": "safety",
+    "start": 209.47,
+    "end": 209.79
+  },
+  {
+    "text": "and",
+    "start": 209.79,
+    "end": 209.95
+  },
+  {
+    "text": "health,",
+    "start": 209.95,
+    "end": 210.51
+  },
+  {
+    "text": "recommends",
+    "start": 210.51,
+    "end": 211.07
+  },
+  {
+    "text": "an",
+    "start": 211.07,
+    "end": 211.23
+  },
+  {
+    "text": "eight-hour",
+    "start": 211.23,
+    "end": 211.79
+  },
+  {
+    "text": "exposure",
+    "start": 211.79,
+    "end": 212.19
+  },
+  {
+    "text": "limit",
+    "start": 212.19,
+    "end": 212.51
+  },
+  {
+    "text": "of",
+    "start": 212.51,
+    "end": 212.67
+  },
+  {
+    "text": "85",
+    "start": 212.67,
+    "end": 213.15
+  },
+  {
+    "text": "A",
+    "start": 213.31,
+    "end": 213.55
+  },
+  {
+    "text": "weighted.",
+    "start": 213.71,
+    "end": 214.91
+  },
+  {
+    "text": "For",
+    "start": 214.91,
+    "end": 215.07
+  },
+  {
+    "text": "every",
+    "start": 215.07,
+    "end": 215.31
+  },
+  {
+    "text": "3",
+    "start": 215.31,
+    "end": 215.55
+  },
+  {
+    "text": "decibel",
+    "start": 215.63,
+    "end": 216.03
+  },
+  {
+    "text": "increase,",
+    "start": 216.19,
+    "end": 216.67
+  },
+  {
+    "text": "the",
+    "start": 216.67,
+    "end": 216.75
+  },
+  {
+    "text": "recommended",
+    "start": 216.75,
+    "end": 217.23
+  },
+  {
+    "text": "exposure",
+    "start": 217.23,
+    "end": 217.79
+  },
+  {
+    "text": "duration",
+    "start": 217.79,
+    "end": 218.19
+  },
+  {
+    "text": "is",
+    "start": 218.19,
+    "end": 218.35
+  },
+  {
+    "text": "cut",
+    "start": 218.35,
+    "end": 218.67
+  },
+  {
+    "text": "in",
+    "start": 218.67,
+    "end": 218.83
+  },
+  {
+    "text": "half.",
+    "start": 218.83,
+    "end": 219.47
+  },
+  {
+    "text": "At",
+    "start": 219.47,
+    "end": 219.63
+  },
+  {
+    "text": "88",
+    "start": 219.63,
+    "end": 220.11
+  },
+  {
+    "text": "decibels,",
+    "start": 220.11,
+    "end": 220.75
+  },
+  {
+    "text": "that's",
+    "start": 220.75,
+    "end": 220.99
+  },
+  {
+    "text": "4",
+    "start": 220.99,
+    "end": 221.23
+  },
+  {
+    "text": "hours,",
+    "start": 221.23,
+    "end": 221.79
+  },
+  {
+    "text": "at",
+    "start": 221.79,
+    "end": 221.95
+  },
+  {
+    "text": "91,",
+    "start": 221.95,
+    "end": 222.75
+  },
+  {
+    "text": "2",
+    "start": 222.75,
+    "end": 222.99
+  },
+  {
+    "text": "hours,",
+    "start": 222.99,
+    "end": 223.47
+  },
+  {
+    "text": "and",
+    "start": 223.47,
+    "end": 223.63
+  },
+  {
+    "text": "at",
+    "start": 223.63,
+    "end": 223.79
+  },
+  {
+    "text": "100",
+    "start": 223.79,
+    "end": 224.35
+  },
+  {
+    "text": "decibels,",
+    "start": 224.35,
+    "end": 225.07
+  },
+  {
+    "text": "just",
+    "start": 225.07,
+    "end": 225.31
+  },
+  {
+    "text": "15",
+    "start": 225.31,
+    "end": 225.71
+  },
+  {
+    "text": "minutes.",
+    "start": 225.79,
+    "end": 226.43
+  },
+  {
+    "text": "OSHA's",
+    "start": 226.43,
+    "end": 227.23
+  },
+  {
+    "text": "legal",
+    "start": 227.23,
+    "end": 227.47
+  },
+  {
+    "text": "limit",
+    "start": 227.47,
+    "end": 227.71
+  },
+  {
+    "text": "for",
+    "start": 227.71,
+    "end": 227.87
+  },
+  {
+    "text": "general",
+    "start": 227.87,
+    "end": 228.19
+  },
+  {
+    "text": "industry",
+    "start": 228.19,
+    "end": 228.75
+  },
+  {
+    "text": "is",
+    "start": 228.75,
+    "end": 228.91
+  },
+  {
+    "text": "less",
+    "start": 228.91,
+    "end": 229.15
+  },
+  {
+    "text": "protective,",
+    "start": 229.15,
+    "end": 229.95
+  },
+  {
+    "text": "90",
+    "start": 229.95,
+    "end": 230.35
+  },
+  {
+    "text": "decibels",
+    "start": 230.35,
+    "end": 230.91
+  },
+  {
+    "text": "over",
+    "start": 230.91,
+    "end": 231.07
+  },
+  {
+    "text": "eight",
+    "start": 231.07,
+    "end": 231.31
+  },
+  {
+    "text": "hours,",
+    "start": 231.31,
+    "end": 231.71
+  },
+  {
+    "text": "with",
+    "start": 231.71,
+    "end": 232.03
+  },
+  {
+    "text": "exposure",
+    "start": 232.03,
+    "end": 232.43
+  },
+  {
+    "text": "duration",
+    "start": 232.43,
+    "end": 232.83
+  },
+  {
+    "text": "halved",
+    "start": 232.83,
+    "end": 233.15
+  },
+  {
+    "text": "for",
+    "start": 233.31,
+    "end": 233.39
+  },
+  {
+    "text": "every",
+    "start": 233.39,
+    "end": 233.63
+  },
+  {
+    "text": "5",
+    "start": 233.63,
+    "end": 233.79
+  },
+  {
+    "text": "decibel",
+    "start": 233.87,
+    "end": 234.35
+  },
+  {
+    "text": "increase.",
+    "start": 234.51,
+    "end": 235.07
+  },
+  {
+    "text": "These",
+    "start": 235.07,
+    "end": 235.31
+  },
+  {
+    "text": "limits",
+    "start": 235.31,
+    "end": 235.63
+  },
+  {
+    "text": "are",
+    "start": 235.63,
+    "end": 235.79
+  },
+  {
+    "text": "based",
+    "start": 235.79,
+    "end": 236.03
+  },
+  {
+    "text": "on",
+    "start": 236.03,
+    "end": 236.19
+  },
+  {
+    "text": "long",
+    "start": 236.19,
+    "end": 236.43
+  },
+  {
+    "text": "term",
+    "start": 236.51,
+    "end": 236.67
+  },
+  {
+    "text": "hearing",
+    "start": 236.75,
+    "end": 237.23
+  },
+  {
+    "text": "risk",
+    "start": 237.23,
+    "end": 237.47
+  },
+  {
+    "text": "considerations,",
+    "start": 237.47,
+    "end": 238.19
+  },
+  {
+    "text": "not",
+    "start": 238.19,
+    "end": 238.35
+  },
+  {
+    "text": "a",
+    "start": 238.35,
+    "end": 238.43
+  },
+  {
+    "text": "guarantee",
+    "start": 238.43,
+    "end": 238.83
+  },
+  {
+    "text": "of",
+    "start": 238.83,
+    "end": 238.99
+  },
+  {
+    "text": "safety",
+    "start": 238.99,
+    "end": 239.39
+  },
+  {
+    "text": "for",
+    "start": 239.39,
+    "end": 239.47
+  },
+  {
+    "text": "every",
+    "start": 239.47,
+    "end": 239.71
+  },
+  {
+    "text": "individual.",
+    "start": 239.71,
+    "end": 240.43
+  },
+  {
+    "text": "Let's",
+    "start": 240.84,
+    "end": 241.16
+  },
+  {
+    "text": "return",
+    "start": 241.16,
+    "end": 241.48
+  },
+  {
+    "text": "to",
+    "start": 241.48,
+    "end": 241.56
+  },
+  {
+    "text": "the",
+    "start": 241.56,
+    "end": 241.64
+  },
+  {
+    "text": "machines",
+    "start": 241.64,
+    "end": 242.12
+  },
+  {
+    "text": "from",
+    "start": 242.12,
+    "end": 242.28
+  },
+  {
+    "text": "the",
+    "start": 242.28,
+    "end": 242.36
+  },
+  {
+    "text": "beginning.",
+    "start": 242.36,
+    "end": 243
+  },
+  {
+    "text": "Using",
+    "start": 243,
+    "end": 243.32
+  },
+  {
+    "text": "the",
+    "start": 243.32,
+    "end": 243.48
+  },
+  {
+    "text": "NIOS",
+    "start": 243.48,
+    "end": 244.2
+  },
+  {
+    "text": "exchange",
+    "start": 244.2,
+    "end": 244.6
+  },
+  {
+    "text": "rate",
+    "start": 244.6,
+    "end": 244.84
+  },
+  {
+    "text": "formula,",
+    "start": 244.84,
+    "end": 245.32
+  },
+  {
+    "text": "the",
+    "start": 245.32,
+    "end": 245.4
+  },
+  {
+    "text": "recommended",
+    "start": 245.4,
+    "end": 245.88
+  },
+  {
+    "text": "exposure",
+    "start": 245.88,
+    "end": 246.44
+  },
+  {
+    "text": "duration",
+    "start": 246.44,
+    "end": 246.84
+  },
+  {
+    "text": "in",
+    "start": 246.84,
+    "end": 247.08
+  },
+  {
+    "text": "hours",
+    "start": 247.08,
+    "end": 247.64
+  },
+  {
+    "text": "equals",
+    "start": 247.64,
+    "end": 248.2
+  },
+  {
+    "text": "8",
+    "start": 248.2,
+    "end": 248.6
+  },
+  {
+    "text": "divided",
+    "start": 248.6,
+    "end": 249.08
+  },
+  {
+    "text": "by",
+    "start": 249.08,
+    "end": 249.24
+  },
+  {
+    "text": "2",
+    "start": 249.24,
+    "end": 249.56
+  },
+  {
+    "text": "raised",
+    "start": 249.64,
+    "end": 250.04
+  },
+  {
+    "text": "to",
+    "start": 250.04,
+    "end": 250.2
+  },
+  {
+    "text": "the",
+    "start": 250.2,
+    "end": 250.28
+  },
+  {
+    "text": "power",
+    "start": 250.28,
+    "end": 250.52
+  },
+  {
+    "text": "of",
+    "start": 250.52,
+    "end": 250.6
+  },
+  {
+    "text": "the",
+    "start": 250.6,
+    "end": 250.76
+  },
+  {
+    "text": "sound",
+    "start": 250.76,
+    "end": 251.16
+  },
+  {
+    "text": "level",
+    "start": 251.16,
+    "end": 251.4
+  },
+  {
+    "text": "minus",
+    "start": 251.56,
+    "end": 251.96
+  },
+  {
+    "text": "85",
+    "start": 251.96,
+    "end": 252.44
+  },
+  {
+    "text": "divided",
+    "start": 252.68,
+    "end": 253.16
+  },
+  {
+    "text": "by",
+    "start": 253.16,
+    "end": 253.4
+  },
+  {
+    "text": "3.",
+    "start": 253.4,
+    "end": 254.12
+  },
+  {
+    "text": "At",
+    "start": 254.12,
+    "end": 254.28
+  },
+  {
+    "text": "80",
+    "start": 254.28,
+    "end": 254.76
+  },
+  {
+    "text": "decibels,",
+    "start": 254.76,
+    "end": 255.32
+  },
+  {
+    "text": "the",
+    "start": 255.32,
+    "end": 255.4
+  },
+  {
+    "text": "sound",
+    "start": 255.4,
+    "end": 255.64
+  },
+  {
+    "text": "is",
+    "start": 255.64,
+    "end": 255.72
+  },
+  {
+    "text": "below",
+    "start": 255.72,
+    "end": 256.04
+  },
+  {
+    "text": "NIOSH's",
+    "start": 256.04,
+    "end": 256.84
+  },
+  {
+    "text": "85",
+    "start": 256.84,
+    "end": 257.16
+  },
+  {
+    "text": "decibel",
+    "start": 257.24,
+    "end": 257.72
+  },
+  {
+    "text": "reference",
+    "start": 257.72,
+    "end": 258.04
+  },
+  {
+    "text": "level",
+    "start": 258.04,
+    "end": 258.2
+  },
+  {
+    "text": "for",
+    "start": 258.2,
+    "end": 258.36
+  },
+  {
+    "text": "an",
+    "start": 258.36,
+    "end": 258.44
+  },
+  {
+    "text": "eight-hour",
+    "start": 258.44,
+    "end": 258.92
+  },
+  {
+    "text": "workday,",
+    "start": 258.92,
+    "end": 259.56
+  },
+  {
+    "text": "but",
+    "start": 259.56,
+    "end": 259.72
+  },
+  {
+    "text": "at",
+    "start": 259.72,
+    "end": 259.88
+  },
+  {
+    "text": "90",
+    "start": 259.88,
+    "end": 260.28
+  },
+  {
+    "text": "decibels,",
+    "start": 260.28,
+    "end": 260.92
+  },
+  {
+    "text": "the",
+    "start": 260.92,
+    "end": 261
+  },
+  {
+    "text": "recommended",
+    "start": 261,
+    "end": 261.56
+  },
+  {
+    "text": "exposure",
+    "start": 261.56,
+    "end": 261.96
+  },
+  {
+    "text": "duration",
+    "start": 261.96,
+    "end": 262.44
+  },
+  {
+    "text": "falls",
+    "start": 262.44,
+    "end": 262.76
+  },
+  {
+    "text": "to",
+    "start": 262.76,
+    "end": 263
+  },
+  {
+    "text": "approximately",
+    "start": 263,
+    "end": 263.64
+  },
+  {
+    "text": "2",
+    "start": 263.64,
+    "end": 263.88
+  },
+  {
+    "text": "and",
+    "start": 263.88,
+    "end": 264.04
+  },
+  {
+    "text": "a",
+    "start": 264.04,
+    "end": 264.12
+  },
+  {
+    "text": "half",
+    "start": 264.12,
+    "end": 264.44
+  },
+  {
+    "text": "hours.",
+    "start": 264.44,
+    "end": 265.08
+  },
+  {
+    "text": "A",
+    "start": 265.08,
+    "end": 265.24
+  },
+  {
+    "text": "difference",
+    "start": 265.24,
+    "end": 265.56
+  },
+  {
+    "text": "of",
+    "start": 265.56,
+    "end": 265.64
+  },
+  {
+    "text": "just",
+    "start": 265.64,
+    "end": 265.8
+  },
+  {
+    "text": "1",
+    "start": 265.8,
+    "end": 266.2
+  },
+  {
+    "text": "decibels",
+    "start": 266.2,
+    "end": 266.84
+  },
+  {
+    "text": "means",
+    "start": 266.84,
+    "end": 267.24
+  },
+  {
+    "text": "10",
+    "start": 267.24,
+    "end": 267.56
+  },
+  {
+    "text": "times",
+    "start": 267.56,
+    "end": 267.88
+  },
+  {
+    "text": "the",
+    "start": 267.88,
+    "end": 268.04
+  },
+  {
+    "text": "sound",
+    "start": 268.04,
+    "end": 268.36
+  },
+  {
+    "text": "intensity,",
+    "start": 268.36,
+    "end": 269
+  },
+  {
+    "text": "and",
+    "start": 269,
+    "end": 269.16
+  },
+  {
+    "text": "a",
+    "start": 269.16,
+    "end": 269.32
+  },
+  {
+    "text": "dramatic",
+    "start": 269.32,
+    "end": 269.8
+  },
+  {
+    "text": "reduction",
+    "start": 269.8,
+    "end": 270.2
+  },
+  {
+    "text": "in",
+    "start": 270.2,
+    "end": 270.44
+  },
+  {
+    "text": "recommended",
+    "start": 270.44,
+    "end": 271
+  },
+  {
+    "text": "exposure",
+    "start": 271,
+    "end": 271.56
+  },
+  {
+    "text": "time.",
+    "start": 271.56,
+    "end": 272.28
+  },
+  {
+    "text": "Decibles",
+    "start": 272.28,
+    "end": 272.92
+  },
+  {
+    "text": "aren't",
+    "start": 273.08,
+    "end": 273.32
+  },
+  {
+    "text": "just",
+    "start": 273.32,
+    "end": 273.56
+  },
+  {
+    "text": "for",
+    "start": 273.56,
+    "end": 273.72
+  },
+  {
+    "text": "sound.",
+    "start": 273.72,
+    "end": 274.36
+  },
+  {
+    "text": "Engineers",
+    "start": 274.36,
+    "end": 275
+  },
+  {
+    "text": "use",
+    "start": 275,
+    "end": 275.16
+  },
+  {
+    "text": "them",
+    "start": 275.16,
+    "end": 275.4
+  },
+  {
+    "text": "for",
+    "start": 275.4,
+    "end": 275.56
+  },
+  {
+    "text": "wireless",
+    "start": 275.56,
+    "end": 276.12
+  },
+  {
+    "text": "signals,",
+    "start": 276.12,
+    "end": 276.68
+  },
+  {
+    "text": "amplifier",
+    "start": 276.68,
+    "end": 277.4
+  },
+  {
+    "text": "gain,",
+    "start": 277.4,
+    "end": 277.88
+  },
+  {
+    "text": "and",
+    "start": 277.88,
+    "end": 278.04
+  },
+  {
+    "text": "electronic",
+    "start": 278.04,
+    "end": 278.76
+  },
+  {
+    "text": "noise.",
+    "start": 278.76,
+    "end": 279.48
+  },
+  {
+    "text": "They're",
+    "start": 279.48,
+    "end": 279.8
+  },
+  {
+    "text": "useful",
+    "start": 279.8,
+    "end": 280.2
+  },
+  {
+    "text": "whenever",
+    "start": 280.2,
+    "end": 280.52
+  },
+  {
+    "text": "we",
+    "start": 280.52,
+    "end": 280.68
+  },
+  {
+    "text": "need",
+    "start": 280.68,
+    "end": 280.84
+  },
+  {
+    "text": "to",
+    "start": 280.84,
+    "end": 280.92
+  },
+  {
+    "text": "compare",
+    "start": 280.92,
+    "end": 281.24
+  },
+  {
+    "text": "quantities",
+    "start": 281.24,
+    "end": 281.8
+  },
+  {
+    "text": "that",
+    "start": 281.8,
+    "end": 281.96
+  },
+  {
+    "text": "can",
+    "start": 281.96,
+    "end": 282.12
+  },
+  {
+    "text": "vary",
+    "start": 282.12,
+    "end": 282.52
+  },
+  {
+    "text": "across",
+    "start": 282.52,
+    "end": 283
+  },
+  {
+    "text": "enormous",
+    "start": 283,
+    "end": 283.56
+  },
+  {
+    "text": "numerical",
+    "start": 283.56,
+    "end": 284.2
+  },
+  {
+    "text": "ranges.",
+    "start": 284.2,
+    "end": 284.92
+  },
+  {
+    "text": "A",
+    "start": 284.92,
+    "end": 285.08
+  },
+  {
+    "text": "logarithmic",
+    "start": 285.08,
+    "end": 285.88
+  },
+  {
+    "text": "scale",
+    "start": 285.88,
+    "end": 286.2
+  },
+  {
+    "text": "compresses",
+    "start": 286.2,
+    "end": 286.76
+  },
+  {
+    "text": "those",
+    "start": 286.76,
+    "end": 286.92
+  },
+  {
+    "text": "differences",
+    "start": 286.92,
+    "end": 287.48
+  },
+  {
+    "text": "into",
+    "start": 287.48,
+    "end": 287.8
+  },
+  {
+    "text": "numbers",
+    "start": 287.8,
+    "end": 288.12
+  },
+  {
+    "text": "that",
+    "start": 288.12,
+    "end": 288.28
+  },
+  {
+    "text": "are",
+    "start": 288.28,
+    "end": 288.44
+  },
+  {
+    "text": "much",
+    "start": 288.44,
+    "end": 288.6
+  },
+  {
+    "text": "easier",
+    "start": 288.6,
+    "end": 288.92
+  },
+  {
+    "text": "to",
+    "start": 288.92,
+    "end": 289.08
+  },
+  {
+    "text": "work",
+    "start": 289.08,
+    "end": 289.4
+  },
+  {
+    "text": "with.",
+    "start": 289.4,
+    "end": 289.96
+  },
+  {
+    "text": "So",
+    "start": 289.96,
+    "end": 290.2
+  },
+  {
+    "text": "here's",
+    "start": 290.28,
+    "end": 290.68
+  },
+  {
+    "text": "what",
+    "start": 290.68,
+    "end": 290.84
+  },
+  {
+    "text": "to",
+    "start": 290.84,
+    "end": 291
+  },
+  {
+    "text": "remember.",
+    "start": 291,
+    "end": 291.64
+  },
+  {
+    "text": "Three",
+    "start": 291.64,
+    "end": 291.96
+  },
+  {
+    "text": "decibels",
+    "start": 292.04,
+    "end": 292.68
+  },
+  {
+    "text": "more",
+    "start": 292.68,
+    "end": 293
+  },
+  {
+    "text": "means",
+    "start": 293,
+    "end": 293.4
+  },
+  {
+    "text": "approximately",
+    "start": 293.4,
+    "end": 294.12
+  },
+  {
+    "text": "twice",
+    "start": 294.12,
+    "end": 294.44
+  },
+  {
+    "text": "the",
+    "start": 294.44,
+    "end": 294.6
+  },
+  {
+    "text": "sound",
+    "start": 294.6,
+    "end": 295
+  },
+  {
+    "text": "intensity.",
+    "start": 295,
+    "end": 295.8
+  },
+  {
+    "text": "10",
+    "start": 295.8,
+    "end": 296.12
+  },
+  {
+    "text": "decibels",
+    "start": 296.12,
+    "end": 296.76
+  },
+  {
+    "text": "more",
+    "start": 296.76,
+    "end": 297.08
+  },
+  {
+    "text": "means",
+    "start": 297.08,
+    "end": 297.4
+  },
+  {
+    "text": "10",
+    "start": 297.4,
+    "end": 297.72
+  },
+  {
+    "text": "times",
+    "start": 297.72,
+    "end": 298.04
+  },
+  {
+    "text": "the",
+    "start": 298.04,
+    "end": 298.2
+  },
+  {
+    "text": "intensity.",
+    "start": 298.2,
+    "end": 299
+  },
+  {
+    "text": "And",
+    "start": 299,
+    "end": 299.24
+  },
+  {
+    "text": "over",
+    "start": 299.24,
+    "end": 299.48
+  },
+  {
+    "text": "the",
+    "start": 299.48,
+    "end": 299.56
+  },
+  {
+    "text": "same",
+    "start": 299.56,
+    "end": 299.72
+  },
+  {
+    "text": "amount",
+    "start": 299.72,
+    "end": 299.96
+  },
+  {
+    "text": "of",
+    "start": 299.96,
+    "end": 300.04
+  },
+  {
+    "text": "time,",
+    "start": 300.04,
+    "end": 300.6
+  },
+  {
+    "text": "Ten",
+    "start": 300.73,
+    "end": 300.89
+  },
+  {
+    "text": "times",
+    "start": 301.05,
+    "end": 301.37
+  },
+  {
+    "text": "the",
+    "start": 301.37,
+    "end": 301.45
+  },
+  {
+    "text": "intensity",
+    "start": 301.45,
+    "end": 302.09
+  },
+  {
+    "text": "means",
+    "start": 302.09,
+    "end": 302.49
+  },
+  {
+    "text": "ten",
+    "start": 302.49,
+    "end": 302.65
+  },
+  {
+    "text": "times",
+    "start": 302.81,
+    "end": 303.05
+  },
+  {
+    "text": "the",
+    "start": 303.05,
+    "end": 303.21
+  },
+  {
+    "text": "sound",
+    "start": 303.21,
+    "end": 303.61
+  },
+  {
+    "text": "energy",
+    "start": 303.61,
+    "end": 304.09
+  },
+  {
+    "text": "reaches",
+    "start": 304.09,
+    "end": 304.49
+  },
+  {
+    "text": "a",
+    "start": 304.49,
+    "end": 304.57
+  },
+  {
+    "text": "given",
+    "start": 304.57,
+    "end": 304.81
+  },
+  {
+    "text": "area.",
+    "start": 304.81,
+    "end": 305.45
+  },
+  {
+    "text": "That's",
+    "start": 305.45,
+    "end": 305.77
+  },
+  {
+    "text": "why",
+    "start": 305.77,
+    "end": 306.01
+  },
+  {
+    "text": "90",
+    "start": 306.01,
+    "end": 306.49
+  },
+  {
+    "text": "decibels",
+    "start": 306.49,
+    "end": 307.13
+  },
+  {
+    "text": "isn't",
+    "start": 307.13,
+    "end": 307.45
+  },
+  {
+    "text": "just",
+    "start": 307.45,
+    "end": 307.69
+  },
+  {
+    "text": "a",
+    "start": 307.69,
+    "end": 307.85
+  },
+  {
+    "text": "little",
+    "start": 307.85,
+    "end": 308.01
+  },
+  {
+    "text": "more",
+    "start": 308.01,
+    "end": 308.25
+  },
+  {
+    "text": "than",
+    "start": 308.25,
+    "end": 308.41
+  },
+  {
+    "text": "80.",
+    "start": 308.41,
+    "end": 309.13
+  },
+  {
+    "text": "It's",
+    "start": 309.13,
+    "end": 309.37
+  },
+  {
+    "text": "a",
+    "start": 309.37,
+    "end": 309.45
+  },
+  {
+    "text": "tenfold",
+    "start": 309.45,
+    "end": 310.17
+  },
+  {
+    "text": "increase",
+    "start": 310.17,
+    "end": 310.57
+  },
+  {
+    "text": "in",
+    "start": 310.57,
+    "end": 310.73
+  },
+  {
+    "text": "sound",
+    "start": 310.73,
+    "end": 311.13
+  },
+  {
+    "text": "intensity.",
+    "start": 311.13,
+    "end": 312.25
+  },
+  {
+    "text": "If",
+    "start": 312.25,
+    "end": 312.49
+  },
+  {
+    "text": "you",
+    "start": 312.49,
+    "end": 312.65
+  },
+  {
+    "text": "like",
+    "start": 312.65,
+    "end": 312.89
+  },
+  {
+    "text": "this",
+    "start": 312.89,
+    "end": 313.05
+  },
+  {
+    "text": "video,",
+    "start": 313.05,
+    "end": 313.53
+  },
+  {
+    "text": "please",
+    "start": 313.53,
+    "end": 313.85
+  },
+  {
+    "text": "give",
+    "start": 313.85,
+    "end": 314.01
+  },
+  {
+    "text": "it",
+    "start": 314.01,
+    "end": 314.17
+  },
+  {
+    "text": "a",
+    "start": 314.17,
+    "end": 314.25
+  },
+  {
+    "text": "like",
+    "start": 314.25,
+    "end": 314.49
+  },
+  {
+    "text": "and",
+    "start": 314.49,
+    "end": 314.65
+  },
+  {
+    "text": "subscribe",
+    "start": 314.65,
+    "end": 315.21
+  },
+  {
+    "text": "for",
+    "start": 315.21,
+    "end": 315.37
+  },
+  {
+    "text": "more",
+    "start": 315.37,
+    "end": 315.61
+  },
+  {
+    "text": "everyday",
+    "start": 315.61,
+    "end": 316.17
+  },
+  {
+    "text": "engineering.",
+    "start": 316.17,
+    "end": 316.81
+  },
+  {
+    "text": "Thanks",
+    "start": 317.05,
+    "end": 317.37
+  },
+  {
+    "text": "for",
+    "start": 317.37,
+    "end": 317.53
+  },
+  {
+    "text": "watching.",
+    "start": 317.53,
+    "end": 317.93
+  }
+]
