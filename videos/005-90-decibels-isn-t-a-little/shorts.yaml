@@ -1,11 +1,11 @@
 shorts:
-  - title: "Why 90 dB is 10x more than 80 dB #shorts"
+  - title: "Why 90 dB is 10x more intense than 80 dB #shorts"
     hook: "90 dB vs 80 dB?"
-    scenes: [S01, S06, S13]
+    scenes: [S01, S06]
     end: "Full video on the channel"
-    description: "Decibels are logarithmic: every +10 dB is ten times the sound energy, and every +3 dB doubles it.\n\nFull video: [paste the main video's link]"
+    description: "Decibels are logarithmic: every +10 dB is ten times the sound intensity.\n\nFull video: [paste the main video's link]"
   - title: "Two 80 dB machines don't make 160 dB #shorts"
     hook: "80 dB + 80 dB = 160 dB?"
     scenes: [S08, S13]
     end: "Full video on the channel"
-    description: "You add the energy, not the decibels. Two identical 80 dB machines make about 83 dB.\n\nFull video: [paste the main video's link]"
+    description: "You add the intensities, not the decibels. Two independent 80 dB machines make about 83 dB.\n\nFull video: [paste the main video's link]"

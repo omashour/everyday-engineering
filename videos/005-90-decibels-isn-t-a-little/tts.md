@@ -1,4 +1,4 @@
-# Voice recording package — 90 Decibels Isn't a Bit More Than 80. It's 10x the Energy
+# Voice recording package — 90 Decibels Isn't a Bit More Than 80. It's 10x the Intensity
 
 Generated from scenes.yaml.
 
@@ -6,7 +6,7 @@ Generated from scenes.yaml.
 - **Model:** gemini-3.8-flash-tts
 - **Voice:** Cruz
 - **Language:** English
-- **Chunks:** 3 (about 280 words max each, split at scene boundaries)
+- **Chunks:** 4 (about 280 words max each, split at scene boundaries)
 
 ## How to record
 1. Open the Gemini speech generation page in Google AI Studio and pick the model and voice above.
@@ -34,44 +34,49 @@ A clear, warm, confident engineering teacher talking to one curious student. Ene
 | OSHA | OH-shuh |
 
 ## Chunk 1 → save as `audio/narration-01.wav`
-Scenes S01–S05 · 244 words · about 1:38
+Scenes S01–S04 · 194 words · about 1:18
 
 ```text
-This machine runs at about ninety decibels. A quieter one might run at eighty. That sounds like a small step. It's actually ten times the sound energy. Here's the math, and why it matters for your hearing.
+This machine runs at about ninety decibels. A quieter one might run at eighty. That sounds like a small difference. But it's actually ten times the sound intensity. Here's the math, and why it matters for your hearing.
 
 Let's see what a decibel really measures.
 
-Sound carries energy. Engineers measure its strength as intensity, in watts per square meter. The quietest sound a healthy ear can hear is about one trillionth of a watt per square meter. A jet taking off nearby is about a hundred watts per square meter. That's a hundred trillion times more. No ordinary scale handles a range like that.
+Sound carries energy. Engineers measure sound intensity in watts per square meter. Under ideal conditions, the faintest sound a healthy human ear can detect has an intensity of about one trillionth of a watt per square meter. A jet taking off nearby can produce about a hundred watts per square meter. That's a hundred trillion times more intense. A normal numerical scale would be difficult to use across such an enormous range.
 
-So engineers use a logarithm instead. The sound level L, in decibels, is ten times the log base ten of I over I zero. Here I zero is that quietest sound, one trillionth of a watt per square meter. A log simply counts factors of ten. Ten times I zero has a log of one, so it's ten decibels. A hundred times is twenty decibels. A trillion times is one hundred and twenty decibels.
-
-Here's how everyday sounds compare. The quietest sound is zero decibels. A soft whisper, about thirty, has a thousand times that intensity. Normal conversation, about sixty, has a million times. A running motorcycle engine, about ninety five, has roughly three billion times. And a jet taking off, about a hundred and forty decibels, has a hundred trillion times. Every thirty decibels is another factor of a thousand.
+So engineers use a logarithmic scale instead. The sound intensity level, L, in decibels, equals ten times the logarithm, base ten, of I divided by I zero. Here, I zero is the reference intensity: one trillionth of a watt per square meter. A logarithm tells us how many factors of ten are involved. Ten times the reference intensity gives ten decibels. A hundred times gives twenty decibels. And a trillion times gives one hundred and twenty decibels.
 ```
 
 ## Chunk 2 → save as `audio/narration-02.wav`
-Scenes S06–S09 · 235 words · about 1:34
+Scenes S05–S08 · 278 words · about 1:51
 
 ```text
-Now back to the hook. Going from eighty to ninety decibels adds ten. In the formula, ten more decibels means the log goes up by exactly one. And a log that's one bigger means one more factor of ten. So ninety decibels carries ten times the sound energy of eighty. Go up to a hundred decibels, and it's a hundred times.
+Here's how everyday sounds compare. The reference threshold of human hearing is zero decibels. A soft whisper, around thirty decibels, has a thousand times the reference intensity. Normal conversation, around sixty, has a million times. A loud motorcycle engine, around ninety five, has roughly three billion times. And a jet taking off nearby, around a hundred and forty decibels, has a hundred trillion times. These levels are approximate and depend on the source and distance. But the mathematical relationship is always the same: every thirty decibels represents another factor of a thousand.
 
-Here's a smaller step with a big meaning. What happens when you double the intensity? The change is ten times the log of two. The log of two is about zero point three, so that's about three decibels. Every three decibels doubles the sound energy. Going from eighty five to eighty eight decibels doubles it.
+Now back to our machines. Going from eighty to ninety decibels adds ten. In the formula, ten more decibels means the logarithm increases by exactly one. And that means one additional factor of ten. So ninety decibels represents ten times the sound intensity of eighty. Go up to a hundred decibels, and the intensity is a hundred times that of the original eighty decibel sound.
 
-What happens when two identical machines run side by side, each at eighty decibels? You don't add the decibels. You add the energy. Two machines give twice the intensity, and twice the intensity is three decibels more. So eighty plus eighty makes about eighty three. Ten identical machines make ten times the energy, which is ninety decibels.
+Here's a smaller increase with a surprisingly big meaning. What happens when you double the intensity? The change in sound level is ten times the logarithm of two. That's approximately three decibels. So every three decibel increase nearly doubles the sound intensity. Going from eighty five to eighty eight decibels is approximately a doubling.
 
-So does ninety decibels sound ten times louder than eighty? Not quite. Your ears also work on a kind of log scale. A common rule of thumb is that ten decibels more sounds about twice as loud. So the louder machine sounds roughly twice as loud, but it delivers ten times the energy. And hearing safety limits are built around the energy.
+What happens when two independent machines each produce eighty decibels at your listening position? You don't add the decibel numbers. You add their sound intensities. Two machines produce twice the intensity, giving approximately three decibels more. So eighty plus eighty makes about eighty three decibels. Ten identical, independent machines, each producing eighty decibels at that position, produce ten times the combined intensity of one machine: ninety decibels.
 ```
 
 ## Chunk 3 → save as `audio/narration-03.wav`
-Scenes S10–S14 · 241 words · about 1:36
+Scenes S09–S11 · 264 words · about 1:46
 
 ```text
-That's exactly how workplace noise limits work. NIOSH, the US agency that researches workplace safety, recommends no more than eight hours at eighty five decibels. Every three decibels more doubles the energy, so the time is cut in half. Eighty eight decibels, four hours. Ninety one, two hours. At a hundred decibels, just fifteen minutes. OSHA's legal limit is looser. It allows eight hours at ninety decibels, and halves the time every five decibels.
+But does ninety decibels sound ten times louder than eighty? Not necessarily. Perceived loudness is different from physical sound intensity. For many everyday sounds, a ten decibel increase is perceived as roughly twice as loud. So the louder machine may sound about twice as loud, even though its intensity is ten times greater. That distinction becomes especially important when protecting your hearing.
 
-Back to the machine from the start. Using the NIOSH rule, the safe time in hours is eight divided by two to the power of L minus eighty five, over three. At eighty decibels, that's about twenty five hours, more than a working day. At ninety decibels, it's about two and a half hours. Ten decibels, ten times the energy, and a full shift becomes a short morning.
+This is why workplace noise guidelines consider both sound level and exposure time. NIOSH, the U.S. agency that researches occupational safety and health, recommends an eight hour exposure limit of eighty five A-weighted decibels. For every three decibel increase, the recommended exposure duration is cut in half. At eighty eight decibels, that's four hours. At ninety one, two hours. And at one hundred decibels, just fifteen minutes. OSHA's legal limit for general industry is less protective: ninety decibels over eight hours, with exposure duration halved for every five decibel increase. These limits are based on long term hearing risk considerations, not a guarantee of safety for every individual.
 
-Decibels aren't just for sound. Engineers use them for wireless signal strength, for the gain of amplifiers, and for the noise in electronic circuits. Whenever a quantity spans many powers of ten, a log scale squeezes it onto a ruler you can actually read.
+Let's return to the machines from the beginning. Using the NIOSH exchange rate formula, the recommended exposure duration in hours equals eight divided by two raised to the power of the sound level minus eighty five, divided by three. At eighty decibels, the sound is below NIOSH's eighty five decibel reference level for an eight hour workday. But at ninety decibels, the recommended exposure duration falls to approximately two and a half hours. A difference of just ten decibels means ten times the sound intensity and a dramatic reduction in recommended exposure time.
+```
 
-So here's what to remember. Three decibels more is double the energy. Ten decibels more is ten times. That's why ninety decibels isn't a little louder than eighty. It's ten times the energy reaching your ears.
+## Chunk 4 → save as `audio/narration-04.wav`
+Scenes S12–S14 · 126 words · about 0:50
+
+```text
+Decibels aren't just for sound. Engineers use them for wireless signals, amplifier gain, and electronic noise. They're useful whenever we need to compare quantities that can vary across enormous numerical ranges. A logarithmic scale compresses those differences into numbers that are much easier to work with.
+
+So here's what to remember. Three decibels more means approximately twice the sound intensity. Ten decibels more means ten times the intensity. And over the same amount of time, ten times the intensity means ten times the sound energy reaches a given area. That's why ninety decibels isn't just a little more than eighty. It's a tenfold increase in sound intensity.
 
 If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
 ```

@@ -6,5 +6,5 @@ variants:
     note: "not 12.5% more!"
   - template: photo
     image: workshop-machine.jpg
-    text: "+10 dB = 10× Energy"
+    text: "+10 dB = 10× Intensity"
     highlight: ["10×"]
