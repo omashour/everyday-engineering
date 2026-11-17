@@ -210,6 +210,6 @@ The build spaces out small collisions automatically and lists any that remain ("
 - [ ] Components and params exist in components.md; required params present
 - [ ] ≥ 3 chapters, first on S01
 - [ ] Last scene is end-card
-- [ ] Each Short has its own scenes and narration (70–110 words), hook first, makes sense alone, ends by pointing to the full video
+- [ ] Each Short has its own scenes and narration (70–110 words), hook first, makes sense alone, ends by pointing to the full video; `scenes:` holds scene objects with `say`, never `[S01, …]`
 - [ ] Labels follow the spacing rules above (nothing can land on another label, in 16:9 or vertical)
 - [ ] assets-needed.md lists every photo used (or "None")
