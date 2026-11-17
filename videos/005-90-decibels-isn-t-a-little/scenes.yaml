@@ -1,0 +1,25 @@
+# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 005`.
+video:
+  id: "005"
+  topic: T10
+  title: "90 Decibels Isn't a Little Louder Than 80. It's 10x Louder."
+  style: ""            # e.g. "B hook + A body"
+  playlist: math-for-engineers
+  voice_note: ""
+  pronounce: {}
+
+scenes:
+  - id: S01
+    component: title-card
+    chapter: "Intro"
+    say: >-
+      Replace me with the hook.
+    params:
+      title: "90 Decibels Isn't a Little Louder Than 80. It's 10x Louder."
+
+  - id: S99
+    component: end-card
+    say: >-
+      See you in the next one.
+    params:
+      line: ""
