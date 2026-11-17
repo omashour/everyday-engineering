@@ -1,25 +1,221 @@
-# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 005`.
 video:
   id: "005"
   topic: T10
-  title: "90 Decibels Isn't a Little Louder Than 80. It's 10x Louder."
-  style: ""            # e.g. "B hook + A body"
+  title: "90 Decibels Isn't a Bit More Than 80. It's 10x the Energy"
+  style: "B hook + A body"
   playlist: math-for-engineers
+  phase: math
+  series: null
   voice_note: ""
-  pronounce: {}
+  pronounce: {NIOSH: NYE-osh, OSHA: OH-shuh}
 
 scenes:
   - id: S01
-    component: title-card
-    chapter: "Intro"
+    component: photo-overlay
+    chapter: "Ten decibels more"
     say: >-
-      Replace me with the hook.
+      This machine runs at about ninety decibels. A quieter one might run at eighty.
+      That sounds like a small step. It's actually ten times the sound energy.
+      Here's the math, and why it matters for your hearing.
     params:
-      title: "90 Decibels Isn't a Little Louder Than 80. It's 10x Louder."
+      src: workshop-machine.jpg
+      credit: "Image: AI-generated"
+      title: "+10 dB = ?"
+      overlays:
+        - {type: callout, pos: [62, 55], text: "≈ 90 dB", side: right, cue: "about ninety decibels"}
+        - {type: label, pos: [50, 86], text: "80 dB → 90 dB", cue: "small step"}
+        - {type: tex, pos: [50, 30], tex: "\\times 10\\ \\text{sound energy}", cue: "ten times the"}
 
-  - id: S99
-    component: end-card
+  - id: S02
+    component: title-card
+    say: Let's see what a decibel really measures.
+    params: {kicker: "Everyday Engineering · Logarithms", title: "90 Decibels Isn't a Bit More Than 80"}
+
+  - id: S03
+    component: big-fact
+    chapter: "A huge range of sound"
     say: >-
-      See you in the next one.
+      Sound carries energy. Engineers measure its strength as intensity, in watts per square
+      meter. The quietest sound a healthy ear can hear is about one trillionth of a watt per
+      square meter. A jet taking off nearby is about a hundred watts per square meter. That's
+      a hundred trillion times more. No ordinary scale handles a range like that.
     params:
-      line: ""
+      label: "Jet takeoff vs the quietest sound"
+      value: "$10^{14}\\times$"
+      sub: "100 W/m² vs 0.000000000001 W/m²"
+      cue: "hundred trillion times"
+
+  - id: S04
+    component: equation-steps
+    chapter: "The decibel formula"
+    say: >-
+      So engineers use a logarithm instead. The sound level L, in decibels, is ten times the
+      log base ten of I over I zero. Here I zero is that quietest sound, one trillionth of a
+      watt per square meter. A log simply counts factors of ten. Ten times I zero has a log
+      of one, so it's ten decibels. A hundred times is twenty decibels. A trillion times is
+      one hundred and twenty decibels.
+    params:
+      heading: "Sound level in decibels"
+      lines:
+        - {tex: "L = 10\\log_{10}\\!\\left(\\dfrac{I}{I_0}\\right)", mark: true, cue: "ten times the log"}
+        - {tex: "I_0 = 10^{-12}\\ \\text{W/m}^2", cue: "one trillionth"}
+        - {tex: "I = 10\\,I_0 \\;\\Rightarrow\\; L = 10\\ \\text{dB}", cue: "has a log"}
+        - {tex: "I = 100\\,I_0 \\;\\Rightarrow\\; L = 20\\ \\text{dB}", cue: "twenty decibels"}
+        - {tex: "I = 10^{12}\\,I_0 \\;\\Rightarrow\\; L = 120\\ \\text{dB}", box: true, cue: "one hundred and twenty"}
+
+  - id: S05
+    component: table
+    chapter: "Everyday sounds"
+    say: >-
+      Here's how everyday sounds compare. The quietest sound is zero decibels. A soft whisper,
+      about thirty, has a thousand times that intensity. Normal conversation, about sixty,
+      has a million times. A running motorcycle engine, about ninety five, has roughly three
+      billion times. And a jet taking off, about a hundred and forty decibels, has a hundred
+      trillion times. Every thirty decibels is another factor of a thousand.
+    params:
+      heading: "Typical sound levels (CDC)"
+      headers: ["Sound", "Level", "Intensity vs quietest"]
+      rows:
+        - ["Quietest sound heard", "0 dB", "1×"]
+        - ["Soft whisper", "30 dB", "1,000×"]
+        - ["Normal conversation", "60 dB", "1,000,000×"]
+        - ["Motorcycle engine", "95 dB", "≈ 3 billion×"]
+        - ["Jet taking off", "140 dB", "100 trillion×"]
+      row_cues: ["zero decibels", "soft whisper", "Normal conversation", "motorcycle engine", "jet taking off"]
+      highlight: {row: 4, cue: "factor of a thousand"}
+
+  - id: S06
+    component: equation-steps
+    chapter: "+10 dB means ×10"
+    say: >-
+      Now back to the hook. Going from eighty to ninety decibels adds ten. In the formula,
+      ten more decibels means the log goes up by exactly one. And a log that's one bigger
+      means one more factor of ten. So ninety decibels carries ten times the sound energy
+      of eighty. Go up to a hundred decibels, and it's a hundred times.
+    params:
+      heading: "+10 dB means ×10"
+      lines:
+        - {tex: "\\Delta L = 10\\log_{10}\\!\\left(\\dfrac{I_2}{I_1}\\right)", cue: "back to the hook"}
+        - {tex: "90 - 80 = 10 \\;\\Rightarrow\\; \\log_{10}\\!\\left(\\dfrac{I_2}{I_1}\\right) = 1", cue: "goes up by"}
+        - {tex: "\\dfrac{I_2}{I_1} = 10", box: true, circle: true, cue: "ten times the"}
+        - {tex: "100\\ \\text{dB vs } 80\\ \\text{dB}:\\ \\times 100", cue: "a hundred times"}
+
+  - id: S07
+    component: equation-steps
+    chapter: "+3 dB means double"
+    say: >-
+      Here's a smaller step with a big meaning. What happens when you double the intensity?
+      The change is ten times the log of two. The log of two is about zero point three, so
+      that's about three decibels. Every three decibels doubles the sound energy. Going from
+      eighty five to eighty eight decibels doubles it.
+    params:
+      heading: "+3 dB means double"
+      lines:
+        - {tex: "\\Delta L = 10\\log_{10} 2", cue: "double the intensity"}
+        - {tex: "\\log_{10} 2 \\approx 0.301", cue: "zero point three"}
+        - {tex: "\\Delta L \\approx 3\\ \\text{dB}", box: true, note: "×2 energy", cue: "about three decibels"}
+        - {tex: "85 \\to 88\\ \\text{dB}:\\ \\times 2", cue: "eighty eight"}
+
+  - id: S08
+    component: diagram
+    chapter: "80 + 80 isn't 160"
+    say: >-
+      What happens when two identical machines run side by side, each at eighty decibels?
+      You don't add the decibels. You add the energy. Two machines give twice the intensity,
+      and twice the intensity is three decibels more. So eighty plus eighty makes about eighty
+      three. Ten identical machines make ten times the energy, which is ninety decibels.
+    params:
+      heading: "Two 80 dB machines ≠ 160 dB"
+      view: [1000, 600]
+      items:
+        - {type: rect, pos: [80, 180], size: [200, 150], fill: blue, label: "80 dB", cue: "two identical machines"}
+        - {type: rect, pos: [320, 180], size: [200, 150], fill: blue, label: "80 dB", cue: "side by side"}
+        - {type: text, pos: [300, 420], text: "add energy, not decibels", hand: true, size: l, color: red, anchor: middle, cue: "add the energy"}
+        - {type: tex, pos: [780, 170], tex: "80 + 80 \\neq 160", color: red, cue: "add the decibels"}
+        - {type: tex, pos: [780, 290], tex: "2\\times 10^{8}\\,I_0 \\to 83\\ \\text{dB}", cue: "eighty three"}
+        - {type: tex, pos: [780, 410], tex: "10\\times 10^{8}\\,I_0 \\to 90\\ \\text{dB}", cue: "Ten identical machines"}
+
+  - id: S09
+    component: bullets
+    chapter: "Energy vs loudness"
+    say: >-
+      So does ninety decibels sound ten times louder than eighty? Not quite. Your ears also
+      work on a kind of log scale. A common rule of thumb is that ten decibels more sounds
+      about twice as loud. So the louder machine sounds roughly twice as loud, but it delivers
+      ten times the energy. And hearing safety limits are built around the energy.
+    params:
+      heading: "Energy vs how loud it sounds"
+      items:
+        - {text: "+10 dB: ×10 sound energy", icon: bolt, cue: "ten times the energy"}
+        - {text: "+10 dB: sounds ≈ 2× as loud", icon: ear, cue: "rule of thumb"}
+        - {text: "Safety limits follow the energy", icon: shield-check, cue: "hearing safety limits"}
+
+  - id: S10
+    component: table
+    chapter: "Workplace noise limits"
+    say: >-
+      That's exactly how workplace noise limits work. NIOSH, the US agency that researches
+      workplace safety, recommends no more than eight hours at eighty five decibels. Every
+      three decibels more doubles the energy, so the time is cut in half. Eighty eight
+      decibels, four hours. Ninety one, two hours. At a hundred decibels, just fifteen minutes.
+      OSHA's legal limit is looser. It allows eight hours at ninety decibels, and halves the
+      time every five decibels.
+    params:
+      heading: "Daily noise limits (dBA)"
+      headers: ["Time allowed", "NIOSH (3 dB rule)", "OSHA (5 dB rule)"]
+      rows:
+        - ["8 h", "85 dBA", "90 dBA"]
+        - ["4 h", "88 dBA", "95 dBA"]
+        - ["2 h", "91 dBA", "100 dBA"]
+        - ["1 h", "94 dBA", "105 dBA"]
+        - ["15 min", "100 dBA", "115 dBA"]
+      row_cues: ["eight hours at eighty", "Eighty eight", "Ninety one", "At a hundred", "fifteen minutes"]
+      highlight: {row: 0, col: 2, cue: "OSHA's legal limit"}
+
+  - id: S11
+    component: equation-steps
+    chapter: "Back to the machine"
+    say: >-
+      Back to the machine from the start. Using the NIOSH rule, the safe time in hours is
+      eight divided by two to the power of L minus eighty five, over three. At eighty decibels,
+      that's about twenty five hours, more than a working day. At ninety decibels, it's about
+      two and a half hours. Ten decibels, ten times the energy, and a full shift becomes a
+      short morning.
+    params:
+      heading: "Safe time (NIOSH guideline)"
+      lines:
+        - {tex: "T = \\dfrac{8}{2^{(L-85)/3}}\\ \\text{h}", mark: true, cue: "safe time in hours"}
+        - {tex: "L = 80:\\ T \\approx 25\\ \\text{h}", cue: "twenty five hours"}
+        - {tex: "L = 90:\\ T \\approx 2.5\\ \\text{h}", box: true, note: "×10 energy", cue: "two and a half"}
+
+  - id: S12
+    component: bullets
+    chapter: "Decibels in engineering"
+    say: >-
+      Decibels aren't just for sound. Engineers use them for wireless signal strength, for the
+      gain of amplifiers, and for the noise in electronic circuits. Whenever a quantity spans
+      many powers of ten, a log scale squeezes it onto a ruler you can actually read.
+    params:
+      heading: "Decibels across engineering"
+      items:
+        - {text: "Wireless signal strength", icon: wifi, cue: "wireless signal"}
+        - {text: "Amplifier gain", icon: volume, cue: "amplifiers"}
+        - {text: "Noise in electronic circuits", icon: cpu, cue: "electronic circuits"}
+
+  - id: S13
+    component: big-fact
+    chapter: "Remember this"
+    say: >-
+      So here's what to remember. Three decibels more is double the energy. Ten decibels more
+      is ten times. That's why ninety decibels isn't a little louder than eighty. It's ten
+      times the energy reaching your ears.
+    params:
+      label: "Remember"
+      value: "+10 dB = ×10"
+      sub: "+3 dB = ×2 energy"
+      cue: "Ten decibels more"
+
+  - id: S14
+    component: end-card
+    say: If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+    params: {line: "Thanks for watching"}

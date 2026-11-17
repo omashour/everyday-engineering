@@ -1,9 +1,10 @@
 variants:
   - template: equation
-    text: ""
-    highlight: []
-    tex: ""
+    text: "90 dB = 10× 80 dB"
+    highlight: ["10×"]
+    tex: "L = 10\\log_{10}\\left(\\frac{I}{I_0}\\right)"
+    note: "not 12.5% more!"
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: workshop-machine.jpg
+    text: "+10 dB = 10× Energy"
+    highlight: ["10×"]
