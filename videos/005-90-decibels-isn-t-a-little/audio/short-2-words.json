@@ -1,0 +1,347 @@
+[
+  {
+    "text": "Two",
+    "start": 0.24,
+    "end": 0.48
+  },
+  {
+    "text": "machines,",
+    "start": 0.48,
+    "end": 1.2
+  },
+  {
+    "text": "each",
+    "start": 1.2,
+    "end": 1.6
+  },
+  {
+    "text": "at",
+    "start": 1.6,
+    "end": 1.84
+  },
+  {
+    "text": "eighty",
+    "start": 1.84,
+    "end": 2.32
+  },
+  {
+    "text": "decibels.",
+    "start": 2.32,
+    "end": 3.28
+  },
+  {
+    "text": "Together?",
+    "start": 3.28,
+    "end": 3.92
+  },
+  {
+    "text": "Are",
+    "start": 3.92,
+    "end": 4.16
+  },
+  {
+    "text": "they",
+    "start": 4.16,
+    "end": 4.32
+  },
+  {
+    "text": "160?",
+    "start": 4.56,
+    "end": 5.92
+  },
+  {
+    "text": "Not",
+    "start": 5.92,
+    "end": 6.24
+  },
+  {
+    "text": "even",
+    "start": 6.24,
+    "end": 6.48
+  },
+  {
+    "text": "close.",
+    "start": 6.48,
+    "end": 7.04
+  },
+  {
+    "text": "You",
+    "start": 7.04,
+    "end": 7.28
+  },
+  {
+    "text": "don't",
+    "start": 7.28,
+    "end": 7.6
+  },
+  {
+    "text": "add",
+    "start": 7.6,
+    "end": 7.92
+  },
+  {
+    "text": "decibels.",
+    "start": 7.92,
+    "end": 8.8
+  },
+  {
+    "text": "You",
+    "start": 8.8,
+    "end": 8.96
+  },
+  {
+    "text": "add",
+    "start": 8.96,
+    "end": 9.2
+  },
+  {
+    "text": "the",
+    "start": 9.2,
+    "end": 9.36
+  },
+  {
+    "text": "sound",
+    "start": 9.36,
+    "end": 9.76
+  },
+  {
+    "text": "intensities.",
+    "start": 9.76,
+    "end": 10.72
+  },
+  {
+    "text": "Two",
+    "start": 10.88,
+    "end": 11.28
+  },
+  {
+    "text": "machines",
+    "start": 11.28,
+    "end": 11.84
+  },
+  {
+    "text": "give",
+    "start": 11.84,
+    "end": 12.16
+  },
+  {
+    "text": "twice",
+    "start": 12.16,
+    "end": 12.56
+  },
+  {
+    "text": "the",
+    "start": 12.56,
+    "end": 12.72
+  },
+  {
+    "text": "intensity.",
+    "start": 12.72,
+    "end": 13.6
+  },
+  {
+    "text": "Ten",
+    "start": 13.6,
+    "end": 13.84
+  },
+  {
+    "text": "times",
+    "start": 14,
+    "end": 14.24
+  },
+  {
+    "text": "the",
+    "start": 14.24,
+    "end": 14.48
+  },
+  {
+    "text": "log",
+    "start": 14.48,
+    "end": 14.8
+  },
+  {
+    "text": "of",
+    "start": 14.8,
+    "end": 14.96
+  },
+  {
+    "text": "two",
+    "start": 14.96,
+    "end": 15.12
+  },
+  {
+    "text": "is",
+    "start": 15.28,
+    "end": 15.52
+  },
+  {
+    "text": "about",
+    "start": 15.52,
+    "end": 15.76
+  },
+  {
+    "text": "three.",
+    "start": 15.76,
+    "end": 16.4
+  },
+  {
+    "text": "So",
+    "start": 16.4,
+    "end": 16.72
+  },
+  {
+    "text": "eighty",
+    "start": 16.72,
+    "end": 17.12
+  },
+  {
+    "text": "plus",
+    "start": 17.2,
+    "end": 17.44
+  },
+  {
+    "text": "eighty",
+    "start": 17.44,
+    "end": 17.84
+  },
+  {
+    "text": "is",
+    "start": 17.92,
+    "end": 18.16
+  },
+  {
+    "text": "about",
+    "start": 18.16,
+    "end": 18.4
+  },
+  {
+    "text": "eighty",
+    "start": 18.4,
+    "end": 18.72
+  },
+  {
+    "text": "three",
+    "start": 18.8,
+    "end": 19.04
+  },
+  {
+    "text": "decibels.",
+    "start": 19.04,
+    "end": 20
+  },
+  {
+    "text": "It",
+    "start": 20,
+    "end": 20.24
+  },
+  {
+    "text": "takes",
+    "start": 20.24,
+    "end": 20.56
+  },
+  {
+    "text": "ten",
+    "start": 20.56,
+    "end": 20.8
+  },
+  {
+    "text": "machines",
+    "start": 20.96,
+    "end": 21.44
+  },
+  {
+    "text": "to",
+    "start": 21.44,
+    "end": 21.6
+  },
+  {
+    "text": "reach",
+    "start": 21.6,
+    "end": 21.92
+  },
+  {
+    "text": "ninety.",
+    "start": 21.92,
+    "end": 22.4
+  },
+  {
+    "text": "That's",
+    "start": 22.56,
+    "end": 22.8
+  },
+  {
+    "text": "why",
+    "start": 22.8,
+    "end": 23.04
+  },
+  {
+    "text": "a",
+    "start": 23.04,
+    "end": 23.12
+  },
+  {
+    "text": "noisy",
+    "start": 23.12,
+    "end": 23.68
+  },
+  {
+    "text": "factory",
+    "start": 23.68,
+    "end": 24.08
+  },
+  {
+    "text": "floor",
+    "start": 24.08,
+    "end": 24.4
+  },
+  {
+    "text": "is",
+    "start": 24.4,
+    "end": 24.56
+  },
+  {
+    "text": "never",
+    "start": 24.56,
+    "end": 24.88
+  },
+  {
+    "text": "hundreds",
+    "start": 24.88,
+    "end": 25.28
+  },
+  {
+    "text": "of",
+    "start": 25.28,
+    "end": 25.44
+  },
+  {
+    "text": "decibels.",
+    "start": 25.44,
+    "end": 26.16
+  },
+  {
+    "text": "The",
+    "start": 26.16,
+    "end": 26.32
+  },
+  {
+    "text": "full",
+    "start": 26.32,
+    "end": 26.56
+  },
+  {
+    "text": "video",
+    "start": 26.56,
+    "end": 26.72
+  },
+  {
+    "text": "shows",
+    "start": 26.88,
+    "end": 27.12
+  },
+  {
+    "text": "why.",
+    "start": 27.12,
+    "end": 27.44
+  }
+]
