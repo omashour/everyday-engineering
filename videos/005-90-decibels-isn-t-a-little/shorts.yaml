@@ -1,11 +1,68 @@
 shorts:
   - title: "Why 90 dB is 10x more intense than 80 dB #shorts"
     hook: "90 dB vs 80 dB?"
-    scenes: [S01, S06]
     end: "Full video on the channel"
     description: "Decibels are logarithmic: every +10 dB is ten times the sound intensity.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: A1
+        component: photo-overlay
+        say: >-
+          Ninety decibels sounds like just a bit more than eighty. It's actually ten times
+          the sound intensity.
+        params:
+          src: workshop-machine.jpg
+          credit: "Image: AI-generated"
+          overlays:
+            - {type: label, pos: [50, 80], text: "80 dB → 90 dB", cue: "Ninety decibels"}
+            - {type: callout, pos: [62, 45], text: "×10 intensity", side: right, cue: "ten times"}
+      - id: A2
+        component: equation-steps
+        say: >-
+          Decibels are ten times the logarithm of the intensity ratio. Ten more decibels means
+          the logarithm goes up by one. That's one more factor of ten.
+        params:
+          heading: "+10 dB means ×10"
+          lines:
+            - {tex: '\Delta L = 10\log_{10}\!\left(\dfrac{I_2}{I_1}\right)', cue: "Decibels are ten"}
+            - {tex: '90 - 80 = 10 \;\Rightarrow\; \dfrac{I_2}{I_1} = 10', box: true, cue: "Ten more decibels"}
+      - id: A3
+        component: big-fact
+        say: >-
+          So a hundred decibels is a hundred times the intensity of eighty. And at ninety, the
+          safe daily exposure drops to about two and a half hours. The full video shows the math.
+        params:
+          label: "100 dB vs 80 dB"
+          value: "×100"
+          sub: "90 dB: ≈ 2.5 h a day (NIOSH)"
+          cue: "a hundred times"
   - title: "Two 80 dB machines don't make 160 dB #shorts"
     hook: "80 dB + 80 dB = 160 dB?"
-    scenes: [S08, S13]
     end: "Full video on the channel"
     description: "You add the intensities, not the decibels. Two independent 80 dB machines make about 83 dB.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: B1
+        component: diagram
+        say: >-
+          Two machines, each at eighty decibels. Together, are they a hundred and sixty?
+          Not even close. You don't add decibels. You add the sound intensities.
+        params:
+          heading: "80 dB + 80 dB = ?"
+          view: [1000, 600]
+          items:
+            - {type: rect, pos: [120, 160], size: [300, 200], fill: blue, label: "80 dB", cue: "Two machines"}
+            - {type: rect, pos: [580, 160], size: [300, 200], fill: blue, label: "80 dB", cue: "each at eighty"}
+            - {type: tex, pos: [500, 450], tex: '80 + 80 \neq 160', color: red, cue: "Not even close"}
+            - {type: text, pos: [500, 550], text: "add intensities", hand: true, color: red, anchor: middle, cue: "add the sound"}
+      - id: B2
+        component: equation-steps
+        say: >-
+          Two machines give twice the intensity. Ten times the log of two is about three. So
+          eighty plus eighty is about eighty three decibels. It takes ten machines to reach
+          ninety. That's why a noisy factory floor is never hundreds of decibels. The full video
+          shows why.
+        params:
+          heading: "Double the intensity = +3 dB"
+          lines:
+            - {tex: '10\log_{10} 2 \approx 3\ \text{dB}', cue: "log of two"}
+            - {tex: '2 \times 80\ \text{dB} \to 83\ \text{dB}', box: true, cue: "eighty three decibels"}
+            - {tex: '10 \times 80\ \text{dB} \to 90\ \text{dB}', cue: "ten machines"}

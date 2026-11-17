@@ -248,6 +248,34 @@ async function renderVideo(dir) {
   }
 }
 
+const SHORTS_REQUEST = `Rewrite shorts.yaml for this video as STANDALONE Shorts (skill: scenes-format.md → shorts.yaml). Each Short gets its own scenes with their own narration (\`say\`), 70–110 words in total, hook first, one idea, last sentence points to the full video. Do NOT use the old format \`scenes: [S01, S06]\`. Send only shorts.yaml, in one block:
+
+~~~~~text
+===== FILE: shorts.yaml =====
+shorts:
+  - title: "… #shorts"
+    hook: "…"
+    end: "Full video on the channel"
+    description: "…\\n\\nFull video: [paste the main video's link]"
+    scenes:
+      - id: A1
+        component: photo-overlay
+        say: >-
+          …
+        params: { … }
+      - id: A2
+        component: equation-steps
+        say: >-
+          …
+        params: { … }
+  - title: "… #shorts"
+    …
+    scenes:
+      - id: B1
+        …
+===== END =====
+~~~~~`;
+
 function probsList(v) {
   const list = v.problems.length ? v.problems : [{ level: "ok", msg: "Script checks passed." }];
   return `<ul class="probs">${list.map((p) => `<li class="${p.level === "warn" ? "warn" : p.level}">${esc(p.msg)}</li>`).join("")}</ul>
@@ -269,6 +297,7 @@ function scriptStep(el, d, dir) {
     <div class="row"><button class="primary" data-copytext="labelled">Copy full script</button><button data-copytext="plain">Copy narration only (no scene labels)</button></div>
     <details style="margin-top:8px"><summary class="small">Show it here</summary><div class="copy"><pre>${esc(d.fullScript.labelled)}</pre></div></details>` : ""}
     <h3>Check</h3>${probsList(d.validation)}
+    ${d.shortsSpec.some((s) => !s.standalone) ? `<div class="callout"><b>The Shorts have no scripts of their own.</b> Claude wrote them in the old format (a list of the long video's scenes). Copy this request into the same Claude.ai chat, then paste Claude's reply in the box above and press Save script:${copyBox(SHORTS_REQUEST, 'style="max-height:140px"')}</div>` : ""}
     <p class="muted small">If there's a ✖ error, copy the message into the same Claude.ai chat; Claude sends back only the fixed scene — paste it here or into scenes.yaml.</p>`;
   const ta = $("#paste", el);
   ta.addEventListener("dragover", (e) => { e.preventDefault(); ta.classList.add("over"); });

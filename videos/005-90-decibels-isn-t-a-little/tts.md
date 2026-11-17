@@ -7,6 +7,7 @@ Generated from scenes.yaml.
 - **Voice:** Cruz
 - **Language:** English
 - **Chunks:** 4 (about 280 words max each, split at scene boundaries)
+- **Shorts:** 2 separate recordings (short-1.wav …)
 
 ## How to record
 1. Open the Gemini speech generation page in Google AI Studio and pick the model and voice above.
@@ -79,4 +80,24 @@ Decibels aren't just for sound. Engineers use them for wireless signals, amplifi
 So here's what to remember. Three decibels more means approximately twice the sound intensity. Ten decibels more means ten times the intensity. And over the same amount of time, ten times the intensity means ten times the sound energy reaches a given area. That's why ninety decibels isn't just a little more than eighty. It's a tenfold increase in sound intensity.
 
 If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+```
+
+## Short 1 (Why 90 dB is 10x more intense than 80 dB #shorts) → save as `audio/short-1.wav`
+Its own recording · 76 words · about 0:30. Same voice and style, with a little more energy.
+
+```text
+Ninety decibels sounds like just a bit more than eighty. It's actually ten times the sound intensity.
+
+Decibels are ten times the logarithm of the intensity ratio. Ten more decibels means the logarithm goes up by one. That's one more factor of ten.
+
+So a hundred decibels is a hundred times the intensity of eighty. And at ninety, the safe daily exposure drops to about two and a half hours. The full video shows the math.
+```
+
+## Short 2 (Two 80 dB machines don't make 160 dB #shorts) → save as `audio/short-2.wav`
+Its own recording · 72 words · about 0:29. Same voice and style, with a little more energy.
+
+```text
+Two machines, each at eighty decibels. Together, are they a hundred and sixty? Not even close. You don't add decibels. You add the sound intensities.
+
+Two machines give twice the intensity. Ten times the log of two is about three. So eighty plus eighty is about eighty three decibels. It takes ten machines to reach ninety. That's why a noisy factory floor is never hundreds of decibels. The full video shows why.
 ```

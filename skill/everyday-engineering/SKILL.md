@@ -46,7 +46,21 @@ Read `references/scenes-format.md`, `references/components.md` and `references/c
 1. `scenes.yaml` — the whole video: narration (`say`) and visuals (`component` + `params`) for every scene. This is the main deliverable.
 2. `metadata.md` — exactly these fields, each starting a line: `**Title:**` (≤ 60 characters), `**Alternates:**` (2, separated by ` · `), `**Playlist:**` (a playlist id from channel.md), `**Description:**` (2–4 short paragraphs: the hook, what the viewer learns, assumptions; then a line `Chapters` and a line `[paste chapters.txt here]`), `**Tags:**` (comma-separated, under 400 characters), `**Pinned comment:**` (a quick question with its answer). Don't add the channel footer, subscribe link or hashtags: `npm run upload-sheet` adds them and fills in the chapters.
 3. `thumbnail.yaml` — 2 variants for A/B testing.
-4. `shorts.yaml` — 1–2 standalone Shorts, each with its **own scenes and narration** (70–110 words, hook first, one idea, ends by pointing to the full video). Never list long-video scene ids. Format and rules: scenes-format.md → shorts.yaml.
+4. `shorts.yaml` — 1–2 standalone Shorts, each with its **own scenes and narration** (70–110 words, hook first, one idea, ends by pointing to the full video). Format and rules: scenes-format.md → shorts.yaml. **Required shape** (the app rejects anything else):
+   ```yaml
+   shorts:
+     - title: "… #shorts"
+       hook: "…"
+       end: "Full video on the channel"
+       description: "…\n\nFull video: [paste the main video's link]"
+       scenes:                 # full scene objects, written for the Short (ids A1, A2… / B1, B2…)
+         - id: A1
+           component: photo-overlay
+           say: >-
+             …
+           params: { … }
+   ```
+   **Never** write `scenes: [S01, S06]` (a list of long-video scene ids). That is an old format: it gives the Short no script of its own, and earlier videos in the repo that use it are not examples to follow.
 5. `assets-needed.md` — images the user must supply. For each file (exact file name as used in scenes.yaml/thumbnail.yaml): what it shows; where the overlays expect things to be (in % across/down, matching the scene's overlay positions; keep the top ~15% plain when the scene has a title); then **an AI image prompt** in its own ```text block, ready to paste into Gemini or ChatGPT (you can't generate photos yourself). Prompt rules: "Photorealistic wide 16:9 photo of …", the subject placed where the overlays expect it, everyday realistic look, people seen from behind/side so no face is the focus, and always end with "No text, no signs with words, no logos or brand names, no watermarks." Also list the real-photo alternative (Wikimedia Commons / Openverse search terms, CC0/CC BY/CC BY-SA). Set the scene's `credit` to "Image: AI-generated" (the user changes it if they use a real photo). Write "None" if no images are needed; prefer diagrams/graphs over photos except for the hook.
 
 **Never mention or suggest the next video.** The ending (`end-card`) is a short sign-off asking viewers to like and subscribe ("If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!"); no "next time", no teaser of another topic anywhere in the script, metadata or pinned comment. Topics are suggested only when the user asks ("suggest topics").

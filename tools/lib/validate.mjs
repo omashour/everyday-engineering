@@ -58,7 +58,9 @@ export async function validateVideo(v, { format = "long" } = {}) {
       if (sh.scenes.some((s) => s.component === "end-card")) warn(`Short ${sh.n}: don't add an end-card; the Short's end card is added automatically.`);
     }
     for (const sh of shorts.filter((x) => !x.standalone)) {
-      warn(`Short ${sh.n} only lists long-video scenes (old format), so it has no script of its own. Ask Claude: "write standalone Shorts for this video" and paste its reply.`);
+      // videos from 005 on must have standalone Shorts; older ones keep working with a warning
+      const msg = `Short ${sh.n} only lists long-video scenes (old format), so it has no script of its own. Press "Copy request for Claude" below, paste it in the same Claude.ai chat, and paste Claude's reply here.`;
+      (parseInt(path.basename(v.dir ?? ""), 10) >= 5 ? err : warn)(msg);
       for (const id of sh.spec.scenes ?? []) if (!v.scenes.some((s) => s.id === id)) err(`Short ${sh.n}: scene ${id} is not in scenes.yaml`);
     }
   }
