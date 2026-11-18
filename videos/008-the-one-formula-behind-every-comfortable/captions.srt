@@ -1,0 +1,723 @@
+1
+00:00:00,160 --> 00:00:02,160
+Some stairs you climb without thinking.
+
+2
+00:00:02,160 --> 00:00:04,960
+Others feel awkward, too steep or too
+
+3
+00:00:04,960 --> 00:00:06,160
+stretched out.
+
+4
+00:00:06,160 --> 00:00:08,000
+Much of the difference comes down to two
+
+5
+00:00:08,000 --> 00:00:09,760
+measurements, and one rule of thumb
+
+6
+00:00:09,920 --> 00:00:12,080
+designers have used for over three hundred
+
+7
+00:00:12,080 --> 00:00:12,960
+years.
+
+8
+00:00:12,960 --> 00:00:15,040
+Let's work through that rule, with a tape
+
+9
+00:00:15,040 --> 00:00:17,360
+measure and a little algebra.
+
+10
+00:00:17,360 --> 00:00:19,200
+Every step has two measurements.
+
+11
+00:00:19,360 --> 00:00:21,600
+The rise is the vertical distance from one
+
+12
+00:00:21,600 --> 00:00:23,040
+step surface to the next.
+
+13
+00:00:23,200 --> 00:00:25,680
+The tread depth, on a straight stair, is
+
+14
+00:00:25,680 --> 00:00:27,440
+the horizontal distance from the front
+
+15
+00:00:27,440 --> 00:00:29,200
+edge of one step to the front edge of the
+
+16
+00:00:29,200 --> 00:00:31,920
+next. We'll call them R and T.
+
+17
+00:00:31,920 --> 00:00:34,400
+On a typical comfortable home stair, the
+
+18
+00:00:34,400 --> 00:00:36,400
+rise is about seventeen and a half
+
+19
+00:00:36,400 --> 00:00:38,270
+centimeters, and the tread depth is about
+
+20
+00:00:38,280 --> 00:00:39,120
+twenty eight.
+
+21
+00:00:39,120 --> 00:00:40,880
+That's about seven inches up and eleven
+
+22
+00:00:41,040 --> 00:00:42,480
+inches deep.
+
+23
+00:00:42,480 --> 00:00:44,320
+Start on flat ground.
+
+24
+00:00:44,320 --> 00:00:46,800
+When you walk at an easy pace, each step
+
+25
+00:00:46,800 --> 00:00:48,880
+covers some distance, from one footprint
+
+26
+00:00:48,880 --> 00:00:51,040
+to the next. That distance varies from
+
+27
+00:00:51,040 --> 00:00:52,880
+person to person, and with how fast you
+
+28
+00:00:52,880 --> 00:00:55,280
+walk. But a stair designer needs one
+
+29
+00:00:55,280 --> 00:00:56,480
+number to aim for.
+
+30
+00:00:56,550 --> 00:00:58,870
+In this video, we'll use sixty three
+
+31
+00:00:58,870 --> 00:01:01,510
+centimeters, about twenty five inches.
+
+32
+00:01:01,830 --> 00:01:03,590
+Here's the rule of thumb.
+
+33
+00:01:03,590 --> 00:01:05,910
+Twice the rise, plus the tread depth,
+
+34
+00:01:05,910 --> 00:01:07,220
+should land near that target.
+
+35
+00:01:07,230 --> 00:01:09,830
+Two R plus T equals about sixty three
+
+36
+00:01:09,990 --> 00:01:12,340
+centimeters. The two is what makes it a
+
+37
+00:01:12,350 --> 00:01:15,110
+trade off. Keep the target fixed, and add
+
+38
+00:01:15,110 --> 00:01:16,710
+one centimeter to the rise.
+
+39
+00:01:16,710 --> 00:01:18,710
+Then the tread depth has to shrink by two
+
+40
+00:01:18,870 --> 00:01:21,030
+centimeters. Taller steps come with
+
+41
+00:01:21,030 --> 00:01:22,150
+shallower treads.
+
+42
+00:01:22,150 --> 00:01:24,790
+Lower steps come with deeper ones.
+
+43
+00:01:24,950 --> 00:01:26,790
+This rule is old.
+
+44
+00:01:26,790 --> 00:01:28,630
+In the late sixteen hundreds, the French
+
+45
+00:01:28,630 --> 00:01:30,870
+architect François Blondel wrote it down
+
+46
+00:01:30,870 --> 00:01:32,790
+in his course on architecture.
+
+47
+00:01:32,790 --> 00:01:35,060
+His target was two French feet, about
+
+48
+00:01:35,070 --> 00:01:36,630
+sixty five centimeters.
+
+49
+00:01:36,630 --> 00:01:38,630
+Today, designers treat it as a starting
+
+50
+00:01:38,630 --> 00:01:40,470
+point, not a law of nature.
+
+51
+00:01:40,470 --> 00:01:42,870
+For our examples, we'll use sixty three,
+
+52
+00:01:42,870 --> 00:01:44,790
+because real walking steps vary from
+
+53
+00:01:44,790 --> 00:01:46,150
+person to person.
+
+54
+00:01:46,150 --> 00:01:48,390
+Let's test it on our comfortable stair.
+
+55
+00:01:48,390 --> 00:01:49,910
+The rise is seventeen and a half
+
+56
+00:01:49,990 --> 00:01:51,820
+centimeters, so two rises make thirty
+
+57
+00:01:51,830 --> 00:01:53,980
+five. Add the tread depth of twenty eight.
+
+58
+00:01:53,990 --> 00:01:56,620
+Thirty five plus twenty eight is sixty
+
+59
+00:01:56,630 --> 00:01:59,030
+three. Right on our target.
+
+60
+00:01:59,200 --> 00:02:00,880
+Now look at these garden steps.
+
+61
+00:02:00,880 --> 00:02:03,280
+Each rise is only twelve centimeters, but
+
+62
+00:02:03,280 --> 00:02:04,990
+each tread is forty five deep.
+
+63
+00:02:05,000 --> 00:02:08,240
+Two R plus T comes to sixty nine, well
+
+64
+00:02:08,240 --> 00:02:09,360
+above our target.
+
+65
+00:02:09,360 --> 00:02:11,680
+Each step reaches farther forward than an
+
+66
+00:02:11,680 --> 00:02:13,520
+easy stride, so you may find yourself
+
+67
+00:02:13,520 --> 00:02:15,840
+changing your pace to match the steps.
+
+68
+00:02:15,840 --> 00:02:16,880
+Now the opposite.
+
+69
+00:02:17,040 --> 00:02:19,190
+On this steep, narrow stair, the rise is
+
+70
+00:02:19,200 --> 00:02:21,200
+twenty one centimeters, and the tread
+
+71
+00:02:21,200 --> 00:02:21,830
+depth is just fifteen.
+
+72
+00:02:21,840 --> 00:02:25,600
+Two R plus T is fifty seven, below our
+
+73
+00:02:25,600 --> 00:02:27,840
+target. And a fifteen centimeter tread
+
+74
+00:02:27,840 --> 00:02:30,080
+leaves much less room to place your foot.
+
+75
+00:02:30,080 --> 00:02:32,800
+Let's put every possible stair on one
+
+76
+00:02:32,800 --> 00:02:35,760
+graph. Across is the rise, and up is the
+
+77
+00:02:35,760 --> 00:02:37,750
+tread depth. For our target of sixty
+
+78
+00:02:37,760 --> 00:02:40,400
+three, every stair sits on this straight
+
+79
+00:02:40,400 --> 00:02:42,960
+line: the tread depth equals sixty three
+
+80
+00:02:43,200 --> 00:02:44,960
+minus two times the rise.
+
+81
+00:02:44,960 --> 00:02:47,360
+The slope of minus two is the trade off we
+
+82
+00:02:47,360 --> 00:02:49,600
+just saw. One more centimeter of rise
+
+83
+00:02:49,600 --> 00:02:51,760
+costs two centimeters of tread.
+
+84
+00:02:51,760 --> 00:02:53,760
+Our comfortable stair sits right on the
+
+85
+00:02:53,760 --> 00:02:56,160
+line. The garden steps sit above it.
+
+86
+00:02:56,160 --> 00:02:58,240
+The steep stair sits below it.
+
+87
+00:02:58,450 --> 00:03:00,850
+But the line hides a second choice: the
+
+88
+00:03:00,850 --> 00:03:02,930
+pitch, the angle of the stair.
+
+89
+00:03:02,930 --> 00:03:05,330
+Two stairs can have the same Blondel value
+
+90
+00:03:05,330 --> 00:03:07,010
+and very different steepness.
+
+91
+00:03:07,010 --> 00:03:09,410
+The tangent of the pitch is the rise over
+
+92
+00:03:09,410 --> 00:03:10,530
+the tread depth.
+
+93
+00:03:10,530 --> 00:03:12,280
+A rise of fifteen with a tread of thirty
+
+94
+00:03:12,290 --> 00:03:14,530
+three gives sixty three, and climbs at
+
+95
+00:03:14,530 --> 00:03:15,970
+about twenty four degrees.
+
+96
+00:03:15,970 --> 00:03:17,720
+A rise of twenty with a tread of twenty
+
+97
+00:03:17,730 --> 00:03:20,450
+three also gives sixty three, but climbs
+
+98
+00:03:20,450 --> 00:03:22,130
+at about forty one degrees.
+
+99
+00:03:22,130 --> 00:03:24,530
+Same score, very different stair.
+
+100
+00:03:24,530 --> 00:03:27,010
+So the rule alone can't tell you how steep
+
+101
+00:03:27,010 --> 00:03:28,370
+a stair is.
+
+102
+00:03:28,370 --> 00:03:30,370
+Building codes set limits too.
+
+103
+00:03:30,370 --> 00:03:32,770
+In the United States, the usual limits
+
+104
+00:03:32,770 --> 00:03:34,450
+come from model codes.
+
+105
+00:03:34,450 --> 00:03:37,090
+Each state or city adopts them, sometimes
+
+106
+00:03:37,090 --> 00:03:38,130
+with changes.
+
+107
+00:03:38,130 --> 00:03:40,130
+The residential model code typically
+
+108
+00:03:40,130 --> 00:03:42,130
+allows a rise of at most seven and three
+
+109
+00:03:42,290 --> 00:03:44,370
+quarter inches, and a tread depth of at
+
+110
+00:03:44,370 --> 00:03:45,570
+least ten inches.
+
+111
+00:03:45,570 --> 00:03:47,650
+The general building code, used for most
+
+112
+00:03:47,650 --> 00:03:49,730
+other buildings, allows at most seven
+
+113
+00:03:49,730 --> 00:03:51,810
+inches up, and needs at least eleven
+
+114
+00:03:51,810 --> 00:03:54,450
+inches deep. In England, the official
+
+115
+00:03:54,450 --> 00:03:57,330
+guidance, Approved Document K, does use
+
+116
+00:03:57,330 --> 00:03:58,690
+the formula directly.
+
+117
+00:03:58,690 --> 00:04:00,980
+Twice the rise plus the going, their word
+
+118
+00:04:00,980 --> 00:04:02,597
+for tread depth, should be between five
+
+119
+00:04:02,607 --> 00:04:04,580
+hundred fifty and seven hundred
+
+120
+00:04:04,580 --> 00:04:07,140
+millimeters. And a private stair in a home
+
+121
+00:04:07,220 --> 00:04:09,940
+can be no steeper than forty two degrees.
+
+122
+00:04:09,940 --> 00:04:11,860
+There's one more rule, and the reason
+
+123
+00:04:11,860 --> 00:04:14,020
+behind it has been measured in a lab.
+
+124
+00:04:14,020 --> 00:04:16,180
+In a twenty twenty study, researchers
+
+125
+00:04:16,180 --> 00:04:18,820
+built a test staircase and made one riser
+
+126
+00:04:18,820 --> 00:04:20,980
+just ten millimeters higher than the rest.
+
+127
+00:04:21,140 --> 00:04:23,540
+Going up, people's feet cleared that step
+
+128
+00:04:23,540 --> 00:04:25,620
+by about nine millimeters less.
+
+129
+00:04:25,620 --> 00:04:27,380
+Less clearance can increase the risk of
+
+130
+00:04:27,380 --> 00:04:29,140
+catching a toe and tripping.
+
+131
+00:04:29,140 --> 00:04:31,140
+That's why the American residential model
+
+132
+00:04:31,300 --> 00:04:32,980
+code limits the difference between the
+
+133
+00:04:32,980 --> 00:04:35,380
+tallest and shortest riser in one flight
+
+134
+00:04:35,380 --> 00:04:36,900
+to three eighths of an inch.
+
+135
+00:04:36,900 --> 00:04:39,300
+That's about nine and a half millimeters.
+
+136
+00:04:39,300 --> 00:04:41,700
+Now let's design a straight staircase.
+
+137
+00:04:41,700 --> 00:04:43,370
+The height from floor to floor is two
+
+138
+00:04:43,380 --> 00:04:45,140
+hundred seventy centimeters.
+
+139
+00:04:45,140 --> 00:04:47,140
+We'd like a rise near seventeen and a
+
+140
+00:04:47,140 --> 00:04:49,700
+half. Two seventy divided by seventeen and
+
+141
+00:04:49,700 --> 00:04:52,100
+a half is about fifteen point four.
+
+142
+00:04:52,100 --> 00:04:54,420
+We can't build part of a step, so we round
+
+143
+00:04:54,420 --> 00:04:55,860
+to fifteen risers.
+
+144
+00:04:55,860 --> 00:04:58,020
+Now every rise is two seventy over
+
+145
+00:04:58,020 --> 00:05:00,580
+fifteen: exactly eighteen centimeters.
+
+146
+00:05:00,890 --> 00:05:03,450
+The rule of thumb gives the tread depth.
+
+147
+00:05:03,450 --> 00:05:05,850
+Two times eighteen is thirty six.
+
+148
+00:05:05,850 --> 00:05:08,330
+Sixty three minus thirty six leaves twenty
+
+149
+00:05:08,330 --> 00:05:09,690
+seven centimeters.
+
+150
+00:05:09,690 --> 00:05:12,650
+Fifteen risers need only fourteen treads,
+
+151
+00:05:12,650 --> 00:05:14,650
+because the last step is the upper floor
+
+152
+00:05:14,650 --> 00:05:17,370
+itself. Fourteen times twenty seven is
+
+153
+00:05:17,370 --> 00:05:19,530
+three hundred seventy eight centimeters.
+
+154
+00:05:19,530 --> 00:05:21,770
+So the flight itself covers a horizontal
+
+155
+00:05:21,770 --> 00:05:24,490
+run of about three point eight meters, at
+
+156
+00:05:24,490 --> 00:05:27,050
+a pitch of about thirty four degrees.
+
+157
+00:05:27,050 --> 00:05:29,450
+Now check two residential model code
+
+158
+00:05:29,450 --> 00:05:31,547
+dimensions. Eighteen centimeters is seven
+
+159
+00:05:31,557 --> 00:05:34,010
+point one inches, under seven and three
+
+160
+00:05:34,090 --> 00:05:36,507
+quarters. Twenty seven centimeters is ten
+
+161
+00:05:36,517 --> 00:05:39,130
+point six inches, more than ten.
+
+162
+00:05:39,130 --> 00:05:41,850
+Both pass. A complete design still has to
+
+163
+00:05:41,850 --> 00:05:43,530
+account for landings, headroom and
+
+164
+00:05:43,530 --> 00:05:44,810
+handrails.
+
+165
+00:05:44,810 --> 00:05:47,370
+So why do some stairs feel easy, while
+
+166
+00:05:47,370 --> 00:05:48,810
+others feel awkward?
+
+167
+00:05:48,810 --> 00:05:51,050
+Two measurements tell much of the story.
+
+168
+00:05:51,050 --> 00:05:53,530
+Twice the rise plus the tread depth gives
+
+169
+00:05:53,530 --> 00:05:56,090
+a quick check, and our target was sixty
+
+170
+00:05:56,090 --> 00:05:57,130
+three centimeters.
+
+171
+00:05:57,440 --> 00:05:59,920
+Every extra centimeter of rise costs two
+
+172
+00:05:59,920 --> 00:06:01,440
+centimeters of tread.
+
+173
+00:06:01,440 --> 00:06:03,440
+The same score can still mean a gentle
+
+174
+00:06:03,440 --> 00:06:06,240
+stair or a steep one, so check the pitch
+
+175
+00:06:06,240 --> 00:06:09,360
+too. And keep every step the same.
+
+176
+00:06:09,360 --> 00:06:11,600
+Next time a staircase feels strange, take
+
+177
+00:06:11,600 --> 00:06:13,040
+out a tape measure and see what the
+
+178
+00:06:13,040 --> 00:06:13,840
+numbers say.
+
+179
+00:06:14,080 --> 00:06:15,920
+If you enjoyed this one, please give it a
+
+180
+00:06:15,920 --> 00:06:17,680
+like and subscribe for more everyday
+
+181
+00:06:17,680 --> 00:06:19,280
+engineering. Thanks for watching!
