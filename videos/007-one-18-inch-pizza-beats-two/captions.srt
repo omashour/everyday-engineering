@@ -1,0 +1,655 @@
+1
+00:00:00,000 --> 00:00:02,320
+Two twelve inch pizzas or one eighteen
+
+2
+00:00:02,400 --> 00:00:04,640
+inch pizza? Which gives you more pizza?
+
+3
+00:00:04,640 --> 00:00:06,240
+The eighteen inch wins.
+
+4
+00:00:06,240 --> 00:00:08,000
+It has exactly twelve and a half percent
+
+5
+00:00:08,000 --> 00:00:09,200
+more surface area.
+
+6
+00:00:09,200 --> 00:00:10,960
+Engineers use the same geometry for the
+
+7
+00:00:10,960 --> 00:00:13,840
+cross sections of pipes, wires and bolts.
+
+8
+00:00:14,080 --> 00:00:16,000
+Let's settle it with one formula you
+
+9
+00:00:16,000 --> 00:00:17,120
+already know.
+
+10
+00:00:17,120 --> 00:00:19,120
+Pizza sizes are diameters.
+
+11
+00:00:19,120 --> 00:00:20,800
+A twelve inch pizza is twelve inches
+
+12
+00:00:20,800 --> 00:00:22,560
+straight across, through the center.
+
+13
+00:00:22,560 --> 00:00:24,560
+But how much pizza you get depends on the
+
+14
+00:00:24,560 --> 00:00:27,120
+area: the whole pizza as seen from above,
+
+15
+00:00:27,120 --> 00:00:28,400
+including the crust.
+
+16
+00:00:28,400 --> 00:00:30,400
+And area does not grow the way the
+
+17
+00:00:30,400 --> 00:00:31,840
+diameter does.
+
+18
+00:00:31,840 --> 00:00:34,560
+The area of a circle is pi r squared,
+
+19
+00:00:34,560 --> 00:00:37,120
+where r is the radius, half the diameter.
+
+20
+00:00:37,120 --> 00:00:39,200
+A twelve inch pizza has a radius of six
+
+21
+00:00:39,200 --> 00:00:41,390
+inches. Six squared is thirty six, and
+
+22
+00:00:41,400 --> 00:00:43,190
+thirty six times pi is about one hundred
+
+23
+00:00:43,200 --> 00:00:45,200
+thirteen square inches.
+
+24
+00:00:45,200 --> 00:00:47,280
+Two of those pizzas give you seventy two
+
+25
+00:00:47,280 --> 00:00:49,280
+pi, about two hundred twenty six square
+
+26
+00:00:49,280 --> 00:00:50,080
+inches.
+
+27
+00:00:50,080 --> 00:00:51,280
+Now the big one.
+
+28
+00:00:51,280 --> 00:00:53,280
+An eighteen inch pizza has a radius of
+
+29
+00:00:53,280 --> 00:00:55,520
+nine inches. Nine squared is eighty one,
+
+30
+00:00:55,750 --> 00:00:57,460
+and eighty one times pi is about two
+
+31
+00:00:57,470 --> 00:00:59,670
+hundred fifty four square inches.
+
+32
+00:00:59,670 --> 00:01:01,140
+The two small pizzas together had two
+
+33
+00:01:01,150 --> 00:01:02,550
+hundred twenty six.
+
+34
+00:01:02,550 --> 00:01:05,020
+The single pizza wins by nine pi, about
+
+35
+00:01:05,030 --> 00:01:06,630
+twenty eight square inches.
+
+36
+00:01:06,630 --> 00:01:08,870
+Divide one by the other and pi cancels
+
+37
+00:01:08,870 --> 00:01:10,950
+out. Eighty one over seventy two is
+
+38
+00:01:10,950 --> 00:01:12,950
+exactly one point one two five.
+
+39
+00:01:12,950 --> 00:01:14,470
+That's twelve and a half percent more
+
+40
+00:01:14,470 --> 00:01:17,190
+surface area, in one box instead of two.
+
+41
+00:01:17,190 --> 00:01:18,550
+Here's the real reason.
+
+42
+00:01:18,550 --> 00:01:21,110
+Write the area with the diameter d
+
+43
+00:01:21,110 --> 00:01:23,990
+instead. It's pi d squared over four.
+
+44
+00:01:23,990 --> 00:01:25,830
+The diameter is squared.
+
+45
+00:01:25,830 --> 00:01:27,990
+An eighteen inch pizza is one and a half
+
+46
+00:01:27,990 --> 00:01:29,910
+times as wide as a twelve inch.
+
+47
+00:01:29,910 --> 00:01:31,680
+But one and a half squared is two point
+
+48
+00:01:31,690 --> 00:01:35,430
+two five. So one eighteen inch pizza has
+
+49
+00:01:35,430 --> 00:01:37,670
+two and a quarter times the area of one
+
+50
+00:01:37,750 --> 00:01:40,070
+twelve inch pizza, not one and a half
+
+51
+00:01:40,070 --> 00:01:42,070
+times. To see how much pizza you're
+
+52
+00:01:42,070 --> 00:01:44,070
+getting, compare the areas.
+
+53
+00:01:44,070 --> 00:01:45,590
+Here's the whole picture.
+
+54
+00:01:45,590 --> 00:01:48,230
+This curve is pizza area against diameter.
+
+55
+00:01:48,230 --> 00:01:50,630
+It bends upward because of that square.
+
+56
+00:01:50,630 --> 00:01:52,540
+A twelve inch pizza sits here, at one
+
+57
+00:01:52,550 --> 00:01:53,910
+hundred thirteen.
+
+58
+00:01:53,910 --> 00:01:56,310
+The dashed line is two twelve inch pizzas,
+
+59
+00:01:56,310 --> 00:01:57,430
+at two hundred twenty six.
+
+60
+00:01:57,820 --> 00:02:00,220
+The curve crosses it just under seventeen
+
+61
+00:02:00,300 --> 00:02:02,540
+inches. Every pizza bigger than that beats
+
+62
+00:02:02,540 --> 00:02:04,220
+the pair, and the eighteen inch sits
+
+63
+00:02:04,220 --> 00:02:05,330
+clearly above it, at two hundred fifty
+
+64
+00:02:05,340 --> 00:02:07,180
+four and a half.
+
+65
+00:02:07,420 --> 00:02:09,580
+Where exactly is that crossing?
+
+66
+00:02:09,580 --> 00:02:12,060
+Set one pizza's area equal to two twelve
+
+67
+00:02:12,060 --> 00:02:14,700
+inch pizzas. The pi cancels, and you get d
+
+68
+00:02:14,860 --> 00:02:17,100
+squared equals two hundred eighty eight.
+
+69
+00:02:17,100 --> 00:02:19,820
+So d is twelve times the square root of
+
+70
+00:02:19,820 --> 00:02:21,850
+two. The break even point is about sixteen
+
+71
+00:02:21,860 --> 00:02:23,980
+point nine seven inches.
+
+72
+00:02:23,980 --> 00:02:26,460
+A seventeen inch pizza is just barely
+
+73
+00:02:26,460 --> 00:02:27,740
+larger than the pair.
+
+74
+00:02:27,740 --> 00:02:29,650
+A sixteen inch pizza, at about two hundred
+
+75
+00:02:29,660 --> 00:02:32,380
+one square inches, still loses.
+
+76
+00:02:32,380 --> 00:02:34,060
+Here are common sizes.
+
+77
+00:02:34,060 --> 00:02:36,140
+A ten inch pizza is about seventy nine
+
+78
+00:02:36,300 --> 00:02:37,260
+square inches.
+
+79
+00:02:37,260 --> 00:02:39,740
+A twelve inch is one hundred thirteen.
+
+80
+00:02:39,740 --> 00:02:42,380
+A fourteen inch has almost twice the area
+
+81
+00:02:42,380 --> 00:02:43,580
+of the ten inch.
+
+82
+00:02:43,580 --> 00:02:45,740
+Just four more inches across, and nearly
+
+83
+00:02:45,740 --> 00:02:47,340
+double the surface area.
+
+84
+00:02:47,340 --> 00:02:49,580
+A sixteen inch has more than two and a
+
+85
+00:02:49,580 --> 00:02:51,660
+half times the area of the ten inch.
+
+86
+00:02:51,660 --> 00:02:54,060
+And an eighteen inch has over three times
+
+87
+00:02:54,060 --> 00:02:55,740
+the area of the ten inch.
+
+88
+00:02:55,740 --> 00:02:57,580
+For pizzas of similar thickness and
+
+89
+00:02:57,580 --> 00:02:59,900
+toppings, area is a fair estimate of how
+
+90
+00:02:59,900 --> 00:03:01,100
+much food you get.
+
+91
+00:03:01,150 --> 00:03:03,230
+This is also how to compare prices.
+
+92
+00:03:03,390 --> 00:03:05,550
+Divide the price by the area.
+
+93
+00:03:05,550 --> 00:03:07,870
+Say a twelve inch costs twelve dollars and
+
+94
+00:03:07,870 --> 00:03:09,790
+an eighteen inch costs twenty.
+
+95
+00:03:09,790 --> 00:03:11,870
+Two small ones cost twenty four dollars
+
+96
+00:03:12,030 --> 00:03:14,190
+for two hundred twenty six square inches.
+
+97
+00:03:14,190 --> 00:03:16,350
+That's about eleven cents per square inch.
+
+98
+00:03:16,350 --> 00:03:18,590
+The big one costs about eight cents.
+
+99
+00:03:18,590 --> 00:03:20,670
+At these prices, the eighteen inch is the
+
+100
+00:03:20,670 --> 00:03:22,350
+better deal per square inch.
+
+101
+00:03:22,350 --> 00:03:25,150
+The two small pizzas do win one thing:
+
+102
+00:03:25,150 --> 00:03:27,550
+outer edge. The edge of a pizza is its
+
+103
+00:03:27,550 --> 00:03:29,710
+circumference, pi times d.
+
+104
+00:03:29,710 --> 00:03:31,790
+That grows in a straight line, not with
+
+105
+00:03:31,790 --> 00:03:34,270
+the square. The two twelve inch pizzas
+
+106
+00:03:34,270 --> 00:03:36,030
+have about seventy five inches of outer
+
+107
+00:03:36,030 --> 00:03:37,860
+edge. The eighteen inch has about fifty
+
+108
+00:03:37,870 --> 00:03:39,310
+six and a half.
+
+109
+00:03:39,310 --> 00:03:41,710
+So the pair gives you a third more outer
+
+110
+00:03:41,710 --> 00:03:44,030
+edge. How much actual crust that means
+
+111
+00:03:44,190 --> 00:03:46,590
+depends on the rim's width and thickness.
+
+112
+00:03:46,590 --> 00:03:48,830
+Now swap the pizza for a pipe.
+
+113
+00:03:48,830 --> 00:03:50,990
+Water flows through the circle inside it,
+
+114
+00:03:50,990 --> 00:03:53,710
+so what matters is the inside diameter.
+
+115
+00:03:53,710 --> 00:03:56,110
+One pipe with a two inch inside diameter
+
+116
+00:03:56,110 --> 00:03:58,350
+has twice the opening area of two pipes
+
+117
+00:03:58,350 --> 00:04:00,270
+with one inch inside diameters.
+
+118
+00:04:00,500 --> 00:04:02,420
+At the same average water speed, the two
+
+119
+00:04:02,580 --> 00:04:04,660
+inch opening passes twice as much water
+
+120
+00:04:04,660 --> 00:04:06,980
+per second as the two one inch openings
+
+121
+00:04:06,980 --> 00:04:09,700
+combined. Double a pipe's inside diameter,
+
+122
+00:04:09,700 --> 00:04:12,420
+and the opening's area grows four times.
+
+123
+00:04:12,420 --> 00:04:14,500
+That's why you can't size pipes by adding
+
+124
+00:04:14,500 --> 00:04:15,780
+up diameters.
+
+125
+00:04:15,940 --> 00:04:18,340
+Electrical wires follow the same rule.
+
+126
+00:04:18,340 --> 00:04:21,140
+A wire's resistance is rho L over A.
+
+127
+00:04:21,140 --> 00:04:23,620
+Rho depends on the metal, L is the length,
+
+128
+00:04:23,620 --> 00:04:25,780
+and A is the cross section area of the
+
+129
+00:04:25,780 --> 00:04:27,780
+conductor itself, the metal, not the
+
+130
+00:04:27,780 --> 00:04:30,100
+insulation. For round conductors of the
+
+131
+00:04:30,100 --> 00:04:32,100
+same material, length, and temperature,
+
+132
+00:04:32,100 --> 00:04:34,340
+doubling the conductor diameter makes that
+
+133
+00:04:34,340 --> 00:04:36,500
+area four times bigger, and cuts its
+
+134
+00:04:36,500 --> 00:04:38,020
+resistance to one quarter.
+
+135
+00:04:38,020 --> 00:04:39,780
+Electric stoves draw more current than
+
+136
+00:04:39,780 --> 00:04:41,700
+lamps, so they typically use larger
+
+137
+00:04:41,700 --> 00:04:42,900
+conductors.
+
+138
+00:04:42,900 --> 00:04:44,420
+Bolts work the same way.
+
+139
+00:04:44,420 --> 00:04:46,660
+When a bolt is pulled, the load spreads
+
+140
+00:04:46,660 --> 00:04:48,020
+over its cross section.
+
+141
+00:04:48,020 --> 00:04:50,180
+Take the smooth, unthreaded shank, since
+
+142
+00:04:50,180 --> 00:04:52,100
+the threaded part has its own, smaller
+
+143
+00:04:52,100 --> 00:04:54,580
+stress area. A three quarter inch bolt is
+
+144
+00:04:54,580 --> 00:04:56,260
+one and a half times wider than a half
+
+145
+00:04:56,340 --> 00:04:58,550
+inch bolt. So it has two and a quarter
+
+146
+00:04:58,550 --> 00:05:00,550
+times the unthreaded shank area.
+
+147
+00:05:00,550 --> 00:05:02,390
+At the same average tensile stress in the
+
+148
+00:05:02,390 --> 00:05:04,310
+shank, that corresponds to two and a
+
+149
+00:05:04,390 --> 00:05:06,070
+quarter times the pulling force.
+
+150
+00:05:06,070 --> 00:05:07,110
+Sound familiar?
+
+151
+00:05:07,110 --> 00:05:09,030
+It's the pizza ratio again.
+
+152
+00:05:09,030 --> 00:05:10,950
+So here's what to remember.
+
+153
+00:05:10,950 --> 00:05:13,190
+Area grows with the square of the
+
+154
+00:05:13,190 --> 00:05:15,670
+diameter. Double the width, and you get
+
+155
+00:05:15,670 --> 00:05:17,190
+four times the area.
+
+156
+00:05:17,190 --> 00:05:19,110
+One and a half times the width gives two
+
+157
+00:05:19,270 --> 00:05:20,870
+and a quarter times the area.
+
+158
+00:05:20,870 --> 00:05:22,870
+And when you compare circles, compare
+
+159
+00:05:23,030 --> 00:05:24,790
+areas, not diameters.
+
+160
+00:05:24,790 --> 00:05:26,710
+If you're choosing by surface area, take
+
+161
+00:05:26,710 --> 00:05:28,070
+the eighteen inch.
+
+162
+00:05:28,070 --> 00:05:30,070
+If you enjoyed this, please give it a like
+
+163
+00:05:30,070 --> 00:05:31,590
+and subscribe for more everyday
+
+164
+00:05:31,590 --> 00:05:33,430
+engineering. Thanks for watching!
