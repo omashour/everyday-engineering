@@ -1,10 +1,10 @@
 variants:
   - template: equation
-    text: "WHY STAIRS FEEL WRONG"
-    highlight: ["WRONG"]
-    tex: "2R + T = 63\\text{ cm}"
-    note: "since the 1600s"
+    text: "THE 63 CM STAIR RULE"
+    highlight: ["63 CM"]
+    tex: "2R + T \\approx 63\\text{ cm}"
+    note: "rule of thumb"
   - template: photo
     image: stairs-home.jpg
-    text: "One Formula, Every Staircase"
-    highlight: ["One"]
+    text: "The 63 cm Stair Rule"
+    highlight: ["63 cm"]

@@ -1,76 +1,79 @@
 shorts:
-  - title: "Why some stairs make you shuffle #shorts"
-    hook: "Why do these steps feel wrong?"
+  - title: "The 63-centimeter rule behind comfortable stairs #shorts"
+    hook: "Why do these steps feel odd?"
     end: "Full video on the channel"
-    description: "Some steps make you shuffle. One line of algebra from the 1600s explains why.\n\nFull video: [paste the main video's link]"
+    description: "Two measurements and one rule of thumb from the 1600s: twice the rise plus the tread depth.\n\nFull video: [paste the main video's link]"
     scenes:
       - id: A1
         component: photo-overlay
         say: >-
-          Ever climbed steps that made you shuffle? Blame one formula. Every step moves you
-          forward by the tread and lifts you by the rise. Lifting counts about double. So the
-          stride of one step is two times the rise, plus the tread.
+          Why do some steps feel odd? Measure two things. The rise is how far up each step
+          goes. The tread depth is how far forward. Designers check a rule of thumb: twice
+          the rise plus the tread depth, aiming for about sixty three centimeters.
         params:
           src: stairs-garden.jpg
           credit: "Image: AI-generated"
-          title: "2 × rise + tread"
+          title: "Rise and tread depth"
           overlays:
-            - {type: measure, from: [30, 68], to: [62, 68], label: "tread 45 cm", cue: "forward by the tread"}
-            - {type: measure, from: [65, 64], to: [65, 50], label: "rise 12 cm", cue: "lifts you by"}
+            - {type: measure, from: [65, 64], to: [65, 50], label: "rise", cue: "how far up"}
+            - {type: measure, from: [30, 68], to: [62, 68], label: "tread depth", cue: "how far forward"}
+            - {type: tex, pos: [30, 30], tex: "2R + T \\approx 63\\text{ cm}", cue: "twice the rise"}
       - id: A2
         component: equation-steps
         say: >-
-          On a comfortable stair, that's two times seventeen and a half, plus twenty eight.
-          Sixty three centimeters: one easy step. These garden steps, twelve up and forty five
-          deep, give sixty nine. Too long for one step, too short for two.
+          That two is a trade-off. Add one centimeter of rise, and the tread loses two. A
+          comfortable home stair, seventeen and a half up and twenty eight deep, scores sixty
+          three. These garden steps, twelve up and forty five deep, score sixty nine. Each
+          step reaches farther than an easy stride.
         params:
           size: l
           lines:
-            - {tex: "2(17.5) + 28 = 63\\text{ cm}", cue: "two times seventeen"}
-            - {tex: "2(12) + 45 = 69\\text{ cm}", circle: true, note: "too long!", note_cue: "Too long for", cue: "These garden steps"}
+            - {tex: "R + 1 \\;\\Rightarrow\\; T - 2", cue: "Add one centimeter"}
+            - {tex: "2(17.5) + 28 = 63\\text{ cm}", cue: "seventeen and a half"}
+            - {tex: "2(12) + 45 = 69\\text{ cm}", circle: true, note: "reaches farther", note_cue: "reaches farther", cue: "These garden steps"}
       - id: A3
         component: big-fact
         say: >-
-          So your legs shuffle. The full video shows how to design a perfect staircase.
+          So you may change your pace. The full video works through a whole staircase design.
         params:
-          value: "2R + T ≈ 63 cm"
-          label: "the stride a stair should match"
-          cue: "So your legs"
-  - title: "1 cm is enough to trip you on the stairs #shorts"
-    hook: "1 cm can trip you"
+          value: "69 cm vs 63 cm"
+          label: "garden steps vs. the target"
+          cue: "change your pace"
+  - title: "One stair 10 mm too tall changes how you step #shorts"
+    hook: "One step 10 mm too tall"
     end: "Full video on the channel"
-    description: "Why building codes care about one centimeter on a staircase.\n\nFull video: [paste the main video's link]"
+    description: "In a 2020 lab study, a riser just 10 mm higher cut foot clearance by about 9 mm.\n\nFull video: [paste the main video's link]"
     scenes:
       - id: B1
         component: photo-overlay
         say: >-
-          One centimeter is enough to trip you on the stairs. After the first few steps, you
-          stop looking. Your legs just repeat the same motion, again and again.
+          Make one stair just ten millimeters taller, and people's feet clear it by about
+          nine millimeters less. That's what researchers measured on a test staircase in a
+          twenty twenty lab study.
         params:
           src: stairs-home.jpg
           credit: "Image: AI-generated"
-          title: "Every step must match"
+          title: "One taller step"
           overlays:
-            - {type: label, pos: [22, 30], text: "you stop looking", cue: "stop looking"}
-            - {type: measure, from: [59, 62], to: [59, 44], label: "same rise", cue: "same motion"}
+            - {type: label, pos: [22, 30], text: "+10 mm riser", cue: "ten millimeters taller"}
+            - {type: label, pos: [22, 45], text: "≈ 9 mm less clearance", cue: "nine millimeters less"}
       - id: B2
         component: big-fact
         say: >-
-          That's why American building codes are so strict. In a home, the tallest and
-          shortest riser in a flight can differ by just three eighths of an inch. About one
-          centimeter.
+          People didn't adjust their steps for the taller riser. With less clearance, a toe is
+          more likely to catch the edge, and that can increase the risk of a trip.
         params:
-          value: "≤ 3/8 in"
-          label: "max riser difference (US homes)"
-          sub: "about 1 cm"
-          cue: "three eighths"
+          value: "≈ 9 mm"
+          label: "less foot clearance going up"
+          sub: "Francksen et al., Applied Ergonomics, 2020"
+          cue: "With less clearance"
       - id: B3
         component: bullets
         say: >-
-          One odd step breaks the rhythm, and your foot catches the edge. If a staircase feels
-          wrong, measure every step. The full video shows the math behind a perfect stair.
+          That's why the American residential model code limits the difference between the
+          tallest and shortest riser in a flight to three eighths of an inch. That's about
+          nine and a half millimeters. The full video shows the math of stair design.
         params:
           items:
-            - {text: "One odd step breaks rhythm", icon: alert-triangle, cue: "One odd step"}
-            - {text: "Foot catches the edge", icon: shoe, cue: "foot catches"}
-            - {text: "Measure every step", icon: ruler-measure, cue: "measure every step"}
+            - {text: "US homes (IRC): risers within ⅜ in", icon: ruler-measure, cue: "three eighths"}
+            - {text: "≈ 9.5 mm", icon: equal, cue: "nine and a half"}
