@@ -4,83 +4,83 @@ Generated from scenes.yaml. Edit scenes.yaml, not this file.
 
 ### S01 · photo-overlay · ~0:00
 
-In June two thousand, London opened a brand new footbridge across the Thames. Within two days it was swaying so badly they had to close it. The culprit was a hidden number every structure has: its natural frequency.
+On opening day, London's new footbridge began swaying sideways. People grabbed the railings. Two days later, the bridge closed. Engineers had two questions. How does a bridge like this move? And why did a crowd make that motion grow?
 
 ### S02 · title-card · ~0:16
 
-Let's find that number, with a little linear algebra.
+The first question takes a little linear algebra.
 
 ### S03 · timeline · ~0:20
 
-This is the Millennium Bridge, London's showpiece for the new millennium. It's a sleek steel suspension bridge, with a main span of one hundred forty four meters. It opened on the tenth of June, two thousand. An estimated eighty to one hundred thousand people walked across that first day. Then the deck began to move sideways. On the eleventh, officials limited the crowds, but the shaking kept coming back. On the twelfth of June, just two days after opening, the bridge was closed.
+This is the Millennium Bridge, London's showpiece for the new millennium. It's a sleek steel suspension bridge, with a main span of one hundred forty four meters. It opened on the tenth of June, two thousand. An estimated eighty to one hundred thousand people crossed that first day, with about two thousand on the bridge at the busiest moments. Soon the deck was moving sideways. Crowd numbers were limited, and on Sunday the sway came less often. But it kept coming back. On the twelfth of June, just two days after opening, the bridge was closed.
 
-### S04 · big-fact · ~0:54
+### S04 · big-fact · ~0:59
 
-How bad was it? Measurements showed the deck swinging sideways by around seven centimeters, with sideways accelerations up to a quarter of g. That's enough to throw you off balance. Many people grabbed the handrails just to stay upright. Others walked with their feet spread wide, like sailors on a rolling deck.
+How bad was it? Engineers later estimated the motion from what people saw and from video. The centre span was swinging sideways by about seven centimeters, with peak sideways accelerations of up to about a quarter of g. People were struggling to keep their balance. Many stopped walking, and some grabbed the railings just to stay upright.
 
-### S05 · bullets · ~1:15
+### S05 · bullets · ~1:22
 
-So what went wrong? It wasn't the wind. And the bridge was strong enough to carry the crowds. The problem was how it moved. To understand that, we need one idea that every structural engineer has to check: the natural frequency.
+To engineers, that motion raises two questions. First, how does this bridge tend to move? That's about its natural frequencies and mode shapes. Second, why did the motion grow instead of dying out? That's about energy. Let's start with the first, using the simplest structure there is.
 
-### S06 · equation-steps · ~1:32
+### S06 · equation-steps · ~1:41
 
-Start with the simplest structure there is: a mass on a spring. Pull it sideways and let go. It swings back and forth at one particular rate, all by itself. That rate is its natural frequency. It depends on just two things: how stiff the spring is, k, and how heavy the mass is, m. The natural frequency f equals one over two pi, times the square root of k over m. Stiffer means faster. Heavier means slower. A bridge deck works the same way. The steel is the spring, and the deck's own weight is the mass.
+Picture a single mass on a spring. Pull it sideways and let go. It swings back and forth at one particular rate, all by itself. That rate is its natural frequency. It depends on two things: how stiff the spring is, k, and how much mass is moving, m. The natural frequency f equals one over two pi, times the square root of k over m. Stiffer means faster. More mass means slower. A real bridge works on the same idea, except its stiffness and mass are spread throughout the whole structure.
 
-### S07 · equation-steps · ~2:11
+### S07 · equation-steps · ~2:19
 
-Now add a second mass. Two masses, joined by three springs, wall to wall. Write Newton's law for each mass and you get two equations tangled together. Linear algebra packs them into one line. K is the stiffness matrix, M is the mass matrix, and v lists how far each mass moves. We look for special motions where everything swings at one shared frequency, omega. That gives K v equals omega squared M v. This is an eigenvalue problem. The eigenvalues give the squared frequencies. The eigenvectors give the shapes of the motion.
+Now take two identical masses, joined by three identical springs, wall to wall. We'll ignore damping for now. Write Newton's law for each mass and you get two equations tangled together. Linear algebra packs them into one line. K is the stiffness matrix, M is the mass matrix, and v lists how far each mass moves. We look for motions where everything swings at one shared angular frequency, omega. That gives K v equals omega squared M v. It's an eigenvalue problem. To turn omega into hertz, divide by two pi.
 
-### S08 · equation-steps · ~2:49
+### S08 · equation-steps · ~2:56
 
-Let's solve it. Divide through by m, and write lambda for omega squared divided by k over m. An eigenvalue is a value of lambda that makes this determinant zero. Two minus lambda, squared, must equal one. So lambda is exactly one or three. The squared frequencies are k over m, and three times k over m. If the first frequency is one hertz, the second is root three times higher, about one point seven three hertz. Two masses, two natural frequencies.
+Let's solve it. Divide both sides by k, and call m omega squared over k, lambda. That leaves a matrix with twos on the diagonal and minus ones off it. An eigenvalue is a lambda that makes this determinant zero. That gives two minus lambda, squared, minus one, equals zero. So lambda is one or three. For this example, let's choose the springs and masses so the first frequency is one hertz. Then the second is root three times higher, about one point seven three hertz.
 
-### S09 · diagram · ~3:22
+### S09 · diagram · ~3:30
 
-Each eigenvalue comes with an eigenvector, called a mode shape. In the first mode, both masses swing together, in the same direction. That's the slow one, at one hertz. In the second mode, they swing against each other. That's the fast one, at one point seven three hertz. Any motion of this system, however messy, is just a mix of these two modes.
+Each eigenvalue comes with an eigenvector, called a mode shape. In the first mode, both masses move together. The middle spring stays the same length. That's the one hertz mode. In the second, they move in opposite directions. Now the middle spring stretches and compresses too, so that mode has a higher frequency, about one point seven three hertz. In this model, any free vibration can be described as a combination of these two modes.
 
-### S10 · bullets · ~3:48
+### S10 · bullets · ~4:01
 
-A real bridge works the same way, only bigger. Engineers model it as thousands of small masses and springs. A computer finds the eigenvalues of matrices with thousands of rows. Each one is a natural frequency, with its own mode shape: bending up and down, twisting, or swaying sideways. For footbridges, the lowest few modes matter most, because they sit closest to the rhythm of human walking.
+A real bridge works the same way, only bigger. Engineers build a finite element model, a computer model of how mass and stiffness are spread through the structure. That gives matrices with thousands of rows. Their eigenvalues are squared angular frequencies. Their eigenvectors describe the mode shapes: bending up and down, twisting, or swaying sideways. For a footbridge, the low modes are the ones to watch, because they're close to the rhythm of walking.
 
-### S11 · diagram · ~4:15
+### S11 · diagram · ~4:31
 
-So what's the rhythm of walking? Most people take about two steps every second. Each step pushes down, so the up and down force comes at about two hertz. Now watch from above. You shift your weight onto your left foot, then your right foot. One full side to side sway takes two steps. So walking also pushes sideways, at about one hertz. That's half your step rate.
+So what's the rhythm of walking? Most people take about two steps every second. Each step pushes down, so the main up and down force comes at about two hertz. Now watch from above. You shift your weight onto your left foot, then your right foot. One full left-right cycle takes two steps. So the sideways force comes at about one hertz. That's half your step rate.
 
-### S12 · table · ~4:43
+### S12 · table · ~4:59
 
-Now compare. People walking push sideways at somewhere between about point seven and one point two hertz. The Millennium Bridge's south span had a sideways mode at point seven seven hertz. In the centre span, the strongly excited mode was close to one hertz. Right in the middle of the walking band. Engineers now know that any footbridge with a sideways mode below about one point three hertz is at risk, if it's light enough and crowded enough.
+Now look at the bridge. The south span swayed at about point seven seven hertz. The centre span swayed near point nine five hertz, close to that one hertz walking rhythm. So far, that sounds like simple resonance. But the centre span also swayed at just under point five hertz. That's about half the walking rhythm, far from a match. So comparing walking with one bridge frequency can't be the whole story.
 
-### S13 · graph · ~5:15
+### S13 · graph · ~5:28
 
-When a push matches a natural frequency, you get resonance. Think of pushing a child on a swing. Small pushes, in time, build a big motion. This graph is for an example structure with a natural frequency of one hertz. It shows how much the structure magnifies a steady push. Far from one hertz, almost nothing happens. Right at one hertz, with five percent damping, the motion is about ten times bigger. The peak is roughly one over two zeta, where zeta is the damping. Raise the damping to twenty percent and the peak drops to about two and a half.
+Here's what resonance looks like when a steady outside force pushes on a structure. Think of pushing a child on a swing. Small pushes, in time, build a big motion. This example structure has a natural frequency of one hertz. The graph compares its motion with how far the same force would move it if you pushed very slowly. At very low frequencies, the ratio is about one. At one hertz, with five percent damping, it's ten times. With twenty percent damping, it's two and a half times. Damping keeps the peak down. But a crowd isn't a steady outside force. A moving bridge changes how people push on it.
 
-### S14 · diagram · ~5:56
+### S14 · diagram · ~6:13
 
-But there's a twist. Normally, a crowd's footsteps are random, so their sideways pushes mostly cancel out. When the deck starts to sway, walking gets awkward. So people widen their stance and, without thinking, time their steps to the bridge's motion. Now hundreds of people push sideways together, in time with the sway. That adds more energy. More sway makes even more people fall into step. It's a feedback loop. Engineers call it synchronous lateral excitation.
+For years, the popular explanation was that walkers fell into step with each other. Newer research shows they don't have to. On this bridge, the deck itself changed how people walked. As it shifted under their feet, they adjusted their steps to stay balanced. On average, those adjustments fed energy back into the sideways motion, even when people were walking out of step. So think of each sway as a balance. Walkers add energy. Damping takes energy away. If damping wins, the sway fades. If the walkers win, the sway grows.
 
-### S15 · big-fact · ~6:27
+### S15 · big-fact · ~6:49
 
-Arup's engineers tested this on the closed bridge with groups of walkers. They slowly added more and more people. Nothing much happened, until about one hundred sixty five people were on one span. Then the wobble switched on, suddenly. Below that number, the bridge's own damping soaked up the crowd's pushes. Above it, the crowd won.
+Engineers saw this tipping point in a test. After the closure, they gradually added walkers to one span. With around one hundred sixty five people on the test span, the sway began to grow sharply. Past that point, the crowd was putting energy into the motion faster than the bridge could lose it.
 
-### S16 · bullets · ~6:49
+### S16 · bullets · ~7:11
 
-The fix wasn't to rebuild the bridge. It was to add damping, just like in the graph. Engineers fitted thirty seven fluid viscous dampers, a lot like the shock absorbers in a car, to soak up the sideways motion. They also added around fifty tuned mass dampers, weights on springs that calm the up and down motion. The work cost about five million pounds. Then they tested it with crowds of up to two thousand people. No wobble.
+Making the bridge much stiffer would have changed its look completely. So instead, engineers added damping, to take energy out. They fitted thirty seven fluid viscous dampers, a lot like the shock absorbers in a car, mainly for the sideways motion. They also installed fifty two tuned mass dampers for the up and down motion. The work cost about five million pounds. In tests of the modified bridge, with about two thousand people, the motion stayed at acceptable levels.
 
-### S17 · photo-overlay · ~7:21
+### S17 · photo-overlay · ~7:43
 
-In February two thousand two, the Millennium Bridge reopened. The dampers are tucked under and beside the deck, mostly out of sight. The bridge has the same light, slender shape it always had. But the crowd's pushes now get soaked up before they can build, and the wobble hasn't come back since.
+On the twenty second of February, two thousand two, the Millennium Bridge reopened. The dampers sit under and beside the deck, mostly out of sight. The bridge kept its light, slender shape, and its natural frequencies still describe how it can move. What changed is the balance. The dampers now take energy out faster than a normal crowd puts it in.
 
-### S18 · bullets · ~7:42
+### S18 · bullets · ~8:08
 
-This isn't just about one bridge. Every structure has natural frequencies, and engineers check them. Tall buildings are checked against wind and earthquakes. Stadium stands are checked against crowds jumping to music. Washing machines are designed so the spin cycle doesn't shake the floor. And aircraft wings are checked so the air can't set them flapping. Each time, the question is the same: what are the eigenvalues, and is anything pushing near them?
+The same two questions come up wherever crowds meet structures. Take stadium stands. Engineers check their natural frequencies, so a crowd jumping to music doesn't line up with them. And they check there's enough damping for the energy a crowd can put in.
 
-### S19 · equation-steps · ~8:12
+### S19 · equation-steps · ~8:26
 
-So remember this. Every structure has natural frequencies, and they come from the eigenvalues of its stiffness and mass. If something pushes near one of them, the motion builds. Engineers have two ways out: move the frequency away from the push, or add damping so the peak stays small. On the Millennium Bridge, it took a crowd of walkers to prove it.
+So remember this. The eigenvalues told engineers how fast the bridge could sway. Whether that sway faded or grew depended on how much energy the crowd added and how much the bridge dissipated. The dampers tipped that balance.
 
-### S20 · end-card · ~8:37
+### S20 · end-card · ~8:41
 
 If you liked this video, give it a like and subscribe for more everyday engineering. Thanks for watching!
 
 ---
-1288 words · about 8:45 at 150 words per minute
+1298 words · about 8:49 at 150 words per minute

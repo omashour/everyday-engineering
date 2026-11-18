@@ -7,4 +7,4 @@ variants:
     text: "CLOSED AFTER 2 DAYS"
     highlight: ["2 DAYS"]
     tex: "K\\mathbf{v} = \\omega^2 M\\mathbf{v}"
-    note: "resonance!"
+    note: "eigenvalues!"

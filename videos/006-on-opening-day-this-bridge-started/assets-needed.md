@@ -14,8 +14,8 @@ Real-photo alternative: Wikimedia Commons, search "Millennium Bridge London" or 
 ## dampers.jpg
 Used in: S17.
 What it shows: the underside of a slim steel footbridge deck, with damper devices (long V-shaped braces and cylindrical dampers) mounted beneath it.
-Layout: dampers clearly visible at about **25–45% across, 60–80% down**. Keep the **top-right area (65–85% across, 15–30% down)** fairly plain for the "reopened Feb 2002" label.
+Layout: dampers clearly visible at about **25–45% across, 60–80% down**. Keep the **top-right area (65–85% across, 15–30% down)** fairly plain for the "reopened 22 Feb 2002" label.
 ```text
 Photorealistic wide 16:9 photo looking up at the underside of a slim modern steel footbridge deck from the riverbank, showing long V-shaped steel brace dampers and cylindrical hydraulic damper units bolted beneath the deck in the lower-left part of the frame. Clean steel, overcast daylight, a strip of sky and river visible at the top right. Everyday realistic engineering look. No text, no signs with words, no logos or brand names, no watermarks.
 ```
-Real-photo alternative: Wikimedia Commons, search "Millennium Bridge London damper" (Commons has photos of the dampers beneath the deck and the pier dampers; CC BY-SA).
+Real-photo alternative: Wikimedia Commons, search "Millennium Bridge decking underside" or "Millennium Bridge London damper" (Commons has photos of the chevron dampers and pier dampers; CC BY-SA).

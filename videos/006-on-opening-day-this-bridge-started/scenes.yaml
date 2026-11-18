@@ -12,23 +12,24 @@ video:
 scenes:
   - id: S01
     component: photo-overlay
-    chapter: "Opened, then closed in 2 days"
+    chapter: "Swaying, then closed"
     say: >-
-      In June two thousand, London opened a brand new footbridge across the Thames.
-      Within two days it was swaying so badly they had to close it.
-      The culprit was a hidden number every structure has: its natural frequency.
+      On opening day, London's new footbridge began swaying sideways.
+      People grabbed the railings. Two days later, the bridge closed.
+      Engineers had two questions. How does a bridge like this move?
+      And why did a crowd make that motion grow?
     params:
       src: bridge.jpg
       credit: "Image: AI-generated"
       title: "Opened 10 June 2000 · closed 12 June"
       overlays:
-        - {type: arrow, from: [42, 62], to: [58, 62], label: "sideways sway", cue: "swaying"}
-        - {type: callout, pos: [78, 35], text: "closed after 2 days", side: right, cue: "close it"}
-        - {type: label, pos: [25, 82], text: "natural frequency?", cue: "natural frequency"}
+        - {type: arrow, from: [42, 62], to: [58, 62], label: "sideways sway", cue: "swaying sideways"}
+        - {type: callout, pos: [78, 35], text: "closed after 2 days", side: right, cue: "bridge closed"}
+        - {type: label, pos: [25, 82], text: "How does it move? Why did it grow?", cue: "two questions"}
 
   - id: S02
     component: title-card
-    say: Let's find that number, with a little linear algebra.
+    say: The first question takes a little linear algebra.
     params: {kicker: "Everyday Engineering · Linear Algebra", title: "On Opening Day, This Bridge Started Swaying"}
 
   - id: S03
@@ -38,58 +39,57 @@ scenes:
       This is the Millennium Bridge, London's showpiece for the new millennium.
       It's a sleek steel suspension bridge, with a main span of one hundred forty four meters.
       It opened on the tenth of June, two thousand.
-      An estimated eighty to one hundred thousand people walked across that first day.
-      Then the deck began to move sideways.
-      On the eleventh, officials limited the crowds, but the shaking kept coming back.
+      An estimated eighty to one hundred thousand people crossed that first day,
+      with about two thousand on the bridge at the busiest moments.
+      Soon the deck was moving sideways. Crowd numbers were limited,
+      and on Sunday the sway came less often. But it kept coming back.
       On the twelfth of June, just two days after opening, the bridge was closed.
     params:
       heading: "The Millennium Bridge, June 2000"
       events:
-        - {when: "10 June 2000", text: "Opens; ~80,000–100,000 people cross", cue: "tenth of June"}
-        - {when: "11 June 2000", text: "Crowds limited; shaking continues", cue: "On the eleventh"}
-        - {when: "12 June 2000", text: "Bridge closed", cue: "twelfth of June"}
+        - {when: "Sat 10 June 2000", text: "Opens; 80,000–100,000 people cross", cue: "tenth of June"}
+        - {when: "Sun 11 June 2000", text: "Crowds limited; sway less often", cue: "on Sunday"}
+        - {when: "Mon 12 June 2000", text: "Bridge closed", cue: "twelfth of June"}
 
   - id: S04
     component: big-fact
-    chapter: "How bad was it?"
+    chapter: "What people felt"
     say: >-
-      How bad was it? Measurements showed the deck swinging sideways by around seven centimeters,
-      with sideways accelerations up to a quarter of g.
-      That's enough to throw you off balance.
-      Many people grabbed the handrails just to stay upright.
-      Others walked with their feet spread wide, like sailors on a rolling deck.
+      How bad was it? Engineers later estimated the motion from what people saw and from video.
+      The centre span was swinging sideways by about seven centimeters,
+      with peak sideways accelerations of up to about a quarter of g.
+      People were struggling to keep their balance.
+      Many stopped walking, and some grabbed the railings just to stay upright.
     params:
-      value: "0.25 g"
-      label: "sideways acceleration of the deck"
-      sub: "about 7 cm of side-to-side movement"
+      value: "≈ 0.25 g"
+      label: "estimated peak sideways acceleration"
+      sub: "about 7 cm of sway at the centre span (estimated from video)"
       cue: "quarter of g"
 
   - id: S05
     component: bullets
     say: >-
-      So what went wrong? It wasn't the wind.
-      And the bridge was strong enough to carry the crowds.
-      The problem was how it moved.
-      To understand that, we need one idea that every structural engineer has to check:
-      the natural frequency.
+      To engineers, that motion raises two questions.
+      First, how does this bridge tend to move? That's about its natural frequencies and mode shapes.
+      Second, why did the motion grow instead of dying out? That's about energy.
+      Let's start with the first, using the simplest structure there is.
     params:
-      heading: "What went wrong?"
+      heading: "Two questions"
       items:
-        - {text: "Not the wind", icon: wind, cue: "wasn't the wind"}
-        - {text: "Strong enough to carry the crowds", icon: barbell, cue: "strong enough"}
-        - {text: "The problem: ==how it moved==", icon: wave-sine, cue: "how it moved"}
+        - {text: "How does it move? → ==natural frequencies==", icon: wave-sine, cue: "how does this"}
+        - {text: "Why did it grow? → ==energy==", icon: bolt, cue: "why did the"}
 
   - id: S06
     component: equation-steps
     chapter: "Natural frequency"
     say: >-
-      Start with the simplest structure there is: a mass on a spring.
-      Pull it sideways and let go. It swings back and forth at one particular rate, all by itself.
+      Picture a single mass on a spring. Pull it sideways and let go.
+      It swings back and forth at one particular rate, all by itself.
       That rate is its natural frequency.
-      It depends on just two things: how stiff the spring is, k, and how heavy the mass is, m.
+      It depends on two things: how stiff the spring is, k, and how much mass is moving, m.
       The natural frequency f equals one over two pi, times the square root of k over m.
-      Stiffer means faster. Heavier means slower.
-      A bridge deck works the same way. The steel is the spring, and the deck's own weight is the mass.
+      Stiffer means faster. More mass means slower.
+      A real bridge works on the same idea, except its stiffness and mass are spread throughout the whole structure.
     params:
       heading: "One mass, one natural frequency"
       figure:
@@ -103,286 +103,290 @@ scenes:
       lines:
         - {tex: "f = \\dfrac{1}{2\\pi}\\sqrt{\\dfrac{k}{m}}", mark: true, box: true, cue: "frequency f equals"}
         - {text: "stiffer → faster", cue: "Stiffer means"}
-        - {text: "heavier → slower", cue: "Heavier means"}
+        - {text: "more mass → slower", cue: "More mass means"}
 
   - id: S07
     component: equation-steps
     chapter: "Two masses, two frequencies"
     say: >-
-      Now add a second mass. Two masses, joined by three springs, wall to wall.
+      Now take two identical masses, joined by three identical springs, wall to wall.
+      We'll ignore damping for now.
       Write Newton's law for each mass and you get two equations tangled together.
       Linear algebra packs them into one line.
       K is the stiffness matrix, M is the mass matrix, and v lists how far each mass moves.
-      We look for special motions where everything swings at one shared frequency, omega.
-      That gives K v equals omega squared M v.
-      This is an eigenvalue problem.
-      The eigenvalues give the squared frequencies. The eigenvectors give the shapes of the motion.
+      We look for motions where everything swings at one shared angular frequency, omega.
+      That gives K v equals omega squared M v. It's an eigenvalue problem.
+      To turn omega into hertz, divide by two pi.
     params:
       heading: "Two masses: an eigenvalue problem"
       figure:
-        view: [600, 300]
+        view: [600, 320]
         items:
           - {type: line, from: [40, 60], to: [40, 240], width: 6}
           - {type: line, from: [560, 60], to: [560, 240], width: 6}
-          - {type: line, from: [40, 150], to: [160, 150], label: "k", cue: "three springs"}
-          - {type: rect, pos: [160, 110], size: [80, 80], fill: blue, label: "m", cue: "Two masses"}
+          - {type: line, from: [40, 150], to: [160, 150], label: "k", cue: "three identical springs"}
+          - {type: rect, pos: [160, 110], size: [80, 80], fill: blue, label: "m", cue: "two identical masses"}
           - {type: line, from: [240, 150], to: [360, 150], label: "k"}
           - {type: rect, pos: [360, 110], size: [80, 80], fill: blue, label: "m"}
           - {type: line, from: [440, 150], to: [560, 150], label: "k"}
+          - {type: text, pos: [300, 285], text: "no damping", hand: true, color: red, cue: "ignore damping"}
       lines:
         - {tex: "K = k\\begin{bmatrix}2 & -1\\\\ -1 & 2\\end{bmatrix},\\quad M = m\\begin{bmatrix}1 & 0\\\\ 0 & 1\\end{bmatrix}", cue: "stiffness matrix"}
         - {tex: "K\\mathbf{v} = \\omega^2 M\\mathbf{v}", mark: true, note: "eigenvalue problem", cue: "K v equals"}
-        - {text: "eigenvalues → frequencies", cue: "eigenvalues give"}
-        - {text: "eigenvectors → mode shapes", cue: "eigenvectors give"}
+        - {tex: "f = \\dfrac{\\omega}{2\\pi}", cue: "divide by two"}
 
   - id: S08
     component: equation-steps
     say: >-
-      Let's solve it. Divide through by m, and write lambda for omega squared divided by k over m.
-      An eigenvalue is a value of lambda that makes this determinant zero.
-      Two minus lambda, squared, must equal one. So lambda is exactly one or three.
-      The squared frequencies are k over m, and three times k over m.
-      If the first frequency is one hertz, the second is root three times higher,
-      about one point seven three hertz.
-      Two masses, two natural frequencies.
+      Let's solve it. Divide both sides by k, and call m omega squared over k, lambda.
+      That leaves a matrix with twos on the diagonal and minus ones off it.
+      An eigenvalue is a lambda that makes this determinant zero.
+      That gives two minus lambda, squared, minus one, equals zero. So lambda is one or three.
+      For this example, let's choose the springs and masses so the first frequency is one hertz.
+      Then the second is root three times higher, about one point seven three hertz.
     params:
       heading: "Solving for the frequencies"
       size: l
       lines:
+        - {tex: "\\lambda = \\dfrac{m\\omega^2}{k}", cue: "Divide both sides"}
         - {tex: "\\det\\begin{bmatrix}2-\\lambda & -1\\\\ -1 & 2-\\lambda\\end{bmatrix} = 0", cue: "determinant zero"}
-        - {tex: "(2-\\lambda)^2 = 1 \\;\\Rightarrow\\; \\lambda = 1,\\ 3", circle: true, cue: "one or three"}
-        - {tex: "\\omega_1^2 = \\tfrac{k}{m},\\quad \\omega_2^2 = 3\\,\\tfrac{k}{m}", cue: "squared frequencies"}
-        - {tex: "f_1 = 1\\text{ Hz} \\Rightarrow f_2 = \\sqrt{3}\\text{ Hz} \\approx 1.73\\text{ Hz}", box: true, cue: "root three"}
+        - {tex: "(2-\\lambda)^2 - 1 = 0 \\;\\Rightarrow\\; \\lambda = 1,\\ 3", circle: true, cue: "one or three"}
+        - {tex: "f_1 = 1\\text{ Hz} \\;\\Rightarrow\\; f_2 = \\sqrt{3}\\,f_1 \\approx 1.73\\text{ Hz}", box: true, cue: "root three"}
 
   - id: S09
     component: diagram
     chapter: "Mode shapes"
     say: >-
       Each eigenvalue comes with an eigenvector, called a mode shape.
-      In the first mode, both masses swing together, in the same direction.
-      That's the slow one, at one hertz.
-      In the second mode, they swing against each other.
-      That's the fast one, at one point seven three hertz.
-      Any motion of this system, however messy, is just a mix of these two modes.
+      In the first mode, both masses move together. The middle spring stays the same length.
+      That's the one hertz mode.
+      In the second, they move in opposite directions.
+      Now the middle spring stretches and compresses too, so that mode has a higher frequency,
+      about one point seven three hertz.
+      In this model, any free vibration can be described as a combination of these two modes.
     params:
       heading: "Two mode shapes"
       view: [1000, 600]
       items:
-        - {type: line, from: [60, 110], to: [60, 230], width: 6}
-        - {type: line, from: [940, 110], to: [940, 230], width: 6}
-        - {type: line, from: [60, 170], to: [300, 170]}
-        - {type: circle, pos: [340, 170], r: 40, fill: blue}
-        - {type: line, from: [380, 170], to: [620, 170]}
-        - {type: circle, pos: [660, 170], r: 40, fill: blue}
-        - {type: line, from: [700, 170], to: [940, 170]}
-        - {type: arrow, from: [290, 95], to: [390, 95], color: red, cue: "swing together"}
-        - {type: arrow, from: [610, 95], to: [710, 95], color: red, cue: "swing together"}
-        - {type: text, pos: [400, 275], text: "Mode 1: together, 1 Hz", cue: "slow one"}
-        - {type: tex, pos: [800, 275], tex: "\\mathbf{v} = (1,\\ 1)"}
-        - {type: line, from: [60, 370], to: [60, 490], width: 6}
-        - {type: line, from: [940, 370], to: [940, 490], width: 6}
-        - {type: line, from: [60, 430], to: [300, 430]}
-        - {type: circle, pos: [340, 430], r: 40, fill: blue}
-        - {type: line, from: [380, 430], to: [620, 430]}
-        - {type: circle, pos: [660, 430], r: 40, fill: blue}
-        - {type: line, from: [700, 430], to: [940, 430]}
-        - {type: arrow, from: [290, 355], to: [390, 355], color: red, cue: "against each other"}
-        - {type: arrow, from: [710, 355], to: [610, 355], color: red, cue: "against each other"}
-        - {type: text, pos: [400, 535], text: "Mode 2: opposite, 1.73 Hz", cue: "fast one"}
-        - {type: tex, pos: [800, 535], tex: "\\mathbf{v} = (1,\\ -1)"}
+        - {type: text, pos: [260, 100], text: "Mode 1: together"}
+        - {type: text, pos: [740, 100], text: "Mode 2: opposite"}
+        - {type: line, from: [60, 200], to: [60, 320], width: 6}
+        - {type: line, from: [460, 200], to: [460, 320], width: 6}
+        - {type: line, from: [60, 260], to: [140, 260]}
+        - {type: circle, pos: [170, 260], r: 30, fill: blue}
+        - {type: line, from: [200, 260], to: [320, 260], color: red}
+        - {type: circle, pos: [350, 260], r: 30, fill: blue}
+        - {type: line, from: [380, 260], to: [460, 260]}
+        - {type: arrow, from: [140, 190], to: [200, 190], color: red, cue: "move together"}
+        - {type: arrow, from: [320, 190], to: [380, 190], color: red, cue: "move together"}
+        - {type: tex, pos: [260, 370], tex: "f_1 = 1\\text{ Hz}"}
+        - {type: text, pos: [260, 450], text: "middle spring: same length", size: s, cue: "same length"}
+        - {type: line, from: [540, 200], to: [540, 320], width: 6}
+        - {type: line, from: [940, 200], to: [940, 320], width: 6}
+        - {type: line, from: [540, 260], to: [620, 260]}
+        - {type: circle, pos: [650, 260], r: 30, fill: blue}
+        - {type: line, from: [680, 260], to: [800, 260], color: red}
+        - {type: circle, pos: [830, 260], r: 30, fill: blue}
+        - {type: line, from: [860, 260], to: [940, 260]}
+        - {type: arrow, from: [620, 190], to: [680, 190], color: red, cue: "opposite directions"}
+        - {type: arrow, from: [860, 190], to: [800, 190], color: red, cue: "opposite directions"}
+        - {type: tex, pos: [740, 370], tex: "f_2 \\approx 1.73\\text{ Hz}"}
+        - {type: text, pos: [740, 450], text: "middle spring stretches", size: s, cue: "stretches and compresses"}
 
   - id: S10
     component: bullets
     chapter: "A real bridge"
     say: >-
       A real bridge works the same way, only bigger.
-      Engineers model it as thousands of small masses and springs.
-      A computer finds the eigenvalues of matrices with thousands of rows.
-      Each one is a natural frequency, with its own mode shape: bending up and down, twisting, or swaying sideways.
-      For footbridges, the lowest few modes matter most,
-      because they sit closest to the rhythm of human walking.
+      Engineers build a finite element model,
+      a computer model of how mass and stiffness are spread through the structure.
+      That gives matrices with thousands of rows.
+      Their eigenvalues are squared angular frequencies.
+      Their eigenvectors describe the mode shapes: bending up and down, twisting, or swaying sideways.
+      For a footbridge, the low modes are the ones to watch, because they're close to the rhythm of walking.
     params:
       heading: "A real bridge"
       items:
-        - {text: "Thousands of masses and springs", icon: grid-dots, cue: "thousands of small"}
-        - {text: "A computer finds the eigenvalues", icon: cpu, cue: "computer finds"}
-        - {text: "Modes: bend, twist, sway", icon: wave-sine, cue: "bending up"}
-        - {text: "==Lowest modes== matter most", icon: arrow-down, cue: "lowest few"}
+        - {text: "Finite element model of the bridge", icon: grid-dots, cue: "finite element"}
+        - {text: "Eigenvalues → squared angular frequencies", icon: cpu, cue: "Their eigenvalues"}
+        - {text: "Eigenvectors → mode shapes", icon: wave-sine, cue: "Their eigenvectors"}
+        - {text: "==Low modes== are the ones to watch", icon: arrow-down, cue: "low modes"}
 
   - id: S11
     component: diagram
     chapter: "The rhythm of walking"
     say: >-
       So what's the rhythm of walking? Most people take about two steps every second.
-      Each step pushes down, so the up and down force comes at about two hertz.
+      Each step pushes down, so the main up and down force comes at about two hertz.
       Now watch from above. You shift your weight onto your left foot, then your right foot.
-      One full side to side sway takes two steps.
-      So walking also pushes sideways, at about one hertz. That's half your step rate.
+      One full left-right cycle takes two steps.
+      So the sideways force comes at about one hertz. That's half your step rate.
     params:
       heading: "Walking, seen from above"
       view: [1000, 500]
       items:
-        - {type: polyline, points: [[80, 240], [200, 150], [440, 350], [680, 150], [905, 350]], color: red, dashed: true, cue: "side to side"}
+        - {type: polyline, points: [[80, 240], [200, 150], [440, 350], [680, 150], [905, 350]], color: red, dashed: true, cue: "full left-right cycle"}
         - {type: rect, pos: [175, 110], size: [50, 28], fill: marker, label: "L", cue: "left foot"}
         - {type: rect, pos: [415, 350], size: [50, 28], fill: marker, label: "R", cue: "right foot"}
         - {type: rect, pos: [655, 110], size: [50, 28], fill: marker, label: "L"}
         - {type: rect, pos: [880, 350], size: [50, 28], fill: marker, label: "R"}
         - {type: arrow, from: [80, 450], to: [920, 450], label: "walking forward", cue: "two steps every"}
-      caption: "2 steps per second → 1 sideways sway per second"
+      caption: "2 steps per second → 1 sideways cycle per second"
 
   - id: S12
     component: table
-    chapter: "A perfect match"
+    chapter: "A mode near one hertz"
     say: >-
-      Now compare. People walking push sideways at somewhere between about point seven and one point two hertz.
-      The Millennium Bridge's south span had a sideways mode at point seven seven hertz.
-      In the centre span, the strongly excited mode was close to one hertz.
-      Right in the middle of the walking band.
-      Engineers now know that any footbridge with a sideways mode below about one point three hertz is at risk,
-      if it's light enough and crowded enough.
+      Now look at the bridge. The south span swayed at about point seven seven hertz.
+      The centre span swayed near point nine five hertz, close to that one hertz walking rhythm.
+      So far, that sounds like simple resonance.
+      But the centre span also swayed at just under point five hertz.
+      That's about half the walking rhythm, far from a match.
+      So comparing walking with one bridge frequency can't be the whole story.
     params:
       heading: "Walking vs the bridge (sideways)"
       headers: ["What", "Sideways frequency"]
       rows:
-        - ["People walking (sideways push)", "0.7 – 1.2 Hz"]
-        - ["South span, sideways mode", "0.77 Hz"]
-        - ["Centre span, excited mode", "≈ 1.0 Hz"]
-        - ["Risk zone for footbridges", "below ≈ 1.3 Hz"]
-      row_cues: ["People walking", "south span", "strongly excited", "one point three"]
-      highlight: {row: 2, cue: "middle of the walking"}
+        - ["Walking, sideways force", "≈ 1 Hz"]
+        - ["South span", "≈ 0.77 Hz"]
+        - ["Centre span, 2nd sideways mode", "≈ 0.95 Hz"]
+        - ["Centre span, 1st sideways mode", "just under 0.5 Hz"]
+      row_cues: ["Now look", "south span", "point nine five", "just under point"]
+      highlight: {row: 3, cue: "far from a match"}
 
   - id: S13
     component: graph
-    chapter: "Resonance"
+    chapter: "Resonance and damping"
     say: >-
-      When a push matches a natural frequency, you get resonance.
+      Here's what resonance looks like when a steady outside force pushes on a structure.
       Think of pushing a child on a swing. Small pushes, in time, build a big motion.
-      This graph is for an example structure with a natural frequency of one hertz.
-      It shows how much the structure magnifies a steady push.
-      Far from one hertz, almost nothing happens.
-      Right at one hertz, with five percent damping, the motion is about ten times bigger.
-      The peak is roughly one over two zeta, where zeta is the damping.
-      Raise the damping to twenty percent and the peak drops to about two and a half.
+      This example structure has a natural frequency of one hertz.
+      The graph compares its motion with how far the same force would move it if you pushed very slowly.
+      At very low frequencies, the ratio is about one.
+      At one hertz, with five percent damping, it's ten times.
+      With twenty percent damping, it's two and a half times. Damping keeps the peak down.
+      But a crowd isn't a steady outside force. A moving bridge changes how people push on it.
     params:
-      heading: "Resonance (example: natural frequency 1 Hz)"
+      heading: "Example: steady external force"
       x_range: [0, 2]
       y_range: [0, 11]
-      x_label: "push frequency (Hz)"
-      y_label: "amplification"
+      x_label: "driving frequency (Hz)"
+      y_label: "amplitude ÷ static deflection"
       functions:
-        - {expr: "1/sqrt((1-x^2)^2+(2*0.05*x)^2)", label: "$\\zeta = 5\\%$", color: red, cue: "Far from one"}
-        - {expr: "1/sqrt((1-x^2)^2+(2*0.2*x)^2)", label: "$\\zeta = 20\\%$", color: blue, dashed: true, cue: "twenty percent"}
+        - {expr: "1/sqrt((1-x^2)^2+(2*0.05*x)^2)", label: "$\\zeta = 5\\%$", color: red, cue: "This example structure"}
+        - {expr: "1/sqrt((1-x^2)^2+(2*0.2*x)^2)", label: "$\\zeta = 20\\%$", color: blue, dashed: true, cue: "With twenty percent"}
       points:
-        - {x: 1, y: 10, label: "≈ 10×", cue: "ten times bigger"}
+        - {x: 1, y: 10, label: "10×", cue: "ten times"}
+        - {x: 1, y: 2.5, cue: "two and a half"}
+      hlines:
+        - {y: 1, label: "1× (static)", cue: "about one"}
       side:
-        - {tex: "\\text{peak} \\approx \\dfrac{1}{2\\zeta}", cue: "one over two"}
+        - {tex: "\\zeta = 5\\%:\\ 10\\times", cue: "five percent damping"}
+        - {tex: "\\zeta = 20\\%:\\ 2.5\\times", cue: "two and a half"}
 
   - id: S14
     component: diagram
-    chapter: "The feedback loop"
+    chapter: "Why the wobble grew"
     say: >-
-      But there's a twist. Normally, a crowd's footsteps are random, so their sideways pushes mostly cancel out.
-      When the deck starts to sway, walking gets awkward.
-      So people widen their stance and, without thinking, time their steps to the bridge's motion.
-      Now hundreds of people push sideways together, in time with the sway. That adds more energy.
-      More sway makes even more people fall into step.
-      It's a feedback loop. Engineers call it synchronous lateral excitation.
+      For years, the popular explanation was that walkers fell into step with each other.
+      Newer research shows they don't have to.
+      On this bridge, the deck itself changed how people walked.
+      As it shifted under their feet, they adjusted their steps to stay balanced.
+      On average, those adjustments fed energy back into the sideways motion,
+      even when people were walking out of step.
+      So think of each sway as a balance. Walkers add energy. Damping takes energy away.
+      If damping wins, the sway fades. If the walkers win, the sway grows.
     params:
-      heading: "A feedback loop"
+      heading: "An energy balance"
       view: [1000, 600]
       items:
-        - {type: rect, pos: [80, 70], size: [300, 90], label: "Bridge sways", cue: "starts to sway"}
-        - {type: rect, pos: [620, 70], size: [300, 90], label: "People widen stance", cue: "widen their stance"}
-        - {type: rect, pos: [620, 420], size: [300, 90], label: "Steps fall in time", cue: "time their steps"}
-        - {type: rect, pos: [80, 420], size: [300, 90], label: "Pushes add up", cue: "push sideways together"}
-        - {type: arrow, from: [380, 115], to: [620, 115], color: red}
-        - {type: arrow, from: [770, 160], to: [770, 420], color: red}
-        - {type: arrow, from: [620, 465], to: [380, 465], color: red}
-        - {type: arrow, from: [230, 420], to: [230, 160], color: red}
-        - {type: text, pos: [500, 300], text: "more sway!", hand: true, size: l, color: red, cue: "More sway makes"}
+        - {type: text, pos: [270, 70], text: "Fewer walkers"}
+        - {type: text, pos: [730, 70], text: "Many walkers"}
+        - {type: ground, from: [80, 500], to: [920, 500]}
+        - {type: rect, pos: [150, 380], size: [100, 120], fill: red, cue: "Walkers add"}
+        - {type: rect, pos: [290, 250], size: [100, 250], fill: blue, cue: "Damping takes"}
+        - {type: text, pos: [270, 140], text: "sway fades", color: green, hand: true, cue: "If damping wins"}
+        - {type: rect, pos: [610, 200], size: [100, 300], fill: red, cue: "If the walkers"}
+        - {type: rect, pos: [750, 250], size: [100, 250], fill: blue, cue: "If the walkers"}
+        - {type: text, pos: [730, 140], text: "sway grows", color: red, hand: true, cue: "sway grows"}
+        - {type: text, pos: [280, 555], text: "Energy added by walkers", color: red, size: s, cue: "Walkers add"}
+        - {type: text, pos: [720, 555], text: "Energy lost through damping", color: blue, size: s, cue: "Damping takes"}
 
   - id: S15
     component: big-fact
     chapter: "The tipping point"
     say: >-
-      Arup's engineers tested this on the closed bridge with groups of walkers.
-      They slowly added more and more people.
-      Nothing much happened, until about one hundred sixty five people were on one span.
-      Then the wobble switched on, suddenly.
-      Below that number, the bridge's own damping soaked up the crowd's pushes. Above it, the crowd won.
+      Engineers saw this tipping point in a test. After the closure,
+      they gradually added walkers to one span.
+      With around one hundred sixty five people on the test span, the sway began to grow sharply.
+      Past that point, the crowd was putting energy into the motion faster than the bridge could lose it.
     params:
       value: "≈ 165"
-      label: "walkers on one span"
-      sub: "the tipping point"
+      label: "walkers on the test span"
+      sub: "where the sway began to grow sharply"
       cue: "one hundred sixty five"
 
   - id: S16
     component: bullets
     chapter: "The fix"
     say: >-
-      The fix wasn't to rebuild the bridge. It was to add damping, just like in the graph.
-      Engineers fitted thirty seven fluid viscous dampers, a lot like the shock absorbers in a car,
-      to soak up the sideways motion.
-      They also added around fifty tuned mass dampers, weights on springs that calm the up and down motion.
+      Making the bridge much stiffer would have changed its look completely.
+      So instead, engineers added damping, to take energy out.
+      They fitted thirty seven fluid viscous dampers, a lot like the shock absorbers in a car,
+      mainly for the sideways motion.
+      They also installed fifty two tuned mass dampers for the up and down motion.
       The work cost about five million pounds.
-      Then they tested it with crowds of up to two thousand people. No wobble.
+      In tests of the modified bridge, with about two thousand people, the motion stayed at acceptable levels.
     params:
-      heading: "The fix: add damping"
+      heading: "The fix: take energy out"
       items:
         - {text: "37 fluid dampers, like shock absorbers", icon: car, cue: "thirty seven"}
-        - {text: "About 50 tuned mass dampers", icon: weight, cue: "tuned mass dampers"}
+        - {text: "52 tuned mass dampers (vertical)", icon: weight, cue: "fifty two"}
         - {text: "Cost: about £5 million", icon: coin-pound, cue: "five million"}
-        - {text: "Tested with up to 2,000 people", icon: users-group, cue: "two thousand people"}
+        - {text: "Tested with about 2,000 people", icon: users-group, cue: "two thousand people"}
 
   - id: S17
     component: photo-overlay
     chapter: "Reopened"
     say: >-
-      In February two thousand two, the Millennium Bridge reopened.
-      The dampers are tucked under and beside the deck, mostly out of sight.
-      The bridge has the same light, slender shape it always had.
-      But the crowd's pushes now get soaked up before they can build, and the wobble hasn't come back since.
+      On the twenty second of February, two thousand two, the Millennium Bridge reopened.
+      The dampers sit under and beside the deck, mostly out of sight.
+      The bridge kept its light, slender shape, and its natural frequencies still describe how it can move.
+      What changed is the balance. The dampers now take energy out faster than a normal crowd puts it in.
     params:
       src: dampers.jpg
       credit: "Image: AI-generated"
       overlays:
-        - {type: label, pos: [72, 22], text: "reopened Feb 2002", cue: "reopened"}
+        - {type: label, pos: [72, 22], text: "reopened 22 Feb 2002", cue: "reopened"}
         - {type: callout, pos: [35, 72], text: "dampers under the deck", side: left, cue: "under and beside"}
 
   - id: S18
     component: bullets
-    chapter: "Eigenvalues everywhere"
+    chapter: "Same questions, other structures"
     say: >-
-      This isn't just about one bridge. Every structure has natural frequencies, and engineers check them.
-      Tall buildings are checked against wind and earthquakes.
-      Stadium stands are checked against crowds jumping to music.
-      Washing machines are designed so the spin cycle doesn't shake the floor.
-      And aircraft wings are checked so the air can't set them flapping.
-      Each time, the question is the same: what are the eigenvalues, and is anything pushing near them?
+      The same two questions come up wherever crowds meet structures. Take stadium stands.
+      Engineers check their natural frequencies, so a crowd jumping to music doesn't line up with them.
+      And they check there's enough damping for the energy a crowd can put in.
     params:
-      heading: "Natural frequencies everywhere"
+      heading: "Stadium stands"
       items:
-        - {text: "Skyscrapers: wind and earthquakes", icon: building-skyscraper, cue: "Tall buildings"}
-        - {text: "Stadiums: jumping crowds", icon: users-group, cue: "Stadium stands"}
-        - {text: "Washing machines: spin cycle", icon: wash-machine, cue: "Washing machines"}
-        - {text: "Aircraft wings: flutter", icon: plane, cue: "aircraft wings"}
+        - {text: "Frequencies away from jumping rhythms", icon: users-group, cue: "natural frequencies"}
+        - {text: "Enough damping for the crowd's energy", icon: bolt, cue: "enough damping"}
 
   - id: S19
     component: equation-steps
     chapter: "Remember this"
     say: >-
-      So remember this. Every structure has natural frequencies,
-      and they come from the eigenvalues of its stiffness and mass.
-      If something pushes near one of them, the motion builds.
-      Engineers have two ways out: move the frequency away from the push,
-      or add damping so the peak stays small.
-      On the Millennium Bridge, it took a crowd of walkers to prove it.
+      So remember this. The eigenvalues told engineers how fast the bridge could sway.
+      Whether that sway faded or grew depended on how much energy the crowd added
+      and how much the bridge dissipated.
+      The dampers tipped that balance.
     params:
       heading: "Remember this"
       lines:
-        - {tex: "K\\mathbf{v} = \\omega^2 M\\mathbf{v}", mark: true, cue: "natural frequencies"}
-        - {text: "Push near a natural frequency → resonance", cue: "pushes near"}
-        - {text: "Fix: move the frequency, or add damping", box: true, cue: "two ways out"}
+        - {tex: "K\\mathbf{v} = \\omega^2 M\\mathbf{v}", mark: true, cue: "eigenvalues told"}
+        - {text: "Sway grows if energy in > energy out", cue: "faded or grew"}
+        - {text: "Dampers: more energy out", box: true, cue: "dampers tipped"}
 
   - id: S20
     component: end-card
