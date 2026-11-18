@@ -1,0 +1,867 @@
+1
+00:00:00,240 --> 00:00:02,800
+On opening day, London's new footbridge
+
+2
+00:00:02,800 --> 00:00:04,560
+began swaying sideways.
+
+3
+00:00:04,560 --> 00:00:06,080
+People grabbed the railings.
+
+4
+00:00:06,080 --> 00:00:08,400
+Two days later, the bridge closed.
+
+5
+00:00:08,400 --> 00:00:10,000
+Engineers had two questions.
+
+6
+00:00:10,160 --> 00:00:11,920
+How does a bridge like this move?
+
+7
+00:00:11,920 --> 00:00:14,880
+And why did a crowd make that motion grow?
+
+8
+00:00:14,880 --> 00:00:16,880
+The first question takes a little linear
+
+9
+00:00:16,880 --> 00:00:18,080
+algebra.
+
+10
+00:00:18,080 --> 00:00:20,320
+This is the Millennium Bridge, London's
+
+11
+00:00:20,320 --> 00:00:22,000
+showpiece for the new millennium.
+
+12
+00:00:22,000 --> 00:00:24,400
+It's a sleek steel suspension bridge, with
+
+13
+00:00:24,400 --> 00:00:26,320
+a main span of one hundred forty four
+
+14
+00:00:26,320 --> 00:00:28,480
+meters. It opened on the tenth of June,
+
+15
+00:00:28,480 --> 00:00:29,200
+two thousand.
+
+16
+00:00:29,360 --> 00:00:31,360
+An estimated eighty to one hundred
+
+17
+00:00:31,360 --> 00:00:33,440
+thousand people crossed that first day,
+
+18
+00:00:33,440 --> 00:00:35,040
+with about two thousand on the bridge at
+
+19
+00:00:35,040 --> 00:00:36,240
+the busiest moments.
+
+20
+00:00:36,240 --> 00:00:38,720
+Soon the deck was moving sideways.
+
+21
+00:00:38,720 --> 00:00:40,800
+Crowd numbers were limited, and on Sunday
+
+22
+00:00:40,880 --> 00:00:42,320
+the sway came less often.
+
+23
+00:00:42,320 --> 00:00:43,840
+But it kept coming back.
+
+24
+00:00:43,840 --> 00:00:45,760
+On the twelfth of June, just two days
+
+25
+00:00:45,760 --> 00:00:48,240
+after opening, the bridge was closed.
+
+26
+00:00:48,240 --> 00:00:49,600
+How bad was it?
+
+27
+00:00:49,600 --> 00:00:51,600
+Engineers later estimated the motion from
+
+28
+00:00:51,600 --> 00:00:53,440
+what people saw and from video.
+
+29
+00:00:53,440 --> 00:00:55,680
+The centre span was swinging sideways by
+
+30
+00:00:55,680 --> 00:00:57,520
+about seven centimeters, with peak
+
+31
+00:00:57,600 --> 00:00:59,520
+sideways accelerations of up to about a
+
+32
+00:00:59,520 --> 00:01:00,720
+quarter of g.
+
+33
+00:01:00,910 --> 00:01:02,270
+People were struggling to keep their
+
+34
+00:01:02,270 --> 00:01:04,430
+balance. Many stopped walking, and some
+
+35
+00:01:04,430 --> 00:01:06,830
+grabbed the railings just to stay upright.
+
+36
+00:01:06,830 --> 00:01:09,230
+To engineers, that motion raises two
+
+37
+00:01:09,230 --> 00:01:11,310
+questions. First, how does this bridge
+
+38
+00:01:11,310 --> 00:01:12,190
+tend to move?
+
+39
+00:01:12,190 --> 00:01:13,870
+That's about its natural frequencies and
+
+40
+00:01:13,870 --> 00:01:16,350
+mode shapes. Second, why did the motion
+
+41
+00:01:16,350 --> 00:01:18,190
+grow instead of dying out?
+
+42
+00:01:18,190 --> 00:01:19,550
+That's about energy.
+
+43
+00:01:19,550 --> 00:01:21,230
+Let's start with the first, using the
+
+44
+00:01:21,230 --> 00:01:22,990
+simplest structure there is.
+
+45
+00:01:22,990 --> 00:01:25,470
+Picture a single mass on a spring.
+
+46
+00:01:25,470 --> 00:01:27,470
+Pull it sideways and let go.
+
+47
+00:01:27,470 --> 00:01:29,950
+It swings back and forth at one particular
+
+48
+00:01:29,950 --> 00:01:31,710
+rate, all by itself.
+
+49
+00:01:31,710 --> 00:01:34,030
+That rate is its natural frequency.
+
+50
+00:01:34,190 --> 00:01:36,430
+It depends on two things: how stiff the
+
+51
+00:01:36,430 --> 00:01:39,310
+spring is, k, and how much mass is moving,
+
+52
+00:01:39,310 --> 00:01:42,670
+m. The natural frequency f equals one over
+
+53
+00:01:42,670 --> 00:01:45,950
+two pi, times the square root of k over m.
+
+54
+00:01:45,950 --> 00:01:47,390
+Stiffer means faster.
+
+55
+00:01:47,390 --> 00:01:48,990
+More mass means slower.
+
+56
+00:01:48,990 --> 00:01:51,150
+A real bridge works on the same idea,
+
+57
+00:01:51,150 --> 00:01:53,150
+except its stiffness and mass are spread
+
+58
+00:01:53,150 --> 00:01:55,070
+throughout the whole structure.
+
+59
+00:01:55,070 --> 00:01:58,270
+Now take two identical masses, joined by
+
+60
+00:01:58,270 --> 00:02:00,830
+three identical springs, wall to wall.
+
+61
+00:02:00,900 --> 00:02:02,580
+We'll ignore damping for now.
+
+62
+00:02:02,580 --> 00:02:04,820
+Write Newton's law for each mass and you
+
+63
+00:02:04,820 --> 00:02:07,060
+get two equations tangled together.
+
+64
+00:02:07,060 --> 00:02:09,860
+Linear algebra packs them into one line.
+
+65
+00:02:09,860 --> 00:02:12,820
+K is the stiffness matrix, M is the mass
+
+66
+00:02:12,820 --> 00:02:15,540
+matrix, and v lists how far each mass
+
+67
+00:02:15,540 --> 00:02:17,460
+moves. We look for motions where
+
+68
+00:02:17,460 --> 00:02:19,860
+everything swings at one shared angular
+
+69
+00:02:19,860 --> 00:02:21,460
+frequency, omega.
+
+70
+00:02:21,460 --> 00:02:25,220
+That gives K v equals omega squared M v.
+
+71
+00:02:25,220 --> 00:02:26,740
+It's an eigenvalue problem.
+
+72
+00:02:26,740 --> 00:02:29,060
+To turn omega into hertz, divide by two
+
+73
+00:02:29,060 --> 00:02:29,690
+pi.
+
+74
+00:02:29,700 --> 00:02:30,820
+Let's solve it.
+
+75
+00:02:30,820 --> 00:02:33,700
+Divide both sides by k, and call m omega
+
+76
+00:02:33,860 --> 00:02:35,860
+squared over k, lambda.
+
+77
+00:02:35,860 --> 00:02:37,780
+That leaves a matrix with twos on the
+
+78
+00:02:37,780 --> 00:02:40,180
+diagonal and minus ones off it.
+
+79
+00:02:40,180 --> 00:02:42,500
+An eigenvalue is a lambda that makes this
+
+80
+00:02:42,500 --> 00:02:43,940
+determinant zero.
+
+81
+00:02:43,940 --> 00:02:46,180
+That gives two minus lambda, squared,
+
+82
+00:02:46,340 --> 00:02:48,100
+minus one, equals zero.
+
+83
+00:02:48,100 --> 00:02:50,580
+So lambda is one or three.
+
+84
+00:02:50,580 --> 00:02:52,740
+For this example, let's choose the springs
+
+85
+00:02:52,740 --> 00:02:54,740
+and masses so the first frequency is one
+
+86
+00:02:54,740 --> 00:02:57,060
+hertz. Then the second is root three times
+
+87
+00:02:57,060 --> 00:02:59,460
+higher, about one point seven three hertz.
+
+88
+00:02:59,890 --> 00:03:02,770
+Each eigenvalue comes with an eigenvector,
+
+89
+00:03:02,770 --> 00:03:04,130
+called a mode shape.
+
+90
+00:03:04,130 --> 00:03:06,130
+In the first mode, both masses move
+
+91
+00:03:06,130 --> 00:03:08,290
+together. The middle spring stays the same
+
+92
+00:03:08,290 --> 00:03:10,610
+length. That's the one hertz mode.
+
+93
+00:03:10,610 --> 00:03:12,370
+In the second, they move in opposite
+
+94
+00:03:12,370 --> 00:03:14,050
+directions. Now the middle spring
+
+95
+00:03:14,050 --> 00:03:16,130
+stretches and compresses too, so that mode
+
+96
+00:03:16,130 --> 00:03:17,660
+has a higher frequency, about one point
+
+97
+00:03:17,670 --> 00:03:19,730
+seven three hertz.
+
+98
+00:03:19,730 --> 00:03:21,970
+In this model, any free vibration can be
+
+99
+00:03:21,970 --> 00:03:23,730
+described as a combination of these two
+
+100
+00:03:23,730 --> 00:03:24,610
+modes.
+
+101
+00:03:24,610 --> 00:03:26,850
+A real bridge works the same way, only
+
+102
+00:03:26,930 --> 00:03:29,570
+bigger. Engineers build a finite element
+
+103
+00:03:29,650 --> 00:03:31,730
+model, a computer model of how mass and
+
+104
+00:03:31,730 --> 00:03:33,090
+stiffness are spread through the
+
+105
+00:03:33,090 --> 00:03:34,930
+structure. That gives matrices with
+
+106
+00:03:34,930 --> 00:03:36,050
+thousands of rows.
+
+107
+00:03:36,050 --> 00:03:37,880
+Their eigenvalues are squared angular
+
+108
+00:03:37,890 --> 00:03:40,530
+frequencies. Their eigenvectors describe
+
+109
+00:03:40,530 --> 00:03:42,610
+the mode shapes: bending up and down,
+
+110
+00:03:42,770 --> 00:03:44,850
+twisting, or swaying sideways.
+
+111
+00:03:44,850 --> 00:03:46,770
+For a footbridge, the low modes are the
+
+112
+00:03:46,770 --> 00:03:48,370
+ones to watch, because they're close to
+
+113
+00:03:48,370 --> 00:03:49,810
+the rhythm of walking.
+
+114
+00:03:49,810 --> 00:03:51,650
+So what's the rhythm of walking?
+
+115
+00:03:51,810 --> 00:03:53,890
+Most people take about two steps every
+
+116
+00:03:53,890 --> 00:03:56,370
+second. Each step pushes down, so the main
+
+117
+00:03:56,370 --> 00:03:57,970
+up and down force comes at about two
+
+118
+00:03:58,130 --> 00:04:00,160
+hertz. Now watch from above.
+
+119
+00:04:00,160 --> 00:04:02,000
+You shift your weight onto your left foot,
+
+120
+00:04:02,000 --> 00:04:03,120
+then your right foot.
+
+121
+00:04:03,120 --> 00:04:06,000
+One full left right cycle takes two steps.
+
+122
+00:04:06,000 --> 00:04:07,840
+So the sideways force comes at about one
+
+123
+00:04:08,000 --> 00:04:10,320
+hertz. That's half your step rate.
+
+124
+00:04:10,320 --> 00:04:11,760
+Now look at the bridge.
+
+125
+00:04:11,760 --> 00:04:13,430
+The south span swayed at about point seven
+
+126
+00:04:13,440 --> 00:04:17,120
+seven hertz. The centre span swayed near
+
+127
+00:04:17,120 --> 00:04:19,200
+point nine five hertz, close to that one
+
+128
+00:04:19,360 --> 00:04:20,960
+hertz walking rhythm.
+
+129
+00:04:20,960 --> 00:04:23,520
+So far, that sounds like simple resonance.
+
+130
+00:04:23,520 --> 00:04:25,920
+But the centre span also swayed at just
+
+131
+00:04:25,920 --> 00:04:27,520
+under point five hertz.
+
+132
+00:04:27,520 --> 00:04:29,440
+That's about half the walking rhythm, far
+
+133
+00:04:29,600 --> 00:04:30,560
+from a match.
+
+134
+00:04:30,560 --> 00:04:32,640
+So comparing walking with one bridge
+
+135
+00:04:32,640 --> 00:04:34,800
+frequency can't be the whole story.
+
+136
+00:04:34,800 --> 00:04:36,880
+Here's what resonance looks like when a
+
+137
+00:04:36,880 --> 00:04:38,880
+steady outside force pushes on a
+
+138
+00:04:38,880 --> 00:04:40,960
+structure. Think of pushing a child on a
+
+139
+00:04:40,960 --> 00:04:43,920
+swing. Small pushes, in time, build a big
+
+140
+00:04:43,920 --> 00:04:46,160
+motion. This example structure has a
+
+141
+00:04:46,160 --> 00:04:48,000
+natural frequency of one hertz.
+
+142
+00:04:48,000 --> 00:04:50,320
+The graph compares its motion with how far
+
+143
+00:04:50,320 --> 00:04:52,240
+the same force would move it if you pushed
+
+144
+00:04:52,240 --> 00:04:54,720
+very slowly. At very low frequencies, the
+
+145
+00:04:54,720 --> 00:04:56,240
+ratio is about one.
+
+146
+00:04:56,330 --> 00:04:58,410
+At one hertz, with five percent damping,
+
+147
+00:04:58,490 --> 00:04:59,690
+it's ten times.
+
+148
+00:04:59,690 --> 00:05:01,530
+With twenty percent damping, it's two and
+
+149
+00:05:01,610 --> 00:05:02,490
+a half times.
+
+150
+00:05:02,490 --> 00:05:04,330
+Damping keeps the peak down.
+
+151
+00:05:04,330 --> 00:05:07,210
+But a crowd isn't a steady outside force.
+
+152
+00:05:07,210 --> 00:05:09,690
+A moving bridge changes how people push on
+
+153
+00:05:09,690 --> 00:05:10,240
+it.
+
+154
+00:05:10,250 --> 00:05:12,250
+For years, the popular explanation was
+
+155
+00:05:12,250 --> 00:05:14,090
+that walkers fell into step with each
+
+156
+00:05:14,090 --> 00:05:16,090
+other. Newer research shows they don't
+
+157
+00:05:16,090 --> 00:05:18,730
+have to. On this bridge, the deck itself
+
+158
+00:05:18,730 --> 00:05:20,250
+changed how people walked.
+
+159
+00:05:20,250 --> 00:05:22,010
+As it shifted under their feet, they
+
+160
+00:05:22,010 --> 00:05:24,170
+adjusted their steps to stay balanced.
+
+161
+00:05:24,170 --> 00:05:26,490
+On average, those adjustments fed energy
+
+162
+00:05:26,490 --> 00:05:28,650
+back into the sideways motion, even when
+
+163
+00:05:28,650 --> 00:05:30,410
+people were walking out of step.
+
+164
+00:05:30,410 --> 00:05:32,810
+So think of each sway as a balance.
+
+165
+00:05:32,810 --> 00:05:34,330
+Walkers add energy.
+
+166
+00:05:34,330 --> 00:05:36,170
+Damping takes energy away.
+
+167
+00:05:36,170 --> 00:05:38,810
+If damping wins, the sway fades.
+
+168
+00:05:38,810 --> 00:05:41,290
+If the walkers win, the sway grows.
+
+169
+00:05:41,290 --> 00:05:43,370
+Engineers saw this tipping point in a
+
+170
+00:05:43,370 --> 00:05:45,850
+test. After the closure, they gradually
+
+171
+00:05:45,850 --> 00:05:47,850
+added walkers to one span.
+
+172
+00:05:47,850 --> 00:05:49,610
+With around one hundred sixty five people
+
+173
+00:05:49,610 --> 00:05:51,930
+on the test span, the sway began to grow
+
+174
+00:05:51,930 --> 00:05:54,520
+sharply. Past that point, the crowd was
+
+175
+00:05:54,520 --> 00:05:56,440
+putting energy into the motion faster than
+
+176
+00:05:56,440 --> 00:05:57,720
+the bridge could lose it.
+
+177
+00:05:57,960 --> 00:06:00,120
+Making the bridge much stiffer would have
+
+178
+00:06:00,120 --> 00:06:01,720
+changed its look completely.
+
+179
+00:06:01,720 --> 00:06:04,680
+So instead, engineers added damping, to
+
+180
+00:06:04,680 --> 00:06:06,120
+take energy out.
+
+181
+00:06:06,120 --> 00:06:08,520
+They fitted thirty seven fluid viscous
+
+182
+00:06:08,520 --> 00:06:10,680
+dampers, a lot like the shock absorbers in
+
+183
+00:06:10,680 --> 00:06:12,920
+a car, mainly for the sideways motion.
+
+184
+00:06:12,920 --> 00:06:15,160
+They also installed fifty two tuned mass
+
+185
+00:06:15,160 --> 00:06:17,080
+dampers for the up and down motion.
+
+186
+00:06:17,080 --> 00:06:19,640
+The work cost about five million pounds.
+
+187
+00:06:19,640 --> 00:06:21,720
+In tests of the modified bridge, with
+
+188
+00:06:21,720 --> 00:06:23,560
+about two thousand people, the motion
+
+189
+00:06:23,560 --> 00:06:25,560
+stayed at acceptable levels.
+
+190
+00:06:25,800 --> 00:06:27,363
+On the twenty second of February, two
+
+191
+00:06:27,373 --> 00:06:29,560
+thousand two, the Millennium Bridge
+
+192
+00:06:29,560 --> 00:06:32,280
+reopened. The dampers sit under and beside
+
+193
+00:06:32,280 --> 00:06:34,280
+the deck, mostly out of sight.
+
+194
+00:06:34,280 --> 00:06:36,840
+The bridge kept its light, slender shape,
+
+195
+00:06:36,840 --> 00:06:39,240
+and its natural frequencies still describe
+
+196
+00:06:39,240 --> 00:06:40,600
+how it can move.
+
+197
+00:06:40,600 --> 00:06:42,520
+What changed is the balance.
+
+198
+00:06:42,520 --> 00:06:44,840
+The dampers now take energy out faster
+
+199
+00:06:44,840 --> 00:06:47,000
+than a normal crowd puts it in.
+
+200
+00:06:47,000 --> 00:06:49,080
+The same two questions come up wherever
+
+201
+00:06:49,080 --> 00:06:50,600
+crowds meet structures.
+
+202
+00:06:50,600 --> 00:06:52,280
+Take stadium stands.
+
+203
+00:06:52,280 --> 00:06:54,120
+Engineers check their natural frequencies,
+
+204
+00:06:54,200 --> 00:06:56,280
+so a crowd jumping to music doesn't line
+
+205
+00:06:56,280 --> 00:06:56,980
+up with them.
+
+206
+00:06:57,150 --> 00:06:59,070
+And they check there's enough damping for
+
+207
+00:06:59,070 --> 00:07:01,150
+the energy a crowd can put in.
+
+208
+00:07:01,150 --> 00:07:02,430
+So remember this.
+
+209
+00:07:02,430 --> 00:07:04,910
+The eigenvalues told engineers how fast
+
+210
+00:07:04,910 --> 00:07:06,430
+the bridge could sway.
+
+211
+00:07:06,430 --> 00:07:09,070
+Whether that sway faded or grew depended
+
+212
+00:07:09,070 --> 00:07:11,150
+on how much energy the crowd added and how
+
+213
+00:07:11,150 --> 00:07:12,750
+much the bridge dissipated.
+
+214
+00:07:12,750 --> 00:07:15,150
+The dampers tipped that balance.
+
+215
+00:07:15,150 --> 00:07:16,990
+If you liked this video, give it a like
+
+216
+00:07:17,070 --> 00:07:18,750
+and subscribe for more everyday
+
+217
+00:07:18,750 --> 00:07:20,670
+engineering. Thanks for watching!
