@@ -21,7 +21,7 @@ links: [] # e.g. [{title: Website, url: https://…}]
 
 # Added to the end of every video description by `npm run upload-sheet`.
 description_footer: |-
-  New videos every [DAY]: math, physics and engineering, explained through everyday things.
+  Math, physics and engineering, explained through everyday things.
   Subscribe: https://www.youtube.com/@EverydayEngineeringExplained
 hashtags: "#engineering #math #EverydayEngineering" # YouTube shows the first 3 above the title
 

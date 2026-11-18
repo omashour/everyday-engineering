@@ -13,7 +13,7 @@ On Opening Day, This Bridge Started Swaying
 ```
 Alternates: Why London's Wobbly Bridge Closed After 2 Days · The Eigenvalues Behind London's Wobbly Bridge
 
-## Description (1515 characters)
+## Description (1490 characters)
 ```text
 On 10 June 2000, London opened the Millennium Bridge. The deck began swaying sideways, people grabbed the railings to keep their balance, and two days later the bridge closed.
 
@@ -39,7 +39,7 @@ Chapters
 6:46 Same questions, other structures
 7:00 Remember this
 
-New videos every Friday: math, physics and engineering, explained through everyday things.
+Math, physics and engineering, explained through everyday things.
 Subscribe: https://www.youtube.com/@EverydayEngineeringExplained
 
 #engineering #math #EverydayEngineering
