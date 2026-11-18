@@ -1,0 +1,25 @@
+# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 006`.
+video:
+  id: "006"
+  topic: T20
+  title: "On Opening Day, This Bridge Started Swaying"
+  style: ""            # e.g. "B hook + A body"
+  playlist: math-for-engineers
+  voice_note: ""
+  pronounce: {}
+
+scenes:
+  - id: S01
+    component: title-card
+    chapter: "Intro"
+    say: >-
+      Replace me with the hook.
+    params:
+      title: "On Opening Day, This Bridge Started Swaying"
+
+  - id: S99
+    component: end-card
+    say: >-
+      See you in the next one.
+    params:
+      line: ""
