@@ -1,0 +1,372 @@
+[
+  {
+    "text": "One",
+    "start": 0.24,
+    "end": 0.56
+  },
+  {
+    "text": "eighteen",
+    "start": 0.56,
+    "end": 1.12
+  },
+  {
+    "text": "inch",
+    "start": 1.12,
+    "end": 1.44
+  },
+  {
+    "text": "pizza",
+    "start": 1.44,
+    "end": 1.92
+  },
+  {
+    "text": "has",
+    "start": 1.92,
+    "end": 2.16
+  },
+  {
+    "text": "more",
+    "start": 2.16,
+    "end": 2.48
+  },
+  {
+    "text": "surface",
+    "start": 2.48,
+    "end": 2.96
+  },
+  {
+    "text": "area",
+    "start": 2.96,
+    "end": 3.44
+  },
+  {
+    "text": "than",
+    "start": 3.44,
+    "end": 3.68
+  },
+  {
+    "text": "two",
+    "start": 3.68,
+    "end": 3.92
+  },
+  {
+    "text": "twelve",
+    "start": 3.92,
+    "end": 4.32
+  },
+  {
+    "text": "inch",
+    "start": 4.4,
+    "end": 4.72
+  },
+  {
+    "text": "pizzas.",
+    "start": 4.72,
+    "end": 5.36
+  },
+  {
+    "text": "Let's",
+    "start": 5.36,
+    "end": 5.68
+  },
+  {
+    "text": "check",
+    "start": 5.68,
+    "end": 6
+  },
+  {
+    "text": "it.",
+    "start": 6,
+    "end": 6.56
+  },
+  {
+    "text": "Area",
+    "start": 6.56,
+    "end": 7.12
+  },
+  {
+    "text": "is",
+    "start": 7.12,
+    "end": 7.28
+  },
+  {
+    "text": "pi",
+    "start": 7.28,
+    "end": 7.44
+  },
+  {
+    "text": "r",
+    "start": 7.76,
+    "end": 8
+  },
+  {
+    "text": "squared.",
+    "start": 8,
+    "end": 8.64
+  },
+  {
+    "text": "Each",
+    "start": 8.64,
+    "end": 8.88
+  },
+  {
+    "text": "twelve",
+    "start": 8.88,
+    "end": 9.28
+  },
+  {
+    "text": "inch",
+    "start": 9.28,
+    "end": 9.52
+  },
+  {
+    "text": "pizza",
+    "start": 9.52,
+    "end": 9.84
+  },
+  {
+    "text": "has",
+    "start": 9.84,
+    "end": 10
+  },
+  {
+    "text": "radius",
+    "start": 10,
+    "end": 10.48
+  },
+  {
+    "text": "six.",
+    "start": 10.48,
+    "end": 11.04
+  },
+  {
+    "text": "Six",
+    "start": 11.04,
+    "end": 11.44
+  },
+  {
+    "text": "squared",
+    "start": 11.44,
+    "end": 11.84
+  },
+  {
+    "text": "is",
+    "start": 11.84,
+    "end": 12
+  },
+  {
+    "text": "thirty",
+    "start": 12,
+    "end": 12.24
+  },
+  {
+    "text": "six,",
+    "start": 12.32,
+    "end": 12.64
+  },
+  {
+    "text": "so",
+    "start": 12.72,
+    "end": 12.96
+  },
+  {
+    "text": "the",
+    "start": 12.96,
+    "end": 13.04
+  },
+  {
+    "text": "pair",
+    "start": 13.04,
+    "end": 13.52
+  },
+  {
+    "text": "is",
+    "start": 13.52,
+    "end": 13.68
+  },
+  {
+    "text": "seventy",
+    "start": 13.68,
+    "end": 14
+  },
+  {
+    "text": "two.",
+    "start": 14.08,
+    "end": 15.2
+  },
+  {
+    "text": "The",
+    "start": 15.2,
+    "end": 15.36
+  },
+  {
+    "text": "eighteen",
+    "start": 15.36,
+    "end": 15.84
+  },
+  {
+    "text": "inch",
+    "start": 15.84,
+    "end": 16.16
+  },
+  {
+    "text": "has",
+    "start": 16.16,
+    "end": 16.32
+  },
+  {
+    "text": "radius",
+    "start": 16.32,
+    "end": 16.8
+  },
+  {
+    "text": "nine.",
+    "start": 16.8,
+    "end": 17.28
+  },
+  {
+    "text": "Nine",
+    "start": 17.44,
+    "end": 17.84
+  },
+  {
+    "text": "squared",
+    "start": 17.84,
+    "end": 18.4
+  },
+  {
+    "text": "is",
+    "start": 18.4,
+    "end": 18.56
+  },
+  {
+    "text": "eighty",
+    "start": 18.56,
+    "end": 18.88
+  },
+  {
+    "text": "one",
+    "start": 18.88,
+    "end": 18.96
+  },
+  {
+    "text": "pi.",
+    "start": 19.2,
+    "end": 19.92
+  },
+  {
+    "text": "Eighty",
+    "start": 19.92,
+    "end": 20.24
+  },
+  {
+    "text": "one",
+    "start": 20.32,
+    "end": 20.4
+  },
+  {
+    "text": "beats",
+    "start": 20.64,
+    "end": 21.12
+  },
+  {
+    "text": "seventy",
+    "start": 21.12,
+    "end": 21.44
+  },
+  {
+    "text": "two.",
+    "start": 21.52,
+    "end": 22
+  },
+  {
+    "text": "That's",
+    "start": 22,
+    "end": 22.32
+  },
+  {
+    "text": "twelve",
+    "start": 22.32,
+    "end": 22.8
+  },
+  {
+    "text": "and",
+    "start": 22.8,
+    "end": 22.96
+  },
+  {
+    "text": "a",
+    "start": 22.96,
+    "end": 23.04
+  },
+  {
+    "text": "half",
+    "start": 23.04,
+    "end": 23.28
+  },
+  {
+    "text": "percent",
+    "start": 23.28,
+    "end": 23.68
+  },
+  {
+    "text": "more",
+    "start": 23.68,
+    "end": 24
+  },
+  {
+    "text": "surface",
+    "start": 24,
+    "end": 24.48
+  },
+  {
+    "text": "area",
+    "start": 24.48,
+    "end": 24.88
+  },
+  {
+    "text": "in",
+    "start": 24.88,
+    "end": 25.12
+  },
+  {
+    "text": "one",
+    "start": 25.12,
+    "end": 25.44
+  },
+  {
+    "text": "box.",
+    "start": 25.44,
+    "end": 26.16
+  },
+  {
+    "text": "The",
+    "start": 26.16,
+    "end": 26.32
+  },
+  {
+    "text": "full",
+    "start": 26.32,
+    "end": 26.64
+  },
+  {
+    "text": "video",
+    "start": 26.64,
+    "end": 26.96
+  },
+  {
+    "text": "shows",
+    "start": 26.96,
+    "end": 27.28
+  },
+  {
+    "text": "the",
+    "start": 27.28,
+    "end": 27.36
+  },
+  {
+    "text": "math.",
+    "start": 27.36,
+    "end": 27.84
+  }
+]

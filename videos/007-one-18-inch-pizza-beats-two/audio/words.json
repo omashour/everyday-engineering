@@ -1,0 +1,4907 @@
+[
+  {
+    "text": "Two",
+    "start": 0,
+    "end": 0.32
+  },
+  {
+    "text": "12",
+    "start": 0.4,
+    "end": 0.72
+  },
+  {
+    "text": "inch",
+    "start": 0.8,
+    "end": 1.04
+  },
+  {
+    "text": "pizzas",
+    "start": 1.04,
+    "end": 1.44
+  },
+  {
+    "text": "or",
+    "start": 1.52,
+    "end": 1.68
+  },
+  {
+    "text": "one",
+    "start": 1.68,
+    "end": 1.92
+  },
+  {
+    "text": "18",
+    "start": 1.92,
+    "end": 2.32
+  },
+  {
+    "text": "inch",
+    "start": 2.4,
+    "end": 2.72
+  },
+  {
+    "text": "pizza.",
+    "start": 2.72,
+    "end": 3.2
+  },
+  {
+    "text": "Which",
+    "start": 3.2,
+    "end": 3.52
+  },
+  {
+    "text": "gives",
+    "start": 3.52,
+    "end": 3.68
+  },
+  {
+    "text": "you",
+    "start": 3.68,
+    "end": 3.84
+  },
+  {
+    "text": "more",
+    "start": 3.84,
+    "end": 4
+  },
+  {
+    "text": "pizza?",
+    "start": 4,
+    "end": 4.64
+  },
+  {
+    "text": "The",
+    "start": 4.64,
+    "end": 4.8
+  },
+  {
+    "text": "18",
+    "start": 4.8,
+    "end": 5.2
+  },
+  {
+    "text": "inch",
+    "start": 5.28,
+    "end": 5.6
+  },
+  {
+    "text": "wins.",
+    "start": 5.6,
+    "end": 6.24
+  },
+  {
+    "text": "It",
+    "start": 6.24,
+    "end": 6.4
+  },
+  {
+    "text": "has",
+    "start": 6.4,
+    "end": 6.64
+  },
+  {
+    "text": "exactly",
+    "start": 6.64,
+    "end": 6.96
+  },
+  {
+    "text": "12",
+    "start": 6.96,
+    "end": 7.28
+  },
+  {
+    "text": "and",
+    "start": 7.28,
+    "end": 7.36
+  },
+  {
+    "text": "a",
+    "start": 7.44,
+    "end": 7.52
+  },
+  {
+    "text": "half",
+    "start": 7.52,
+    "end": 7.76
+  },
+  {
+    "text": "percent",
+    "start": 7.76,
+    "end": 8
+  },
+  {
+    "text": "more",
+    "start": 8,
+    "end": 8.16
+  },
+  {
+    "text": "surface",
+    "start": 8.16,
+    "end": 8.64
+  },
+  {
+    "text": "area.",
+    "start": 8.64,
+    "end": 9.2
+  },
+  {
+    "text": "Engineers",
+    "start": 9.2,
+    "end": 9.76
+  },
+  {
+    "text": "use",
+    "start": 9.76,
+    "end": 9.92
+  },
+  {
+    "text": "the",
+    "start": 9.92,
+    "end": 10
+  },
+  {
+    "text": "same",
+    "start": 10,
+    "end": 10.24
+  },
+  {
+    "text": "geometry",
+    "start": 10.24,
+    "end": 10.8
+  },
+  {
+    "text": "for",
+    "start": 10.8,
+    "end": 10.88
+  },
+  {
+    "text": "the",
+    "start": 10.88,
+    "end": 10.96
+  },
+  {
+    "text": "cross",
+    "start": 10.96,
+    "end": 11.2
+  },
+  {
+    "text": "sections",
+    "start": 11.28,
+    "end": 11.68
+  },
+  {
+    "text": "of",
+    "start": 11.68,
+    "end": 11.84
+  },
+  {
+    "text": "pipes,",
+    "start": 11.84,
+    "end": 12.4
+  },
+  {
+    "text": "wires,",
+    "start": 12.4,
+    "end": 12.88
+  },
+  {
+    "text": "and",
+    "start": 12.88,
+    "end": 13.12
+  },
+  {
+    "text": "bolts.",
+    "start": 13.12,
+    "end": 13.84
+  },
+  {
+    "text": "Let's",
+    "start": 14.08,
+    "end": 14.48
+  },
+  {
+    "text": "settle",
+    "start": 14.48,
+    "end": 14.8
+  },
+  {
+    "text": "it",
+    "start": 14.8,
+    "end": 14.96
+  },
+  {
+    "text": "with",
+    "start": 14.96,
+    "end": 15.12
+  },
+  {
+    "text": "one",
+    "start": 15.12,
+    "end": 15.28
+  },
+  {
+    "text": "formula",
+    "start": 15.28,
+    "end": 15.68
+  },
+  {
+    "text": "you",
+    "start": 15.76,
+    "end": 16
+  },
+  {
+    "text": "already",
+    "start": 16,
+    "end": 16.4
+  },
+  {
+    "text": "know.",
+    "start": 16.4,
+    "end": 17.12
+  },
+  {
+    "text": "Pizza",
+    "start": 17.12,
+    "end": 17.68
+  },
+  {
+    "text": "sizes",
+    "start": 17.68,
+    "end": 18.16
+  },
+  {
+    "text": "are",
+    "start": 18.16,
+    "end": 18.32
+  },
+  {
+    "text": "diameters.",
+    "start": 18.32,
+    "end": 19.12
+  },
+  {
+    "text": "A",
+    "start": 19.12,
+    "end": 19.28
+  },
+  {
+    "text": "12",
+    "start": 19.28,
+    "end": 19.52
+  },
+  {
+    "text": "inch",
+    "start": 19.6,
+    "end": 19.84
+  },
+  {
+    "text": "pizza",
+    "start": 19.84,
+    "end": 20.08
+  },
+  {
+    "text": "is",
+    "start": 20.08,
+    "end": 20.16
+  },
+  {
+    "text": "12",
+    "start": 20.16,
+    "end": 20.48
+  },
+  {
+    "text": "inches",
+    "start": 20.48,
+    "end": 20.8
+  },
+  {
+    "text": "straight",
+    "start": 20.8,
+    "end": 21.12
+  },
+  {
+    "text": "across,",
+    "start": 21.12,
+    "end": 21.6
+  },
+  {
+    "text": "through",
+    "start": 21.6,
+    "end": 21.84
+  },
+  {
+    "text": "the",
+    "start": 21.84,
+    "end": 21.92
+  },
+  {
+    "text": "center.",
+    "start": 21.92,
+    "end": 22.56
+  },
+  {
+    "text": "But",
+    "start": 22.56,
+    "end": 22.8
+  },
+  {
+    "text": "how",
+    "start": 22.8,
+    "end": 22.96
+  },
+  {
+    "text": "much",
+    "start": 22.96,
+    "end": 23.12
+  },
+  {
+    "text": "pizza",
+    "start": 23.12,
+    "end": 23.52
+  },
+  {
+    "text": "you",
+    "start": 23.52,
+    "end": 23.6
+  },
+  {
+    "text": "get",
+    "start": 23.6,
+    "end": 23.76
+  },
+  {
+    "text": "depends",
+    "start": 23.92,
+    "end": 24.32
+  },
+  {
+    "text": "on",
+    "start": 24.32,
+    "end": 24.4
+  },
+  {
+    "text": "the",
+    "start": 24.4,
+    "end": 24.56
+  },
+  {
+    "text": "area,",
+    "start": 24.56,
+    "end": 25.12
+  },
+  {
+    "text": "the",
+    "start": 25.12,
+    "end": 25.28
+  },
+  {
+    "text": "whole",
+    "start": 25.28,
+    "end": 25.52
+  },
+  {
+    "text": "pizza",
+    "start": 25.52,
+    "end": 25.84
+  },
+  {
+    "text": "as",
+    "start": 25.92,
+    "end": 26.16
+  },
+  {
+    "text": "seen",
+    "start": 26.16,
+    "end": 26.48
+  },
+  {
+    "text": "from",
+    "start": 26.48,
+    "end": 26.64
+  },
+  {
+    "text": "above,",
+    "start": 26.64,
+    "end": 27.12
+  },
+  {
+    "text": "including",
+    "start": 27.12,
+    "end": 27.52
+  },
+  {
+    "text": "the",
+    "start": 27.52,
+    "end": 27.6
+  },
+  {
+    "text": "crust.",
+    "start": 27.6,
+    "end": 28.4
+  },
+  {
+    "text": "And",
+    "start": 28.4,
+    "end": 28.72
+  },
+  {
+    "text": "area",
+    "start": 28.72,
+    "end": 29.28
+  },
+  {
+    "text": "does",
+    "start": 29.28,
+    "end": 29.52
+  },
+  {
+    "text": "not",
+    "start": 29.52,
+    "end": 29.68
+  },
+  {
+    "text": "grow",
+    "start": 29.68,
+    "end": 29.92
+  },
+  {
+    "text": "the",
+    "start": 29.92,
+    "end": 30.08
+  },
+  {
+    "text": "way",
+    "start": 30.08,
+    "end": 30.24
+  },
+  {
+    "text": "the",
+    "start": 30.24,
+    "end": 30.4
+  },
+  {
+    "text": "diameter",
+    "start": 30.4,
+    "end": 31.04
+  },
+  {
+    "text": "does.",
+    "start": 31.04,
+    "end": 31.84
+  },
+  {
+    "text": "The",
+    "start": 31.84,
+    "end": 32.08
+  },
+  {
+    "text": "area",
+    "start": 32.08,
+    "end": 32.48
+  },
+  {
+    "text": "of",
+    "start": 32.48,
+    "end": 32.64
+  },
+  {
+    "text": "a",
+    "start": 32.64,
+    "end": 32.72
+  },
+  {
+    "text": "circle",
+    "start": 32.72,
+    "end": 33.12
+  },
+  {
+    "text": "is",
+    "start": 33.12,
+    "end": 33.28
+  },
+  {
+    "text": "pi",
+    "start": 33.28,
+    "end": 33.44
+  },
+  {
+    "text": "r",
+    "start": 33.76,
+    "end": 34
+  },
+  {
+    "text": "squared,",
+    "start": 34,
+    "end": 34.56
+  },
+  {
+    "text": "where",
+    "start": 34.56,
+    "end": 34.8
+  },
+  {
+    "text": "r",
+    "start": 34.8,
+    "end": 35.04
+  },
+  {
+    "text": "is",
+    "start": 35.12,
+    "end": 35.28
+  },
+  {
+    "text": "the",
+    "start": 35.28,
+    "end": 35.36
+  },
+  {
+    "text": "radius,",
+    "start": 35.36,
+    "end": 36
+  },
+  {
+    "text": "half",
+    "start": 36,
+    "end": 36.24
+  },
+  {
+    "text": "the",
+    "start": 36.24,
+    "end": 36.4
+  },
+  {
+    "text": "diameter.",
+    "start": 36.4,
+    "end": 37.12
+  },
+  {
+    "text": "A",
+    "start": 37.12,
+    "end": 37.28
+  },
+  {
+    "text": "12",
+    "start": 37.28,
+    "end": 37.68
+  },
+  {
+    "text": "inch",
+    "start": 37.68,
+    "end": 37.92
+  },
+  {
+    "text": "pizza",
+    "start": 37.92,
+    "end": 38.24
+  },
+  {
+    "text": "has",
+    "start": 38.24,
+    "end": 38.32
+  },
+  {
+    "text": "a",
+    "start": 38.32,
+    "end": 38.4
+  },
+  {
+    "text": "radius",
+    "start": 38.4,
+    "end": 38.8
+  },
+  {
+    "text": "of",
+    "start": 38.8,
+    "end": 38.88
+  },
+  {
+    "text": "6",
+    "start": 38.88,
+    "end": 39.2
+  },
+  {
+    "text": "inches.",
+    "start": 39.2,
+    "end": 39.76
+  },
+  {
+    "text": "6",
+    "start": 39.76,
+    "end": 40
+  },
+  {
+    "text": "squared",
+    "start": 40.16,
+    "end": 40.56
+  },
+  {
+    "text": "is",
+    "start": 40.56,
+    "end": 40.72
+  },
+  {
+    "text": "36,",
+    "start": 40.72,
+    "end": 41.28
+  },
+  {
+    "text": "and",
+    "start": 41.28,
+    "end": 41.52
+  },
+  {
+    "text": "36",
+    "start": 41.52,
+    "end": 41.92
+  },
+  {
+    "text": "times",
+    "start": 42.08,
+    "end": 42.32
+  },
+  {
+    "text": "pi",
+    "start": 42.32,
+    "end": 42.48
+  },
+  {
+    "text": "is",
+    "start": 42.8,
+    "end": 42.96
+  },
+  {
+    "text": "about",
+    "start": 42.96,
+    "end": 43.2
+  },
+  {
+    "text": "113",
+    "start": 43.2,
+    "end": 44.08
+  },
+  {
+    "text": "square",
+    "start": 44.08,
+    "end": 44.48
+  },
+  {
+    "text": "inches.",
+    "start": 44.48,
+    "end": 45.2
+  },
+  {
+    "text": "Two",
+    "start": 45.2,
+    "end": 45.52
+  },
+  {
+    "text": "of",
+    "start": 45.52,
+    "end": 45.68
+  },
+  {
+    "text": "those",
+    "start": 45.68,
+    "end": 45.92
+  },
+  {
+    "text": "pizzas",
+    "start": 45.92,
+    "end": 46.4
+  },
+  {
+    "text": "give",
+    "start": 46.4,
+    "end": 46.56
+  },
+  {
+    "text": "you",
+    "start": 46.56,
+    "end": 46.72
+  },
+  {
+    "text": "72",
+    "start": 46.72,
+    "end": 47.28
+  },
+  {
+    "text": "pi,",
+    "start": 47.28,
+    "end": 47.84
+  },
+  {
+    "text": "about",
+    "start": 47.84,
+    "end": 48.08
+  },
+  {
+    "text": "226",
+    "start": 48.08,
+    "end": 48.8
+  },
+  {
+    "text": "square",
+    "start": 48.96,
+    "end": 49.28
+  },
+  {
+    "text": "inches.",
+    "start": 49.28,
+    "end": 50.08
+  },
+  {
+    "text": "Now",
+    "start": 50.08,
+    "end": 50.32
+  },
+  {
+    "text": "the",
+    "start": 50.4,
+    "end": 50.56
+  },
+  {
+    "text": "big",
+    "start": 50.56,
+    "end": 50.8
+  },
+  {
+    "text": "one.",
+    "start": 50.8,
+    "end": 51.28
+  },
+  {
+    "text": "An",
+    "start": 51.28,
+    "end": 51.44
+  },
+  {
+    "text": "18",
+    "start": 51.44,
+    "end": 51.84
+  },
+  {
+    "text": "inch",
+    "start": 51.92,
+    "end": 52.16
+  },
+  {
+    "text": "pizza",
+    "start": 52.16,
+    "end": 52.48
+  },
+  {
+    "text": "has",
+    "start": 52.48,
+    "end": 52.64
+  },
+  {
+    "text": "a",
+    "start": 52.64,
+    "end": 52.72
+  },
+  {
+    "text": "radius",
+    "start": 52.72,
+    "end": 53.12
+  },
+  {
+    "text": "of",
+    "start": 53.12,
+    "end": 53.28
+  },
+  {
+    "text": "nine",
+    "start": 53.28,
+    "end": 53.52
+  },
+  {
+    "text": "inches.",
+    "start": 53.52,
+    "end": 54.08
+  },
+  {
+    "text": "Nine",
+    "start": 54.08,
+    "end": 54.48
+  },
+  {
+    "text": "squared",
+    "start": 54.48,
+    "end": 54.8
+  },
+  {
+    "text": "is",
+    "start": 54.88,
+    "end": 55.04
+  },
+  {
+    "text": "81.",
+    "start": 55.04,
+    "end": 55.52
+  },
+  {
+    "text": "and",
+    "start": 55.75,
+    "end": 55.99
+  },
+  {
+    "text": "81",
+    "start": 55.99,
+    "end": 56.39
+  },
+  {
+    "text": "times",
+    "start": 56.47,
+    "end": 56.71
+  },
+  {
+    "text": "pi",
+    "start": 56.71,
+    "end": 56.87
+  },
+  {
+    "text": "is",
+    "start": 57.19,
+    "end": 57.35
+  },
+  {
+    "text": "about",
+    "start": 57.35,
+    "end": 57.59
+  },
+  {
+    "text": "254",
+    "start": 57.59,
+    "end": 58.39
+  },
+  {
+    "text": "square",
+    "start": 58.55,
+    "end": 58.95
+  },
+  {
+    "text": "inches.",
+    "start": 58.95,
+    "end": 59.67
+  },
+  {
+    "text": "The",
+    "start": 59.67,
+    "end": 59.83
+  },
+  {
+    "text": "two",
+    "start": 59.83,
+    "end": 59.99
+  },
+  {
+    "text": "small",
+    "start": 59.99,
+    "end": 60.31
+  },
+  {
+    "text": "pizzas",
+    "start": 60.31,
+    "end": 60.71
+  },
+  {
+    "text": "together",
+    "start": 60.71,
+    "end": 61.03
+  },
+  {
+    "text": "had",
+    "start": 61.03,
+    "end": 61.27
+  },
+  {
+    "text": "226.",
+    "start": 61.27,
+    "end": 62.55
+  },
+  {
+    "text": "The",
+    "start": 62.55,
+    "end": 62.79
+  },
+  {
+    "text": "single",
+    "start": 62.79,
+    "end": 63.11
+  },
+  {
+    "text": "pizza",
+    "start": 63.11,
+    "end": 63.51
+  },
+  {
+    "text": "wins",
+    "start": 63.51,
+    "end": 63.91
+  },
+  {
+    "text": "by",
+    "start": 63.91,
+    "end": 64.07
+  },
+  {
+    "text": "9",
+    "start": 64.07,
+    "end": 64.39
+  },
+  {
+    "text": "pi,",
+    "start": 64.39,
+    "end": 64.79
+  },
+  {
+    "text": "about",
+    "start": 64.95,
+    "end": 65.11
+  },
+  {
+    "text": "28",
+    "start": 65.11,
+    "end": 65.43
+  },
+  {
+    "text": "square",
+    "start": 65.59,
+    "end": 65.91
+  },
+  {
+    "text": "inches.",
+    "start": 65.91,
+    "end": 66.63
+  },
+  {
+    "text": "Divide",
+    "start": 66.63,
+    "end": 67.11
+  },
+  {
+    "text": "one",
+    "start": 67.11,
+    "end": 67.35
+  },
+  {
+    "text": "by",
+    "start": 67.35,
+    "end": 67.43
+  },
+  {
+    "text": "the",
+    "start": 67.43,
+    "end": 67.59
+  },
+  {
+    "text": "other",
+    "start": 67.59,
+    "end": 67.75
+  },
+  {
+    "text": "and",
+    "start": 67.83,
+    "end": 67.99
+  },
+  {
+    "text": "pi",
+    "start": 67.99,
+    "end": 68.15
+  },
+  {
+    "text": "cancels",
+    "start": 68.39,
+    "end": 68.87
+  },
+  {
+    "text": "out.",
+    "start": 68.87,
+    "end": 69.27
+  },
+  {
+    "text": "81",
+    "start": 69.27,
+    "end": 69.91
+  },
+  {
+    "text": "over",
+    "start": 69.91,
+    "end": 70.15
+  },
+  {
+    "text": "72",
+    "start": 70.15,
+    "end": 70.71
+  },
+  {
+    "text": "is",
+    "start": 70.79,
+    "end": 70.95
+  },
+  {
+    "text": "exactly",
+    "start": 70.95,
+    "end": 71.43
+  },
+  {
+    "text": "1.125.",
+    "start": 71.43,
+    "end": 72.95
+  },
+  {
+    "text": "That's",
+    "start": 72.95,
+    "end": 73.27
+  },
+  {
+    "text": "12.5%",
+    "start": 73.27,
+    "end": 74.07
+  },
+  {
+    "text": "more",
+    "start": 74.23,
+    "end": 74.47
+  },
+  {
+    "text": "surface",
+    "start": 74.47,
+    "end": 74.87
+  },
+  {
+    "text": "area",
+    "start": 74.87,
+    "end": 75.11
+  },
+  {
+    "text": "in",
+    "start": 75.19,
+    "end": 75.35
+  },
+  {
+    "text": "one",
+    "start": 75.35,
+    "end": 75.59
+  },
+  {
+    "text": "box",
+    "start": 75.59,
+    "end": 75.91
+  },
+  {
+    "text": "instead",
+    "start": 75.99,
+    "end": 76.31
+  },
+  {
+    "text": "of",
+    "start": 76.31,
+    "end": 76.47
+  },
+  {
+    "text": "two.",
+    "start": 76.47,
+    "end": 77.19
+  },
+  {
+    "text": "Here's",
+    "start": 77.19,
+    "end": 77.59
+  },
+  {
+    "text": "the",
+    "start": 77.59,
+    "end": 77.75
+  },
+  {
+    "text": "real",
+    "start": 77.75,
+    "end": 77.99
+  },
+  {
+    "text": "reason.",
+    "start": 77.99,
+    "end": 78.55
+  },
+  {
+    "text": "Write",
+    "start": 78.55,
+    "end": 79.03
+  },
+  {
+    "text": "the",
+    "start": 79.03,
+    "end": 79.19
+  },
+  {
+    "text": "area",
+    "start": 79.19,
+    "end": 79.59
+  },
+  {
+    "text": "with",
+    "start": 79.59,
+    "end": 79.83
+  },
+  {
+    "text": "the",
+    "start": 79.83,
+    "end": 79.99
+  },
+  {
+    "text": "diameter,",
+    "start": 79.99,
+    "end": 80.63
+  },
+  {
+    "text": "D,",
+    "start": 80.63,
+    "end": 81.11
+  },
+  {
+    "text": "instead.",
+    "start": 81.11,
+    "end": 81.59
+  },
+  {
+    "text": "It's",
+    "start": 81.59,
+    "end": 81.83
+  },
+  {
+    "text": "pi",
+    "start": 81.83,
+    "end": 81.99
+  },
+  {
+    "text": "d",
+    "start": 82.31,
+    "end": 82.47
+  },
+  {
+    "text": "squared",
+    "start": 82.63,
+    "end": 83.11
+  },
+  {
+    "text": "over",
+    "start": 83.11,
+    "end": 83.35
+  },
+  {
+    "text": "four.",
+    "start": 83.35,
+    "end": 83.99
+  },
+  {
+    "text": "The",
+    "start": 83.99,
+    "end": 84.15
+  },
+  {
+    "text": "diameter",
+    "start": 84.15,
+    "end": 84.71
+  },
+  {
+    "text": "is",
+    "start": 84.71,
+    "end": 84.95
+  },
+  {
+    "text": "squared.",
+    "start": 84.95,
+    "end": 85.83
+  },
+  {
+    "text": "An",
+    "start": 85.83,
+    "end": 86.07
+  },
+  {
+    "text": "18",
+    "start": 86.07,
+    "end": 86.47
+  },
+  {
+    "text": "inch",
+    "start": 86.55,
+    "end": 86.79
+  },
+  {
+    "text": "pizza",
+    "start": 86.79,
+    "end": 87.11
+  },
+  {
+    "text": "is",
+    "start": 87.11,
+    "end": 87.27
+  },
+  {
+    "text": "one",
+    "start": 87.27,
+    "end": 87.43
+  },
+  {
+    "text": "and",
+    "start": 87.51,
+    "end": 87.67
+  },
+  {
+    "text": "a",
+    "start": 87.67,
+    "end": 87.75
+  },
+  {
+    "text": "half",
+    "start": 87.75,
+    "end": 87.99
+  },
+  {
+    "text": "times",
+    "start": 87.99,
+    "end": 88.23
+  },
+  {
+    "text": "as",
+    "start": 88.23,
+    "end": 88.39
+  },
+  {
+    "text": "wide",
+    "start": 88.39,
+    "end": 88.79
+  },
+  {
+    "text": "as",
+    "start": 88.79,
+    "end": 88.95
+  },
+  {
+    "text": "a",
+    "start": 88.95,
+    "end": 89.11
+  },
+  {
+    "text": "12",
+    "start": 89.11,
+    "end": 89.51
+  },
+  {
+    "text": "inch,",
+    "start": 89.51,
+    "end": 89.91
+  },
+  {
+    "text": "but",
+    "start": 89.91,
+    "end": 90.15
+  },
+  {
+    "text": "1.5",
+    "start": 90.15,
+    "end": 90.71
+  },
+  {
+    "text": "squared",
+    "start": 90.87,
+    "end": 91.51
+  },
+  {
+    "text": "is",
+    "start": 91.51,
+    "end": 91.75
+  },
+  {
+    "text": "2.25.",
+    "start": 91.75,
+    "end": 93.35
+  },
+  {
+    "text": "So",
+    "start": 93.35,
+    "end": 93.67
+  },
+  {
+    "text": "one",
+    "start": 93.67,
+    "end": 93.75
+  },
+  {
+    "text": "18",
+    "start": 93.91,
+    "end": 94.39
+  },
+  {
+    "text": "inch",
+    "start": 94.47,
+    "end": 94.79
+  },
+  {
+    "text": "pizza",
+    "start": 94.79,
+    "end": 95.19
+  },
+  {
+    "text": "has",
+    "start": 95.19,
+    "end": 95.43
+  },
+  {
+    "text": "two",
+    "start": 95.43,
+    "end": 95.59
+  },
+  {
+    "text": "and",
+    "start": 95.75,
+    "end": 95.83
+  },
+  {
+    "text": "a",
+    "start": 95.91,
+    "end": 95.99
+  },
+  {
+    "text": "quarter",
+    "start": 96.07,
+    "end": 96.47
+  },
+  {
+    "text": "times",
+    "start": 96.63,
+    "end": 96.87
+  },
+  {
+    "text": "the",
+    "start": 96.87,
+    "end": 97.03
+  },
+  {
+    "text": "area",
+    "start": 97.03,
+    "end": 97.35
+  },
+  {
+    "text": "of",
+    "start": 97.35,
+    "end": 97.51
+  },
+  {
+    "text": "one",
+    "start": 97.51,
+    "end": 97.67
+  },
+  {
+    "text": "12",
+    "start": 97.75,
+    "end": 98.23
+  },
+  {
+    "text": "inch",
+    "start": 98.23,
+    "end": 98.55
+  },
+  {
+    "text": "pizza,",
+    "start": 98.55,
+    "end": 99.03
+  },
+  {
+    "text": "not",
+    "start": 99.03,
+    "end": 99.27
+  },
+  {
+    "text": "one",
+    "start": 99.27,
+    "end": 99.35
+  },
+  {
+    "text": "and",
+    "start": 99.51,
+    "end": 99.59
+  },
+  {
+    "text": "a",
+    "start": 99.67,
+    "end": 99.75
+  },
+  {
+    "text": "half",
+    "start": 99.75,
+    "end": 100.07
+  },
+  {
+    "text": "times.",
+    "start": 100.07,
+    "end": 100.71
+  },
+  {
+    "text": "To",
+    "start": 100.71,
+    "end": 100.95
+  },
+  {
+    "text": "see",
+    "start": 100.95,
+    "end": 101.11
+  },
+  {
+    "text": "how",
+    "start": 101.11,
+    "end": 101.27
+  },
+  {
+    "text": "much",
+    "start": 101.27,
+    "end": 101.51
+  },
+  {
+    "text": "pizza",
+    "start": 101.51,
+    "end": 101.83
+  },
+  {
+    "text": "you're",
+    "start": 101.83,
+    "end": 102.07
+  },
+  {
+    "text": "getting,",
+    "start": 102.07,
+    "end": 102.55
+  },
+  {
+    "text": "compare",
+    "start": 102.55,
+    "end": 102.95
+  },
+  {
+    "text": "the",
+    "start": 102.95,
+    "end": 103.19
+  },
+  {
+    "text": "areas.",
+    "start": 103.19,
+    "end": 104.07
+  },
+  {
+    "text": "Here's",
+    "start": 104.07,
+    "end": 104.55
+  },
+  {
+    "text": "the",
+    "start": 104.55,
+    "end": 104.63
+  },
+  {
+    "text": "whole",
+    "start": 104.63,
+    "end": 104.95
+  },
+  {
+    "text": "picture.",
+    "start": 104.95,
+    "end": 105.59
+  },
+  {
+    "text": "This",
+    "start": 105.59,
+    "end": 105.83
+  },
+  {
+    "text": "curve",
+    "start": 105.83,
+    "end": 106.15
+  },
+  {
+    "text": "is",
+    "start": 106.15,
+    "end": 106.39
+  },
+  {
+    "text": "pizza",
+    "start": 106.39,
+    "end": 106.79
+  },
+  {
+    "text": "area",
+    "start": 106.79,
+    "end": 107.19
+  },
+  {
+    "text": "against",
+    "start": 107.19,
+    "end": 107.51
+  },
+  {
+    "text": "diameter.",
+    "start": 107.51,
+    "end": 108.23
+  },
+  {
+    "text": "It",
+    "start": 108.23,
+    "end": 108.39
+  },
+  {
+    "text": "bends",
+    "start": 108.39,
+    "end": 108.87
+  },
+  {
+    "text": "upward",
+    "start": 108.87,
+    "end": 109.27
+  },
+  {
+    "text": "because",
+    "start": 109.35,
+    "end": 109.51
+  },
+  {
+    "text": "of",
+    "start": 109.51,
+    "end": 109.67
+  },
+  {
+    "text": "that",
+    "start": 109.67,
+    "end": 109.91
+  },
+  {
+    "text": "square.",
+    "start": 109.91,
+    "end": 110.63
+  },
+  {
+    "text": "A",
+    "start": 110.63,
+    "end": 110.79
+  },
+  {
+    "text": "1",
+    "start": 110.79,
+    "end": 111.11
+  },
+  {
+    "text": "inch",
+    "start": 111.19,
+    "end": 111.43
+  },
+  {
+    "text": "pizza",
+    "start": 111.43,
+    "end": 111.75
+  },
+  {
+    "text": "sits",
+    "start": 111.75,
+    "end": 112.07
+  },
+  {
+    "text": "here",
+    "start": 112.07,
+    "end": 112.31
+  },
+  {
+    "text": "at",
+    "start": 112.39,
+    "end": 112.63
+  },
+  {
+    "text": "113.",
+    "start": 112.63,
+    "end": 113.91
+  },
+  {
+    "text": "The",
+    "start": 113.91,
+    "end": 114.07
+  },
+  {
+    "text": "dashed",
+    "start": 114.07,
+    "end": 114.47
+  },
+  {
+    "text": "line",
+    "start": 114.47,
+    "end": 114.79
+  },
+  {
+    "text": "is",
+    "start": 114.79,
+    "end": 114.95
+  },
+  {
+    "text": "two",
+    "start": 114.95,
+    "end": 115.03
+  },
+  {
+    "text": "12",
+    "start": 115.19,
+    "end": 115.59
+  },
+  {
+    "text": "inch",
+    "start": 115.59,
+    "end": 115.91
+  },
+  {
+    "text": "pizzas",
+    "start": 115.91,
+    "end": 116.31
+  },
+  {
+    "text": "at",
+    "start": 116.31,
+    "end": 116.47
+  },
+  {
+    "text": "226.",
+    "start": 116.47,
+    "end": 117.43
+  },
+  {
+    "text": "The",
+    "start": 117.82,
+    "end": 117.98
+  },
+  {
+    "text": "curve",
+    "start": 117.98,
+    "end": 118.46
+  },
+  {
+    "text": "crosses",
+    "start": 118.46,
+    "end": 118.94
+  },
+  {
+    "text": "it",
+    "start": 118.94,
+    "end": 119.18
+  },
+  {
+    "text": "just",
+    "start": 119.18,
+    "end": 119.42
+  },
+  {
+    "text": "under",
+    "start": 119.42,
+    "end": 119.74
+  },
+  {
+    "text": "17",
+    "start": 119.74,
+    "end": 120.22
+  },
+  {
+    "text": "inches.",
+    "start": 120.3,
+    "end": 120.94
+  },
+  {
+    "text": "Every",
+    "start": 120.94,
+    "end": 121.18
+  },
+  {
+    "text": "pizza",
+    "start": 121.18,
+    "end": 121.58
+  },
+  {
+    "text": "bigger",
+    "start": 121.58,
+    "end": 121.82
+  },
+  {
+    "text": "than",
+    "start": 121.82,
+    "end": 121.98
+  },
+  {
+    "text": "that",
+    "start": 121.98,
+    "end": 122.22
+  },
+  {
+    "text": "beats",
+    "start": 122.22,
+    "end": 122.54
+  },
+  {
+    "text": "the",
+    "start": 122.54,
+    "end": 122.62
+  },
+  {
+    "text": "pear,",
+    "start": 122.62,
+    "end": 123.02
+  },
+  {
+    "text": "and",
+    "start": 123.02,
+    "end": 123.18
+  },
+  {
+    "text": "the",
+    "start": 123.18,
+    "end": 123.26
+  },
+  {
+    "text": "18",
+    "start": 123.26,
+    "end": 123.66
+  },
+  {
+    "text": "inch",
+    "start": 123.74,
+    "end": 123.9
+  },
+  {
+    "text": "sits",
+    "start": 123.98,
+    "end": 124.22
+  },
+  {
+    "text": "clearly",
+    "start": 124.22,
+    "end": 124.62
+  },
+  {
+    "text": "above",
+    "start": 124.62,
+    "end": 124.86
+  },
+  {
+    "text": "it,",
+    "start": 124.86,
+    "end": 125.1
+  },
+  {
+    "text": "at",
+    "start": 125.1,
+    "end": 125.34
+  },
+  {
+    "text": "254",
+    "start": 125.34,
+    "end": 126.14
+  },
+  {
+    "text": "and",
+    "start": 126.3,
+    "end": 126.46
+  },
+  {
+    "text": "a",
+    "start": 126.46,
+    "end": 126.54
+  },
+  {
+    "text": "half.",
+    "start": 126.54,
+    "end": 127.18
+  },
+  {
+    "text": "Where",
+    "start": 127.42,
+    "end": 127.82
+  },
+  {
+    "text": "exactly",
+    "start": 127.82,
+    "end": 128.3
+  },
+  {
+    "text": "is",
+    "start": 128.3,
+    "end": 128.46
+  },
+  {
+    "text": "that",
+    "start": 128.46,
+    "end": 128.7
+  },
+  {
+    "text": "crossing?",
+    "start": 128.7,
+    "end": 129.58
+  },
+  {
+    "text": "Set",
+    "start": 129.58,
+    "end": 129.9
+  },
+  {
+    "text": "one",
+    "start": 129.9,
+    "end": 130.14
+  },
+  {
+    "text": "pizza's",
+    "start": 130.14,
+    "end": 130.86
+  },
+  {
+    "text": "equal",
+    "start": 131.02,
+    "end": 131.26
+  },
+  {
+    "text": "to",
+    "start": 131.26,
+    "end": 131.42
+  },
+  {
+    "text": "two",
+    "start": 131.42,
+    "end": 131.5
+  },
+  {
+    "text": "12",
+    "start": 131.66,
+    "end": 132.06
+  },
+  {
+    "text": "inch",
+    "start": 132.06,
+    "end": 132.38
+  },
+  {
+    "text": "pizzas.",
+    "start": 132.38,
+    "end": 132.94
+  },
+  {
+    "text": "The",
+    "start": 132.94,
+    "end": 133.1
+  },
+  {
+    "text": "pie",
+    "start": 133.1,
+    "end": 133.34
+  },
+  {
+    "text": "cancels,",
+    "start": 133.5,
+    "end": 134.06
+  },
+  {
+    "text": "and",
+    "start": 134.06,
+    "end": 134.22
+  },
+  {
+    "text": "you",
+    "start": 134.22,
+    "end": 134.3
+  },
+  {
+    "text": "get",
+    "start": 134.3,
+    "end": 134.54
+  },
+  {
+    "text": "d",
+    "start": 134.54,
+    "end": 134.7
+  },
+  {
+    "text": "squared",
+    "start": 134.86,
+    "end": 135.34
+  },
+  {
+    "text": "equals",
+    "start": 135.34,
+    "end": 135.82
+  },
+  {
+    "text": "288.",
+    "start": 135.82,
+    "end": 137.1
+  },
+  {
+    "text": "So",
+    "start": 137.1,
+    "end": 137.42
+  },
+  {
+    "text": "D",
+    "start": 137.42,
+    "end": 137.66
+  },
+  {
+    "text": "is",
+    "start": 137.9,
+    "end": 138.06
+  },
+  {
+    "text": "12",
+    "start": 138.06,
+    "end": 138.62
+  },
+  {
+    "text": "times",
+    "start": 138.62,
+    "end": 138.86
+  },
+  {
+    "text": "the",
+    "start": 138.86,
+    "end": 139.02
+  },
+  {
+    "text": "square",
+    "start": 139.02,
+    "end": 139.34
+  },
+  {
+    "text": "root",
+    "start": 139.34,
+    "end": 139.66
+  },
+  {
+    "text": "of",
+    "start": 139.66,
+    "end": 139.82
+  },
+  {
+    "text": "2.",
+    "start": 139.82,
+    "end": 140.46
+  },
+  {
+    "text": "The",
+    "start": 140.46,
+    "end": 140.62
+  },
+  {
+    "text": "breakeven",
+    "start": 140.62,
+    "end": 141.34
+  },
+  {
+    "text": "point",
+    "start": 141.34,
+    "end": 141.58
+  },
+  {
+    "text": "is",
+    "start": 141.58,
+    "end": 141.74
+  },
+  {
+    "text": "about",
+    "start": 141.74,
+    "end": 141.98
+  },
+  {
+    "text": "16.97",
+    "start": 141.98,
+    "end": 143.18
+  },
+  {
+    "text": "inches.",
+    "start": 143.34,
+    "end": 143.98
+  },
+  {
+    "text": "A",
+    "start": 143.98,
+    "end": 144.14
+  },
+  {
+    "text": "17",
+    "start": 144.14,
+    "end": 144.62
+  },
+  {
+    "text": "inch",
+    "start": 144.7,
+    "end": 145.02
+  },
+  {
+    "text": "pizza",
+    "start": 145.02,
+    "end": 145.5
+  },
+  {
+    "text": "is",
+    "start": 145.5,
+    "end": 145.74
+  },
+  {
+    "text": "just",
+    "start": 145.74,
+    "end": 145.98
+  },
+  {
+    "text": "barely",
+    "start": 145.98,
+    "end": 146.46
+  },
+  {
+    "text": "larger",
+    "start": 146.46,
+    "end": 146.86
+  },
+  {
+    "text": "than",
+    "start": 146.86,
+    "end": 147.02
+  },
+  {
+    "text": "the",
+    "start": 147.02,
+    "end": 147.18
+  },
+  {
+    "text": "pear.",
+    "start": 147.18,
+    "end": 147.74
+  },
+  {
+    "text": "A",
+    "start": 147.74,
+    "end": 147.9
+  },
+  {
+    "text": "16",
+    "start": 147.9,
+    "end": 148.3
+  },
+  {
+    "text": "inch",
+    "start": 148.38,
+    "end": 148.62
+  },
+  {
+    "text": "pizza,",
+    "start": 148.62,
+    "end": 149.1
+  },
+  {
+    "text": "that",
+    "start": 149.1,
+    "end": 149.34
+  },
+  {
+    "text": "about",
+    "start": 149.34,
+    "end": 149.66
+  },
+  {
+    "text": "201",
+    "start": 149.66,
+    "end": 150.38
+  },
+  {
+    "text": "square",
+    "start": 150.38,
+    "end": 150.78
+  },
+  {
+    "text": "inches,",
+    "start": 150.78,
+    "end": 151.26
+  },
+  {
+    "text": "still",
+    "start": 151.26,
+    "end": 151.58
+  },
+  {
+    "text": "loses.",
+    "start": 151.58,
+    "end": 152.38
+  },
+  {
+    "text": "Here",
+    "start": 152.38,
+    "end": 152.78
+  },
+  {
+    "text": "are",
+    "start": 152.78,
+    "end": 153.02
+  },
+  {
+    "text": "common",
+    "start": 153.02,
+    "end": 153.42
+  },
+  {
+    "text": "sizes.",
+    "start": 153.42,
+    "end": 154.06
+  },
+  {
+    "text": "A",
+    "start": 154.06,
+    "end": 154.22
+  },
+  {
+    "text": "10",
+    "start": 154.22,
+    "end": 154.54
+  },
+  {
+    "text": "inch",
+    "start": 154.54,
+    "end": 154.86
+  },
+  {
+    "text": "pizza",
+    "start": 154.86,
+    "end": 155.26
+  },
+  {
+    "text": "is",
+    "start": 155.26,
+    "end": 155.42
+  },
+  {
+    "text": "about",
+    "start": 155.42,
+    "end": 155.66
+  },
+  {
+    "text": "79",
+    "start": 155.66,
+    "end": 156.14
+  },
+  {
+    "text": "square",
+    "start": 156.3,
+    "end": 156.7
+  },
+  {
+    "text": "inches.",
+    "start": 156.7,
+    "end": 157.26
+  },
+  {
+    "text": "A",
+    "start": 157.26,
+    "end": 157.42
+  },
+  {
+    "text": "12",
+    "start": 157.42,
+    "end": 157.82
+  },
+  {
+    "text": "inch",
+    "start": 157.82,
+    "end": 158.14
+  },
+  {
+    "text": "is",
+    "start": 158.14,
+    "end": 158.3
+  },
+  {
+    "text": "113.",
+    "start": 158.3,
+    "end": 159.74
+  },
+  {
+    "text": "A",
+    "start": 159.74,
+    "end": 159.9
+  },
+  {
+    "text": "14",
+    "start": 159.9,
+    "end": 160.38
+  },
+  {
+    "text": "inch",
+    "start": 160.46,
+    "end": 160.86
+  },
+  {
+    "text": "has",
+    "start": 160.86,
+    "end": 161.1
+  },
+  {
+    "text": "almost",
+    "start": 161.1,
+    "end": 161.42
+  },
+  {
+    "text": "twice",
+    "start": 161.42,
+    "end": 161.82
+  },
+  {
+    "text": "the",
+    "start": 161.82,
+    "end": 161.98
+  },
+  {
+    "text": "area",
+    "start": 161.98,
+    "end": 162.38
+  },
+  {
+    "text": "of",
+    "start": 162.38,
+    "end": 162.46
+  },
+  {
+    "text": "the",
+    "start": 162.46,
+    "end": 162.54
+  },
+  {
+    "text": "10",
+    "start": 162.54,
+    "end": 162.94
+  },
+  {
+    "text": "inch,",
+    "start": 162.94,
+    "end": 163.58
+  },
+  {
+    "text": "just",
+    "start": 163.58,
+    "end": 163.66
+  },
+  {
+    "text": "four",
+    "start": 163.82,
+    "end": 164.14
+  },
+  {
+    "text": "more",
+    "start": 164.14,
+    "end": 164.3
+  },
+  {
+    "text": "inches",
+    "start": 164.3,
+    "end": 164.7
+  },
+  {
+    "text": "across,",
+    "start": 164.7,
+    "end": 165.1
+  },
+  {
+    "text": "and",
+    "start": 165.1,
+    "end": 165.34
+  },
+  {
+    "text": "nearly",
+    "start": 165.34,
+    "end": 165.74
+  },
+  {
+    "text": "double",
+    "start": 165.74,
+    "end": 166.06
+  },
+  {
+    "text": "the",
+    "start": 166.06,
+    "end": 166.22
+  },
+  {
+    "text": "surface",
+    "start": 166.22,
+    "end": 166.7
+  },
+  {
+    "text": "area.",
+    "start": 166.7,
+    "end": 167.34
+  },
+  {
+    "text": "A",
+    "start": 167.34,
+    "end": 167.58
+  },
+  {
+    "text": "16",
+    "start": 167.58,
+    "end": 167.98
+  },
+  {
+    "text": "inch",
+    "start": 168.14,
+    "end": 168.54
+  },
+  {
+    "text": "has",
+    "start": 168.54,
+    "end": 168.78
+  },
+  {
+    "text": "more",
+    "start": 168.78,
+    "end": 168.94
+  },
+  {
+    "text": "than",
+    "start": 168.94,
+    "end": 169.1
+  },
+  {
+    "text": "two",
+    "start": 169.1,
+    "end": 169.18
+  },
+  {
+    "text": "and",
+    "start": 169.34,
+    "end": 169.5
+  },
+  {
+    "text": "a",
+    "start": 169.5,
+    "end": 169.58
+  },
+  {
+    "text": "half",
+    "start": 169.58,
+    "end": 169.9
+  },
+  {
+    "text": "times",
+    "start": 169.9,
+    "end": 170.14
+  },
+  {
+    "text": "the",
+    "start": 170.14,
+    "end": 170.22
+  },
+  {
+    "text": "area",
+    "start": 170.22,
+    "end": 170.54
+  },
+  {
+    "text": "of",
+    "start": 170.54,
+    "end": 170.62
+  },
+  {
+    "text": "the",
+    "start": 170.62,
+    "end": 170.7
+  },
+  {
+    "text": "10",
+    "start": 170.7,
+    "end": 171.1
+  },
+  {
+    "text": "inch,",
+    "start": 171.1,
+    "end": 171.66
+  },
+  {
+    "text": "and",
+    "start": 171.66,
+    "end": 171.9
+  },
+  {
+    "text": "an",
+    "start": 171.9,
+    "end": 172.06
+  },
+  {
+    "text": "18",
+    "start": 172.06,
+    "end": 172.46
+  },
+  {
+    "text": "inch",
+    "start": 172.54,
+    "end": 172.86
+  },
+  {
+    "text": "has",
+    "start": 172.86,
+    "end": 173.1
+  },
+  {
+    "text": "over",
+    "start": 173.1,
+    "end": 173.34
+  },
+  {
+    "text": "three",
+    "start": 173.34,
+    "end": 173.74
+  },
+  {
+    "text": "times",
+    "start": 173.74,
+    "end": 174.06
+  },
+  {
+    "text": "the",
+    "start": 174.06,
+    "end": 174.22
+  },
+  {
+    "text": "area",
+    "start": 174.22,
+    "end": 174.54
+  },
+  {
+    "text": "of",
+    "start": 174.54,
+    "end": 174.62
+  },
+  {
+    "text": "the",
+    "start": 174.62,
+    "end": 174.78
+  },
+  {
+    "text": "10",
+    "start": 174.78,
+    "end": 175.18
+  },
+  {
+    "text": "inch.",
+    "start": 175.18,
+    "end": 175.74
+  },
+  {
+    "text": "For",
+    "start": 175.74,
+    "end": 176.06
+  },
+  {
+    "text": "pizzas",
+    "start": 176.06,
+    "end": 176.46
+  },
+  {
+    "text": "of",
+    "start": 176.46,
+    "end": 176.62
+  },
+  {
+    "text": "similar",
+    "start": 176.62,
+    "end": 177.02
+  },
+  {
+    "text": "thickness",
+    "start": 177.02,
+    "end": 177.42
+  },
+  {
+    "text": "and",
+    "start": 177.42,
+    "end": 177.58
+  },
+  {
+    "text": "toppings,",
+    "start": 177.58,
+    "end": 178.3
+  },
+  {
+    "text": "area",
+    "start": 178.3,
+    "end": 178.78
+  },
+  {
+    "text": "is",
+    "start": 178.78,
+    "end": 178.94
+  },
+  {
+    "text": "a",
+    "start": 178.94,
+    "end": 179.02
+  },
+  {
+    "text": "fair",
+    "start": 179.02,
+    "end": 179.26
+  },
+  {
+    "text": "estimate",
+    "start": 179.26,
+    "end": 179.66
+  },
+  {
+    "text": "of",
+    "start": 179.66,
+    "end": 179.74
+  },
+  {
+    "text": "how",
+    "start": 179.74,
+    "end": 179.9
+  },
+  {
+    "text": "much",
+    "start": 179.9,
+    "end": 180.06
+  },
+  {
+    "text": "food",
+    "start": 180.06,
+    "end": 180.38
+  },
+  {
+    "text": "you",
+    "start": 180.38,
+    "end": 180.54
+  },
+  {
+    "text": "get.",
+    "start": 180.54,
+    "end": 181.1
+  },
+  {
+    "text": "This",
+    "start": 181.15,
+    "end": 181.47
+  },
+  {
+    "text": "is",
+    "start": 181.47,
+    "end": 181.63
+  },
+  {
+    "text": "also",
+    "start": 181.63,
+    "end": 181.95
+  },
+  {
+    "text": "how",
+    "start": 181.95,
+    "end": 182.11
+  },
+  {
+    "text": "to",
+    "start": 182.11,
+    "end": 182.27
+  },
+  {
+    "text": "compare",
+    "start": 182.27,
+    "end": 182.67
+  },
+  {
+    "text": "prices.",
+    "start": 182.67,
+    "end": 183.23
+  },
+  {
+    "text": "Divide",
+    "start": 183.39,
+    "end": 183.87
+  },
+  {
+    "text": "the",
+    "start": 183.87,
+    "end": 184.03
+  },
+  {
+    "text": "price",
+    "start": 184.03,
+    "end": 184.43
+  },
+  {
+    "text": "by",
+    "start": 184.43,
+    "end": 184.59
+  },
+  {
+    "text": "the",
+    "start": 184.59,
+    "end": 184.83
+  },
+  {
+    "text": "area.",
+    "start": 184.83,
+    "end": 185.55
+  },
+  {
+    "text": "Say",
+    "start": 185.55,
+    "end": 185.87
+  },
+  {
+    "text": "a",
+    "start": 185.87,
+    "end": 186.03
+  },
+  {
+    "text": "12",
+    "start": 186.03,
+    "end": 186.35
+  },
+  {
+    "text": "inch",
+    "start": 186.35,
+    "end": 186.67
+  },
+  {
+    "text": "costs",
+    "start": 186.67,
+    "end": 186.91
+  },
+  {
+    "text": "12",
+    "start": 186.91,
+    "end": 187.31
+  },
+  {
+    "text": "and",
+    "start": 187.63,
+    "end": 187.87
+  },
+  {
+    "text": "an",
+    "start": 187.87,
+    "end": 188.03
+  },
+  {
+    "text": "18",
+    "start": 188.03,
+    "end": 188.35
+  },
+  {
+    "text": "inch",
+    "start": 188.35,
+    "end": 188.67
+  },
+  {
+    "text": "costs",
+    "start": 188.67,
+    "end": 189.07
+  },
+  {
+    "text": "20,",
+    "start": 189.07,
+    "end": 189.79
+  },
+  {
+    "text": "two",
+    "start": 189.79,
+    "end": 189.95
+  },
+  {
+    "text": "small",
+    "start": 190.11,
+    "end": 190.43
+  },
+  {
+    "text": "ones",
+    "start": 190.43,
+    "end": 190.67
+  },
+  {
+    "text": "cost",
+    "start": 190.67,
+    "end": 190.91
+  },
+  {
+    "text": "$4",
+    "start": 190.99,
+    "end": 191.47
+  },
+  {
+    "text": "for",
+    "start": 192.03,
+    "end": 192.27
+  },
+  {
+    "text": "226",
+    "start": 192.27,
+    "end": 193.07
+  },
+  {
+    "text": "square",
+    "start": 193.23,
+    "end": 193.63
+  },
+  {
+    "text": "inches.",
+    "start": 193.63,
+    "end": 194.19
+  },
+  {
+    "text": "That's",
+    "start": 194.19,
+    "end": 194.51
+  },
+  {
+    "text": "about",
+    "start": 194.51,
+    "end": 194.67
+  },
+  {
+    "text": "11",
+    "start": 194.67,
+    "end": 195.07
+  },
+  {
+    "text": "cents",
+    "start": 195.07,
+    "end": 195.39
+  },
+  {
+    "text": "per",
+    "start": 195.39,
+    "end": 195.55
+  },
+  {
+    "text": "square",
+    "start": 195.55,
+    "end": 195.87
+  },
+  {
+    "text": "inch.",
+    "start": 195.87,
+    "end": 196.35
+  },
+  {
+    "text": "The",
+    "start": 196.35,
+    "end": 196.59
+  },
+  {
+    "text": "big",
+    "start": 196.59,
+    "end": 196.83
+  },
+  {
+    "text": "one",
+    "start": 196.83,
+    "end": 197.07
+  },
+  {
+    "text": "costs",
+    "start": 197.07,
+    "end": 197.47
+  },
+  {
+    "text": "about",
+    "start": 197.47,
+    "end": 197.71
+  },
+  {
+    "text": "8",
+    "start": 197.71,
+    "end": 197.95
+  },
+  {
+    "text": "cents.",
+    "start": 197.95,
+    "end": 198.59
+  },
+  {
+    "text": "At",
+    "start": 198.59,
+    "end": 198.83
+  },
+  {
+    "text": "these",
+    "start": 198.83,
+    "end": 199.07
+  },
+  {
+    "text": "prices,",
+    "start": 199.07,
+    "end": 199.55
+  },
+  {
+    "text": "the",
+    "start": 199.55,
+    "end": 199.71
+  },
+  {
+    "text": "18",
+    "start": 199.71,
+    "end": 200.03
+  },
+  {
+    "text": "inch",
+    "start": 200.11,
+    "end": 200.43
+  },
+  {
+    "text": "is",
+    "start": 200.43,
+    "end": 200.59
+  },
+  {
+    "text": "the",
+    "start": 200.59,
+    "end": 200.67
+  },
+  {
+    "text": "better",
+    "start": 200.67,
+    "end": 200.91
+  },
+  {
+    "text": "deal",
+    "start": 200.91,
+    "end": 201.15
+  },
+  {
+    "text": "per",
+    "start": 201.15,
+    "end": 201.31
+  },
+  {
+    "text": "square",
+    "start": 201.31,
+    "end": 201.71
+  },
+  {
+    "text": "inch.",
+    "start": 201.71,
+    "end": 202.35
+  },
+  {
+    "text": "The",
+    "start": 202.35,
+    "end": 202.59
+  },
+  {
+    "text": "two",
+    "start": 202.59,
+    "end": 202.83
+  },
+  {
+    "text": "small",
+    "start": 202.83,
+    "end": 203.23
+  },
+  {
+    "text": "pizzas",
+    "start": 203.23,
+    "end": 203.71
+  },
+  {
+    "text": "do",
+    "start": 203.71,
+    "end": 203.95
+  },
+  {
+    "text": "win",
+    "start": 203.95,
+    "end": 204.35
+  },
+  {
+    "text": "one",
+    "start": 204.35,
+    "end": 204.59
+  },
+  {
+    "text": "thing,",
+    "start": 204.59,
+    "end": 205.15
+  },
+  {
+    "text": "outer",
+    "start": 205.15,
+    "end": 205.63
+  },
+  {
+    "text": "edge.",
+    "start": 205.63,
+    "end": 206.27
+  },
+  {
+    "text": "The",
+    "start": 206.27,
+    "end": 206.43
+  },
+  {
+    "text": "edge",
+    "start": 206.43,
+    "end": 206.67
+  },
+  {
+    "text": "of",
+    "start": 206.67,
+    "end": 206.75
+  },
+  {
+    "text": "a",
+    "start": 206.75,
+    "end": 206.91
+  },
+  {
+    "text": "pizza",
+    "start": 206.91,
+    "end": 207.23
+  },
+  {
+    "text": "is",
+    "start": 207.23,
+    "end": 207.39
+  },
+  {
+    "text": "its",
+    "start": 207.39,
+    "end": 207.55
+  },
+  {
+    "text": "circumference,",
+    "start": 207.55,
+    "end": 208.35
+  },
+  {
+    "text": "pi",
+    "start": 208.35,
+    "end": 208.51
+  },
+  {
+    "text": "times",
+    "start": 208.83,
+    "end": 209.15
+  },
+  {
+    "text": "d.",
+    "start": 209.15,
+    "end": 209.71
+  },
+  {
+    "text": "That",
+    "start": 209.71,
+    "end": 210.03
+  },
+  {
+    "text": "grows",
+    "start": 210.03,
+    "end": 210.35
+  },
+  {
+    "text": "in",
+    "start": 210.35,
+    "end": 210.51
+  },
+  {
+    "text": "a",
+    "start": 210.51,
+    "end": 210.59
+  },
+  {
+    "text": "straight",
+    "start": 210.59,
+    "end": 210.99
+  },
+  {
+    "text": "line,",
+    "start": 210.99,
+    "end": 211.31
+  },
+  {
+    "text": "not",
+    "start": 211.39,
+    "end": 211.63
+  },
+  {
+    "text": "with",
+    "start": 211.63,
+    "end": 211.79
+  },
+  {
+    "text": "a",
+    "start": 211.79,
+    "end": 211.95
+  },
+  {
+    "text": "square",
+    "start": 211.95,
+    "end": 212.75
+  },
+  {
+    "text": "the",
+    "start": 212.75,
+    "end": 212.91
+  },
+  {
+    "text": "two",
+    "start": 212.91,
+    "end": 213.15
+  },
+  {
+    "text": "12",
+    "start": 213.15,
+    "end": 213.55
+  },
+  {
+    "text": "inch",
+    "start": 213.63,
+    "end": 213.87
+  },
+  {
+    "text": "pizzas",
+    "start": 213.87,
+    "end": 214.27
+  },
+  {
+    "text": "have",
+    "start": 214.27,
+    "end": 214.43
+  },
+  {
+    "text": "about",
+    "start": 214.43,
+    "end": 214.67
+  },
+  {
+    "text": "75",
+    "start": 214.67,
+    "end": 215.07
+  },
+  {
+    "text": "inches",
+    "start": 215.23,
+    "end": 215.55
+  },
+  {
+    "text": "of",
+    "start": 215.55,
+    "end": 215.71
+  },
+  {
+    "text": "outer",
+    "start": 215.71,
+    "end": 216.03
+  },
+  {
+    "text": "edge.",
+    "start": 216.03,
+    "end": 216.51
+  },
+  {
+    "text": "The",
+    "start": 216.51,
+    "end": 216.67
+  },
+  {
+    "text": "18",
+    "start": 216.67,
+    "end": 217.07
+  },
+  {
+    "text": "inch",
+    "start": 217.15,
+    "end": 217.47
+  },
+  {
+    "text": "has",
+    "start": 217.47,
+    "end": 217.63
+  },
+  {
+    "text": "about",
+    "start": 217.63,
+    "end": 217.87
+  },
+  {
+    "text": "56",
+    "start": 217.87,
+    "end": 218.43
+  },
+  {
+    "text": "and",
+    "start": 218.43,
+    "end": 218.59
+  },
+  {
+    "text": "a",
+    "start": 218.59,
+    "end": 218.75
+  },
+  {
+    "text": "half.",
+    "start": 218.75,
+    "end": 219.31
+  },
+  {
+    "text": "So",
+    "start": 219.31,
+    "end": 219.55
+  },
+  {
+    "text": "the",
+    "start": 219.55,
+    "end": 219.71
+  },
+  {
+    "text": "pear",
+    "start": 219.71,
+    "end": 220.19
+  },
+  {
+    "text": "gives",
+    "start": 220.19,
+    "end": 220.35
+  },
+  {
+    "text": "you",
+    "start": 220.35,
+    "end": 220.51
+  },
+  {
+    "text": "a",
+    "start": 220.51,
+    "end": 220.67
+  },
+  {
+    "text": "third",
+    "start": 220.67,
+    "end": 221.07
+  },
+  {
+    "text": "more",
+    "start": 221.07,
+    "end": 221.39
+  },
+  {
+    "text": "outer",
+    "start": 221.39,
+    "end": 221.71
+  },
+  {
+    "text": "edge.",
+    "start": 221.71,
+    "end": 222.35
+  },
+  {
+    "text": "How",
+    "start": 222.35,
+    "end": 222.59
+  },
+  {
+    "text": "much",
+    "start": 222.59,
+    "end": 222.83
+  },
+  {
+    "text": "actual",
+    "start": 222.83,
+    "end": 223.15
+  },
+  {
+    "text": "crust",
+    "start": 223.15,
+    "end": 223.47
+  },
+  {
+    "text": "that",
+    "start": 223.63,
+    "end": 223.79
+  },
+  {
+    "text": "means",
+    "start": 223.79,
+    "end": 224.03
+  },
+  {
+    "text": "depends",
+    "start": 224.19,
+    "end": 224.51
+  },
+  {
+    "text": "on",
+    "start": 224.51,
+    "end": 224.59
+  },
+  {
+    "text": "the",
+    "start": 224.59,
+    "end": 224.75
+  },
+  {
+    "text": "rim's",
+    "start": 224.75,
+    "end": 225.23
+  },
+  {
+    "text": "width",
+    "start": 225.23,
+    "end": 225.55
+  },
+  {
+    "text": "and",
+    "start": 225.55,
+    "end": 225.71
+  },
+  {
+    "text": "thickness.",
+    "start": 225.71,
+    "end": 226.59
+  },
+  {
+    "text": "Now,",
+    "start": 226.59,
+    "end": 226.99
+  },
+  {
+    "text": "swap",
+    "start": 226.99,
+    "end": 227.47
+  },
+  {
+    "text": "the",
+    "start": 227.47,
+    "end": 227.63
+  },
+  {
+    "text": "pizza",
+    "start": 227.63,
+    "end": 227.95
+  },
+  {
+    "text": "for",
+    "start": 227.95,
+    "end": 228.19
+  },
+  {
+    "text": "a",
+    "start": 228.19,
+    "end": 228.27
+  },
+  {
+    "text": "pipe.",
+    "start": 228.27,
+    "end": 228.83
+  },
+  {
+    "text": "Water",
+    "start": 228.83,
+    "end": 229.15
+  },
+  {
+    "text": "flow",
+    "start": 229.15,
+    "end": 229.55
+  },
+  {
+    "text": "through",
+    "start": 229.55,
+    "end": 229.71
+  },
+  {
+    "text": "the",
+    "start": 229.71,
+    "end": 229.79
+  },
+  {
+    "text": "circle",
+    "start": 229.79,
+    "end": 230.27
+  },
+  {
+    "text": "inside",
+    "start": 230.27,
+    "end": 230.59
+  },
+  {
+    "text": "it,",
+    "start": 230.59,
+    "end": 230.99
+  },
+  {
+    "text": "so",
+    "start": 230.99,
+    "end": 231.23
+  },
+  {
+    "text": "what",
+    "start": 231.23,
+    "end": 231.47
+  },
+  {
+    "text": "matters",
+    "start": 231.47,
+    "end": 231.87
+  },
+  {
+    "text": "is",
+    "start": 231.87,
+    "end": 232.11
+  },
+  {
+    "text": "the",
+    "start": 232.11,
+    "end": 232.27
+  },
+  {
+    "text": "inside",
+    "start": 232.27,
+    "end": 232.75
+  },
+  {
+    "text": "diameter.",
+    "start": 232.75,
+    "end": 233.71
+  },
+  {
+    "text": "One",
+    "start": 233.71,
+    "end": 234.03
+  },
+  {
+    "text": "pipe",
+    "start": 234.03,
+    "end": 234.35
+  },
+  {
+    "text": "with",
+    "start": 234.35,
+    "end": 234.51
+  },
+  {
+    "text": "a",
+    "start": 234.51,
+    "end": 234.67
+  },
+  {
+    "text": "two",
+    "start": 234.67,
+    "end": 234.75
+  },
+  {
+    "text": "inch",
+    "start": 234.91,
+    "end": 235.23
+  },
+  {
+    "text": "inside",
+    "start": 235.23,
+    "end": 235.55
+  },
+  {
+    "text": "diameter",
+    "start": 235.55,
+    "end": 236.11
+  },
+  {
+    "text": "has",
+    "start": 236.11,
+    "end": 236.35
+  },
+  {
+    "text": "twice",
+    "start": 236.35,
+    "end": 236.67
+  },
+  {
+    "text": "the",
+    "start": 236.67,
+    "end": 236.83
+  },
+  {
+    "text": "opening",
+    "start": 236.83,
+    "end": 237.23
+  },
+  {
+    "text": "area",
+    "start": 237.23,
+    "end": 237.55
+  },
+  {
+    "text": "of",
+    "start": 237.55,
+    "end": 237.71
+  },
+  {
+    "text": "two",
+    "start": 237.71,
+    "end": 237.95
+  },
+  {
+    "text": "pipes",
+    "start": 237.95,
+    "end": 238.35
+  },
+  {
+    "text": "with",
+    "start": 238.35,
+    "end": 238.51
+  },
+  {
+    "text": "one",
+    "start": 238.51,
+    "end": 238.67
+  },
+  {
+    "text": "inch",
+    "start": 238.75,
+    "end": 239.07
+  },
+  {
+    "text": "inside",
+    "start": 239.07,
+    "end": 239.47
+  },
+  {
+    "text": "diameters.",
+    "start": 239.47,
+    "end": 240.27
+  },
+  {
+    "text": "At",
+    "start": 240.5,
+    "end": 240.74
+  },
+  {
+    "text": "the",
+    "start": 240.74,
+    "end": 240.82
+  },
+  {
+    "text": "same",
+    "start": 240.82,
+    "end": 241.06
+  },
+  {
+    "text": "average",
+    "start": 241.06,
+    "end": 241.38
+  },
+  {
+    "text": "water",
+    "start": 241.38,
+    "end": 241.7
+  },
+  {
+    "text": "speed,",
+    "start": 241.7,
+    "end": 242.1
+  },
+  {
+    "text": "the",
+    "start": 242.1,
+    "end": 242.26
+  },
+  {
+    "text": "two",
+    "start": 242.26,
+    "end": 242.42
+  },
+  {
+    "text": "inch",
+    "start": 242.58,
+    "end": 242.9
+  },
+  {
+    "text": "opening",
+    "start": 242.9,
+    "end": 243.22
+  },
+  {
+    "text": "passes",
+    "start": 243.22,
+    "end": 243.7
+  },
+  {
+    "text": "twice",
+    "start": 243.7,
+    "end": 243.94
+  },
+  {
+    "text": "as",
+    "start": 243.94,
+    "end": 244.1
+  },
+  {
+    "text": "much",
+    "start": 244.1,
+    "end": 244.26
+  },
+  {
+    "text": "water",
+    "start": 244.26,
+    "end": 244.66
+  },
+  {
+    "text": "per",
+    "start": 244.66,
+    "end": 244.82
+  },
+  {
+    "text": "second",
+    "start": 244.82,
+    "end": 245.22
+  },
+  {
+    "text": "as",
+    "start": 245.22,
+    "end": 245.46
+  },
+  {
+    "text": "the",
+    "start": 245.46,
+    "end": 245.62
+  },
+  {
+    "text": "two",
+    "start": 245.62,
+    "end": 245.86
+  },
+  {
+    "text": "one",
+    "start": 245.86,
+    "end": 246.02
+  },
+  {
+    "text": "inch",
+    "start": 246.18,
+    "end": 246.5
+  },
+  {
+    "text": "openings",
+    "start": 246.5,
+    "end": 246.98
+  },
+  {
+    "text": "combined.",
+    "start": 246.98,
+    "end": 247.78
+  },
+  {
+    "text": "Double",
+    "start": 247.78,
+    "end": 248.26
+  },
+  {
+    "text": "a",
+    "start": 248.26,
+    "end": 248.34
+  },
+  {
+    "text": "pipe's",
+    "start": 248.34,
+    "end": 248.74
+  },
+  {
+    "text": "inside",
+    "start": 248.74,
+    "end": 249.14
+  },
+  {
+    "text": "diameter,",
+    "start": 249.14,
+    "end": 249.7
+  },
+  {
+    "text": "and",
+    "start": 249.7,
+    "end": 249.94
+  },
+  {
+    "text": "the",
+    "start": 249.94,
+    "end": 250.02
+  },
+  {
+    "text": "opening's",
+    "start": 250.02,
+    "end": 250.58
+  },
+  {
+    "text": "area",
+    "start": 250.58,
+    "end": 250.98
+  },
+  {
+    "text": "grows",
+    "start": 250.98,
+    "end": 251.38
+  },
+  {
+    "text": "four",
+    "start": 251.38,
+    "end": 251.78
+  },
+  {
+    "text": "times.",
+    "start": 251.78,
+    "end": 252.42
+  },
+  {
+    "text": "That's",
+    "start": 252.42,
+    "end": 252.74
+  },
+  {
+    "text": "why",
+    "start": 252.74,
+    "end": 252.9
+  },
+  {
+    "text": "you",
+    "start": 252.9,
+    "end": 253.06
+  },
+  {
+    "text": "can't",
+    "start": 253.06,
+    "end": 253.3
+  },
+  {
+    "text": "size",
+    "start": 253.3,
+    "end": 253.7
+  },
+  {
+    "text": "pipes",
+    "start": 253.7,
+    "end": 254.1
+  },
+  {
+    "text": "by",
+    "start": 254.1,
+    "end": 254.18
+  },
+  {
+    "text": "adding",
+    "start": 254.18,
+    "end": 254.5
+  },
+  {
+    "text": "up",
+    "start": 254.5,
+    "end": 254.74
+  },
+  {
+    "text": "diameters.",
+    "start": 254.74,
+    "end": 255.78
+  },
+  {
+    "text": "Electrical",
+    "start": 255.94,
+    "end": 256.66
+  },
+  {
+    "text": "wires",
+    "start": 256.66,
+    "end": 257.14
+  },
+  {
+    "text": "follow",
+    "start": 257.14,
+    "end": 257.54
+  },
+  {
+    "text": "the",
+    "start": 257.54,
+    "end": 257.62
+  },
+  {
+    "text": "same",
+    "start": 257.62,
+    "end": 257.86
+  },
+  {
+    "text": "rule.",
+    "start": 257.86,
+    "end": 258.34
+  },
+  {
+    "text": "A",
+    "start": 258.34,
+    "end": 258.5
+  },
+  {
+    "text": "wire's",
+    "start": 258.5,
+    "end": 258.98
+  },
+  {
+    "text": "resistance",
+    "start": 258.98,
+    "end": 259.54
+  },
+  {
+    "text": "is",
+    "start": 259.54,
+    "end": 259.7
+  },
+  {
+    "text": "rho",
+    "start": 259.7,
+    "end": 260.02
+  },
+  {
+    "text": "L",
+    "start": 260.18,
+    "end": 260.5
+  },
+  {
+    "text": "over",
+    "start": 260.5,
+    "end": 260.74
+  },
+  {
+    "text": "A.",
+    "start": 260.74,
+    "end": 261.14
+  },
+  {
+    "text": "Rho",
+    "start": 261.14,
+    "end": 261.46
+  },
+  {
+    "text": "depends",
+    "start": 261.54,
+    "end": 261.86
+  },
+  {
+    "text": "on",
+    "start": 261.86,
+    "end": 261.94
+  },
+  {
+    "text": "the",
+    "start": 261.94,
+    "end": 262.02
+  },
+  {
+    "text": "metal,",
+    "start": 262.02,
+    "end": 262.5
+  },
+  {
+    "text": "L",
+    "start": 262.5,
+    "end": 262.82
+  },
+  {
+    "text": "is",
+    "start": 262.82,
+    "end": 262.98
+  },
+  {
+    "text": "the",
+    "start": 262.98,
+    "end": 263.14
+  },
+  {
+    "text": "length,",
+    "start": 263.14,
+    "end": 263.62
+  },
+  {
+    "text": "and",
+    "start": 263.62,
+    "end": 263.94
+  },
+  {
+    "text": "A",
+    "start": 263.94,
+    "end": 264.26
+  },
+  {
+    "text": "is",
+    "start": 264.26,
+    "end": 264.42
+  },
+  {
+    "text": "the",
+    "start": 264.42,
+    "end": 264.5
+  },
+  {
+    "text": "cross",
+    "start": 264.5,
+    "end": 264.74
+  },
+  {
+    "text": "section",
+    "start": 264.9,
+    "end": 265.3
+  },
+  {
+    "text": "area",
+    "start": 265.3,
+    "end": 265.62
+  },
+  {
+    "text": "of",
+    "start": 265.62,
+    "end": 265.7
+  },
+  {
+    "text": "the",
+    "start": 265.7,
+    "end": 265.78
+  },
+  {
+    "text": "conductor",
+    "start": 265.78,
+    "end": 266.34
+  },
+  {
+    "text": "itself,",
+    "start": 266.34,
+    "end": 266.74
+  },
+  {
+    "text": "the",
+    "start": 266.9,
+    "end": 266.98
+  },
+  {
+    "text": "metal,",
+    "start": 266.98,
+    "end": 267.54
+  },
+  {
+    "text": "not",
+    "start": 267.54,
+    "end": 267.7
+  },
+  {
+    "text": "the",
+    "start": 267.7,
+    "end": 267.78
+  },
+  {
+    "text": "insulation.",
+    "start": 267.78,
+    "end": 268.74
+  },
+  {
+    "text": "For",
+    "start": 268.74,
+    "end": 268.98
+  },
+  {
+    "text": "round",
+    "start": 268.98,
+    "end": 269.3
+  },
+  {
+    "text": "conductors",
+    "start": 269.3,
+    "end": 269.86
+  },
+  {
+    "text": "of",
+    "start": 269.86,
+    "end": 269.94
+  },
+  {
+    "text": "the",
+    "start": 269.94,
+    "end": 270.1
+  },
+  {
+    "text": "same",
+    "start": 270.1,
+    "end": 270.34
+  },
+  {
+    "text": "material,",
+    "start": 270.34,
+    "end": 270.82
+  },
+  {
+    "text": "length,",
+    "start": 270.82,
+    "end": 271.22
+  },
+  {
+    "text": "and",
+    "start": 271.22,
+    "end": 271.38
+  },
+  {
+    "text": "temperature,",
+    "start": 271.38,
+    "end": 272.1
+  },
+  {
+    "text": "doubling",
+    "start": 272.1,
+    "end": 272.58
+  },
+  {
+    "text": "the",
+    "start": 272.58,
+    "end": 272.66
+  },
+  {
+    "text": "conductor",
+    "start": 272.66,
+    "end": 273.3
+  },
+  {
+    "text": "diameter",
+    "start": 273.3,
+    "end": 273.94
+  },
+  {
+    "text": "makes",
+    "start": 273.94,
+    "end": 274.18
+  },
+  {
+    "text": "that",
+    "start": 274.18,
+    "end": 274.34
+  },
+  {
+    "text": "area",
+    "start": 274.34,
+    "end": 274.74
+  },
+  {
+    "text": "four",
+    "start": 274.74,
+    "end": 275.06
+  },
+  {
+    "text": "times",
+    "start": 275.06,
+    "end": 275.3
+  },
+  {
+    "text": "bigger",
+    "start": 275.3,
+    "end": 275.7
+  },
+  {
+    "text": "and",
+    "start": 275.78,
+    "end": 275.94
+  },
+  {
+    "text": "cuts",
+    "start": 275.94,
+    "end": 276.34
+  },
+  {
+    "text": "its",
+    "start": 276.34,
+    "end": 276.5
+  },
+  {
+    "text": "resistance",
+    "start": 276.5,
+    "end": 276.98
+  },
+  {
+    "text": "to",
+    "start": 276.98,
+    "end": 277.14
+  },
+  {
+    "text": "one",
+    "start": 277.14,
+    "end": 277.3
+  },
+  {
+    "text": "quarter.",
+    "start": 277.38,
+    "end": 278.02
+  },
+  {
+    "text": "Electric",
+    "start": 278.02,
+    "end": 278.58
+  },
+  {
+    "text": "stoves",
+    "start": 278.58,
+    "end": 278.98
+  },
+  {
+    "text": "draw",
+    "start": 278.98,
+    "end": 279.22
+  },
+  {
+    "text": "more",
+    "start": 279.22,
+    "end": 279.38
+  },
+  {
+    "text": "current",
+    "start": 279.38,
+    "end": 279.62
+  },
+  {
+    "text": "than",
+    "start": 279.62,
+    "end": 279.78
+  },
+  {
+    "text": "lamps,",
+    "start": 279.78,
+    "end": 280.34
+  },
+  {
+    "text": "so",
+    "start": 280.34,
+    "end": 280.5
+  },
+  {
+    "text": "they",
+    "start": 280.5,
+    "end": 280.66
+  },
+  {
+    "text": "typically",
+    "start": 280.66,
+    "end": 281.06
+  },
+  {
+    "text": "use",
+    "start": 281.06,
+    "end": 281.3
+  },
+  {
+    "text": "larger",
+    "start": 281.3,
+    "end": 281.7
+  },
+  {
+    "text": "conductors.",
+    "start": 281.7,
+    "end": 282.9
+  },
+  {
+    "text": "Bolts",
+    "start": 282.9,
+    "end": 283.46
+  },
+  {
+    "text": "work",
+    "start": 283.46,
+    "end": 283.7
+  },
+  {
+    "text": "the",
+    "start": 283.7,
+    "end": 283.78
+  },
+  {
+    "text": "same",
+    "start": 283.78,
+    "end": 284.02
+  },
+  {
+    "text": "way.",
+    "start": 284.02,
+    "end": 284.42
+  },
+  {
+    "text": "When",
+    "start": 284.42,
+    "end": 284.66
+  },
+  {
+    "text": "a",
+    "start": 284.66,
+    "end": 284.74
+  },
+  {
+    "text": "bolt",
+    "start": 284.74,
+    "end": 285.06
+  },
+  {
+    "text": "is",
+    "start": 285.06,
+    "end": 285.22
+  },
+  {
+    "text": "pulled,",
+    "start": 285.22,
+    "end": 285.7
+  },
+  {
+    "text": "the",
+    "start": 285.7,
+    "end": 285.86
+  },
+  {
+    "text": "load",
+    "start": 285.86,
+    "end": 286.26
+  },
+  {
+    "text": "spreads",
+    "start": 286.26,
+    "end": 286.66
+  },
+  {
+    "text": "over",
+    "start": 286.66,
+    "end": 286.82
+  },
+  {
+    "text": "its",
+    "start": 286.82,
+    "end": 286.98
+  },
+  {
+    "text": "cross",
+    "start": 286.98,
+    "end": 287.3
+  },
+  {
+    "text": "section.",
+    "start": 287.38,
+    "end": 288.02
+  },
+  {
+    "text": "Take",
+    "start": 288.02,
+    "end": 288.26
+  },
+  {
+    "text": "the",
+    "start": 288.26,
+    "end": 288.42
+  },
+  {
+    "text": "smooth,",
+    "start": 288.42,
+    "end": 288.82
+  },
+  {
+    "text": "unthreaded",
+    "start": 288.82,
+    "end": 289.46
+  },
+  {
+    "text": "shank,",
+    "start": 289.46,
+    "end": 289.94
+  },
+  {
+    "text": "since",
+    "start": 289.94,
+    "end": 290.18
+  },
+  {
+    "text": "the",
+    "start": 290.18,
+    "end": 290.34
+  },
+  {
+    "text": "threaded",
+    "start": 290.34,
+    "end": 290.82
+  },
+  {
+    "text": "part",
+    "start": 290.82,
+    "end": 291.06
+  },
+  {
+    "text": "has",
+    "start": 291.06,
+    "end": 291.22
+  },
+  {
+    "text": "its",
+    "start": 291.22,
+    "end": 291.38
+  },
+  {
+    "text": "own",
+    "start": 291.38,
+    "end": 291.62
+  },
+  {
+    "text": "smaller",
+    "start": 291.62,
+    "end": 292.1
+  },
+  {
+    "text": "stress",
+    "start": 292.1,
+    "end": 292.5
+  },
+  {
+    "text": "area.",
+    "start": 292.5,
+    "end": 293.06
+  },
+  {
+    "text": "A",
+    "start": 293.06,
+    "end": 293.22
+  },
+  {
+    "text": "three-quarter",
+    "start": 293.22,
+    "end": 293.86
+  },
+  {
+    "text": "inch",
+    "start": 293.86,
+    "end": 294.18
+  },
+  {
+    "text": "bolt",
+    "start": 294.18,
+    "end": 294.42
+  },
+  {
+    "text": "is",
+    "start": 294.42,
+    "end": 294.58
+  },
+  {
+    "text": "one",
+    "start": 294.58,
+    "end": 294.66
+  },
+  {
+    "text": "and",
+    "start": 294.82,
+    "end": 294.9
+  },
+  {
+    "text": "a",
+    "start": 294.9,
+    "end": 294.98
+  },
+  {
+    "text": "half",
+    "start": 294.98,
+    "end": 295.22
+  },
+  {
+    "text": "times",
+    "start": 295.22,
+    "end": 295.46
+  },
+  {
+    "text": "wider",
+    "start": 295.46,
+    "end": 295.78
+  },
+  {
+    "text": "than",
+    "start": 295.78,
+    "end": 295.94
+  },
+  {
+    "text": "a",
+    "start": 295.94,
+    "end": 296.02
+  },
+  {
+    "text": "half",
+    "start": 296.02,
+    "end": 296.26
+  },
+  {
+    "text": "inch",
+    "start": 296.34,
+    "end": 296.58
+  },
+  {
+    "text": "bolt.",
+    "start": 296.58,
+    "end": 296.82
+  },
+  {
+    "text": "So",
+    "start": 297.11,
+    "end": 297.35
+  },
+  {
+    "text": "it",
+    "start": 297.35,
+    "end": 297.51
+  },
+  {
+    "text": "has",
+    "start": 297.51,
+    "end": 297.67
+  },
+  {
+    "text": "two",
+    "start": 297.67,
+    "end": 297.83
+  },
+  {
+    "text": "and",
+    "start": 297.99,
+    "end": 298.15
+  },
+  {
+    "text": "a",
+    "start": 298.15,
+    "end": 298.23
+  },
+  {
+    "text": "quarter",
+    "start": 298.23,
+    "end": 298.55
+  },
+  {
+    "text": "times",
+    "start": 298.55,
+    "end": 298.71
+  },
+  {
+    "text": "the",
+    "start": 298.71,
+    "end": 298.87
+  },
+  {
+    "text": "unthreaded",
+    "start": 298.87,
+    "end": 299.43
+  },
+  {
+    "text": "shank",
+    "start": 299.59,
+    "end": 299.99
+  },
+  {
+    "text": "area.",
+    "start": 299.99,
+    "end": 300.55
+  },
+  {
+    "text": "At",
+    "start": 300.55,
+    "end": 300.71
+  },
+  {
+    "text": "the",
+    "start": 300.79,
+    "end": 300.87
+  },
+  {
+    "text": "same",
+    "start": 300.87,
+    "end": 301.11
+  },
+  {
+    "text": "average",
+    "start": 301.11,
+    "end": 301.43
+  },
+  {
+    "text": "tensile",
+    "start": 301.43,
+    "end": 301.91
+  },
+  {
+    "text": "stress",
+    "start": 301.91,
+    "end": 302.23
+  },
+  {
+    "text": "in",
+    "start": 302.23,
+    "end": 302.31
+  },
+  {
+    "text": "the",
+    "start": 302.31,
+    "end": 302.39
+  },
+  {
+    "text": "shank,",
+    "start": 302.39,
+    "end": 302.95
+  },
+  {
+    "text": "that",
+    "start": 302.95,
+    "end": 303.11
+  },
+  {
+    "text": "corresponds",
+    "start": 303.11,
+    "end": 303.67
+  },
+  {
+    "text": "to",
+    "start": 303.67,
+    "end": 303.83
+  },
+  {
+    "text": "two",
+    "start": 303.83,
+    "end": 303.99
+  },
+  {
+    "text": "and",
+    "start": 304.07,
+    "end": 304.15
+  },
+  {
+    "text": "a",
+    "start": 304.23,
+    "end": 304.31
+  },
+  {
+    "text": "quarter",
+    "start": 304.39,
+    "end": 304.71
+  },
+  {
+    "text": "times",
+    "start": 304.71,
+    "end": 304.95
+  },
+  {
+    "text": "the",
+    "start": 304.95,
+    "end": 305.03
+  },
+  {
+    "text": "pulling",
+    "start": 305.03,
+    "end": 305.43
+  },
+  {
+    "text": "force.",
+    "start": 305.43,
+    "end": 306.07
+  },
+  {
+    "text": "Sound",
+    "start": 306.07,
+    "end": 306.47
+  },
+  {
+    "text": "familiar?",
+    "start": 306.47,
+    "end": 307.11
+  },
+  {
+    "text": "It's",
+    "start": 307.11,
+    "end": 307.35
+  },
+  {
+    "text": "the",
+    "start": 307.35,
+    "end": 307.51
+  },
+  {
+    "text": "pizza",
+    "start": 307.51,
+    "end": 307.99
+  },
+  {
+    "text": "ratio",
+    "start": 307.99,
+    "end": 308.23
+  },
+  {
+    "text": "again.",
+    "start": 308.39,
+    "end": 309.03
+  },
+  {
+    "text": "So",
+    "start": 309.03,
+    "end": 309.35
+  },
+  {
+    "text": "here's",
+    "start": 309.35,
+    "end": 309.75
+  },
+  {
+    "text": "what",
+    "start": 309.75,
+    "end": 309.99
+  },
+  {
+    "text": "to",
+    "start": 309.99,
+    "end": 310.15
+  },
+  {
+    "text": "remember.",
+    "start": 310.15,
+    "end": 310.95
+  },
+  {
+    "text": "Area",
+    "start": 310.95,
+    "end": 311.51
+  },
+  {
+    "text": "grows",
+    "start": 311.51,
+    "end": 311.91
+  },
+  {
+    "text": "with",
+    "start": 311.91,
+    "end": 312.15
+  },
+  {
+    "text": "the",
+    "start": 312.15,
+    "end": 312.31
+  },
+  {
+    "text": "square",
+    "start": 312.31,
+    "end": 312.87
+  },
+  {
+    "text": "of",
+    "start": 312.87,
+    "end": 313.03
+  },
+  {
+    "text": "the",
+    "start": 313.03,
+    "end": 313.19
+  },
+  {
+    "text": "diameter.",
+    "start": 313.19,
+    "end": 314.15
+  },
+  {
+    "text": "Double",
+    "start": 314.15,
+    "end": 314.63
+  },
+  {
+    "text": "the",
+    "start": 314.63,
+    "end": 314.71
+  },
+  {
+    "text": "width,",
+    "start": 314.71,
+    "end": 315.19
+  },
+  {
+    "text": "and",
+    "start": 315.19,
+    "end": 315.35
+  },
+  {
+    "text": "you",
+    "start": 315.35,
+    "end": 315.51
+  },
+  {
+    "text": "get",
+    "start": 315.51,
+    "end": 315.67
+  },
+  {
+    "text": "four",
+    "start": 315.67,
+    "end": 316.07
+  },
+  {
+    "text": "times",
+    "start": 316.07,
+    "end": 316.31
+  },
+  {
+    "text": "the",
+    "start": 316.31,
+    "end": 316.47
+  },
+  {
+    "text": "area.",
+    "start": 316.47,
+    "end": 317.19
+  },
+  {
+    "text": "One",
+    "start": 317.19,
+    "end": 317.51
+  },
+  {
+    "text": "and",
+    "start": 317.51,
+    "end": 317.67
+  },
+  {
+    "text": "a",
+    "start": 317.67,
+    "end": 317.75
+  },
+  {
+    "text": "half",
+    "start": 317.75,
+    "end": 317.99
+  },
+  {
+    "text": "times",
+    "start": 317.99,
+    "end": 318.23
+  },
+  {
+    "text": "the",
+    "start": 318.23,
+    "end": 318.31
+  },
+  {
+    "text": "width",
+    "start": 318.31,
+    "end": 318.63
+  },
+  {
+    "text": "gives",
+    "start": 318.71,
+    "end": 319.03
+  },
+  {
+    "text": "two",
+    "start": 319.03,
+    "end": 319.11
+  },
+  {
+    "text": "and",
+    "start": 319.27,
+    "end": 319.43
+  },
+  {
+    "text": "a",
+    "start": 319.43,
+    "end": 319.51
+  },
+  {
+    "text": "quarter",
+    "start": 319.51,
+    "end": 319.91
+  },
+  {
+    "text": "times",
+    "start": 319.91,
+    "end": 320.15
+  },
+  {
+    "text": "the",
+    "start": 320.15,
+    "end": 320.31
+  },
+  {
+    "text": "area.",
+    "start": 320.31,
+    "end": 320.87
+  },
+  {
+    "text": "And",
+    "start": 320.87,
+    "end": 321.11
+  },
+  {
+    "text": "when",
+    "start": 321.11,
+    "end": 321.27
+  },
+  {
+    "text": "you",
+    "start": 321.27,
+    "end": 321.43
+  },
+  {
+    "text": "compare",
+    "start": 321.43,
+    "end": 321.83
+  },
+  {
+    "text": "circles,",
+    "start": 321.83,
+    "end": 322.55
+  },
+  {
+    "text": "compare",
+    "start": 322.55,
+    "end": 322.87
+  },
+  {
+    "text": "areas,",
+    "start": 323.03,
+    "end": 323.67
+  },
+  {
+    "text": "not",
+    "start": 323.67,
+    "end": 323.91
+  },
+  {
+    "text": "diameters.",
+    "start": 323.91,
+    "end": 324.79
+  },
+  {
+    "text": "If",
+    "start": 324.79,
+    "end": 324.95
+  },
+  {
+    "text": "you're",
+    "start": 324.95,
+    "end": 325.11
+  },
+  {
+    "text": "choosing",
+    "start": 325.11,
+    "end": 325.43
+  },
+  {
+    "text": "by",
+    "start": 325.43,
+    "end": 325.67
+  },
+  {
+    "text": "surface",
+    "start": 325.67,
+    "end": 326.07
+  },
+  {
+    "text": "area,",
+    "start": 326.07,
+    "end": 326.39
+  },
+  {
+    "text": "take",
+    "start": 326.47,
+    "end": 326.71
+  },
+  {
+    "text": "the",
+    "start": 326.71,
+    "end": 326.79
+  },
+  {
+    "text": "eighteen",
+    "start": 326.79,
+    "end": 327.35
+  },
+  {
+    "text": "inch.",
+    "start": 327.35,
+    "end": 328.07
+  },
+  {
+    "text": "If",
+    "start": 328.07,
+    "end": 328.31
+  },
+  {
+    "text": "you",
+    "start": 328.31,
+    "end": 328.47
+  },
+  {
+    "text": "enjoyed",
+    "start": 328.47,
+    "end": 328.87
+  },
+  {
+    "text": "this,",
+    "start": 328.87,
+    "end": 329.11
+  },
+  {
+    "text": "please",
+    "start": 329.11,
+    "end": 329.43
+  },
+  {
+    "text": "give",
+    "start": 329.43,
+    "end": 329.59
+  },
+  {
+    "text": "it",
+    "start": 329.59,
+    "end": 329.75
+  },
+  {
+    "text": "a",
+    "start": 329.75,
+    "end": 329.83
+  },
+  {
+    "text": "like",
+    "start": 329.83,
+    "end": 330.07
+  },
+  {
+    "text": "and",
+    "start": 330.07,
+    "end": 330.23
+  },
+  {
+    "text": "subscribe",
+    "start": 330.23,
+    "end": 330.63
+  },
+  {
+    "text": "for",
+    "start": 330.63,
+    "end": 330.79
+  },
+  {
+    "text": "more",
+    "start": 330.79,
+    "end": 331.03
+  },
+  {
+    "text": "everyday",
+    "start": 331.03,
+    "end": 331.59
+  },
+  {
+    "text": "engineering.",
+    "start": 331.59,
+    "end": 332.39
+  },
+  {
+    "text": "Thanks",
+    "start": 332.39,
+    "end": 332.71
+  },
+  {
+    "text": "for",
+    "start": 332.71,
+    "end": 332.87
+  },
+  {
+    "text": "watching.",
+    "start": 332.87,
+    "end": 333.43
+  }
+]

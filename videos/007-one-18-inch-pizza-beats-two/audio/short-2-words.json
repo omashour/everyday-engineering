@@ -1,0 +1,387 @@
+[
+  {
+    "text": "A",
+    "start": 0.16,
+    "end": 0.32
+  },
+  {
+    "text": "fourteen",
+    "start": 0.32,
+    "end": 0.8
+  },
+  {
+    "text": "inch",
+    "start": 0.88,
+    "end": 1.2
+  },
+  {
+    "text": "pizza",
+    "start": 1.2,
+    "end": 1.68
+  },
+  {
+    "text": "has",
+    "start": 1.68,
+    "end": 2
+  },
+  {
+    "text": "almost",
+    "start": 2,
+    "end": 2.32
+  },
+  {
+    "text": "twice",
+    "start": 2.32,
+    "end": 2.72
+  },
+  {
+    "text": "the",
+    "start": 2.72,
+    "end": 2.88
+  },
+  {
+    "text": "surface",
+    "start": 2.88,
+    "end": 3.36
+  },
+  {
+    "text": "area",
+    "start": 3.36,
+    "end": 3.6
+  },
+  {
+    "text": "of",
+    "start": 3.6,
+    "end": 3.76
+  },
+  {
+    "text": "a",
+    "start": 3.76,
+    "end": 3.92
+  },
+  {
+    "text": "ten",
+    "start": 3.92,
+    "end": 4.08
+  },
+  {
+    "text": "inch.",
+    "start": 4.24,
+    "end": 5.04
+  },
+  {
+    "text": "Only",
+    "start": 5.04,
+    "end": 5.36
+  },
+  {
+    "text": "four",
+    "start": 5.36,
+    "end": 5.76
+  },
+  {
+    "text": "more",
+    "start": 5.76,
+    "end": 5.92
+  },
+  {
+    "text": "inches",
+    "start": 5.92,
+    "end": 6.32
+  },
+  {
+    "text": "across.",
+    "start": 6.32,
+    "end": 7.44
+  },
+  {
+    "text": "Area",
+    "start": 7.44,
+    "end": 8
+  },
+  {
+    "text": "depends",
+    "start": 8,
+    "end": 8.4
+  },
+  {
+    "text": "on",
+    "start": 8.4,
+    "end": 8.56
+  },
+  {
+    "text": "the",
+    "start": 8.56,
+    "end": 8.72
+  },
+  {
+    "text": "diameter",
+    "start": 8.72,
+    "end": 9.28
+  },
+  {
+    "text": "squared.",
+    "start": 9.44,
+    "end": 10.16
+  },
+  {
+    "text": "Ten",
+    "start": 10.16,
+    "end": 10.32
+  },
+  {
+    "text": "squared",
+    "start": 10.56,
+    "end": 10.96
+  },
+  {
+    "text": "is",
+    "start": 10.96,
+    "end": 11.12
+  },
+  {
+    "text": "one",
+    "start": 11.12,
+    "end": 11.28
+  },
+  {
+    "text": "hundred.",
+    "start": 11.28,
+    "end": 11.68
+  },
+  {
+    "text": "Fourteen",
+    "start": 11.84,
+    "end": 12.24
+  },
+  {
+    "text": "squared",
+    "start": 12.4,
+    "end": 12.8
+  },
+  {
+    "text": "is",
+    "start": 12.8,
+    "end": 13.04
+  },
+  {
+    "text": "one",
+    "start": 13.04,
+    "end": 13.2
+  },
+  {
+    "text": "hundred",
+    "start": 13.2,
+    "end": 13.36
+  },
+  {
+    "text": "ninety",
+    "start": 13.52,
+    "end": 13.76
+  },
+  {
+    "text": "six.",
+    "start": 13.84,
+    "end": 14.64
+  },
+  {
+    "text": "So",
+    "start": 14.64,
+    "end": 14.88
+  },
+  {
+    "text": "the",
+    "start": 14.88,
+    "end": 14.96
+  },
+  {
+    "text": "bigger",
+    "start": 14.96,
+    "end": 15.36
+  },
+  {
+    "text": "pizza",
+    "start": 15.36,
+    "end": 15.84
+  },
+  {
+    "text": "has",
+    "start": 15.84,
+    "end": 16.08
+  },
+  {
+    "text": "one",
+    "start": 16.08,
+    "end": 16.24
+  },
+  {
+    "text": "point",
+    "start": 16.4,
+    "end": 16.64
+  },
+  {
+    "text": "nine",
+    "start": 16.64,
+    "end": 17.04
+  },
+  {
+    "text": "six",
+    "start": 17.04,
+    "end": 17.36
+  },
+  {
+    "text": "times",
+    "start": 17.36,
+    "end": 17.76
+  },
+  {
+    "text": "the",
+    "start": 17.76,
+    "end": 17.92
+  },
+  {
+    "text": "area.",
+    "start": 17.92,
+    "end": 18.64
+  },
+  {
+    "text": "Engineers",
+    "start": 18.88,
+    "end": 19.6
+  },
+  {
+    "text": "use",
+    "start": 19.6,
+    "end": 19.68
+  },
+  {
+    "text": "the",
+    "start": 19.84,
+    "end": 19.92
+  },
+  {
+    "text": "same",
+    "start": 19.92,
+    "end": 20.08
+  },
+  {
+    "text": "rule",
+    "start": 20.08,
+    "end": 20.32
+  },
+  {
+    "text": "for",
+    "start": 20.32,
+    "end": 20.4
+  },
+  {
+    "text": "the",
+    "start": 20.4,
+    "end": 20.48
+  },
+  {
+    "text": "cross",
+    "start": 20.48,
+    "end": 20.8
+  },
+  {
+    "text": "sections",
+    "start": 20.8,
+    "end": 21.12
+  },
+  {
+    "text": "of",
+    "start": 21.12,
+    "end": 21.2
+  },
+  {
+    "text": "pipes",
+    "start": 21.2,
+    "end": 21.52
+  },
+  {
+    "text": "and",
+    "start": 21.52,
+    "end": 21.68
+  },
+  {
+    "text": "wires.",
+    "start": 21.68,
+    "end": 22.4
+  },
+  {
+    "text": "A",
+    "start": 22.4,
+    "end": 22.56
+  },
+  {
+    "text": "little",
+    "start": 22.56,
+    "end": 22.8
+  },
+  {
+    "text": "more",
+    "start": 22.8,
+    "end": 22.96
+  },
+  {
+    "text": "width",
+    "start": 22.96,
+    "end": 23.52
+  },
+  {
+    "text": "means",
+    "start": 23.52,
+    "end": 23.92
+  },
+  {
+    "text": "a",
+    "start": 23.92,
+    "end": 24.08
+  },
+  {
+    "text": "lot",
+    "start": 24.08,
+    "end": 24.32
+  },
+  {
+    "text": "more",
+    "start": 24.32,
+    "end": 24.56
+  },
+  {
+    "text": "area.",
+    "start": 24.56,
+    "end": 25.44
+  },
+  {
+    "text": "The",
+    "start": 25.44,
+    "end": 25.6
+  },
+  {
+    "text": "full",
+    "start": 25.6,
+    "end": 25.92
+  },
+  {
+    "text": "video",
+    "start": 25.92,
+    "end": 26.08
+  },
+  {
+    "text": "shows",
+    "start": 26.24,
+    "end": 26.48
+  },
+  {
+    "text": "the",
+    "start": 26.48,
+    "end": 26.56
+  },
+  {
+    "text": "math.",
+    "start": 26.56,
+    "end": 27.04
+  }
+]
