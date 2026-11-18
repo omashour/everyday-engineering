@@ -1,9 +1,10 @@
 variants:
-  - template: equation
-    text: ""
-    highlight: []
-    tex: ""
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: bridge.jpg
+    text: "This Bridge Started SWAYING"
+    highlight: ["SWAYING"]
+  - template: equation
+    text: "CLOSED AFTER 2 DAYS"
+    highlight: ["2 DAYS"]
+    tex: "K\\mathbf{v} = \\omega^2 M\\mathbf{v}"
+    note: "resonance!"

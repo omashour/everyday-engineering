@@ -1,5 +1,78 @@
 shorts:
-  - title: ""
-    hook: ""
-    scenes: []
+  - title: "This bridge closed 2 days after opening #shorts"
+    hook: "Closed 2 days after opening?!"
     end: "Full video on the channel"
+    description: "In 2000, London's new Millennium Bridge had to close two days after opening. The reason: resonance with people's footsteps.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: A1
+        component: photo-overlay
+        say: >-
+          In two thousand, London opened a brand new footbridge. Two days later, it had to close.
+        params:
+          src: bridge.jpg
+          credit: "Image: AI-generated"
+          overlays:
+            - {type: label, pos: [50, 40], text: "London, June 2000", cue: "In two thousand"}
+            - {type: callout, pos: [50, 60], text: "closed after 2 days", cue: "Two days later"}
+      - id: A2
+        component: big-fact
+        say: >-
+          Here's why. When you walk, your body sways left and right about once every second.
+          That's one hertz. The bridge's natural sideways sway was close to one hertz too.
+          So thousands of footsteps were pushing it in time with its own rhythm.
+        params:
+          value: "1 Hz"
+          label: "your sideways sway when walking"
+          sub: "the bridge's sway: close to 1 Hz"
+          cue: "one hertz"
+      - id: A3
+        component: graph
+        say: >-
+          That's resonance. Push something at its natural frequency and every push adds to the last,
+          like pushing a swing. Engineers fixed it with dampers, and the wobble never came back.
+          The full video shows the math behind it.
+        params:
+          x_range: [0, 2]
+          y_range: [0, 11]
+          x_label: "push frequency (Hz)"
+          y_label: "sway"
+          functions:
+            - {expr: "1/sqrt((1-x^2)^2+(2*0.05*x)^2)", color: red, cue: "That's resonance"}
+          points:
+            - {x: 1, y: 10, label: "resonance", cue: "every push adds"}
+  - title: "165 people made this bridge wobble #shorts"
+    hook: "165 people made it wobble"
+    end: "Full video on the channel"
+    description: "A crowd on London's Millennium Bridge hit a tipping point, and the bridge started to wobble. Here's the feedback loop behind it.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: B1
+        component: big-fact
+        say: >-
+          With fewer than about one hundred sixty five people on it, this bridge stayed calm.
+          A few more, and it suddenly wobbled.
+        params:
+          value: "≈ 165"
+          label: "people on one span"
+          sub: "the tipping point"
+          cue: "one hundred sixty five"
+      - id: B2
+        component: bullets
+        say: >-
+          Here's the trap. When the deck sways a little, people adjust their steps to keep their balance.
+          Without noticing, they step in time with the bridge.
+          Now all their sideways pushes add up, and the sway grows. More sway, more people in step.
+        params:
+          heading: "The trap"
+          items:
+            - {text: "Bridge sways a little", icon: wave-sine, cue: "sways a little"}
+            - {text: "People step in time", icon: walk, cue: "step in time"}
+            - {text: "Sideways pushes add up", icon: arrows-right, cue: "pushes add up"}
+      - id: B3
+        component: big-fact
+        say: >-
+          Below the tipping point, the bridge's damping soaks up the pushes. Above it, the crowd wins.
+          The full video shows the math behind the wobble.
+        params:
+          value: "Damping"
+          label: "decides who wins"
+          cue: "bridge's damping"
