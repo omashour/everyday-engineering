@@ -1,5 +1,74 @@
 shorts:
-  - title: ""
-    hook: ""
-    scenes: []
+  - title: "One 18-inch pizza beats two 12-inch pizzas #shorts"
+    hook: "One pizza beats two?!"
     end: "Full video on the channel"
+    description: "Two 12-inch pizzas or one 18-inch? The single pizza has 12.5% more surface area, and one formula shows why.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: A1
+        component: photo-overlay
+        say: >-
+          One eighteen-inch pizza has more surface area than two twelve-inch
+          pizzas. Let's check it.
+        params:
+          src: pizzas.jpg
+          credit: "Image: AI-generated"
+          overlays:
+            - {type: measure, from: [3, 84], to: [49, 84], label: "2 × 12 in", cue: "two twelve-inch"}
+            - {type: measure, from: [55, 93], to: [89, 93], label: "18 in", cue: "One eighteen-inch pizza"}
+      - id: A2
+        component: equation-steps
+        say: >-
+          Area is pi r squared. Each twelve-inch pizza has radius six. Six squared
+          is thirty six, so the pair is seventy two pi. The eighteen-inch has
+          radius nine. Nine squared is eighty one pi.
+        params:
+          lines:
+            - {tex: "A = \\pi r^2", cue: "Area is pi"}
+            - {tex: "2 \\times 36\\pi = 72\\pi", cue: "the pair is"}
+            - {tex: "81\\pi > 72\\pi", circle: true, cue: "Nine squared"}
+      - id: A3
+        component: big-fact
+        say: >-
+          Eighty one beats seventy two. That's twelve and a half percent more
+          surface area in one box. The full video shows the math.
+        params:
+          label: "One 18-inch vs two 12-inch"
+          value: "+12.5%"
+          sub: "more surface area"
+          cue: "Eighty one beats"
+  - title: "A 14-inch pizza is almost twice a 10-inch #shorts"
+    hook: "4 inches, nearly double!"
+    end: "Full video on the channel"
+    description: "Four more inches across, almost twice the surface area: 1.96 times. Area grows with the square of the diameter.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: B1
+        component: big-fact
+        say: >-
+          A fourteen-inch pizza has almost twice the surface area of a ten-inch.
+          Only four more inches across.
+        params:
+          label: "14-inch vs 10-inch"
+          value: "1.96×"
+          sub: "the surface area"
+          cue: "almost twice"
+      - id: B2
+        component: equation-steps
+        say: >-
+          Area depends on the diameter squared. Ten squared is one hundred.
+          Fourteen squared is one hundred ninety six. So the bigger pizza has one
+          point nine six times the area.
+        params:
+          lines:
+            - {tex: "A \\propto d^2", cue: "diameter squared"}
+            - {tex: "10^2 = 100,\\quad 14^2 = 196", cue: "Ten squared"}
+            - {tex: "196 \\div 100 = 1.96", box: true, cue: "one point nine"}
+      - id: B3
+        component: photo-overlay
+        say: >-
+          Engineers use the same rule for the cross-sections of pipes and wires.
+          A little more width means a lot more area. The full video shows the math.
+        params:
+          src: pipes.jpg
+          credit: "Image: AI-generated"
+          overlays:
+            - {type: label, pos: [50, 30], text: "2× width = 4× area", cue: "same rule"}

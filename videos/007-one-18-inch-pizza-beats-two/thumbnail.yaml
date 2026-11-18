@@ -1,9 +1,10 @@
 variants:
-  - template: equation
-    text: ""
-    highlight: []
-    tex: ""
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: pizzas.jpg
+    text: "ONE PIZZA BEATS TWO"
+    highlight: ["ONE"]
+  - template: equation
+    text: "18-INCH BEATS TWO 12s"
+    highlight: ["18-INCH"]
+    tex: "A = \\pi r^2"
+    note: "it's squared!"

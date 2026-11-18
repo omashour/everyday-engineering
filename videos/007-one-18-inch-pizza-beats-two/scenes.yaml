@@ -1,25 +1,322 @@
-# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 007`.
 video:
-  id: "007"
+  id: "006"
   topic: T40
   title: "One 18-Inch Pizza Beats Two 12-Inch Pizzas"
-  style: ""            # e.g. "B hook + A body"
+  style: "B hook + B body"
   playlist: math-for-engineers
-  voice_note: ""
+  phase: math
+  series: null
+  voice_note: "Playful and confident in the hook; the pizza is fun, the math is serious."
   pronounce: {}
 
 scenes:
   - id: S01
-    component: title-card
-    chapter: "Intro"
+    component: photo-overlay
+    chapter: "The pizza question"
     say: >-
-      Replace me with the hook.
+      Two twelve-inch pizzas or one eighteen-inch pizza? Which gives you more
+      pizza? The eighteen-inch wins. It has exactly twelve and a half percent
+      more surface area. Engineers use the same geometry for the cross-sections
+      of pipes, wires and bolts.
     params:
+      src: pizzas.jpg
+      credit: "Image: AI-generated"
+      title: "Which is more pizza?"
+      shade: 0.3
+      overlays:
+        - {type: measure, from: [3, 84], to: [25, 84], label: "12 in", cue: "Two twelve-inch pizzas"}
+        - {type: measure, from: [27, 84], to: [49, 84], label: "12 in", cue: "Two twelve-inch pizzas"}
+        - {type: measure, from: [55, 93], to: [89, 93], label: "18 in", cue: "one eighteen-inch pizza"}
+        - {type: callout, pos: [72, 22], text: "12.5% more area", cue: "twelve and a half"}
+
+  - id: S02
+    component: title-card
+    say: Let's settle it with one formula you already know.
+    params:
+      kicker: "Everyday Engineering · Geometry"
       title: "One 18-Inch Pizza Beats Two 12-Inch Pizzas"
 
-  - id: S99
-    component: end-card
+  - id: S03
+    component: photo-overlay
+    chapter: "Size means diameter"
     say: >-
-      See you in the next one.
+      Pizza sizes are diameters. A twelve-inch pizza is twelve inches straight
+      across, through the center. But how much pizza you get depends on the area:
+      the whole pizza as seen from above, including the crust. And area does not
+      grow the way the diameter does.
     params:
-      line: ""
+      src: pizza-single.jpg
+      credit: "Image: AI-generated"
+      title: "12-inch = 12 inches across"
+      overlays:
+        - {type: measure, from: [30, 57], to: [70, 57], label: "diameter = 12 in", cue: "twelve inches straight across"}
+        - {type: callout, pos: [80, 35], text: "area = whole top, crust too", side: right, cue: "seen from above"}
+
+  - id: S04
+    component: equation-steps
+    chapter: "Area of a 12-inch pizza"
+    say: >-
+      The area of a circle is pi r squared, where r is the radius, half the
+      diameter. A twelve-inch pizza has a radius of six inches. Six squared is
+      thirty six, and thirty six times pi is about one hundred thirteen square
+      inches. Two of those pizzas give you seventy two pi, about two hundred
+      twenty six square inches.
+    params:
+      heading: "Two 12-inch pizzas"
+      figure:
+        view: [500, 500]
+        items:
+          - {type: circle, pos: [250, 250], r: 200, fill: marker, cue: "area of a circle"}
+          - {type: line, from: [250, 250], to: [450, 250], color: red, cue: "radius of six"}
+          - {type: tex, pos: [350, 215], tex: "r = 6", cue: "radius of six"}
+      lines:
+        - {tex: "A = \\pi r^2", cue: "pi r squared"}
+        - {tex: "r = \\tfrac{12}{2} = 6\\ \\text{in}", cue: "radius of six"}
+        - {tex: "A = 36\\pi \\approx 113\\ \\text{in}^2", mark: true, cue: "thirty six times"}
+        - {tex: "2 \\times 36\\pi = 72\\pi \\approx 226\\ \\text{in}^2", box: true, cue: "Two of those"}
+
+  - id: S05
+    component: photo-overlay
+    chapter: "The big pizza wins"
+    say: >-
+      Now the big one. An eighteen-inch pizza has a radius of nine inches.
+      Nine squared is eighty one, and eighty one times pi is about two hundred
+      fifty four square inches. The two small pizzas together had two hundred
+      twenty six. The single pizza wins by nine pi, about twenty eight square inches.
+    params:
+      src: pizzas.jpg
+      credit: "Image: AI-generated"
+      title: "254 vs 226 square inches"
+      shade: 0.45
+      overlays:
+        - {type: tex, pos: [72, 58], tex: "81\\pi \\approx 254\\ \\text{in}^2", cue: "Nine squared"}
+        - {type: tex, pos: [26, 58], tex: "72\\pi \\approx 226\\ \\text{in}^2", cue: "two small pizzas"}
+        - {type: label, pos: [72, 22], text: "+9π ≈ 28 sq in", cue: "twenty eight square"}
+
+  - id: S06
+    component: big-fact
+    say: >-
+      Divide one by the other and pi cancels out. Eighty one over seventy two is
+      exactly one point one two five. That's twelve and a half percent more
+      surface area, in one box instead of two.
+    params:
+      label: "One 18-inch vs two 12-inch"
+      value: "+12.5%"
+      sub: "81π ÷ 72π = 1.125"
+      cue: "twelve and a half"
+
+  - id: S07
+    component: equation-steps
+    chapter: "Why the big one wins"
+    say: >-
+      Here's the real reason. Write the area with the diameter d instead. It's
+      pi d squared over four. The diameter is squared. An eighteen-inch pizza is
+      one and a half times as wide as a twelve-inch. But one and a half squared
+      is two point two five. So one eighteen-inch pizza has two and a quarter
+      times the area of one twelve-inch pizza, not one and a half times. To see
+      how much pizza you're getting, compare the areas.
+    params:
+      heading: "Area grows with the square"
+      size: l
+      lines:
+        - {tex: "A = \\dfrac{\\pi d^2}{4}", note: "squared!", cue: "pi d squared"}
+        - {tex: "\\dfrac{18}{12} = 1.5", cue: "one and a half times"}
+        - {tex: "1.5^2 = 2.25", circle: true, cue: "two point two five"}
+        - {tex: "A_{18} = 2.25 \\times A_{12}", box: true, cue: "two and a quarter"}
+
+  - id: S08
+    component: graph
+    chapter: "Area vs diameter"
+    say: >-
+      Here's the whole picture. This curve is pizza area against diameter. It
+      bends upward because of that square. A twelve-inch pizza sits here, at one
+      hundred thirteen. The dashed line is two twelve-inch pizzas, at two hundred
+      twenty six. The curve crosses it just under seventeen inches. Every pizza
+      bigger than that beats the pair, and the eighteen-inch sits clearly above it,
+      at two hundred fifty four and a half.
+    params:
+      heading: "Area vs diameter"
+      x_range: [0, 20]
+      y_range: [0, 320]
+      x_label: "diameter (in)"
+      y_label: "area (sq in)"
+      functions:
+        - {expr: "3.14159*x^2/4", label: "$A = \\pi d^2/4$", cue: "This curve"}
+      points:
+        - {x: 12, y: 113.1, label: "12 in", cue: "twelve-inch pizza sits"}
+        - {x: 18, y: 254.5, cue: "eighteen-inch sits"}
+      hlines:
+        - {y: 226.2, label: "two 12-inch", cue: "The dashed line"}
+      side:
+        - {tex: "d \\approx 16.97\\ \\text{in}", cue: "just under seventeen"}
+        - {tex: "18\\ \\text{in} \\to 254.5\\ \\text{in}^2", cue: "eighteen-inch sits"}
+
+  - id: S09
+    component: equation-steps
+    chapter: "The break-even size"
+    say: >-
+      Where exactly is that crossing? Set one pizza's area equal to two
+      twelve-inch pizzas. The pi cancels, and you get d squared equals two
+      hundred eighty eight. So d is twelve times the square root of two. The
+      break-even point is about sixteen point nine seven inches. A seventeen-inch
+      pizza is just barely larger than the pair. A sixteen-inch pizza, at about
+      two hundred one square inches, still loses.
+    params:
+      heading: "Where one pizza equals two"
+      lines:
+        - {tex: "\\dfrac{\\pi d^2}{4} = 2 \\times 36\\pi", cue: "Set one pizza's"}
+        - {tex: "d^2 = 288", cue: "two hundred eighty eight"}
+        - {tex: "d = 12\\sqrt{2} \\approx 16.97\\ \\text{in}", box: true, cue: "square root of two"}
+        - {text: "17-inch: $\\approx 227\\ \\text{in}^2$", note: "just barely bigger", cue: "just barely larger"}
+        - {text: "16-inch: $\\approx 201\\ \\text{in}^2$", note: "still loses", cue: "still loses"}
+
+  - id: S10
+    component: table
+    chapter: "Common pizza sizes"
+    say: >-
+      Here are common sizes. A ten-inch pizza is about seventy nine square
+      inches. A twelve-inch is one hundred thirteen. A fourteen-inch has almost
+      twice the area of the ten-inch. Just four more inches across, and nearly
+      double the surface area. A sixteen-inch has more than two and a half times
+      the area of the ten-inch. And an eighteen-inch has over three times the
+      area of the ten-inch. For pizzas of similar thickness and toppings, area is
+      a fair estimate of how much food you get.
+    params:
+      heading: "Same thickness and toppings"
+      headers: ["Diameter", "Area (sq in)", "vs a 10-inch"]
+      rows:
+        - ["10 in", "79", "1.00×"]
+        - ["12 in", "113", "1.44×"]
+        - ["14 in", "154", "1.96×"]
+        - ["16 in", "201", "2.56×"]
+        - ["18 in", "254", "3.24×"]
+      row_cues: ["A ten-inch", "A twelve-inch", "A fourteen-inch", "A sixteen-inch", "an eighteen-inch"]
+      highlight: {row: 2, cue: "nearly double"}
+
+  - id: S11
+    component: equation-steps
+    chapter: "Price per square inch"
+    say: >-
+      This is also how to compare prices. Divide the price by the area. Say a
+      twelve-inch costs twelve dollars and an eighteen-inch costs twenty. Two
+      small ones cost twenty four dollars for two hundred twenty six square
+      inches. That's about eleven cents per square inch. The big one costs about
+      eight cents. At these prices, the eighteen-inch is the better deal per
+      square inch.
+    params:
+      heading: "Example prices (made up)"
+      lines:
+        - {tex: "\\text{cost per area} = \\dfrac{\\text{price}}{\\text{area}}", cue: "Divide the price"}
+        - {tex: "\\dfrac{\\$24}{226} \\approx \\$0.11\\ \\text{per in}^2", cue: "Two small ones"}
+        - {tex: "\\dfrac{\\$20}{254} \\approx \\$0.08\\ \\text{per in}^2", box: true, cue: "The big one costs"}
+
+  - id: S12
+    component: photo-overlay
+    chapter: "The catch: outer edge"
+    say: >-
+      The two small pizzas do win one thing: outer edge. The edge of a pizza is
+      its circumference, pi times d. That grows in a straight line, not with the
+      square. The two twelve-inch pizzas have about seventy five inches of outer
+      edge. The eighteen-inch has about fifty six and a half. So the pair gives
+      you a third more outer edge. How much actual crust that means depends on
+      the rim's width and thickness.
+    params:
+      src: pizzas.jpg
+      credit: "Image: AI-generated"
+      title: "Outer edge: $C = \\pi d$"
+      shade: 0.4
+      overlays:
+        - {type: label, pos: [26, 26], text: "≈ 75 in of outer edge", cue: "seventy five inches"}
+        - {type: label, pos: [72, 20], text: "≈ 56.5 in of outer edge", cue: "fifty six and a half"}
+
+  - id: S13
+    component: photo-overlay
+    chapter: "Pipes"
+    say: >-
+      Now swap the pizza for a pipe. Water flows through the circle inside it,
+      so what matters is the inside diameter. One pipe with a two-inch inside
+      diameter has twice the opening area of two pipes with one-inch inside
+      diameters. At the same average water speed, the two-inch opening passes
+      twice as much water per second as the two one-inch openings combined.
+      Double a pipe's inside diameter, and the opening's area grows four times.
+      That's why you can't size pipes by adding up diameters.
+    params:
+      src: pipes.jpg
+      credit: "Image: AI-generated"
+      title: "Same rule, real pipes"
+      overlays:
+        - {type: measure, from: [18, 55], to: [42, 55], label: "2 in inside", cue: "two-inch inside diameter"}
+        - {type: label, pos: [72, 30], text: "two 1-inch (inside)", cue: "one-inch inside diameters"}
+        - {type: tex, pos: [30, 88], tex: "\\pi (1)^2 \\approx 3.14\\ \\text{in}^2", cue: "twice the opening"}
+        - {type: tex, pos: [72, 80], tex: "2\\pi (0.5)^2 \\approx 1.57\\ \\text{in}^2", cue: "same average water"}
+
+  - id: S14
+    component: equation-steps
+    chapter: "Wires"
+    say: >-
+      Electrical wires follow the same rule. A wire's resistance is rho L over A.
+      Rho depends on the metal, L is the length, and A is the cross-section area
+      of the conductor itself, the metal, not the insulation. For round
+      conductors of the same material, length, and temperature, doubling the
+      conductor diameter makes that area four times bigger, and cuts its
+      resistance to one-quarter. Electric stoves draw more current than lamps, so
+      they typically use larger conductors.
+    params:
+      heading: "Wire resistance"
+      figure_side: left
+      figure:
+        view: [520, 420]
+        items:
+          - {type: circle, pos: [150, 210], r: 50, fill: blue, cue: "Electrical wires"}
+          - {type: circle, pos: [380, 210], r: 100, fill: blue, cue: "doubling the conductor"}
+          - {type: text, pos: [150, 360], text: "1×", cue: "Electrical wires"}
+          - {type: text, pos: [380, 360], text: "4× area", cue: "doubling the conductor"}
+      lines:
+        - {tex: "R = \\dfrac{\\rho L}{A}", cue: "rho L over"}
+        - {tex: "A = \\dfrac{\\pi d^2}{4}", cue: "cross-section area"}
+        - {tex: "2d \\;\\Rightarrow\\; 4A", circle: true, cue: "four times bigger"}
+        - {tex: "R \\div 4", box: true, cue: "to one-quarter"}
+
+  - id: S15
+    component: photo-overlay
+    chapter: "Bolts"
+    say: >-
+      Bolts work the same way. When a bolt is pulled, the load spreads over its
+      cross-section. Take the smooth, unthreaded shank, since the threaded part
+      has its own, smaller stress area. A three-quarter-inch bolt is one and a
+      half times wider than a half-inch bolt. So it has two and a quarter times
+      the unthreaded shank area. At the same average tensile stress in the shank,
+      that corresponds to two and a quarter times the pulling force. Sound
+      familiar? It's the pizza ratio again.
+    params:
+      src: bolts.jpg
+      credit: "Image: AI-generated"
+      title: "Thicker bolt, more shank area"
+      overlays:
+        - {type: label, pos: [30, 88], text: "½-inch", cue: "half-inch bolt"}
+        - {type: label, pos: [70, 88], text: "¾-inch", cue: "three-quarter-inch bolt"}
+        - {type: tex, pos: [50, 50], tex: "1.5^2 = 2.25", cue: "unthreaded shank area"}
+        - {type: callout, pos: [50, 72], text: "unthreaded shank area", cue: "Take the smooth"}
+
+  - id: S16
+    component: bullets
+    chapter: "Remember this"
+    say: >-
+      So here's what to remember. Area grows with the square of the diameter.
+      Double the width, and you get four times the area. One and a half times the
+      width gives two and a quarter times the area. And when you compare circles,
+      compare areas, not diameters. If you're choosing by surface area, take the
+      eighteen-inch.
+    params:
+      heading: "Remember this"
+      items:
+        - {text: "Area grows with $d^2$", icon: ruler-measure, cue: "Area grows"}
+        - {text: "2× diameter → ==4× area==", icon: arrows-maximize, cue: "Double the width"}
+        - {text: "1.5× diameter → 2.25× area", icon: pizza, cue: "One and a half"}
+        - {text: "Compare areas, not diameters", icon: scale, cue: "compare areas"}
+
+  - id: S17
+    component: end-card
+    say: If you enjoyed this, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+    params:
+      line: "Thanks for watching"
