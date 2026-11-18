@@ -1,9 +1,10 @@
 variants:
   - template: equation
-    text: ""
-    highlight: []
-    tex: ""
+    text: "WHY STAIRS FEEL WRONG"
+    highlight: ["WRONG"]
+    tex: "2R + T = 63\\text{ cm}"
+    note: "since the 1600s"
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: stairs-home.jpg
+    text: "One Formula, Every Staircase"
+    highlight: ["One"]

@@ -1,25 +1,298 @@
-# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 008`.
 video:
   id: "008"
   topic: T41
   title: "The One Formula Behind Every Comfortable Staircase"
-  style: ""            # e.g. "B hook + A body"
+  style: "B hook + B body"
   playlist: math-for-engineers
+  phase: math
+  series: null
   voice_note: ""
-  pronounce: {}
+  pronounce: {Blondel: blon-DELL}
 
 scenes:
   - id: S01
-    component: title-card
-    chapter: "Intro"
+    component: photo-overlay
+    chapter: "Why some stairs feel wrong"
     say: >-
-      Replace me with the hook.
+      Some stairs you climb without thinking. Others make you stumble, stretch or shuffle.
+      The difference isn't luck. It's one simple formula, written down over three hundred
+      years ago, and it's hidden in the stairs you use every day.
     params:
-      title: "The One Formula Behind Every Comfortable Staircase"
+      src: stairs-home.jpg
+      credit: "Image: AI-generated"
+      title: "Why do some stairs feel wrong?"
+      overlays:
+        - {type: measure, from: [59, 62], to: [59, 44], label: "rise", cue: "Others make you"}
+        - {type: measure, from: [40, 66], to: [56, 66], label: "tread", cue: "stretch or shuffle"}
+        - {type: tex, pos: [22, 30], tex: "2R + T \\approx 63\\ \\text{cm}", cue: "one simple formula"}
 
-  - id: S99
-    component: end-card
+  - id: S02
+    component: title-card
+    say: Let's find that formula, with nothing but a tape measure and a little algebra.
+    params: {kicker: "Everyday Engineering · Algebra", title: "The One Formula Behind Every Comfortable Staircase"}
+
+  - id: S03
+    component: photo-overlay
+    chapter: "Rise and tread"
     say: >-
-      See you in the next one.
+      Every step has two measurements. The rise is how high you lift your foot, from one
+      step to the next. The tread is how deep the step is, the flat part you stand on.
+      We'll call them R and T. On a typical comfortable home stair, the rise is about
+      seventeen and a half centimeters, and the tread is about twenty eight. That's about
+      seven inches up and eleven inches deep.
     params:
-      line: ""
+      src: stairs-home.jpg
+      credit: "Image: AI-generated"
+      title: "Rise R and tread T"
+      overlays:
+        - {type: measure, from: [59, 62], to: [59, 44], label: "R ≈ 17.5 cm", cue: "seventeen and a half"}
+        - {type: measure, from: [40, 66], to: [56, 66], label: "T ≈ 28 cm", cue: "about twenty eight"}
+        - {type: label, pos: [22, 30], text: "≈ 7 in up · 11 in deep", cue: "seven inches up"}
+
+  - id: S04
+    component: diagram
+    chapter: "One easy step"
+    say: >-
+      Start on flat ground. When you walk at an easy pace, each step covers a fairly steady
+      distance, from one footprint to the next. Stair designers use about sixty three
+      centimeters, or twenty five inches, for that easy step. Your legs like that rhythm,
+      and they like to repeat it.
+    params:
+      heading: "One easy step"
+      view: [1000, 600]
+      items:
+        - {type: icon, pos: [500, 200], name: walk, size: l, cue: "Start on flat"}
+        - {type: ground, from: [60, 430], to: [940, 430]}
+        - {type: rect, pos: [200, 385], size: [90, 40], fill: navy, cue: "one footprint"}
+        - {type: rect, pos: [650, 385], size: [90, 40], fill: navy, cue: "to the next"}
+        - {type: dim, from: [245, 490], to: [695, 490], label: "≈ 63 cm (25 in)", cue: "sixty three"}
+
+  - id: S05
+    component: equation-steps
+    chapter: "Climbing counts double"
+    say: >-
+      On a stair, every step does two things at once. Your foot moves forward by the tread,
+      and your body lifts by the rise. Lifting is much harder than moving forward. The rule
+      of thumb is that each centimeter you climb counts like two centimeters on flat ground.
+      So the effort of one step on a stair is two R plus T. For the stair to feel natural,
+      that should match your easy step: about sixty three centimeters.
+    params:
+      heading: "The stride on a stair"
+      figure:
+        view: [1000, 600]
+        items:
+          - {type: polyline, points: [[80, 520], [280, 520], [280, 400], [480, 400], [480, 280], [680, 280], [680, 160], [900, 160]], color: ink, width: 4}
+          - {type: dim, from: [280, 375], to: [480, 375], label: "T", cue: "moves forward"}
+          - {type: dim, from: [510, 400], to: [510, 280], label: "R", cue: "lifts by the rise"}
+      lines:
+        - {text: "forward: $T$", cue: "moves forward"}
+        - {text: "up: $R$ counts double, so $2R$", cue: "counts like two"}
+        - {tex: "\\text{stride} = 2R + T", cue: "effort of one step"}
+        - {tex: "2R + T \\approx 63\\ \\text{cm}", mark: true, box: true, note: "one easy step", cue: "sixty three centimeters"}
+
+  - id: S06
+    component: big-fact
+    chapter: "Blondel's formula"
+    say: >-
+      This rule is old. In the late sixteen hundreds, the French architect François Blondel
+      wrote it down in his course on architecture. He set twice the rise plus the tread
+      equal to two French feet, about sixty five centimeters. Today it's called Blondel's
+      formula, and stair designers still use it, usually aiming for about sixty three to
+      sixty five centimeters.
+    params:
+      value: "2R + T ≈ 63 cm"
+      label: "Blondel's formula (late 1600s)"
+      sub: "his version: 2 French feet ≈ 65 cm"
+      cue: "called Blondel's formula"
+
+  - id: S07
+    component: equation-steps
+    chapter: "Testing a good stair"
+    say: >-
+      Let's test it on our comfortable stair. The rise is seventeen and a half centimeters,
+      so two rises make thirty five. Add the tread of twenty eight. Thirty five plus twenty
+      eight is sixty three. Exactly one easy step. That's why you can climb this stair
+      without thinking about it.
+    params:
+      heading: "Test: a comfortable stair"
+      size: l
+      lines:
+        - {tex: "2R = 2 \\times 17.5 = 35", cue: "two rises make"}
+        - {tex: "2R + T = 35 + 28", cue: "Add the tread"}
+        - {tex: "= 63\\ \\text{cm}", box: true, note: "one easy step", note_cue: "Exactly one easy", cue: "eight is sixty three"}
+
+  - id: S08
+    component: photo-overlay
+    chapter: "Stairs that feel wrong"
+    say: >-
+      Now look at these garden steps. Each rise is only twelve centimeters, but each tread
+      is forty five. Two R plus T comes to sixty nine. That's longer than one easy step,
+      but much shorter than two. So you either stretch on every step, or you squeeze in a
+      little half step. That awkward shuffle is the formula telling you something is off.
+    params:
+      src: stairs-garden.jpg
+      credit: "Image: AI-generated"
+      title: "Too long: the stutter step"
+      overlays:
+        - {type: measure, from: [65, 64], to: [65, 50], label: "R = 12 cm", cue: "only twelve centimeters"}
+        - {type: measure, from: [30, 68], to: [62, 68], label: "T = 45 cm", cue: "is forty five"}
+        - {type: tex, pos: [22, 30], tex: "2R + T = 69\\ \\text{cm}", cue: "sixty nine"}
+        - {type: callout, pos: [78, 30], text: "too long for one step", side: right, cue: "longer than one"}
+
+  - id: S09
+    component: photo-overlay
+    say: >-
+      Now the opposite. On this steep, narrow stair, the rise is twenty one centimeters,
+      and the tread is just fifteen. Two R plus T is fifty seven. Each step is too short
+      for your stride, and the tread is shorter than your foot. Your heel hangs off the
+      edge, so you climb on your toes, and many people come down sideways.
+    params:
+      src: stairs-steep.jpg
+      credit: "Image: AI-generated"
+      title: "Too short: the choppy climb"
+      overlays:
+        - {type: measure, from: [56, 60], to: [56, 40], label: "R = 21 cm", cue: "twenty one centimeters"}
+        - {type: measure, from: [45, 64], to: [53, 64], label: "T = 15 cm", cue: "just fifteen"}
+        - {type: tex, pos: [22, 30], tex: "2R + T = 57\\ \\text{cm}", cue: "fifty seven"}
+        - {type: callout, pos: [78, 75], text: "shorter than your foot", side: right, cue: "shorter than your"}
+
+  - id: S10
+    component: graph
+    chapter: "The comfort line"
+    say: >-
+      Let's put every possible stair on one graph. Across is the rise, and up is the tread.
+      Every stair that fits Blondel's formula sits on this straight line: the tread equals
+      sixty three minus two times the rise. Designers accept a narrow band around it, about
+      sixty to sixty five centimeters. Our comfortable stair sits right on the line. The
+      garden steps sit above the band. The steep stair sits below it.
+    params:
+      heading: "Every stair on one line"
+      x_range: [5, 25]
+      y_range: [0, 60]
+      x_label: "rise $R$ (cm)"
+      y_label: "tread $T$ (cm)"
+      functions:
+        - {expr: "63-2*x", label: "$T = 63 - 2R$", color: blue, cue: "this straight line"}
+        - {expr: "60-2*x", color: muted, dashed: true, cue: "narrow band"}
+        - {expr: "65-2*x", color: muted, dashed: true, cue: "sixty to sixty five"}
+      points:
+        - {x: 17.5, y: 28, label: "comfortable", cue: "Our comfortable stair"}
+        - {x: 12, y: 45, label: "garden: 69", cue: "garden steps sit"}
+        - {x: 21, y: 15, label: "steep: 57", cue: "steep stair sits"}
+
+  - id: S11
+    component: equation-steps
+    chapter: "Same stride, different angle"
+    say: >-
+      But the line hides a second choice: the angle. Every stair on it gives a comfortable
+      stride, but not the same steepness. The tangent of the angle is the rise over the
+      tread. A rise of fifteen with a tread of thirty three gives sixty three, and climbs at
+      about twenty four degrees. A rise of twenty with a tread of twenty three also gives
+      sixty three, but climbs at about forty one degrees. Same stride, very different stair.
+      Tight spaces push designers toward the steep end. Grand public stairs sit at the
+      gentle end.
+    params:
+      heading: "Same stride, different angle"
+      lines:
+        - {tex: "\\tan\\theta = \\dfrac{R}{T}", mark: true, cue: "tangent of the angle"}
+        - {tex: "R = 15,\\ T = 33 \\;\\Rightarrow\\; \\theta \\approx 24^\\circ", cue: "fifteen with a tread"}
+        - {tex: "R = 20,\\ T = 23 \\;\\Rightarrow\\; \\theta \\approx 41^\\circ", circle: true, note: "same stride!", note_cue: "Same stride", cue: "twenty with a tread"}
+
+  - id: S12
+    component: table
+    chapter: "What building codes say"
+    say: >-
+      Building codes put limits on both numbers. In an American home, the rise can be at
+      most seven and three quarter inches, and the tread at least ten. Put those extremes
+      into the formula. Two times seven and three quarters, plus ten, is twenty five and a
+      half inches, about sixty five centimeters: the top of Blondel's band. In American
+      public buildings, the limits are seven inches up and eleven deep. That's twenty five
+      inches, about sixty three and a half centimeters. In the UK, homes allow a rise of at
+      most two hundred twenty millimeters and a going, their word for tread, of at least
+      two hundred twenty. And the rules write the formula in directly: twice the rise plus
+      the going must be between five hundred fifty and seven hundred millimeters.
+    params:
+      heading: "What building codes allow"
+      headers: ["Rule", "Max rise", "Min tread", "$2R + T$"]
+      rows:
+        - ["US homes (IRC)", "7¾ in", "10 in", "25.5 in ≈ 65 cm"]
+        - ["US public (IBC)", "7 in", "11 in", "25 in ≈ 63.5 cm"]
+        - ["UK homes (Part K)", "220 mm", "220 mm", "550–700 mm"]
+      row_cues: ["In an American home", "American public buildings", "In the UK"]
+      highlight: {row: 0, col: 3, cue: "top of Blondel's band"}
+
+  - id: S13
+    component: big-fact
+    chapter: "Why every step must match"
+    say: >-
+      There's one more rule, and it may matter most. In an American home, the tallest and
+      shortest riser in one flight can differ by no more than three eighths of an inch.
+      That's about one centimeter. Why so strict? After the first few steps, you stop
+      looking. Your legs just repeat the same motion. One step that's a centimeter off
+      breaks that rhythm, and that's when your foot catches the edge.
+    params:
+      value: "≤ 3/8 in"
+      label: "max difference between risers (US homes)"
+      sub: "about 1 cm"
+      cue: "three eighths"
+
+  - id: S14
+    component: equation-steps
+    chapter: "Designing a staircase"
+    say: >-
+      Now let's design a staircase. The height from floor to floor is two hundred seventy
+      centimeters. We'd like a rise near seventeen and a half. Two seventy divided by
+      seventeen and a half is about fifteen point four. We can't build part of a step, so we
+      round to fifteen risers. Now every rise is two seventy over fifteen: exactly eighteen
+      centimeters.
+    params:
+      heading: "Design: how many steps?"
+      figure_side: left
+      figure:
+        view: [1000, 600]
+        items:
+          - {type: polyline, points: [[60, 520], [180, 520], [180, 440], [300, 440], [300, 360], [420, 360], [420, 280], [540, 280], [540, 200], [660, 200], [660, 120], [860, 120]], color: ink, width: 4}
+          - {type: dim, from: [920, 520], to: [920, 120], label: "270 cm", cue: "floor to floor"}
+      lines:
+        - {tex: "\\dfrac{270}{17.5} \\approx 15.4", cue: "fifteen point four"}
+        - {text: "round to **15 risers**", cue: "round to fifteen"}
+        - {tex: "R = \\dfrac{270}{15} = 18\\ \\text{cm}", box: true, cue: "exactly eighteen centimeters"}
+
+  - id: S15
+    component: equation-steps
+    say: >-
+      Blondel's formula gives the tread. Two times eighteen is thirty six. Sixty three minus
+      thirty six leaves twenty seven centimeters. Fifteen risers need only fourteen treads,
+      because the last step is the upper floor itself. Fourteen times twenty seven is three
+      hundred seventy eight centimeters, so the stair needs about three point eight meters
+      of floor. Code check: eighteen centimeters is seven point one inches, and twenty seven
+      is ten point six. Both pass. And the angle is about thirty four degrees.
+    params:
+      heading: "Design: tread, length, check"
+      lines:
+        - {tex: "T = 63 - 2(18) = 27\\ \\text{cm}", box: true, cue: "leaves twenty seven"}
+        - {tex: "\\text{run} = 14 \\times 27 = 378\\ \\text{cm}", note: "15 risers, 14 treads", note_cue: "only fourteen treads", cue: "Fourteen times twenty"}
+        - {text: "US code: 7.1 in ✓ · 10.6 in ✓", cue: "Code check"}
+        - {tex: "\\theta = \\tan^{-1}\\!\\left(\\tfrac{18}{27}\\right) \\approx 34^\\circ", cue: "about thirty four"}
+
+  - id: S16
+    component: bullets
+    chapter: "Remember this"
+    say: >-
+      So that's why some stairs feel perfect, and others make you stumble. A good stair
+      matches your stride. Twice the rise plus the tread should be about sixty three
+      centimeters. Too long, and you shuffle. Too short, and you climb on your toes. And
+      every step must match the one before. Next time a staircase feels wrong, take out a
+      tape measure. The formula will tell you why.
+    params:
+      heading: "Remember this"
+      items:
+        - {text: "$2R + T \\approx 63$ cm (25 in)", icon: ruler-measure, cue: "Twice the rise"}
+        - {text: "Too long → you shuffle", icon: arrows-horizontal, cue: "Too long"}
+        - {text: "Too short → on your toes", icon: alert-triangle, cue: "Too short"}
+        - {text: "Every step must match", icon: equal, cue: "every step must"}
+
+  - id: S17
+    component: end-card
+    say: If you enjoyed this one, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+    params: {line: "Thanks for watching"}

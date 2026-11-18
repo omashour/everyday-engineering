@@ -1,5 +1,76 @@
 shorts:
-  - title: ""
-    hook: ""
-    scenes: []
+  - title: "Why some stairs make you shuffle #shorts"
+    hook: "Why do these steps feel wrong?"
     end: "Full video on the channel"
+    description: "Some steps make you shuffle. One line of algebra from the 1600s explains why.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: A1
+        component: photo-overlay
+        say: >-
+          Ever climbed steps that made you shuffle? Blame one formula. Every step moves you
+          forward by the tread and lifts you by the rise. Lifting counts about double. So the
+          stride of one step is two times the rise, plus the tread.
+        params:
+          src: stairs-garden.jpg
+          credit: "Image: AI-generated"
+          title: "2 × rise + tread"
+          overlays:
+            - {type: measure, from: [30, 68], to: [62, 68], label: "tread 45 cm", cue: "forward by the tread"}
+            - {type: measure, from: [65, 64], to: [65, 50], label: "rise 12 cm", cue: "lifts you by"}
+      - id: A2
+        component: equation-steps
+        say: >-
+          On a comfortable stair, that's two times seventeen and a half, plus twenty eight.
+          Sixty three centimeters: one easy step. These garden steps, twelve up and forty five
+          deep, give sixty nine. Too long for one step, too short for two.
+        params:
+          size: l
+          lines:
+            - {tex: "2(17.5) + 28 = 63\\text{ cm}", cue: "two times seventeen"}
+            - {tex: "2(12) + 45 = 69\\text{ cm}", circle: true, note: "too long!", note_cue: "Too long for", cue: "These garden steps"}
+      - id: A3
+        component: big-fact
+        say: >-
+          So your legs shuffle. The full video shows how to design a perfect staircase.
+        params:
+          value: "2R + T ≈ 63 cm"
+          label: "the stride a stair should match"
+          cue: "So your legs"
+  - title: "1 cm is enough to trip you on the stairs #shorts"
+    hook: "1 cm can trip you"
+    end: "Full video on the channel"
+    description: "Why building codes care about one centimeter on a staircase.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: B1
+        component: photo-overlay
+        say: >-
+          One centimeter is enough to trip you on the stairs. After the first few steps, you
+          stop looking. Your legs just repeat the same motion, again and again.
+        params:
+          src: stairs-home.jpg
+          credit: "Image: AI-generated"
+          title: "Every step must match"
+          overlays:
+            - {type: label, pos: [22, 30], text: "you stop looking", cue: "stop looking"}
+            - {type: measure, from: [59, 62], to: [59, 44], label: "same rise", cue: "same motion"}
+      - id: B2
+        component: big-fact
+        say: >-
+          That's why American building codes are so strict. In a home, the tallest and
+          shortest riser in a flight can differ by just three eighths of an inch. About one
+          centimeter.
+        params:
+          value: "≤ 3/8 in"
+          label: "max riser difference (US homes)"
+          sub: "about 1 cm"
+          cue: "three eighths"
+      - id: B3
+        component: bullets
+        say: >-
+          One odd step breaks the rhythm, and your foot catches the edge. If a staircase feels
+          wrong, measure every step. The full video shows the math behind a perfect stair.
+        params:
+          items:
+            - {text: "One odd step breaks rhythm", icon: alert-triangle, cue: "One odd step"}
+            - {text: "Foot catches the edge", icon: shoe, cue: "foot catches"}
+            - {text: "Measure every step", icon: ruler-measure, cue: "measure every step"}
