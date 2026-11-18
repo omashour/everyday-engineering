@@ -1,0 +1,25 @@
+# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 008`.
+video:
+  id: "008"
+  topic: T41
+  title: "The One Formula Behind Every Comfortable Staircase"
+  style: ""            # e.g. "B hook + A body"
+  playlist: math-for-engineers
+  voice_note: ""
+  pronounce: {}
+
+scenes:
+  - id: S01
+    component: title-card
+    chapter: "Intro"
+    say: >-
+      Replace me with the hook.
+    params:
+      title: "The One Formula Behind Every Comfortable Staircase"
+
+  - id: S99
+    component: end-card
+    say: >-
+      See you in the next one.
+    params:
+      line: ""
