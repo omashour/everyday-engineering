@@ -32,7 +32,11 @@ Read backlog.yaml and covered.yaml only. Propose **3–5** topics as a short tab
 4. Order by hook strength: the most surprising, everyday, clickable hooks first.
 5. Covered videos only matter when they are in the current phase (build on what was just taught). Ignore covered entries from other phases, including video 000, "What Is Industrial Engineering?", which was made before this plan.
 6. `leads_to` is a small tie-breaker only (it marks topics that set up later videos). It is never a reason to drift toward that later phase.
-You may add 1–2 NEW ideas (mark them NEW), also in the current phase.
+You may add 1–2 NEW ideas (mark them NEW), also in the current phase. NEW ideas are not in the user's app until they add them, so after the table give every NEW idea as a backlog line in ONE code block headed **New topics for the app** (the user pastes it into the app: New video → "Add new topics from Claude"). Use the next free ids (highest `T` number in backlog.yaml and covered.yaml's `topic` fields + 1; the app renumbers clashes) and the backlog's one-line format:
+```text
+- {id: T41, title: "…", hook: "…", subject: geometry, math: "…", eng: "…", styles: [B, A], phase: math, status: idea}
+```
+Do the same whenever the user asks you to add ideas to the backlog or picks a topic that isn't in backlog.yaml.
 
 **A topic's phase is its main discipline, not the math it uses.** Queueing and waiting lines, quality control and Six Sigma, production planning and linear programming for factories, reliability and maintenance, engineering economics (break-even, present value), scheduling, inventory, logistics and supply chains are **industrial** topics even though they use math. A **math** topic teaches a math idea through everyday things and general engineering (roads, buildings, bridges, machines, electronics, everyday objects). If a suggested or NEW topic would really belong to another phase, leave it out. When the user asks you to add ideas to the backlog, give each the right `phase`.
 Then stop and let the user choose (or give their own topic).

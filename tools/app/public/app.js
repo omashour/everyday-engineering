@@ -110,6 +110,11 @@ async function renderHome() {
       <input id="own" class="grow" placeholder="Type your own title" />
       <button class="primary" id="create">Create video</button>
     </div>
+    <details style="margin-top:10px"><summary class="small"><b>Add new topics from Claude</b> (ideas Claude marked NEW aren't in your list until you add them here)</summary>
+      <p class="muted small">In Claude.ai, press Copy on the “New topics for the app” block (or copy the topic lines) and paste them here. They're saved to your topic list and to GitHub; then press Sync in your Claude.ai project.</p>
+      <textarea id="newtopics" placeholder='- {id: T40, title: "One 18-Inch Pizza Beats Two 12-Inch Pizzas", hook: "…", subject: geometry, math: "…", eng: "…", styles: [B, A], phase: math}'></textarea>
+      <div class="row" style="margin-top:8px"><button class="primary" id="addtopics">Add to my topic list</button></div>
+    </details>
   </div>
   <div class="vlist">${s.videos.slice().reverse().map((v) => `
     <a class="card" href="#/v/${v.dir}">
@@ -117,6 +122,21 @@ async function renderHome() {
       <div><span class="pill ${v.stage === "published" ? "done" : ""}">${STAGE_LABEL[v.stage] ?? v.stage}</span><div class="bar" style="margin-top:12px"><i style="width:${Math.round((v.stageIndex / 8) * 100)}%"></i></div></div>
     </a>`).join("") || `<p class="muted">No videos yet.</p>`}</div>`;
   wireBackup();
+  $("#addtopics").onclick = async () => {
+    const text = $("#newtopics").value.trim();
+    if (!text) return alert("Paste the topic lines from Claude first.");
+    try {
+      const r = await api("POST", "/api/topics", { text });
+      const msg = [
+        r.added.length ? `Added: ${r.added.map((t) => `${t.id} — ${t.title}`).join("; ")}` : "",
+        r.skipped.length ? `Skipped: ${r.skipped.map((t) => `${t.title} (${t.why})`).join("; ")}` : "",
+      ].filter(Boolean).join("\n");
+      if (!r.added.length) return alert(msg || "No topic lines found. Paste lines that start with “- {id: …”.");
+      toast(`${r.added.length} topic(s) added`, 3000);
+      if (r.skipped.length) alert(msg);
+      render();
+    } catch (e) { alert(e.message); }
+  };
   $("#create").onclick = async () => {
     const topic = $("#own").value.trim() || $("#topic").value;
     if (!topic) return alert("Choose a topic or type a title.");

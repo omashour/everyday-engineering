@@ -16,7 +16,7 @@ import { uploadSheet } from "../lib/uploadsheet.mjs";
 import { splitClaudeOutput, SCRIPT_FILES } from "../lib/claudeparse.mjs";
 import { missingAssets, creditPlaceholders } from "../lib/assets.mjs";
 import { loadShorts, shortRawAudio, shortTimed } from "../lib/shorts.mjs";
-import { PHASES, PHASE_LABEL, currentPhase, setCurrentPhase } from "../lib/topics.mjs";
+import { PHASES, PHASE_LABEL, currentPhase, setCurrentPhase, addTopics } from "../lib/topics.mjs";
 import { saveAndPush } from "../lib/git.mjs";
 import { backupConfig, setBackupFolder, suggestedFolders, filesSinceBackup, backupFolderProblem } from "../lib/backup.mjs";
 
@@ -228,6 +228,12 @@ async function route(req, res) {
     const backlog = readYaml(path.join(P.topics, "backlog.yaml"), []);
     const topics = backlog.filter((t) => (t.status ?? "idea") === "idea").map((t) => ({ id: t.id, title: t.title, hook: t.hook, styles: t.styles, phase: t.phase }));
     return send(res, 200, { videos: allVideos(), topics, settings: settings(), job: runningJob() ?? null });
+  }
+  if (req.method === "POST" && p === "/api/topics") {
+    const b = await json(req);
+    const r = addTopics(b.text);
+    if (r.added.length) saveAndPush(`Backlog: add ${r.added.map((t) => t.id).join(", ")}`);
+    return send(res, 200, r);
   }
   if (req.method === "POST" && p === "/api/settings") {
     const b = await json(req);

@@ -32,6 +32,57 @@ export function setTopicStatus(id, status, extra = {}) {
   return true;
 }
 
+/**
+ * Add topic ideas pasted from Claude.ai to the backlog. Accepts one-line entries
+ * (`- {id: T40, title: "…", …}`), a YAML list, or Claude's whole answer (other lines are ignored).
+ * Ids that are missing or already used get the next free T-number; titles already in the
+ * backlog or covered.yaml are skipped.
+ * @returns {{added: {id:string,title:string}[], skipped: {title:string,why:string}[]}}
+ */
+export function addTopics(text) {
+  const entries = [];
+  const src = String(text ?? "").replace(/\r\n/g, "\n");
+  for (const line of src.split("\n")) {
+    const l = line.trim();
+    if (!/^-\s*\{.*\}\s*$/.test(l)) continue;
+    try { const v = YAML.parse(l); if (Array.isArray(v) && v[0] && typeof v[0] === "object") entries.push(v[0]); } catch { /* not a topic line */ }
+  }
+  if (!entries.length) {
+    // block-style YAML list (`- id: T40\n  title: …`), with or without a code fence
+    try {
+      const v = YAML.parse(src.replace(/^.*```.*$/gm, "").replace(/^\s*topics\/backlog\.yaml:?\s*$/gm, ""));
+      if (Array.isArray(v)) entries.push(...v.filter((x) => x && typeof x === "object"));
+    } catch { /* nothing usable */ }
+  }
+  const doc = YAML.parseDocument(fs.readFileSync(BACKLOG, "utf8"));
+  if (!doc.contents || !doc.contents.items) doc.contents = doc.createNode([]);
+  const covered = fs.existsSync(COVERED) ? YAML.parse(fs.readFileSync(COVERED, "utf8")) ?? [] : [];
+  const backlog = doc.toJS() ?? [];
+  const usedIds = new Set([...backlog.map((t) => String(t.id)), ...covered.map((c) => String(c.topic ?? ""))].filter(Boolean));
+  const norm = (s) => String(s ?? "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  const usedTitles = new Set([...backlog, ...covered].map((t) => norm(t.title)));
+  let next = Math.max(0, ...[...usedIds].map((i) => +(/^T(\d+)$/.exec(i)?.[1] ?? 0))) + 1;
+  const added = [], skipped = [];
+  for (const e of entries) {
+    const title = String(e.title ?? "").trim();
+    if (!title) { skipped.push({ title: "(no title)", why: "no title" }); continue; }
+    if (usedTitles.has(norm(title))) { skipped.push({ title, why: "already in the backlog or published" }); continue; }
+    let id = String(e.id ?? "").trim();
+    if (!/^T\d+$/.test(id) || usedIds.has(id)) id = `T${next++}`;
+    else next = Math.max(next, +id.slice(1) + 1);
+    const phase = PHASES.includes(e.phase) ? e.phase : currentPhase();
+    const entry = { id, title, ...Object.fromEntries(Object.entries(e).filter(([k]) => !["id", "title", "phase", "status"].includes(k))), phase, status: "idea" };
+    const node = doc.createNode(entry);
+    node.flow = true;
+    doc.contents.items.push(node);
+    usedIds.add(id);
+    usedTitles.add(norm(title));
+    added.push({ id, title });
+  }
+  if (added.length) fs.writeFileSync(BACKLOG, doc.toString({ lineWidth: 0, flowCollectionPadding: false }));
+  return { added, skipped };
+}
+
 export function moveToCovered(id, entry) {
   const doc = YAML.parseDocument(fs.readFileSync(BACKLOG, "utf8"));
   const idx = doc.contents.items.findIndex((n) => n.get("id") === id);
