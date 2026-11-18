@@ -29,7 +29,9 @@ export function videoStage(dirName) {
   else [stage, next, cmd] = ["new", "Add Claude's script files", null];
   let title = dirName;
   try { title = readYaml(path.join(dir, "scenes.yaml"), {}).video?.title ?? dirName; } catch { /* keep folder name */ }
-  return { id: num, dir: dirName, title, stage, stageIndex: STAGES.indexOf(stage), next, cmd, audio, draftOnly: audio.length > 0 && audio.every((a) => a.includes("draft")) };
+  // the Shorts' own recordings (short-1.wav …), listed apart so they don't count as main narration
+  const shortAudio = fs.existsSync(path.join(dir, "audio")) ? fs.readdirSync(path.join(dir, "audio")).filter((f) => /^short-\d+\.(wav|mp3|m4a|ogg|flac|webm|aac)$/i.test(f)) : [];
+  return { id: num, dir: dirName, title, stage, stageIndex: STAGES.indexOf(stage), next, cmd, audio, shortAudio, draftOnly: audio.length > 0 && audio.every((a) => a.includes("draft")) };
 }
 
 export function allVideos() {

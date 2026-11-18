@@ -382,7 +382,7 @@ function photosStep(el, d, dir) {
 function voiceStep(el, d, dir) {
   const t = d.tts;
   if (!t || !t.chunks?.length) { el.innerHTML = `<p class="muted">Save the script first.</p>`; return; }
-  const have = new Set(d.audio);
+  const have = new Set([...d.audio, ...(d.shortAudio ?? [])]);
   el.innerHTML = `
     <ol class="howto">
       <li>Open <a href="https://aistudio.google.com/" target="_blank" rel="noopener">Google AI Studio</a> → speech generation. Model <b>${esc(t.model)}</b>, voice <b>${esc(t.voice ?? "not chosen — see Settings")}</b>.</li>
@@ -408,13 +408,15 @@ function voiceStep(el, d, dir) {
     div.innerHTML = c.short
       ? `<div class="chunk-head"><b>Short ${c.short}: ${esc(c.title)}</b><span class="muted small">Its own recording · ${c.words} words · ~${c.length} · a little more energy</span></div>${copyBox(c.text)}`
       : `<div class="chunk-head"><b>Chunk ${c.n}</b><span class="muted small">Scenes ${esc(c.scenes)} · ${c.words} words · ~${c.length}</span></div>${copyBox(c.text)}`;
-    div.appendChild(dropZone(got ? `✓ ${esc(got)} — drop again to replace` : `Drop chunk ${c.n}'s audio here (saved as ${base})`, async (files) => {
+    const label = c.short ? `Short ${c.short}` : `Chunk ${c.n}`;
+    div.appendChild(dropZone(got ? `✓ ${esc(got)} — drop again to replace` : `Drop ${label}'s audio here (saved as ${base})`, async (files) => {
       const f = files[0];
       const ext = (f.name.match(/\.[^.]+$/)?.[0] ?? ".wav").toLowerCase();
       await upload(dir, "audio", f, base + ext);
-      toast(`Chunk ${c.n} saved`);
+      toast(`${label} saved`);
       const fresh = await api("GET", `/api/video/${dir}`);
-      const all = t.chunks.every((k) => fresh.audio.some((a) => a.startsWith(k.file.replace(/\.wav$/, "") + ".")));
+      const freshHave = [...fresh.audio, ...(fresh.shortAudio ?? [])];
+      const all = t.chunks.every((k) => freshHave.some((a) => a.startsWith(k.file.replace(/\.wav$/, "") + ".")));
       if (all) { toast("All chunks in — timing the narration…", 3000); await step(dir, "transcribe", {}, "Time the narration"); }
       else render();
     }, !!got));
