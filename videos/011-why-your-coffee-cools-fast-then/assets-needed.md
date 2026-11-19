@@ -10,8 +10,8 @@ Photorealistic wide 16:9 photo of a steaming white ceramic mug of black coffee o
 Real-photo alternative: Wikimedia Commons / Openverse, search "coffee mug steam", "thermometer in coffee" (CC0, CC BY, CC BY-SA).
 
 ## mug-milk.jpg (S10, Short 2 B1, thumbnail)
-The same kind of mug of black coffee (about 40–55% across, 40–80% down) with a small glass jug of cold milk beside it to the right (about 62–75% across, 45–80% down), condensation on the jug. Keep the upper left (15–40% across, 25–35% down) plain.
+A mug of black coffee (about 45–58% across, 40–80% down) with a small glass jug of cold milk beside it to the right (about 62–75% across, 45–80% down), condensation on the jug. Keep the whole left side (15–40% across, 25–80% down) plain: S10 stacks four labels there.
 ```text
-Photorealistic wide 16:9 photo of a white ceramic mug of hot black coffee with a little steam, on a wooden kitchen table, with a small glass jug of cold milk just to its right, a few drops of condensation on the jug. Soft morning light, plain light wall behind, empty space in the upper-left area of the frame. No people. No text, no signs with words, no logos or brand names, no watermarks.
+Photorealistic wide 16:9 photo of a white ceramic mug of hot black coffee with a little steam, on a wooden kitchen table, with a small glass jug of cold milk just to its right, a few drops of condensation on the jug. Both objects sit slightly right of centre. Soft morning light, plain light wall behind, the entire left third of the frame empty. No people. No text, no signs with words, no logos or brand names, no watermarks.
 ```
 Real-photo alternative: search "coffee and milk jug", "milk pitcher coffee mug" (CC0, CC BY, CC BY-SA).
