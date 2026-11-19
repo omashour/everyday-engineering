@@ -1,0 +1,4037 @@
+[
+  {
+    "text": "Your",
+    "start": 0.16,
+    "end": 0.4
+  },
+  {
+    "text": "phone",
+    "start": 0.4,
+    "end": 0.8
+  },
+  {
+    "text": "doesn't",
+    "start": 0.8,
+    "end": 1.12
+  },
+  {
+    "text": "start",
+    "start": 1.12,
+    "end": 1.36
+  },
+  {
+    "text": "knowing",
+    "start": 1.36,
+    "end": 1.68
+  },
+  {
+    "text": "where",
+    "start": 1.68,
+    "end": 1.92
+  },
+  {
+    "text": "you",
+    "start": 1.92,
+    "end": 2.16
+  },
+  {
+    "text": "are.",
+    "start": 2.16,
+    "end": 2.56
+  },
+  {
+    "text": "It",
+    "start": 2.56,
+    "end": 2.72
+  },
+  {
+    "text": "starts",
+    "start": 2.72,
+    "end": 3.04
+  },
+  {
+    "text": "with",
+    "start": 3.04,
+    "end": 3.28
+  },
+  {
+    "text": "signal",
+    "start": 3.28,
+    "end": 3.68
+  },
+  {
+    "text": "timings",
+    "start": 3.68,
+    "end": 4.16
+  },
+  {
+    "text": "and",
+    "start": 4.24,
+    "end": 4.4
+  },
+  {
+    "text": "satellite",
+    "start": 4.4,
+    "end": 4.96
+  },
+  {
+    "text": "positions",
+    "start": 4.96,
+    "end": 5.36
+  },
+  {
+    "text": "worked",
+    "start": 5.36,
+    "end": 5.6
+  },
+  {
+    "text": "out",
+    "start": 5.6,
+    "end": 5.76
+  },
+  {
+    "text": "from",
+    "start": 5.76,
+    "end": 6
+  },
+  {
+    "text": "orbit",
+    "start": 6,
+    "end": 6.32
+  },
+  {
+    "text": "data",
+    "start": 6.32,
+    "end": 6.64
+  },
+  {
+    "text": "the",
+    "start": 6.64,
+    "end": 6.72
+  },
+  {
+    "text": "satellites",
+    "start": 6.72,
+    "end": 7.28
+  },
+  {
+    "text": "broadcast.",
+    "start": 7.28,
+    "end": 8.16
+  },
+  {
+    "text": "From",
+    "start": 8.16,
+    "end": 8.4
+  },
+  {
+    "text": "those",
+    "start": 8.4,
+    "end": 8.72
+  },
+  {
+    "text": "it",
+    "start": 8.8,
+    "end": 8.96
+  },
+  {
+    "text": "finds",
+    "start": 8.96,
+    "end": 9.44
+  },
+  {
+    "text": "about",
+    "start": 9.84,
+    "end": 10.08
+  },
+  {
+    "text": "five",
+    "start": 10.08,
+    "end": 10.4
+  },
+  {
+    "text": "meters",
+    "start": 10.4,
+    "end": 10.8
+  },
+  {
+    "text": "under",
+    "start": 10.8,
+    "end": 11.04
+  },
+  {
+    "text": "open",
+    "start": 11.04,
+    "end": 11.44
+  },
+  {
+    "text": "sky.",
+    "start": 11.44,
+    "end": 12.24
+  },
+  {
+    "text": "Let's",
+    "start": 12.24,
+    "end": 12.56
+  },
+  {
+    "text": "see",
+    "start": 12.56,
+    "end": 12.8
+  },
+  {
+    "text": "how,",
+    "start": 12.8,
+    "end": 13.28
+  },
+  {
+    "text": "using",
+    "start": 13.28,
+    "end": 13.6
+  },
+  {
+    "text": "nothing",
+    "start": 13.6,
+    "end": 13.92
+  },
+  {
+    "text": "more",
+    "start": 13.92,
+    "end": 14.08
+  },
+  {
+    "text": "than",
+    "start": 14.08,
+    "end": 14.24
+  },
+  {
+    "text": "circles,",
+    "start": 14.24,
+    "end": 14.88
+  },
+  {
+    "text": "spheres,",
+    "start": 14.88,
+    "end": 15.36
+  },
+  {
+    "text": "and",
+    "start": 15.36,
+    "end": 15.52
+  },
+  {
+    "text": "a",
+    "start": 15.52,
+    "end": 15.6
+  },
+  {
+    "text": "little",
+    "start": 15.6,
+    "end": 15.76
+  },
+  {
+    "text": "algebra.",
+    "start": 15.84,
+    "end": 16.88
+  },
+  {
+    "text": "Each",
+    "start": 16.88,
+    "end": 17.36
+  },
+  {
+    "text": "GPS",
+    "start": 17.36,
+    "end": 17.92
+  },
+  {
+    "text": "satellite",
+    "start": 17.92,
+    "end": 18.4
+  },
+  {
+    "text": "broadcasts",
+    "start": 18.4,
+    "end": 19.04
+  },
+  {
+    "text": "data",
+    "start": 19.04,
+    "end": 19.36
+  },
+  {
+    "text": "describing",
+    "start": 19.36,
+    "end": 19.76
+  },
+  {
+    "text": "its",
+    "start": 19.76,
+    "end": 20
+  },
+  {
+    "text": "orbit,",
+    "start": 20,
+    "end": 20.4
+  },
+  {
+    "text": "so",
+    "start": 20.4,
+    "end": 20.64
+  },
+  {
+    "text": "your",
+    "start": 20.64,
+    "end": 20.8
+  },
+  {
+    "text": "phone",
+    "start": 20.8,
+    "end": 21.04
+  },
+  {
+    "text": "can",
+    "start": 21.04,
+    "end": 21.2
+  },
+  {
+    "text": "calculate",
+    "start": 21.2,
+    "end": 21.68
+  },
+  {
+    "text": "where",
+    "start": 21.68,
+    "end": 21.92
+  },
+  {
+    "text": "the",
+    "start": 21.92,
+    "end": 22
+  },
+  {
+    "text": "satellite",
+    "start": 22,
+    "end": 22.72
+  },
+  {
+    "text": "was.",
+    "start": 22.72,
+    "end": 23.28
+  },
+  {
+    "text": "It",
+    "start": 23.28,
+    "end": 23.52
+  },
+  {
+    "text": "also",
+    "start": 23.52,
+    "end": 23.76
+  },
+  {
+    "text": "broadcasts",
+    "start": 23.76,
+    "end": 24.4
+  },
+  {
+    "text": "the",
+    "start": 24.4,
+    "end": 24.48
+  },
+  {
+    "text": "time",
+    "start": 24.48,
+    "end": 24.72
+  },
+  {
+    "text": "the",
+    "start": 24.72,
+    "end": 24.88
+  },
+  {
+    "text": "signal",
+    "start": 24.88,
+    "end": 25.28
+  },
+  {
+    "text": "left,",
+    "start": 25.28,
+    "end": 25.84
+  },
+  {
+    "text": "kept",
+    "start": 25.84,
+    "end": 26.16
+  },
+  {
+    "text": "by",
+    "start": 26.16,
+    "end": 26.32
+  },
+  {
+    "text": "very",
+    "start": 26.32,
+    "end": 26.56
+  },
+  {
+    "text": "precise",
+    "start": 26.56,
+    "end": 27.04
+  },
+  {
+    "text": "atomic",
+    "start": 27.04,
+    "end": 27.52
+  },
+  {
+    "text": "clocks.",
+    "start": 27.52,
+    "end": 28.4
+  },
+  {
+    "text": "Your",
+    "start": 28.4,
+    "end": 28.64
+  },
+  {
+    "text": "phone",
+    "start": 28.64,
+    "end": 28.96
+  },
+  {
+    "text": "compares",
+    "start": 28.96,
+    "end": 29.44
+  },
+  {
+    "text": "that",
+    "start": 29.44,
+    "end": 29.6
+  },
+  {
+    "text": "transmission",
+    "start": 29.6,
+    "end": 30.16
+  },
+  {
+    "text": "time",
+    "start": 30.16,
+    "end": 30.4
+  },
+  {
+    "text": "with",
+    "start": 30.4,
+    "end": 30.56
+  },
+  {
+    "text": "the",
+    "start": 30.56,
+    "end": 30.72
+  },
+  {
+    "text": "arrival",
+    "start": 30.72,
+    "end": 31.2
+  },
+  {
+    "text": "time",
+    "start": 31.2,
+    "end": 31.44
+  },
+  {
+    "text": "on",
+    "start": 31.44,
+    "end": 31.6
+  },
+  {
+    "text": "its",
+    "start": 31.6,
+    "end": 31.76
+  },
+  {
+    "text": "own",
+    "start": 31.76,
+    "end": 32
+  },
+  {
+    "text": "clock.",
+    "start": 32,
+    "end": 32.96
+  },
+  {
+    "text": "Multiply",
+    "start": 32.96,
+    "end": 33.6
+  },
+  {
+    "text": "the",
+    "start": 33.6,
+    "end": 33.68
+  },
+  {
+    "text": "travel",
+    "start": 33.68,
+    "end": 34.08
+  },
+  {
+    "text": "time",
+    "start": 34.08,
+    "end": 34.32
+  },
+  {
+    "text": "by",
+    "start": 34.32,
+    "end": 34.4
+  },
+  {
+    "text": "the",
+    "start": 34.4,
+    "end": 34.56
+  },
+  {
+    "text": "speed",
+    "start": 34.56,
+    "end": 34.8
+  },
+  {
+    "text": "of",
+    "start": 34.8,
+    "end": 34.96
+  },
+  {
+    "text": "light,",
+    "start": 34.96,
+    "end": 35.52
+  },
+  {
+    "text": "about",
+    "start": 35.52,
+    "end": 35.76
+  },
+  {
+    "text": "three",
+    "start": 35.76,
+    "end": 36
+  },
+  {
+    "text": "hundred",
+    "start": 36,
+    "end": 36.24
+  },
+  {
+    "text": "thousand",
+    "start": 36.24,
+    "end": 36.64
+  },
+  {
+    "text": "kilometers",
+    "start": 36.64,
+    "end": 37.12
+  },
+  {
+    "text": "per",
+    "start": 37.12,
+    "end": 37.28
+  },
+  {
+    "text": "second,",
+    "start": 37.28,
+    "end": 37.84
+  },
+  {
+    "text": "and",
+    "start": 37.84,
+    "end": 38
+  },
+  {
+    "text": "you",
+    "start": 38,
+    "end": 38.16
+  },
+  {
+    "text": "get",
+    "start": 38.16,
+    "end": 38.32
+  },
+  {
+    "text": "an",
+    "start": 38.32,
+    "end": 38.48
+  },
+  {
+    "text": "apparent",
+    "start": 38.48,
+    "end": 38.96
+  },
+  {
+    "text": "distance.",
+    "start": 38.96,
+    "end": 39.6
+  },
+  {
+    "text": "Engineers",
+    "start": 39.6,
+    "end": 40.16
+  },
+  {
+    "text": "call",
+    "start": 40.16,
+    "end": 40.32
+  },
+  {
+    "text": "it",
+    "start": 40.32,
+    "end": 40.4
+  },
+  {
+    "text": "a",
+    "start": 40.4,
+    "end": 40.48
+  },
+  {
+    "text": "pseudorange.",
+    "start": 40.48,
+    "end": 41.76
+  },
+  {
+    "text": "From",
+    "start": 41.76,
+    "end": 42.08
+  },
+  {
+    "text": "twenty",
+    "start": 42.08,
+    "end": 42.4
+  },
+  {
+    "text": "thousand",
+    "start": 42.4,
+    "end": 42.72
+  },
+  {
+    "text": "two",
+    "start": 42.88,
+    "end": 42.96
+  },
+  {
+    "text": "hundred",
+    "start": 43.04,
+    "end": 43.28
+  },
+  {
+    "text": "kilometers",
+    "start": 43.28,
+    "end": 43.84
+  },
+  {
+    "text": "straight",
+    "start": 43.84,
+    "end": 44.16
+  },
+  {
+    "text": "up,",
+    "start": 44.16,
+    "end": 44.4
+  },
+  {
+    "text": "the",
+    "start": 44.4,
+    "end": 44.56
+  },
+  {
+    "text": "travel",
+    "start": 44.56,
+    "end": 44.96
+  },
+  {
+    "text": "time",
+    "start": 44.96,
+    "end": 45.12
+  },
+  {
+    "text": "is",
+    "start": 45.12,
+    "end": 45.28
+  },
+  {
+    "text": "about",
+    "start": 45.28,
+    "end": 45.52
+  },
+  {
+    "text": "seven",
+    "start": 45.52,
+    "end": 45.92
+  },
+  {
+    "text": "hundredths",
+    "start": 45.92,
+    "end": 46.4
+  },
+  {
+    "text": "of",
+    "start": 46.48,
+    "end": 46.64
+  },
+  {
+    "text": "a",
+    "start": 46.64,
+    "end": 46.72
+  },
+  {
+    "text": "second.",
+    "start": 46.72,
+    "end": 47.6
+  },
+  {
+    "text": "Let's",
+    "start": 47.84,
+    "end": 48.24
+  },
+  {
+    "text": "start",
+    "start": 48.24,
+    "end": 48.56
+  },
+  {
+    "text": "flat",
+    "start": 48.56,
+    "end": 48.96
+  },
+  {
+    "text": "on",
+    "start": 49.04,
+    "end": 49.2
+  },
+  {
+    "text": "a",
+    "start": 49.2,
+    "end": 49.28
+  },
+  {
+    "text": "map",
+    "start": 49.28,
+    "end": 49.6
+  },
+  {
+    "text": "with",
+    "start": 49.68,
+    "end": 49.92
+  },
+  {
+    "text": "exact",
+    "start": 49.92,
+    "end": 50.4
+  },
+  {
+    "text": "distances.",
+    "start": 50.4,
+    "end": 51.44
+  },
+  {
+    "text": "Say",
+    "start": 51.44,
+    "end": 51.76
+  },
+  {
+    "text": "a",
+    "start": 51.76,
+    "end": 51.92
+  },
+  {
+    "text": "station",
+    "start": 51.92,
+    "end": 52.24
+  },
+  {
+    "text": "at",
+    "start": 52.24,
+    "end": 52.4
+  },
+  {
+    "text": "point",
+    "start": 52.4,
+    "end": 52.56
+  },
+  {
+    "text": "A",
+    "start": 52.72,
+    "end": 52.96
+  },
+  {
+    "text": "tells",
+    "start": 53.2,
+    "end": 53.36
+  },
+  {
+    "text": "you",
+    "start": 53.36,
+    "end": 53.52
+  },
+  {
+    "text": "that",
+    "start": 53.52,
+    "end": 53.6
+  },
+  {
+    "text": "you're",
+    "start": 53.6,
+    "end": 53.92
+  },
+  {
+    "text": "exactly",
+    "start": 53.92,
+    "end": 54.24
+  },
+  {
+    "text": "five",
+    "start": 54.24,
+    "end": 54.56
+  },
+  {
+    "text": "kilometers",
+    "start": 54.56,
+    "end": 55.04
+  },
+  {
+    "text": "away.",
+    "start": 55.04,
+    "end": 55.52
+  },
+  {
+    "text": "That",
+    "start": 55.79,
+    "end": 56.03
+  },
+  {
+    "text": "doesn't",
+    "start": 56.03,
+    "end": 56.35
+  },
+  {
+    "text": "give",
+    "start": 56.35,
+    "end": 56.51
+  },
+  {
+    "text": "you",
+    "start": 56.51,
+    "end": 56.67
+  },
+  {
+    "text": "a",
+    "start": 56.67,
+    "end": 56.75
+  },
+  {
+    "text": "point.",
+    "start": 56.75,
+    "end": 57.23
+  },
+  {
+    "text": "It",
+    "start": 57.23,
+    "end": 57.39
+  },
+  {
+    "text": "gives",
+    "start": 57.39,
+    "end": 57.63
+  },
+  {
+    "text": "you",
+    "start": 57.63,
+    "end": 57.71
+  },
+  {
+    "text": "a",
+    "start": 57.71,
+    "end": 57.87
+  },
+  {
+    "text": "circle,",
+    "start": 57.87,
+    "end": 58.43
+  },
+  {
+    "text": "every",
+    "start": 58.43,
+    "end": 58.75
+  },
+  {
+    "text": "spot",
+    "start": 58.75,
+    "end": 59.07
+  },
+  {
+    "text": "that's",
+    "start": 59.07,
+    "end": 59.31
+  },
+  {
+    "text": "five",
+    "start": 59.31,
+    "end": 59.55
+  },
+  {
+    "text": "kilometers",
+    "start": 59.55,
+    "end": 60.11
+  },
+  {
+    "text": "from",
+    "start": 60.11,
+    "end": 60.35
+  },
+  {
+    "text": "A.",
+    "start": 60.35,
+    "end": 61.15
+  },
+  {
+    "text": "At",
+    "start": 61.15,
+    "end": 61.39
+  },
+  {
+    "text": "a",
+    "start": 61.39,
+    "end": 61.55
+  },
+  {
+    "text": "second",
+    "start": 61.55,
+    "end": 61.87
+  },
+  {
+    "text": "station,",
+    "start": 61.87,
+    "end": 62.51
+  },
+  {
+    "text": "B,",
+    "start": 62.51,
+    "end": 62.99
+  },
+  {
+    "text": "eight",
+    "start": 62.99,
+    "end": 63.23
+  },
+  {
+    "text": "kilometers",
+    "start": 63.23,
+    "end": 63.79
+  },
+  {
+    "text": "east",
+    "start": 63.79,
+    "end": 64.03
+  },
+  {
+    "text": "of",
+    "start": 64.03,
+    "end": 64.19
+  },
+  {
+    "text": "A.",
+    "start": 64.19,
+    "end": 64.67
+  },
+  {
+    "text": "You're",
+    "start": 64.67,
+    "end": 64.99
+  },
+  {
+    "text": "also",
+    "start": 64.99,
+    "end": 65.23
+  },
+  {
+    "text": "five",
+    "start": 65.23,
+    "end": 65.47
+  },
+  {
+    "text": "kilometers",
+    "start": 65.47,
+    "end": 66.11
+  },
+  {
+    "text": "from",
+    "start": 66.11,
+    "end": 66.27
+  },
+  {
+    "text": "B.",
+    "start": 66.27,
+    "end": 66.91
+  },
+  {
+    "text": "Now",
+    "start": 66.91,
+    "end": 67.15
+  },
+  {
+    "text": "there",
+    "start": 67.23,
+    "end": 67.47
+  },
+  {
+    "text": "are",
+    "start": 67.47,
+    "end": 67.63
+  },
+  {
+    "text": "two",
+    "start": 67.63,
+    "end": 67.87
+  },
+  {
+    "text": "circles,",
+    "start": 67.87,
+    "end": 68.43
+  },
+  {
+    "text": "and",
+    "start": 68.43,
+    "end": 68.59
+  },
+  {
+    "text": "they",
+    "start": 68.59,
+    "end": 68.75
+  },
+  {
+    "text": "cross",
+    "start": 68.75,
+    "end": 69.15
+  },
+  {
+    "text": "at",
+    "start": 69.15,
+    "end": 69.31
+  },
+  {
+    "text": "exactly",
+    "start": 69.31,
+    "end": 69.71
+  },
+  {
+    "text": "two",
+    "start": 69.71,
+    "end": 69.95
+  },
+  {
+    "text": "points.",
+    "start": 69.95,
+    "end": 70.59
+  },
+  {
+    "text": "You're",
+    "start": 70.59,
+    "end": 70.99
+  },
+  {
+    "text": "one",
+    "start": 70.99,
+    "end": 71.23
+  },
+  {
+    "text": "of",
+    "start": 71.23,
+    "end": 71.31
+  },
+  {
+    "text": "them.",
+    "start": 71.31,
+    "end": 71.79
+  },
+  {
+    "text": "Which",
+    "start": 71.79,
+    "end": 72.19
+  },
+  {
+    "text": "one?",
+    "start": 72.19,
+    "end": 72.75
+  },
+  {
+    "text": "Take",
+    "start": 72.75,
+    "end": 73.07
+  },
+  {
+    "text": "a",
+    "start": 73.07,
+    "end": 73.23
+  },
+  {
+    "text": "second",
+    "start": 73.23,
+    "end": 73.47
+  },
+  {
+    "text": "and",
+    "start": 73.47,
+    "end": 73.63
+  },
+  {
+    "text": "guess.",
+    "start": 73.63,
+    "end": 74.03
+  },
+  {
+    "text": "Here's",
+    "start": 74.27,
+    "end": 74.67
+  },
+  {
+    "text": "why",
+    "start": 74.67,
+    "end": 74.83
+  },
+  {
+    "text": "there",
+    "start": 74.83,
+    "end": 75.07
+  },
+  {
+    "text": "are",
+    "start": 75.07,
+    "end": 75.23
+  },
+  {
+    "text": "two.",
+    "start": 75.23,
+    "end": 75.87
+  },
+  {
+    "text": "Put",
+    "start": 75.87,
+    "end": 76.19
+  },
+  {
+    "text": "A",
+    "start": 76.19,
+    "end": 76.43
+  },
+  {
+    "text": "at",
+    "start": 76.59,
+    "end": 76.75
+  },
+  {
+    "text": "the",
+    "start": 76.75,
+    "end": 76.83
+  },
+  {
+    "text": "origin",
+    "start": 76.83,
+    "end": 77.07
+  },
+  {
+    "text": "and",
+    "start": 77.39,
+    "end": 77.63
+  },
+  {
+    "text": "B",
+    "start": 77.63,
+    "end": 77.87
+  },
+  {
+    "text": "at",
+    "start": 77.95,
+    "end": 78.19
+  },
+  {
+    "text": "eight",
+    "start": 78.19,
+    "end": 78.59
+  },
+  {
+    "text": "on",
+    "start": 78.59,
+    "end": 78.67
+  },
+  {
+    "text": "the",
+    "start": 78.67,
+    "end": 78.83
+  },
+  {
+    "text": "X",
+    "start": 78.83,
+    "end": 78.99
+  },
+  {
+    "text": "axis.",
+    "start": 79.15,
+    "end": 79.95
+  },
+  {
+    "text": "Write",
+    "start": 79.95,
+    "end": 80.35
+  },
+  {
+    "text": "both",
+    "start": 80.35,
+    "end": 80.67
+  },
+  {
+    "text": "circle",
+    "start": 80.67,
+    "end": 81.07
+  },
+  {
+    "text": "equations,",
+    "start": 81.07,
+    "end": 81.63
+  },
+  {
+    "text": "then",
+    "start": 81.63,
+    "end": 81.87
+  },
+  {
+    "text": "subtract",
+    "start": 81.87,
+    "end": 82.43
+  },
+  {
+    "text": "one",
+    "start": 82.43,
+    "end": 82.67
+  },
+  {
+    "text": "from",
+    "start": 82.67,
+    "end": 82.83
+  },
+  {
+    "text": "the",
+    "start": 82.83,
+    "end": 82.99
+  },
+  {
+    "text": "other.",
+    "start": 82.99,
+    "end": 83.47
+  },
+  {
+    "text": "The",
+    "start": 83.47,
+    "end": 83.71
+  },
+  {
+    "text": "x",
+    "start": 83.71,
+    "end": 83.95
+  },
+  {
+    "text": "squared",
+    "start": 84.03,
+    "end": 84.35
+  },
+  {
+    "text": "and",
+    "start": 84.35,
+    "end": 84.51
+  },
+  {
+    "text": "y",
+    "start": 84.51,
+    "end": 84.75
+  },
+  {
+    "text": "squared",
+    "start": 84.75,
+    "end": 85.15
+  },
+  {
+    "text": "terms",
+    "start": 85.15,
+    "end": 85.47
+  },
+  {
+    "text": "cancel,",
+    "start": 85.47,
+    "end": 86.03
+  },
+  {
+    "text": "leaving",
+    "start": 86.03,
+    "end": 86.43
+  },
+  {
+    "text": "sixteen",
+    "start": 86.43,
+    "end": 86.91
+  },
+  {
+    "text": "x",
+    "start": 86.91,
+    "end": 87.15
+  },
+  {
+    "text": "minus",
+    "start": 87.31,
+    "end": 87.63
+  },
+  {
+    "text": "sixty",
+    "start": 87.63,
+    "end": 87.95
+  },
+  {
+    "text": "four",
+    "start": 88.03,
+    "end": 88.35
+  },
+  {
+    "text": "equals",
+    "start": 88.35,
+    "end": 88.83
+  },
+  {
+    "text": "zero.",
+    "start": 88.83,
+    "end": 89.47
+  },
+  {
+    "text": "So",
+    "start": 89.47,
+    "end": 89.63
+  },
+  {
+    "text": "x",
+    "start": 89.79,
+    "end": 90.11
+  },
+  {
+    "text": "equals",
+    "start": 90.11,
+    "end": 90.51
+  },
+  {
+    "text": "four.",
+    "start": 90.51,
+    "end": 91.15
+  },
+  {
+    "text": "The",
+    "start": 91.15,
+    "end": 91.31
+  },
+  {
+    "text": "crossing",
+    "start": 91.31,
+    "end": 91.87
+  },
+  {
+    "text": "points",
+    "start": 91.87,
+    "end": 92.11
+  },
+  {
+    "text": "sit",
+    "start": 92.27,
+    "end": 92.51
+  },
+  {
+    "text": "exactly",
+    "start": 92.51,
+    "end": 92.91
+  },
+  {
+    "text": "halfway",
+    "start": 92.91,
+    "end": 93.31
+  },
+  {
+    "text": "between",
+    "start": 93.31,
+    "end": 93.71
+  },
+  {
+    "text": "a",
+    "start": 93.71,
+    "end": 93.95
+  },
+  {
+    "text": "and",
+    "start": 93.95,
+    "end": 94.19
+  },
+  {
+    "text": "b.",
+    "start": 94.19,
+    "end": 94.83
+  },
+  {
+    "text": "Put",
+    "start": 94.83,
+    "end": 95.23
+  },
+  {
+    "text": "x",
+    "start": 95.23,
+    "end": 95.55
+  },
+  {
+    "text": "equals",
+    "start": 95.55,
+    "end": 95.95
+  },
+  {
+    "text": "four",
+    "start": 95.95,
+    "end": 96.27
+  },
+  {
+    "text": "back",
+    "start": 96.27,
+    "end": 96.43
+  },
+  {
+    "text": "in,",
+    "start": 96.43,
+    "end": 96.75
+  },
+  {
+    "text": "and",
+    "start": 96.75,
+    "end": 96.99
+  },
+  {
+    "text": "y",
+    "start": 96.99,
+    "end": 97.31
+  },
+  {
+    "text": "squared",
+    "start": 97.31,
+    "end": 97.71
+  },
+  {
+    "text": "equals",
+    "start": 97.71,
+    "end": 98.03
+  },
+  {
+    "text": "nine.",
+    "start": 98.03,
+    "end": 98.51
+  },
+  {
+    "text": "A",
+    "start": 98.51,
+    "end": 98.75
+  },
+  {
+    "text": "square",
+    "start": 98.75,
+    "end": 99.07
+  },
+  {
+    "text": "has",
+    "start": 99.07,
+    "end": 99.23
+  },
+  {
+    "text": "two",
+    "start": 99.23,
+    "end": 99.47
+  },
+  {
+    "text": "roots,",
+    "start": 99.47,
+    "end": 99.87
+  },
+  {
+    "text": "so",
+    "start": 99.87,
+    "end": 100.11
+  },
+  {
+    "text": "y",
+    "start": 100.11,
+    "end": 100.35
+  },
+  {
+    "text": "is",
+    "start": 100.43,
+    "end": 100.67
+  },
+  {
+    "text": "plus",
+    "start": 100.67,
+    "end": 100.91
+  },
+  {
+    "text": "three",
+    "start": 100.91,
+    "end": 101.23
+  },
+  {
+    "text": "or",
+    "start": 101.23,
+    "end": 101.47
+  },
+  {
+    "text": "minus",
+    "start": 101.47,
+    "end": 101.79
+  },
+  {
+    "text": "three.",
+    "start": 101.79,
+    "end": 102.75
+  },
+  {
+    "text": "Now",
+    "start": 102.75,
+    "end": 103.07
+  },
+  {
+    "text": "at",
+    "start": 103.15,
+    "end": 103.39
+  },
+  {
+    "text": "a",
+    "start": 103.39,
+    "end": 103.55
+  },
+  {
+    "text": "third",
+    "start": 103.55,
+    "end": 103.87
+  },
+  {
+    "text": "station,",
+    "start": 103.87,
+    "end": 104.51
+  },
+  {
+    "text": "C,",
+    "start": 104.51,
+    "end": 105.07
+  },
+  {
+    "text": "ten",
+    "start": 105.07,
+    "end": 105.23
+  },
+  {
+    "text": "kilometers",
+    "start": 105.39,
+    "end": 105.95
+  },
+  {
+    "text": "south",
+    "start": 105.95,
+    "end": 106.19
+  },
+  {
+    "text": "of",
+    "start": 106.19,
+    "end": 106.27
+  },
+  {
+    "text": "the",
+    "start": 106.27,
+    "end": 106.35
+  },
+  {
+    "text": "midpoint",
+    "start": 106.35,
+    "end": 106.91
+  },
+  {
+    "text": "between",
+    "start": 106.91,
+    "end": 107.23
+  },
+  {
+    "text": "A",
+    "start": 107.23,
+    "end": 107.47
+  },
+  {
+    "text": "and",
+    "start": 107.47,
+    "end": 107.63
+  },
+  {
+    "text": "B.",
+    "start": 107.63,
+    "end": 108.19
+  },
+  {
+    "text": "You're",
+    "start": 108.19,
+    "end": 108.51
+  },
+  {
+    "text": "seven",
+    "start": 108.51,
+    "end": 108.83
+  },
+  {
+    "text": "kilometers",
+    "start": 108.83,
+    "end": 109.39
+  },
+  {
+    "text": "from",
+    "start": 109.39,
+    "end": 109.55
+  },
+  {
+    "text": "C.",
+    "start": 109.55,
+    "end": 110.19
+  },
+  {
+    "text": "The",
+    "start": 110.19,
+    "end": 110.43
+  },
+  {
+    "text": "southern",
+    "start": 110.43,
+    "end": 110.83
+  },
+  {
+    "text": "point,",
+    "start": 110.83,
+    "end": 111.15
+  },
+  {
+    "text": "four",
+    "start": 111.31,
+    "end": 111.63
+  },
+  {
+    "text": "minus",
+    "start": 111.71,
+    "end": 112.03
+  },
+  {
+    "text": "three,",
+    "start": 112.03,
+    "end": 112.51
+  },
+  {
+    "text": "is",
+    "start": 112.51,
+    "end": 112.67
+  },
+  {
+    "text": "exactly",
+    "start": 112.67,
+    "end": 113.07
+  },
+  {
+    "text": "seven",
+    "start": 113.07,
+    "end": 113.47
+  },
+  {
+    "text": "kilometers",
+    "start": 113.47,
+    "end": 114.03
+  },
+  {
+    "text": "from",
+    "start": 114.03,
+    "end": 114.27
+  },
+  {
+    "text": "C.",
+    "start": 114.27,
+    "end": 114.83
+  },
+  {
+    "text": "The",
+    "start": 114.83,
+    "end": 114.99
+  },
+  {
+    "text": "northern",
+    "start": 114.99,
+    "end": 115.55
+  },
+  {
+    "text": "point",
+    "start": 115.55,
+    "end": 115.71
+  },
+  {
+    "text": "is",
+    "start": 115.79,
+    "end": 115.95
+  },
+  {
+    "text": "one",
+    "start": 115.95,
+    "end": 116.11
+  },
+  {
+    "text": "comma",
+    "start": 116.27,
+    "end": 116.75
+  },
+  {
+    "text": "three.",
+    "start": 116.75,
+    "end": 117.39
+  },
+  {
+    "text": "Three",
+    "start": 117.39,
+    "end": 117.71
+  },
+  {
+    "text": "circles,",
+    "start": 117.71,
+    "end": 118.27
+  },
+  {
+    "text": "one",
+    "start": 118.43,
+    "end": 118.67
+  },
+  {
+    "text": "point.",
+    "start": 118.67,
+    "end": 119.23
+  },
+  {
+    "text": "That's",
+    "start": 119.3,
+    "end": 119.54
+  },
+  {
+    "text": "call",
+    "start": 119.54,
+    "end": 119.78
+  },
+  {
+    "text": "trilateration.",
+    "start": 119.78,
+    "end": 121.3
+  },
+  {
+    "text": "Real",
+    "start": 121.62,
+    "end": 122.1
+  },
+  {
+    "text": "satellites",
+    "start": 122.1,
+    "end": 122.74
+  },
+  {
+    "text": "aren't",
+    "start": 122.74,
+    "end": 122.98
+  },
+  {
+    "text": "on",
+    "start": 122.98,
+    "end": 123.14
+  },
+  {
+    "text": "a",
+    "start": 123.14,
+    "end": 123.22
+  },
+  {
+    "text": "flat",
+    "start": 123.22,
+    "end": 123.54
+  },
+  {
+    "text": "map.",
+    "start": 123.54,
+    "end": 124.02
+  },
+  {
+    "text": "In",
+    "start": 124.02,
+    "end": 124.18
+  },
+  {
+    "text": "three",
+    "start": 124.18,
+    "end": 124.42
+  },
+  {
+    "text": "dimensions,",
+    "start": 124.42,
+    "end": 124.98
+  },
+  {
+    "text": "circles",
+    "start": 124.98,
+    "end": 125.38
+  },
+  {
+    "text": "become",
+    "start": 125.38,
+    "end": 125.7
+  },
+  {
+    "text": "spheres.",
+    "start": 125.7,
+    "end": 126.58
+  },
+  {
+    "text": "Take",
+    "start": 126.58,
+    "end": 126.98
+  },
+  {
+    "text": "the",
+    "start": 126.98,
+    "end": 127.14
+  },
+  {
+    "text": "same",
+    "start": 127.14,
+    "end": 127.46
+  },
+  {
+    "text": "idealized",
+    "start": 127.46,
+    "end": 128.18
+  },
+  {
+    "text": "case,",
+    "start": 128.18,
+    "end": 128.5
+  },
+  {
+    "text": "with",
+    "start": 128.5,
+    "end": 128.74
+  },
+  {
+    "text": "exact",
+    "start": 128.74,
+    "end": 129.14
+  },
+  {
+    "text": "distances",
+    "start": 129.14,
+    "end": 129.62
+  },
+  {
+    "text": "and",
+    "start": 129.62,
+    "end": 129.78
+  },
+  {
+    "text": "a",
+    "start": 129.78,
+    "end": 129.86
+  },
+  {
+    "text": "perfectly",
+    "start": 129.86,
+    "end": 130.26
+  },
+  {
+    "text": "synchronized",
+    "start": 130.26,
+    "end": 130.9
+  },
+  {
+    "text": "clock.",
+    "start": 130.9,
+    "end": 131.7
+  },
+  {
+    "text": "One",
+    "start": 131.7,
+    "end": 132.02
+  },
+  {
+    "text": "satellite",
+    "start": 132.02,
+    "end": 132.58
+  },
+  {
+    "text": "puts",
+    "start": 132.58,
+    "end": 132.82
+  },
+  {
+    "text": "you",
+    "start": 132.82,
+    "end": 132.98
+  },
+  {
+    "text": "somewhere",
+    "start": 132.98,
+    "end": 133.38
+  },
+  {
+    "text": "on",
+    "start": 133.38,
+    "end": 133.46
+  },
+  {
+    "text": "a",
+    "start": 133.46,
+    "end": 133.62
+  },
+  {
+    "text": "sphere.",
+    "start": 133.62,
+    "end": 134.34
+  },
+  {
+    "text": "Two",
+    "start": 134.34,
+    "end": 134.66
+  },
+  {
+    "text": "spheres",
+    "start": 134.66,
+    "end": 135.22
+  },
+  {
+    "text": "meet",
+    "start": 135.22,
+    "end": 135.46
+  },
+  {
+    "text": "in",
+    "start": 135.46,
+    "end": 135.62
+  },
+  {
+    "text": "a",
+    "start": 135.62,
+    "end": 135.7
+  },
+  {
+    "text": "circle.",
+    "start": 135.7,
+    "end": 136.34
+  },
+  {
+    "text": "A",
+    "start": 136.34,
+    "end": 136.5
+  },
+  {
+    "text": "third",
+    "start": 136.5,
+    "end": 136.9
+  },
+  {
+    "text": "sphere",
+    "start": 136.9,
+    "end": 137.3
+  },
+  {
+    "text": "can",
+    "start": 137.3,
+    "end": 137.46
+  },
+  {
+    "text": "narrow",
+    "start": 137.46,
+    "end": 137.78
+  },
+  {
+    "text": "that",
+    "start": 137.78,
+    "end": 137.94
+  },
+  {
+    "text": "circle",
+    "start": 137.94,
+    "end": 138.26
+  },
+  {
+    "text": "to",
+    "start": 138.26,
+    "end": 138.42
+  },
+  {
+    "text": "two",
+    "start": 138.42,
+    "end": 138.66
+  },
+  {
+    "text": "candidate",
+    "start": 138.66,
+    "end": 139.14
+  },
+  {
+    "text": "points,",
+    "start": 139.14,
+    "end": 139.7
+  },
+  {
+    "text": "and",
+    "start": 139.7,
+    "end": 139.94
+  },
+  {
+    "text": "the",
+    "start": 139.94,
+    "end": 140.02
+  },
+  {
+    "text": "receiver",
+    "start": 140.02,
+    "end": 140.5
+  },
+  {
+    "text": "can",
+    "start": 140.5,
+    "end": 140.66
+  },
+  {
+    "text": "often",
+    "start": 140.66,
+    "end": 140.9
+  },
+  {
+    "text": "rule",
+    "start": 140.9,
+    "end": 141.14
+  },
+  {
+    "text": "one",
+    "start": 141.14,
+    "end": 141.38
+  },
+  {
+    "text": "out",
+    "start": 141.38,
+    "end": 141.46
+  },
+  {
+    "text": "because",
+    "start": 141.54,
+    "end": 141.78
+  },
+  {
+    "text": "it",
+    "start": 141.78,
+    "end": 141.94
+  },
+  {
+    "text": "isn't",
+    "start": 141.94,
+    "end": 142.26
+  },
+  {
+    "text": "anywhere",
+    "start": 142.26,
+    "end": 142.66
+  },
+  {
+    "text": "plausible",
+    "start": 142.66,
+    "end": 143.14
+  },
+  {
+    "text": "for",
+    "start": 143.14,
+    "end": 143.22
+  },
+  {
+    "text": "someone",
+    "start": 143.22,
+    "end": 143.46
+  },
+  {
+    "text": "near",
+    "start": 143.46,
+    "end": 143.7
+  },
+  {
+    "text": "Earth's",
+    "start": 143.7,
+    "end": 144.18
+  },
+  {
+    "text": "surface.",
+    "start": 144.18,
+    "end": 144.98
+  },
+  {
+    "text": "So",
+    "start": 144.98,
+    "end": 145.22
+  },
+  {
+    "text": "in",
+    "start": 145.3,
+    "end": 145.46
+  },
+  {
+    "text": "that",
+    "start": 145.46,
+    "end": 145.7
+  },
+  {
+    "text": "ideal",
+    "start": 145.7,
+    "end": 146.18
+  },
+  {
+    "text": "case,",
+    "start": 146.18,
+    "end": 146.58
+  },
+  {
+    "text": "three",
+    "start": 146.58,
+    "end": 146.82
+  },
+  {
+    "text": "satellites",
+    "start": 146.82,
+    "end": 147.38
+  },
+  {
+    "text": "would",
+    "start": 147.46,
+    "end": 147.7
+  },
+  {
+    "text": "do.",
+    "start": 147.7,
+    "end": 148.34
+  },
+  {
+    "text": "But",
+    "start": 148.34,
+    "end": 148.66
+  },
+  {
+    "text": "real",
+    "start": 148.66,
+    "end": 148.98
+  },
+  {
+    "text": "phones",
+    "start": 148.98,
+    "end": 149.46
+  },
+  {
+    "text": "don't",
+    "start": 149.46,
+    "end": 149.7
+  },
+  {
+    "text": "have",
+    "start": 149.7,
+    "end": 149.86
+  },
+  {
+    "text": "a",
+    "start": 149.86,
+    "end": 150.02
+  },
+  {
+    "text": "perfectly",
+    "start": 150.02,
+    "end": 150.5
+  },
+  {
+    "text": "synchronized",
+    "start": 150.5,
+    "end": 151.06
+  },
+  {
+    "text": "clock.",
+    "start": 151.06,
+    "end": 151.7
+  },
+  {
+    "text": "The",
+    "start": 151.7,
+    "end": 151.86
+  },
+  {
+    "text": "satellites",
+    "start": 151.86,
+    "end": 152.42
+  },
+  {
+    "text": "carry",
+    "start": 152.42,
+    "end": 152.66
+  },
+  {
+    "text": "atomic",
+    "start": 152.66,
+    "end": 153.14
+  },
+  {
+    "text": "clocks.",
+    "start": 153.14,
+    "end": 153.62
+  },
+  {
+    "text": "Your",
+    "start": 153.62,
+    "end": 153.78
+  },
+  {
+    "text": "phoneary",
+    "start": 153.78,
+    "end": 154.74
+  },
+  {
+    "text": "one.",
+    "start": 154.74,
+    "end": 155.22
+  },
+  {
+    "text": "If",
+    "start": 155.22,
+    "end": 155.38
+  },
+  {
+    "text": "your",
+    "start": 155.38,
+    "end": 155.54
+  },
+  {
+    "text": "phone's",
+    "start": 155.54,
+    "end": 155.94
+  },
+  {
+    "text": "clock",
+    "start": 155.94,
+    "end": 156.26
+  },
+  {
+    "text": "is",
+    "start": 156.26,
+    "end": 156.42
+  },
+  {
+    "text": "one",
+    "start": 156.42,
+    "end": 156.66
+  },
+  {
+    "text": "microsecond",
+    "start": 156.66,
+    "end": 157.38
+  },
+  {
+    "text": "ahead,",
+    "start": 157.38,
+    "end": 158.02
+  },
+  {
+    "text": "every",
+    "start": 158.02,
+    "end": 158.34
+  },
+  {
+    "text": "apparent",
+    "start": 158.34,
+    "end": 158.82
+  },
+  {
+    "text": "distance",
+    "start": 158.82,
+    "end": 159.22
+  },
+  {
+    "text": "comes",
+    "start": 159.22,
+    "end": 159.46
+  },
+  {
+    "text": "out",
+    "start": 159.46,
+    "end": 159.7
+  },
+  {
+    "text": "about",
+    "start": 159.7,
+    "end": 159.94
+  },
+  {
+    "text": "300",
+    "start": 159.94,
+    "end": 160.58
+  },
+  {
+    "text": "meters",
+    "start": 160.58,
+    "end": 160.98
+  },
+  {
+    "text": "too",
+    "start": 160.98,
+    "end": 161.22
+  },
+  {
+    "text": "long",
+    "start": 161.22,
+    "end": 161.38
+  },
+  {
+    "text": "in",
+    "start": 161.46,
+    "end": 161.62
+  },
+  {
+    "text": "this",
+    "start": 161.62,
+    "end": 161.86
+  },
+  {
+    "text": "simplified",
+    "start": 161.86,
+    "end": 162.58
+  },
+  {
+    "text": "model.",
+    "start": 162.58,
+    "end": 163.22
+  },
+  {
+    "text": "Here's",
+    "start": 163.22,
+    "end": 163.54
+  },
+  {
+    "text": "what",
+    "start": 163.54,
+    "end": 163.78
+  },
+  {
+    "text": "a",
+    "start": 163.78,
+    "end": 163.86
+  },
+  {
+    "text": "shared",
+    "start": 163.86,
+    "end": 164.26
+  },
+  {
+    "text": "error",
+    "start": 164.26,
+    "end": 164.58
+  },
+  {
+    "text": "does",
+    "start": 164.58,
+    "end": 164.82
+  },
+  {
+    "text": "on",
+    "start": 164.82,
+    "end": 164.98
+  },
+  {
+    "text": "our",
+    "start": 164.98,
+    "end": 165.14
+  },
+  {
+    "text": "map.",
+    "start": 165.14,
+    "end": 165.78
+  },
+  {
+    "text": "Let's",
+    "start": 165.78,
+    "end": 166.34
+  },
+  {
+    "text": "exaggerate",
+    "start": 166.34,
+    "end": 167.06
+  },
+  {
+    "text": "it.",
+    "start": 167.06,
+    "end": 167.46
+  },
+  {
+    "text": "So",
+    "start": 167.46,
+    "end": 167.7
+  },
+  {
+    "text": "every",
+    "start": 167.7,
+    "end": 168.02
+  },
+  {
+    "text": "apparent",
+    "start": 168.02,
+    "end": 168.42
+  },
+  {
+    "text": "distance",
+    "start": 168.42,
+    "end": 168.82
+  },
+  {
+    "text": "comes",
+    "start": 168.82,
+    "end": 169.06
+  },
+  {
+    "text": "out",
+    "start": 169.06,
+    "end": 169.3
+  },
+  {
+    "text": "one",
+    "start": 169.3,
+    "end": 169.54
+  },
+  {
+    "text": "kilometer",
+    "start": 169.54,
+    "end": 170.18
+  },
+  {
+    "text": "too",
+    "start": 170.18,
+    "end": 170.42
+  },
+  {
+    "text": "long.",
+    "start": 170.42,
+    "end": 170.9
+  },
+  {
+    "text": "Six,",
+    "start": 170.9,
+    "end": 171.54
+  },
+  {
+    "text": "six,",
+    "start": 171.54,
+    "end": 171.94
+  },
+  {
+    "text": "and",
+    "start": 171.94,
+    "end": 172.18
+  },
+  {
+    "text": "eight.",
+    "start": 172.18,
+    "end": 172.74
+  },
+  {
+    "text": "Now",
+    "start": 172.9,
+    "end": 173.22
+  },
+  {
+    "text": "the",
+    "start": 173.3,
+    "end": 173.46
+  },
+  {
+    "text": "three",
+    "start": 173.46,
+    "end": 173.78
+  },
+  {
+    "text": "circles",
+    "start": 173.78,
+    "end": 174.26
+  },
+  {
+    "text": "don't",
+    "start": 174.26,
+    "end": 174.5
+  },
+  {
+    "text": "meet",
+    "start": 174.5,
+    "end": 174.74
+  },
+  {
+    "text": "at",
+    "start": 174.74,
+    "end": 174.9
+  },
+  {
+    "text": "a",
+    "start": 174.9,
+    "end": 174.98
+  },
+  {
+    "text": "single",
+    "start": 174.98,
+    "end": 175.38
+  },
+  {
+    "text": "point.",
+    "start": 175.38,
+    "end": 175.94
+  },
+  {
+    "text": "But",
+    "start": 175.94,
+    "end": 176.26
+  },
+  {
+    "text": "the",
+    "start": 176.26,
+    "end": 176.42
+  },
+  {
+    "text": "error",
+    "start": 176.42,
+    "end": 176.9
+  },
+  {
+    "text": "is",
+    "start": 176.9,
+    "end": 177.14
+  },
+  {
+    "text": "the",
+    "start": 177.14,
+    "end": 177.3
+  },
+  {
+    "text": "same",
+    "start": 177.3,
+    "end": 177.62
+  },
+  {
+    "text": "for",
+    "start": 177.62,
+    "end": 177.86
+  },
+  {
+    "text": "all",
+    "start": 177.86,
+    "end": 178.1
+  },
+  {
+    "text": "three.",
+    "start": 178.1,
+    "end": 178.82
+  },
+  {
+    "text": "So",
+    "start": 178.82,
+    "end": 179.06
+  },
+  {
+    "text": "try",
+    "start": 179.22,
+    "end": 179.62
+  },
+  {
+    "text": "the",
+    "start": 179.62,
+    "end": 179.78
+  },
+  {
+    "text": "same",
+    "start": 179.78,
+    "end": 180.1
+  },
+  {
+    "text": "correction",
+    "start": 180.1,
+    "end": 180.82
+  },
+  {
+    "text": "on",
+    "start": 180.82,
+    "end": 181.06
+  },
+  {
+    "text": "every",
+    "start": 181.06,
+    "end": 181.46
+  },
+  {
+    "text": "distance.",
+    "start": 181.46,
+    "end": 182.26
+  },
+  {
+    "text": "Subtract",
+    "start": 182.26,
+    "end": 182.9
+  },
+  {
+    "text": "one",
+    "start": 182.9,
+    "end": 183.14
+  },
+  {
+    "text": "kilometer.",
+    "start": 183.14,
+    "end": 183.86
+  },
+  {
+    "text": "Then",
+    "start": 183.95,
+    "end": 184.19
+  },
+  {
+    "text": "you're",
+    "start": 184.19,
+    "end": 184.43
+  },
+  {
+    "text": "back",
+    "start": 184.43,
+    "end": 184.59
+  },
+  {
+    "text": "to",
+    "start": 184.59,
+    "end": 184.75
+  },
+  {
+    "text": "five,",
+    "start": 184.75,
+    "end": 185.23
+  },
+  {
+    "text": "five,",
+    "start": 185.23,
+    "end": 185.63
+  },
+  {
+    "text": "and",
+    "start": 185.63,
+    "end": 185.79
+  },
+  {
+    "text": "seven.",
+    "start": 185.79,
+    "end": 186.59
+  },
+  {
+    "text": "Now,",
+    "start": 186.59,
+    "end": 187.15
+  },
+  {
+    "text": "all",
+    "start": 187.15,
+    "end": 187.39
+  },
+  {
+    "text": "three",
+    "start": 187.39,
+    "end": 187.71
+  },
+  {
+    "text": "circles",
+    "start": 187.71,
+    "end": 188.19
+  },
+  {
+    "text": "pass",
+    "start": 188.19,
+    "end": 188.43
+  },
+  {
+    "text": "through",
+    "start": 188.43,
+    "end": 188.67
+  },
+  {
+    "text": "the",
+    "start": 188.67,
+    "end": 188.83
+  },
+  {
+    "text": "same",
+    "start": 188.83,
+    "end": 189.07
+  },
+  {
+    "text": "point.",
+    "start": 189.07,
+    "end": 189.63
+  },
+  {
+    "text": "4,",
+    "start": 189.63,
+    "end": 190.03
+  },
+  {
+    "text": "minus",
+    "start": 190.43,
+    "end": 190.83
+  },
+  {
+    "text": "3.",
+    "start": 190.83,
+    "end": 191.47
+  },
+  {
+    "text": "That",
+    "start": 191.47,
+    "end": 191.79
+  },
+  {
+    "text": "correction",
+    "start": 191.79,
+    "end": 192.59
+  },
+  {
+    "text": "is",
+    "start": 192.59,
+    "end": 192.83
+  },
+  {
+    "text": "another",
+    "start": 192.83,
+    "end": 193.23
+  },
+  {
+    "text": "unknown",
+    "start": 193.23,
+    "end": 193.79
+  },
+  {
+    "text": "to",
+    "start": 193.79,
+    "end": 193.95
+  },
+  {
+    "text": "solve",
+    "start": 193.95,
+    "end": 194.35
+  },
+  {
+    "text": "for.",
+    "start": 194.35,
+    "end": 194.83
+  },
+  {
+    "text": "The",
+    "start": 194.83,
+    "end": 195.07
+  },
+  {
+    "text": "shrinking",
+    "start": 195.07,
+    "end": 195.63
+  },
+  {
+    "text": "circles",
+    "start": 195.63,
+    "end": 196.03
+  },
+  {
+    "text": "are",
+    "start": 196.03,
+    "end": 196.19
+  },
+  {
+    "text": "just",
+    "start": 196.19,
+    "end": 196.35
+  },
+  {
+    "text": "a",
+    "start": 196.35,
+    "end": 196.43
+  },
+  {
+    "text": "way",
+    "start": 196.43,
+    "end": 196.59
+  },
+  {
+    "text": "to",
+    "start": 196.59,
+    "end": 196.67
+  },
+  {
+    "text": "picture",
+    "start": 196.67,
+    "end": 196.99
+  },
+  {
+    "text": "it.",
+    "start": 196.99,
+    "end": 197.47
+  },
+  {
+    "text": "Real",
+    "start": 197.47,
+    "end": 197.87
+  },
+  {
+    "text": "receivers",
+    "start": 197.87,
+    "end": 198.27
+  },
+  {
+    "text": "estimate",
+    "start": 198.43,
+    "end": 198.91
+  },
+  {
+    "text": "position",
+    "start": 198.91,
+    "end": 199.31
+  },
+  {
+    "text": "and",
+    "start": 199.31,
+    "end": 199.47
+  },
+  {
+    "text": "clock",
+    "start": 199.47,
+    "end": 199.87
+  },
+  {
+    "text": "error",
+    "start": 199.87,
+    "end": 200.27
+  },
+  {
+    "text": "together,",
+    "start": 200.27,
+    "end": 200.91
+  },
+  {
+    "text": "and",
+    "start": 200.91,
+    "end": 201.15
+  },
+  {
+    "text": "with",
+    "start": 201.15,
+    "end": 201.31
+  },
+  {
+    "text": "noisy",
+    "start": 201.31,
+    "end": 201.87
+  },
+  {
+    "text": "measurements,",
+    "start": 201.87,
+    "end": 202.43
+  },
+  {
+    "text": "the",
+    "start": 202.43,
+    "end": 202.59
+  },
+  {
+    "text": "circles",
+    "start": 202.59,
+    "end": 203.07
+  },
+  {
+    "text": "never",
+    "start": 203.07,
+    "end": 203.31
+  },
+  {
+    "text": "meet",
+    "start": 203.31,
+    "end": 203.55
+  },
+  {
+    "text": "exactly.",
+    "start": 203.55,
+    "end": 204.19
+  },
+  {
+    "text": "They",
+    "start": 204.19,
+    "end": 204.43
+  },
+  {
+    "text": "find",
+    "start": 204.43,
+    "end": 204.67
+  },
+  {
+    "text": "the",
+    "start": 204.67,
+    "end": 204.83
+  },
+  {
+    "text": "best",
+    "start": 204.83,
+    "end": 205.15
+  },
+  {
+    "text": "fit.",
+    "start": 205.15,
+    "end": 206.03
+  },
+  {
+    "text": "In",
+    "start": 206.03,
+    "end": 206.27
+  },
+  {
+    "text": "three",
+    "start": 206.27,
+    "end": 206.67
+  },
+  {
+    "text": "dimensions,",
+    "start": 206.67,
+    "end": 207.15
+  },
+  {
+    "text": "a",
+    "start": 207.15,
+    "end": 207.31
+  },
+  {
+    "text": "standalone",
+    "start": 207.31,
+    "end": 207.87
+  },
+  {
+    "text": "fix",
+    "start": 207.87,
+    "end": 208.35
+  },
+  {
+    "text": "has",
+    "start": 208.35,
+    "end": 208.51
+  },
+  {
+    "text": "four",
+    "start": 208.51,
+    "end": 208.75
+  },
+  {
+    "text": "unknowns,",
+    "start": 208.75,
+    "end": 209.55
+  },
+  {
+    "text": "X,",
+    "start": 209.79,
+    "end": 210.27
+  },
+  {
+    "text": "Y,",
+    "start": 210.27,
+    "end": 210.59
+  },
+  {
+    "text": "Z,",
+    "start": 210.75,
+    "end": 211.15
+  },
+  {
+    "text": "and",
+    "start": 211.15,
+    "end": 211.31
+  },
+  {
+    "text": "the",
+    "start": 211.31,
+    "end": 211.39
+  },
+  {
+    "text": "receiver's",
+    "start": 211.39,
+    "end": 211.87
+  },
+  {
+    "text": "clock",
+    "start": 211.87,
+    "end": 212.35
+  },
+  {
+    "text": "offset.",
+    "start": 212.35,
+    "end": 213.15
+  },
+  {
+    "text": "So",
+    "start": 213.15,
+    "end": 213.39
+  },
+  {
+    "text": "a",
+    "start": 213.47,
+    "end": 213.63
+  },
+  {
+    "text": "receiver",
+    "start": 213.63,
+    "end": 214.11
+  },
+  {
+    "text": "normally",
+    "start": 214.11,
+    "end": 214.51
+  },
+  {
+    "text": "needs",
+    "start": 214.51,
+    "end": 214.75
+  },
+  {
+    "text": "at",
+    "start": 214.75,
+    "end": 214.83
+  },
+  {
+    "text": "least",
+    "start": 214.83,
+    "end": 215.07
+  },
+  {
+    "text": "four",
+    "start": 215.07,
+    "end": 215.39
+  },
+  {
+    "text": "usable",
+    "start": 215.39,
+    "end": 215.87
+  },
+  {
+    "text": "satellite",
+    "start": 215.87,
+    "end": 216.43
+  },
+  {
+    "text": "signals,",
+    "start": 216.43,
+    "end": 216.91
+  },
+  {
+    "text": "and",
+    "start": 216.91,
+    "end": 217.07
+  },
+  {
+    "text": "it",
+    "start": 217.07,
+    "end": 217.23
+  },
+  {
+    "text": "uses",
+    "start": 217.23,
+    "end": 217.55
+  },
+  {
+    "text": "more",
+    "start": 217.55,
+    "end": 217.79
+  },
+  {
+    "text": "when",
+    "start": 217.79,
+    "end": 217.95
+  },
+  {
+    "text": "it",
+    "start": 217.95,
+    "end": 218.19
+  },
+  {
+    "text": "can.",
+    "start": 218.19,
+    "end": 218.75
+  },
+  {
+    "text": "In",
+    "start": 218.75,
+    "end": 218.91
+  },
+  {
+    "text": "a",
+    "start": 218.91,
+    "end": 219.07
+  },
+  {
+    "text": "simplified",
+    "start": 219.07,
+    "end": 219.63
+  },
+  {
+    "text": "model,",
+    "start": 219.63,
+    "end": 220.03
+  },
+  {
+    "text": "each",
+    "start": 220.03,
+    "end": 220.27
+  },
+  {
+    "text": "one",
+    "start": 220.27,
+    "end": 220.43
+  },
+  {
+    "text": "gives",
+    "start": 220.43,
+    "end": 220.67
+  },
+  {
+    "text": "an",
+    "start": 220.67,
+    "end": 220.75
+  },
+  {
+    "text": "equation.",
+    "start": 220.75,
+    "end": 221.47
+  },
+  {
+    "text": "Apparent",
+    "start": 221.47,
+    "end": 222.03
+  },
+  {
+    "text": "distance",
+    "start": 222.03,
+    "end": 222.51
+  },
+  {
+    "text": "equals",
+    "start": 222.51,
+    "end": 222.91
+  },
+  {
+    "text": "the",
+    "start": 222.91,
+    "end": 223.07
+  },
+  {
+    "text": "true",
+    "start": 223.07,
+    "end": 223.39
+  },
+  {
+    "text": "geometric",
+    "start": 223.39,
+    "end": 224.03
+  },
+  {
+    "text": "distance,",
+    "start": 224.03,
+    "end": 224.67
+  },
+  {
+    "text": "plus",
+    "start": 224.67,
+    "end": 224.91
+  },
+  {
+    "text": "the",
+    "start": 224.91,
+    "end": 224.99
+  },
+  {
+    "text": "speed",
+    "start": 224.99,
+    "end": 225.31
+  },
+  {
+    "text": "of",
+    "start": 225.31,
+    "end": 225.47
+  },
+  {
+    "text": "light",
+    "start": 225.47,
+    "end": 225.79
+  },
+  {
+    "text": "times",
+    "start": 225.79,
+    "end": 226.03
+  },
+  {
+    "text": "the",
+    "start": 226.03,
+    "end": 226.19
+  },
+  {
+    "text": "clock",
+    "start": 226.19,
+    "end": 226.59
+  },
+  {
+    "text": "offset.",
+    "start": 226.59,
+    "end": 227.47
+  },
+  {
+    "text": "GPS",
+    "start": 227.47,
+    "end": 228.11
+  },
+  {
+    "text": "satellites",
+    "start": 228.11,
+    "end": 228.59
+  },
+  {
+    "text": "are",
+    "start": 228.59,
+    "end": 228.67
+  },
+  {
+    "text": "arranged",
+    "start": 228.67,
+    "end": 229.07
+  },
+  {
+    "text": "so",
+    "start": 229.07,
+    "end": 229.23
+  },
+  {
+    "text": "that",
+    "start": 229.23,
+    "end": 229.39
+  },
+  {
+    "text": "at",
+    "start": 229.39,
+    "end": 229.47
+  },
+  {
+    "text": "least",
+    "start": 229.47,
+    "end": 229.71
+  },
+  {
+    "text": "four",
+    "start": 229.71,
+    "end": 230.03
+  },
+  {
+    "text": "are",
+    "start": 230.03,
+    "end": 230.19
+  },
+  {
+    "text": "visible",
+    "start": 230.19,
+    "end": 230.59
+  },
+  {
+    "text": "from",
+    "start": 230.59,
+    "end": 230.75
+  },
+  {
+    "text": "nearly",
+    "start": 230.75,
+    "end": 231.07
+  },
+  {
+    "text": "anywhere",
+    "start": 231.07,
+    "end": 231.55
+  },
+  {
+    "text": "on",
+    "start": 231.55,
+    "end": 231.79
+  },
+  {
+    "text": "Earth.",
+    "start": 231.79,
+    "end": 232.67
+  },
+  {
+    "text": "So",
+    "start": 232.67,
+    "end": 232.91
+  },
+  {
+    "text": "how",
+    "start": 233.07,
+    "end": 233.39
+  },
+  {
+    "text": "close",
+    "start": 233.39,
+    "end": 233.71
+  },
+  {
+    "text": "does",
+    "start": 233.71,
+    "end": 233.95
+  },
+  {
+    "text": "it",
+    "start": 233.95,
+    "end": 234.11
+  },
+  {
+    "text": "get?",
+    "start": 234.11,
+    "end": 234.67
+  },
+  {
+    "text": "Under",
+    "start": 234.67,
+    "end": 235.07
+  },
+  {
+    "text": "open",
+    "start": 235.07,
+    "end": 235.39
+  },
+  {
+    "text": "sky,",
+    "start": 235.39,
+    "end": 235.71
+  },
+  {
+    "text": "phones",
+    "start": 235.79,
+    "end": 236.11
+  },
+  {
+    "text": "are",
+    "start": 236.11,
+    "end": 236.27
+  },
+  {
+    "text": "typically",
+    "start": 236.27,
+    "end": 236.59
+  },
+  {
+    "text": "accurate",
+    "start": 236.59,
+    "end": 236.99
+  },
+  {
+    "text": "to",
+    "start": 236.99,
+    "end": 237.15
+  },
+  {
+    "text": "about",
+    "start": 237.15,
+    "end": 237.39
+  },
+  {
+    "text": "five",
+    "start": 237.39,
+    "end": 237.71
+  },
+  {
+    "text": "meters.",
+    "start": 237.71,
+    "end": 238.35
+  },
+  {
+    "text": "Near",
+    "start": 238.35,
+    "end": 238.75
+  },
+  {
+    "text": "buildings,",
+    "start": 238.75,
+    "end": 239.23
+  },
+  {
+    "text": "bridges,",
+    "start": 239.23,
+    "end": 239.63
+  },
+  {
+    "text": "and",
+    "start": 239.63,
+    "end": 239.79
+  },
+  {
+    "text": "trees,",
+    "start": 239.79,
+    "end": 240.19
+  },
+  {
+    "text": "it",
+    "start": 240.19,
+    "end": 240.35
+  },
+  {
+    "text": "gets",
+    "start": 240.35,
+    "end": 240.59
+  },
+  {
+    "text": "worse",
+    "start": 240.59,
+    "end": 240.91
+  },
+  {
+    "text": "because",
+    "start": 240.99,
+    "end": 241.23
+  },
+  {
+    "text": "they",
+    "start": 241.23,
+    "end": 241.39
+  },
+  {
+    "text": "block",
+    "start": 241.39,
+    "end": 241.79
+  },
+  {
+    "text": "and",
+    "start": 241.79,
+    "end": 241.95
+  },
+  {
+    "text": "reflect",
+    "start": 241.95,
+    "end": 242.35
+  },
+  {
+    "text": "the",
+    "start": 242.35,
+    "end": 242.43
+  },
+  {
+    "text": "signals.",
+    "start": 242.43,
+    "end": 243.23
+  },
+  {
+    "text": "With",
+    "start": 243.23,
+    "end": 243.55
+  },
+  {
+    "text": "suitable",
+    "start": 243.55,
+    "end": 244.03
+  },
+  {
+    "text": "equipment",
+    "start": 244.03,
+    "end": 244.43
+  },
+  {
+    "text": "and",
+    "start": 244.43,
+    "end": 244.59
+  },
+  {
+    "text": "corrections.",
+    "start": 244.59,
+    "end": 245.39
+  },
+  {
+    "text": "Surveyors",
+    "start": 245.48,
+    "end": 246.04
+  },
+  {
+    "text": "can",
+    "start": 246.04,
+    "end": 246.2
+  },
+  {
+    "text": "get",
+    "start": 246.2,
+    "end": 246.28
+  },
+  {
+    "text": "to",
+    "start": 246.28,
+    "end": 246.36
+  },
+  {
+    "text": "within",
+    "start": 246.36,
+    "end": 246.68
+  },
+  {
+    "text": "a",
+    "start": 246.68,
+    "end": 246.76
+  },
+  {
+    "text": "few",
+    "start": 246.76,
+    "end": 246.92
+  },
+  {
+    "text": "centimeters.",
+    "start": 246.92,
+    "end": 247.8
+  },
+  {
+    "text": "And",
+    "start": 247.8,
+    "end": 248.04
+  },
+  {
+    "text": "phones",
+    "start": 248.04,
+    "end": 248.44
+  },
+  {
+    "text": "get",
+    "start": 248.44,
+    "end": 248.6
+  },
+  {
+    "text": "help.",
+    "start": 248.6,
+    "end": 249.08
+  },
+  {
+    "text": "Europe's",
+    "start": 249.08,
+    "end": 249.56
+  },
+  {
+    "text": "Galileo",
+    "start": 249.56,
+    "end": 250.28
+  },
+  {
+    "text": "adds",
+    "start": 250.28,
+    "end": 250.52
+  },
+  {
+    "text": "more",
+    "start": 250.52,
+    "end": 250.68
+  },
+  {
+    "text": "satellite",
+    "start": 250.68,
+    "end": 251.08
+  },
+  {
+    "text": "measurements,",
+    "start": 251.08,
+    "end": 251.72
+  },
+  {
+    "text": "while",
+    "start": 251.72,
+    "end": 251.96
+  },
+  {
+    "text": "Wi-Fi",
+    "start": 251.96,
+    "end": 252.52
+  },
+  {
+    "text": "and",
+    "start": 252.52,
+    "end": 252.6
+  },
+  {
+    "text": "cell",
+    "start": 252.6,
+    "end": 252.92
+  },
+  {
+    "text": "signals",
+    "start": 252.92,
+    "end": 253.32
+  },
+  {
+    "text": "help",
+    "start": 253.32,
+    "end": 253.56
+  },
+  {
+    "text": "estimate",
+    "start": 253.56,
+    "end": 253.88
+  },
+  {
+    "text": "your",
+    "start": 253.88,
+    "end": 254.04
+  },
+  {
+    "text": "location",
+    "start": 254.04,
+    "end": 254.36
+  },
+  {
+    "text": "when",
+    "start": 254.36,
+    "end": 254.6
+  },
+  {
+    "text": "satellite",
+    "start": 254.6,
+    "end": 255.08
+  },
+  {
+    "text": "reception",
+    "start": 255.08,
+    "end": 255.56
+  },
+  {
+    "text": "is",
+    "start": 255.56,
+    "end": 255.72
+  },
+  {
+    "text": "poor.",
+    "start": 255.72,
+    "end": 256.44
+  },
+  {
+    "text": "So",
+    "start": 256.44,
+    "end": 256.68
+  },
+  {
+    "text": "your",
+    "start": 256.68,
+    "end": 256.92
+  },
+  {
+    "text": "phone",
+    "start": 256.92,
+    "end": 257.4
+  },
+  {
+    "text": "never",
+    "start": 257.4,
+    "end": 257.72
+  },
+  {
+    "text": "measures",
+    "start": 257.72,
+    "end": 258.2
+  },
+  {
+    "text": "your",
+    "start": 258.2,
+    "end": 258.36
+  },
+  {
+    "text": "position",
+    "start": 258.36,
+    "end": 258.76
+  },
+  {
+    "text": "directly.",
+    "start": 258.76,
+    "end": 259.48
+  },
+  {
+    "text": "It",
+    "start": 259.48,
+    "end": 259.64
+  },
+  {
+    "text": "measures",
+    "start": 259.64,
+    "end": 260.12
+  },
+  {
+    "text": "timings,",
+    "start": 260.12,
+    "end": 260.84
+  },
+  {
+    "text": "turns",
+    "start": 260.84,
+    "end": 261.16
+  },
+  {
+    "text": "them",
+    "start": 261.16,
+    "end": 261.24
+  },
+  {
+    "text": "into",
+    "start": 261.24,
+    "end": 261.48
+  },
+  {
+    "text": "apparent",
+    "start": 261.48,
+    "end": 261.96
+  },
+  {
+    "text": "distances,",
+    "start": 261.96,
+    "end": 262.76
+  },
+  {
+    "text": "and",
+    "start": 262.76,
+    "end": 263
+  },
+  {
+    "text": "solves",
+    "start": 263,
+    "end": 263.4
+  },
+  {
+    "text": "for",
+    "start": 263.4,
+    "end": 263.64
+  },
+  {
+    "text": "where",
+    "start": 263.64,
+    "end": 263.88
+  },
+  {
+    "text": "it",
+    "start": 263.88,
+    "end": 264.04
+  },
+  {
+    "text": "is",
+    "start": 264.04,
+    "end": 264.28
+  },
+  {
+    "text": "and",
+    "start": 264.28,
+    "end": 264.44
+  },
+  {
+    "text": "how",
+    "start": 264.44,
+    "end": 264.68
+  },
+  {
+    "text": "far",
+    "start": 264.68,
+    "end": 264.92
+  },
+  {
+    "text": "off",
+    "start": 264.92,
+    "end": 265.16
+  },
+  {
+    "text": "its",
+    "start": 265.16,
+    "end": 265.4
+  },
+  {
+    "text": "clock",
+    "start": 265.4,
+    "end": 265.8
+  },
+  {
+    "text": "is.",
+    "start": 265.8,
+    "end": 266.2
+  },
+  {
+    "text": "On",
+    "start": 266.2,
+    "end": 266.36
+  },
+  {
+    "text": "our",
+    "start": 266.36,
+    "end": 266.6
+  },
+  {
+    "text": "flat",
+    "start": 266.6,
+    "end": 266.92
+  },
+  {
+    "text": "map,",
+    "start": 266.92,
+    "end": 267.4
+  },
+  {
+    "text": "one",
+    "start": 267.4,
+    "end": 267.64
+  },
+  {
+    "text": "distance",
+    "start": 267.64,
+    "end": 268.04
+  },
+  {
+    "text": "gave",
+    "start": 268.04,
+    "end": 268.28
+  },
+  {
+    "text": "a",
+    "start": 268.28,
+    "end": 268.36
+  },
+  {
+    "text": "circle,",
+    "start": 268.36,
+    "end": 268.92
+  },
+  {
+    "text": "two",
+    "start": 268.92,
+    "end": 269.16
+  },
+  {
+    "text": "gave",
+    "start": 269.24,
+    "end": 269.48
+  },
+  {
+    "text": "two",
+    "start": 269.48,
+    "end": 269.72
+  },
+  {
+    "text": "points,",
+    "start": 269.72,
+    "end": 270.2
+  },
+  {
+    "text": "and",
+    "start": 270.2,
+    "end": 270.44
+  },
+  {
+    "text": "three",
+    "start": 270.44,
+    "end": 270.84
+  },
+  {
+    "text": "gave",
+    "start": 270.84,
+    "end": 271.08
+  },
+  {
+    "text": "one.",
+    "start": 271.08,
+    "end": 271.64
+  },
+  {
+    "text": "In",
+    "start": 271.64,
+    "end": 271.88
+  },
+  {
+    "text": "space,",
+    "start": 271.88,
+    "end": 272.52
+  },
+  {
+    "text": "the",
+    "start": 272.52,
+    "end": 272.68
+  },
+  {
+    "text": "fourth",
+    "start": 272.68,
+    "end": 273.08
+  },
+  {
+    "text": "satellite",
+    "start": 273.16,
+    "end": 273.8
+  },
+  {
+    "text": "provides",
+    "start": 273.8,
+    "end": 274.2
+  },
+  {
+    "text": "the",
+    "start": 274.2,
+    "end": 274.36
+  },
+  {
+    "text": "extra",
+    "start": 274.36,
+    "end": 274.68
+  },
+  {
+    "text": "measurement",
+    "start": 274.68,
+    "end": 275.24
+  },
+  {
+    "text": "needed",
+    "start": 275.24,
+    "end": 275.64
+  },
+  {
+    "text": "to",
+    "start": 275.64,
+    "end": 275.8
+  },
+  {
+    "text": "solve",
+    "start": 275.8,
+    "end": 276.2
+  },
+  {
+    "text": "for",
+    "start": 276.2,
+    "end": 276.36
+  },
+  {
+    "text": "position",
+    "start": 276.36,
+    "end": 276.84
+  },
+  {
+    "text": "and",
+    "start": 276.84,
+    "end": 277
+  },
+  {
+    "text": "clock",
+    "start": 277,
+    "end": 277.48
+  },
+  {
+    "text": "error",
+    "start": 277.48,
+    "end": 277.88
+  },
+  {
+    "text": "together.",
+    "start": 277.88,
+    "end": 278.76
+  },
+  {
+    "text": "If",
+    "start": 278.76,
+    "end": 278.92
+  },
+  {
+    "text": "you",
+    "start": 278.92,
+    "end": 279.08
+  },
+  {
+    "text": "like",
+    "start": 279.08,
+    "end": 279.32
+  },
+  {
+    "text": "this",
+    "start": 279.4,
+    "end": 279.56
+  },
+  {
+    "text": "video,",
+    "start": 279.56,
+    "end": 279.88
+  },
+  {
+    "text": "please",
+    "start": 279.88,
+    "end": 280.2
+  },
+  {
+    "text": "give",
+    "start": 280.2,
+    "end": 280.36
+  },
+  {
+    "text": "it",
+    "start": 280.36,
+    "end": 280.52
+  },
+  {
+    "text": "a",
+    "start": 280.52,
+    "end": 280.6
+  },
+  {
+    "text": "like",
+    "start": 280.6,
+    "end": 280.84
+  },
+  {
+    "text": "and",
+    "start": 280.92,
+    "end": 281.08
+  },
+  {
+    "text": "subscribe",
+    "start": 281.08,
+    "end": 281.56
+  },
+  {
+    "text": "for",
+    "start": 281.56,
+    "end": 281.72
+  },
+  {
+    "text": "more",
+    "start": 281.72,
+    "end": 281.96
+  },
+  {
+    "text": "everyday",
+    "start": 281.96,
+    "end": 282.52
+  },
+  {
+    "text": "engineering.",
+    "start": 282.52,
+    "end": 283.16
+  },
+  {
+    "text": "Thanks",
+    "start": 283.16,
+    "end": 283.48
+  },
+  {
+    "text": "for",
+    "start": 283.48,
+    "end": 283.64
+  },
+  {
+    "text": "watching.",
+    "start": 283.64,
+    "end": 284.12
+  }
+]
