@@ -1,0 +1,25 @@
+# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 010`.
+video:
+  id: "010"
+  topic: T14
+  title: "The Perfect Soda Can Should Be as Wide as It Is Tall. So Why Isn't It?"
+  style: ""            # e.g. "B hook + A body"
+  playlist: math-for-engineers
+  voice_note: ""
+  pronounce: {}
+
+scenes:
+  - id: S01
+    component: title-card
+    chapter: "Intro"
+    say: >-
+      Replace me with the hook.
+    params:
+      title: "The Perfect Soda Can Should Be as Wide as It Is Tall. So Why Isn't It?"
+
+  - id: S99
+    component: end-card
+    say: >-
+      See you in the next one.
+    params:
+      line: ""
