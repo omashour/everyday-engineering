@@ -1,5 +1,76 @@
 shorts:
-  - title: ""
-    hook: ""
-    scenes: []
+  - title: "How your phone finds you with three circles #shorts"
+    hook: "Three circles, one point"
     end: "Full video on the channel"
+    description: "One distance gives a circle, two give two points, three give one. That's trilateration.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: A1
+        component: photo-overlay
+        say: >-
+          Your phone doesn't measure where you are. It measures how far away the satellites are,
+          using the time their signals take to arrive.
+        params:
+          src: phone-map.jpg
+          credit: "Image: AI-generated"
+          title: "Distances, not position"
+          overlays:
+            - {type: callout, pos: [78, 40], text: "time → distance", side: right, cue: "how far away"}
+      - id: A2
+        component: diagram
+        say: >-
+          One distance puts you somewhere on a circle. Add a second distance, and the two circles
+          cross at just two points.
+        params:
+          view: [1000, 760]
+          items:
+            - {type: circle, pos: [250, 200], r: 150, color: blue, cue: "on a circle"}
+            - {type: circle, pos: [490, 200], r: 150, color: blue, cue: "second distance"}
+            - {type: circle, pos: [370, 110], r: 14, fill: red, cue: "two points"}
+            - {type: circle, pos: [370, 290], r: 14, fill: red, cue: "two points"}
+      - id: A3
+        component: diagram
+        say: >-
+          A third distance picks one of them. That's called trilateration. In space, circles become
+          spheres, and your phone needs a fourth satellite too. The full video shows why.
+        params:
+          view: [1000, 760]
+          items:
+            - {type: circle, pos: [250, 200], r: 150, color: blue}
+            - {type: circle, pos: [490, 200], r: 150, color: blue}
+            - {type: circle, pos: [370, 500], r: 210, color: green, cue: "third distance"}
+            - {type: circle, pos: [370, 290], r: 16, fill: red, cue: "picks one"}
+            - {type: text, pos: [500, 60], text: "trilateration", size: l, anchor: middle, cue: "trilateration"}
+  - title: "One microsecond can put your GPS 300 meters off #shorts"
+    hook: "1 microsecond = 300 m"
+    end: "Full video on the channel"
+    description: "Why your phone's clock matters so much to GPS, and how a fourth satellite fixes it.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: B1
+        component: big-fact
+        say: >-
+          If your phone's clock is off by one millionth of a second, your GPS position could be off by
+          about three hundred meters.
+        params:
+          value: "1 µs → 300 m"
+          label: "a tiny clock error"
+          cue: "three hundred meters"
+      - id: B2
+        component: equation-steps
+        say: >-
+          The signal travels at the speed of light, about three hundred thousand kilometers per second.
+          In one millionth of a second, that's three hundred meters. Every distance your phone works
+          out would be wrong by that much.
+        params:
+          size: l
+          lines:
+            - {tex: "c \\approx 300{,}000\\ \\text{km/s}", cue: "three hundred thousand"}
+            - {tex: "c \\times 10^{-6}\\ \\text{s} = 300\\ \\text{m}", box: true, cue: "one millionth"}
+      - id: B3
+        component: bullets
+        say: >-
+          So your phone treats its own clock error as an unknown, and uses a fourth satellite to solve
+          for it. The full video shows how.
+        params:
+          items:
+            - {text: "Clock error = 4th unknown", icon: clock, cue: "clock error"}
+            - {text: "4th satellite solves it", icon: satellite, cue: "fourth satellite"}

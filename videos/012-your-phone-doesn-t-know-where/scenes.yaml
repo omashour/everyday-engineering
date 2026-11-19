@@ -1,25 +1,234 @@
-# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 012`.
 video:
   id: "012"
   topic: T08
   title: "Your Phone Doesn't Know Where You Are"
-  style: ""            # e.g. "B hook + A body"
+  style: "B hook + A body"
   playlist: math-for-engineers
+  phase: math
+  series: null
   voice_note: ""
-  pronounce: {}
+  pronounce: {trilateration: try-lat-er-AY-shun, Galileo: gal-ih-LAY-oh}
 
 scenes:
   - id: S01
-    component: title-card
-    chapter: "Intro"
+    component: photo-overlay
+    chapter: "Nothing but timings"
     say: >-
-      Replace me with the hook.
+      Your phone doesn't start knowing where you are. It starts with nothing but timings: how long
+      signals took to arrive from satellites about twenty thousand kilometers up. From those, it
+      finds you within about five meters under open sky.
     params:
-      title: "Your Phone Doesn't Know Where You Are"
+      src: phone-map.jpg
+      credit: "Image: AI-generated"
+      title: "How does your phone find you?"
+      overlays:
+        - {type: callout, pos: [78, 30], text: "only timings", side: right, cue: "nothing but timings"}
+        - {type: label, pos: [22, 30], text: "satellites ≈ 20,000 km up", cue: "twenty thousand kilometers"}
+        - {type: callout, pos: [78, 60], text: "≈ 5 m, open sky", side: right, cue: "about five meters"}
 
-  - id: S99
-    component: end-card
+  - id: S02
+    component: title-card
+    say: Let's see how, using nothing more than circles, spheres and a little algebra.
+    params: {kicker: "Everyday Engineering · Geometry", title: "Your Phone Doesn't Know Where You Are"}
+
+  - id: S03
+    component: equation-steps
+    chapter: "Time becomes distance"
     say: >-
-      See you in the next one.
+      Each GPS satellite broadcasts its position and the exact time, kept by very precise atomic
+      clocks. Your phone notes when each signal arrives. The signal travels at the speed of light,
+      about three hundred thousand kilometers per second. So the distance is the speed of light times
+      the travel time. From twenty thousand two hundred kilometers straight up, that's about seven
+      hundredths of a second.
     params:
-      line: ""
+      heading: "Time becomes distance"
+      lines:
+        - {text: "satellite sends: its position + the time", cue: "broadcasts its position"}
+        - {tex: "c \\approx 300{,}000\\ \\text{km/s}", cue: "three hundred thousand"}
+        - {tex: "d = c \\times \\Delta t", mark: true, cue: "speed of light times"}
+        - {tex: "\\Delta t = \\dfrac{20{,}200}{300{,}000} \\approx 0.067\\ \\text{s}", box: true, cue: "seven hundredths"}
+
+  - id: S04
+    component: diagram
+    chapter: "One distance: a circle"
+    say: >-
+      Let's start flat, on a map. Say a station at point A tells you that you're exactly five
+      kilometers away. That doesn't give you a point. It gives you a circle: every spot that's five
+      kilometers from A.
+    params:
+      heading: "One distance → a circle"
+      view: [1000, 760]
+      items:
+        - {type: circle, pos: [250, 200], r: 8, fill: navy}
+        - {type: text, pos: [225, 185], text: "A", size: l}
+        - {type: dim, from: [250, 200], to: [400, 200], label: "5 km", cue: "five kilometers away"}
+        - {type: circle, pos: [250, 200], r: 150, color: blue, cue: "It gives you a circle"}
+        - {type: text, pos: [700, 420], text: "you're somewhere on this circle", hand: true, color: red, anchor: middle, cue: "every spot"}
+
+  - id: S05
+    component: diagram
+    chapter: "Two distances: two points"
+    say: >-
+      Add a second station, B, eight kilometers east of A. You're also five kilometers from B. Now
+      there are two circles, and they cross at exactly two points. You're at one of them. But which
+      one?
+    params:
+      heading: "Two distances → two points"
+      view: [1000, 760]
+      items:
+        - {type: circle, pos: [250, 200], r: 150, color: blue}
+        - {type: text, pos: [225, 185], text: "A", size: l}
+        - {type: circle, pos: [490, 200], r: 8, fill: navy, cue: "second station"}
+        - {type: text, pos: [510, 185], text: "B", size: l, cue: "second station"}
+        - {type: dim, from: [250, 640], to: [490, 640], label: "8 km", cue: "eight kilometers east"}
+        - {type: circle, pos: [490, 200], r: 150, color: blue, cue: "five kilometers from B"}
+        - {type: circle, pos: [370, 110], r: 12, fill: red, cue: "two points"}
+        - {type: circle, pos: [370, 290], r: 12, fill: red, cue: "two points"}
+        - {type: text, pos: [760, 420], text: "which one?", hand: true, color: red, anchor: middle, cue: "But which"}
+
+  - id: S06
+    component: equation-steps
+    chapter: "The algebra"
+    say: >-
+      Here's the algebra behind those two points. Put A at the origin, and B at eight on the x axis.
+      The circles are x squared plus y squared equals twenty five, and x minus eight, squared, plus y
+      squared equals twenty five. Subtract one from the other, and the squares cancel. You're left
+      with a straight line: sixteen x minus sixty four equals zero, so x equals four. Then y squared
+      equals nine, so y is plus or minus three.
+    params:
+      heading: "Two circles, subtracted"
+      lines:
+        - {tex: "x^2 + y^2 = 25", cue: "x squared plus"}
+        - {tex: "(x-8)^2 + y^2 = 25", cue: "x minus eight"}
+        - {tex: "16x - 64 = 0 \\;\\Rightarrow\\; x = 4", mark: true, note: "squares cancel!", note_cue: "squares cancel", cue: "sixteen x"}
+        - {tex: "y^2 = 9 \\;\\Rightarrow\\; y = \\pm 3", box: true, cue: "plus or minus three"}
+
+  - id: S07
+    component: diagram
+    chapter: "Three distances: one point"
+    say: >-
+      So add a third station, C, ten kilometers south of the midpoint between A and B. You're seven
+      kilometers from C. The southern point, at y equals minus three, is exactly seven kilometers from
+      C. The northern point is thirteen. Three circles, one point. That's called trilateration.
+    params:
+      heading: "Three distances → one point"
+      view: [1000, 760]
+      items:
+        - {type: circle, pos: [250, 200], r: 150, color: blue}
+        - {type: circle, pos: [490, 200], r: 150, color: blue}
+        - {type: text, pos: [225, 185], text: "A", size: l}
+        - {type: text, pos: [510, 185], text: "B", size: l}
+        - {type: circle, pos: [370, 500], r: 8, fill: navy, cue: "third station"}
+        - {type: text, pos: [395, 520], text: "C", size: l, cue: "third station"}
+        - {type: circle, pos: [370, 500], r: 210, color: green, cue: "seven kilometers from C"}
+        - {type: circle, pos: [370, 290], r: 14, fill: red, cue: "southern point"}
+        - {type: circle, pos: [370, 110], r: 10, fill: muted, cue: "northern point"}
+        - {type: text, pos: [760, 110], text: "13 km from C: ruled out", color: muted, anchor: middle, cue: "is thirteen"}
+        - {type: text, pos: [760, 330], text: "you are here", hand: true, color: red, anchor: middle, cue: "one point"}
+
+  - id: S08
+    component: bullets
+    chapter: "In three dimensions"
+    say: >-
+      Satellites aren't on a flat map. In three dimensions, circles become spheres. One satellite
+      puts you somewhere on a sphere. Two spheres meet in a circle. Three spheres meet in just two
+      points, and one of them is usually nowhere near Earth's surface, so it's easy to rule out.
+    params:
+      heading: "Circles become spheres"
+      items:
+        - {text: "1 satellite → a sphere", icon: circle, cue: "One satellite"}
+        - {text: "2 spheres → a circle", icon: circles, cue: "Two spheres"}
+        - {text: "3 spheres → two points", icon: point, cue: "Three spheres"}
+        - {text: "One point is far from Earth", icon: world, cue: "nowhere near"}
+
+  - id: S09
+    component: big-fact
+    chapter: "The clock problem"
+    say: >-
+      So three satellites should be enough. But there's a catch: the clock in your phone. The
+      satellites carry atomic clocks. Your phone has an ordinary one. If its clock is off by just one
+      millionth of a second, every distance is off by about three hundred meters.
+    params:
+      value: "1 µs → 300 m"
+      label: "a tiny clock error"
+      sub: "300,000 km/s × 0.000001 s = 0.3 km"
+      cue: "three hundred meters"
+
+  - id: S10
+    component: diagram
+    chapter: "Shrinking the circles"
+    say: >-
+      Here's what that does on our map. Say your phone's clock is a little off, so every distance
+      comes out one kilometer too long: six, six and eight. Now the three circles don't meet at a
+      single point. But the error is the same for every station. So the phone shrinks all the circles
+      by the same amount until they meet. When they meet at one point, it has found both your
+      position and its own clock error.
+    params:
+      heading: "Same error on every distance"
+      view: [1000, 760]
+      items:
+        - {type: circle, pos: [250, 200], r: 180, color: muted, dashed: true, cue: "six, six and eight"}
+        - {type: circle, pos: [490, 200], r: 180, color: muted, dashed: true, cue: "six, six and eight"}
+        - {type: circle, pos: [370, 500], r: 240, color: muted, dashed: true, cue: "six, six and eight"}
+        - {type: text, pos: [800, 80], text: "no common point", hand: true, color: red, anchor: middle, cue: "don't meet"}
+        - {type: circle, pos: [250, 200], r: 150, color: blue, cue: "shrinks all the circles"}
+        - {type: circle, pos: [490, 200], r: 150, color: blue, cue: "shrinks all the circles"}
+        - {type: circle, pos: [370, 500], r: 210, color: green, cue: "shrinks all the circles"}
+        - {type: circle, pos: [370, 290], r: 14, fill: red, cue: "meet at one point"}
+        - {type: text, pos: [800, 330], text: "−1 km each: they meet", color: red, anchor: middle, cue: "meet at one point"}
+
+  - id: S11
+    component: equation-steps
+    chapter: "Four satellites, four unknowns"
+    say: >-
+      In three dimensions, the unknowns are your x, y and z, plus the clock error. That's four
+      unknowns, so the phone needs at least four satellites. Each one gives an equation: the true
+      distance to that satellite, plus the speed of light times the clock error, equals the measured
+      distance. GPS satellites are arranged so that at least four are visible from nearly anywhere on
+      Earth.
+    params:
+      heading: "Four unknowns, four satellites"
+      lines:
+        - {text: "unknowns: $x,\\ y,\\ z$ and clock error $b$", cue: "plus the clock error"}
+        - {tex: "\\sqrt{(x-x_i)^2+(y-y_i)^2+(z-z_i)^2} + c\\,b = \\rho_i", mark: true, cue: "Each one gives"}
+        - {tex: "i = 1,\\ 2,\\ 3,\\ 4", box: true, note: "4 equations", cue: "at least four satellites"}
+        - {text: "≥ 4 visible from nearly anywhere", cue: "nearly anywhere"}
+
+  - id: S12
+    component: table
+    chapter: "How close does it get?"
+    say: >-
+      So how close does it get? Under open sky, phones are typically accurate to about five meters.
+      Near buildings, bridges and trees it gets worse, because they block and reflect the signals.
+      Survey equipment, with extra signals and corrections, can get to within a few centimeters. And
+      modern phones also use other satellite systems, like Europe's Galileo, plus Wi-Fi and cell
+      towers, to get a fix faster.
+    params:
+      heading: "How accurate is it?"
+      headers: ["Situation", "Typical accuracy"]
+      rows:
+        - ["Smartphone, open sky", "≈ 5 m"]
+        - ["Near buildings, bridges, trees", "worse (blocked, reflected signals)"]
+        - ["Survey receivers + corrections", "a few cm"]
+      row_cues: ["Under open sky", "Near buildings", "Survey equipment"]
+
+  - id: S13
+    component: bullets
+    chapter: "Remember this"
+    say: >-
+      So your phone never measures your position directly. It measures timings, turns them into
+      distances, and solves for the one point where they all agree, plus its own clock error. One
+      distance gives a circle. Two give two points. Three give one. And in space, a fourth fixes the
+      clock.
+    params:
+      heading: "Remember this"
+      items:
+        - {text: "Distance = speed of light × time", icon: clock, cue: "turns them into"}
+        - {text: "1 circle, 2 points, 1 point", icon: circles, cue: "One distance"}
+        - {text: "In 3D: spheres, not circles", icon: world, cue: "in space"}
+        - {text: "4th satellite fixes the clock", icon: satellite, cue: "fixes the clock"}
+
+  - id: S14
+    component: end-card
+    say: If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+    params: {line: "Thanks for watching"}

@@ -1,9 +1,10 @@
 variants:
   - template: equation
-    text: ""
-    highlight: []
-    tex: ""
+    text: "3 CIRCLES, 1 POINT"
+    highlight: ["1 POINT"]
+    tex: "d = c \\times \\Delta t"
+    note: "+ a 4th for the clock"
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: phone-map.jpg
+    text: "Your Phone Doesn't Know Where You Are"
+    highlight: ["Doesn't"]
