@@ -1,9 +1,10 @@
 variants:
   - template: equation
-    text: ""
-    highlight: []
-    tex: ""
+    text: "2× FARTHER = ¼ SIGNAL"
+    highlight: ["¼"]
+    tex: "S \\propto \\frac{1}{r^2}"
+    note: "+ the walls!"
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: wifi-room.jpg
+    text: "Why One Room Has No Wi-Fi"
+    highlight: ["No Wi-Fi"]
