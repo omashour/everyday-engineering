@@ -1,76 +1,81 @@
 shorts:
-  - title: "Calculus says the perfect can is as wide as it is tall #shorts"
-    hook: "The least-metal can is squat"
+  - title: "Where does height = diameter come from? #shorts"
+    hook: "Where does h = 2r come from?"
     end: "Full video on the channel"
-    description: "One derivative finds the soda can that uses the least metal.\n\nFull video: [paste the main video's link]"
+    description: "In the textbook model, one derivative shows why the least-metal can is as wide as it is tall.\n\nFull video: [paste the main video's link]"
     scenes:
       - id: A1
-        component: photo-overlay
+        component: diagram
         say: >-
-          Calculus says the soda can that uses the least metal is exactly as wide as it is tall.
-          Here's the one step that proves it.
+          The textbook's best can is exactly as wide as it is tall. That's for a closed cylinder
+          with the same metal everywhere and a fixed volume. One derivative shows why. Unroll it:
+          two circles, each pi r squared, and a rectangle two pi r by h.
         params:
-          src: can-real.jpg
-          credit: "Image: AI-generated"
-          title: "Least metal: h = d?"
-          overlays:
-            - {type: label, pos: [22, 30], text: "least metal: height = width", cue: "least metal"}
+          view: [1000, 600]
+          items:
+            - {type: circle, pos: [200, 180], r: 100, color: blue, label: "$\\pi r^2$", cue: "two circles"}
+            - {type: circle, pos: [200, 430], r: 100, color: blue, label: "$\\pi r^2$", cue: "two circles"}
+            - {type: rect, pos: [400, 150], size: [500, 320], label: "$2\\pi r \\times h$", cue: "a rectangle"}
       - id: A2
         component: equation-steps
         say: >-
-          Fix the volume, and the metal becomes two pi r squared plus two V over r. Set its
-          derivative to zero, and V equals two pi r cubed. Since V is also pi r squared h, h
-          equals two r. Height equals diameter.
+          Fix the volume, and the area becomes two pi r squared plus two V over r. Set the
+          derivative to zero: V equals two pi r cubed. Since V is pi r squared h, h equals two r.
         params:
           size: l
           lines:
-            - {tex: "A = 2\\pi r^2 + \\dfrac{2V}{r}", cue: "the metal becomes"}
+            - {tex: "A = 2\\pi r^2 + \\dfrac{2V}{r}", cue: "the area becomes"}
             - {tex: "V = 2\\pi r^3", cue: "derivative to zero"}
-            - {tex: "h = 2r", box: true, cue: "h equals two"}
+            - {tex: "h = 2r", box: true, cue: "h equals two r"}
       - id: A3
         component: big-fact
         say: >-
-          For a soda can, that's seven point seven centimeters each way. Real cans are much
-          taller. The full video shows why that's not a mistake.
+          Height equals diameter: about seven point seven centimeters each way for a soda can's
+          volume. The full video shows what changes for a real can.
         params:
           value: "7.7 × 7.7 cm"
-          label: "least-metal 355 mL can"
+          label: "textbook can, 355 mL"
           cue: "seven point seven"
-  - title: "Why a soda can is taller than the 'perfect' can #shorts"
-    hook: "The lid is 2.4× thicker"
+  - title: "Heavier ends make the best can taller #shorts"
+    hook: "Heavier ends, taller can"
     end: "Full video on the channel"
-    description: "Thicker ends change the calculus of the perfect can.\n\nFull video: [paste the main video's link]"
+    description: "Change one assumption in the textbook can model and the optimum shape changes.\n\nFull video: [paste the main video's link]"
     scenes:
       - id: B1
-        component: photo-overlay
-        say: >-
-          The lid of a soda can is about two point four times as thick as its wall. That changes
-          the perfect shape.
-        params:
-          src: can-real.jpg
-          credit: "Image: AI-generated"
-          title: "Thick lid, thin wall"
-          overlays:
-            - {type: callout, pos: [80, 25], text: "thick lid", side: right, cue: "lid of a soda"}
-            - {type: callout, pos: [80, 55], text: "thin wall", side: right, cue: "as its wall"}
-      - id: B2
         component: equation-steps
         say: >-
-          If the ends cost k times as much metal as the side, the same calculus gives height over
-          diameter equals k. With k around two point four, the cheapest can is about five point
-          eight centimeters wide and thirteen point six tall.
+          What if each end uses more metal per square centimeter? Say two point four times the
+          side. The same derivative now gives height over diameter equals two point four.
         params:
           size: l
           lines:
-            - {tex: "C = k \\cdot 2\\pi r^2 + 2\\pi r h", cue: "cost k times"}
-            - {tex: "h/d = k", box: true, cue: "height over diameter"}
-            - {tex: "d \\approx 5.8,\\ h \\approx 13.6\\ \\text{cm}", cue: "five point eight"}
-      - id: B3
-        component: big-fact
+            - {tex: "W = k \\cdot 2\\pi r^2 + 2\\pi r h", cue: "more metal per"}
+            - {tex: "k = 2.4", cue: "two point four times"}
+            - {tex: "h/D = k = 2.4", box: true, cue: "height over diameter"}
+      - id: B2
+        component: diagram
         say: >-
-          The real can, six point six wide, sits between the two answers. The full video does the
-          math.
+          With the same metal everywhere, the best can is about seven point seven centimeters each
+          way. With heavier ends, it's about five point seven wide and thirteen point eight tall.
+          Both hold the same volume.
         params:
-          value: "6.6 cm"
-          label: "the real can: in between"
-          cue: "six point six"
+          view: [1000, 600]
+          items:
+            - {type: rect, pos: [150, 330], size: [230, 230], fill: blue, cue: "same metal everywhere"}
+            - {type: text, pos: [265, 290], text: "7.7 × 7.7 cm", anchor: middle, cue: "seven point seven"}
+            - {type: rect, pos: [600, 147], size: [172, 413], fill: red, cue: "heavier ends"}
+            - {type: text, pos: [686, 110], text: "5.7 × 13.8 cm", anchor: middle, cue: "five point seven"}
+            - {type: ground, from: [80, 560], to: [920, 560]}
+          caption: "both hold 355 mL"
+      - id: B3
+        component: photo-overlay
+        say: >-
+          A real can has a narrow neck and a domed base, so neither model is the whole story. The
+          full video shows how the assumptions change the answer.
+        params:
+          src: can-neck-base.jpg
+          credit: "Image: AI-generated"
+          title: "Real can: neck and dome"
+          overlays:
+            - {type: callout, pos: [30, 30], text: "narrow neck", side: left, cue: "narrow neck"}
+            - {type: callout, pos: [75, 55], text: "domed base", side: right, cue: "domed base"}

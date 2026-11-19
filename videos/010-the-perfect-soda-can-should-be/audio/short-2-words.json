@@ -1,0 +1,462 @@
+[
+  {
+    "text": "What",
+    "start": 0.16,
+    "end": 0.4
+  },
+  {
+    "text": "if",
+    "start": 0.4,
+    "end": 0.64
+  },
+  {
+    "text": "each",
+    "start": 0.64,
+    "end": 1.04
+  },
+  {
+    "text": "end",
+    "start": 1.04,
+    "end": 1.36
+  },
+  {
+    "text": "uses",
+    "start": 1.44,
+    "end": 1.84
+  },
+  {
+    "text": "more",
+    "start": 1.84,
+    "end": 2.16
+  },
+  {
+    "text": "metal",
+    "start": 2.16,
+    "end": 2.56
+  },
+  {
+    "text": "per",
+    "start": 2.56,
+    "end": 2.72
+  },
+  {
+    "text": "square",
+    "start": 2.72,
+    "end": 3.04
+  },
+  {
+    "text": "centimeter,",
+    "start": 3.04,
+    "end": 3.68
+  },
+  {
+    "text": "say",
+    "start": 3.68,
+    "end": 3.92
+  },
+  {
+    "text": "two",
+    "start": 4,
+    "end": 4.08
+  },
+  {
+    "text": "point",
+    "start": 4.24,
+    "end": 4.48
+  },
+  {
+    "text": "four",
+    "start": 4.48,
+    "end": 4.72
+  },
+  {
+    "text": "times",
+    "start": 4.72,
+    "end": 4.96
+  },
+  {
+    "text": "the",
+    "start": 4.96,
+    "end": 5.12
+  },
+  {
+    "text": "side.",
+    "start": 5.12,
+    "end": 5.84
+  },
+  {
+    "text": "The",
+    "start": 5.84,
+    "end": 6
+  },
+  {
+    "text": "same",
+    "start": 6,
+    "end": 6.32
+  },
+  {
+    "text": "derivative",
+    "start": 6.32,
+    "end": 7.04
+  },
+  {
+    "text": "now",
+    "start": 7.04,
+    "end": 7.2
+  },
+  {
+    "text": "gives",
+    "start": 7.2,
+    "end": 7.52
+  },
+  {
+    "text": "height",
+    "start": 7.52,
+    "end": 8
+  },
+  {
+    "text": "over",
+    "start": 8,
+    "end": 8.24
+  },
+  {
+    "text": "diameter",
+    "start": 8.24,
+    "end": 8.8
+  },
+  {
+    "text": "equals",
+    "start": 8.96,
+    "end": 9.44
+  },
+  {
+    "text": "two",
+    "start": 9.44,
+    "end": 9.52
+  },
+  {
+    "text": "point",
+    "start": 9.68,
+    "end": 9.92
+  },
+  {
+    "text": "four.",
+    "start": 9.92,
+    "end": 10.72
+  },
+  {
+    "text": "With",
+    "start": 10.72,
+    "end": 11.04
+  },
+  {
+    "text": "the",
+    "start": 11.04,
+    "end": 11.12
+  },
+  {
+    "text": "same",
+    "start": 11.12,
+    "end": 11.44
+  },
+  {
+    "text": "metal",
+    "start": 11.44,
+    "end": 11.84
+  },
+  {
+    "text": "everywhere,",
+    "start": 11.84,
+    "end": 12.32
+  },
+  {
+    "text": "the",
+    "start": 12.32,
+    "end": 12.4
+  },
+  {
+    "text": "best",
+    "start": 12.4,
+    "end": 12.56
+  },
+  {
+    "text": "can",
+    "start": 12.72,
+    "end": 12.96
+  },
+  {
+    "text": "is",
+    "start": 13.12,
+    "end": 13.28
+  },
+  {
+    "text": "about",
+    "start": 13.28,
+    "end": 13.52
+  },
+  {
+    "text": "seven",
+    "start": 13.52,
+    "end": 13.92
+  },
+  {
+    "text": "point",
+    "start": 13.92,
+    "end": 14.16
+  },
+  {
+    "text": "seven",
+    "start": 14.16,
+    "end": 14.4
+  },
+  {
+    "text": "centimeters",
+    "start": 14.4,
+    "end": 14.96
+  },
+  {
+    "text": "each",
+    "start": 15.04,
+    "end": 15.36
+  },
+  {
+    "text": "way.",
+    "start": 15.36,
+    "end": 15.84
+  },
+  {
+    "text": "With",
+    "start": 15.84,
+    "end": 16.16
+  },
+  {
+    "text": "heavier",
+    "start": 16.16,
+    "end": 16.64
+  },
+  {
+    "text": "ends,",
+    "start": 16.64,
+    "end": 17.2
+  },
+  {
+    "text": "it's",
+    "start": 17.2,
+    "end": 17.52
+  },
+  {
+    "text": "about",
+    "start": 17.52,
+    "end": 17.76
+  },
+  {
+    "text": "five",
+    "start": 17.76,
+    "end": 18.16
+  },
+  {
+    "text": "point",
+    "start": 18.16,
+    "end": 18.4
+  },
+  {
+    "text": "seven",
+    "start": 18.4,
+    "end": 18.8
+  },
+  {
+    "text": "wide",
+    "start": 18.8,
+    "end": 19.2
+  },
+  {
+    "text": "and",
+    "start": 19.2,
+    "end": 19.44
+  },
+  {
+    "text": "thirteen",
+    "start": 19.44,
+    "end": 19.92
+  },
+  {
+    "text": "point",
+    "start": 19.92,
+    "end": 20.16
+  },
+  {
+    "text": "eight",
+    "start": 20.16,
+    "end": 20.56
+  },
+  {
+    "text": "tall.",
+    "start": 20.56,
+    "end": 21.2
+  },
+  {
+    "text": "Both",
+    "start": 21.2,
+    "end": 21.52
+  },
+  {
+    "text": "hold",
+    "start": 21.52,
+    "end": 21.76
+  },
+  {
+    "text": "the",
+    "start": 21.76,
+    "end": 21.92
+  },
+  {
+    "text": "same",
+    "start": 21.92,
+    "end": 22.16
+  },
+  {
+    "text": "volume.",
+    "start": 22.16,
+    "end": 22.96
+  },
+  {
+    "text": "A",
+    "start": 22.96,
+    "end": 23.2
+  },
+  {
+    "text": "real",
+    "start": 23.2,
+    "end": 23.52
+  },
+  {
+    "text": "can",
+    "start": 23.52,
+    "end": 23.76
+  },
+  {
+    "text": "has",
+    "start": 24,
+    "end": 24.16
+  },
+  {
+    "text": "a",
+    "start": 24.16,
+    "end": 24.24
+  },
+  {
+    "text": "narrow",
+    "start": 24.24,
+    "end": 24.56
+  },
+  {
+    "text": "neck",
+    "start": 24.56,
+    "end": 24.88
+  },
+  {
+    "text": "and",
+    "start": 24.88,
+    "end": 24.96
+  },
+  {
+    "text": "a",
+    "start": 24.96,
+    "end": 25.12
+  },
+  {
+    "text": "domed",
+    "start": 25.12,
+    "end": 25.6
+  },
+  {
+    "text": "base,",
+    "start": 25.6,
+    "end": 26.08
+  },
+  {
+    "text": "so",
+    "start": 26.08,
+    "end": 26.32
+  },
+  {
+    "text": "neither",
+    "start": 26.32,
+    "end": 26.64
+  },
+  {
+    "text": "model",
+    "start": 26.64,
+    "end": 26.88
+  },
+  {
+    "text": "is",
+    "start": 27.04,
+    "end": 27.2
+  },
+  {
+    "text": "the",
+    "start": 27.2,
+    "end": 27.28
+  },
+  {
+    "text": "whole",
+    "start": 27.28,
+    "end": 27.52
+  },
+  {
+    "text": "story.",
+    "start": 27.52,
+    "end": 28.16
+  },
+  {
+    "text": "The",
+    "start": 28.16,
+    "end": 28.32
+  },
+  {
+    "text": "full",
+    "start": 28.32,
+    "end": 28.72
+  },
+  {
+    "text": "video",
+    "start": 28.72,
+    "end": 29.04
+  },
+  {
+    "text": "shows",
+    "start": 29.04,
+    "end": 29.28
+  },
+  {
+    "text": "how",
+    "start": 29.28,
+    "end": 29.44
+  },
+  {
+    "text": "the",
+    "start": 29.44,
+    "end": 29.6
+  },
+  {
+    "text": "assumptions",
+    "start": 29.6,
+    "end": 30.24
+  },
+  {
+    "text": "change",
+    "start": 30.24,
+    "end": 30.56
+  },
+  {
+    "text": "the",
+    "start": 30.56,
+    "end": 30.64
+  },
+  {
+    "text": "answer.",
+    "start": 30.64,
+    "end": 31.2
+  }
+]

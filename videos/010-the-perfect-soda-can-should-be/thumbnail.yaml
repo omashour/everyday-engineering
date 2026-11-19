@@ -3,9 +3,9 @@ variants:
     text: "THE PERFECT CAN?"
     highlight: ["PERFECT"]
     tex: "h = 2r"
-    note: "height = diameter"
+    note: "textbook model"
   - template: split
     image: can-real.jpg
-    text: "Calculus Says This Can Is Wrong"
-    highlight: ["Wrong"]
+    text: "Why Isn't Your Can Square?"
+    highlight: ["Square?"]
     tex: "h = 2r"

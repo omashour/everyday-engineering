@@ -1,0 +1,3362 @@
+[
+  {
+    "text": "A",
+    "start": 0.24,
+    "end": 0.4
+  },
+  {
+    "text": "textbook",
+    "start": 0.4,
+    "end": 1.04
+  },
+  {
+    "text": "model",
+    "start": 1.04,
+    "end": 1.2
+  },
+  {
+    "text": "says",
+    "start": 1.36,
+    "end": 1.6
+  },
+  {
+    "text": "a",
+    "start": 1.6,
+    "end": 1.76
+  },
+  {
+    "text": "soda",
+    "start": 1.76,
+    "end": 2.16
+  },
+  {
+    "text": "can",
+    "start": 2.16,
+    "end": 2.48
+  },
+  {
+    "text": "should",
+    "start": 2.48,
+    "end": 2.64
+  },
+  {
+    "text": "be",
+    "start": 2.64,
+    "end": 2.8
+  },
+  {
+    "text": "as",
+    "start": 2.8,
+    "end": 2.96
+  },
+  {
+    "text": "wide",
+    "start": 2.96,
+    "end": 3.28
+  },
+  {
+    "text": "as",
+    "start": 3.28,
+    "end": 3.44
+  },
+  {
+    "text": "it",
+    "start": 3.44,
+    "end": 3.6
+  },
+  {
+    "text": "is",
+    "start": 3.6,
+    "end": 3.84
+  },
+  {
+    "text": "tall.",
+    "start": 3.84,
+    "end": 4.48
+  },
+  {
+    "text": "The",
+    "start": 4.48,
+    "end": 4.64
+  },
+  {
+    "text": "can",
+    "start": 4.64,
+    "end": 4.96
+  },
+  {
+    "text": "in",
+    "start": 4.96,
+    "end": 5.12
+  },
+  {
+    "text": "your",
+    "start": 5.12,
+    "end": 5.28
+  },
+  {
+    "text": "hand",
+    "start": 5.28,
+    "end": 5.52
+  },
+  {
+    "text": "is",
+    "start": 5.52,
+    "end": 5.68
+  },
+  {
+    "text": "almost",
+    "start": 5.68,
+    "end": 6
+  },
+  {
+    "text": "twice",
+    "start": 6,
+    "end": 6.24
+  },
+  {
+    "text": "as",
+    "start": 6.24,
+    "end": 6.4
+  },
+  {
+    "text": "tall",
+    "start": 6.4,
+    "end": 6.64
+  },
+  {
+    "text": "as",
+    "start": 6.64,
+    "end": 6.8
+  },
+  {
+    "text": "it",
+    "start": 6.8,
+    "end": 6.96
+  },
+  {
+    "text": "is",
+    "start": 6.96,
+    "end": 7.12
+  },
+  {
+    "text": "wide.",
+    "start": 7.12,
+    "end": 7.76
+  },
+  {
+    "text": "What",
+    "start": 7.76,
+    "end": 8.16
+  },
+  {
+    "text": "changes",
+    "start": 8.16,
+    "end": 8.64
+  },
+  {
+    "text": "when",
+    "start": 8.64,
+    "end": 8.8
+  },
+  {
+    "text": "we",
+    "start": 8.8,
+    "end": 8.96
+  },
+  {
+    "text": "model",
+    "start": 8.96,
+    "end": 9.28
+  },
+  {
+    "text": "a",
+    "start": 9.36,
+    "end": 9.52
+  },
+  {
+    "text": "real",
+    "start": 9.52,
+    "end": 9.84
+  },
+  {
+    "text": "can?",
+    "start": 9.84,
+    "end": 10.64
+  },
+  {
+    "text": "Let's",
+    "start": 10.64,
+    "end": 10.96
+  },
+  {
+    "text": "find",
+    "start": 10.96,
+    "end": 11.2
+  },
+  {
+    "text": "the",
+    "start": 11.2,
+    "end": 11.28
+  },
+  {
+    "text": "textbook",
+    "start": 11.28,
+    "end": 11.84
+  },
+  {
+    "text": "answer",
+    "start": 11.84,
+    "end": 12.16
+  },
+  {
+    "text": "with",
+    "start": 12.16,
+    "end": 12.32
+  },
+  {
+    "text": "one",
+    "start": 12.32,
+    "end": 12.56
+  },
+  {
+    "text": "derivative,",
+    "start": 12.56,
+    "end": 13.28
+  },
+  {
+    "text": "then",
+    "start": 13.28,
+    "end": 13.6
+  },
+  {
+    "text": "change",
+    "start": 13.6,
+    "end": 14
+  },
+  {
+    "text": "the",
+    "start": 14,
+    "end": 14.16
+  },
+  {
+    "text": "assumptions.",
+    "start": 14.16,
+    "end": 15.36
+  },
+  {
+    "text": "Here's",
+    "start": 15.36,
+    "end": 15.76
+  },
+  {
+    "text": "a",
+    "start": 15.76,
+    "end": 15.84
+  },
+  {
+    "text": "standard",
+    "start": 15.84,
+    "end": 16.24
+  },
+  {
+    "text": "twelve",
+    "start": 16.24,
+    "end": 16.64
+  },
+  {
+    "text": "ounce",
+    "start": 16.72,
+    "end": 17.04
+  },
+  {
+    "text": "can.",
+    "start": 17.04,
+    "end": 17.44
+  },
+  {
+    "text": "It's",
+    "start": 17.44,
+    "end": 17.68
+  },
+  {
+    "text": "filled",
+    "start": 17.68,
+    "end": 18.08
+  },
+  {
+    "text": "with",
+    "start": 18.08,
+    "end": 18.32
+  },
+  {
+    "text": "about",
+    "start": 18.32,
+    "end": 18.56
+  },
+  {
+    "text": "three",
+    "start": 18.56,
+    "end": 18.88
+  },
+  {
+    "text": "hundred",
+    "start": 18.88,
+    "end": 19.04
+  },
+  {
+    "text": "fifty",
+    "start": 19.12,
+    "end": 19.36
+  },
+  {
+    "text": "five",
+    "start": 19.36,
+    "end": 19.6
+  },
+  {
+    "text": "milliliters,",
+    "start": 19.6,
+    "end": 20.4
+  },
+  {
+    "text": "and",
+    "start": 20.4,
+    "end": 20.56
+  },
+  {
+    "text": "it's",
+    "start": 20.56,
+    "end": 20.8
+  },
+  {
+    "text": "about",
+    "start": 20.8,
+    "end": 21.04
+  },
+  {
+    "text": "six",
+    "start": 21.04,
+    "end": 21.36
+  },
+  {
+    "text": "point",
+    "start": 21.36,
+    "end": 21.52
+  },
+  {
+    "text": "six",
+    "start": 21.52,
+    "end": 21.76
+  },
+  {
+    "text": "centimeters",
+    "start": 21.76,
+    "end": 22.32
+  },
+  {
+    "text": "wide",
+    "start": 22.4,
+    "end": 22.72
+  },
+  {
+    "text": "and",
+    "start": 22.72,
+    "end": 22.88
+  },
+  {
+    "text": "twelve",
+    "start": 22.88,
+    "end": 23.36
+  },
+  {
+    "text": "point",
+    "start": 23.36,
+    "end": 23.6
+  },
+  {
+    "text": "two",
+    "start": 23.6,
+    "end": 23.76
+  },
+  {
+    "text": "tall.",
+    "start": 24,
+    "end": 24.72
+  },
+  {
+    "text": "But",
+    "start": 24.72,
+    "end": 24.96
+  },
+  {
+    "text": "it",
+    "start": 24.96,
+    "end": 25.12
+  },
+  {
+    "text": "isn't",
+    "start": 25.12,
+    "end": 25.44
+  },
+  {
+    "text": "a",
+    "start": 25.44,
+    "end": 25.6
+  },
+  {
+    "text": "simple",
+    "start": 25.6,
+    "end": 26
+  },
+  {
+    "text": "cylinder.",
+    "start": 26,
+    "end": 26.8
+  },
+  {
+    "text": "It",
+    "start": 26.8,
+    "end": 26.96
+  },
+  {
+    "text": "has",
+    "start": 26.96,
+    "end": 27.12
+  },
+  {
+    "text": "empty",
+    "start": 27.12,
+    "end": 27.52
+  },
+  {
+    "text": "space",
+    "start": 27.52,
+    "end": 27.84
+  },
+  {
+    "text": "at",
+    "start": 27.84,
+    "end": 27.92
+  },
+  {
+    "text": "the",
+    "start": 27.92,
+    "end": 28.08
+  },
+  {
+    "text": "top,",
+    "start": 28.08,
+    "end": 28.48
+  },
+  {
+    "text": "a",
+    "start": 28.48,
+    "end": 28.56
+  },
+  {
+    "text": "narrow",
+    "start": 28.56,
+    "end": 28.88
+  },
+  {
+    "text": "neck,",
+    "start": 28.88,
+    "end": 29.36
+  },
+  {
+    "text": "and",
+    "start": 29.36,
+    "end": 29.52
+  },
+  {
+    "text": "a",
+    "start": 29.52,
+    "end": 29.6
+  },
+  {
+    "text": "domed",
+    "start": 29.6,
+    "end": 30.08
+  },
+  {
+    "text": "base.",
+    "start": 30.16,
+    "end": 30.88
+  },
+  {
+    "text": "A",
+    "start": 30.88,
+    "end": 31.04
+  },
+  {
+    "text": "plain",
+    "start": 31.04,
+    "end": 31.52
+  },
+  {
+    "text": "cylinder",
+    "start": 31.52,
+    "end": 32.08
+  },
+  {
+    "text": "this",
+    "start": 32.16,
+    "end": 32.4
+  },
+  {
+    "text": "wide,",
+    "start": 32.4,
+    "end": 32.8
+  },
+  {
+    "text": "holding",
+    "start": 32.96,
+    "end": 33.44
+  },
+  {
+    "text": "exactly",
+    "start": 33.44,
+    "end": 33.84
+  },
+  {
+    "text": "three",
+    "start": 33.84,
+    "end": 34.16
+  },
+  {
+    "text": "hundred",
+    "start": 34.16,
+    "end": 34.32
+  },
+  {
+    "text": "fifty",
+    "start": 34.4,
+    "end": 34.64
+  },
+  {
+    "text": "five",
+    "start": 34.64,
+    "end": 34.88
+  },
+  {
+    "text": "milliliters,",
+    "start": 34.88,
+    "end": 35.84
+  },
+  {
+    "text": "would",
+    "start": 35.84,
+    "end": 36.08
+  },
+  {
+    "text": "be",
+    "start": 36.08,
+    "end": 36.24
+  },
+  {
+    "text": "only",
+    "start": 36.24,
+    "end": 36.48
+  },
+  {
+    "text": "about",
+    "start": 36.48,
+    "end": 36.72
+  },
+  {
+    "text": "ten",
+    "start": 36.72,
+    "end": 36.96
+  },
+  {
+    "text": "point",
+    "start": 37.12,
+    "end": 37.36
+  },
+  {
+    "text": "four",
+    "start": 37.36,
+    "end": 37.68
+  },
+  {
+    "text": "centimeters",
+    "start": 37.68,
+    "end": 38.4
+  },
+  {
+    "text": "tall.",
+    "start": 38.4,
+    "end": 39.28
+  },
+  {
+    "text": "The",
+    "start": 39.28,
+    "end": 39.52
+  },
+  {
+    "text": "textbook",
+    "start": 39.52,
+    "end": 40.08
+  },
+  {
+    "text": "model",
+    "start": 40.08,
+    "end": 40.32
+  },
+  {
+    "text": "is",
+    "start": 40.32,
+    "end": 40.48
+  },
+  {
+    "text": "simpler.",
+    "start": 40.48,
+    "end": 41.12
+  },
+  {
+    "text": "A",
+    "start": 41.12,
+    "end": 41.2
+  },
+  {
+    "text": "closed",
+    "start": 41.2,
+    "end": 41.68
+  },
+  {
+    "text": "cylinder,",
+    "start": 41.68,
+    "end": 42.24
+  },
+  {
+    "text": "with",
+    "start": 42.24,
+    "end": 42.48
+  },
+  {
+    "text": "the",
+    "start": 42.48,
+    "end": 42.56
+  },
+  {
+    "text": "same",
+    "start": 42.56,
+    "end": 42.88
+  },
+  {
+    "text": "thickness",
+    "start": 42.88,
+    "end": 43.28
+  },
+  {
+    "text": "of",
+    "start": 43.28,
+    "end": 43.44
+  },
+  {
+    "text": "metal",
+    "start": 43.44,
+    "end": 43.84
+  },
+  {
+    "text": "everywhere,",
+    "start": 43.84,
+    "end": 44.4
+  },
+  {
+    "text": "holding",
+    "start": 44.4,
+    "end": 44.72
+  },
+  {
+    "text": "a",
+    "start": 44.72,
+    "end": 44.88
+  },
+  {
+    "text": "fixed",
+    "start": 44.88,
+    "end": 45.28
+  },
+  {
+    "text": "volume.",
+    "start": 45.28,
+    "end": 46
+  },
+  {
+    "text": "Unroll",
+    "start": 46,
+    "end": 46.72
+  },
+  {
+    "text": "it,",
+    "start": 46.72,
+    "end": 46.96
+  },
+  {
+    "text": "and",
+    "start": 46.96,
+    "end": 47.2
+  },
+  {
+    "text": "you",
+    "start": 47.2,
+    "end": 47.36
+  },
+  {
+    "text": "get",
+    "start": 47.36,
+    "end": 47.52
+  },
+  {
+    "text": "two",
+    "start": 47.52,
+    "end": 47.76
+  },
+  {
+    "text": "circles,",
+    "start": 47.76,
+    "end": 48.32
+  },
+  {
+    "text": "each",
+    "start": 48.32,
+    "end": 48.56
+  },
+  {
+    "text": "pi",
+    "start": 48.64,
+    "end": 48.8
+  },
+  {
+    "text": "r",
+    "start": 49.04,
+    "end": 49.28
+  },
+  {
+    "text": "squared,",
+    "start": 49.28,
+    "end": 49.92
+  },
+  {
+    "text": "and",
+    "start": 49.92,
+    "end": 50.08
+  },
+  {
+    "text": "a",
+    "start": 50.08,
+    "end": 50.16
+  },
+  {
+    "text": "rectangle,",
+    "start": 50.16,
+    "end": 50.88
+  },
+  {
+    "text": "two",
+    "start": 50.88,
+    "end": 50.96
+  },
+  {
+    "text": "pi",
+    "start": 51.2,
+    "end": 51.36
+  },
+  {
+    "text": "r",
+    "start": 51.6,
+    "end": 51.84
+  },
+  {
+    "text": "wide",
+    "start": 51.84,
+    "end": 52.08
+  },
+  {
+    "text": "and",
+    "start": 52.16,
+    "end": 52.4
+  },
+  {
+    "text": "h",
+    "start": 52.4,
+    "end": 52.64
+  },
+  {
+    "text": "tall.",
+    "start": 52.88,
+    "end": 53.52
+  },
+  {
+    "text": "So",
+    "start": 53.52,
+    "end": 53.76
+  },
+  {
+    "text": "the",
+    "start": 53.76,
+    "end": 53.92
+  },
+  {
+    "text": "metal",
+    "start": 53.92,
+    "end": 54.32
+  },
+  {
+    "text": "area",
+    "start": 54.32,
+    "end": 54.64
+  },
+  {
+    "text": "is",
+    "start": 54.64,
+    "end": 54.8
+  },
+  {
+    "text": "two",
+    "start": 54.8,
+    "end": 54.96
+  },
+  {
+    "text": "pi",
+    "start": 55.12,
+    "end": 55.28
+  },
+  {
+    "text": "r",
+    "start": 55.52,
+    "end": 55.76
+  },
+  {
+    "text": "squared",
+    "start": 55.76,
+    "end": 56.24
+  },
+  {
+    "text": "plus",
+    "start": 56.4,
+    "end": 56.64
+  },
+  {
+    "text": "two",
+    "start": 56.64,
+    "end": 56.72
+  },
+  {
+    "text": "pi",
+    "start": 56.96,
+    "end": 57.12
+  },
+  {
+    "text": "rh.",
+    "start": 57.28,
+    "end": 58
+  },
+  {
+    "text": "The",
+    "start": 58.45,
+    "end": 58.69
+  },
+  {
+    "text": "volume",
+    "start": 58.69,
+    "end": 59.09
+  },
+  {
+    "text": "is",
+    "start": 59.09,
+    "end": 59.33
+  },
+  {
+    "text": "fixed",
+    "start": 59.33,
+    "end": 59.73
+  },
+  {
+    "text": "at",
+    "start": 59.73,
+    "end": 59.89
+  },
+  {
+    "text": "355",
+    "start": 59.89,
+    "end": 60.61
+  },
+  {
+    "text": "cubic",
+    "start": 60.77,
+    "end": 61.17
+  },
+  {
+    "text": "centimeters.",
+    "start": 61.17,
+    "end": 61.97
+  },
+  {
+    "text": "Volume",
+    "start": 61.97,
+    "end": 62.37
+  },
+  {
+    "text": "is",
+    "start": 62.37,
+    "end": 62.61
+  },
+  {
+    "text": "pi",
+    "start": 62.61,
+    "end": 62.77
+  },
+  {
+    "text": "r",
+    "start": 63.01,
+    "end": 63.25
+  },
+  {
+    "text": "squared",
+    "start": 63.25,
+    "end": 63.65
+  },
+  {
+    "text": "h,",
+    "start": 63.73,
+    "end": 64.29
+  },
+  {
+    "text": "so",
+    "start": 64.29,
+    "end": 64.53
+  },
+  {
+    "text": "once",
+    "start": 64.53,
+    "end": 64.77
+  },
+  {
+    "text": "you",
+    "start": 64.77,
+    "end": 64.85
+  },
+  {
+    "text": "pick",
+    "start": 64.85,
+    "end": 65.09
+  },
+  {
+    "text": "r,",
+    "start": 65.09,
+    "end": 65.65
+  },
+  {
+    "text": "the",
+    "start": 65.65,
+    "end": 65.73
+  },
+  {
+    "text": "height",
+    "start": 65.73,
+    "end": 66.13
+  },
+  {
+    "text": "is",
+    "start": 66.13,
+    "end": 66.37
+  },
+  {
+    "text": "set.",
+    "start": 66.37,
+    "end": 66.93
+  },
+  {
+    "text": "H",
+    "start": 66.93,
+    "end": 67.17
+  },
+  {
+    "text": "equals",
+    "start": 67.41,
+    "end": 67.81
+  },
+  {
+    "text": "v",
+    "start": 67.81,
+    "end": 68.05
+  },
+  {
+    "text": "over",
+    "start": 68.21,
+    "end": 68.37
+  },
+  {
+    "text": "pi",
+    "start": 68.37,
+    "end": 68.53
+  },
+  {
+    "text": "r",
+    "start": 68.77,
+    "end": 69.01
+  },
+  {
+    "text": "squared.",
+    "start": 69.01,
+    "end": 69.97
+  },
+  {
+    "text": "Substitute,",
+    "start": 69.97,
+    "end": 70.77
+  },
+  {
+    "text": "and",
+    "start": 70.77,
+    "end": 70.93
+  },
+  {
+    "text": "the",
+    "start": 70.93,
+    "end": 71.09
+  },
+  {
+    "text": "area",
+    "start": 71.09,
+    "end": 71.41
+  },
+  {
+    "text": "depends",
+    "start": 71.41,
+    "end": 71.73
+  },
+  {
+    "text": "on",
+    "start": 71.73,
+    "end": 71.97
+  },
+  {
+    "text": "r",
+    "start": 71.97,
+    "end": 72.21
+  },
+  {
+    "text": "alone.",
+    "start": 72.37,
+    "end": 73.01
+  },
+  {
+    "text": "2",
+    "start": 73.01,
+    "end": 73.33
+  },
+  {
+    "text": "pi",
+    "start": 73.33,
+    "end": 73.49
+  },
+  {
+    "text": "r",
+    "start": 73.65,
+    "end": 73.89
+  },
+  {
+    "text": "squared",
+    "start": 73.89,
+    "end": 74.37
+  },
+  {
+    "text": "plus",
+    "start": 74.45,
+    "end": 74.69
+  },
+  {
+    "text": "2v",
+    "start": 74.69,
+    "end": 75.25
+  },
+  {
+    "text": "over",
+    "start": 75.41,
+    "end": 75.65
+  },
+  {
+    "text": "r.",
+    "start": 75.65,
+    "end": 76.53
+  },
+  {
+    "text": "Now",
+    "start": 76.53,
+    "end": 76.85
+  },
+  {
+    "text": "graph",
+    "start": 76.85,
+    "end": 77.41
+  },
+  {
+    "text": "that",
+    "start": 77.41,
+    "end": 77.57
+  },
+  {
+    "text": "area",
+    "start": 77.57,
+    "end": 77.81
+  },
+  {
+    "text": "against",
+    "start": 77.81,
+    "end": 78.05
+  },
+  {
+    "text": "the",
+    "start": 78.05,
+    "end": 78.13
+  },
+  {
+    "text": "can's",
+    "start": 78.13,
+    "end": 78.69
+  },
+  {
+    "text": "width,",
+    "start": 78.69,
+    "end": 79.09
+  },
+  {
+    "text": "the",
+    "start": 79.09,
+    "end": 79.25
+  },
+  {
+    "text": "diameter,",
+    "start": 79.25,
+    "end": 79.73
+  },
+  {
+    "text": "which",
+    "start": 79.81,
+    "end": 79.89
+  },
+  {
+    "text": "is",
+    "start": 79.89,
+    "end": 80.05
+  },
+  {
+    "text": "2",
+    "start": 80.05,
+    "end": 80.37
+  },
+  {
+    "text": "r.",
+    "start": 80.37,
+    "end": 80.93
+  },
+  {
+    "text": "A",
+    "start": 80.93,
+    "end": 81.17
+  },
+  {
+    "text": "very",
+    "start": 81.17,
+    "end": 81.41
+  },
+  {
+    "text": "narrow",
+    "start": 81.41,
+    "end": 81.81
+  },
+  {
+    "text": "can",
+    "start": 81.81,
+    "end": 82.05
+  },
+  {
+    "text": "needs",
+    "start": 82.21,
+    "end": 82.45
+  },
+  {
+    "text": "a",
+    "start": 82.45,
+    "end": 82.53
+  },
+  {
+    "text": "lot",
+    "start": 82.53,
+    "end": 82.61
+  },
+  {
+    "text": "of",
+    "start": 82.61,
+    "end": 82.77
+  },
+  {
+    "text": "sidewall.",
+    "start": 82.77,
+    "end": 83.81
+  },
+  {
+    "text": "A",
+    "start": 83.81,
+    "end": 83.97
+  },
+  {
+    "text": "very",
+    "start": 83.97,
+    "end": 84.21
+  },
+  {
+    "text": "wide",
+    "start": 84.21,
+    "end": 84.53
+  },
+  {
+    "text": "can",
+    "start": 84.53,
+    "end": 84.77
+  },
+  {
+    "text": "needs",
+    "start": 85.01,
+    "end": 85.25
+  },
+  {
+    "text": "huge",
+    "start": 85.25,
+    "end": 85.65
+  },
+  {
+    "text": "n's,",
+    "start": 85.65,
+    "end": 86.29
+  },
+  {
+    "text": "so",
+    "start": 86.29,
+    "end": 86.53
+  },
+  {
+    "text": "the",
+    "start": 86.53,
+    "end": 86.61
+  },
+  {
+    "text": "area",
+    "start": 86.61,
+    "end": 87.09
+  },
+  {
+    "text": "rises",
+    "start": 87.09,
+    "end": 87.57
+  },
+  {
+    "text": "on",
+    "start": 87.57,
+    "end": 87.73
+  },
+  {
+    "text": "both",
+    "start": 87.73,
+    "end": 87.97
+  },
+  {
+    "text": "sides.",
+    "start": 87.97,
+    "end": 88.53
+  },
+  {
+    "text": "And",
+    "start": 88.53,
+    "end": 88.77
+  },
+  {
+    "text": "in",
+    "start": 88.77,
+    "end": 88.93
+  },
+  {
+    "text": "between,",
+    "start": 88.93,
+    "end": 89.49
+  },
+  {
+    "text": "there's",
+    "start": 89.49,
+    "end": 89.73
+  },
+  {
+    "text": "a",
+    "start": 89.73,
+    "end": 89.81
+  },
+  {
+    "text": "lowest",
+    "start": 89.81,
+    "end": 90.37
+  },
+  {
+    "text": "point,",
+    "start": 90.37,
+    "end": 90.93
+  },
+  {
+    "text": "about",
+    "start": 90.93,
+    "end": 91.09
+  },
+  {
+    "text": "278",
+    "start": 91.25,
+    "end": 92.13
+  },
+  {
+    "text": "square",
+    "start": 92.21,
+    "end": 92.53
+  },
+  {
+    "text": "centimeters.",
+    "start": 92.53,
+    "end": 93.57
+  },
+  {
+    "text": "The",
+    "start": 93.57,
+    "end": 93.81
+  },
+  {
+    "text": "derivative",
+    "start": 93.81,
+    "end": 94.53
+  },
+  {
+    "text": "find",
+    "start": 94.53,
+    "end": 94.93
+  },
+  {
+    "text": "that",
+    "start": 94.93,
+    "end": 95.17
+  },
+  {
+    "text": "point",
+    "start": 95.17,
+    "end": 95.49
+  },
+  {
+    "text": "exactly.",
+    "start": 95.49,
+    "end": 96.37
+  },
+  {
+    "text": "The",
+    "start": 96.37,
+    "end": 96.61
+  },
+  {
+    "text": "derivative",
+    "start": 96.61,
+    "end": 97.25
+  },
+  {
+    "text": "is",
+    "start": 97.25,
+    "end": 97.41
+  },
+  {
+    "text": "the",
+    "start": 97.41,
+    "end": 97.57
+  },
+  {
+    "text": "slope",
+    "start": 97.57,
+    "end": 97.97
+  },
+  {
+    "text": "of",
+    "start": 97.97,
+    "end": 98.05
+  },
+  {
+    "text": "the",
+    "start": 98.05,
+    "end": 98.21
+  },
+  {
+    "text": "curve,",
+    "start": 98.21,
+    "end": 98.77
+  },
+  {
+    "text": "and",
+    "start": 98.77,
+    "end": 99.01
+  },
+  {
+    "text": "at",
+    "start": 99.01,
+    "end": 99.09
+  },
+  {
+    "text": "the",
+    "start": 99.09,
+    "end": 99.17
+  },
+  {
+    "text": "bottom",
+    "start": 99.17,
+    "end": 99.49
+  },
+  {
+    "text": "of",
+    "start": 99.49,
+    "end": 99.57
+  },
+  {
+    "text": "this",
+    "start": 99.57,
+    "end": 99.73
+  },
+  {
+    "text": "valley,",
+    "start": 99.73,
+    "end": 100.29
+  },
+  {
+    "text": "the",
+    "start": 100.29,
+    "end": 100.37
+  },
+  {
+    "text": "slope",
+    "start": 100.37,
+    "end": 100.77
+  },
+  {
+    "text": "is",
+    "start": 100.77,
+    "end": 101.01
+  },
+  {
+    "text": "zero.",
+    "start": 101.01,
+    "end": 101.65
+  },
+  {
+    "text": "The",
+    "start": 101.65,
+    "end": 101.81
+  },
+  {
+    "text": "derivative",
+    "start": 101.81,
+    "end": 102.29
+  },
+  {
+    "text": "of",
+    "start": 102.29,
+    "end": 102.45
+  },
+  {
+    "text": "the",
+    "start": 102.45,
+    "end": 102.53
+  },
+  {
+    "text": "area",
+    "start": 102.53,
+    "end": 102.93
+  },
+  {
+    "text": "is",
+    "start": 102.93,
+    "end": 103.09
+  },
+  {
+    "text": "4",
+    "start": 103.09,
+    "end": 103.41
+  },
+  {
+    "text": "pi",
+    "start": 103.57,
+    "end": 103.73
+  },
+  {
+    "text": "r",
+    "start": 103.89,
+    "end": 104.13
+  },
+  {
+    "text": "minus",
+    "start": 104.21,
+    "end": 104.53
+  },
+  {
+    "text": "2v",
+    "start": 104.53,
+    "end": 105.09
+  },
+  {
+    "text": "over",
+    "start": 105.17,
+    "end": 105.33
+  },
+  {
+    "text": "r",
+    "start": 105.33,
+    "end": 105.65
+  },
+  {
+    "text": "squared.",
+    "start": 105.65,
+    "end": 106.37
+  },
+  {
+    "text": "Set",
+    "start": 106.37,
+    "end": 106.69
+  },
+  {
+    "text": "it",
+    "start": 106.69,
+    "end": 106.85
+  },
+  {
+    "text": "to",
+    "start": 106.85,
+    "end": 107.01
+  },
+  {
+    "text": "zero,",
+    "start": 107.01,
+    "end": 107.41
+  },
+  {
+    "text": "and",
+    "start": 107.41,
+    "end": 107.65
+  },
+  {
+    "text": "v",
+    "start": 107.65,
+    "end": 107.89
+  },
+  {
+    "text": "equals",
+    "start": 108.05,
+    "end": 108.37
+  },
+  {
+    "text": "2",
+    "start": 108.37,
+    "end": 108.69
+  },
+  {
+    "text": "pi",
+    "start": 108.69,
+    "end": 108.85
+  },
+  {
+    "text": "r",
+    "start": 109.09,
+    "end": 109.33
+  },
+  {
+    "text": "cubed.",
+    "start": 109.33,
+    "end": 110.13
+  },
+  {
+    "text": "But",
+    "start": 110.13,
+    "end": 110.45
+  },
+  {
+    "text": "v",
+    "start": 110.45,
+    "end": 110.69
+  },
+  {
+    "text": "is",
+    "start": 110.85,
+    "end": 111.01
+  },
+  {
+    "text": "also",
+    "start": 111.01,
+    "end": 111.17
+  },
+  {
+    "text": "pi",
+    "start": 111.17,
+    "end": 111.33
+  },
+  {
+    "text": "r",
+    "start": 111.57,
+    "end": 111.81
+  },
+  {
+    "text": "squared",
+    "start": 111.81,
+    "end": 112.13
+  },
+  {
+    "text": "h,",
+    "start": 112.29,
+    "end": 112.69
+  },
+  {
+    "text": "so",
+    "start": 112.69,
+    "end": 112.93
+  },
+  {
+    "text": "pi",
+    "start": 112.93,
+    "end": 113.09
+  },
+  {
+    "text": "r",
+    "start": 113.25,
+    "end": 113.41
+  },
+  {
+    "text": "squared",
+    "start": 113.41,
+    "end": 113.73
+  },
+  {
+    "text": "h",
+    "start": 113.81,
+    "end": 114.05
+  },
+  {
+    "text": "equals",
+    "start": 114.05,
+    "end": 114.37
+  },
+  {
+    "text": "2",
+    "start": 114.37,
+    "end": 114.61
+  },
+  {
+    "text": "pi",
+    "start": 114.61,
+    "end": 114.77
+  },
+  {
+    "text": "r",
+    "start": 114.93,
+    "end": 115.17
+  },
+  {
+    "text": "cubed,",
+    "start": 115.17,
+    "end": 115.73
+  },
+  {
+    "text": "and",
+    "start": 115.73,
+    "end": 115.97
+  },
+  {
+    "text": "h",
+    "start": 115.97,
+    "end": 116.29
+  },
+  {
+    "text": "equals",
+    "start": 116.29,
+    "end": 116.69
+  },
+  {
+    "text": "2r.",
+    "start": 116.69,
+    "end": 117.57
+  },
+  {
+    "text": "Height",
+    "start": 117.57,
+    "end": 118.05
+  },
+  {
+    "text": "equals",
+    "start": 118.05,
+    "end": 118.53
+  },
+  {
+    "text": "diameter.",
+    "start": 118.53,
+    "end": 119.33
+  },
+  {
+    "text": "For",
+    "start": 119.66,
+    "end": 119.82
+  },
+  {
+    "text": "three",
+    "start": 119.82,
+    "end": 119.98
+  },
+  {
+    "text": "fifty",
+    "start": 120.14,
+    "end": 120.46
+  },
+  {
+    "text": "five",
+    "start": 120.46,
+    "end": 120.62
+  },
+  {
+    "text": "milliliters,",
+    "start": 120.62,
+    "end": 121.42
+  },
+  {
+    "text": "that's",
+    "start": 121.42,
+    "end": 121.74
+  },
+  {
+    "text": "about",
+    "start": 121.74,
+    "end": 121.9
+  },
+  {
+    "text": "seven",
+    "start": 121.9,
+    "end": 122.22
+  },
+  {
+    "text": "point",
+    "start": 122.22,
+    "end": 122.46
+  },
+  {
+    "text": "seven",
+    "start": 122.46,
+    "end": 122.78
+  },
+  {
+    "text": "centimeters",
+    "start": 122.78,
+    "end": 123.26
+  },
+  {
+    "text": "each",
+    "start": 123.42,
+    "end": 123.74
+  },
+  {
+    "text": "way.",
+    "start": 123.74,
+    "end": 124.46
+  },
+  {
+    "text": "Now",
+    "start": 124.46,
+    "end": 124.7
+  },
+  {
+    "text": "give",
+    "start": 124.86,
+    "end": 125.18
+  },
+  {
+    "text": "our",
+    "start": 125.18,
+    "end": 125.34
+  },
+  {
+    "text": "simple",
+    "start": 125.34,
+    "end": 125.66
+  },
+  {
+    "text": "cylinder",
+    "start": 125.66,
+    "end": 126.06
+  },
+  {
+    "text": "the",
+    "start": 126.22,
+    "end": 126.38
+  },
+  {
+    "text": "same",
+    "start": 126.38,
+    "end": 126.62
+  },
+  {
+    "text": "width",
+    "start": 126.62,
+    "end": 126.86
+  },
+  {
+    "text": "as",
+    "start": 126.86,
+    "end": 127.02
+  },
+  {
+    "text": "the",
+    "start": 127.02,
+    "end": 127.18
+  },
+  {
+    "text": "real",
+    "start": 127.18,
+    "end": 127.42
+  },
+  {
+    "text": "can,",
+    "start": 127.42,
+    "end": 127.9
+  },
+  {
+    "text": "six",
+    "start": 127.9,
+    "end": 128.14
+  },
+  {
+    "text": "point",
+    "start": 128.14,
+    "end": 128.38
+  },
+  {
+    "text": "six",
+    "start": 128.38,
+    "end": 128.62
+  },
+  {
+    "text": "centimeters.",
+    "start": 128.62,
+    "end": 129.42
+  },
+  {
+    "text": "It",
+    "start": 129.42,
+    "end": 129.58
+  },
+  {
+    "text": "needs",
+    "start": 129.58,
+    "end": 129.9
+  },
+  {
+    "text": "only",
+    "start": 129.9,
+    "end": 130.14
+  },
+  {
+    "text": "about",
+    "start": 130.14,
+    "end": 130.38
+  },
+  {
+    "text": "two",
+    "start": 130.38,
+    "end": 130.54
+  },
+  {
+    "text": "percent",
+    "start": 130.7,
+    "end": 131.02
+  },
+  {
+    "text": "more",
+    "start": 131.02,
+    "end": 131.26
+  },
+  {
+    "text": "surface",
+    "start": 131.26,
+    "end": 131.66
+  },
+  {
+    "text": "area",
+    "start": 131.66,
+    "end": 131.98
+  },
+  {
+    "text": "than",
+    "start": 131.98,
+    "end": 132.06
+  },
+  {
+    "text": "the",
+    "start": 132.06,
+    "end": 132.22
+  },
+  {
+    "text": "textbook",
+    "start": 132.22,
+    "end": 132.78
+  },
+  {
+    "text": "optimum.",
+    "start": 132.78,
+    "end": 133.42
+  },
+  {
+    "text": "Near",
+    "start": 133.42,
+    "end": 133.74
+  },
+  {
+    "text": "a",
+    "start": 133.74,
+    "end": 133.9
+  },
+  {
+    "text": "minimum,",
+    "start": 133.9,
+    "end": 134.38
+  },
+  {
+    "text": "the",
+    "start": 134.38,
+    "end": 134.46
+  },
+  {
+    "text": "curve",
+    "start": 134.46,
+    "end": 134.86
+  },
+  {
+    "text": "is",
+    "start": 134.86,
+    "end": 134.94
+  },
+  {
+    "text": "almost",
+    "start": 134.94,
+    "end": 135.26
+  },
+  {
+    "text": "flat,",
+    "start": 135.26,
+    "end": 135.82
+  },
+  {
+    "text": "so",
+    "start": 135.82,
+    "end": 136.06
+  },
+  {
+    "text": "a",
+    "start": 136.06,
+    "end": 136.14
+  },
+  {
+    "text": "fairly",
+    "start": 136.14,
+    "end": 136.54
+  },
+  {
+    "text": "wide",
+    "start": 136.54,
+    "end": 136.78
+  },
+  {
+    "text": "range",
+    "start": 136.78,
+    "end": 137.02
+  },
+  {
+    "text": "of",
+    "start": 137.02,
+    "end": 137.18
+  },
+  {
+    "text": "widths",
+    "start": 137.18,
+    "end": 137.74
+  },
+  {
+    "text": "costs",
+    "start": 137.74,
+    "end": 138.14
+  },
+  {
+    "text": "very",
+    "start": 138.14,
+    "end": 138.38
+  },
+  {
+    "text": "little",
+    "start": 138.38,
+    "end": 138.7
+  },
+  {
+    "text": "extra.",
+    "start": 138.7,
+    "end": 139.66
+  },
+  {
+    "text": "Now,",
+    "start": 139.66,
+    "end": 140.06
+  },
+  {
+    "text": "a",
+    "start": 140.06,
+    "end": 140.22
+  },
+  {
+    "text": "thought",
+    "start": 140.22,
+    "end": 140.7
+  },
+  {
+    "text": "experiment.",
+    "start": 140.7,
+    "end": 141.5
+  },
+  {
+    "text": "What",
+    "start": 141.5,
+    "end": 141.74
+  },
+  {
+    "text": "if",
+    "start": 141.74,
+    "end": 141.98
+  },
+  {
+    "text": "each",
+    "start": 141.98,
+    "end": 142.3
+  },
+  {
+    "text": "end",
+    "start": 142.3,
+    "end": 142.62
+  },
+  {
+    "text": "uses",
+    "start": 142.62,
+    "end": 143.02
+  },
+  {
+    "text": "more",
+    "start": 143.02,
+    "end": 143.26
+  },
+  {
+    "text": "metal",
+    "start": 143.26,
+    "end": 143.66
+  },
+  {
+    "text": "per",
+    "start": 143.66,
+    "end": 143.82
+  },
+  {
+    "text": "square",
+    "start": 143.82,
+    "end": 144.14
+  },
+  {
+    "text": "centimeter",
+    "start": 144.14,
+    "end": 144.62
+  },
+  {
+    "text": "than",
+    "start": 144.7,
+    "end": 144.86
+  },
+  {
+    "text": "the",
+    "start": 144.86,
+    "end": 145.02
+  },
+  {
+    "text": "side?",
+    "start": 145.02,
+    "end": 145.66
+  },
+  {
+    "text": "Real",
+    "start": 145.66,
+    "end": 145.98
+  },
+  {
+    "text": "lids",
+    "start": 145.98,
+    "end": 146.38
+  },
+  {
+    "text": "are",
+    "start": 146.38,
+    "end": 146.46
+  },
+  {
+    "text": "made",
+    "start": 146.46,
+    "end": 146.62
+  },
+  {
+    "text": "of",
+    "start": 146.62,
+    "end": 146.7
+  },
+  {
+    "text": "thicker",
+    "start": 146.7,
+    "end": 147.1
+  },
+  {
+    "text": "metal",
+    "start": 147.1,
+    "end": 147.34
+  },
+  {
+    "text": "than",
+    "start": 147.34,
+    "end": 147.5
+  },
+  {
+    "text": "the",
+    "start": 147.5,
+    "end": 147.58
+  },
+  {
+    "text": "thin",
+    "start": 147.58,
+    "end": 147.9
+  },
+  {
+    "text": "body",
+    "start": 147.9,
+    "end": 148.3
+  },
+  {
+    "text": "wall.",
+    "start": 148.3,
+    "end": 148.86
+  },
+  {
+    "text": "In",
+    "start": 148.86,
+    "end": 149.1
+  },
+  {
+    "text": "our",
+    "start": 149.1,
+    "end": 149.26
+  },
+  {
+    "text": "model,",
+    "start": 149.26,
+    "end": 149.66
+  },
+  {
+    "text": "the",
+    "start": 149.66,
+    "end": 149.82
+  },
+  {
+    "text": "two",
+    "start": 149.82,
+    "end": 149.98
+  },
+  {
+    "text": "ends",
+    "start": 149.98,
+    "end": 150.3
+  },
+  {
+    "text": "are",
+    "start": 150.3,
+    "end": 150.38
+  },
+  {
+    "text": "flat,",
+    "start": 150.38,
+    "end": 150.78
+  },
+  {
+    "text": "full",
+    "start": 150.78,
+    "end": 151.1
+  },
+  {
+    "text": "width",
+    "start": 151.1,
+    "end": 151.42
+  },
+  {
+    "text": "discs,",
+    "start": 151.42,
+    "end": 151.9
+  },
+  {
+    "text": "and",
+    "start": 151.9,
+    "end": 152.14
+  },
+  {
+    "text": "each",
+    "start": 152.14,
+    "end": 152.38
+  },
+  {
+    "text": "uses",
+    "start": 152.38,
+    "end": 152.62
+  },
+  {
+    "text": "K",
+    "start": 152.62,
+    "end": 152.78
+  },
+  {
+    "text": "times",
+    "start": 153.1,
+    "end": 153.34
+  },
+  {
+    "text": "as",
+    "start": 153.34,
+    "end": 153.5
+  },
+  {
+    "text": "much",
+    "start": 153.5,
+    "end": 153.74
+  },
+  {
+    "text": "material",
+    "start": 153.74,
+    "end": 154.06
+  },
+  {
+    "text": "per",
+    "start": 154.06,
+    "end": 154.3
+  },
+  {
+    "text": "square",
+    "start": 154.3,
+    "end": 154.62
+  },
+  {
+    "text": "centimeter",
+    "start": 154.62,
+    "end": 155.02
+  },
+  {
+    "text": "as",
+    "start": 155.1,
+    "end": 155.26
+  },
+  {
+    "text": "the",
+    "start": 155.26,
+    "end": 155.42
+  },
+  {
+    "text": "side.",
+    "start": 155.42,
+    "end": 156.06
+  },
+  {
+    "text": "We'll",
+    "start": 156.06,
+    "end": 156.38
+  },
+  {
+    "text": "try",
+    "start": 156.38,
+    "end": 156.62
+  },
+  {
+    "text": "k",
+    "start": 156.62,
+    "end": 156.78
+  },
+  {
+    "text": "equals",
+    "start": 157.1,
+    "end": 157.58
+  },
+  {
+    "text": "two",
+    "start": 157.58,
+    "end": 157.74
+  },
+  {
+    "text": "point",
+    "start": 157.9,
+    "end": 158.14
+  },
+  {
+    "text": "four",
+    "start": 158.14,
+    "end": 158.38
+  },
+  {
+    "text": "as",
+    "start": 158.46,
+    "end": 158.62
+  },
+  {
+    "text": "an",
+    "start": 158.62,
+    "end": 158.78
+  },
+  {
+    "text": "example.",
+    "start": 158.78,
+    "end": 159.5
+  },
+  {
+    "text": "The",
+    "start": 159.5,
+    "end": 159.66
+  },
+  {
+    "text": "weighted",
+    "start": 159.66,
+    "end": 160.38
+  },
+  {
+    "text": "is",
+    "start": 160.62,
+    "end": 160.86
+  },
+  {
+    "text": "K",
+    "start": 160.86,
+    "end": 161.1
+  },
+  {
+    "text": "times",
+    "start": 161.34,
+    "end": 161.58
+  },
+  {
+    "text": "two",
+    "start": 161.58,
+    "end": 161.74
+  },
+  {
+    "text": "pi",
+    "start": 161.9,
+    "end": 162.06
+  },
+  {
+    "text": "R",
+    "start": 162.22,
+    "end": 162.38
+  },
+  {
+    "text": "squared",
+    "start": 162.54,
+    "end": 163.02
+  },
+  {
+    "text": "plus",
+    "start": 163.1,
+    "end": 163.34
+  },
+  {
+    "text": "two",
+    "start": 163.34,
+    "end": 163.5
+  },
+  {
+    "text": "pi",
+    "start": 163.66,
+    "end": 163.82
+  },
+  {
+    "text": "Rh.",
+    "start": 164.06,
+    "end": 164.78
+  },
+  {
+    "text": "The",
+    "start": 164.78,
+    "end": 164.94
+  },
+  {
+    "text": "same",
+    "start": 164.94,
+    "end": 165.18
+  },
+  {
+    "text": "derivative",
+    "start": 165.18,
+    "end": 165.74
+  },
+  {
+    "text": "gives",
+    "start": 165.74,
+    "end": 166.22
+  },
+  {
+    "text": "H",
+    "start": 166.22,
+    "end": 166.46
+  },
+  {
+    "text": "equals",
+    "start": 166.62,
+    "end": 166.94
+  },
+  {
+    "text": "two",
+    "start": 166.94,
+    "end": 167.02
+  },
+  {
+    "text": "Kr.",
+    "start": 167.26,
+    "end": 168.14
+  },
+  {
+    "text": "Height",
+    "start": 168.14,
+    "end": 168.54
+  },
+  {
+    "text": "over",
+    "start": 168.54,
+    "end": 168.78
+  },
+  {
+    "text": "diameter",
+    "start": 168.78,
+    "end": 169.26
+  },
+  {
+    "text": "equals",
+    "start": 169.34,
+    "end": 169.74
+  },
+  {
+    "text": "K.",
+    "start": 169.74,
+    "end": 170.54
+  },
+  {
+    "text": "With",
+    "start": 170.54,
+    "end": 170.78
+  },
+  {
+    "text": "K",
+    "start": 170.78,
+    "end": 171.02
+  },
+  {
+    "text": "equal",
+    "start": 171.26,
+    "end": 171.58
+  },
+  {
+    "text": "to",
+    "start": 171.58,
+    "end": 171.74
+  },
+  {
+    "text": "two",
+    "start": 171.74,
+    "end": 171.82
+  },
+  {
+    "text": "point",
+    "start": 171.98,
+    "end": 172.22
+  },
+  {
+    "text": "four,",
+    "start": 172.22,
+    "end": 172.78
+  },
+  {
+    "text": "the",
+    "start": 172.78,
+    "end": 172.94
+  },
+  {
+    "text": "best",
+    "start": 172.94,
+    "end": 173.1
+  },
+  {
+    "text": "can",
+    "start": 173.26,
+    "end": 173.5
+  },
+  {
+    "text": "is",
+    "start": 173.66,
+    "end": 173.82
+  },
+  {
+    "text": "about",
+    "start": 173.82,
+    "end": 173.98
+  },
+  {
+    "text": "five",
+    "start": 173.98,
+    "end": 174.3
+  },
+  {
+    "text": "point",
+    "start": 174.3,
+    "end": 174.54
+  },
+  {
+    "text": "seven",
+    "start": 174.54,
+    "end": 174.78
+  },
+  {
+    "text": "centimeters",
+    "start": 174.78,
+    "end": 175.34
+  },
+  {
+    "text": "wide",
+    "start": 175.42,
+    "end": 175.74
+  },
+  {
+    "text": "and",
+    "start": 175.74,
+    "end": 175.9
+  },
+  {
+    "text": "thirteen",
+    "start": 175.9,
+    "end": 176.38
+  },
+  {
+    "text": "point",
+    "start": 176.38,
+    "end": 176.62
+  },
+  {
+    "text": "eight",
+    "start": 176.62,
+    "end": 176.94
+  },
+  {
+    "text": "tall.",
+    "start": 176.94,
+    "end": 177.5
+  },
+  {
+    "text": "taller",
+    "start": 177.71,
+    "end": 178.11
+  },
+  {
+    "text": "and",
+    "start": 178.11,
+    "end": 178.27
+  },
+  {
+    "text": "thinner.",
+    "start": 178.27,
+    "end": 179.07
+  },
+  {
+    "text": "Here",
+    "start": 179.07,
+    "end": 179.39
+  },
+  {
+    "text": "are",
+    "start": 179.39,
+    "end": 179.63
+  },
+  {
+    "text": "both",
+    "start": 179.63,
+    "end": 179.87
+  },
+  {
+    "text": "models,",
+    "start": 179.87,
+    "end": 180.51
+  },
+  {
+    "text": "each",
+    "start": 180.51,
+    "end": 180.83
+  },
+  {
+    "text": "measured",
+    "start": 180.83,
+    "end": 181.23
+  },
+  {
+    "text": "as",
+    "start": 181.23,
+    "end": 181.47
+  },
+  {
+    "text": "percent",
+    "start": 181.47,
+    "end": 181.87
+  },
+  {
+    "text": "above",
+    "start": 182.03,
+    "end": 182.27
+  },
+  {
+    "text": "its",
+    "start": 182.27,
+    "end": 182.51
+  },
+  {
+    "text": "own",
+    "start": 182.51,
+    "end": 182.75
+  },
+  {
+    "text": "minimum.",
+    "start": 182.75,
+    "end": 183.55
+  },
+  {
+    "text": "The",
+    "start": 183.55,
+    "end": 183.71
+  },
+  {
+    "text": "real",
+    "start": 183.71,
+    "end": 183.95
+  },
+  {
+    "text": "can's",
+    "start": 184.11,
+    "end": 184.67
+  },
+  {
+    "text": "diameter",
+    "start": 184.67,
+    "end": 185.23
+  },
+  {
+    "text": "falls",
+    "start": 185.23,
+    "end": 185.55
+  },
+  {
+    "text": "between",
+    "start": 185.55,
+    "end": 185.87
+  },
+  {
+    "text": "the",
+    "start": 185.87,
+    "end": 185.95
+  },
+  {
+    "text": "two",
+    "start": 185.95,
+    "end": 186.19
+  },
+  {
+    "text": "modeled",
+    "start": 186.19,
+    "end": 186.67
+  },
+  {
+    "text": "optima,",
+    "start": 186.67,
+    "end": 187.55
+  },
+  {
+    "text": "and",
+    "start": 187.55,
+    "end": 187.79
+  },
+  {
+    "text": "in",
+    "start": 187.79,
+    "end": 187.95
+  },
+  {
+    "text": "both",
+    "start": 187.95,
+    "end": 188.19
+  },
+  {
+    "text": "models",
+    "start": 188.19,
+    "end": 188.59
+  },
+  {
+    "text": "it's",
+    "start": 188.67,
+    "end": 188.91
+  },
+  {
+    "text": "only",
+    "start": 188.91,
+    "end": 189.15
+  },
+  {
+    "text": "about",
+    "start": 189.15,
+    "end": 189.39
+  },
+  {
+    "text": "two",
+    "start": 189.39,
+    "end": 189.55
+  },
+  {
+    "text": "percent",
+    "start": 189.71,
+    "end": 190.03
+  },
+  {
+    "text": "above",
+    "start": 190.03,
+    "end": 190.35
+  },
+  {
+    "text": "the",
+    "start": 190.35,
+    "end": 190.51
+  },
+  {
+    "text": "minimum.",
+    "start": 190.51,
+    "end": 191.55
+  },
+  {
+    "text": "Now",
+    "start": 191.55,
+    "end": 191.79
+  },
+  {
+    "text": "look",
+    "start": 191.87,
+    "end": 192.11
+  },
+  {
+    "text": "at",
+    "start": 192.11,
+    "end": 192.19
+  },
+  {
+    "text": "a",
+    "start": 192.19,
+    "end": 192.35
+  },
+  {
+    "text": "real",
+    "start": 192.35,
+    "end": 192.51
+  },
+  {
+    "text": "can.",
+    "start": 192.67,
+    "end": 193.23
+  },
+  {
+    "text": "The",
+    "start": 193.23,
+    "end": 193.39
+  },
+  {
+    "text": "body",
+    "start": 193.39,
+    "end": 193.79
+  },
+  {
+    "text": "narrows",
+    "start": 193.79,
+    "end": 194.27
+  },
+  {
+    "text": "before",
+    "start": 194.27,
+    "end": 194.59
+  },
+  {
+    "text": "it",
+    "start": 194.59,
+    "end": 194.67
+  },
+  {
+    "text": "meets",
+    "start": 194.67,
+    "end": 194.99
+  },
+  {
+    "text": "the",
+    "start": 194.99,
+    "end": 195.07
+  },
+  {
+    "text": "lid,",
+    "start": 195.07,
+    "end": 195.55
+  },
+  {
+    "text": "and",
+    "start": 195.55,
+    "end": 195.79
+  },
+  {
+    "text": "the",
+    "start": 195.79,
+    "end": 195.87
+  },
+  {
+    "text": "base",
+    "start": 195.87,
+    "end": 196.11
+  },
+  {
+    "text": "is",
+    "start": 196.19,
+    "end": 196.35
+  },
+  {
+    "text": "domed.",
+    "start": 196.35,
+    "end": 197.23
+  },
+  {
+    "text": "A",
+    "start": 197.23,
+    "end": 197.39
+  },
+  {
+    "text": "real",
+    "start": 197.39,
+    "end": 197.55
+  },
+  {
+    "text": "design",
+    "start": 197.71,
+    "end": 198.19
+  },
+  {
+    "text": "also",
+    "start": 198.19,
+    "end": 198.35
+  },
+  {
+    "text": "has",
+    "start": 198.35,
+    "end": 198.51
+  },
+  {
+    "text": "to",
+    "start": 198.51,
+    "end": 198.67
+  },
+  {
+    "text": "hold",
+    "start": 198.67,
+    "end": 198.91
+  },
+  {
+    "text": "internal",
+    "start": 198.91,
+    "end": 199.39
+  },
+  {
+    "text": "pressure,",
+    "start": 199.39,
+    "end": 199.95
+  },
+  {
+    "text": "then",
+    "start": 199.95,
+    "end": 200.19
+  },
+  {
+    "text": "run",
+    "start": 200.19,
+    "end": 200.43
+  },
+  {
+    "text": "on",
+    "start": 200.43,
+    "end": 200.59
+  },
+  {
+    "text": "filling",
+    "start": 200.59,
+    "end": 201.07
+  },
+  {
+    "text": "and",
+    "start": 201.07,
+    "end": 201.23
+  },
+  {
+    "text": "seaming",
+    "start": 201.23,
+    "end": 201.71
+  },
+  {
+    "text": "equipment.",
+    "start": 201.71,
+    "end": 202.43
+  },
+  {
+    "text": "Our",
+    "start": 202.43,
+    "end": 202.67
+  },
+  {
+    "text": "models",
+    "start": 202.67,
+    "end": 203.15
+  },
+  {
+    "text": "don't",
+    "start": 203.15,
+    "end": 203.39
+  },
+  {
+    "text": "capture",
+    "start": 203.39,
+    "end": 203.71
+  },
+  {
+    "text": "all",
+    "start": 203.71,
+    "end": 203.95
+  },
+  {
+    "text": "that.",
+    "start": 203.95,
+    "end": 204.43
+  },
+  {
+    "text": "What",
+    "start": 204.43,
+    "end": 204.75
+  },
+  {
+    "text": "they",
+    "start": 204.75,
+    "end": 204.91
+  },
+  {
+    "text": "show",
+    "start": 204.91,
+    "end": 205.23
+  },
+  {
+    "text": "is",
+    "start": 205.23,
+    "end": 205.47
+  },
+  {
+    "text": "how",
+    "start": 205.47,
+    "end": 205.63
+  },
+  {
+    "text": "the",
+    "start": 205.63,
+    "end": 205.79
+  },
+  {
+    "text": "assumptions",
+    "start": 205.79,
+    "end": 206.51
+  },
+  {
+    "text": "change",
+    "start": 206.51,
+    "end": 206.83
+  },
+  {
+    "text": "the",
+    "start": 206.83,
+    "end": 207.07
+  },
+  {
+    "text": "answer.",
+    "start": 207.07,
+    "end": 207.87
+  },
+  {
+    "text": "With",
+    "start": 207.87,
+    "end": 208.27
+  },
+  {
+    "text": "uniform",
+    "start": 208.27,
+    "end": 208.83
+  },
+  {
+    "text": "thickness,",
+    "start": 208.83,
+    "end": 209.47
+  },
+  {
+    "text": "the",
+    "start": 209.47,
+    "end": 209.63
+  },
+  {
+    "text": "cylinder",
+    "start": 209.63,
+    "end": 210.11
+  },
+  {
+    "text": "that",
+    "start": 210.11,
+    "end": 210.27
+  },
+  {
+    "text": "uses",
+    "start": 210.27,
+    "end": 210.59
+  },
+  {
+    "text": "the",
+    "start": 210.59,
+    "end": 210.75
+  },
+  {
+    "text": "least",
+    "start": 210.75,
+    "end": 211.07
+  },
+  {
+    "text": "material",
+    "start": 211.07,
+    "end": 211.47
+  },
+  {
+    "text": "is",
+    "start": 211.47,
+    "end": 211.71
+  },
+  {
+    "text": "as",
+    "start": 211.71,
+    "end": 211.87
+  },
+  {
+    "text": "tall",
+    "start": 211.87,
+    "end": 212.19
+  },
+  {
+    "text": "as",
+    "start": 212.19,
+    "end": 212.35
+  },
+  {
+    "text": "it",
+    "start": 212.35,
+    "end": 212.51
+  },
+  {
+    "text": "is",
+    "start": 212.51,
+    "end": 212.75
+  },
+  {
+    "text": "wide.",
+    "start": 212.75,
+    "end": 213.47
+  },
+  {
+    "text": "Make",
+    "start": 213.47,
+    "end": 213.87
+  },
+  {
+    "text": "its",
+    "start": 213.87,
+    "end": 214.11
+  },
+  {
+    "text": "ends",
+    "start": 214.11,
+    "end": 214.51
+  },
+  {
+    "text": "more",
+    "start": 214.51,
+    "end": 214.67
+  },
+  {
+    "text": "material",
+    "start": 214.67,
+    "end": 215.23
+  },
+  {
+    "text": "intensive,",
+    "start": 215.23,
+    "end": 215.87
+  },
+  {
+    "text": "and",
+    "start": 215.87,
+    "end": 216.03
+  },
+  {
+    "text": "the",
+    "start": 216.03,
+    "end": 216.19
+  },
+  {
+    "text": "optimum",
+    "start": 216.19,
+    "end": 216.83
+  },
+  {
+    "text": "gets",
+    "start": 216.83,
+    "end": 216.99
+  },
+  {
+    "text": "taller.",
+    "start": 216.99,
+    "end": 217.71
+  },
+  {
+    "text": "And",
+    "start": 217.71,
+    "end": 218.03
+  },
+  {
+    "text": "because",
+    "start": 218.03,
+    "end": 218.27
+  },
+  {
+    "text": "the",
+    "start": 218.27,
+    "end": 218.43
+  },
+  {
+    "text": "curve",
+    "start": 218.43,
+    "end": 218.83
+  },
+  {
+    "text": "is",
+    "start": 218.83,
+    "end": 218.99
+  },
+  {
+    "text": "nearly",
+    "start": 218.99,
+    "end": 219.31
+  },
+  {
+    "text": "flat",
+    "start": 219.31,
+    "end": 219.63
+  },
+  {
+    "text": "around",
+    "start": 219.63,
+    "end": 219.95
+  },
+  {
+    "text": "its",
+    "start": 219.95,
+    "end": 220.11
+  },
+  {
+    "text": "minimum,",
+    "start": 220.11,
+    "end": 220.75
+  },
+  {
+    "text": "a",
+    "start": 220.75,
+    "end": 220.91
+  },
+  {
+    "text": "range",
+    "start": 220.91,
+    "end": 221.15
+  },
+  {
+    "text": "of",
+    "start": 221.15,
+    "end": 221.31
+  },
+  {
+    "text": "widths",
+    "start": 221.31,
+    "end": 221.87
+  },
+  {
+    "text": "works",
+    "start": 221.87,
+    "end": 222.11
+  },
+  {
+    "text": "with",
+    "start": 222.19,
+    "end": 222.43
+  },
+  {
+    "text": "only",
+    "start": 222.43,
+    "end": 222.67
+  },
+  {
+    "text": "a",
+    "start": 222.67,
+    "end": 222.75
+  },
+  {
+    "text": "small",
+    "start": 222.75,
+    "end": 223.07
+  },
+  {
+    "text": "material",
+    "start": 223.07,
+    "end": 223.55
+  },
+  {
+    "text": "penalty",
+    "start": 223.55,
+    "end": 224.11
+  },
+  {
+    "text": "in",
+    "start": 224.27,
+    "end": 224.43
+  },
+  {
+    "text": "the",
+    "start": 224.43,
+    "end": 224.67
+  },
+  {
+    "text": "model.",
+    "start": 224.67,
+    "end": 225.39
+  },
+  {
+    "text": "If",
+    "start": 225.39,
+    "end": 225.55
+  },
+  {
+    "text": "you",
+    "start": 225.55,
+    "end": 225.71
+  },
+  {
+    "text": "like",
+    "start": 225.71,
+    "end": 225.95
+  },
+  {
+    "text": "this",
+    "start": 226.03,
+    "end": 226.19
+  },
+  {
+    "text": "video,",
+    "start": 226.19,
+    "end": 226.59
+  },
+  {
+    "text": "please",
+    "start": 226.59,
+    "end": 226.83
+  },
+  {
+    "text": "give",
+    "start": 226.83,
+    "end": 227.07
+  },
+  {
+    "text": "it",
+    "start": 227.07,
+    "end": 227.15
+  },
+  {
+    "text": "a",
+    "start": 227.15,
+    "end": 227.23
+  },
+  {
+    "text": "like",
+    "start": 227.23,
+    "end": 227.47
+  },
+  {
+    "text": "and",
+    "start": 227.55,
+    "end": 227.71
+  },
+  {
+    "text": "subscribe",
+    "start": 227.71,
+    "end": 228.11
+  },
+  {
+    "text": "for",
+    "start": 228.11,
+    "end": 228.27
+  },
+  {
+    "text": "more",
+    "start": 228.27,
+    "end": 228.43
+  },
+  {
+    "text": "everyday",
+    "start": 228.43,
+    "end": 228.99
+  },
+  {
+    "text": "engineering.",
+    "start": 228.99,
+    "end": 229.79
+  },
+  {
+    "text": "Thanks",
+    "start": 229.79,
+    "end": 230.03
+  },
+  {
+    "text": "for",
+    "start": 230.03,
+    "end": 230.19
+  },
+  {
+    "text": "watching.",
+    "start": 230.19,
+    "end": 230.67
+  }
+]
