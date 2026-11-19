@@ -1,0 +1,599 @@
+1
+00:00:00,160 --> 00:00:02,240
+Your coffee doesn't cool at a steady
+
+2
+00:00:02,240 --> 00:00:04,240
+speed. It cools fastest while it's
+
+3
+00:00:04,240 --> 00:00:06,560
+hottest, then slower and slower.
+
+4
+00:00:06,560 --> 00:00:08,240
+A simple model can estimate when it
+
+5
+00:00:08,240 --> 00:00:10,160
+reaches the temperature you like, and
+
+6
+00:00:10,160 --> 00:00:12,480
+whether to add the milk now or later.
+
+7
+00:00:12,480 --> 00:00:14,640
+Let's work it out with one law of cooling
+
+8
+00:00:14,640 --> 00:00:16,720
+and a little exponential math.
+
+9
+00:00:16,720 --> 00:00:18,080
+Here's our setup.
+
+10
+00:00:18,080 --> 00:00:20,000
+Fresh coffee at eighty five degrees
+
+11
+00:00:20,000 --> 00:00:22,320
+Celsius, in a room that stays at twenty
+
+12
+00:00:22,320 --> 00:00:24,240
+degrees. What matters isn't the
+
+13
+00:00:24,240 --> 00:00:25,520
+temperature itself.
+
+14
+00:00:25,520 --> 00:00:27,600
+It's the gap between the coffee and the
+
+15
+00:00:27,600 --> 00:00:30,000
+room. Right now, that gap is sixty five
+
+16
+00:00:30,000 --> 00:00:31,040
+degrees.
+
+17
+00:00:31,040 --> 00:00:33,120
+Newton's law of cooling, in its simplest
+
+18
+00:00:33,120 --> 00:00:34,960
+form, says the coffee's temperature
+
+19
+00:00:34,960 --> 00:00:36,880
+changes at a rate proportional to that
+
+20
+00:00:36,880 --> 00:00:39,280
+gap. Twice the gap, twice the cooling
+
+21
+00:00:39,280 --> 00:00:41,600
+speed. The rate of temperature change is
+
+22
+00:00:41,600 --> 00:00:43,680
+minus k times the difference between the
+
+23
+00:00:43,680 --> 00:00:46,000
+coffee temperature and room temperature.
+
+24
+00:00:46,000 --> 00:00:48,640
+Here, k is an effective cooling constant.
+
+25
+00:00:48,640 --> 00:00:50,720
+It depends on the cup, the lid, the amount
+
+26
+00:00:50,720 --> 00:00:52,960
+of liquid, and the surrounding air.
+
+27
+00:00:52,960 --> 00:00:55,600
+The solution is an exponential: the gap
+
+28
+00:00:55,600 --> 00:00:57,520
+shrinks by the same fraction in every
+
+29
+00:00:57,520 --> 00:00:59,200
+equal stretch of time.
+
+30
+00:00:59,200 --> 00:01:01,280
+T equals room temperature, plus the
+
+31
+00:01:01,280 --> 00:01:04,400
+starting gap times e to the minus k t.
+
+32
+00:01:04,450 --> 00:01:05,970
+For this example, let's assume the
+
+33
+00:01:05,970 --> 00:01:08,290
+temperature gap halves every ten minutes.
+
+34
+00:01:08,290 --> 00:01:10,013
+That corresponds to a k of about point
+
+35
+00:01:10,023 --> 00:01:11,810
+zero seven per minute.
+
+36
+00:01:11,810 --> 00:01:15,170
+So e to the minus k t is exactly one half,
+
+37
+00:01:15,170 --> 00:01:17,410
+to the power t over ten.
+
+38
+00:01:17,410 --> 00:01:18,690
+Watch the gap.
+
+39
+00:01:18,690 --> 00:01:20,690
+It starts at sixty five degrees.
+
+40
+00:01:20,690 --> 00:01:22,530
+After ten minutes, it's thirty two and a
+
+41
+00:01:22,530 --> 00:01:25,170
+half. After twenty, about sixteen.
+
+42
+00:01:25,330 --> 00:01:27,170
+After thirty, about eight.
+
+43
+00:01:27,170 --> 00:01:29,600
+So the coffee goes from eighty five, to
+
+44
+00:01:29,610 --> 00:01:32,050
+fifty two and a half, to about thirty six,
+
+45
+00:01:32,370 --> 00:01:33,890
+to about twenty eight.
+
+46
+00:01:33,890 --> 00:01:35,970
+It drops thirty two and a half degrees in
+
+47
+00:01:35,970 --> 00:01:37,810
+the first ten minutes, and only about
+
+48
+00:01:37,810 --> 00:01:39,570
+eight in the third ten.
+
+49
+00:01:39,570 --> 00:01:41,650
+Fast, then slow.
+
+50
+00:01:41,650 --> 00:01:43,810
+Here's the same story as a curve.
+
+51
+00:01:43,810 --> 00:01:45,650
+The dashed line is the room.
+
+52
+00:01:45,650 --> 00:01:47,650
+Look at the vertical gap between the curve
+
+53
+00:01:47,650 --> 00:01:48,610
+and that line.
+
+54
+00:01:48,610 --> 00:01:50,930
+At every ten minute mark, it's half what
+
+55
+00:01:50,930 --> 00:01:52,450
+it was ten minutes earlier.
+
+56
+00:01:52,450 --> 00:01:54,370
+The curve keeps getting closer to the room
+
+57
+00:01:54,370 --> 00:01:56,610
+line, but in the model, it never quite
+
+58
+00:01:56,610 --> 00:01:57,890
+reaches it.
+
+59
+00:01:57,890 --> 00:01:59,810
+That's why the curve flattens.
+
+60
+00:01:59,810 --> 00:02:02,370
+The cooling speed at any moment is k times
+
+61
+00:02:02,370 --> 00:02:04,440
+the gap. At the very start, the gap is
+
+62
+00:02:04,450 --> 00:02:06,850
+sixty five, so the coffee is cooling at
+
+63
+00:02:06,850 --> 00:02:08,850
+about four and a half degrees per minute.
+
+64
+00:02:08,900 --> 00:02:11,060
+At the ten minute mark, the gap is half as
+
+65
+00:02:11,060 --> 00:02:12,890
+big, and so is the speed: about two point
+
+66
+00:02:12,900 --> 00:02:14,740
+three degrees per minute.
+
+67
+00:02:14,740 --> 00:02:17,140
+Smaller gap, gentler slope.
+
+68
+00:02:17,140 --> 00:02:18,900
+So when does it reach a temperature you
+
+69
+00:02:18,900 --> 00:02:21,140
+like? Say you want your coffee to cool to
+
+70
+00:02:21,140 --> 00:02:22,500
+sixty degrees Celsius.
+
+71
+00:02:22,500 --> 00:02:23,940
+That's a gap of forty.
+
+72
+00:02:23,940 --> 00:02:26,580
+So we need sixty five times one half, to
+
+73
+00:02:26,580 --> 00:02:29,460
+the power t over ten, to equal forty.
+
+74
+00:02:29,460 --> 00:02:32,660
+Take logs, and t equals ten times log base
+
+75
+00:02:32,820 --> 00:02:35,220
+two of sixty five over forty.
+
+76
+00:02:35,220 --> 00:02:37,620
+About seven minutes, for this mug and
+
+77
+00:02:37,620 --> 00:02:38,820
+these conditions.
+
+78
+00:02:38,820 --> 00:02:40,500
+Now the milk puzzle.
+
+79
+00:02:40,500 --> 00:02:42,020
+You'll drink in ten minutes.
+
+80
+00:02:42,020 --> 00:02:44,500
+Do you pour in cold milk now, or just
+
+81
+00:02:44,500 --> 00:02:45,700
+before you drink?
+
+82
+00:02:45,940 --> 00:02:48,100
+To compare fairly, we'll use the same
+
+83
+00:02:48,100 --> 00:02:50,260
+coffee and the same milk both times.
+
+84
+00:02:50,260 --> 00:02:52,580
+The milk stays at five degrees until it's
+
+85
+00:02:52,580 --> 00:02:54,740
+poured, and it makes up one fifth of the
+
+86
+00:02:54,740 --> 00:02:57,300
+final drink. We'll assume instant mixing,
+
+87
+00:02:57,300 --> 00:02:58,980
+with the mixed temperature as a simple
+
+88
+00:02:58,980 --> 00:03:00,180
+weighted average.
+
+89
+00:03:00,180 --> 00:03:02,420
+And we'll assume both cups follow the same
+
+90
+00:03:02,420 --> 00:03:04,420
+ten minute cooling half life.
+
+91
+00:03:04,770 --> 00:03:06,360
+First, milk now.
+
+92
+00:03:06,370 --> 00:03:08,520
+Point eight times eighty five, plus point
+
+93
+00:03:08,530 --> 00:03:11,490
+two times five, gives sixty nine degrees.
+
+94
+00:03:11,490 --> 00:03:13,410
+That's a gap of forty nine.
+
+95
+00:03:13,410 --> 00:03:15,560
+After ten minutes, the gap halves to
+
+96
+00:03:15,570 --> 00:03:16,930
+twenty four and a half.
+
+97
+00:03:16,930 --> 00:03:19,160
+So at the ten minute mark, this cup is at
+
+98
+00:03:19,170 --> 00:03:21,170
+forty four and a half degrees.
+
+99
+00:03:21,170 --> 00:03:22,770
+Now milk later.
+
+100
+00:03:22,770 --> 00:03:24,690
+The black coffee cools first.
+
+101
+00:03:24,690 --> 00:03:26,840
+Its gap halves from sixty five to thirty
+
+102
+00:03:26,850 --> 00:03:29,480
+two and a half, so at ten minutes it's at
+
+103
+00:03:29,490 --> 00:03:30,930
+fifty two and a half.
+
+104
+00:03:30,930 --> 00:03:32,440
+Then the cold milk goes in.
+
+105
+00:03:32,450 --> 00:03:34,530
+Point eight times fifty two and a half,
+
+106
+00:03:34,610 --> 00:03:36,520
+plus point two times five, gives forty
+
+107
+00:03:36,530 --> 00:03:37,970
+three degrees.
+
+108
+00:03:37,970 --> 00:03:40,050
+Compared at the same moment, right after
+
+109
+00:03:40,050 --> 00:03:42,290
+the second cup gets its milk, the early
+
+110
+00:03:42,290 --> 00:03:45,090
+milk cup is one and a half degrees warmer.
+
+111
+00:03:45,090 --> 00:03:46,370
+Here's the picture.
+
+112
+00:03:46,370 --> 00:03:48,850
+The blue cup drops at minute zero, when
+
+113
+00:03:48,850 --> 00:03:49,970
+the milk goes in.
+
+114
+00:03:49,970 --> 00:03:52,450
+The red cup drops at minute ten.
+
+115
+00:03:52,450 --> 00:03:54,770
+Early milk reduces the temperature gap
+
+116
+00:03:54,770 --> 00:03:57,170
+right away, so in this model, that cup's
+
+117
+00:03:57,170 --> 00:03:59,090
+temperature falls more slowly during the
+
+118
+00:03:59,090 --> 00:04:01,650
+wait. In this example, the model predicts
+
+119
+00:04:01,650 --> 00:04:03,890
+a difference of one and a half degrees.
+
+120
+00:04:04,100 --> 00:04:06,020
+In practice, adding milk changes the
+
+121
+00:04:06,020 --> 00:04:08,100
+amount and makeup of the liquid, so the
+
+122
+00:04:08,100 --> 00:04:10,260
+two cups can cool at different rates.
+
+123
+00:04:10,260 --> 00:04:12,500
+And with the shared half life, if the milk
+
+124
+00:04:12,500 --> 00:04:14,500
+started at room temperature, both cups
+
+125
+00:04:14,500 --> 00:04:16,260
+would end at forty six degrees.
+
+126
+00:04:16,260 --> 00:04:18,100
+Timing wouldn't matter.
+
+127
+00:04:18,100 --> 00:04:19,860
+The same simple model shows up in
+
+128
+00:04:19,860 --> 00:04:22,100
+engineering. A computer chip cooling after
+
+129
+00:04:22,100 --> 00:04:23,860
+it shuts down behaves roughly this way,
+
+130
+00:04:23,940 --> 00:04:25,700
+over a useful stretch of time.
+
+131
+00:04:25,700 --> 00:04:27,620
+And a capacitor discharging through a
+
+132
+00:04:27,620 --> 00:04:30,180
+fixed resistor follows it almost exactly.
+
+133
+00:04:30,180 --> 00:04:31,780
+Wherever the rate of change is
+
+134
+00:04:31,780 --> 00:04:33,860
+proportional to the remaining gap, with a
+
+135
+00:04:33,860 --> 00:04:35,940
+constant of proportionality, you get the
+
+136
+00:04:35,940 --> 00:04:37,540
+same exponential.
+
+137
+00:04:37,540 --> 00:04:39,540
+Real coffee follows this model only
+
+138
+00:04:39,540 --> 00:04:40,500
+approximately.
+
+139
+00:04:40,500 --> 00:04:42,420
+Evaporation can add to the cooling of an
+
+140
+00:04:42,420 --> 00:04:44,740
+open mug, and a lid generally slows
+
+141
+00:04:44,740 --> 00:04:47,060
+cooling, partly by limiting evaporation.
+
+142
+00:04:47,060 --> 00:04:49,460
+But in this model, each ten minute stretch
+
+143
+00:04:49,460 --> 00:04:51,220
+cuts the remaining temperature gap in
+
+144
+00:04:51,220 --> 00:04:53,780
+half: fast at first, then slow.
+
+145
+00:04:53,780 --> 00:04:56,020
+And in our example, adding the cold milk
+
+146
+00:04:56,020 --> 00:04:57,780
+first kept the coffee a little warmer at
+
+147
+00:04:57,780 --> 00:04:59,220
+the ten minute mark.
+
+148
+00:04:59,220 --> 00:05:01,060
+If you liked this video, please give it a
+
+149
+00:05:01,060 --> 00:05:02,900
+like and subscribe for more everyday
+
+150
+00:05:02,900 --> 00:05:04,430
+engineering. Thanks for watching!
