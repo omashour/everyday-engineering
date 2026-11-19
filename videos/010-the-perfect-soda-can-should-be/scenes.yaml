@@ -1,25 +1,242 @@
-# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 010`.
 video:
   id: "010"
   topic: T14
-  title: "The Perfect Soda Can Should Be as Wide as It Is Tall. So Why Isn't It?"
-  style: ""            # e.g. "B hook + A body"
+  title: "Why Isn't a Soda Can as Wide as It Is Tall?"
+  style: "B hook + C body"
   playlist: math-for-engineers
+  phase: math
+  series: null
   voice_note: ""
   pronounce: {}
 
 scenes:
   - id: S01
-    component: title-card
-    chapter: "Intro"
+    component: photo-overlay
+    chapter: "Is the soda can wrong?"
     say: >-
-      Replace me with the hook.
+      Calculus says the soda can that uses the least metal should be as wide as it is tall.
+      Yours is almost twice as tall as it is wide. So is the can wrong, or is the math missing
+      something?
     params:
-      title: "The Perfect Soda Can Should Be as Wide as It Is Tall. So Why Isn't It?"
+      src: can-real.jpg
+      credit: "Image: AI-generated"
+      title: "The least-metal can?"
+      overlays:
+        - {type: label, pos: [22, 30], text: "least metal: height = width", cue: "least metal"}
+        - {type: measure, from: [42, 90], to: [58, 90], label: "width", cue: "as wide as"}
+        - {type: measure, from: [62, 24], to: [62, 84], label: "≈ 2 × width", cue: "almost twice"}
 
-  - id: S99
-    component: end-card
+  - id: S02
+    component: title-card
+    say: Let's find the best can with one derivative, then see what the textbook answer leaves out.
+    params: {kicker: "Everyday Engineering · Calculus", title: "Why Isn't a Soda Can as Wide as It Is Tall?"}
+
+  - id: S03
+    component: photo-overlay
+    chapter: "The real can"
     say: >-
-      See you in the next one.
+      Here's a standard twelve ounce can. It holds three hundred fifty five milliliters. It's
+      about six point six centimeters wide and twelve point three tall. The body wall is
+      incredibly thin, about a tenth of a millimeter. The lid is more than twice as thick,
+      about point two three millimeters.
     params:
-      line: ""
+      src: can-real.jpg
+      credit: "Image: AI-generated"
+      title: "A standard 355 mL can"
+      overlays:
+        - {type: measure, from: [42, 90], to: [58, 90], label: "6.6 cm", cue: "six point six"}
+        - {type: measure, from: [62, 24], to: [62, 84], label: "12.3 cm", cue: "twelve point three"}
+        - {type: callout, pos: [80, 55], text: "wall ≈ 0.1 mm", side: right, cue: "tenth of a millimeter"}
+        - {type: callout, pos: [80, 25], text: "lid ≈ 0.23 mm", side: right, cue: "point two three"}
+
+  - id: S04
+    component: diagram
+    chapter: "Unrolling the can"
+    say: >-
+      To start simple, treat the can as a plain cylinder with the same metal everywhere. Unroll
+      it. You get two circles, the top and bottom, each pi r squared. And a rectangle. Its width
+      is the distance around the can, two pi r, and its height is h. So the metal needed is two
+      pi r squared, plus two pi r h.
+    params:
+      heading: "Unroll the can"
+      view: [1000, 600]
+      items:
+        - {type: circle, pos: [180, 200], r: 90, color: blue, label: "$\\pi r^2$", cue: "the top and bottom"}
+        - {type: circle, pos: [180, 420], r: 90, color: blue, label: "$\\pi r^2$", cue: "the top and bottom"}
+        - {type: rect, pos: [380, 160], size: [540, 300], label: "side", cue: "And a rectangle"}
+        - {type: dim, from: [380, 500], to: [920, 500], label: "$2\\pi r$", cue: "distance around"}
+        - {type: dim, from: [960, 160], to: [960, 460], label: "$h$", cue: "its height is"}
+      caption: "$A = 2\\pi r^2 + 2\\pi r h$"
+
+  - id: S05
+    component: equation-steps
+    chapter: "Fixing the volume"
+    say: >-
+      But you can't pick r and h freely. The can must hold three hundred fifty five
+      milliliters, which is three hundred fifty five cubic centimeters. The volume of a
+      cylinder is pi r squared h. So once you pick the radius, the height is fixed: h equals V
+      over pi r squared. Put that into the area, and the area depends on r alone. Two pi r
+      squared, plus two V over r.
+    params:
+      heading: "One variable, not two"
+      size: l
+      lines:
+        - {tex: "V = \\pi r^2 h = 355\\ \\text{cm}^3", cue: "pi r squared h"}
+        - {tex: "h = \\dfrac{V}{\\pi r^2}", cue: "the height is fixed"}
+        - {tex: "A = 2\\pi r^2 + \\dfrac{2V}{r}", box: true, cue: "depends on r alone"}
+
+  - id: S06
+    component: graph
+    chapter: "The lowest point"
+    say: >-
+      Now graph it, using the can's width. Make the can very narrow, and it has to be very tall,
+      with lots of side wall. Make it very wide, and the top and bottom get huge. In between,
+      there's a lowest point. About two hundred seventy eight square centimeters of metal, for a
+      can about seven point seven centimeters wide.
+    params:
+      heading: "Metal vs. width (355 mL, equal metal)"
+      x_range: [5, 10]
+      y_range: [260, 340]
+      x_label: "can diameter (cm)"
+      y_label: "metal area (cm²)"
+      functions:
+        - {expr: "3.14159*x^2/2+1420/x", label: "$A(d)$", color: blue, cue: "Now graph it"}
+      tracer: {expr: "3.14159*x^2/2+1420/x", from: 5, to: 10, cue: "very narrow", duration: 5}
+      points:
+        - {x: 7.67, y: 277.5, label: "min: 278 cm²", cue: "lowest point"}
+
+  - id: S07
+    component: equation-steps
+    chapter: "The derivative"
+    say: >-
+      Calculus finds that lowest point exactly. The derivative of a function is its slope. At
+      the bottom of a valley, the slope is zero. The derivative of the area, with respect to r,
+      is four pi r minus two V over r squared. Set that to zero, and you get V equals two pi r
+      cubed.
+    params:
+      heading: "Slope = 0 at the bottom"
+      size: l
+      lines:
+        - {tex: "\\dfrac{dA}{dr} = 4\\pi r - \\dfrac{2V}{r^2}", cue: "four pi r"}
+        - {tex: "4\\pi r - \\dfrac{2V}{r^2} = 0", note: "slope = 0", cue: "Set that to zero"}
+        - {tex: "V = 2\\pi r^3", box: true, cue: "two pi r cubed"}
+
+  - id: S08
+    component: equation-steps
+    chapter: "Height equals diameter"
+    say: >-
+      Now remember, V is also pi r squared h. So pi r squared h equals two pi r cubed. Cancel pi
+      r squared from both sides, and h equals two r. The height equals the diameter. For three
+      hundred fifty five milliliters, that's a can about seven point seven centimeters wide and
+      seven point seven centimeters tall.
+    params:
+      heading: "The textbook answer"
+      size: l
+      lines:
+        - {tex: "\\pi r^2 h = 2\\pi r^3", cue: "equals two pi"}
+        - {tex: "h = 2r", mark: true, box: true, note: "height = diameter", cue: "h equals two"}
+        - {tex: "d = h \\approx 7.7\\ \\text{cm}", cue: "seven point seven centimeters wide"}
+
+  - id: S09
+    component: graph
+    chapter: "Only 2% more metal"
+    say: >-
+      So how much metal does the real can's width cost? A plain cylinder six point six
+      centimeters wide, holding the same volume, needs about two hundred eighty four square
+      centimeters. Compare that with the minimum of two hundred seventy eight. That's only about
+      two percent more. Near the bottom of a valley, the curve is almost flat. Move a little away
+      from the perfect shape, and you pay very little for it.
+    params:
+      heading: "How much does the real width cost?"
+      x_range: [5, 10]
+      y_range: [260, 340]
+      x_label: "can diameter (cm)"
+      y_label: "metal area (cm²)"
+      functions:
+        - {expr: "3.14159*x^2/2+1420/x", color: blue, cue: "how much metal"}
+      points:
+        - {x: 6.6, y: 283.6, label: "6.6 cm: 284", cue: "two hundred eighty four"}
+        - {x: 7.67, y: 277.5, label: "7.7 cm: 278", cue: "minimum of"}
+      side:
+        - {tex: "\\approx 2\\%\\ \\text{more}", cue: "two percent more"}
+
+  - id: S10
+    component: equation-steps
+    chapter: "Thicker ends"
+    say: >-
+      Now the part the textbook usually skips. On a real can, the lid is about two point four
+      times as thick as the wall. Let's assume both ends are that thick, so each square
+      centimeter of end costs k times as much as the side. The cost becomes k times two pi r
+      squared, plus two pi r h. Run the same derivative, and the answer changes. h equals two k
+      r. In words, the height divided by the diameter equals k.
+    params:
+      heading: "When the ends cost more"
+      lines:
+        - {tex: "k = \\dfrac{\\text{lid}}{\\text{wall}} \\approx 2.4", cue: "two point four times"}
+        - {tex: "C = k \\cdot 2\\pi r^2 + 2\\pi r h", cue: "The cost becomes"}
+        - {tex: "h = 2kr", cue: "h equals two k"}
+        - {tex: "\\dfrac{h}{d} = k", box: true, note: "ends cost more", cue: "In words"}
+
+  - id: S11
+    component: graph
+    chapter: "A taller answer"
+    say: >-
+      With k equal to two point four, the cheapest can flips the other way. It's about five
+      point eight centimeters wide and thirteen point six tall. Taller and thinner than the real
+      can. So now we have two answers. Equal metal everywhere says seven point seven wide. Thick
+      ends say five point eight. The real can, at six point six, sits right between them. On
+      this cost curve, it's only about two percent above the minimum.
+    params:
+      heading: "Thick ends change the answer (k ≈ 2.4)"
+      x_range: [4.5, 9]
+      y_range: [350, 470]
+      x_label: "can diameter (cm)"
+      y_label: "metal cost (side-wall cm²)"
+      functions:
+        - {expr: "3.7228*x^2+1420/x", color: red, cue: "flips the other way"}
+      points:
+        - {x: 5.75, y: 370.0, label: "thick ends: 5.8", cue: "five point eight centimeters"}
+        - {x: 6.6, y: 377.3, label: "real: 6.6", cue: "at six point six"}
+        - {x: 7.67, y: 404.1, label: "equal metal: 7.7", cue: "seven point seven wide"}
+      side:
+        - {tex: "h \\approx 13.6\\ \\text{cm}", cue: "thirteen point six"}
+
+  - id: S12
+    component: photo-overlay
+    chapter: "Why the real can is in between"
+    say: >-
+      So why isn't the real can at either answer? Because metal isn't the only cost. The top of
+      the can narrows into a neck, so the thick lid is only about five point four centimeters
+      across, smaller than the body. That makes the ends cheaper, which pushes the best shape
+      back toward wider. And a can also has to fit a hand, a cup holder, a vending machine, and
+      filling lines built around this exact size.
+    params:
+      src: can-real.jpg
+      credit: "Image: AI-generated"
+      title: "More than metal"
+      overlays:
+        - {type: measure, from: [43.5, 20], to: [56.5, 20], label: "lid ≈ 5.4 cm", cue: "five point four"}
+        - {type: callout, pos: [80, 30], text: "neck shrinks the lid", side: right, cue: "narrows into a neck"}
+        - {type: callout, pos: [80, 60], text: "fits hands and machines", side: right, cue: "fit a hand"}
+
+  - id: S13
+    component: bullets
+    chapter: "Remember this"
+    say: >-
+      So here's what the soda can teaches. To optimize, write the cost as a function of one
+      variable, and find where its slope is zero. With equal metal everywhere, the best can is as
+      tall as it is wide. When the ends cost more, the best can gets taller. And near the
+      optimum, the curve is flat, so engineers have room to balance metal against everything else
+      a can has to do.
+    params:
+      heading: "Remember this"
+      items:
+        - {text: "Cost as a function of one variable", icon: math-function, cue: "write the cost"}
+        - {text: "Equal metal: $h = d$", icon: equal, cue: "equal metal everywhere"}
+        - {text: "Costlier ends: $h/d = k$", icon: arrow-up, cue: "ends cost more"}
+        - {text: "Flat bottom = room to balance", icon: scale, cue: "the curve is flat"}
+
+  - id: S14
+    component: end-card
+    say: If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+    params: {line: "Thanks for watching"}

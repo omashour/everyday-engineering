@@ -1,9 +1,11 @@
 variants:
   - template: equation
-    text: ""
-    highlight: []
-    tex: ""
-  - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    text: "THE PERFECT CAN?"
+    highlight: ["PERFECT"]
+    tex: "h = 2r"
+    note: "height = diameter"
+  - template: split
+    image: can-real.jpg
+    text: "Calculus Says This Can Is Wrong"
+    highlight: ["Wrong"]
+    tex: "h = 2r"
