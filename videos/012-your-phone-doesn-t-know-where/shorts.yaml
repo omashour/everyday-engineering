@@ -1,37 +1,38 @@
 shorts:
-  - title: "How your phone finds you with three circles #shorts"
+  - title: "How GPS Finds You, Explained With Three Circles #shorts"
     hook: "Three circles, one point"
     end: "Full video on the channel"
-    description: "One distance gives a circle, two give two points, three give one. That's trilateration.\n\nFull video: [paste the main video's link]"
+    description: "One distance gives a circle, two give two points, three give one. Then a fourth satellite handles your phone's clock.\n\nFull video: [paste the main video's link]"
     scenes:
       - id: A1
         component: photo-overlay
         say: >-
-          Your phone doesn't measure where you are. It measures how far away the satellites are,
-          using the time their signals take to arrive.
+          How does your phone find you? It uses signal timing to estimate apparent distances to
+          satellites.
         params:
           src: phone-map.jpg
           credit: "Image: AI-generated"
-          title: "Distances, not position"
+          title: "Timing → distance"
           overlays:
-            - {type: callout, pos: [78, 40], text: "time → distance", side: right, cue: "how far away"}
+            - {type: callout, pos: [78, 40], text: "timing → apparent distance", side: right, cue: "signal timing"}
       - id: A2
         component: diagram
         say: >-
-          One distance puts you somewhere on a circle. Add a second distance, and the two circles
-          cross at just two points.
+          Picture it on a flat map first. One distance puts you somewhere on a circle. A second distance
+          gives a second circle, and they cross at two points.
         params:
           view: [1000, 760]
           items:
+            - {type: text, pos: [500, 60], text: "flat map", size: l, anchor: middle, cue: "flat map"}
             - {type: circle, pos: [250, 200], r: 150, color: blue, cue: "on a circle"}
-            - {type: circle, pos: [490, 200], r: 150, color: blue, cue: "second distance"}
+            - {type: circle, pos: [490, 200], r: 150, color: blue, cue: "second circle"}
             - {type: circle, pos: [370, 110], r: 14, fill: red, cue: "two points"}
             - {type: circle, pos: [370, 290], r: 14, fill: red, cue: "two points"}
       - id: A3
         component: diagram
         say: >-
-          A third distance picks one of them. That's called trilateration. In space, circles become
-          spheres, and your phone needs a fourth satellite too. The full video shows why.
+          A third distance picks one of them. In space, circles become spheres. And your phone's clock
+          isn't perfect, so a fourth satellite gives the extra measurement to solve for that error too.
         params:
           view: [1000, 760]
           items:
@@ -39,27 +40,37 @@ shorts:
             - {type: circle, pos: [490, 200], r: 150, color: blue}
             - {type: circle, pos: [370, 500], r: 210, color: green, cue: "third distance"}
             - {type: circle, pos: [370, 290], r: 16, fill: red, cue: "picks one"}
-            - {type: text, pos: [500, 60], text: "trilateration", size: l, anchor: middle, cue: "trilateration"}
-  - title: "One microsecond can put your GPS 300 meters off #shorts"
+            - {type: text, pos: [800, 330], text: "3D: spheres", anchor: middle, cue: "circles become spheres"}
+            - {type: text, pos: [800, 600], text: "4th satellite: clock error", color: red, anchor: middle, cue: "fourth satellite"}
+  - title: "Why 1 Microsecond Means 300 Meters in GPS #shorts"
     hook: "1 microsecond = 300 m"
     end: "Full video on the channel"
-    description: "Why your phone's clock matters so much to GPS, and how a fourth satellite fixes it.\n\nFull video: [paste the main video's link]"
+    description: "A tiny clock error adds the same extra distance to every satellite. Here's how GPS handles it.\n\nFull video: [paste the main video's link]"
     scenes:
       - id: B1
-        component: big-fact
+        component: diagram
         say: >-
-          If your phone's clock is off by one millionth of a second, your GPS position could be off by
-          about three hundred meters.
+          If your phone's clock is one microsecond ahead, every satellite can look about three hundred
+          meters farther away.
         params:
-          value: "1 µs → 300 m"
-          label: "a tiny clock error"
-          cue: "three hundred meters"
+          view: [1000, 760]
+          items:
+            - {type: icon, pos: [200, 120], name: satellite, size: l}
+            - {type: icon, pos: [500, 80], name: satellite, size: l}
+            - {type: icon, pos: [800, 120], name: satellite, size: l}
+            - {type: icon, pos: [500, 620], name: device-mobile, size: l}
+            - {type: line, from: [220, 160], to: [480, 590], color: blue}
+            - {type: line, from: [500, 130], to: [500, 580], color: blue}
+            - {type: line, from: [780, 160], to: [520, 590], color: blue}
+            - {type: text, pos: [250, 380], text: "+300 m", color: red, size: l, anchor: middle, cue: "every satellite"}
+            - {type: text, pos: [560, 330], text: "+300 m", color: red, size: l, anchor: middle, cue: "every satellite"}
+            - {type: text, pos: [790, 380], text: "+300 m", color: red, size: l, anchor: middle, cue: "every satellite"}
       - id: B2
         component: equation-steps
         say: >-
-          The signal travels at the speed of light, about three hundred thousand kilometers per second.
-          In one millionth of a second, that's three hundred meters. Every distance your phone works
-          out would be wrong by that much.
+          Radio signals travel at the speed of light, about three hundred thousand kilometers per second.
+          In one millionth of a second, that's three hundred meters. So a tiny clock error adds the same
+          extra distance to every satellite.
         params:
           size: l
           lines:
@@ -68,9 +79,9 @@ shorts:
       - id: B3
         component: bullets
         say: >-
-          So your phone treats its own clock error as an unknown, and uses a fourth satellite to solve
-          for it. The full video shows how.
+          That shared error is one more unknown. So the receiver uses a fourth satellite to solve for its
+          location and its clock error together.
         params:
           items:
-            - {text: "Clock error = 4th unknown", icon: clock, cue: "clock error"}
-            - {text: "4th satellite solves it", icon: satellite, cue: "fourth satellite"}
+            - {text: "Shared clock error = 1 more unknown", icon: clock, cue: "one more unknown"}
+            - {text: "4th satellite: location + clock", icon: satellite, cue: "fourth satellite"}

@@ -6,7 +6,7 @@ Generated from scenes.yaml.
 - **Model:** gemini-3.8-flash-tts
 - **Voice:** Cruz
 - **Language:** English
-- **Chunks:** 3 (about 280 words max each, split at scene boundaries)
+- **Chunks:** 4 (about 280 words max each, split at scene boundaries)
 - **Shorts:** 2 separate recordings (short-1.wav …)
 
 ## How to record
@@ -33,68 +33,74 @@ A clear, warm, confident engineering teacher talking to one curious student. Ene
 | Laplace | la-PLAHSS |
 | trilateration | try-lat-er-AY-shun |
 | Galileo | gal-ih-LAY-oh |
+| pseudorange | SOO-doh-raynj |
 
 ## Chunk 1 → save as `audio/narration-01.wav`
-Scenes S01–S06 · 271 words · about 1:48
+Scenes S01–S05 · 220 words · about 1:28
 
 ```text
-Your phone doesn't start knowing where you are. It starts with nothing but timings: how long signals took to arrive from satellites about twenty thousand kilometers up. From those, it finds you within about five meters under open sky.
+Your phone doesn't start knowing where you are. It starts with signal timings, and satellite positions worked out from orbit data the satellites broadcast. From those, it finds you within about five meters under open sky.
 
 Let's see how, using nothing more than circles, spheres and a little algebra.
 
-Each GPS satellite broadcasts its position and the exact time, kept by very precise atomic clocks. Your phone notes when each signal arrives. The signal travels at the speed of light, about three hundred thousand kilometers per second. So the distance is the speed of light times the travel time. From twenty thousand two hundred kilometers straight up, that's about seven hundredths of a second.
+Each GPS satellite broadcasts data describing its orbit, so your phone can calculate where the satellite was. It also broadcasts the time the signal left, kept by very precise atomic clocks. Your phone compares that transmission time with the arrival time on its own clock. Multiply the travel time by the speed of light, about three hundred thousand kilometers per second, and you get an apparent distance. Engineers call it a pseudorange. From twenty thousand two hundred kilometers straight up, the travel time is about seven hundredths of a second.
 
-Let's start flat, on a map. Say a station at point A tells you that you're exactly five kilometers away. That doesn't give you a point. It gives you a circle: every spot that's five kilometers from A.
+Let's start flat, on a map, with exact distances. Say a station at point A tells you that you're exactly five kilometers away. That doesn't give you a point. It gives you a circle: every spot that's five kilometers from A.
 
-Add a second station, B, eight kilometers east of A. You're also five kilometers from B. Now there are two circles, and they cross at exactly two points. You're at one of them. But which one?
-
-Here's the algebra behind those two points. Put A at the origin, and B at eight on the x axis. The circles are x squared plus y squared equals twenty five, and x minus eight, squared, plus y squared equals twenty five. Subtract one from the other, and the squares cancel. You're left with a straight line: sixteen x minus sixty four equals zero, so x equals four. Then y squared equals nine, so y is plus or minus three.
+Add a second station, B, eight kilometers east of A. You're also five kilometers from B. Now there are two circles, and they cross at exactly two points. You're at one of them. Which one? Take a second and guess.
 ```
 
 ## Chunk 2 → save as `audio/narration-02.wav`
-Scenes S07–S10 · 221 words · about 1:28
+Scenes S06–S09 · 248 words · about 1:39
 
 ```text
-So add a third station, C, ten kilometers south of the midpoint between A and B. You're seven kilometers from C. The southern point, at y equals minus three, is exactly seven kilometers from C. The northern point is thirteen. Three circles, one point. That's called trilateration.
+Here's why there are two. Put A at the origin, and B at eight on the x axis. Write both circle equations, then subtract one from the other. The x squared and y squared terms cancel, leaving sixteen x minus sixty four equals zero. So x equals four: the crossing points sit exactly halfway between A and B. Put x equals four back in, and y squared equals nine. A square has two roots, so y is plus three or minus three.
 
-Satellites aren't on a flat map. In three dimensions, circles become spheres. One satellite puts you somewhere on a sphere. Two spheres meet in a circle. Three spheres meet in just two points, and one of them is usually nowhere near Earth's surface, so it's easy to rule out.
+Now add a third station, C, ten kilometers south of the midpoint between A and B. You're seven kilometers from C. The southern point, four, minus three, is exactly seven kilometers from C. The northern point is thirteen. Three circles, one point. That's called trilateration.
 
-So three satellites should be enough. But there's a catch: the clock in your phone. The satellites carry atomic clocks. Your phone has an ordinary one. If its clock is off by just one millionth of a second, every distance is off by about three hundred meters.
+Real satellites aren't on a flat map. In three dimensions, circles become spheres. Take the same idealized case, with exact distances and a perfectly synchronized clock. One satellite puts you somewhere on a sphere. Two spheres meet in a circle. A third sphere can narrow that circle to two candidate points, and the receiver can often rule one out, because it isn't anywhere plausible for someone near Earth's surface.
 
-Here's what that does on our map. Say your phone's clock is a little off, so every distance comes out one kilometer too long: six, six and eight. Now the three circles don't meet at a single point. But the error is the same for every station. So the phone shrinks all the circles by the same amount until they meet. When they meet at one point, it has found both your position and its own clock error.
+So in that ideal case, three satellites would do. But real phones don't have a perfectly synchronized clock. The satellites carry atomic clocks. Your phone has an ordinary one. If your phone's clock is one microsecond ahead, every apparent distance comes out about three hundred meters too long, in this simplified model.
 ```
 
 ## Chunk 3 → save as `audio/narration-03.wav`
-Scenes S11–S14 · 203 words · about 1:21
+Scenes S10–S12 · 262 words · about 1:45
 
 ```text
-In three dimensions, the unknowns are your x, y and z, plus the clock error. That's four unknowns, so the phone needs at least four satellites. Each one gives an equation: the true distance to that satellite, plus the speed of light times the clock error, equals the measured distance. GPS satellites are arranged so that at least four are visible from nearly anywhere on Earth.
+Here's what a shared error does on our map. Let's exaggerate it, so every apparent distance comes out one kilometer too long: six, six and eight. Now the three circles don't meet at a single point. But the error is the same for all three. So try the same correction on every distance. Subtract one kilometer, and you're back to five, five and seven. Now all three circles pass through the same point: four, minus three. That correction is another unknown to solve for. The shrinking circles are just a way to picture it. Real receivers estimate position and clock error together, and with noisy measurements, the circles never meet exactly. They find the best fit.
 
-So how close does it get? Under open sky, phones are typically accurate to about five meters. Near buildings, bridges and trees it gets worse, because they block and reflect the signals. Survey equipment, with extra signals and corrections, can get to within a few centimeters. And modern phones also use other satellite systems, like Europe's Galileo, plus Wi-Fi and cell towers, to get a fix faster.
+In three dimensions, a standalone fix has four unknowns: x, y, z, and the receiver's clock offset. So a receiver normally needs at least four usable satellite signals, and it uses more when it can. In a simplified model, each one gives an equation: apparent distance equals the true geometric distance, plus the speed of light times the clock offset. GPS satellites are arranged so that at least four are visible from nearly anywhere on Earth.
 
-So your phone never measures your position directly. It measures timings, turns them into distances, and solves for the one point where they all agree, plus its own clock error. One distance gives a circle. Two give two points. Three give one. And in space, a fourth fixes the clock.
+So how close does it get? Under open sky, phones are typically accurate to about five meters. Near buildings, bridges and trees it gets worse, because they block and reflect the signals. With suitable equipment and corrections, surveyors can get to within a few centimeters. And phones get help: Europe's Galileo adds more satellite measurements, while Wi-Fi and cell signals help estimate your location when satellite reception is poor.
+```
+
+## Chunk 4 → save as `audio/narration-04.wav`
+Scenes S13–S14 · 83 words · about 0:33
+
+```text
+So your phone never measures your position directly. It measures timings, turns them into apparent distances, and solves for where it is and how far off its clock is. On our flat map, one distance gave a circle, two gave two points, and three gave one. In space, the fourth satellite provides the extra measurement needed to solve for position and clock error together.
 
 If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
 ```
 
-## Short 1 (How your phone finds you with three circles #shorts) → save as `audio/short-1.wav`
-Its own recording · 72 words · about 0:29. Same voice and style, with a little more energy.
+## Short 1 (How GPS Finds You, Explained With Three Circles #shorts) → save as `audio/short-1.wav`
+Its own recording · 76 words · about 0:30. Same voice and style, with a little more energy.
 
 ```text
-Your phone doesn't measure where you are. It measures how far away the satellites are, using the time their signals take to arrive.
+How does your phone find you? It uses signal timing to estimate apparent distances to satellites.
 
-One distance puts you somewhere on a circle. Add a second distance, and the two circles cross at just two points.
+Picture it on a flat map first. One distance puts you somewhere on a circle. A second distance gives a second circle, and they cross at two points.
 
-A third distance picks one of them. That's called trilateration. In space, circles become spheres, and your phone needs a fourth satellite too. The full video shows why.
+A third distance picks one of them. In space, circles become spheres. And your phone's clock isn't perfect, so a fourth satellite gives the extra measurement to solve for that error too.
 ```
 
-## Short 2 (One microsecond can put your GPS 300 meters off #shorts) → save as `audio/short-2.wav`
-Its own recording · 85 words · about 0:34. Same voice and style, with a little more energy.
+## Short 2 (Why 1 Microsecond Means 300 Meters in GPS #shorts) → save as `audio/short-2.wav`
+Its own recording · 80 words · about 0:32. Same voice and style, with a little more energy.
 
 ```text
-If your phone's clock is off by one millionth of a second, your GPS position could be off by about three hundred meters.
+If your phone's clock is one microsecond ahead, every satellite can look about three hundred meters farther away.
 
-The signal travels at the speed of light, about three hundred thousand kilometers per second. In one millionth of a second, that's three hundred meters. Every distance your phone works out would be wrong by that much.
+Radio signals travel at the speed of light, about three hundred thousand kilometers per second. In one millionth of a second, that's three hundred meters. So a tiny clock error adds the same extra distance to every satellite.
 
-So your phone treats its own clock error as an unknown, and uses a fourth satellite to solve for it. The full video shows how.
+That shared error is one more unknown. So the receiver uses a fourth satellite to solve for its location and its clock error together.
 ```
