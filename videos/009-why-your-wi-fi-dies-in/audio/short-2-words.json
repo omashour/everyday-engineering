@@ -1,0 +1,397 @@
+[
+  {
+    "text": "Your",
+    "start": 0.16,
+    "end": 0.4
+  },
+  {
+    "text": "Wi",
+    "start": 0.4,
+    "end": 0.56
+  },
+  {
+    "text": "Fi",
+    "start": 0.64,
+    "end": 0.96
+  },
+  {
+    "text": "works",
+    "start": 0.96,
+    "end": 1.2
+  },
+  {
+    "text": "near",
+    "start": 1.2,
+    "end": 1.44
+  },
+  {
+    "text": "the",
+    "start": 1.44,
+    "end": 1.52
+  },
+  {
+    "text": "router",
+    "start": 1.52,
+    "end": 1.92
+  },
+  {
+    "text": "but",
+    "start": 2,
+    "end": 2.16
+  },
+  {
+    "text": "barely",
+    "start": 2.16,
+    "end": 2.56
+  },
+  {
+    "text": "reaches",
+    "start": 2.56,
+    "end": 2.88
+  },
+  {
+    "text": "the",
+    "start": 2.88,
+    "end": 2.96
+  },
+  {
+    "text": "bedroom.",
+    "start": 2.96,
+    "end": 3.68
+  },
+  {
+    "text": "Why?",
+    "start": 3.68,
+    "end": 4.4
+  },
+  {
+    "text": "Let's",
+    "start": 4.4,
+    "end": 4.8
+  },
+  {
+    "text": "estimate",
+    "start": 4.8,
+    "end": 5.28
+  },
+  {
+    "text": "it.",
+    "start": 5.28,
+    "end": 5.84
+  },
+  {
+    "text": "Start",
+    "start": 5.84,
+    "end": 6.24
+  },
+  {
+    "text": "at",
+    "start": 6.24,
+    "end": 6.4
+  },
+  {
+    "text": "minus",
+    "start": 6.4,
+    "end": 6.8
+  },
+  {
+    "text": "30",
+    "start": 6.8,
+    "end": 7.2
+  },
+  {
+    "text": "dB,",
+    "start": 7.2,
+    "end": 7.92
+  },
+  {
+    "text": "one",
+    "start": 7.92,
+    "end": 8.08
+  },
+  {
+    "text": "meter",
+    "start": 8.16,
+    "end": 8.48
+  },
+  {
+    "text": "from",
+    "start": 8.48,
+    "end": 8.64
+  },
+  {
+    "text": "the",
+    "start": 8.64,
+    "end": 8.72
+  },
+  {
+    "text": "router.",
+    "start": 8.72,
+    "end": 9.36
+  },
+  {
+    "text": "10",
+    "start": 9.36,
+    "end": 9.76
+  },
+  {
+    "text": "meters",
+    "start": 9.76,
+    "end": 10.08
+  },
+  {
+    "text": "of",
+    "start": 10.08,
+    "end": 10.24
+  },
+  {
+    "text": "open",
+    "start": 10.24,
+    "end": 10.48
+  },
+  {
+    "text": "space",
+    "start": 10.48,
+    "end": 10.96
+  },
+  {
+    "text": "costs",
+    "start": 10.96,
+    "end": 11.36
+  },
+  {
+    "text": "20",
+    "start": 11.36,
+    "end": 11.76
+  },
+  {
+    "text": "decibels,",
+    "start": 11.76,
+    "end": 12.4
+  },
+  {
+    "text": "minus",
+    "start": 12.56,
+    "end": 12.88
+  },
+  {
+    "text": "50.",
+    "start": 12.88,
+    "end": 13.68
+  },
+  {
+    "text": "Two",
+    "start": 13.68,
+    "end": 14
+  },
+  {
+    "text": "drywall",
+    "start": 14,
+    "end": 14.72
+  },
+  {
+    "text": "walls,",
+    "start": 14.72,
+    "end": 15.12
+  },
+  {
+    "text": "4",
+    "start": 15.12,
+    "end": 15.36
+  },
+  {
+    "text": "decibels",
+    "start": 15.36,
+    "end": 15.92
+  },
+  {
+    "text": "each,",
+    "start": 15.92,
+    "end": 16.4
+  },
+  {
+    "text": "minus",
+    "start": 16.4,
+    "end": 16.8
+  },
+  {
+    "text": "58.",
+    "start": 16.8,
+    "end": 17.92
+  },
+  {
+    "text": "And",
+    "start": 17.92,
+    "end": 18.08
+  },
+  {
+    "text": "a",
+    "start": 18.08,
+    "end": 18.24
+  },
+  {
+    "text": "thick",
+    "start": 18.24,
+    "end": 18.64
+  },
+  {
+    "text": "concrete",
+    "start": 18.64,
+    "end": 19.12
+  },
+  {
+    "text": "wall,",
+    "start": 19.12,
+    "end": 19.68
+  },
+  {
+    "text": "22",
+    "start": 19.68,
+    "end": 20.16
+  },
+  {
+    "text": "in",
+    "start": 20.24,
+    "end": 20.4
+  },
+  {
+    "text": "this",
+    "start": 20.4,
+    "end": 20.56
+  },
+  {
+    "text": "example,",
+    "start": 20.56,
+    "end": 21.28
+  },
+  {
+    "text": "minus",
+    "start": 21.28,
+    "end": 21.76
+  },
+  {
+    "text": "80.",
+    "start": 21.76,
+    "end": 22.4
+  },
+  {
+    "text": "That's",
+    "start": 22.64,
+    "end": 23.04
+  },
+  {
+    "text": "weak",
+    "start": 23.04,
+    "end": 23.28
+  },
+  {
+    "text": "enough",
+    "start": 23.28,
+    "end": 23.52
+  },
+  {
+    "text": "to",
+    "start": 23.52,
+    "end": 23.6
+  },
+  {
+    "text": "make",
+    "start": 23.6,
+    "end": 23.76
+  },
+  {
+    "text": "the",
+    "start": 23.76,
+    "end": 23.92
+  },
+  {
+    "text": "connection",
+    "start": 23.92,
+    "end": 24.32
+  },
+  {
+    "text": "unreliable.",
+    "start": 24.32,
+    "end": 25.36
+  },
+  {
+    "text": "Try",
+    "start": 25.36,
+    "end": 25.68
+  },
+  {
+    "text": "moving",
+    "start": 25.68,
+    "end": 26
+  },
+  {
+    "text": "the",
+    "start": 26,
+    "end": 26.08
+  },
+  {
+    "text": "router",
+    "start": 26.08,
+    "end": 26.4
+  },
+  {
+    "text": "so",
+    "start": 26.48,
+    "end": 26.64
+  },
+  {
+    "text": "the",
+    "start": 26.64,
+    "end": 26.72
+  },
+  {
+    "text": "signal",
+    "start": 26.72,
+    "end": 27.12
+  },
+  {
+    "text": "crosses",
+    "start": 27.12,
+    "end": 27.52
+  },
+  {
+    "text": "fewer",
+    "start": 27.52,
+    "end": 27.92
+  },
+  {
+    "text": "walls.",
+    "start": 27.92,
+    "end": 28.56
+  },
+  {
+    "text": "The",
+    "start": 28.56,
+    "end": 28.72
+  },
+  {
+    "text": "full",
+    "start": 28.72,
+    "end": 28.96
+  },
+  {
+    "text": "video",
+    "start": 28.96,
+    "end": 29.28
+  },
+  {
+    "text": "explains",
+    "start": 29.28,
+    "end": 29.68
+  },
+  {
+    "text": "the",
+    "start": 29.68,
+    "end": 29.76
+  },
+  {
+    "text": "math.",
+    "start": 29.76,
+    "end": 30.16
+  }
+]

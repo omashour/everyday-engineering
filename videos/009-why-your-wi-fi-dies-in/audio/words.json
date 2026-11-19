@@ -1,0 +1,5602 @@
+[
+  {
+    "text": "Wi",
+    "start": 0.16,
+    "end": 0.4
+  },
+  {
+    "text": "Fi",
+    "start": 0.56,
+    "end": 0.88
+  },
+  {
+    "text": "is",
+    "start": 0.88,
+    "end": 1.12
+  },
+  {
+    "text": "perfect",
+    "start": 1.12,
+    "end": 1.52
+  },
+  {
+    "text": "next",
+    "start": 1.52,
+    "end": 1.76
+  },
+  {
+    "text": "to",
+    "start": 1.76,
+    "end": 1.92
+  },
+  {
+    "text": "the",
+    "start": 1.92,
+    "end": 2
+  },
+  {
+    "text": "router",
+    "start": 2,
+    "end": 2.48
+  },
+  {
+    "text": "and",
+    "start": 2.56,
+    "end": 2.8
+  },
+  {
+    "text": "almost",
+    "start": 2.8,
+    "end": 3.12
+  },
+  {
+    "text": "dead",
+    "start": 3.12,
+    "end": 3.44
+  },
+  {
+    "text": "in",
+    "start": 3.44,
+    "end": 3.6
+  },
+  {
+    "text": "one",
+    "start": 3.6,
+    "end": 3.76
+  },
+  {
+    "text": "room.",
+    "start": 3.76,
+    "end": 4.24
+  },
+  {
+    "text": "In",
+    "start": 4.32,
+    "end": 4.56
+  },
+  {
+    "text": "ideal",
+    "start": 4.56,
+    "end": 5.04
+  },
+  {
+    "text": "open",
+    "start": 5.04,
+    "end": 5.28
+  },
+  {
+    "text": "space,",
+    "start": 5.28,
+    "end": 5.84
+  },
+  {
+    "text": "move",
+    "start": 5.84,
+    "end": 6.08
+  },
+  {
+    "text": "twice",
+    "start": 6.08,
+    "end": 6.4
+  },
+  {
+    "text": "as",
+    "start": 6.4,
+    "end": 6.56
+  },
+  {
+    "text": "far",
+    "start": 6.56,
+    "end": 6.8
+  },
+  {
+    "text": "and",
+    "start": 6.88,
+    "end": 7.04
+  },
+  {
+    "text": "you",
+    "start": 7.04,
+    "end": 7.2
+  },
+  {
+    "text": "receive",
+    "start": 7.2,
+    "end": 7.6
+  },
+  {
+    "text": "a",
+    "start": 7.6,
+    "end": 7.76
+  },
+  {
+    "text": "quarter",
+    "start": 7.76,
+    "end": 8.16
+  },
+  {
+    "text": "of",
+    "start": 8.16,
+    "end": 8.32
+  },
+  {
+    "text": "the",
+    "start": 8.32,
+    "end": 8.48
+  },
+  {
+    "text": "power.",
+    "start": 8.48,
+    "end": 9.2
+  },
+  {
+    "text": "But",
+    "start": 9.2,
+    "end": 9.44
+  },
+  {
+    "text": "that's",
+    "start": 9.44,
+    "end": 9.76
+  },
+  {
+    "text": "only",
+    "start": 9.76,
+    "end": 10
+  },
+  {
+    "text": "half",
+    "start": 10,
+    "end": 10.32
+  },
+  {
+    "text": "the",
+    "start": 10.32,
+    "end": 10.4
+  },
+  {
+    "text": "story.",
+    "start": 10.4,
+    "end": 10.96
+  },
+  {
+    "text": "The",
+    "start": 10.96,
+    "end": 11.2
+  },
+  {
+    "text": "rest",
+    "start": 11.2,
+    "end": 11.52
+  },
+  {
+    "text": "is",
+    "start": 11.52,
+    "end": 11.76
+  },
+  {
+    "text": "in",
+    "start": 11.76,
+    "end": 11.92
+  },
+  {
+    "text": "your",
+    "start": 11.92,
+    "end": 12.16
+  },
+  {
+    "text": "walls.",
+    "start": 12.16,
+    "end": 13.04
+  },
+  {
+    "text": "Let's",
+    "start": 13.04,
+    "end": 13.36
+  },
+  {
+    "text": "follow",
+    "start": 13.36,
+    "end": 13.68
+  },
+  {
+    "text": "your",
+    "start": 13.68,
+    "end": 13.92
+  },
+  {
+    "text": "signal",
+    "start": 13.92,
+    "end": 14.24
+  },
+  {
+    "text": "from",
+    "start": 14.24,
+    "end": 14.4
+  },
+  {
+    "text": "the",
+    "start": 14.4,
+    "end": 14.48
+  },
+  {
+    "text": "router",
+    "start": 14.48,
+    "end": 14.88
+  },
+  {
+    "text": "to",
+    "start": 14.88,
+    "end": 15.04
+  },
+  {
+    "text": "that",
+    "start": 15.04,
+    "end": 15.2
+  },
+  {
+    "text": "room,",
+    "start": 15.2,
+    "end": 15.68
+  },
+  {
+    "text": "with",
+    "start": 15.68,
+    "end": 15.92
+  },
+  {
+    "text": "one",
+    "start": 15.92,
+    "end": 16.24
+  },
+  {
+    "text": "law",
+    "start": 16.24,
+    "end": 16.48
+  },
+  {
+    "text": "of",
+    "start": 16.48,
+    "end": 16.64
+  },
+  {
+    "text": "physics",
+    "start": 16.64,
+    "end": 17.12
+  },
+  {
+    "text": "and",
+    "start": 17.2,
+    "end": 17.44
+  },
+  {
+    "text": "a",
+    "start": 17.44,
+    "end": 17.52
+  },
+  {
+    "text": "little",
+    "start": 17.52,
+    "end": 17.76
+  },
+  {
+    "text": "algebra.",
+    "start": 17.76,
+    "end": 19.04
+  },
+  {
+    "text": "Think",
+    "start": 19.04,
+    "end": 19.36
+  },
+  {
+    "text": "of",
+    "start": 19.36,
+    "end": 19.52
+  },
+  {
+    "text": "your",
+    "start": 19.52,
+    "end": 19.68
+  },
+  {
+    "text": "router",
+    "start": 19.68,
+    "end": 20.16
+  },
+  {
+    "text": "as",
+    "start": 20.16,
+    "end": 20.32
+  },
+  {
+    "text": "a",
+    "start": 20.32,
+    "end": 20.4
+  },
+  {
+    "text": "tiny",
+    "start": 20.4,
+    "end": 20.72
+  },
+  {
+    "text": "light",
+    "start": 20.72,
+    "end": 20.96
+  },
+  {
+    "text": "bulb",
+    "start": 20.96,
+    "end": 21.36
+  },
+  {
+    "text": "for",
+    "start": 21.36,
+    "end": 21.52
+  },
+  {
+    "text": "radio",
+    "start": 21.52,
+    "end": 21.84
+  },
+  {
+    "text": "waves.",
+    "start": 21.84,
+    "end": 22.56
+  },
+  {
+    "text": "In",
+    "start": 22.56,
+    "end": 22.8
+  },
+  {
+    "text": "ideal",
+    "start": 22.8,
+    "end": 23.28
+  },
+  {
+    "text": "open",
+    "start": 23.28,
+    "end": 23.6
+  },
+  {
+    "text": "space,",
+    "start": 23.6,
+    "end": 24.08
+  },
+  {
+    "text": "its",
+    "start": 24.08,
+    "end": 24.32
+  },
+  {
+    "text": "power",
+    "start": 24.32,
+    "end": 24.64
+  },
+  {
+    "text": "spreads",
+    "start": 24.64,
+    "end": 25.04
+  },
+  {
+    "text": "outward.",
+    "start": 25.04,
+    "end": 25.76
+  },
+  {
+    "text": "One",
+    "start": 25.76,
+    "end": 26
+  },
+  {
+    "text": "meter",
+    "start": 26,
+    "end": 26.32
+  },
+  {
+    "text": "away,",
+    "start": 26.32,
+    "end": 26.64
+  },
+  {
+    "text": "it",
+    "start": 26.72,
+    "end": 26.88
+  },
+  {
+    "text": "covers",
+    "start": 26.88,
+    "end": 27.2
+  },
+  {
+    "text": "a",
+    "start": 27.2,
+    "end": 27.28
+  },
+  {
+    "text": "sphere",
+    "start": 27.28,
+    "end": 27.76
+  },
+  {
+    "text": "one",
+    "start": 27.76,
+    "end": 27.92
+  },
+  {
+    "text": "meter",
+    "start": 28,
+    "end": 28.32
+  },
+  {
+    "text": "in",
+    "start": 28.32,
+    "end": 28.48
+  },
+  {
+    "text": "radius.",
+    "start": 28.48,
+    "end": 29.12
+  },
+  {
+    "text": "Two",
+    "start": 29.12,
+    "end": 29.44
+  },
+  {
+    "text": "meters",
+    "start": 29.44,
+    "end": 29.76
+  },
+  {
+    "text": "away,",
+    "start": 29.76,
+    "end": 30.24
+  },
+  {
+    "text": "the",
+    "start": 30.24,
+    "end": 30.4
+  },
+  {
+    "text": "same",
+    "start": 30.4,
+    "end": 30.64
+  },
+  {
+    "text": "power",
+    "start": 30.64,
+    "end": 30.96
+  },
+  {
+    "text": "covers",
+    "start": 30.96,
+    "end": 31.36
+  },
+  {
+    "text": "a",
+    "start": 31.36,
+    "end": 31.44
+  },
+  {
+    "text": "sphere",
+    "start": 31.44,
+    "end": 31.92
+  },
+  {
+    "text": "twice",
+    "start": 31.92,
+    "end": 32.24
+  },
+  {
+    "text": "as",
+    "start": 32.24,
+    "end": 32.4
+  },
+  {
+    "text": "wide.",
+    "start": 32.4,
+    "end": 32.96
+  },
+  {
+    "text": "A",
+    "start": 32.96,
+    "end": 33.2
+  },
+  {
+    "text": "sphere's",
+    "start": 33.2,
+    "end": 33.76
+  },
+  {
+    "text": "area",
+    "start": 33.76,
+    "end": 34.08
+  },
+  {
+    "text": "is",
+    "start": 34.08,
+    "end": 34.32
+  },
+  {
+    "text": "four",
+    "start": 34.32,
+    "end": 34.64
+  },
+  {
+    "text": "pi",
+    "start": 34.72,
+    "end": 34.88
+  },
+  {
+    "text": "r",
+    "start": 35.12,
+    "end": 35.36
+  },
+  {
+    "text": "squared,",
+    "start": 35.44,
+    "end": 36.08
+  },
+  {
+    "text": "double",
+    "start": 36.08,
+    "end": 36.56
+  },
+  {
+    "text": "r,",
+    "start": 36.56,
+    "end": 36.96
+  },
+  {
+    "text": "and",
+    "start": 36.96,
+    "end": 37.12
+  },
+  {
+    "text": "the",
+    "start": 37.12,
+    "end": 37.28
+  },
+  {
+    "text": "area",
+    "start": 37.28,
+    "end": 37.6
+  },
+  {
+    "text": "grows",
+    "start": 37.6,
+    "end": 37.92
+  },
+  {
+    "text": "by",
+    "start": 37.92,
+    "end": 38.16
+  },
+  {
+    "text": "two",
+    "start": 38.16,
+    "end": 38.32
+  },
+  {
+    "text": "squared,",
+    "start": 38.48,
+    "end": 39.2
+  },
+  {
+    "text": "four",
+    "start": 39.2,
+    "end": 39.6
+  },
+  {
+    "text": "times,",
+    "start": 39.6,
+    "end": 40.16
+  },
+  {
+    "text": "so",
+    "start": 40.16,
+    "end": 40.4
+  },
+  {
+    "text": "every",
+    "start": 40.4,
+    "end": 40.64
+  },
+  {
+    "text": "square",
+    "start": 40.64,
+    "end": 40.96
+  },
+  {
+    "text": "meter",
+    "start": 40.96,
+    "end": 41.2
+  },
+  {
+    "text": "gets",
+    "start": 41.2,
+    "end": 41.44
+  },
+  {
+    "text": "a",
+    "start": 41.44,
+    "end": 41.52
+  },
+  {
+    "text": "quarter",
+    "start": 41.52,
+    "end": 41.92
+  },
+  {
+    "text": "as",
+    "start": 41.92,
+    "end": 42.16
+  },
+  {
+    "text": "much.",
+    "start": 42.16,
+    "end": 42.64
+  },
+  {
+    "text": "As",
+    "start": 42.64,
+    "end": 42.88
+  },
+  {
+    "text": "an",
+    "start": 42.88,
+    "end": 43.12
+  },
+  {
+    "text": "equation,",
+    "start": 43.12,
+    "end": 43.84
+  },
+  {
+    "text": "the",
+    "start": 43.84,
+    "end": 44
+  },
+  {
+    "text": "power",
+    "start": 44,
+    "end": 44.32
+  },
+  {
+    "text": "passing",
+    "start": 44.32,
+    "end": 44.72
+  },
+  {
+    "text": "through",
+    "start": 44.72,
+    "end": 44.96
+  },
+  {
+    "text": "each",
+    "start": 44.96,
+    "end": 45.2
+  },
+  {
+    "text": "square",
+    "start": 45.2,
+    "end": 45.52
+  },
+  {
+    "text": "meter",
+    "start": 45.52,
+    "end": 45.84
+  },
+  {
+    "text": "at",
+    "start": 45.92,
+    "end": 46.08
+  },
+  {
+    "text": "distance",
+    "start": 46.08,
+    "end": 46.56
+  },
+  {
+    "text": "r",
+    "start": 46.56,
+    "end": 46.8
+  },
+  {
+    "text": "is",
+    "start": 47.04,
+    "end": 47.28
+  },
+  {
+    "text": "the",
+    "start": 47.28,
+    "end": 47.36
+  },
+  {
+    "text": "power",
+    "start": 47.36,
+    "end": 47.92
+  },
+  {
+    "text": "p",
+    "start": 47.92,
+    "end": 48.24
+  },
+  {
+    "text": "divided",
+    "start": 48.32,
+    "end": 48.8
+  },
+  {
+    "text": "by",
+    "start": 48.8,
+    "end": 48.96
+  },
+  {
+    "text": "four",
+    "start": 48.96,
+    "end": 49.28
+  },
+  {
+    "text": "pi",
+    "start": 49.36,
+    "end": 49.52
+  },
+  {
+    "text": "r",
+    "start": 49.76,
+    "end": 50
+  },
+  {
+    "text": "squared.",
+    "start": 50.08,
+    "end": 50.96
+  },
+  {
+    "text": "That's",
+    "start": 50.96,
+    "end": 51.28
+  },
+  {
+    "text": "the",
+    "start": 51.28,
+    "end": 51.44
+  },
+  {
+    "text": "inverse",
+    "start": 51.44,
+    "end": 51.92
+  },
+  {
+    "text": "square",
+    "start": 51.92,
+    "end": 52.4
+  },
+  {
+    "text": "law.",
+    "start": 52.4,
+    "end": 52.96
+  },
+  {
+    "text": "Your",
+    "start": 52.96,
+    "end": 53.2
+  },
+  {
+    "text": "phone's",
+    "start": 53.2,
+    "end": 53.6
+  },
+  {
+    "text": "antenna",
+    "start": 53.6,
+    "end": 54.16
+  },
+  {
+    "text": "catches",
+    "start": 54.16,
+    "end": 54.64
+  },
+  {
+    "text": "a",
+    "start": 54.64,
+    "end": 54.72
+  },
+  {
+    "text": "share",
+    "start": 54.72,
+    "end": 54.96
+  },
+  {
+    "text": "of",
+    "start": 54.96,
+    "end": 55.12
+  },
+  {
+    "text": "that.",
+    "start": 55.12,
+    "end": 55.44
+  },
+  {
+    "text": "So",
+    "start": 55.44,
+    "end": 55.68
+  },
+  {
+    "text": "if",
+    "start": 55.76,
+    "end": 55.92
+  },
+  {
+    "text": "the",
+    "start": 55.92,
+    "end": 56
+  },
+  {
+    "text": "antennas",
+    "start": 56,
+    "end": 56.56
+  },
+  {
+    "text": "and",
+    "start": 56.56,
+    "end": 56.64
+  },
+  {
+    "text": "frequency",
+    "start": 56.64,
+    "end": 57.2
+  },
+  {
+    "text": "stay",
+    "start": 57.2,
+    "end": 57.44
+  },
+  {
+    "text": "the",
+    "start": 57.44,
+    "end": 57.52
+  },
+  {
+    "text": "same,",
+    "start": 57.52,
+    "end": 57.92
+  },
+  {
+    "text": "the",
+    "start": 57.92,
+    "end": 58.08
+  },
+  {
+    "text": "power",
+    "start": 58.08,
+    "end": 58.4
+  },
+  {
+    "text": "your",
+    "start": 58.4,
+    "end": 58.64
+  },
+  {
+    "text": "phives",
+    "start": 58.64,
+    "end": 59.44
+  },
+  {
+    "text": "follows",
+    "start": 59.44,
+    "end": 59.84
+  },
+  {
+    "text": "the",
+    "start": 59.84,
+    "end": 60
+  },
+  {
+    "text": "same",
+    "start": 60,
+    "end": 60.24
+  },
+  {
+    "text": "rule.",
+    "start": 60.24,
+    "end": 60.88
+  },
+  {
+    "text": "At",
+    "start": 60.88,
+    "end": 61.12
+  },
+  {
+    "text": "twice",
+    "start": 61.12,
+    "end": 61.52
+  },
+  {
+    "text": "the",
+    "start": 61.52,
+    "end": 61.6
+  },
+  {
+    "text": "distance,",
+    "start": 61.6,
+    "end": 62.08
+  },
+  {
+    "text": "you're",
+    "start": 62.08,
+    "end": 62.32
+  },
+  {
+    "text": "left",
+    "start": 62.32,
+    "end": 62.48
+  },
+  {
+    "text": "with",
+    "start": 62.48,
+    "end": 62.72
+  },
+  {
+    "text": "one",
+    "start": 62.72,
+    "end": 62.88
+  },
+  {
+    "text": "over",
+    "start": 62.96,
+    "end": 63.2
+  },
+  {
+    "text": "two",
+    "start": 63.2,
+    "end": 63.28
+  },
+  {
+    "text": "squared.",
+    "start": 63.44,
+    "end": 63.84
+  },
+  {
+    "text": "One",
+    "start": 64.19,
+    "end": 64.51
+  },
+  {
+    "text": "quarter.",
+    "start": 64.51,
+    "end": 65.31
+  },
+  {
+    "text": "Three",
+    "start": 65.31,
+    "end": 65.63
+  },
+  {
+    "text": "times",
+    "start": 65.63,
+    "end": 65.87
+  },
+  {
+    "text": "as",
+    "start": 65.87,
+    "end": 66.03
+  },
+  {
+    "text": "far,",
+    "start": 66.03,
+    "end": 66.51
+  },
+  {
+    "text": "one",
+    "start": 66.51,
+    "end": 66.67
+  },
+  {
+    "text": "ninth.",
+    "start": 66.83,
+    "end": 67.55
+  },
+  {
+    "text": "Ten",
+    "start": 67.55,
+    "end": 67.71
+  },
+  {
+    "text": "times",
+    "start": 67.87,
+    "end": 68.11
+  },
+  {
+    "text": "as",
+    "start": 68.11,
+    "end": 68.27
+  },
+  {
+    "text": "far,",
+    "start": 68.27,
+    "end": 68.75
+  },
+  {
+    "text": "one",
+    "start": 68.75,
+    "end": 68.91
+  },
+  {
+    "text": "hundredth.",
+    "start": 68.99,
+    "end": 70.11
+  },
+  {
+    "text": "Here's",
+    "start": 70.11,
+    "end": 70.51
+  },
+  {
+    "text": "what",
+    "start": 70.51,
+    "end": 70.67
+  },
+  {
+    "text": "that",
+    "start": 70.67,
+    "end": 70.83
+  },
+  {
+    "text": "looks",
+    "start": 70.83,
+    "end": 71.07
+  },
+  {
+    "text": "like.",
+    "start": 71.07,
+    "end": 71.55
+  },
+  {
+    "text": "Start",
+    "start": 71.55,
+    "end": 71.87
+  },
+  {
+    "text": "at",
+    "start": 71.87,
+    "end": 72.03
+  },
+  {
+    "text": "one",
+    "start": 72.03,
+    "end": 72.19
+  },
+  {
+    "text": "meter,",
+    "start": 72.27,
+    "end": 72.67
+  },
+  {
+    "text": "and",
+    "start": 72.67,
+    "end": 72.83
+  },
+  {
+    "text": "call",
+    "start": 72.83,
+    "end": 73.07
+  },
+  {
+    "text": "the",
+    "start": 73.07,
+    "end": 73.15
+  },
+  {
+    "text": "power",
+    "start": 73.15,
+    "end": 73.47
+  },
+  {
+    "text": "there",
+    "start": 73.47,
+    "end": 73.79
+  },
+  {
+    "text": "one",
+    "start": 73.79,
+    "end": 73.87
+  },
+  {
+    "text": "hundred",
+    "start": 73.95,
+    "end": 74.27
+  },
+  {
+    "text": "percent.",
+    "start": 74.27,
+    "end": 74.91
+  },
+  {
+    "text": "At",
+    "start": 74.91,
+    "end": 75.15
+  },
+  {
+    "text": "two",
+    "start": 75.15,
+    "end": 75.23
+  },
+  {
+    "text": "meters,",
+    "start": 75.39,
+    "end": 75.95
+  },
+  {
+    "text": "you're",
+    "start": 75.95,
+    "end": 76.19
+  },
+  {
+    "text": "down",
+    "start": 76.19,
+    "end": 76.35
+  },
+  {
+    "text": "to",
+    "start": 76.35,
+    "end": 76.51
+  },
+  {
+    "text": "twenty",
+    "start": 76.51,
+    "end": 76.75
+  },
+  {
+    "text": "five",
+    "start": 76.75,
+    "end": 77.07
+  },
+  {
+    "text": "percent.",
+    "start": 77.07,
+    "end": 77.71
+  },
+  {
+    "text": "At",
+    "start": 77.71,
+    "end": 77.95
+  },
+  {
+    "text": "four",
+    "start": 77.95,
+    "end": 78.27
+  },
+  {
+    "text": "meters,",
+    "start": 78.27,
+    "end": 78.83
+  },
+  {
+    "text": "about",
+    "start": 78.83,
+    "end": 79.07
+  },
+  {
+    "text": "six",
+    "start": 79.07,
+    "end": 79.39
+  },
+  {
+    "text": "percent.",
+    "start": 79.47,
+    "end": 80.11
+  },
+  {
+    "text": "The",
+    "start": 80.11,
+    "end": 80.27
+  },
+  {
+    "text": "curve",
+    "start": 80.27,
+    "end": 80.67
+  },
+  {
+    "text": "looks",
+    "start": 80.67,
+    "end": 80.83
+  },
+  {
+    "text": "like",
+    "start": 80.83,
+    "end": 80.99
+  },
+  {
+    "text": "it",
+    "start": 80.99,
+    "end": 81.15
+  },
+  {
+    "text": "flattens",
+    "start": 81.15,
+    "end": 81.71
+  },
+  {
+    "text": "out,",
+    "start": 81.71,
+    "end": 81.95
+  },
+  {
+    "text": "but",
+    "start": 81.95,
+    "end": 82.19
+  },
+  {
+    "text": "it",
+    "start": 82.19,
+    "end": 82.43
+  },
+  {
+    "text": "never",
+    "start": 82.43,
+    "end": 82.67
+  },
+  {
+    "text": "really",
+    "start": 82.67,
+    "end": 82.91
+  },
+  {
+    "text": "slows",
+    "start": 82.91,
+    "end": 83.47
+  },
+  {
+    "text": "down.",
+    "start": 83.47,
+    "end": 83.95
+  },
+  {
+    "text": "Every",
+    "start": 83.95,
+    "end": 84.27
+  },
+  {
+    "text": "doubling",
+    "start": 84.27,
+    "end": 84.75
+  },
+  {
+    "text": "of",
+    "start": 84.75,
+    "end": 84.91
+  },
+  {
+    "text": "distance",
+    "start": 84.91,
+    "end": 85.39
+  },
+  {
+    "text": "takes",
+    "start": 85.39,
+    "end": 85.63
+  },
+  {
+    "text": "away",
+    "start": 85.63,
+    "end": 85.87
+  },
+  {
+    "text": "another",
+    "start": 85.87,
+    "end": 86.11
+  },
+  {
+    "text": "three",
+    "start": 86.11,
+    "end": 86.43
+  },
+  {
+    "text": "quarters",
+    "start": 86.51,
+    "end": 86.91
+  },
+  {
+    "text": "of",
+    "start": 86.91,
+    "end": 87.07
+  },
+  {
+    "text": "whatever",
+    "start": 87.07,
+    "end": 87.39
+  },
+  {
+    "text": "was",
+    "start": 87.39,
+    "end": 87.63
+  },
+  {
+    "text": "left.",
+    "start": 87.63,
+    "end": 88.27
+  },
+  {
+    "text": "Engineers",
+    "start": 88.51,
+    "end": 89.31
+  },
+  {
+    "text": "usually",
+    "start": 89.31,
+    "end": 89.63
+  },
+  {
+    "text": "use",
+    "start": 89.63,
+    "end": 89.87
+  },
+  {
+    "text": "decibels",
+    "start": 89.87,
+    "end": 90.67
+  },
+  {
+    "text": "for",
+    "start": 90.67,
+    "end": 90.75
+  },
+  {
+    "text": "this,",
+    "start": 90.75,
+    "end": 90.99
+  },
+  {
+    "text": "because",
+    "start": 90.99,
+    "end": 91.31
+  },
+  {
+    "text": "signals",
+    "start": 91.31,
+    "end": 91.79
+  },
+  {
+    "text": "cover",
+    "start": 91.79,
+    "end": 92.03
+  },
+  {
+    "text": "such",
+    "start": 92.03,
+    "end": 92.27
+  },
+  {
+    "text": "a",
+    "start": 92.27,
+    "end": 92.35
+  },
+  {
+    "text": "huge",
+    "start": 92.35,
+    "end": 92.67
+  },
+  {
+    "text": "range.",
+    "start": 92.67,
+    "end": 93.23
+  },
+  {
+    "text": "A",
+    "start": 93.23,
+    "end": 93.39
+  },
+  {
+    "text": "change",
+    "start": 93.39,
+    "end": 93.71
+  },
+  {
+    "text": "in",
+    "start": 93.71,
+    "end": 93.87
+  },
+  {
+    "text": "decibels",
+    "start": 93.87,
+    "end": 94.59
+  },
+  {
+    "text": "is",
+    "start": 94.59,
+    "end": 94.75
+  },
+  {
+    "text": "ten",
+    "start": 94.75,
+    "end": 94.99
+  },
+  {
+    "text": "times",
+    "start": 95.15,
+    "end": 95.39
+  },
+  {
+    "text": "the",
+    "start": 95.39,
+    "end": 95.63
+  },
+  {
+    "text": "log",
+    "start": 95.63,
+    "end": 95.95
+  },
+  {
+    "text": "of",
+    "start": 96.03,
+    "end": 96.19
+  },
+  {
+    "text": "the",
+    "start": 96.19,
+    "end": 96.27
+  },
+  {
+    "text": "power",
+    "start": 96.27,
+    "end": 96.67
+  },
+  {
+    "text": "ratio.",
+    "start": 96.67,
+    "end": 97.39
+  },
+  {
+    "text": "A",
+    "start": 97.39,
+    "end": 97.55
+  },
+  {
+    "text": "quarter",
+    "start": 97.55,
+    "end": 97.87
+  },
+  {
+    "text": "of",
+    "start": 97.87,
+    "end": 98.03
+  },
+  {
+    "text": "the",
+    "start": 98.03,
+    "end": 98.11
+  },
+  {
+    "text": "power",
+    "start": 98.11,
+    "end": 98.51
+  },
+  {
+    "text": "is",
+    "start": 98.51,
+    "end": 98.67
+  },
+  {
+    "text": "about",
+    "start": 98.67,
+    "end": 98.91
+  },
+  {
+    "text": "minus",
+    "start": 98.91,
+    "end": 99.31
+  },
+  {
+    "text": "six",
+    "start": 99.31,
+    "end": 99.55
+  },
+  {
+    "text": "decibels.",
+    "start": 99.55,
+    "end": 100.43
+  },
+  {
+    "text": "One",
+    "start": 100.43,
+    "end": 100.67
+  },
+  {
+    "text": "hundredth",
+    "start": 100.67,
+    "end": 101.07
+  },
+  {
+    "text": "is",
+    "start": 101.23,
+    "end": 101.39
+  },
+  {
+    "text": "minus",
+    "start": 101.39,
+    "end": 101.79
+  },
+  {
+    "text": "twenty.",
+    "start": 101.79,
+    "end": 102.51
+  },
+  {
+    "text": "So",
+    "start": 102.51,
+    "end": 102.75
+  },
+  {
+    "text": "every",
+    "start": 102.83,
+    "end": 103.23
+  },
+  {
+    "text": "doubling",
+    "start": 103.23,
+    "end": 103.71
+  },
+  {
+    "text": "of",
+    "start": 103.71,
+    "end": 103.87
+  },
+  {
+    "text": "distance",
+    "start": 103.87,
+    "end": 104.43
+  },
+  {
+    "text": "costs",
+    "start": 104.43,
+    "end": 104.83
+  },
+  {
+    "text": "about",
+    "start": 104.83,
+    "end": 105.07
+  },
+  {
+    "text": "six",
+    "start": 105.07,
+    "end": 105.39
+  },
+  {
+    "text": "decibels,",
+    "start": 105.39,
+    "end": 106.11
+  },
+  {
+    "text": "and",
+    "start": 106.11,
+    "end": 106.27
+  },
+  {
+    "text": "every",
+    "start": 106.27,
+    "end": 106.59
+  },
+  {
+    "text": "ten",
+    "start": 106.59,
+    "end": 106.67
+  },
+  {
+    "text": "times",
+    "start": 106.83,
+    "end": 107.07
+  },
+  {
+    "text": "the",
+    "start": 107.07,
+    "end": 107.23
+  },
+  {
+    "text": "distance",
+    "start": 107.23,
+    "end": 107.71
+  },
+  {
+    "text": "costs",
+    "start": 107.71,
+    "end": 108.11
+  },
+  {
+    "text": "twenty.",
+    "start": 108.11,
+    "end": 109.07
+  },
+  {
+    "text": "Your",
+    "start": 109.07,
+    "end": 109.39
+  },
+  {
+    "text": "phone",
+    "start": 109.39,
+    "end": 109.71
+  },
+  {
+    "text": "measures",
+    "start": 109.71,
+    "end": 110.11
+  },
+  {
+    "text": "Wi",
+    "start": 110.11,
+    "end": 110.27
+  },
+  {
+    "text": "Fi",
+    "start": 110.35,
+    "end": 110.67
+  },
+  {
+    "text": "in",
+    "start": 110.67,
+    "end": 110.83
+  },
+  {
+    "text": "dBm,",
+    "start": 110.83,
+    "end": 111.63
+  },
+  {
+    "text": "decibels",
+    "start": 111.79,
+    "end": 112.43
+  },
+  {
+    "text": "compared",
+    "start": 112.43,
+    "end": 112.75
+  },
+  {
+    "text": "to",
+    "start": 112.75,
+    "end": 112.91
+  },
+  {
+    "text": "one",
+    "start": 112.91,
+    "end": 112.99
+  },
+  {
+    "text": "milliwatt.",
+    "start": 113.07,
+    "end": 114.03
+  },
+  {
+    "text": "Minus",
+    "start": 114.03,
+    "end": 114.43
+  },
+  {
+    "text": "thirty",
+    "start": 114.43,
+    "end": 114.83
+  },
+  {
+    "text": "dB",
+    "start": 114.83,
+    "end": 115.15
+  },
+  {
+    "text": "is",
+    "start": 115.47,
+    "end": 115.63
+  },
+  {
+    "text": "a",
+    "start": 115.63,
+    "end": 115.79
+  },
+  {
+    "text": "thousandth",
+    "start": 115.79,
+    "end": 116.27
+  },
+  {
+    "text": "of",
+    "start": 116.35,
+    "end": 116.43
+  },
+  {
+    "text": "a",
+    "start": 116.43,
+    "end": 116.51
+  },
+  {
+    "text": "milliwatt,",
+    "start": 116.51,
+    "end": 117.31
+  },
+  {
+    "text": "minus",
+    "start": 117.31,
+    "end": 117.63
+  },
+  {
+    "text": "seventy",
+    "start": 117.63,
+    "end": 118.03
+  },
+  {
+    "text": "is",
+    "start": 118.19,
+    "end": 118.35
+  },
+  {
+    "text": "one",
+    "start": 118.35,
+    "end": 118.51
+  },
+  {
+    "text": "ten",
+    "start": 118.67,
+    "end": 118.91
+  },
+  {
+    "text": "billionth",
+    "start": 119.07,
+    "end": 119.55
+  },
+  {
+    "text": "of",
+    "start": 119.55,
+    "end": 119.63
+  },
+  {
+    "text": "a",
+    "start": 119.63,
+    "end": 119.79
+  },
+  {
+    "text": "watt.",
+    "start": 119.79,
+    "end": 120.11
+  },
+  {
+    "text": "and",
+    "start": 120.2,
+    "end": 120.44
+  },
+  {
+    "text": "a",
+    "start": 120.44,
+    "end": 120.52
+  },
+  {
+    "text": "phone",
+    "start": 120.52,
+    "end": 120.92
+  },
+  {
+    "text": "often",
+    "start": 120.92,
+    "end": 121.16
+  },
+  {
+    "text": "still",
+    "start": 121.16,
+    "end": 121.4
+  },
+  {
+    "text": "browse",
+    "start": 121.4,
+    "end": 121.88
+  },
+  {
+    "text": "on",
+    "start": 121.88,
+    "end": 122.12
+  },
+  {
+    "text": "that.",
+    "start": 122.12,
+    "end": 122.6
+  },
+  {
+    "text": "Here's",
+    "start": 122.6,
+    "end": 123.08
+  },
+  {
+    "text": "a",
+    "start": 123.08,
+    "end": 123.16
+  },
+  {
+    "text": "rough",
+    "start": 123.16,
+    "end": 123.48
+  },
+  {
+    "text": "guide.",
+    "start": 123.48,
+    "end": 124.2
+  },
+  {
+    "text": "Around",
+    "start": 124.2,
+    "end": 124.68
+  },
+  {
+    "text": "minus",
+    "start": 124.68,
+    "end": 125.08
+  },
+  {
+    "text": "30",
+    "start": 125.08,
+    "end": 125.48
+  },
+  {
+    "text": "dBm",
+    "start": 125.48,
+    "end": 126.2
+  },
+  {
+    "text": "is",
+    "start": 126.2,
+    "end": 126.36
+  },
+  {
+    "text": "an",
+    "start": 126.36,
+    "end": 126.52
+  },
+  {
+    "text": "extremely",
+    "start": 126.52,
+    "end": 127.08
+  },
+  {
+    "text": "strong",
+    "start": 127.08,
+    "end": 127.4
+  },
+  {
+    "text": "signal,",
+    "start": 127.4,
+    "end": 127.8
+  },
+  {
+    "text": "right",
+    "start": 127.88,
+    "end": 128.12
+  },
+  {
+    "text": "next",
+    "start": 128.12,
+    "end": 128.36
+  },
+  {
+    "text": "to",
+    "start": 128.36,
+    "end": 128.44
+  },
+  {
+    "text": "the",
+    "start": 128.44,
+    "end": 128.52
+  },
+  {
+    "text": "router.",
+    "start": 128.52,
+    "end": 129.24
+  },
+  {
+    "text": "Minus",
+    "start": 129.24,
+    "end": 129.64
+  },
+  {
+    "text": "50",
+    "start": 129.64,
+    "end": 130.04
+  },
+  {
+    "text": "is",
+    "start": 130.04,
+    "end": 130.2
+  },
+  {
+    "text": "excellent.",
+    "start": 130.2,
+    "end": 130.92
+  },
+  {
+    "text": "Around",
+    "start": 130.92,
+    "end": 131.24
+  },
+  {
+    "text": "minus",
+    "start": 131.24,
+    "end": 131.64
+  },
+  {
+    "text": "67",
+    "start": 131.64,
+    "end": 132.12
+  },
+  {
+    "text": "is",
+    "start": 132.36,
+    "end": 132.52
+  },
+  {
+    "text": "a",
+    "start": 132.52,
+    "end": 132.68
+  },
+  {
+    "text": "common",
+    "start": 132.68,
+    "end": 133
+  },
+  {
+    "text": "design",
+    "start": 133,
+    "end": 133.4
+  },
+  {
+    "text": "target",
+    "start": 133.4,
+    "end": 133.8
+  },
+  {
+    "text": "for",
+    "start": 133.8,
+    "end": 134.04
+  },
+  {
+    "text": "demanding",
+    "start": 134.04,
+    "end": 134.6
+  },
+  {
+    "text": "uses",
+    "start": 134.6,
+    "end": 134.92
+  },
+  {
+    "text": "like",
+    "start": 135,
+    "end": 135.24
+  },
+  {
+    "text": "voice",
+    "start": 135.24,
+    "end": 135.56
+  },
+  {
+    "text": "calls.",
+    "start": 135.56,
+    "end": 136.12
+  },
+  {
+    "text": "Minus",
+    "start": 136.12,
+    "end": 136.52
+  },
+  {
+    "text": "70",
+    "start": 136.52,
+    "end": 137
+  },
+  {
+    "text": "can",
+    "start": 137,
+    "end": 137.16
+  },
+  {
+    "text": "still",
+    "start": 137.16,
+    "end": 137.4
+  },
+  {
+    "text": "support",
+    "start": 137.4,
+    "end": 137.64
+  },
+  {
+    "text": "everyday",
+    "start": 137.64,
+    "end": 138.12
+  },
+  {
+    "text": "internet",
+    "start": 138.12,
+    "end": 138.36
+  },
+  {
+    "text": "use.",
+    "start": 138.52,
+    "end": 139
+  },
+  {
+    "text": "Around",
+    "start": 139,
+    "end": 139.32
+  },
+  {
+    "text": "minus",
+    "start": 139.32,
+    "end": 139.64
+  },
+  {
+    "text": "80",
+    "start": 139.64,
+    "end": 139.96
+  },
+  {
+    "text": "connections",
+    "start": 140.12,
+    "end": 140.52
+  },
+  {
+    "text": "may",
+    "start": 140.6,
+    "end": 140.76
+  },
+  {
+    "text": "become",
+    "start": 140.76,
+    "end": 141.08
+  },
+  {
+    "text": "unreliable,",
+    "start": 141.08,
+    "end": 141.88
+  },
+  {
+    "text": "and",
+    "start": 141.88,
+    "end": 142.12
+  },
+  {
+    "text": "near",
+    "start": 142.12,
+    "end": 142.44
+  },
+  {
+    "text": "minus",
+    "start": 142.44,
+    "end": 142.76
+  },
+  {
+    "text": "90,",
+    "start": 142.76,
+    "end": 143.24
+  },
+  {
+    "text": "staying",
+    "start": 143.24,
+    "end": 143.64
+  },
+  {
+    "text": "connected",
+    "start": 143.64,
+    "end": 144.04
+  },
+  {
+    "text": "can",
+    "start": 144.04,
+    "end": 144.28
+  },
+  {
+    "text": "be",
+    "start": 144.28,
+    "end": 144.44
+  },
+  {
+    "text": "difficult.",
+    "start": 144.44,
+    "end": 145
+  },
+  {
+    "text": "These",
+    "start": 145,
+    "end": 145.24
+  },
+  {
+    "text": "aren't",
+    "start": 145.24,
+    "end": 145.48
+  },
+  {
+    "text": "hard",
+    "start": 145.48,
+    "end": 145.72
+  },
+  {
+    "text": "cutoffs.",
+    "start": 145.72,
+    "end": 146.52
+  },
+  {
+    "text": "Interference",
+    "start": 146.52,
+    "end": 147
+  },
+  {
+    "text": "and",
+    "start": 147.08,
+    "end": 147.24
+  },
+  {
+    "text": "crowded",
+    "start": 147.24,
+    "end": 147.64
+  },
+  {
+    "text": "networks",
+    "start": 147.64,
+    "end": 148.12
+  },
+  {
+    "text": "matter",
+    "start": 148.12,
+    "end": 148.36
+  },
+  {
+    "text": "too.",
+    "start": 148.44,
+    "end": 149.24
+  },
+  {
+    "text": "Now",
+    "start": 149.24,
+    "end": 149.56
+  },
+  {
+    "text": "let's",
+    "start": 149.56,
+    "end": 149.88
+  },
+  {
+    "text": "test",
+    "start": 149.88,
+    "end": 150.12
+  },
+  {
+    "text": "distance",
+    "start": 150.12,
+    "end": 150.6
+  },
+  {
+    "text": "alone",
+    "start": 150.6,
+    "end": 151
+  },
+  {
+    "text": "in",
+    "start": 151.08,
+    "end": 151.32
+  },
+  {
+    "text": "ideal",
+    "start": 151.4,
+    "end": 151.88
+  },
+  {
+    "text": "open",
+    "start": 151.88,
+    "end": 152.2
+  },
+  {
+    "text": "space.",
+    "start": 152.2,
+    "end": 152.84
+  },
+  {
+    "text": "Say",
+    "start": 152.84,
+    "end": 153.16
+  },
+  {
+    "text": "your",
+    "start": 153.16,
+    "end": 153.32
+  },
+  {
+    "text": "phone",
+    "start": 153.32,
+    "end": 153.64
+  },
+  {
+    "text": "reads",
+    "start": 153.64,
+    "end": 154.04
+  },
+  {
+    "text": "minus",
+    "start": 154.04,
+    "end": 154.36
+  },
+  {
+    "text": "30",
+    "start": 154.36,
+    "end": 154.76
+  },
+  {
+    "text": "at",
+    "start": 154.84,
+    "end": 155
+  },
+  {
+    "text": "one",
+    "start": 155,
+    "end": 155.16
+  },
+  {
+    "text": "meter.",
+    "start": 155.24,
+    "end": 155.8
+  },
+  {
+    "text": "Every",
+    "start": 155.8,
+    "end": 156.04
+  },
+  {
+    "text": "time",
+    "start": 156.04,
+    "end": 156.28
+  },
+  {
+    "text": "we",
+    "start": 156.28,
+    "end": 156.36
+  },
+  {
+    "text": "double",
+    "start": 156.36,
+    "end": 156.76
+  },
+  {
+    "text": "the",
+    "start": 156.76,
+    "end": 156.84
+  },
+  {
+    "text": "distance",
+    "start": 156.84,
+    "end": 157.16
+  },
+  {
+    "text": "we",
+    "start": 157.24,
+    "end": 157.32
+  },
+  {
+    "text": "lose",
+    "start": 157.32,
+    "end": 157.56
+  },
+  {
+    "text": "another",
+    "start": 157.56,
+    "end": 157.8
+  },
+  {
+    "text": "6",
+    "start": 157.8,
+    "end": 158.12
+  },
+  {
+    "text": "decibels.",
+    "start": 158.12,
+    "end": 159
+  },
+  {
+    "text": "2",
+    "start": 159,
+    "end": 159.32
+  },
+  {
+    "text": "meters,",
+    "start": 159.32,
+    "end": 159.8
+  },
+  {
+    "text": "minus",
+    "start": 159.8,
+    "end": 160.12
+  },
+  {
+    "text": "36.",
+    "start": 160.12,
+    "end": 161
+  },
+  {
+    "text": "8",
+    "start": 161,
+    "end": 161.24
+  },
+  {
+    "text": "meters,",
+    "start": 161.24,
+    "end": 161.64
+  },
+  {
+    "text": "minus",
+    "start": 161.72,
+    "end": 162.04
+  },
+  {
+    "text": "48.",
+    "start": 162.04,
+    "end": 162.84
+  },
+  {
+    "text": "32",
+    "start": 162.84,
+    "end": 163.4
+  },
+  {
+    "text": "meters",
+    "start": 163.4,
+    "end": 163.72
+  },
+  {
+    "text": "minus",
+    "start": 163.88,
+    "end": 164.28
+  },
+  {
+    "text": "60.",
+    "start": 164.28,
+    "end": 164.92
+  },
+  {
+    "text": "Because",
+    "start": 164.92,
+    "end": 165.24
+  },
+  {
+    "text": "we're",
+    "start": 165.24,
+    "end": 165.48
+  },
+  {
+    "text": "counting",
+    "start": 165.48,
+    "end": 165.88
+  },
+  {
+    "text": "distance",
+    "start": 165.88,
+    "end": 166.2
+  },
+  {
+    "text": "in",
+    "start": 166.2,
+    "end": 166.36
+  },
+  {
+    "text": "doublings,",
+    "start": 166.36,
+    "end": 167.08
+  },
+  {
+    "text": "which",
+    "start": 167.08,
+    "end": 167.16
+  },
+  {
+    "text": "is",
+    "start": 167.16,
+    "end": 167.24
+  },
+  {
+    "text": "a",
+    "start": 167.24,
+    "end": 167.32
+  },
+  {
+    "text": "logarithmic",
+    "start": 167.32,
+    "end": 167.88
+  },
+  {
+    "text": "scale,",
+    "start": 167.96,
+    "end": 168.44
+  },
+  {
+    "text": "the",
+    "start": 168.44,
+    "end": 168.6
+  },
+  {
+    "text": "points",
+    "start": 168.6,
+    "end": 168.92
+  },
+  {
+    "text": "fall",
+    "start": 168.92,
+    "end": 169.16
+  },
+  {
+    "text": "on",
+    "start": 169.16,
+    "end": 169.32
+  },
+  {
+    "text": "a",
+    "start": 169.32,
+    "end": 169.4
+  },
+  {
+    "text": "straight",
+    "start": 169.4,
+    "end": 169.72
+  },
+  {
+    "text": "line.",
+    "start": 169.72,
+    "end": 170.28
+  },
+  {
+    "text": "Even",
+    "start": 170.28,
+    "end": 170.6
+  },
+  {
+    "text": "32",
+    "start": 170.6,
+    "end": 171.24
+  },
+  {
+    "text": "meters",
+    "start": 171.24,
+    "end": 171.56
+  },
+  {
+    "text": "away,",
+    "start": 171.56,
+    "end": 171.88
+  },
+  {
+    "text": "the",
+    "start": 171.88,
+    "end": 172.04
+  },
+  {
+    "text": "model",
+    "start": 172.04,
+    "end": 172.28
+  },
+  {
+    "text": "still",
+    "start": 172.44,
+    "end": 172.6
+  },
+  {
+    "text": "gives",
+    "start": 172.6,
+    "end": 172.92
+  },
+  {
+    "text": "a",
+    "start": 172.92,
+    "end": 173
+  },
+  {
+    "text": "reasonably",
+    "start": 173,
+    "end": 173.48
+  },
+  {
+    "text": "strong",
+    "start": 173.48,
+    "end": 173.8
+  },
+  {
+    "text": "signal.",
+    "start": 173.8,
+    "end": 174.44
+  },
+  {
+    "text": "With",
+    "start": 174.44,
+    "end": 174.68
+  },
+  {
+    "text": "these",
+    "start": 174.68,
+    "end": 174.84
+  },
+  {
+    "text": "numbers,",
+    "start": 174.84,
+    "end": 175.32
+  },
+  {
+    "text": "distance",
+    "start": 175.32,
+    "end": 175.72
+  },
+  {
+    "text": "alone",
+    "start": 175.72,
+    "end": 176.12
+  },
+  {
+    "text": "doesn't",
+    "start": 176.12,
+    "end": 176.36
+  },
+  {
+    "text": "explain",
+    "start": 176.36,
+    "end": 176.76
+  },
+  {
+    "text": "a",
+    "start": 176.76,
+    "end": 176.84
+  },
+  {
+    "text": "weak",
+    "start": 176.84,
+    "end": 177.16
+  },
+  {
+    "text": "room.",
+    "start": 177.16,
+    "end": 177.8
+  },
+  {
+    "text": "So",
+    "start": 178.07,
+    "end": 178.31
+  },
+  {
+    "text": "what's",
+    "start": 178.39,
+    "end": 178.79
+  },
+  {
+    "text": "happening",
+    "start": 178.79,
+    "end": 179.19
+  },
+  {
+    "text": "in",
+    "start": 179.19,
+    "end": 179.35
+  },
+  {
+    "text": "that",
+    "start": 179.35,
+    "end": 179.51
+  },
+  {
+    "text": "one",
+    "start": 179.51,
+    "end": 179.75
+  },
+  {
+    "text": "room?",
+    "start": 179.75,
+    "end": 180.47
+  },
+  {
+    "text": "Usually",
+    "start": 180.47,
+    "end": 180.87
+  },
+  {
+    "text": "it's",
+    "start": 180.95,
+    "end": 181.27
+  },
+  {
+    "text": "what",
+    "start": 181.27,
+    "end": 181.43
+  },
+  {
+    "text": "the",
+    "start": 181.43,
+    "end": 181.51
+  },
+  {
+    "text": "signal",
+    "start": 181.51,
+    "end": 181.91
+  },
+  {
+    "text": "has",
+    "start": 181.91,
+    "end": 182.07
+  },
+  {
+    "text": "to",
+    "start": 182.07,
+    "end": 182.23
+  },
+  {
+    "text": "pass",
+    "start": 182.23,
+    "end": 182.55
+  },
+  {
+    "text": "through.",
+    "start": 182.55,
+    "end": 183.35
+  },
+  {
+    "text": "Every",
+    "start": 183.35,
+    "end": 183.75
+  },
+  {
+    "text": "wall",
+    "start": 183.75,
+    "end": 184.07
+  },
+  {
+    "text": "adds",
+    "start": 184.07,
+    "end": 184.39
+  },
+  {
+    "text": "its",
+    "start": 184.39,
+    "end": 184.55
+  },
+  {
+    "text": "own",
+    "start": 184.55,
+    "end": 184.71
+  },
+  {
+    "text": "loss,",
+    "start": 184.71,
+    "end": 185.27
+  },
+  {
+    "text": "measured",
+    "start": 185.27,
+    "end": 185.59
+  },
+  {
+    "text": "in",
+    "start": 185.59,
+    "end": 185.75
+  },
+  {
+    "text": "decibels.",
+    "start": 185.75,
+    "end": 186.63
+  },
+  {
+    "text": "At",
+    "start": 186.63,
+    "end": 186.79
+  },
+  {
+    "text": "2.4",
+    "start": 186.79,
+    "end": 187.51
+  },
+  {
+    "text": "gigahertz,",
+    "start": 187.51,
+    "end": 188.39
+  },
+  {
+    "text": "a",
+    "start": 188.39,
+    "end": 188.47
+  },
+  {
+    "text": "drywall",
+    "start": 188.47,
+    "end": 189.11
+  },
+  {
+    "text": "partition",
+    "start": 189.11,
+    "end": 189.67
+  },
+  {
+    "text": "might",
+    "start": 189.67,
+    "end": 189.83
+  },
+  {
+    "text": "cost",
+    "start": 189.83,
+    "end": 189.99
+  },
+  {
+    "text": "a",
+    "start": 189.99,
+    "end": 190.15
+  },
+  {
+    "text": "few",
+    "start": 190.15,
+    "end": 190.31
+  },
+  {
+    "text": "decibels.",
+    "start": 190.31,
+    "end": 191.11
+  },
+  {
+    "text": "Brick",
+    "start": 191.11,
+    "end": 191.51
+  },
+  {
+    "text": "can",
+    "start": 191.51,
+    "end": 191.67
+  },
+  {
+    "text": "cost",
+    "start": 191.67,
+    "end": 191.91
+  },
+  {
+    "text": "several",
+    "start": 191.91,
+    "end": 192.23
+  },
+  {
+    "text": "more.",
+    "start": 192.23,
+    "end": 192.79
+  },
+  {
+    "text": "Thick",
+    "start": 192.79,
+    "end": 193.11
+  },
+  {
+    "text": "or",
+    "start": 193.19,
+    "end": 193.43
+  },
+  {
+    "text": "reinforced",
+    "start": 193.43,
+    "end": 194.23
+  },
+  {
+    "text": "concrete",
+    "start": 194.23,
+    "end": 194.71
+  },
+  {
+    "text": "can",
+    "start": 194.79,
+    "end": 195.03
+  },
+  {
+    "text": "cost",
+    "start": 195.03,
+    "end": 195.35
+  },
+  {
+    "text": "much",
+    "start": 195.35,
+    "end": 195.67
+  },
+  {
+    "text": "more",
+    "start": 195.67,
+    "end": 195.91
+  },
+  {
+    "text": "than",
+    "start": 195.91,
+    "end": 196.15
+  },
+  {
+    "text": "that.",
+    "start": 196.15,
+    "end": 196.63
+  },
+  {
+    "text": "And",
+    "start": 196.63,
+    "end": 196.87
+  },
+  {
+    "text": "metal,",
+    "start": 196.87,
+    "end": 197.43
+  },
+  {
+    "text": "like",
+    "start": 197.43,
+    "end": 197.59
+  },
+  {
+    "text": "a",
+    "start": 197.59,
+    "end": 197.75
+  },
+  {
+    "text": "steel",
+    "start": 197.75,
+    "end": 198.07
+  },
+  {
+    "text": "door,",
+    "start": 198.07,
+    "end": 198.39
+  },
+  {
+    "text": "can",
+    "start": 198.55,
+    "end": 198.71
+  },
+  {
+    "text": "block",
+    "start": 198.71,
+    "end": 199.03
+  },
+  {
+    "text": "the",
+    "start": 199.03,
+    "end": 199.19
+  },
+  {
+    "text": "signal",
+    "start": 199.19,
+    "end": 199.59
+  },
+  {
+    "text": "especially",
+    "start": 199.59,
+    "end": 200.15
+  },
+  {
+    "text": "strongly.",
+    "start": 200.15,
+    "end": 200.95
+  },
+  {
+    "text": "The",
+    "start": 200.95,
+    "end": 201.19
+  },
+  {
+    "text": "exact",
+    "start": 201.19,
+    "end": 201.59
+  },
+  {
+    "text": "amount",
+    "start": 201.59,
+    "end": 201.91
+  },
+  {
+    "text": "depends",
+    "start": 201.91,
+    "end": 202.23
+  },
+  {
+    "text": "on",
+    "start": 202.23,
+    "end": 202.39
+  },
+  {
+    "text": "the",
+    "start": 202.39,
+    "end": 202.55
+  },
+  {
+    "text": "material,",
+    "start": 202.55,
+    "end": 203.19
+  },
+  {
+    "text": "the",
+    "start": 203.19,
+    "end": 203.35
+  },
+  {
+    "text": "thickness,",
+    "start": 203.35,
+    "end": 203.91
+  },
+  {
+    "text": "and",
+    "start": 203.91,
+    "end": 204.07
+  },
+  {
+    "text": "how",
+    "start": 204.07,
+    "end": 204.31
+  },
+  {
+    "text": "the",
+    "start": 204.31,
+    "end": 204.39
+  },
+  {
+    "text": "wall",
+    "start": 204.39,
+    "end": 204.71
+  },
+  {
+    "text": "is",
+    "start": 204.71,
+    "end": 204.95
+  },
+  {
+    "text": "built.",
+    "start": 204.95,
+    "end": 205.67
+  },
+  {
+    "text": "Now,",
+    "start": 205.67,
+    "end": 206.07
+  },
+  {
+    "text": "let's",
+    "start": 206.07,
+    "end": 206.39
+  },
+  {
+    "text": "build",
+    "start": 206.39,
+    "end": 206.71
+  },
+  {
+    "text": "a",
+    "start": 206.71,
+    "end": 206.79
+  },
+  {
+    "text": "simplified",
+    "start": 206.79,
+    "end": 207.35
+  },
+  {
+    "text": "example.",
+    "start": 207.35,
+    "end": 207.99
+  },
+  {
+    "text": "The",
+    "start": 207.99,
+    "end": 208.15
+  },
+  {
+    "text": "bedroom",
+    "start": 208.15,
+    "end": 208.71
+  },
+  {
+    "text": "is",
+    "start": 208.71,
+    "end": 208.87
+  },
+  {
+    "text": "10",
+    "start": 208.87,
+    "end": 209.19
+  },
+  {
+    "text": "meters",
+    "start": 209.19,
+    "end": 209.43
+  },
+  {
+    "text": "from",
+    "start": 209.43,
+    "end": 209.59
+  },
+  {
+    "text": "the",
+    "start": 209.59,
+    "end": 209.67
+  },
+  {
+    "text": "router.",
+    "start": 209.67,
+    "end": 210.31
+  },
+  {
+    "text": "The",
+    "start": 210.31,
+    "end": 210.47
+  },
+  {
+    "text": "signal",
+    "start": 210.47,
+    "end": 210.87
+  },
+  {
+    "text": "crosses",
+    "start": 210.87,
+    "end": 211.27
+  },
+  {
+    "text": "two",
+    "start": 211.27,
+    "end": 211.51
+  },
+  {
+    "text": "drywall",
+    "start": 211.51,
+    "end": 212.15
+  },
+  {
+    "text": "walls,",
+    "start": 212.15,
+    "end": 212.55
+  },
+  {
+    "text": "which",
+    "start": 212.55,
+    "end": 212.71
+  },
+  {
+    "text": "will",
+    "start": 212.71,
+    "end": 212.79
+  },
+  {
+    "text": "call",
+    "start": 212.87,
+    "end": 213.11
+  },
+  {
+    "text": "4",
+    "start": 213.11,
+    "end": 213.35
+  },
+  {
+    "text": "decibels",
+    "start": 213.35,
+    "end": 214.07
+  },
+  {
+    "text": "each,",
+    "start": 214.07,
+    "end": 214.47
+  },
+  {
+    "text": "and",
+    "start": 214.47,
+    "end": 214.71
+  },
+  {
+    "text": "one",
+    "start": 214.71,
+    "end": 214.95
+  },
+  {
+    "text": "thick",
+    "start": 214.95,
+    "end": 215.35
+  },
+  {
+    "text": "concrete",
+    "start": 215.35,
+    "end": 215.83
+  },
+  {
+    "text": "wall,",
+    "start": 215.83,
+    "end": 216.23
+  },
+  {
+    "text": "which",
+    "start": 216.23,
+    "end": 216.39
+  },
+  {
+    "text": "we'll",
+    "start": 216.39,
+    "end": 216.55
+  },
+  {
+    "text": "call",
+    "start": 216.55,
+    "end": 216.79
+  },
+  {
+    "text": "22.",
+    "start": 216.79,
+    "end": 217.67
+  },
+  {
+    "text": "That's",
+    "start": 217.67,
+    "end": 217.99
+  },
+  {
+    "text": "a",
+    "start": 217.99,
+    "end": 218.07
+  },
+  {
+    "text": "tough",
+    "start": 218.07,
+    "end": 218.39
+  },
+  {
+    "text": "wall,",
+    "start": 218.39,
+    "end": 218.79
+  },
+  {
+    "text": "chosen",
+    "start": 218.79,
+    "end": 219.11
+  },
+  {
+    "text": "for",
+    "start": 219.11,
+    "end": 219.27
+  },
+  {
+    "text": "this",
+    "start": 219.27,
+    "end": 219.43
+  },
+  {
+    "text": "example.",
+    "start": 219.43,
+    "end": 220.31
+  },
+  {
+    "text": "Distance",
+    "start": 220.31,
+    "end": 220.95
+  },
+  {
+    "text": "first.",
+    "start": 220.95,
+    "end": 221.67
+  },
+  {
+    "text": "10",
+    "start": 221.67,
+    "end": 221.99
+  },
+  {
+    "text": "times",
+    "start": 221.99,
+    "end": 222.31
+  },
+  {
+    "text": "the",
+    "start": 222.31,
+    "end": 222.39
+  },
+  {
+    "text": "distance",
+    "start": 222.39,
+    "end": 222.79
+  },
+  {
+    "text": "costs",
+    "start": 222.79,
+    "end": 223.19
+  },
+  {
+    "text": "20",
+    "start": 223.19,
+    "end": 223.51
+  },
+  {
+    "text": "decibels,",
+    "start": 223.51,
+    "end": 224.31
+  },
+  {
+    "text": "so",
+    "start": 224.31,
+    "end": 224.47
+  },
+  {
+    "text": "minus",
+    "start": 224.55,
+    "end": 224.95
+  },
+  {
+    "text": "30",
+    "start": 224.95,
+    "end": 225.35
+  },
+  {
+    "text": "becomes",
+    "start": 225.35,
+    "end": 225.67
+  },
+  {
+    "text": "a",
+    "start": 225.67,
+    "end": 225.75
+  },
+  {
+    "text": "minus",
+    "start": 225.75,
+    "end": 226.15
+  },
+  {
+    "text": "50.",
+    "start": 226.15,
+    "end": 226.87
+  },
+  {
+    "text": "Then",
+    "start": 226.87,
+    "end": 227.11
+  },
+  {
+    "text": "the",
+    "start": 227.11,
+    "end": 227.19
+  },
+  {
+    "text": "drywall.",
+    "start": 227.19,
+    "end": 228.15
+  },
+  {
+    "text": "Then",
+    "start": 230.71,
+    "end": 231.03
+  },
+  {
+    "text": "the",
+    "start": 231.03,
+    "end": 231.19
+  },
+  {
+    "text": "concrete,",
+    "start": 231.19,
+    "end": 232.07
+  },
+  {
+    "text": "minus",
+    "start": 232.07,
+    "end": 232.55
+  },
+  {
+    "text": "80.",
+    "start": 232.55,
+    "end": 233.03
+  },
+  {
+    "text": "That's",
+    "start": 233.19,
+    "end": 233.51
+  },
+  {
+    "text": "weak",
+    "start": 233.51,
+    "end": 233.83
+  },
+  {
+    "text": "enough",
+    "start": 233.83,
+    "end": 234.07
+  },
+  {
+    "text": "to",
+    "start": 234.07,
+    "end": 234.15
+  },
+  {
+    "text": "make",
+    "start": 234.15,
+    "end": 234.31
+  },
+  {
+    "text": "the",
+    "start": 234.31,
+    "end": 234.39
+  },
+  {
+    "text": "connection",
+    "start": 234.39,
+    "end": 234.79
+  },
+  {
+    "text": "unreliable.",
+    "start": 234.79,
+    "end": 235.91
+  },
+  {
+    "text": "In",
+    "start": 235.91,
+    "end": 236.15
+  },
+  {
+    "text": "a",
+    "start": 236.15,
+    "end": 236.31
+  },
+  {
+    "text": "real",
+    "start": 236.31,
+    "end": 236.63
+  },
+  {
+    "text": "house,",
+    "start": 236.63,
+    "end": 237.03
+  },
+  {
+    "text": "reflections",
+    "start": 237.03,
+    "end": 237.67
+  },
+  {
+    "text": "make",
+    "start": 237.67,
+    "end": 237.83
+  },
+  {
+    "text": "the",
+    "start": 237.83,
+    "end": 237.91
+  },
+  {
+    "text": "signal",
+    "start": 237.91,
+    "end": 238.23
+  },
+  {
+    "text": "jump",
+    "start": 238.23,
+    "end": 238.47
+  },
+  {
+    "text": "around,",
+    "start": 238.47,
+    "end": 239.03
+  },
+  {
+    "text": "but",
+    "start": 239.03,
+    "end": 239.27
+  },
+  {
+    "text": "adding",
+    "start": 239.27,
+    "end": 239.59
+  },
+  {
+    "text": "the",
+    "start": 239.59,
+    "end": 239.75
+  },
+  {
+    "text": "losses",
+    "start": 239.75,
+    "end": 240.23
+  },
+  {
+    "text": "gives",
+    "start": 240.23,
+    "end": 240.47
+  },
+  {
+    "text": "a",
+    "start": 240.47,
+    "end": 240.55
+  },
+  {
+    "text": "useful",
+    "start": 240.55,
+    "end": 240.87
+  },
+  {
+    "text": "first",
+    "start": 240.87,
+    "end": 241.19
+  },
+  {
+    "text": "estimate.",
+    "start": 241.19,
+    "end": 242.07
+  },
+  {
+    "text": "Here's",
+    "start": 242.1,
+    "end": 242.5
+  },
+  {
+    "text": "the",
+    "start": 242.5,
+    "end": 242.58
+  },
+  {
+    "text": "same",
+    "start": 242.58,
+    "end": 242.82
+  },
+  {
+    "text": "path",
+    "start": 242.82,
+    "end": 243.14
+  },
+  {
+    "text": "on",
+    "start": 243.14,
+    "end": 243.3
+  },
+  {
+    "text": "a",
+    "start": 243.3,
+    "end": 243.38
+  },
+  {
+    "text": "graph.",
+    "start": 243.38,
+    "end": 244.02
+  },
+  {
+    "text": "The",
+    "start": 244.02,
+    "end": 244.18
+  },
+  {
+    "text": "dashed",
+    "start": 244.18,
+    "end": 244.66
+  },
+  {
+    "text": "curve",
+    "start": 244.66,
+    "end": 244.98
+  },
+  {
+    "text": "is",
+    "start": 244.98,
+    "end": 245.14
+  },
+  {
+    "text": "ideal",
+    "start": 245.14,
+    "end": 245.62
+  },
+  {
+    "text": "open",
+    "start": 245.62,
+    "end": 246.02
+  },
+  {
+    "text": "space.",
+    "start": 246.02,
+    "end": 246.58
+  },
+  {
+    "text": "It",
+    "start": 246.58,
+    "end": 246.74
+  },
+  {
+    "text": "only",
+    "start": 246.74,
+    "end": 246.98
+  },
+  {
+    "text": "drops",
+    "start": 246.98,
+    "end": 247.3
+  },
+  {
+    "text": "to",
+    "start": 247.3,
+    "end": 247.46
+  },
+  {
+    "text": "minus",
+    "start": 247.46,
+    "end": 247.78
+  },
+  {
+    "text": "50",
+    "start": 247.78,
+    "end": 248.1
+  },
+  {
+    "text": "at",
+    "start": 248.1,
+    "end": 248.26
+  },
+  {
+    "text": "10",
+    "start": 248.26,
+    "end": 248.58
+  },
+  {
+    "text": "meters.",
+    "start": 248.58,
+    "end": 249.22
+  },
+  {
+    "text": "The",
+    "start": 249.22,
+    "end": 249.46
+  },
+  {
+    "text": "solid",
+    "start": 249.46,
+    "end": 249.94
+  },
+  {
+    "text": "line",
+    "start": 249.94,
+    "end": 250.26
+  },
+  {
+    "text": "is",
+    "start": 250.26,
+    "end": 250.42
+  },
+  {
+    "text": "our",
+    "start": 250.42,
+    "end": 250.58
+  },
+  {
+    "text": "example.",
+    "start": 250.58,
+    "end": 251.38
+  },
+  {
+    "text": "Every",
+    "start": 251.38,
+    "end": 251.7
+  },
+  {
+    "text": "time",
+    "start": 251.7,
+    "end": 251.86
+  },
+  {
+    "text": "it",
+    "start": 251.86,
+    "end": 252.02
+  },
+  {
+    "text": "hits",
+    "start": 252.02,
+    "end": 252.34
+  },
+  {
+    "text": "a",
+    "start": 252.34,
+    "end": 252.42
+  },
+  {
+    "text": "wall,",
+    "start": 252.42,
+    "end": 252.74
+  },
+  {
+    "text": "it",
+    "start": 252.74,
+    "end": 252.98
+  },
+  {
+    "text": "steps",
+    "start": 252.98,
+    "end": 253.38
+  },
+  {
+    "text": "straight",
+    "start": 253.38,
+    "end": 253.78
+  },
+  {
+    "text": "down.",
+    "start": 253.78,
+    "end": 254.34
+  },
+  {
+    "text": "Drywall",
+    "start": 254.34,
+    "end": 255.06
+  },
+  {
+    "text": "at",
+    "start": 255.06,
+    "end": 255.22
+  },
+  {
+    "text": "3",
+    "start": 255.22,
+    "end": 255.46
+  },
+  {
+    "text": "meters,",
+    "start": 255.46,
+    "end": 255.94
+  },
+  {
+    "text": "drywall",
+    "start": 255.94,
+    "end": 256.58
+  },
+  {
+    "text": "at",
+    "start": 256.58,
+    "end": 256.74
+  },
+  {
+    "text": "6,",
+    "start": 256.74,
+    "end": 257.14
+  },
+  {
+    "text": "and",
+    "start": 257.14,
+    "end": 257.3
+  },
+  {
+    "text": "thick",
+    "start": 257.3,
+    "end": 257.7
+  },
+  {
+    "text": "concrete",
+    "start": 257.7,
+    "end": 258.18
+  },
+  {
+    "text": "at",
+    "start": 258.18,
+    "end": 258.34
+  },
+  {
+    "text": "8.",
+    "start": 258.34,
+    "end": 259.06
+  },
+  {
+    "text": "By",
+    "start": 259.06,
+    "end": 259.3
+  },
+  {
+    "text": "the",
+    "start": 259.3,
+    "end": 259.46
+  },
+  {
+    "text": "bedroom,",
+    "start": 259.46,
+    "end": 259.94
+  },
+  {
+    "text": "our",
+    "start": 259.94,
+    "end": 260.1
+  },
+  {
+    "text": "estimate",
+    "start": 260.1,
+    "end": 260.5
+  },
+  {
+    "text": "is",
+    "start": 260.5,
+    "end": 260.66
+  },
+  {
+    "text": "minus",
+    "start": 260.66,
+    "end": 260.98
+  },
+  {
+    "text": "80,",
+    "start": 260.98,
+    "end": 261.46
+  },
+  {
+    "text": "the",
+    "start": 261.46,
+    "end": 261.54
+  },
+  {
+    "text": "roundware",
+    "start": 261.62,
+    "end": 262.1
+  },
+  {
+    "text": "connections",
+    "start": 262.1,
+    "end": 262.5
+  },
+  {
+    "text": "can",
+    "start": 262.5,
+    "end": 262.66
+  },
+  {
+    "text": "get",
+    "start": 262.66,
+    "end": 262.82
+  },
+  {
+    "text": "unreliable.",
+    "start": 262.82,
+    "end": 263.86
+  },
+  {
+    "text": "Here's",
+    "start": 263.86,
+    "end": 264.26
+  },
+  {
+    "text": "the",
+    "start": 264.26,
+    "end": 264.34
+  },
+  {
+    "text": "same",
+    "start": 264.34,
+    "end": 264.58
+  },
+  {
+    "text": "path",
+    "start": 264.58,
+    "end": 264.9
+  },
+  {
+    "text": "on",
+    "start": 264.9,
+    "end": 265.06
+  },
+  {
+    "text": "a",
+    "start": 265.06,
+    "end": 265.14
+  },
+  {
+    "text": "graph.",
+    "start": 265.14,
+    "end": 265.86
+  },
+  {
+    "text": "The",
+    "start": 265.86,
+    "end": 266.1
+  },
+  {
+    "text": "dashed",
+    "start": 266.1,
+    "end": 266.58
+  },
+  {
+    "text": "curve",
+    "start": 266.58,
+    "end": 266.9
+  },
+  {
+    "text": "is",
+    "start": 266.9,
+    "end": 267.06
+  },
+  {
+    "text": "ideal",
+    "start": 267.06,
+    "end": 267.54
+  },
+  {
+    "text": "open",
+    "start": 267.54,
+    "end": 267.86
+  },
+  {
+    "text": "space.",
+    "start": 267.86,
+    "end": 268.5
+  },
+  {
+    "text": "It",
+    "start": 268.5,
+    "end": 268.66
+  },
+  {
+    "text": "only",
+    "start": 268.66,
+    "end": 268.9
+  },
+  {
+    "text": "drops",
+    "start": 268.9,
+    "end": 269.14
+  },
+  {
+    "text": "to",
+    "start": 269.14,
+    "end": 269.3
+  },
+  {
+    "text": "minus",
+    "start": 269.3,
+    "end": 269.62
+  },
+  {
+    "text": "50",
+    "start": 269.62,
+    "end": 269.94
+  },
+  {
+    "text": "at",
+    "start": 269.94,
+    "end": 270.1
+  },
+  {
+    "text": "10",
+    "start": 270.1,
+    "end": 270.42
+  },
+  {
+    "text": "meters.",
+    "start": 270.42,
+    "end": 271.06
+  },
+  {
+    "text": "The",
+    "start": 271.06,
+    "end": 271.22
+  },
+  {
+    "text": "solid",
+    "start": 271.22,
+    "end": 271.7
+  },
+  {
+    "text": "line",
+    "start": 271.7,
+    "end": 272.02
+  },
+  {
+    "text": "is",
+    "start": 272.02,
+    "end": 272.18
+  },
+  {
+    "text": "our",
+    "start": 272.18,
+    "end": 272.34
+  },
+  {
+    "text": "example.",
+    "start": 272.34,
+    "end": 273.06
+  },
+  {
+    "text": "Every",
+    "start": 273.06,
+    "end": 273.38
+  },
+  {
+    "text": "time",
+    "start": 273.38,
+    "end": 273.54
+  },
+  {
+    "text": "it",
+    "start": 273.54,
+    "end": 273.7
+  },
+  {
+    "text": "hits",
+    "start": 273.7,
+    "end": 273.94
+  },
+  {
+    "text": "a",
+    "start": 273.94,
+    "end": 274.02
+  },
+  {
+    "text": "wall,",
+    "start": 274.02,
+    "end": 274.34
+  },
+  {
+    "text": "it",
+    "start": 274.34,
+    "end": 274.5
+  },
+  {
+    "text": "steps",
+    "start": 274.5,
+    "end": 274.98
+  },
+  {
+    "text": "straight",
+    "start": 274.98,
+    "end": 275.3
+  },
+  {
+    "text": "down.",
+    "start": 275.3,
+    "end": 275.86
+  },
+  {
+    "text": "Drywall",
+    "start": 275.86,
+    "end": 276.58
+  },
+  {
+    "text": "at",
+    "start": 276.58,
+    "end": 276.74
+  },
+  {
+    "text": "3",
+    "start": 276.74,
+    "end": 276.98
+  },
+  {
+    "text": "meters,",
+    "start": 276.98,
+    "end": 277.46
+  },
+  {
+    "text": "drywall",
+    "start": 277.46,
+    "end": 278.02
+  },
+  {
+    "text": "at",
+    "start": 278.02,
+    "end": 278.18
+  },
+  {
+    "text": "6,",
+    "start": 278.18,
+    "end": 278.58
+  },
+  {
+    "text": "and",
+    "start": 278.58,
+    "end": 278.74
+  },
+  {
+    "text": "thick",
+    "start": 278.74,
+    "end": 279.14
+  },
+  {
+    "text": "concrete",
+    "start": 279.14,
+    "end": 279.62
+  },
+  {
+    "text": "at",
+    "start": 279.62,
+    "end": 279.78
+  },
+  {
+    "text": "8.",
+    "start": 279.78,
+    "end": 280.42
+  },
+  {
+    "text": "By",
+    "start": 280.42,
+    "end": 280.66
+  },
+  {
+    "text": "the",
+    "start": 280.66,
+    "end": 280.74
+  },
+  {
+    "text": "bedroom,",
+    "start": 280.74,
+    "end": 281.3
+  },
+  {
+    "text": "our",
+    "start": 281.3,
+    "end": 281.46
+  },
+  {
+    "text": "estimate",
+    "start": 281.46,
+    "end": 281.78
+  },
+  {
+    "text": "is",
+    "start": 281.78,
+    "end": 281.94
+  },
+  {
+    "text": "minus",
+    "start": 281.94,
+    "end": 282.34
+  },
+  {
+    "text": "80,",
+    "start": 282.34,
+    "end": 282.82
+  },
+  {
+    "text": "around",
+    "start": 282.82,
+    "end": 283.22
+  },
+  {
+    "text": "where",
+    "start": 283.22,
+    "end": 283.3
+  },
+  {
+    "text": "connections",
+    "start": 283.54,
+    "end": 283.94
+  },
+  {
+    "text": "can",
+    "start": 283.94,
+    "end": 284.1
+  },
+  {
+    "text": "get",
+    "start": 284.1,
+    "end": 284.26
+  },
+  {
+    "text": "unreliable.",
+    "start": 284.26,
+    "end": 285.54
+  },
+  {
+    "text": "Now",
+    "start": 285.54,
+    "end": 285.86
+  },
+  {
+    "text": "move",
+    "start": 286.02,
+    "end": 286.34
+  },
+  {
+    "text": "the",
+    "start": 286.34,
+    "end": 286.5
+  },
+  {
+    "text": "router",
+    "start": 286.5,
+    "end": 286.98
+  },
+  {
+    "text": "toward",
+    "start": 286.98,
+    "end": 287.3
+  },
+  {
+    "text": "the",
+    "start": 287.3,
+    "end": 287.38
+  },
+  {
+    "text": "middle",
+    "start": 287.38,
+    "end": 287.62
+  },
+  {
+    "text": "of",
+    "start": 287.62,
+    "end": 287.7
+  },
+  {
+    "text": "the",
+    "start": 287.7,
+    "end": 287.78
+  },
+  {
+    "text": "home.",
+    "start": 287.78,
+    "end": 288.26
+  },
+  {
+    "text": "So",
+    "start": 288.26,
+    "end": 288.5
+  },
+  {
+    "text": "the",
+    "start": 288.5,
+    "end": 288.58
+  },
+  {
+    "text": "signal",
+    "start": 288.58,
+    "end": 288.9
+  },
+  {
+    "text": "skips",
+    "start": 288.9,
+    "end": 289.38
+  },
+  {
+    "text": "the",
+    "start": 289.38,
+    "end": 289.46
+  },
+  {
+    "text": "concrete.",
+    "start": 289.46,
+    "end": 290.18
+  },
+  {
+    "text": "In",
+    "start": 290.18,
+    "end": 290.42
+  },
+  {
+    "text": "our",
+    "start": 290.42,
+    "end": 290.58
+  },
+  {
+    "text": "example,",
+    "start": 290.58,
+    "end": 291.06
+  },
+  {
+    "text": "the",
+    "start": 291.06,
+    "end": 291.14
+  },
+  {
+    "text": "bedroom",
+    "start": 291.14,
+    "end": 291.62
+  },
+  {
+    "text": "is",
+    "start": 291.62,
+    "end": 291.78
+  },
+  {
+    "text": "now",
+    "start": 291.78,
+    "end": 292.02
+  },
+  {
+    "text": "5",
+    "start": 292.02,
+    "end": 292.42
+  },
+  {
+    "text": "meters",
+    "start": 292.42,
+    "end": 292.74
+  },
+  {
+    "text": "away",
+    "start": 292.74,
+    "end": 293.06
+  },
+  {
+    "text": "through",
+    "start": 293.14,
+    "end": 293.46
+  },
+  {
+    "text": "one",
+    "start": 293.46,
+    "end": 293.62
+  },
+  {
+    "text": "drywall",
+    "start": 293.62,
+    "end": 294.26
+  },
+  {
+    "text": "wall.",
+    "start": 294.34,
+    "end": 294.98
+  },
+  {
+    "text": "Five",
+    "start": 294.98,
+    "end": 295.38
+  },
+  {
+    "text": "meters",
+    "start": 295.38,
+    "end": 295.86
+  },
+  {
+    "text": "costs",
+    "start": 295.86,
+    "end": 296.26
+  },
+  {
+    "text": "about",
+    "start": 296.26,
+    "end": 296.42
+  },
+  {
+    "text": "14",
+    "start": 296.42,
+    "end": 296.98
+  },
+  {
+    "text": "decibels,",
+    "start": 296.98,
+    "end": 297.7
+  },
+  {
+    "text": "so",
+    "start": 297.7,
+    "end": 298.02
+  },
+  {
+    "text": "minus",
+    "start": 298.02,
+    "end": 298.42
+  },
+  {
+    "text": "44.",
+    "start": 298.42,
+    "end": 299.3
+  },
+  {
+    "text": "One",
+    "start": 299.3,
+    "end": 299.62
+  },
+  {
+    "text": "wall",
+    "start": 299.62,
+    "end": 300.02
+  },
+  {
+    "text": "takes",
+    "start": 300.02,
+    "end": 300.34
+  },
+  {
+    "text": "four",
+    "start": 300.34,
+    "end": 300.66
+  },
+  {
+    "text": "more,",
+    "start": 300.66,
+    "end": 301.14
+  },
+  {
+    "text": "minus",
+    "start": 301.14,
+    "end": 301.54
+  },
+  {
+    "text": "48.",
+    "start": 301.54,
+    "end": 302.58
+  },
+  {
+    "text": "That's",
+    "start": 302.58,
+    "end": 303.06
+  },
+  {
+    "text": "32",
+    "start": 303.06,
+    "end": 303.7
+  },
+  {
+    "text": "decibels",
+    "start": 303.7,
+    "end": 304.34
+  },
+  {
+    "text": "better",
+    "start": 304.34,
+    "end": 304.58
+  },
+  {
+    "text": "than",
+    "start": 304.58,
+    "end": 304.74
+  },
+  {
+    "text": "before.",
+    "start": 304.74,
+    "end": 305.14
+  },
+  {
+    "text": "In",
+    "start": 305.39,
+    "end": 305.63
+  },
+  {
+    "text": "our",
+    "start": 305.63,
+    "end": 305.95
+  },
+  {
+    "text": "simplified",
+    "start": 305.95,
+    "end": 306.59
+  },
+  {
+    "text": "model.",
+    "start": 306.59,
+    "end": 307.15
+  },
+  {
+    "text": "Real",
+    "start": 307.15,
+    "end": 307.55
+  },
+  {
+    "text": "results",
+    "start": 307.55,
+    "end": 307.95
+  },
+  {
+    "text": "vary,",
+    "start": 307.95,
+    "end": 308.35
+  },
+  {
+    "text": "but",
+    "start": 308.35,
+    "end": 308.59
+  },
+  {
+    "text": "fewer",
+    "start": 308.59,
+    "end": 308.99
+  },
+  {
+    "text": "obstacles",
+    "start": 308.99,
+    "end": 309.55
+  },
+  {
+    "text": "can",
+    "start": 309.55,
+    "end": 309.71
+  },
+  {
+    "text": "make",
+    "start": 309.71,
+    "end": 309.87
+  },
+  {
+    "text": "a",
+    "start": 309.87,
+    "end": 310.03
+  },
+  {
+    "text": "big",
+    "start": 310.03,
+    "end": 310.35
+  },
+  {
+    "text": "difference.",
+    "start": 310.35,
+    "end": 311.47
+  },
+  {
+    "text": "If",
+    "start": 311.47,
+    "end": 311.79
+  },
+  {
+    "text": "you",
+    "start": 311.79,
+    "end": 311.95
+  },
+  {
+    "text": "can't",
+    "start": 311.95,
+    "end": 312.27
+  },
+  {
+    "text": "move",
+    "start": 312.27,
+    "end": 312.51
+  },
+  {
+    "text": "the",
+    "start": 312.51,
+    "end": 312.59
+  },
+  {
+    "text": "router,",
+    "start": 312.59,
+    "end": 313.31
+  },
+  {
+    "text": "bring",
+    "start": 313.31,
+    "end": 313.55
+  },
+  {
+    "text": "the",
+    "start": 313.55,
+    "end": 313.63
+  },
+  {
+    "text": "Wi-Fi",
+    "start": 313.63,
+    "end": 314.03
+  },
+  {
+    "text": "closer",
+    "start": 314.19,
+    "end": 314.59
+  },
+  {
+    "text": "to",
+    "start": 314.59,
+    "end": 314.75
+  },
+  {
+    "text": "the",
+    "start": 314.75,
+    "end": 314.83
+  },
+  {
+    "text": "room.",
+    "start": 314.83,
+    "end": 315.39
+  },
+  {
+    "text": "A",
+    "start": 315.39,
+    "end": 315.55
+  },
+  {
+    "text": "second",
+    "start": 315.55,
+    "end": 315.95
+  },
+  {
+    "text": "access",
+    "start": 315.95,
+    "end": 316.27
+  },
+  {
+    "text": "point",
+    "start": 316.27,
+    "end": 316.59
+  },
+  {
+    "text": "wired",
+    "start": 316.59,
+    "end": 316.99
+  },
+  {
+    "text": "back",
+    "start": 316.99,
+    "end": 317.15
+  },
+  {
+    "text": "to",
+    "start": 317.15,
+    "end": 317.31
+  },
+  {
+    "text": "the",
+    "start": 317.31,
+    "end": 317.39
+  },
+  {
+    "text": "router",
+    "start": 317.39,
+    "end": 317.79
+  },
+  {
+    "text": "works",
+    "start": 317.79,
+    "end": 318.11
+  },
+  {
+    "text": "especially",
+    "start": 318.11,
+    "end": 318.67
+  },
+  {
+    "text": "well.",
+    "start": 318.67,
+    "end": 319.23
+  },
+  {
+    "text": "A",
+    "start": 319.23,
+    "end": 319.39
+  },
+  {
+    "text": "mesh",
+    "start": 319.39,
+    "end": 319.87
+  },
+  {
+    "text": "system",
+    "start": 319.95,
+    "end": 320.19
+  },
+  {
+    "text": "can",
+    "start": 320.19,
+    "end": 320.35
+  },
+  {
+    "text": "help",
+    "start": 320.35,
+    "end": 320.59
+  },
+  {
+    "text": "too,",
+    "start": 320.67,
+    "end": 321.07
+  },
+  {
+    "text": "but",
+    "start": 321.07,
+    "end": 321.31
+  },
+  {
+    "text": "its",
+    "start": 321.31,
+    "end": 321.39
+  },
+  {
+    "text": "units",
+    "start": 321.55,
+    "end": 322.03
+  },
+  {
+    "text": "need",
+    "start": 322.03,
+    "end": 322.27
+  },
+  {
+    "text": "a",
+    "start": 322.27,
+    "end": 322.35
+  },
+  {
+    "text": "good",
+    "start": 322.35,
+    "end": 322.51
+  },
+  {
+    "text": "link",
+    "start": 322.51,
+    "end": 322.83
+  },
+  {
+    "text": "to",
+    "start": 322.83,
+    "end": 322.99
+  },
+  {
+    "text": "each",
+    "start": 322.99,
+    "end": 323.23
+  },
+  {
+    "text": "other.",
+    "start": 323.23,
+    "end": 323.63
+  },
+  {
+    "text": "So",
+    "start": 323.63,
+    "end": 323.79
+  },
+  {
+    "text": "don't",
+    "start": 323.87,
+    "end": 324.19
+  },
+  {
+    "text": "put",
+    "start": 324.19,
+    "end": 324.35
+  },
+  {
+    "text": "one",
+    "start": 324.35,
+    "end": 324.59
+  },
+  {
+    "text": "where",
+    "start": 324.59,
+    "end": 324.75
+  },
+  {
+    "text": "the",
+    "start": 324.75,
+    "end": 324.91
+  },
+  {
+    "text": "signal",
+    "start": 324.91,
+    "end": 325.23
+  },
+  {
+    "text": "is",
+    "start": 325.23,
+    "end": 325.39
+  },
+  {
+    "text": "already",
+    "start": 325.39,
+    "end": 325.79
+  },
+  {
+    "text": "almost",
+    "start": 325.79,
+    "end": 326.19
+  },
+  {
+    "text": "gone.",
+    "start": 326.19,
+    "end": 326.83
+  },
+  {
+    "text": "Keep",
+    "start": 327.07,
+    "end": 327.47
+  },
+  {
+    "text": "the",
+    "start": 327.47,
+    "end": 327.63
+  },
+  {
+    "text": "router",
+    "start": 327.63,
+    "end": 328.11
+  },
+  {
+    "text": "high,",
+    "start": 328.11,
+    "end": 328.67
+  },
+  {
+    "text": "in",
+    "start": 328.67,
+    "end": 328.83
+  },
+  {
+    "text": "the",
+    "start": 328.83,
+    "end": 328.99
+  },
+  {
+    "text": "open,",
+    "start": 328.99,
+    "end": 329.47
+  },
+  {
+    "text": "away",
+    "start": 329.47,
+    "end": 329.79
+  },
+  {
+    "text": "from",
+    "start": 329.79,
+    "end": 329.95
+  },
+  {
+    "text": "big",
+    "start": 329.95,
+    "end": 330.19
+  },
+  {
+    "text": "metal",
+    "start": 330.19,
+    "end": 330.59
+  },
+  {
+    "text": "objects.",
+    "start": 330.59,
+    "end": 331.47
+  },
+  {
+    "text": "And",
+    "start": 331.47,
+    "end": 331.79
+  },
+  {
+    "text": "2.4",
+    "start": 331.79,
+    "end": 332.59
+  },
+  {
+    "text": "gigahertz",
+    "start": 332.59,
+    "end": 333.31
+  },
+  {
+    "text": "usually",
+    "start": 333.31,
+    "end": 333.63
+  },
+  {
+    "text": "gets",
+    "start": 333.63,
+    "end": 333.79
+  },
+  {
+    "text": "through",
+    "start": 333.79,
+    "end": 334.03
+  },
+  {
+    "text": "walls",
+    "start": 334.03,
+    "end": 334.43
+  },
+  {
+    "text": "better,",
+    "start": 334.43,
+    "end": 334.83
+  },
+  {
+    "text": "while",
+    "start": 334.83,
+    "end": 335.07
+  },
+  {
+    "text": "five",
+    "start": 335.07,
+    "end": 335.39
+  },
+  {
+    "text": "and",
+    "start": 335.39,
+    "end": 335.47
+  },
+  {
+    "text": "six",
+    "start": 335.47,
+    "end": 335.71
+  },
+  {
+    "text": "gigahertz",
+    "start": 335.71,
+    "end": 336.43
+  },
+  {
+    "text": "can",
+    "start": 336.43,
+    "end": 336.59
+  },
+  {
+    "text": "be",
+    "start": 336.59,
+    "end": 336.67
+  },
+  {
+    "text": "faster",
+    "start": 336.67,
+    "end": 337.07
+  },
+  {
+    "text": "up",
+    "start": 337.07,
+    "end": 337.31
+  },
+  {
+    "text": "close.",
+    "start": 337.31,
+    "end": 337.95
+  },
+  {
+    "text": "The",
+    "start": 338.19,
+    "end": 338.35
+  },
+  {
+    "text": "same",
+    "start": 338.35,
+    "end": 338.67
+  },
+  {
+    "text": "idea",
+    "start": 338.67,
+    "end": 339.07
+  },
+  {
+    "text": "shows",
+    "start": 339.07,
+    "end": 339.39
+  },
+  {
+    "text": "up",
+    "start": 339.39,
+    "end": 339.55
+  },
+  {
+    "text": "elsewhere.",
+    "start": 339.55,
+    "end": 340.35
+  },
+  {
+    "text": "Light",
+    "start": 340.35,
+    "end": 340.83
+  },
+  {
+    "text": "from",
+    "start": 340.83,
+    "end": 340.99
+  },
+  {
+    "text": "a",
+    "start": 340.99,
+    "end": 341.07
+  },
+  {
+    "text": "small",
+    "start": 341.07,
+    "end": 341.39
+  },
+  {
+    "text": "lamp",
+    "start": 341.39,
+    "end": 341.63
+  },
+  {
+    "text": "and",
+    "start": 341.71,
+    "end": 341.95
+  },
+  {
+    "text": "sound",
+    "start": 341.95,
+    "end": 342.27
+  },
+  {
+    "text": "from",
+    "start": 342.27,
+    "end": 342.43
+  },
+  {
+    "text": "a",
+    "start": 342.43,
+    "end": 342.51
+  },
+  {
+    "text": "speaker",
+    "start": 342.51,
+    "end": 342.91
+  },
+  {
+    "text": "in",
+    "start": 342.91,
+    "end": 342.99
+  },
+  {
+    "text": "an",
+    "start": 342.99,
+    "end": 343.15
+  },
+  {
+    "text": "open",
+    "start": 343.15,
+    "end": 343.47
+  },
+  {
+    "text": "field",
+    "start": 343.47,
+    "end": 343.87
+  },
+  {
+    "text": "behave",
+    "start": 343.87,
+    "end": 344.35
+  },
+  {
+    "text": "this",
+    "start": 344.35,
+    "end": 344.51
+  },
+  {
+    "text": "way",
+    "start": 344.51,
+    "end": 344.67
+  },
+  {
+    "text": "under",
+    "start": 344.67,
+    "end": 344.91
+  },
+  {
+    "text": "ideal",
+    "start": 344.91,
+    "end": 345.39
+  },
+  {
+    "text": "conditions.",
+    "start": 345.39,
+    "end": 346.43
+  },
+  {
+    "text": "Double",
+    "start": 346.43,
+    "end": 346.91
+  },
+  {
+    "text": "the",
+    "start": 346.91,
+    "end": 347.07
+  },
+  {
+    "text": "distance,",
+    "start": 347.07,
+    "end": 347.71
+  },
+  {
+    "text": "a",
+    "start": 347.71,
+    "end": 347.87
+  },
+  {
+    "text": "quarter",
+    "start": 347.87,
+    "end": 348.19
+  },
+  {
+    "text": "of",
+    "start": 348.19,
+    "end": 348.35
+  },
+  {
+    "text": "the",
+    "start": 348.35,
+    "end": 348.51
+  },
+  {
+    "text": "power",
+    "start": 348.51,
+    "end": 348.75
+  },
+  {
+    "text": "per",
+    "start": 348.75,
+    "end": 348.91
+  },
+  {
+    "text": "square",
+    "start": 348.91,
+    "end": 349.23
+  },
+  {
+    "text": "meter,",
+    "start": 349.23,
+    "end": 349.79
+  },
+  {
+    "text": "minus",
+    "start": 349.79,
+    "end": 350.11
+  },
+  {
+    "text": "six",
+    "start": 350.11,
+    "end": 350.35
+  },
+  {
+    "text": "decibels.",
+    "start": 350.35,
+    "end": 351.31
+  },
+  {
+    "text": "Ten",
+    "start": 351.31,
+    "end": 351.55
+  },
+  {
+    "text": "times",
+    "start": 351.71,
+    "end": 352.03
+  },
+  {
+    "text": "the",
+    "start": 352.03,
+    "end": 352.11
+  },
+  {
+    "text": "distance,",
+    "start": 352.11,
+    "end": 352.75
+  },
+  {
+    "text": "one",
+    "start": 352.75,
+    "end": 352.91
+  },
+  {
+    "text": "hundredth,",
+    "start": 352.99,
+    "end": 353.63
+  },
+  {
+    "text": "minus",
+    "start": 353.63,
+    "end": 354.03
+  },
+  {
+    "text": "twenty.",
+    "start": 354.03,
+    "end": 355.07
+  },
+  {
+    "text": "So",
+    "start": 355.07,
+    "end": 355.31
+  },
+  {
+    "text": "why",
+    "start": 355.39,
+    "end": 355.79
+  },
+  {
+    "text": "does",
+    "start": 355.79,
+    "end": 356.11
+  },
+  {
+    "text": "your",
+    "start": 356.11,
+    "end": 356.27
+  },
+  {
+    "text": "Wi",
+    "start": 356.27,
+    "end": 356.43
+  },
+  {
+    "text": "Fi",
+    "start": 356.51,
+    "end": 356.91
+  },
+  {
+    "text": "die",
+    "start": 356.91,
+    "end": 357.23
+  },
+  {
+    "text": "in",
+    "start": 357.23,
+    "end": 357.39
+  },
+  {
+    "text": "one",
+    "start": 357.39,
+    "end": 357.63
+  },
+  {
+    "text": "room?",
+    "start": 357.63,
+    "end": 358.27
+  },
+  {
+    "text": "In",
+    "start": 358.27,
+    "end": 358.59
+  },
+  {
+    "text": "ideal",
+    "start": 358.59,
+    "end": 358.99
+  },
+  {
+    "text": "open",
+    "start": 359.15,
+    "end": 359.47
+  },
+  {
+    "text": "space,",
+    "start": 359.47,
+    "end": 360.03
+  },
+  {
+    "text": "power",
+    "start": 360.03,
+    "end": 360.43
+  },
+  {
+    "text": "follows",
+    "start": 360.43,
+    "end": 360.75
+  },
+  {
+    "text": "the",
+    "start": 360.75,
+    "end": 360.91
+  },
+  {
+    "text": "inverse",
+    "start": 360.91,
+    "end": 361.39
+  },
+  {
+    "text": "square",
+    "start": 361.39,
+    "end": 361.71
+  },
+  {
+    "text": "law.",
+    "start": 361.71,
+    "end": 362.03
+  },
+  {
+    "text": "Dou",
+    "start": 362.26,
+    "end": 362.66
+  },
+  {
+    "text": "the",
+    "start": 362.66,
+    "end": 362.74
+  },
+  {
+    "text": "distance,",
+    "start": 362.74,
+    "end": 363.3
+  },
+  {
+    "text": "a",
+    "start": 363.3,
+    "end": 363.46
+  },
+  {
+    "text": "quarter",
+    "start": 363.46,
+    "end": 363.78
+  },
+  {
+    "text": "of",
+    "start": 363.78,
+    "end": 363.94
+  },
+  {
+    "text": "the",
+    "start": 363.94,
+    "end": 364.02
+  },
+  {
+    "text": "power,",
+    "start": 364.02,
+    "end": 364.58
+  },
+  {
+    "text": "minus",
+    "start": 364.58,
+    "end": 364.9
+  },
+  {
+    "text": "six",
+    "start": 364.9,
+    "end": 365.22
+  },
+  {
+    "text": "decibels.",
+    "start": 365.22,
+    "end": 366.26
+  },
+  {
+    "text": "But",
+    "start": 366.26,
+    "end": 366.58
+  },
+  {
+    "text": "inside",
+    "start": 366.58,
+    "end": 367.06
+  },
+  {
+    "text": "a",
+    "start": 367.06,
+    "end": 367.22
+  },
+  {
+    "text": "home,",
+    "start": 367.22,
+    "end": 367.78
+  },
+  {
+    "text": "walls",
+    "start": 367.78,
+    "end": 368.34
+  },
+  {
+    "text": "can",
+    "start": 368.34,
+    "end": 368.5
+  },
+  {
+    "text": "cost",
+    "start": 368.5,
+    "end": 368.74
+  },
+  {
+    "text": "as",
+    "start": 368.74,
+    "end": 368.9
+  },
+  {
+    "text": "much",
+    "start": 368.9,
+    "end": 369.06
+  },
+  {
+    "text": "as",
+    "start": 369.06,
+    "end": 369.3
+  },
+  {
+    "text": "distance,",
+    "start": 369.3,
+    "end": 370.02
+  },
+  {
+    "text": "or",
+    "start": 370.02,
+    "end": 370.34
+  },
+  {
+    "text": "much",
+    "start": 370.34,
+    "end": 370.66
+  },
+  {
+    "text": "more.",
+    "start": 370.66,
+    "end": 371.14
+  },
+  {
+    "text": "Count",
+    "start": 371.14,
+    "end": 371.54
+  },
+  {
+    "text": "the",
+    "start": 371.54,
+    "end": 371.7
+  },
+  {
+    "text": "walls,",
+    "start": 371.7,
+    "end": 372.18
+  },
+  {
+    "text": "not",
+    "start": 372.18,
+    "end": 372.42
+  },
+  {
+    "text": "just",
+    "start": 372.42,
+    "end": 372.58
+  },
+  {
+    "text": "the",
+    "start": 372.58,
+    "end": 372.74
+  },
+  {
+    "text": "meters.",
+    "start": 372.74,
+    "end": 373.54
+  },
+  {
+    "text": "Wanna",
+    "start": 373.54,
+    "end": 374.02
+  },
+  {
+    "text": "test",
+    "start": 374.02,
+    "end": 374.26
+  },
+  {
+    "text": "it?",
+    "start": 374.26,
+    "end": 374.66
+  },
+  {
+    "text": "A",
+    "start": 374.66,
+    "end": 374.82
+  },
+  {
+    "text": "Wi-Fi",
+    "start": 374.82,
+    "end": 375.38
+  },
+  {
+    "text": "analyzer",
+    "start": 375.38,
+    "end": 376.02
+  },
+  {
+    "text": "app",
+    "start": 376.02,
+    "end": 376.34
+  },
+  {
+    "text": "shows",
+    "start": 376.34,
+    "end": 376.58
+  },
+  {
+    "text": "your",
+    "start": 376.58,
+    "end": 376.82
+  },
+  {
+    "text": "signal",
+    "start": 376.82,
+    "end": 377.14
+  },
+  {
+    "text": "in",
+    "start": 377.14,
+    "end": 377.38
+  },
+  {
+    "text": "DBM.",
+    "start": 377.38,
+    "end": 378.26
+  },
+  {
+    "text": "Check",
+    "start": 378.26,
+    "end": 378.5
+  },
+  {
+    "text": "it",
+    "start": 378.5,
+    "end": 378.66
+  },
+  {
+    "text": "near",
+    "start": 378.66,
+    "end": 378.9
+  },
+  {
+    "text": "the",
+    "start": 378.9,
+    "end": 378.98
+  },
+  {
+    "text": "router,",
+    "start": 378.98,
+    "end": 379.54
+  },
+  {
+    "text": "then",
+    "start": 379.54,
+    "end": 379.78
+  },
+  {
+    "text": "in",
+    "start": 379.78,
+    "end": 379.94
+  },
+  {
+    "text": "the",
+    "start": 379.94,
+    "end": 380.02
+  },
+  {
+    "text": "problem",
+    "start": 380.02,
+    "end": 380.18
+  },
+  {
+    "text": "room.",
+    "start": 380.42,
+    "end": 380.9
+  },
+  {
+    "text": "It",
+    "start": 380.9,
+    "end": 381.14
+  },
+  {
+    "text": "measures",
+    "start": 381.14,
+    "end": 381.54
+  },
+  {
+    "text": "strength,",
+    "start": 381.54,
+    "end": 382.18
+  },
+  {
+    "text": "not",
+    "start": 382.18,
+    "end": 382.42
+  },
+  {
+    "text": "speed,",
+    "start": 382.42,
+    "end": 382.98
+  },
+  {
+    "text": "but",
+    "start": 382.98,
+    "end": 383.22
+  },
+  {
+    "text": "it",
+    "start": 383.22,
+    "end": 383.38
+  },
+  {
+    "text": "shows",
+    "start": 383.38,
+    "end": 383.7
+  },
+  {
+    "text": "you",
+    "start": 383.7,
+    "end": 383.86
+  },
+  {
+    "text": "where",
+    "start": 383.86,
+    "end": 384.1
+  },
+  {
+    "text": "the",
+    "start": 384.1,
+    "end": 384.34
+  },
+  {
+    "text": "decibels",
+    "start": 384.34,
+    "end": 385.14
+  },
+  {
+    "text": "go.",
+    "start": 385.14,
+    "end": 385.86
+  },
+  {
+    "text": "If",
+    "start": 385.86,
+    "end": 386.1
+  },
+  {
+    "text": "you",
+    "start": 386.1,
+    "end": 386.26
+  },
+  {
+    "text": "like",
+    "start": 386.26,
+    "end": 386.42
+  },
+  {
+    "text": "this",
+    "start": 386.5,
+    "end": 386.66
+  },
+  {
+    "text": "video,",
+    "start": 386.66,
+    "end": 386.98
+  },
+  {
+    "text": "please",
+    "start": 386.98,
+    "end": 387.3
+  },
+  {
+    "text": "give",
+    "start": 387.3,
+    "end": 387.46
+  },
+  {
+    "text": "it",
+    "start": 387.46,
+    "end": 387.62
+  },
+  {
+    "text": "a",
+    "start": 387.62,
+    "end": 387.7
+  },
+  {
+    "text": "like",
+    "start": 387.7,
+    "end": 387.94
+  },
+  {
+    "text": "and",
+    "start": 387.94,
+    "end": 388.1
+  },
+  {
+    "text": "subscribe",
+    "start": 388.1,
+    "end": 388.66
+  },
+  {
+    "text": "for",
+    "start": 388.66,
+    "end": 388.82
+  },
+  {
+    "text": "more",
+    "start": 388.82,
+    "end": 389.06
+  },
+  {
+    "text": "everyday",
+    "start": 389.06,
+    "end": 389.7
+  },
+  {
+    "text": "engineering.",
+    "start": 389.7,
+    "end": 390.42
+  },
+  {
+    "text": "Thanks",
+    "start": 390.42,
+    "end": 390.74
+  },
+  {
+    "text": "for",
+    "start": 390.74,
+    "end": 390.9
+  },
+  {
+    "text": "watching.",
+    "start": 390.9,
+    "end": 391.3
+  }
+]
