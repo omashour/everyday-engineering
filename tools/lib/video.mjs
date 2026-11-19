@@ -7,7 +7,11 @@ import { buildTiming, syntheticWords } from "./timing.mjs";
 export function loadVideo(dir) {
   const doc = readYaml(path.join(dir, "scenes.yaml"));
   if (!doc?.scenes?.length) throw new Error(`${path.basename(dir)}/scenes.yaml has no scenes`);
-  return { dir, name: path.basename(dir), meta: doc.video ?? {}, scenes: doc.scenes };
+  // the folder number is the video's number; scenes.yaml's `id` (written by Claude) can be stale
+  const name = path.basename(dir);
+  const num = /^\d{3}/.exec(name)?.[0];
+  const meta = { ...(doc.video ?? {}), ...(num ? { id: num } : {}) };
+  return { dir, name, meta, scenes: doc.scenes };
 }
 
 export const AUDIO_EXT = [".wav", ".mp3", ".m4a", ".flac", ".ogg"];

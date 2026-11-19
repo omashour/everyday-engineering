@@ -90,6 +90,9 @@ export function moveToCovered(id, entry) {
   fs.writeFileSync(BACKLOG, doc.toString({ lineWidth: 0, flowCollectionPadding: false }));
   const cov = YAML.parseDocument(fs.existsSync(COVERED) ? fs.readFileSync(COVERED, "utf8") : "[]");
   if (!cov.contents || !cov.contents.items) cov.contents = cov.createNode([]);
+  // pressing "Mark as published" again replaces the entry instead of adding a second one
+  const same = cov.contents.items.findIndex((n) => String(n.get?.("video")) === String(entry.video));
+  if (same >= 0) cov.contents.items.splice(same, 1);
   const node = cov.createNode(entry);
   node.flow = true;
   cov.contents.items.push(node);
