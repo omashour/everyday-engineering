@@ -1,0 +1,423 @@
+1
+00:00:00,240 --> 00:00:02,800
+A textbook model says a soda can should be
+
+2
+00:00:02,800 --> 00:00:04,480
+as wide as it is tall.
+
+3
+00:00:04,480 --> 00:00:06,400
+The can in your hand is almost twice as
+
+4
+00:00:06,400 --> 00:00:07,760
+tall as it is wide.
+
+5
+00:00:07,760 --> 00:00:10,640
+What changes when we model a real can?
+
+6
+00:00:10,640 --> 00:00:12,560
+Let's find the textbook answer with one
+
+7
+00:00:12,560 --> 00:00:15,360
+derivative, then change the assumptions.
+
+8
+00:00:15,360 --> 00:00:17,440
+Here's a standard twelve ounce can.
+
+9
+00:00:17,440 --> 00:00:19,360
+It's filled with about three hundred fifty
+
+10
+00:00:19,360 --> 00:00:21,520
+five milliliters, and it's about six point
+
+11
+00:00:21,520 --> 00:00:23,760
+six centimeters wide and twelve point two
+
+12
+00:00:24,000 --> 00:00:26,800
+tall. But it isn't a simple cylinder.
+
+13
+00:00:26,800 --> 00:00:28,880
+It has empty space at the top, a narrow
+
+14
+00:00:28,880 --> 00:00:30,880
+neck, and a domed base.
+
+15
+00:00:30,880 --> 00:00:33,440
+A plain cylinder this wide, holding
+
+16
+00:00:33,440 --> 00:00:34,880
+exactly three hundred fifty five
+
+17
+00:00:34,880 --> 00:00:37,360
+milliliters, would be only about ten point
+
+18
+00:00:37,360 --> 00:00:39,280
+four centimeters tall.
+
+19
+00:00:39,280 --> 00:00:41,680
+The textbook model is simpler: a closed
+
+20
+00:00:41,680 --> 00:00:43,840
+cylinder, with the same thickness of metal
+
+21
+00:00:43,840 --> 00:00:46,000
+everywhere, holding a fixed volume.
+
+22
+00:00:46,000 --> 00:00:48,560
+Unroll it, and you get two circles, each
+
+23
+00:00:48,640 --> 00:00:51,840
+pi r squared, and a rectangle two pi r
+
+24
+00:00:51,840 --> 00:00:53,520
+wide and h tall.
+
+25
+00:00:53,520 --> 00:00:56,240
+So the metal area is two pi r squared,
+
+26
+00:00:56,400 --> 00:00:58,000
+plus two pi r h.
+
+27
+00:00:58,450 --> 00:00:59,880
+The volume is fixed at three hundred fifty
+
+28
+00:00:59,890 --> 00:01:01,970
+five cubic centimeters.
+
+29
+00:01:01,970 --> 00:01:05,090
+Volume is pi r squared h, so once you pick
+
+30
+00:01:05,090 --> 00:01:09,010
+r, the height is set: h equals V over pi r
+
+31
+00:01:09,010 --> 00:01:11,730
+squared. Substitute, and the area depends
+
+32
+00:01:11,730 --> 00:01:15,250
+on r alone: two pi r squared, plus two V
+
+33
+00:01:15,410 --> 00:01:16,530
+over r.
+
+34
+00:01:16,530 --> 00:01:18,690
+Now graph that area against the can's
+
+35
+00:01:18,690 --> 00:01:20,930
+width, the diameter, which is two r.
+
+36
+00:01:20,930 --> 00:01:22,760
+A very narrow can needs a lot of side
+
+37
+00:01:22,770 --> 00:01:26,290
+wall. A very wide can needs huge ends.
+
+38
+00:01:26,290 --> 00:01:28,930
+So the area rises on both sides, and in
+
+39
+00:01:28,930 --> 00:01:31,080
+between there's a lowest point, about two
+
+40
+00:01:31,090 --> 00:01:33,570
+hundred seventy eight square centimeters.
+
+41
+00:01:33,570 --> 00:01:36,370
+The derivative finds that point exactly.
+
+42
+00:01:36,370 --> 00:01:38,770
+The derivative is the slope of the curve,
+
+43
+00:01:38,770 --> 00:01:40,370
+and at the bottom of this valley, the
+
+44
+00:01:40,370 --> 00:01:41,650
+slope is zero.
+
+45
+00:01:41,650 --> 00:01:44,130
+The derivative of the area is four pi r
+
+46
+00:01:44,210 --> 00:01:46,370
+minus two V over r squared.
+
+47
+00:01:46,370 --> 00:01:49,330
+Set it to zero, and V equals two pi r
+
+48
+00:01:49,330 --> 00:01:50,130
+cubed.
+
+49
+00:01:50,130 --> 00:01:52,690
+But V is also pi r squared h.
+
+50
+00:01:52,690 --> 00:01:55,730
+So pi r squared h equals two pi r cubed,
+
+51
+00:01:55,730 --> 00:01:57,570
+and h equals two r.
+
+52
+00:01:57,570 --> 00:01:59,330
+Height equals diameter.
+
+53
+00:01:59,660 --> 00:02:01,420
+For three hundred fifty five milliliters,
+
+54
+00:02:01,420 --> 00:02:03,260
+that's about seven point seven centimeters
+
+55
+00:02:03,420 --> 00:02:04,460
+each way.
+
+56
+00:02:04,460 --> 00:02:06,620
+Now give our simple cylinder the same
+
+57
+00:02:06,620 --> 00:02:08,620
+width as the real can, six point six
+
+58
+00:02:08,620 --> 00:02:10,540
+centimeters. It needs only about two
+
+59
+00:02:10,700 --> 00:02:12,220
+percent more surface area than the
+
+60
+00:02:12,220 --> 00:02:13,420
+textbook optimum.
+
+61
+00:02:13,420 --> 00:02:15,820
+Near a minimum, the curve is almost flat,
+
+62
+00:02:15,820 --> 00:02:18,140
+so a fairly wide range of widths costs
+
+63
+00:02:18,140 --> 00:02:19,660
+very little extra.
+
+64
+00:02:19,660 --> 00:02:21,500
+Now a thought experiment.
+
+65
+00:02:21,500 --> 00:02:23,820
+What if each end uses more metal per
+
+66
+00:02:23,820 --> 00:02:25,660
+square centimeter than the side?
+
+67
+00:02:25,660 --> 00:02:27,500
+Real lids are made of thicker metal than
+
+68
+00:02:27,500 --> 00:02:28,860
+the thin body wall.
+
+69
+00:02:28,860 --> 00:02:31,100
+In our model, the two ends are flat, full
+
+70
+00:02:31,100 --> 00:02:33,740
+width disks, and each uses k times as much
+
+71
+00:02:33,740 --> 00:02:35,420
+material per square centimeter as the
+
+72
+00:02:35,420 --> 00:02:38,380
+side. We'll try k equals two point four,
+
+73
+00:02:38,460 --> 00:02:39,500
+as an example.
+
+74
+00:02:39,500 --> 00:02:42,380
+The weighted area is k times two pi r
+
+75
+00:02:42,540 --> 00:02:44,780
+squared, plus two pi r h.
+
+76
+00:02:44,780 --> 00:02:47,250
+The same derivative gives h equals two k
+
+77
+00:02:47,260 --> 00:02:50,540
+r. Height over diameter equals k.
+
+78
+00:02:50,540 --> 00:02:53,100
+With k equal to two point four, the best
+
+79
+00:02:53,260 --> 00:02:55,340
+can is about five point seven centimeters
+
+80
+00:02:55,420 --> 00:02:57,500
+wide and thirteen point eight tall.
+
+81
+00:02:57,710 --> 00:02:59,070
+Taller and thinner.
+
+82
+00:02:59,070 --> 00:03:01,470
+Here are both models, each measured as
+
+83
+00:03:01,470 --> 00:03:03,550
+percent above its own minimum.
+
+84
+00:03:03,550 --> 00:03:05,950
+The real can's diameter falls between the
+
+85
+00:03:05,950 --> 00:03:08,590
+two modeled optima, and in both models
+
+86
+00:03:08,670 --> 00:03:10,510
+it's only about two percent above the
+
+87
+00:03:10,510 --> 00:03:11,550
+minimum.
+
+88
+00:03:11,550 --> 00:03:13,230
+Now look at a real can.
+
+89
+00:03:13,230 --> 00:03:15,550
+The body narrows before it meets the lid,
+
+90
+00:03:15,550 --> 00:03:17,230
+and the base is domed.
+
+91
+00:03:17,230 --> 00:03:19,390
+A real design also has to hold internal
+
+92
+00:03:19,390 --> 00:03:21,710
+pressure, and run on filling and seaming
+
+93
+00:03:21,710 --> 00:03:23,950
+equipment. Our models don't capture all
+
+94
+00:03:23,950 --> 00:03:25,790
+that. What they show is how the
+
+95
+00:03:25,790 --> 00:03:27,870
+assumptions change the answer.
+
+96
+00:03:27,870 --> 00:03:30,270
+With uniform thickness, the cylinder that
+
+97
+00:03:30,270 --> 00:03:32,510
+uses the least material is as tall as it
+
+98
+00:03:32,510 --> 00:03:35,230
+is wide. Make its ends more material
+
+99
+00:03:35,230 --> 00:03:37,710
+intensive, and the optimum gets taller.
+
+100
+00:03:37,710 --> 00:03:39,630
+And because the curve is nearly flat
+
+101
+00:03:39,630 --> 00:03:41,870
+around its minimum, a range of widths
+
+102
+00:03:41,870 --> 00:03:44,110
+works with only a small material penalty,
+
+103
+00:03:44,270 --> 00:03:45,390
+in the model.
+
+104
+00:03:45,390 --> 00:03:47,230
+If you liked this video, please give it a
+
+105
+00:03:47,230 --> 00:03:48,990
+like and subscribe for more everyday
+
+106
+00:03:48,990 --> 00:03:50,670
+engineering. Thanks for watching!
