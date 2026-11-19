@@ -1,0 +1,512 @@
+[
+  {
+    "text": "Your",
+    "start": 0.16,
+    "end": 0.4
+  },
+  {
+    "text": "coffee",
+    "start": 0.4,
+    "end": 0.88
+  },
+  {
+    "text": "doesn't",
+    "start": 0.88,
+    "end": 1.2
+  },
+  {
+    "text": "cool",
+    "start": 1.2,
+    "end": 1.52
+  },
+  {
+    "text": "at",
+    "start": 1.52,
+    "end": 1.68
+  },
+  {
+    "text": "a",
+    "start": 1.68,
+    "end": 1.76
+  },
+  {
+    "text": "steady",
+    "start": 1.76,
+    "end": 2.24
+  },
+  {
+    "text": "speed.",
+    "start": 2.24,
+    "end": 2.96
+  },
+  {
+    "text": "In",
+    "start": 2.96,
+    "end": 3.2
+  },
+  {
+    "text": "a",
+    "start": 3.2,
+    "end": 3.36
+  },
+  {
+    "text": "simple",
+    "start": 3.36,
+    "end": 3.68
+  },
+  {
+    "text": "model,",
+    "start": 3.68,
+    "end": 4.16
+  },
+  {
+    "text": "its",
+    "start": 4.16,
+    "end": 4.4
+  },
+  {
+    "text": "cooling",
+    "start": 4.4,
+    "end": 4.8
+  },
+  {
+    "text": "speed",
+    "start": 4.8,
+    "end": 5.12
+  },
+  {
+    "text": "depends",
+    "start": 5.12,
+    "end": 5.44
+  },
+  {
+    "text": "on",
+    "start": 5.44,
+    "end": 5.52
+  },
+  {
+    "text": "the",
+    "start": 5.52,
+    "end": 5.68
+  },
+  {
+    "text": "gap",
+    "start": 5.68,
+    "end": 6
+  },
+  {
+    "text": "to",
+    "start": 6,
+    "end": 6.16
+  },
+  {
+    "text": "room",
+    "start": 6.16,
+    "end": 6.48
+  },
+  {
+    "text": "temperature.",
+    "start": 6.48,
+    "end": 7.44
+  },
+  {
+    "text": "Start",
+    "start": 7.44,
+    "end": 7.84
+  },
+  {
+    "text": "at",
+    "start": 7.84,
+    "end": 8
+  },
+  {
+    "text": "eighty",
+    "start": 8,
+    "end": 8.24
+  },
+  {
+    "text": "five",
+    "start": 8.24,
+    "end": 8.48
+  },
+  {
+    "text": "degrees",
+    "start": 8.48,
+    "end": 8.8
+  },
+  {
+    "text": "Celsius",
+    "start": 8.8,
+    "end": 9.36
+  },
+  {
+    "text": "in",
+    "start": 9.36,
+    "end": 9.44
+  },
+  {
+    "text": "a",
+    "start": 9.44,
+    "end": 9.52
+  },
+  {
+    "text": "twenty",
+    "start": 9.52,
+    "end": 9.68
+  },
+  {
+    "text": "degree",
+    "start": 9.84,
+    "end": 10.24
+  },
+  {
+    "text": "room,",
+    "start": 10.24,
+    "end": 10.64
+  },
+  {
+    "text": "a",
+    "start": 10.64,
+    "end": 10.8
+  },
+  {
+    "text": "gap",
+    "start": 10.8,
+    "end": 11.04
+  },
+  {
+    "text": "of",
+    "start": 11.04,
+    "end": 11.28
+  },
+  {
+    "text": "sixty",
+    "start": 11.28,
+    "end": 11.68
+  },
+  {
+    "text": "five.",
+    "start": 11.68,
+    "end": 12.4
+  },
+  {
+    "text": "Assume",
+    "start": 12.4,
+    "end": 12.88
+  },
+  {
+    "text": "for",
+    "start": 12.96,
+    "end": 13.12
+  },
+  {
+    "text": "this",
+    "start": 13.12,
+    "end": 13.28
+  },
+  {
+    "text": "example",
+    "start": 13.28,
+    "end": 13.6
+  },
+  {
+    "text": "that",
+    "start": 13.68,
+    "end": 13.84
+  },
+  {
+    "text": "the",
+    "start": 13.84,
+    "end": 13.92
+  },
+  {
+    "text": "gap",
+    "start": 13.92,
+    "end": 14.32
+  },
+  {
+    "text": "halves",
+    "start": 14.32,
+    "end": 14.8
+  },
+  {
+    "text": "every",
+    "start": 14.8,
+    "end": 15.04
+  },
+  {
+    "text": "ten",
+    "start": 15.04,
+    "end": 15.2
+  },
+  {
+    "text": "minutes.",
+    "start": 15.36,
+    "end": 16
+  },
+  {
+    "text": "Then",
+    "start": 16,
+    "end": 16.24
+  },
+  {
+    "text": "the",
+    "start": 16.24,
+    "end": 16.32
+  },
+  {
+    "text": "coffee",
+    "start": 16.32,
+    "end": 16.72
+  },
+  {
+    "text": "is",
+    "start": 16.72,
+    "end": 16.88
+  },
+  {
+    "text": "at",
+    "start": 16.88,
+    "end": 17.04
+  },
+  {
+    "text": "fifty",
+    "start": 17.04,
+    "end": 17.36
+  },
+  {
+    "text": "two",
+    "start": 17.36,
+    "end": 17.44
+  },
+  {
+    "text": "and",
+    "start": 17.52,
+    "end": 17.68
+  },
+  {
+    "text": "a",
+    "start": 17.68,
+    "end": 17.76
+  },
+  {
+    "text": "half",
+    "start": 17.76,
+    "end": 18.08
+  },
+  {
+    "text": "after",
+    "start": 18.08,
+    "end": 18.32
+  },
+  {
+    "text": "ten",
+    "start": 18.32,
+    "end": 18.48
+  },
+  {
+    "text": "minutes,",
+    "start": 18.64,
+    "end": 19.2
+  },
+  {
+    "text": "about",
+    "start": 19.2,
+    "end": 19.52
+  },
+  {
+    "text": "thirty",
+    "start": 19.52,
+    "end": 19.84
+  },
+  {
+    "text": "six",
+    "start": 19.84,
+    "end": 20.08
+  },
+  {
+    "text": "after",
+    "start": 20.24,
+    "end": 20.48
+  },
+  {
+    "text": "twenty,",
+    "start": 20.48,
+    "end": 21.12
+  },
+  {
+    "text": "and",
+    "start": 21.12,
+    "end": 21.28
+  },
+  {
+    "text": "about",
+    "start": 21.28,
+    "end": 21.6
+  },
+  {
+    "text": "twenty",
+    "start": 21.6,
+    "end": 21.92
+  },
+  {
+    "text": "eight",
+    "start": 21.92,
+    "end": 22.16
+  },
+  {
+    "text": "after",
+    "start": 22.16,
+    "end": 22.48
+  },
+  {
+    "text": "thirty.",
+    "start": 22.48,
+    "end": 23.2
+  },
+  {
+    "text": "The",
+    "start": 23.2,
+    "end": 23.36
+  },
+  {
+    "text": "gap",
+    "start": 23.36,
+    "end": 23.76
+  },
+  {
+    "text": "halves",
+    "start": 23.76,
+    "end": 24.24
+  },
+  {
+    "text": "every",
+    "start": 24.32,
+    "end": 24.56
+  },
+  {
+    "text": "ten",
+    "start": 24.56,
+    "end": 24.72
+  },
+  {
+    "text": "minutes.",
+    "start": 24.8,
+    "end": 25.52
+  },
+  {
+    "text": "Thirty",
+    "start": 25.52,
+    "end": 25.76
+  },
+  {
+    "text": "two",
+    "start": 25.84,
+    "end": 25.92
+  },
+  {
+    "text": "and",
+    "start": 26.08,
+    "end": 26.16
+  },
+  {
+    "text": "a",
+    "start": 26.16,
+    "end": 26.24
+  },
+  {
+    "text": "half",
+    "start": 26.24,
+    "end": 26.48
+  },
+  {
+    "text": "degrees",
+    "start": 26.48,
+    "end": 26.88
+  },
+  {
+    "text": "lost",
+    "start": 26.88,
+    "end": 27.2
+  },
+  {
+    "text": "in",
+    "start": 27.2,
+    "end": 27.28
+  },
+  {
+    "text": "the",
+    "start": 27.28,
+    "end": 27.36
+  },
+  {
+    "text": "first",
+    "start": 27.36,
+    "end": 27.6
+  },
+  {
+    "text": "ten,",
+    "start": 27.6,
+    "end": 28.24
+  },
+  {
+    "text": "only",
+    "start": 28.24,
+    "end": 28.48
+  },
+  {
+    "text": "about",
+    "start": 28.48,
+    "end": 28.72
+  },
+  {
+    "text": "eight",
+    "start": 28.72,
+    "end": 29.12
+  },
+  {
+    "text": "in",
+    "start": 29.12,
+    "end": 29.28
+  },
+  {
+    "text": "the",
+    "start": 29.28,
+    "end": 29.36
+  },
+  {
+    "text": "third.",
+    "start": 29.36,
+    "end": 30.08
+  },
+  {
+    "text": "The",
+    "start": 30.08,
+    "end": 30.24
+  },
+  {
+    "text": "full",
+    "start": 30.24,
+    "end": 30.56
+  },
+  {
+    "text": "video",
+    "start": 30.56,
+    "end": 30.72
+  },
+  {
+    "text": "shows",
+    "start": 30.88,
+    "end": 31.2
+  },
+  {
+    "text": "the",
+    "start": 31.2,
+    "end": 31.28
+  },
+  {
+    "text": "math.",
+    "start": 31.28,
+    "end": 31.84
+  }
+]

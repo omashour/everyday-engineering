@@ -1,0 +1,4522 @@
+[
+  {
+    "text": "Your",
+    "start": 0.16,
+    "end": 0.4
+  },
+  {
+    "text": "coffee",
+    "start": 0.4,
+    "end": 0.8
+  },
+  {
+    "text": "doesn't",
+    "start": 0.8,
+    "end": 1.12
+  },
+  {
+    "text": "cool",
+    "start": 1.12,
+    "end": 1.52
+  },
+  {
+    "text": "at",
+    "start": 1.52,
+    "end": 1.68
+  },
+  {
+    "text": "a",
+    "start": 1.68,
+    "end": 1.76
+  },
+  {
+    "text": "steady",
+    "start": 1.76,
+    "end": 2.24
+  },
+  {
+    "text": "speed.",
+    "start": 2.24,
+    "end": 2.8
+  },
+  {
+    "text": "It",
+    "start": 2.8,
+    "end": 3.04
+  },
+  {
+    "text": "cools",
+    "start": 3.04,
+    "end": 3.44
+  },
+  {
+    "text": "fastest",
+    "start": 3.44,
+    "end": 3.76
+  },
+  {
+    "text": "while",
+    "start": 3.84,
+    "end": 4.08
+  },
+  {
+    "text": "it's",
+    "start": 4.08,
+    "end": 4.24
+  },
+  {
+    "text": "hottest,",
+    "start": 4.24,
+    "end": 4.88
+  },
+  {
+    "text": "then",
+    "start": 4.88,
+    "end": 5.2
+  },
+  {
+    "text": "slower",
+    "start": 5.2,
+    "end": 5.68
+  },
+  {
+    "text": "and",
+    "start": 5.68,
+    "end": 5.84
+  },
+  {
+    "text": "slower.",
+    "start": 5.84,
+    "end": 6.56
+  },
+  {
+    "text": "A",
+    "start": 6.56,
+    "end": 6.72
+  },
+  {
+    "text": "simple",
+    "start": 6.72,
+    "end": 7.04
+  },
+  {
+    "text": "model",
+    "start": 7.04,
+    "end": 7.36
+  },
+  {
+    "text": "can",
+    "start": 7.36,
+    "end": 7.52
+  },
+  {
+    "text": "estimate",
+    "start": 7.52,
+    "end": 7.92
+  },
+  {
+    "text": "when",
+    "start": 7.92,
+    "end": 8.08
+  },
+  {
+    "text": "it",
+    "start": 8.08,
+    "end": 8.24
+  },
+  {
+    "text": "reaches",
+    "start": 8.24,
+    "end": 8.64
+  },
+  {
+    "text": "the",
+    "start": 8.64,
+    "end": 8.72
+  },
+  {
+    "text": "temperature",
+    "start": 8.72,
+    "end": 9.2
+  },
+  {
+    "text": "you",
+    "start": 9.2,
+    "end": 9.44
+  },
+  {
+    "text": "like,",
+    "start": 9.44,
+    "end": 9.92
+  },
+  {
+    "text": "and",
+    "start": 9.92,
+    "end": 10.16
+  },
+  {
+    "text": "whether",
+    "start": 10.16,
+    "end": 10.48
+  },
+  {
+    "text": "to",
+    "start": 10.48,
+    "end": 10.64
+  },
+  {
+    "text": "add",
+    "start": 10.64,
+    "end": 10.8
+  },
+  {
+    "text": "the",
+    "start": 10.8,
+    "end": 10.96
+  },
+  {
+    "text": "milk",
+    "start": 10.96,
+    "end": 11.28
+  },
+  {
+    "text": "now",
+    "start": 11.28,
+    "end": 11.52
+  },
+  {
+    "text": "or",
+    "start": 11.52,
+    "end": 11.68
+  },
+  {
+    "text": "later.",
+    "start": 11.68,
+    "end": 12.48
+  },
+  {
+    "text": "Let's",
+    "start": 12.48,
+    "end": 12.88
+  },
+  {
+    "text": "work",
+    "start": 12.88,
+    "end": 13.12
+  },
+  {
+    "text": "it",
+    "start": 13.12,
+    "end": 13.2
+  },
+  {
+    "text": "out",
+    "start": 13.2,
+    "end": 13.36
+  },
+  {
+    "text": "with",
+    "start": 13.44,
+    "end": 13.6
+  },
+  {
+    "text": "one",
+    "start": 13.6,
+    "end": 13.84
+  },
+  {
+    "text": "law",
+    "start": 13.84,
+    "end": 14.08
+  },
+  {
+    "text": "of",
+    "start": 14.08,
+    "end": 14.16
+  },
+  {
+    "text": "cooling",
+    "start": 14.16,
+    "end": 14.64
+  },
+  {
+    "text": "and",
+    "start": 14.64,
+    "end": 14.88
+  },
+  {
+    "text": "a",
+    "start": 14.88,
+    "end": 14.96
+  },
+  {
+    "text": "little",
+    "start": 14.96,
+    "end": 15.2
+  },
+  {
+    "text": "exponential",
+    "start": 15.2,
+    "end": 15.92
+  },
+  {
+    "text": "math.",
+    "start": 15.92,
+    "end": 16.72
+  },
+  {
+    "text": "Here's",
+    "start": 16.72,
+    "end": 17.12
+  },
+  {
+    "text": "our",
+    "start": 17.12,
+    "end": 17.28
+  },
+  {
+    "text": "setup.",
+    "start": 17.28,
+    "end": 18.08
+  },
+  {
+    "text": "Fresh",
+    "start": 18.08,
+    "end": 18.48
+  },
+  {
+    "text": "coffee",
+    "start": 18.48,
+    "end": 18.88
+  },
+  {
+    "text": "at",
+    "start": 18.88,
+    "end": 19.12
+  },
+  {
+    "text": "85",
+    "start": 19.12,
+    "end": 19.6
+  },
+  {
+    "text": "degrees",
+    "start": 19.6,
+    "end": 20
+  },
+  {
+    "text": "Celsius,",
+    "start": 20,
+    "end": 20.72
+  },
+  {
+    "text": "in",
+    "start": 20.72,
+    "end": 20.88
+  },
+  {
+    "text": "a",
+    "start": 20.88,
+    "end": 21.04
+  },
+  {
+    "text": "room",
+    "start": 21.04,
+    "end": 21.28
+  },
+  {
+    "text": "that",
+    "start": 21.28,
+    "end": 21.44
+  },
+  {
+    "text": "stays",
+    "start": 21.44,
+    "end": 21.84
+  },
+  {
+    "text": "at",
+    "start": 21.84,
+    "end": 22
+  },
+  {
+    "text": "20",
+    "start": 22,
+    "end": 22.32
+  },
+  {
+    "text": "degrees.",
+    "start": 22.32,
+    "end": 23.04
+  },
+  {
+    "text": "What",
+    "start": 23.04,
+    "end": 23.36
+  },
+  {
+    "text": "matters",
+    "start": 23.36,
+    "end": 23.84
+  },
+  {
+    "text": "isn't",
+    "start": 23.84,
+    "end": 24.16
+  },
+  {
+    "text": "the",
+    "start": 24.16,
+    "end": 24.24
+  },
+  {
+    "text": "temperature",
+    "start": 24.24,
+    "end": 24.72
+  },
+  {
+    "text": "itself.",
+    "start": 24.72,
+    "end": 25.52
+  },
+  {
+    "text": "It's",
+    "start": 25.52,
+    "end": 25.76
+  },
+  {
+    "text": "the",
+    "start": 25.76,
+    "end": 25.92
+  },
+  {
+    "text": "gap",
+    "start": 25.92,
+    "end": 26.32
+  },
+  {
+    "text": "between",
+    "start": 26.32,
+    "end": 26.64
+  },
+  {
+    "text": "the",
+    "start": 26.64,
+    "end": 26.8
+  },
+  {
+    "text": "coffee",
+    "start": 26.8,
+    "end": 27.2
+  },
+  {
+    "text": "and",
+    "start": 27.2,
+    "end": 27.36
+  },
+  {
+    "text": "the",
+    "start": 27.36,
+    "end": 27.6
+  },
+  {
+    "text": "room.",
+    "start": 27.6,
+    "end": 28.24
+  },
+  {
+    "text": "Right",
+    "start": 28.24,
+    "end": 28.48
+  },
+  {
+    "text": "now,",
+    "start": 28.48,
+    "end": 28.72
+  },
+  {
+    "text": "that",
+    "start": 28.72,
+    "end": 28.96
+  },
+  {
+    "text": "gap",
+    "start": 28.96,
+    "end": 29.2
+  },
+  {
+    "text": "is",
+    "start": 29.2,
+    "end": 29.44
+  },
+  {
+    "text": "65",
+    "start": 29.44,
+    "end": 30
+  },
+  {
+    "text": "degrees.",
+    "start": 30,
+    "end": 31.04
+  },
+  {
+    "text": "Newton's",
+    "start": 31.04,
+    "end": 31.76
+  },
+  {
+    "text": "law",
+    "start": 31.76,
+    "end": 31.92
+  },
+  {
+    "text": "of",
+    "start": 31.92,
+    "end": 32.08
+  },
+  {
+    "text": "cooling,",
+    "start": 32.08,
+    "end": 32.48
+  },
+  {
+    "text": "in",
+    "start": 32.48,
+    "end": 32.56
+  },
+  {
+    "text": "its",
+    "start": 32.56,
+    "end": 32.72
+  },
+  {
+    "text": "simplest",
+    "start": 32.72,
+    "end": 33.12
+  },
+  {
+    "text": "form,",
+    "start": 33.12,
+    "end": 33.44
+  },
+  {
+    "text": "says",
+    "start": 33.44,
+    "end": 33.76
+  },
+  {
+    "text": "the",
+    "start": 33.76,
+    "end": 33.92
+  },
+  {
+    "text": "coffee's",
+    "start": 33.92,
+    "end": 34.4
+  },
+  {
+    "text": "temperature",
+    "start": 34.4,
+    "end": 34.96
+  },
+  {
+    "text": "changes",
+    "start": 34.96,
+    "end": 35.28
+  },
+  {
+    "text": "at",
+    "start": 35.28,
+    "end": 35.52
+  },
+  {
+    "text": "a",
+    "start": 35.52,
+    "end": 35.6
+  },
+  {
+    "text": "rate",
+    "start": 35.6,
+    "end": 36
+  },
+  {
+    "text": "proportional",
+    "start": 36,
+    "end": 36.56
+  },
+  {
+    "text": "to",
+    "start": 36.56,
+    "end": 36.64
+  },
+  {
+    "text": "that",
+    "start": 36.64,
+    "end": 36.88
+  },
+  {
+    "text": "gap.",
+    "start": 36.88,
+    "end": 37.52
+  },
+  {
+    "text": "Twice",
+    "start": 37.52,
+    "end": 37.84
+  },
+  {
+    "text": "the",
+    "start": 37.84,
+    "end": 38
+  },
+  {
+    "text": "gap,",
+    "start": 38,
+    "end": 38.48
+  },
+  {
+    "text": "twice",
+    "start": 38.48,
+    "end": 38.8
+  },
+  {
+    "text": "the",
+    "start": 38.8,
+    "end": 38.88
+  },
+  {
+    "text": "cooling",
+    "start": 38.88,
+    "end": 39.28
+  },
+  {
+    "text": "speed.",
+    "start": 39.28,
+    "end": 39.92
+  },
+  {
+    "text": "The",
+    "start": 39.92,
+    "end": 40.08
+  },
+  {
+    "text": "rate",
+    "start": 40.08,
+    "end": 40.32
+  },
+  {
+    "text": "of",
+    "start": 40.32,
+    "end": 40.48
+  },
+  {
+    "text": "temperature",
+    "start": 40.48,
+    "end": 41.04
+  },
+  {
+    "text": "change",
+    "start": 41.04,
+    "end": 41.36
+  },
+  {
+    "text": "is",
+    "start": 41.36,
+    "end": 41.6
+  },
+  {
+    "text": "minus",
+    "start": 41.6,
+    "end": 42
+  },
+  {
+    "text": "K",
+    "start": 42,
+    "end": 42.24
+  },
+  {
+    "text": "times",
+    "start": 42.56,
+    "end": 42.8
+  },
+  {
+    "text": "the",
+    "start": 42.8,
+    "end": 42.96
+  },
+  {
+    "text": "difference",
+    "start": 42.96,
+    "end": 43.28
+  },
+  {
+    "text": "between",
+    "start": 43.28,
+    "end": 43.6
+  },
+  {
+    "text": "the",
+    "start": 43.6,
+    "end": 43.68
+  },
+  {
+    "text": "coffee",
+    "start": 43.68,
+    "end": 44.08
+  },
+  {
+    "text": "temperature",
+    "start": 44.08,
+    "end": 44.64
+  },
+  {
+    "text": "and",
+    "start": 44.64,
+    "end": 44.8
+  },
+  {
+    "text": "room",
+    "start": 44.8,
+    "end": 45.2
+  },
+  {
+    "text": "temperature.",
+    "start": 45.2,
+    "end": 46
+  },
+  {
+    "text": "Here,",
+    "start": 46,
+    "end": 46.4
+  },
+  {
+    "text": "K",
+    "start": 46.4,
+    "end": 46.64
+  },
+  {
+    "text": "is",
+    "start": 46.8,
+    "end": 46.96
+  },
+  {
+    "text": "an",
+    "start": 46.96,
+    "end": 47.04
+  },
+  {
+    "text": "effective",
+    "start": 47.04,
+    "end": 47.52
+  },
+  {
+    "text": "cooling",
+    "start": 47.52,
+    "end": 48
+  },
+  {
+    "text": "constant.",
+    "start": 48,
+    "end": 48.64
+  },
+  {
+    "text": "It",
+    "start": 48.64,
+    "end": 48.8
+  },
+  {
+    "text": "depends",
+    "start": 48.8,
+    "end": 49.12
+  },
+  {
+    "text": "on",
+    "start": 49.12,
+    "end": 49.2
+  },
+  {
+    "text": "the",
+    "start": 49.2,
+    "end": 49.36
+  },
+  {
+    "text": "cup,",
+    "start": 49.36,
+    "end": 49.84
+  },
+  {
+    "text": "the",
+    "start": 49.84,
+    "end": 49.92
+  },
+  {
+    "text": "lid,",
+    "start": 49.92,
+    "end": 50.4
+  },
+  {
+    "text": "the",
+    "start": 50.4,
+    "end": 50.48
+  },
+  {
+    "text": "amount",
+    "start": 50.48,
+    "end": 50.72
+  },
+  {
+    "text": "of",
+    "start": 50.72,
+    "end": 50.8
+  },
+  {
+    "text": "liquid,",
+    "start": 50.8,
+    "end": 51.36
+  },
+  {
+    "text": "and",
+    "start": 51.36,
+    "end": 51.52
+  },
+  {
+    "text": "the",
+    "start": 51.52,
+    "end": 51.6
+  },
+  {
+    "text": "surrounding",
+    "start": 51.6,
+    "end": 52.08
+  },
+  {
+    "text": "air.",
+    "start": 52.08,
+    "end": 52.96
+  },
+  {
+    "text": "The",
+    "start": 52.96,
+    "end": 53.12
+  },
+  {
+    "text": "solution",
+    "start": 53.12,
+    "end": 53.68
+  },
+  {
+    "text": "is",
+    "start": 53.68,
+    "end": 53.84
+  },
+  {
+    "text": "an",
+    "start": 53.84,
+    "end": 54.08
+  },
+  {
+    "text": "exponential.",
+    "start": 54.08,
+    "end": 55.04
+  },
+  {
+    "text": "The",
+    "start": 55.04,
+    "end": 55.2
+  },
+  {
+    "text": "gap",
+    "start": 55.2,
+    "end": 55.6
+  },
+  {
+    "text": "shrinks",
+    "start": 55.6,
+    "end": 56.08
+  },
+  {
+    "text": "by",
+    "start": 56.08,
+    "end": 56.24
+  },
+  {
+    "text": "the",
+    "start": 56.24,
+    "end": 56.32
+  },
+  {
+    "text": "same",
+    "start": 56.32,
+    "end": 56.56
+  },
+  {
+    "text": "fraction",
+    "start": 56.56,
+    "end": 57.04
+  },
+  {
+    "text": "in",
+    "start": 57.04,
+    "end": 57.28
+  },
+  {
+    "text": "every",
+    "start": 57.28,
+    "end": 57.52
+  },
+  {
+    "text": "equal",
+    "start": 57.52,
+    "end": 58.32
+  },
+  {
+    "text": "time.",
+    "start": 58.56,
+    "end": 59.2
+  },
+  {
+    "text": "T",
+    "start": 59.2,
+    "end": 59.52
+  },
+  {
+    "text": "equals",
+    "start": 59.68,
+    "end": 60.08
+  },
+  {
+    "text": "room",
+    "start": 60.08,
+    "end": 60.48
+  },
+  {
+    "text": "temperature",
+    "start": 60.48,
+    "end": 60.88
+  },
+  {
+    "text": "plus",
+    "start": 60.96,
+    "end": 61.2
+  },
+  {
+    "text": "the",
+    "start": 61.2,
+    "end": 61.28
+  },
+  {
+    "text": "starting",
+    "start": 61.28,
+    "end": 61.68
+  },
+  {
+    "text": "gap",
+    "start": 61.68,
+    "end": 62
+  },
+  {
+    "text": "times",
+    "start": 62.08,
+    "end": 62.32
+  },
+  {
+    "text": "E",
+    "start": 62.32,
+    "end": 62.56
+  },
+  {
+    "text": "to",
+    "start": 62.72,
+    "end": 62.88
+  },
+  {
+    "text": "the",
+    "start": 62.88,
+    "end": 62.96
+  },
+  {
+    "text": "minus",
+    "start": 62.96,
+    "end": 63.28
+  },
+  {
+    "text": "KT.",
+    "start": 63.28,
+    "end": 64.4
+  },
+  {
+    "text": "For",
+    "start": 64.45,
+    "end": 64.77
+  },
+  {
+    "text": "this",
+    "start": 64.77,
+    "end": 64.93
+  },
+  {
+    "text": "example,",
+    "start": 64.93,
+    "end": 65.33
+  },
+  {
+    "text": "let's",
+    "start": 65.33,
+    "end": 65.57
+  },
+  {
+    "text": "assume",
+    "start": 65.57,
+    "end": 65.89
+  },
+  {
+    "text": "the",
+    "start": 65.89,
+    "end": 65.97
+  },
+  {
+    "text": "temperature",
+    "start": 65.97,
+    "end": 66.45
+  },
+  {
+    "text": "gap",
+    "start": 66.45,
+    "end": 66.77
+  },
+  {
+    "text": "halves",
+    "start": 66.77,
+    "end": 67.17
+  },
+  {
+    "text": "every",
+    "start": 67.17,
+    "end": 67.41
+  },
+  {
+    "text": "10",
+    "start": 67.41,
+    "end": 67.73
+  },
+  {
+    "text": "minutes.",
+    "start": 67.73,
+    "end": 68.29
+  },
+  {
+    "text": "That",
+    "start": 68.29,
+    "end": 68.53
+  },
+  {
+    "text": "corresponds",
+    "start": 68.53,
+    "end": 69.01
+  },
+  {
+    "text": "to",
+    "start": 69.01,
+    "end": 69.09
+  },
+  {
+    "text": "a",
+    "start": 69.09,
+    "end": 69.25
+  },
+  {
+    "text": "K",
+    "start": 69.25,
+    "end": 69.49
+  },
+  {
+    "text": "of",
+    "start": 69.65,
+    "end": 69.81
+  },
+  {
+    "text": "about",
+    "start": 69.81,
+    "end": 70.13
+  },
+  {
+    "text": "0.07",
+    "start": 70.13,
+    "end": 71.01
+  },
+  {
+    "text": "per",
+    "start": 71.17,
+    "end": 71.33
+  },
+  {
+    "text": "minute.",
+    "start": 71.33,
+    "end": 71.81
+  },
+  {
+    "text": "So",
+    "start": 71.81,
+    "end": 72.05
+  },
+  {
+    "text": "e",
+    "start": 72.21,
+    "end": 72.53
+  },
+  {
+    "text": "to",
+    "start": 72.53,
+    "end": 72.69
+  },
+  {
+    "text": "the",
+    "start": 72.69,
+    "end": 72.77
+  },
+  {
+    "text": "minus",
+    "start": 72.77,
+    "end": 73.09
+  },
+  {
+    "text": "KT",
+    "start": 73.09,
+    "end": 73.81
+  },
+  {
+    "text": "is",
+    "start": 73.81,
+    "end": 74.05
+  },
+  {
+    "text": "exactly",
+    "start": 74.05,
+    "end": 74.45
+  },
+  {
+    "text": "1",
+    "start": 74.45,
+    "end": 74.77
+  },
+  {
+    "text": "half",
+    "start": 74.77,
+    "end": 75.17
+  },
+  {
+    "text": "to",
+    "start": 75.17,
+    "end": 75.33
+  },
+  {
+    "text": "the",
+    "start": 75.33,
+    "end": 75.41
+  },
+  {
+    "text": "power",
+    "start": 75.41,
+    "end": 75.81
+  },
+  {
+    "text": "T",
+    "start": 75.81,
+    "end": 76.05
+  },
+  {
+    "text": "over",
+    "start": 76.21,
+    "end": 76.53
+  },
+  {
+    "text": "10.",
+    "start": 76.53,
+    "end": 77.41
+  },
+  {
+    "text": "Watch",
+    "start": 77.41,
+    "end": 77.89
+  },
+  {
+    "text": "the",
+    "start": 77.89,
+    "end": 78.05
+  },
+  {
+    "text": "gap.",
+    "start": 78.05,
+    "end": 78.69
+  },
+  {
+    "text": "It",
+    "start": 78.69,
+    "end": 78.85
+  },
+  {
+    "text": "starts",
+    "start": 78.85,
+    "end": 79.25
+  },
+  {
+    "text": "at",
+    "start": 79.25,
+    "end": 79.41
+  },
+  {
+    "text": "65",
+    "start": 79.41,
+    "end": 79.89
+  },
+  {
+    "text": "degrees.",
+    "start": 80.05,
+    "end": 80.69
+  },
+  {
+    "text": "After",
+    "start": 80.69,
+    "end": 80.93
+  },
+  {
+    "text": "10",
+    "start": 80.93,
+    "end": 81.17
+  },
+  {
+    "text": "minutes,",
+    "start": 81.17,
+    "end": 81.49
+  },
+  {
+    "text": "it's",
+    "start": 81.49,
+    "end": 81.81
+  },
+  {
+    "text": "32",
+    "start": 81.81,
+    "end": 82.29
+  },
+  {
+    "text": "and",
+    "start": 82.29,
+    "end": 82.45
+  },
+  {
+    "text": "a",
+    "start": 82.45,
+    "end": 82.53
+  },
+  {
+    "text": "half.",
+    "start": 82.53,
+    "end": 83.17
+  },
+  {
+    "text": "After",
+    "start": 83.17,
+    "end": 83.49
+  },
+  {
+    "text": "20,",
+    "start": 83.49,
+    "end": 84.05
+  },
+  {
+    "text": "about",
+    "start": 84.05,
+    "end": 84.37
+  },
+  {
+    "text": "16.",
+    "start": 84.37,
+    "end": 85.17
+  },
+  {
+    "text": "After",
+    "start": 85.33,
+    "end": 85.65
+  },
+  {
+    "text": "30,",
+    "start": 85.65,
+    "end": 86.21
+  },
+  {
+    "text": "about",
+    "start": 86.21,
+    "end": 86.53
+  },
+  {
+    "text": "8.",
+    "start": 86.53,
+    "end": 87.17
+  },
+  {
+    "text": "So",
+    "start": 87.17,
+    "end": 87.41
+  },
+  {
+    "text": "the",
+    "start": 87.41,
+    "end": 87.57
+  },
+  {
+    "text": "coffee",
+    "start": 87.57,
+    "end": 88.05
+  },
+  {
+    "text": "goes",
+    "start": 88.05,
+    "end": 88.29
+  },
+  {
+    "text": "from",
+    "start": 88.29,
+    "end": 88.61
+  },
+  {
+    "text": "85",
+    "start": 88.61,
+    "end": 89.25
+  },
+  {
+    "text": "to",
+    "start": 89.49,
+    "end": 89.73
+  },
+  {
+    "text": "52",
+    "start": 89.73,
+    "end": 90.29
+  },
+  {
+    "text": "and",
+    "start": 90.29,
+    "end": 90.45
+  },
+  {
+    "text": "a",
+    "start": 90.45,
+    "end": 90.53
+  },
+  {
+    "text": "half,",
+    "start": 90.53,
+    "end": 91.01
+  },
+  {
+    "text": "to",
+    "start": 91.01,
+    "end": 91.17
+  },
+  {
+    "text": "about",
+    "start": 91.17,
+    "end": 91.49
+  },
+  {
+    "text": "36",
+    "start": 91.49,
+    "end": 92.05
+  },
+  {
+    "text": "to",
+    "start": 92.37,
+    "end": 92.61
+  },
+  {
+    "text": "about",
+    "start": 92.61,
+    "end": 92.93
+  },
+  {
+    "text": "28.",
+    "start": 92.93,
+    "end": 93.89
+  },
+  {
+    "text": "It",
+    "start": 93.89,
+    "end": 94.05
+  },
+  {
+    "text": "drops",
+    "start": 94.05,
+    "end": 94.53
+  },
+  {
+    "text": "32",
+    "start": 94.53,
+    "end": 95.01
+  },
+  {
+    "text": "and",
+    "start": 95.01,
+    "end": 95.17
+  },
+  {
+    "text": "a",
+    "start": 95.17,
+    "end": 95.25
+  },
+  {
+    "text": "half",
+    "start": 95.25,
+    "end": 95.49
+  },
+  {
+    "text": "degrees",
+    "start": 95.49,
+    "end": 95.89
+  },
+  {
+    "text": "in",
+    "start": 95.89,
+    "end": 95.97
+  },
+  {
+    "text": "the",
+    "start": 95.97,
+    "end": 96.05
+  },
+  {
+    "text": "first",
+    "start": 96.05,
+    "end": 96.29
+  },
+  {
+    "text": "10",
+    "start": 96.29,
+    "end": 96.53
+  },
+  {
+    "text": "minutes,",
+    "start": 96.53,
+    "end": 97.01
+  },
+  {
+    "text": "and",
+    "start": 97.01,
+    "end": 97.25
+  },
+  {
+    "text": "only",
+    "start": 97.25,
+    "end": 97.57
+  },
+  {
+    "text": "about",
+    "start": 97.57,
+    "end": 97.81
+  },
+  {
+    "text": "8",
+    "start": 97.81,
+    "end": 98.21
+  },
+  {
+    "text": "in",
+    "start": 98.21,
+    "end": 98.37
+  },
+  {
+    "text": "the",
+    "start": 98.37,
+    "end": 98.53
+  },
+  {
+    "text": "third",
+    "start": 98.53,
+    "end": 98.85
+  },
+  {
+    "text": "10.",
+    "start": 98.85,
+    "end": 99.57
+  },
+  {
+    "text": "Fast,",
+    "start": 99.57,
+    "end": 100.29
+  },
+  {
+    "text": "then",
+    "start": 100.29,
+    "end": 100.61
+  },
+  {
+    "text": "slow.",
+    "start": 100.61,
+    "end": 101.65
+  },
+  {
+    "text": "Here's",
+    "start": 101.65,
+    "end": 102.13
+  },
+  {
+    "text": "the",
+    "start": 102.13,
+    "end": 102.21
+  },
+  {
+    "text": "same",
+    "start": 102.21,
+    "end": 102.53
+  },
+  {
+    "text": "story",
+    "start": 102.53,
+    "end": 102.85
+  },
+  {
+    "text": "as",
+    "start": 102.85,
+    "end": 103.01
+  },
+  {
+    "text": "a",
+    "start": 103.01,
+    "end": 103.17
+  },
+  {
+    "text": "curve.",
+    "start": 103.17,
+    "end": 103.81
+  },
+  {
+    "text": "The",
+    "start": 103.81,
+    "end": 103.97
+  },
+  {
+    "text": "dashed",
+    "start": 103.97,
+    "end": 104.45
+  },
+  {
+    "text": "line",
+    "start": 104.45,
+    "end": 104.77
+  },
+  {
+    "text": "is",
+    "start": 104.77,
+    "end": 104.93
+  },
+  {
+    "text": "the",
+    "start": 104.93,
+    "end": 105.01
+  },
+  {
+    "text": "room.",
+    "start": 105.01,
+    "end": 105.65
+  },
+  {
+    "text": "Look",
+    "start": 105.65,
+    "end": 105.89
+  },
+  {
+    "text": "at",
+    "start": 105.89,
+    "end": 105.97
+  },
+  {
+    "text": "the",
+    "start": 105.97,
+    "end": 106.13
+  },
+  {
+    "text": "vertical",
+    "start": 106.13,
+    "end": 106.61
+  },
+  {
+    "text": "gap",
+    "start": 106.61,
+    "end": 106.85
+  },
+  {
+    "text": "between",
+    "start": 106.85,
+    "end": 107.17
+  },
+  {
+    "text": "the",
+    "start": 107.17,
+    "end": 107.25
+  },
+  {
+    "text": "curve",
+    "start": 107.25,
+    "end": 107.65
+  },
+  {
+    "text": "and",
+    "start": 107.65,
+    "end": 107.81
+  },
+  {
+    "text": "that",
+    "start": 107.81,
+    "end": 108.05
+  },
+  {
+    "text": "line.",
+    "start": 108.05,
+    "end": 108.61
+  },
+  {
+    "text": "At",
+    "start": 108.61,
+    "end": 108.85
+  },
+  {
+    "text": "every",
+    "start": 108.85,
+    "end": 109.17
+  },
+  {
+    "text": "10",
+    "start": 109.17,
+    "end": 109.49
+  },
+  {
+    "text": "minute",
+    "start": 109.49,
+    "end": 109.73
+  },
+  {
+    "text": "mark,",
+    "start": 109.73,
+    "end": 110.13
+  },
+  {
+    "text": "it's",
+    "start": 110.13,
+    "end": 110.37
+  },
+  {
+    "text": "half",
+    "start": 110.37,
+    "end": 110.69
+  },
+  {
+    "text": "what",
+    "start": 110.69,
+    "end": 110.93
+  },
+  {
+    "text": "it",
+    "start": 110.93,
+    "end": 111.01
+  },
+  {
+    "text": "was",
+    "start": 111.01,
+    "end": 111.25
+  },
+  {
+    "text": "10",
+    "start": 111.25,
+    "end": 111.49
+  },
+  {
+    "text": "minutes",
+    "start": 111.49,
+    "end": 111.81
+  },
+  {
+    "text": "earlier.",
+    "start": 111.81,
+    "end": 112.45
+  },
+  {
+    "text": "The",
+    "start": 112.45,
+    "end": 112.61
+  },
+  {
+    "text": "curve",
+    "start": 112.61,
+    "end": 112.93
+  },
+  {
+    "text": "keeps",
+    "start": 112.93,
+    "end": 113.17
+  },
+  {
+    "text": "getting",
+    "start": 113.17,
+    "end": 113.41
+  },
+  {
+    "text": "closer",
+    "start": 113.41,
+    "end": 113.81
+  },
+  {
+    "text": "to",
+    "start": 113.81,
+    "end": 113.89
+  },
+  {
+    "text": "the",
+    "start": 113.89,
+    "end": 113.97
+  },
+  {
+    "text": "room",
+    "start": 113.97,
+    "end": 114.37
+  },
+  {
+    "text": "line,",
+    "start": 114.37,
+    "end": 114.85
+  },
+  {
+    "text": "but",
+    "start": 114.85,
+    "end": 115.09
+  },
+  {
+    "text": "in",
+    "start": 115.09,
+    "end": 115.25
+  },
+  {
+    "text": "the",
+    "start": 115.25,
+    "end": 115.33
+  },
+  {
+    "text": "model,",
+    "start": 115.33,
+    "end": 115.89
+  },
+  {
+    "text": "it",
+    "start": 115.89,
+    "end": 116.13
+  },
+  {
+    "text": "never",
+    "start": 116.13,
+    "end": 116.37
+  },
+  {
+    "text": "quite",
+    "start": 116.37,
+    "end": 116.61
+  },
+  {
+    "text": "reaches",
+    "start": 116.61,
+    "end": 117.25
+  },
+  {
+    "text": "it.",
+    "start": 117.25,
+    "end": 117.89
+  },
+  {
+    "text": "That's",
+    "start": 117.89,
+    "end": 118.21
+  },
+  {
+    "text": "why",
+    "start": 118.21,
+    "end": 118.53
+  },
+  {
+    "text": "the",
+    "start": 118.53,
+    "end": 118.61
+  },
+  {
+    "text": "curve",
+    "start": 118.61,
+    "end": 119.01
+  },
+  {
+    "text": "flattens.",
+    "start": 119.01,
+    "end": 119.81
+  },
+  {
+    "text": "The",
+    "start": 119.81,
+    "end": 119.97
+  },
+  {
+    "text": "cooling",
+    "start": 119.97,
+    "end": 120.45
+  },
+  {
+    "text": "speed",
+    "start": 120.45,
+    "end": 120.77
+  },
+  {
+    "text": "at",
+    "start": 120.77,
+    "end": 120.93
+  },
+  {
+    "text": "any",
+    "start": 120.93,
+    "end": 121.17
+  },
+  {
+    "text": "moment",
+    "start": 121.17,
+    "end": 121.41
+  },
+  {
+    "text": "is",
+    "start": 121.41,
+    "end": 121.65
+  },
+  {
+    "text": "K",
+    "start": 121.65,
+    "end": 121.89
+  },
+  {
+    "text": "times",
+    "start": 122.13,
+    "end": 122.37
+  },
+  {
+    "text": "the",
+    "start": 122.37,
+    "end": 122.53
+  },
+  {
+    "text": "gap.",
+    "start": 122.53,
+    "end": 123.09
+  },
+  {
+    "text": "At",
+    "start": 123.09,
+    "end": 123.33
+  },
+  {
+    "text": "the",
+    "start": 123.33,
+    "end": 123.41
+  },
+  {
+    "text": "very",
+    "start": 123.41,
+    "end": 123.65
+  },
+  {
+    "text": "start,",
+    "start": 123.65,
+    "end": 123.97
+  },
+  {
+    "text": "the",
+    "start": 123.97,
+    "end": 124.05
+  },
+  {
+    "text": "gap",
+    "start": 124.05,
+    "end": 124.37
+  },
+  {
+    "text": "is",
+    "start": 124.37,
+    "end": 124.53
+  },
+  {
+    "text": "65,",
+    "start": 124.53,
+    "end": 125.41
+  },
+  {
+    "text": "so",
+    "start": 125.41,
+    "end": 125.65
+  },
+  {
+    "text": "the",
+    "start": 125.65,
+    "end": 125.81
+  },
+  {
+    "text": "coffee",
+    "start": 125.81,
+    "end": 126.13
+  },
+  {
+    "text": "is",
+    "start": 126.13,
+    "end": 126.29
+  },
+  {
+    "text": "cooling",
+    "start": 126.29,
+    "end": 126.69
+  },
+  {
+    "text": "at",
+    "start": 126.69,
+    "end": 126.85
+  },
+  {
+    "text": "about",
+    "start": 126.85,
+    "end": 127.09
+  },
+  {
+    "text": "4.5",
+    "start": 127.09,
+    "end": 127.65
+  },
+  {
+    "text": "degrees",
+    "start": 127.81,
+    "end": 128.21
+  },
+  {
+    "text": "per",
+    "start": 128.21,
+    "end": 128.37
+  },
+  {
+    "text": "minute.",
+    "start": 128.37,
+    "end": 128.85
+  },
+  {
+    "text": "At",
+    "start": 128.9,
+    "end": 129.14
+  },
+  {
+    "text": "the",
+    "start": 129.14,
+    "end": 129.22
+  },
+  {
+    "text": "ten",
+    "start": 129.22,
+    "end": 129.3
+  },
+  {
+    "text": "minute",
+    "start": 129.46,
+    "end": 129.7
+  },
+  {
+    "text": "mark,",
+    "start": 129.7,
+    "end": 130.02
+  },
+  {
+    "text": "the",
+    "start": 130.1,
+    "end": 130.26
+  },
+  {
+    "text": "gap",
+    "start": 130.26,
+    "end": 130.5
+  },
+  {
+    "text": "is",
+    "start": 130.5,
+    "end": 130.66
+  },
+  {
+    "text": "half",
+    "start": 130.66,
+    "end": 130.9
+  },
+  {
+    "text": "as",
+    "start": 130.9,
+    "end": 131.06
+  },
+  {
+    "text": "big,",
+    "start": 131.06,
+    "end": 131.46
+  },
+  {
+    "text": "and",
+    "start": 131.46,
+    "end": 131.62
+  },
+  {
+    "text": "so",
+    "start": 131.62,
+    "end": 131.78
+  },
+  {
+    "text": "is",
+    "start": 131.78,
+    "end": 131.94
+  },
+  {
+    "text": "the",
+    "start": 131.94,
+    "end": 132.1
+  },
+  {
+    "text": "speed,",
+    "start": 132.1,
+    "end": 132.58
+  },
+  {
+    "text": "about",
+    "start": 132.58,
+    "end": 132.9
+  },
+  {
+    "text": "2.3",
+    "start": 132.9,
+    "end": 133.38
+  },
+  {
+    "text": "degrees",
+    "start": 133.54,
+    "end": 133.94
+  },
+  {
+    "text": "per",
+    "start": 133.94,
+    "end": 134.1
+  },
+  {
+    "text": "minute.",
+    "start": 134.1,
+    "end": 134.74
+  },
+  {
+    "text": "Smaller",
+    "start": 134.74,
+    "end": 135.22
+  },
+  {
+    "text": "gap,",
+    "start": 135.22,
+    "end": 135.78
+  },
+  {
+    "text": "gentler",
+    "start": 135.78,
+    "end": 136.18
+  },
+  {
+    "text": "slope.",
+    "start": 136.34,
+    "end": 137.14
+  },
+  {
+    "text": "So",
+    "start": 137.14,
+    "end": 137.3
+  },
+  {
+    "text": "when",
+    "start": 137.38,
+    "end": 137.7
+  },
+  {
+    "text": "does",
+    "start": 137.7,
+    "end": 137.86
+  },
+  {
+    "text": "it",
+    "start": 137.86,
+    "end": 137.94
+  },
+  {
+    "text": "reach",
+    "start": 137.94,
+    "end": 138.18
+  },
+  {
+    "text": "a",
+    "start": 138.18,
+    "end": 138.34
+  },
+  {
+    "text": "temperature",
+    "start": 138.34,
+    "end": 138.74
+  },
+  {
+    "text": "you",
+    "start": 138.74,
+    "end": 138.9
+  },
+  {
+    "text": "like?",
+    "start": 138.9,
+    "end": 139.46
+  },
+  {
+    "text": "Say",
+    "start": 139.46,
+    "end": 139.78
+  },
+  {
+    "text": "you",
+    "start": 139.78,
+    "end": 139.94
+  },
+  {
+    "text": "want",
+    "start": 139.94,
+    "end": 140.1
+  },
+  {
+    "text": "your",
+    "start": 140.1,
+    "end": 140.18
+  },
+  {
+    "text": "coffee",
+    "start": 140.18,
+    "end": 140.5
+  },
+  {
+    "text": "to",
+    "start": 140.5,
+    "end": 140.58
+  },
+  {
+    "text": "cool",
+    "start": 140.58,
+    "end": 140.9
+  },
+  {
+    "text": "to",
+    "start": 140.9,
+    "end": 141.14
+  },
+  {
+    "text": "60",
+    "start": 141.14,
+    "end": 141.46
+  },
+  {
+    "text": "degrees",
+    "start": 141.46,
+    "end": 141.86
+  },
+  {
+    "text": "Celsius.",
+    "start": 141.86,
+    "end": 142.5
+  },
+  {
+    "text": "That's",
+    "start": 142.5,
+    "end": 142.74
+  },
+  {
+    "text": "a",
+    "start": 142.74,
+    "end": 142.82
+  },
+  {
+    "text": "gap",
+    "start": 142.82,
+    "end": 143.06
+  },
+  {
+    "text": "of",
+    "start": 143.06,
+    "end": 143.22
+  },
+  {
+    "text": "40.",
+    "start": 143.22,
+    "end": 143.94
+  },
+  {
+    "text": "So",
+    "start": 143.94,
+    "end": 144.1
+  },
+  {
+    "text": "we",
+    "start": 144.26,
+    "end": 144.5
+  },
+  {
+    "text": "need",
+    "start": 144.5,
+    "end": 144.82
+  },
+  {
+    "text": "65",
+    "start": 144.82,
+    "end": 145.38
+  },
+  {
+    "text": "times",
+    "start": 145.54,
+    "end": 145.78
+  },
+  {
+    "text": "1",
+    "start": 145.78,
+    "end": 146.1
+  },
+  {
+    "text": "half",
+    "start": 146.1,
+    "end": 146.5
+  },
+  {
+    "text": "to",
+    "start": 146.5,
+    "end": 146.58
+  },
+  {
+    "text": "the",
+    "start": 146.58,
+    "end": 146.66
+  },
+  {
+    "text": "power",
+    "start": 146.66,
+    "end": 147.06
+  },
+  {
+    "text": "T",
+    "start": 147.06,
+    "end": 147.3
+  },
+  {
+    "text": "over",
+    "start": 147.46,
+    "end": 147.7
+  },
+  {
+    "text": "10",
+    "start": 147.7,
+    "end": 148.1
+  },
+  {
+    "text": "to",
+    "start": 148.18,
+    "end": 148.34
+  },
+  {
+    "text": "equal",
+    "start": 148.34,
+    "end": 148.74
+  },
+  {
+    "text": "40.",
+    "start": 148.74,
+    "end": 149.46
+  },
+  {
+    "text": "Take",
+    "start": 149.46,
+    "end": 149.86
+  },
+  {
+    "text": "logs,",
+    "start": 149.86,
+    "end": 150.42
+  },
+  {
+    "text": "and",
+    "start": 150.42,
+    "end": 150.66
+  },
+  {
+    "text": "T",
+    "start": 150.66,
+    "end": 150.9
+  },
+  {
+    "text": "equals",
+    "start": 151.06,
+    "end": 151.46
+  },
+  {
+    "text": "10",
+    "start": 151.46,
+    "end": 151.78
+  },
+  {
+    "text": "times",
+    "start": 151.78,
+    "end": 152.1
+  },
+  {
+    "text": "log",
+    "start": 152.1,
+    "end": 152.34
+  },
+  {
+    "text": "base",
+    "start": 152.5,
+    "end": 152.66
+  },
+  {
+    "text": "2",
+    "start": 152.82,
+    "end": 153.06
+  },
+  {
+    "text": "of",
+    "start": 153.14,
+    "end": 153.38
+  },
+  {
+    "text": "65",
+    "start": 153.38,
+    "end": 153.86
+  },
+  {
+    "text": "over",
+    "start": 154.1,
+    "end": 154.34
+  },
+  {
+    "text": "40.",
+    "start": 154.34,
+    "end": 155.22
+  },
+  {
+    "text": "About",
+    "start": 155.22,
+    "end": 155.62
+  },
+  {
+    "text": "seven",
+    "start": 155.62,
+    "end": 156.02
+  },
+  {
+    "text": "minutes",
+    "start": 156.02,
+    "end": 156.34
+  },
+  {
+    "text": "for",
+    "start": 156.5,
+    "end": 156.74
+  },
+  {
+    "text": "this",
+    "start": 156.74,
+    "end": 156.98
+  },
+  {
+    "text": "mug",
+    "start": 156.98,
+    "end": 157.46
+  },
+  {
+    "text": "and",
+    "start": 157.46,
+    "end": 157.62
+  },
+  {
+    "text": "these",
+    "start": 157.62,
+    "end": 157.86
+  },
+  {
+    "text": "conditions.",
+    "start": 157.86,
+    "end": 158.82
+  },
+  {
+    "text": "Now",
+    "start": 158.82,
+    "end": 159.06
+  },
+  {
+    "text": "the",
+    "start": 159.22,
+    "end": 159.38
+  },
+  {
+    "text": "milk",
+    "start": 159.38,
+    "end": 159.78
+  },
+  {
+    "text": "puzzle.",
+    "start": 159.78,
+    "end": 160.5
+  },
+  {
+    "text": "You'll",
+    "start": 160.5,
+    "end": 160.82
+  },
+  {
+    "text": "drink",
+    "start": 160.82,
+    "end": 161.14
+  },
+  {
+    "text": "in",
+    "start": 161.14,
+    "end": 161.3
+  },
+  {
+    "text": "ten",
+    "start": 161.3,
+    "end": 161.38
+  },
+  {
+    "text": "minutes.",
+    "start": 161.54,
+    "end": 162.02
+  },
+  {
+    "text": "Do",
+    "start": 162.02,
+    "end": 162.26
+  },
+  {
+    "text": "you",
+    "start": 162.26,
+    "end": 162.42
+  },
+  {
+    "text": "pour",
+    "start": 162.42,
+    "end": 162.66
+  },
+  {
+    "text": "in",
+    "start": 162.66,
+    "end": 162.82
+  },
+  {
+    "text": "cold",
+    "start": 162.82,
+    "end": 163.14
+  },
+  {
+    "text": "milk",
+    "start": 163.14,
+    "end": 163.54
+  },
+  {
+    "text": "now",
+    "start": 163.54,
+    "end": 163.78
+  },
+  {
+    "text": "or",
+    "start": 163.94,
+    "end": 164.18
+  },
+  {
+    "text": "just",
+    "start": 164.18,
+    "end": 164.5
+  },
+  {
+    "text": "before",
+    "start": 164.5,
+    "end": 164.82
+  },
+  {
+    "text": "you",
+    "start": 164.82,
+    "end": 164.98
+  },
+  {
+    "text": "drink?",
+    "start": 164.98,
+    "end": 165.7
+  },
+  {
+    "text": "To",
+    "start": 165.94,
+    "end": 166.18
+  },
+  {
+    "text": "compare",
+    "start": 166.18,
+    "end": 166.5
+  },
+  {
+    "text": "fairly,",
+    "start": 166.66,
+    "end": 167.3
+  },
+  {
+    "text": "we'll",
+    "start": 167.3,
+    "end": 167.54
+  },
+  {
+    "text": "use",
+    "start": 167.54,
+    "end": 167.7
+  },
+  {
+    "text": "the",
+    "start": 167.7,
+    "end": 167.78
+  },
+  {
+    "text": "same",
+    "start": 167.78,
+    "end": 168.1
+  },
+  {
+    "text": "coffee",
+    "start": 168.1,
+    "end": 168.5
+  },
+  {
+    "text": "and",
+    "start": 168.5,
+    "end": 168.66
+  },
+  {
+    "text": "the",
+    "start": 168.66,
+    "end": 168.74
+  },
+  {
+    "text": "same",
+    "start": 168.74,
+    "end": 168.98
+  },
+  {
+    "text": "milk",
+    "start": 168.98,
+    "end": 169.3
+  },
+  {
+    "text": "both",
+    "start": 169.38,
+    "end": 169.7
+  },
+  {
+    "text": "times.",
+    "start": 169.7,
+    "end": 170.26
+  },
+  {
+    "text": "The",
+    "start": 170.26,
+    "end": 170.42
+  },
+  {
+    "text": "milk",
+    "start": 170.42,
+    "end": 170.82
+  },
+  {
+    "text": "stays",
+    "start": 170.82,
+    "end": 171.14
+  },
+  {
+    "text": "at",
+    "start": 171.14,
+    "end": 171.3
+  },
+  {
+    "text": "five",
+    "start": 171.3,
+    "end": 171.62
+  },
+  {
+    "text": "degrees",
+    "start": 171.62,
+    "end": 172.02
+  },
+  {
+    "text": "until",
+    "start": 172.1,
+    "end": 172.34
+  },
+  {
+    "text": "it's",
+    "start": 172.34,
+    "end": 172.58
+  },
+  {
+    "text": "poured,",
+    "start": 172.58,
+    "end": 173.06
+  },
+  {
+    "text": "and",
+    "start": 173.14,
+    "end": 173.3
+  },
+  {
+    "text": "it",
+    "start": 173.3,
+    "end": 173.46
+  },
+  {
+    "text": "makes",
+    "start": 173.46,
+    "end": 173.7
+  },
+  {
+    "text": "up",
+    "start": 173.7,
+    "end": 173.86
+  },
+  {
+    "text": "one",
+    "start": 173.86,
+    "end": 174.02
+  },
+  {
+    "text": "fifth",
+    "start": 174.18,
+    "end": 174.58
+  },
+  {
+    "text": "of",
+    "start": 174.58,
+    "end": 174.66
+  },
+  {
+    "text": "the",
+    "start": 174.66,
+    "end": 174.74
+  },
+  {
+    "text": "final",
+    "start": 174.74,
+    "end": 175.06
+  },
+  {
+    "text": "drink.",
+    "start": 175.06,
+    "end": 175.54
+  },
+  {
+    "text": "We'll",
+    "start": 175.7,
+    "end": 176.02
+  },
+  {
+    "text": "assume",
+    "start": 176.02,
+    "end": 176.42
+  },
+  {
+    "text": "instant",
+    "start": 176.42,
+    "end": 176.82
+  },
+  {
+    "text": "mixing,",
+    "start": 176.82,
+    "end": 177.3
+  },
+  {
+    "text": "with",
+    "start": 177.3,
+    "end": 177.46
+  },
+  {
+    "text": "the",
+    "start": 177.46,
+    "end": 177.54
+  },
+  {
+    "text": "mixed",
+    "start": 177.54,
+    "end": 177.94
+  },
+  {
+    "text": "temperature",
+    "start": 177.94,
+    "end": 178.34
+  },
+  {
+    "text": "as",
+    "start": 178.34,
+    "end": 178.58
+  },
+  {
+    "text": "a",
+    "start": 178.58,
+    "end": 178.66
+  },
+  {
+    "text": "simple",
+    "start": 178.66,
+    "end": 178.98
+  },
+  {
+    "text": "weighted",
+    "start": 178.98,
+    "end": 179.46
+  },
+  {
+    "text": "average.",
+    "start": 179.46,
+    "end": 180.18
+  },
+  {
+    "text": "And",
+    "start": 180.18,
+    "end": 180.34
+  },
+  {
+    "text": "we'll",
+    "start": 180.34,
+    "end": 180.66
+  },
+  {
+    "text": "assume",
+    "start": 180.66,
+    "end": 180.98
+  },
+  {
+    "text": "both",
+    "start": 180.98,
+    "end": 181.22
+  },
+  {
+    "text": "cups",
+    "start": 181.22,
+    "end": 181.7
+  },
+  {
+    "text": "follow",
+    "start": 181.7,
+    "end": 182.1
+  },
+  {
+    "text": "the",
+    "start": 182.1,
+    "end": 182.18
+  },
+  {
+    "text": "same",
+    "start": 182.18,
+    "end": 182.42
+  },
+  {
+    "text": "ten",
+    "start": 182.42,
+    "end": 182.58
+  },
+  {
+    "text": "minute",
+    "start": 182.74,
+    "end": 183.06
+  },
+  {
+    "text": "cooling",
+    "start": 183.06,
+    "end": 183.54
+  },
+  {
+    "text": "half",
+    "start": 183.54,
+    "end": 183.86
+  },
+  {
+    "text": "life.",
+    "start": 183.86,
+    "end": 184.42
+  },
+  {
+    "text": "First,",
+    "start": 184.77,
+    "end": 185.57
+  },
+  {
+    "text": "milk",
+    "start": 185.57,
+    "end": 186.05
+  },
+  {
+    "text": "now.",
+    "start": 186.05,
+    "end": 186.69
+  },
+  {
+    "text": "0.8",
+    "start": 186.69,
+    "end": 187.09
+  },
+  {
+    "text": "times",
+    "start": 187.33,
+    "end": 187.57
+  },
+  {
+    "text": "85",
+    "start": 187.57,
+    "end": 188.13
+  },
+  {
+    "text": "plus",
+    "start": 188.21,
+    "end": 188.53
+  },
+  {
+    "text": "0.2",
+    "start": 188.53,
+    "end": 189.01
+  },
+  {
+    "text": "times",
+    "start": 189.17,
+    "end": 189.49
+  },
+  {
+    "text": "5",
+    "start": 189.49,
+    "end": 189.81
+  },
+  {
+    "text": "gives",
+    "start": 189.97,
+    "end": 190.37
+  },
+  {
+    "text": "69",
+    "start": 190.37,
+    "end": 190.85
+  },
+  {
+    "text": "degrees.",
+    "start": 190.93,
+    "end": 191.49
+  },
+  {
+    "text": "That's",
+    "start": 191.49,
+    "end": 191.81
+  },
+  {
+    "text": "a",
+    "start": 191.81,
+    "end": 191.89
+  },
+  {
+    "text": "gap",
+    "start": 191.89,
+    "end": 192.21
+  },
+  {
+    "text": "of",
+    "start": 192.21,
+    "end": 192.45
+  },
+  {
+    "text": "49.",
+    "start": 192.45,
+    "end": 193.41
+  },
+  {
+    "text": "After",
+    "start": 193.41,
+    "end": 193.73
+  },
+  {
+    "text": "10",
+    "start": 193.73,
+    "end": 194.05
+  },
+  {
+    "text": "minutes,",
+    "start": 194.05,
+    "end": 194.45
+  },
+  {
+    "text": "the",
+    "start": 194.45,
+    "end": 194.61
+  },
+  {
+    "text": "gap",
+    "start": 194.61,
+    "end": 195.01
+  },
+  {
+    "text": "halves",
+    "start": 195.01,
+    "end": 195.49
+  },
+  {
+    "text": "to",
+    "start": 195.49,
+    "end": 195.65
+  },
+  {
+    "text": "24",
+    "start": 195.65,
+    "end": 196.05
+  },
+  {
+    "text": "and",
+    "start": 196.13,
+    "end": 196.29
+  },
+  {
+    "text": "a",
+    "start": 196.29,
+    "end": 196.37
+  },
+  {
+    "text": "half.",
+    "start": 196.37,
+    "end": 196.93
+  },
+  {
+    "text": "So",
+    "start": 196.93,
+    "end": 197.09
+  },
+  {
+    "text": "at",
+    "start": 197.17,
+    "end": 197.33
+  },
+  {
+    "text": "the",
+    "start": 197.33,
+    "end": 197.41
+  },
+  {
+    "text": "10",
+    "start": 197.41,
+    "end": 197.73
+  },
+  {
+    "text": "minute",
+    "start": 197.73,
+    "end": 198.05
+  },
+  {
+    "text": "mark,",
+    "start": 198.05,
+    "end": 198.45
+  },
+  {
+    "text": "this",
+    "start": 198.45,
+    "end": 198.69
+  },
+  {
+    "text": "cup",
+    "start": 198.69,
+    "end": 198.93
+  },
+  {
+    "text": "is",
+    "start": 198.93,
+    "end": 199.09
+  },
+  {
+    "text": "at",
+    "start": 199.09,
+    "end": 199.25
+  },
+  {
+    "text": "44",
+    "start": 199.25,
+    "end": 199.73
+  },
+  {
+    "text": "and",
+    "start": 199.73,
+    "end": 199.89
+  },
+  {
+    "text": "a",
+    "start": 199.89,
+    "end": 199.97
+  },
+  {
+    "text": "half",
+    "start": 199.97,
+    "end": 200.29
+  },
+  {
+    "text": "degrees.",
+    "start": 200.29,
+    "end": 201.17
+  },
+  {
+    "text": "Now",
+    "start": 201.17,
+    "end": 201.49
+  },
+  {
+    "text": "milk",
+    "start": 201.65,
+    "end": 202.13
+  },
+  {
+    "text": "later.",
+    "start": 202.13,
+    "end": 202.77
+  },
+  {
+    "text": "The",
+    "start": 202.77,
+    "end": 202.93
+  },
+  {
+    "text": "black",
+    "start": 202.93,
+    "end": 203.33
+  },
+  {
+    "text": "coffee",
+    "start": 203.33,
+    "end": 203.73
+  },
+  {
+    "text": "cools",
+    "start": 203.73,
+    "end": 204.21
+  },
+  {
+    "text": "first.",
+    "start": 204.21,
+    "end": 204.69
+  },
+  {
+    "text": "Its",
+    "start": 204.69,
+    "end": 204.93
+  },
+  {
+    "text": "gap",
+    "start": 204.93,
+    "end": 205.33
+  },
+  {
+    "text": "halves",
+    "start": 205.33,
+    "end": 205.89
+  },
+  {
+    "text": "from",
+    "start": 205.89,
+    "end": 206.05
+  },
+  {
+    "text": "65",
+    "start": 206.05,
+    "end": 206.69
+  },
+  {
+    "text": "to",
+    "start": 206.69,
+    "end": 206.85
+  },
+  {
+    "text": "32",
+    "start": 206.85,
+    "end": 207.41
+  },
+  {
+    "text": "and",
+    "start": 207.41,
+    "end": 207.57
+  },
+  {
+    "text": "a",
+    "start": 207.57,
+    "end": 207.65
+  },
+  {
+    "text": "half,",
+    "start": 207.65,
+    "end": 208.13
+  },
+  {
+    "text": "so",
+    "start": 208.13,
+    "end": 208.37
+  },
+  {
+    "text": "at",
+    "start": 208.37,
+    "end": 208.53
+  },
+  {
+    "text": "10",
+    "start": 208.53,
+    "end": 208.77
+  },
+  {
+    "text": "minutes,",
+    "start": 208.77,
+    "end": 209.17
+  },
+  {
+    "text": "it's",
+    "start": 209.17,
+    "end": 209.41
+  },
+  {
+    "text": "at",
+    "start": 209.41,
+    "end": 209.57
+  },
+  {
+    "text": "52",
+    "start": 209.57,
+    "end": 210.05
+  },
+  {
+    "text": "and",
+    "start": 210.05,
+    "end": 210.21
+  },
+  {
+    "text": "a",
+    "start": 210.21,
+    "end": 210.37
+  },
+  {
+    "text": "half.",
+    "start": 210.37,
+    "end": 210.93
+  },
+  {
+    "text": "Then",
+    "start": 210.93,
+    "end": 211.17
+  },
+  {
+    "text": "the",
+    "start": 211.17,
+    "end": 211.25
+  },
+  {
+    "text": "cold",
+    "start": 211.25,
+    "end": 211.65
+  },
+  {
+    "text": "milk",
+    "start": 211.65,
+    "end": 211.97
+  },
+  {
+    "text": "goes",
+    "start": 211.97,
+    "end": 212.21
+  },
+  {
+    "text": "in.",
+    "start": 212.21,
+    "end": 212.69
+  },
+  {
+    "text": "0.8",
+    "start": 212.69,
+    "end": 213.09
+  },
+  {
+    "text": "times",
+    "start": 213.25,
+    "end": 213.49
+  },
+  {
+    "text": "52",
+    "start": 213.49,
+    "end": 213.97
+  },
+  {
+    "text": "and",
+    "start": 213.97,
+    "end": 214.13
+  },
+  {
+    "text": "a",
+    "start": 214.13,
+    "end": 214.21
+  },
+  {
+    "text": "half",
+    "start": 214.21,
+    "end": 214.53
+  },
+  {
+    "text": "plus",
+    "start": 214.61,
+    "end": 214.85
+  },
+  {
+    "text": "0.2",
+    "start": 214.85,
+    "end": 215.25
+  },
+  {
+    "text": "times",
+    "start": 215.41,
+    "end": 215.73
+  },
+  {
+    "text": "5",
+    "start": 215.73,
+    "end": 216.05
+  },
+  {
+    "text": "gives",
+    "start": 216.13,
+    "end": 216.53
+  },
+  {
+    "text": "43",
+    "start": 216.53,
+    "end": 217.17
+  },
+  {
+    "text": "degrees.",
+    "start": 217.17,
+    "end": 217.97
+  },
+  {
+    "text": "Compared",
+    "start": 217.97,
+    "end": 218.53
+  },
+  {
+    "text": "at",
+    "start": 218.53,
+    "end": 218.69
+  },
+  {
+    "text": "the",
+    "start": 218.69,
+    "end": 218.85
+  },
+  {
+    "text": "same",
+    "start": 218.85,
+    "end": 219.09
+  },
+  {
+    "text": "moment,",
+    "start": 219.09,
+    "end": 219.57
+  },
+  {
+    "text": "right",
+    "start": 219.57,
+    "end": 219.81
+  },
+  {
+    "text": "after",
+    "start": 219.81,
+    "end": 220.05
+  },
+  {
+    "text": "the",
+    "start": 220.05,
+    "end": 220.13
+  },
+  {
+    "text": "second",
+    "start": 220.13,
+    "end": 220.45
+  },
+  {
+    "text": "cup",
+    "start": 220.45,
+    "end": 220.77
+  },
+  {
+    "text": "gets",
+    "start": 220.77,
+    "end": 221.01
+  },
+  {
+    "text": "its",
+    "start": 221.01,
+    "end": 221.25
+  },
+  {
+    "text": "milk,",
+    "start": 221.25,
+    "end": 221.73
+  },
+  {
+    "text": "the",
+    "start": 221.73,
+    "end": 221.89
+  },
+  {
+    "text": "early",
+    "start": 221.89,
+    "end": 222.29
+  },
+  {
+    "text": "milk",
+    "start": 222.29,
+    "end": 222.61
+  },
+  {
+    "text": "cup",
+    "start": 222.61,
+    "end": 222.93
+  },
+  {
+    "text": "is",
+    "start": 222.93,
+    "end": 223.09
+  },
+  {
+    "text": "1.5",
+    "start": 223.09,
+    "end": 223.73
+  },
+  {
+    "text": "degrees",
+    "start": 223.81,
+    "end": 224.21
+  },
+  {
+    "text": "warmer.",
+    "start": 224.21,
+    "end": 225.09
+  },
+  {
+    "text": "Here's",
+    "start": 225.09,
+    "end": 225.57
+  },
+  {
+    "text": "the",
+    "start": 225.57,
+    "end": 225.73
+  },
+  {
+    "text": "picture.",
+    "start": 225.73,
+    "end": 226.37
+  },
+  {
+    "text": "The",
+    "start": 226.37,
+    "end": 226.53
+  },
+  {
+    "text": "blue",
+    "start": 226.53,
+    "end": 226.85
+  },
+  {
+    "text": "cup",
+    "start": 226.85,
+    "end": 227.25
+  },
+  {
+    "text": "drops",
+    "start": 227.25,
+    "end": 227.57
+  },
+  {
+    "text": "at",
+    "start": 227.57,
+    "end": 227.73
+  },
+  {
+    "text": "minute",
+    "start": 227.73,
+    "end": 228.13
+  },
+  {
+    "text": "0,",
+    "start": 228.13,
+    "end": 228.61
+  },
+  {
+    "text": "when",
+    "start": 228.61,
+    "end": 228.85
+  },
+  {
+    "text": "the",
+    "start": 228.85,
+    "end": 228.93
+  },
+  {
+    "text": "milk",
+    "start": 228.93,
+    "end": 229.25
+  },
+  {
+    "text": "goes",
+    "start": 229.25,
+    "end": 229.49
+  },
+  {
+    "text": "in.",
+    "start": 229.49,
+    "end": 229.97
+  },
+  {
+    "text": "The",
+    "start": 229.97,
+    "end": 230.13
+  },
+  {
+    "text": "red",
+    "start": 230.13,
+    "end": 230.29
+  },
+  {
+    "text": "cup",
+    "start": 230.45,
+    "end": 230.77
+  },
+  {
+    "text": "drops",
+    "start": 230.77,
+    "end": 231.17
+  },
+  {
+    "text": "at",
+    "start": 231.17,
+    "end": 231.33
+  },
+  {
+    "text": "minute",
+    "start": 231.33,
+    "end": 231.73
+  },
+  {
+    "text": "10.",
+    "start": 231.73,
+    "end": 232.45
+  },
+  {
+    "text": "Early",
+    "start": 232.45,
+    "end": 232.93
+  },
+  {
+    "text": "milk",
+    "start": 232.93,
+    "end": 233.33
+  },
+  {
+    "text": "reduces",
+    "start": 233.33,
+    "end": 233.73
+  },
+  {
+    "text": "the",
+    "start": 233.73,
+    "end": 233.89
+  },
+  {
+    "text": "temperature",
+    "start": 233.89,
+    "end": 234.37
+  },
+  {
+    "text": "gap",
+    "start": 234.37,
+    "end": 234.77
+  },
+  {
+    "text": "right",
+    "start": 234.77,
+    "end": 235.01
+  },
+  {
+    "text": "away.",
+    "start": 235.01,
+    "end": 235.49
+  },
+  {
+    "text": "So",
+    "start": 235.49,
+    "end": 235.73
+  },
+  {
+    "text": "in",
+    "start": 235.81,
+    "end": 235.97
+  },
+  {
+    "text": "this",
+    "start": 235.97,
+    "end": 236.13
+  },
+  {
+    "text": "model,",
+    "start": 236.13,
+    "end": 236.45
+  },
+  {
+    "text": "that",
+    "start": 236.45,
+    "end": 236.69
+  },
+  {
+    "text": "cup's",
+    "start": 236.69,
+    "end": 237.17
+  },
+  {
+    "text": "temperature",
+    "start": 237.17,
+    "end": 237.65
+  },
+  {
+    "text": "falls",
+    "start": 237.65,
+    "end": 237.97
+  },
+  {
+    "text": "more",
+    "start": 237.97,
+    "end": 238.13
+  },
+  {
+    "text": "slowly",
+    "start": 238.13,
+    "end": 238.61
+  },
+  {
+    "text": "during",
+    "start": 238.61,
+    "end": 238.85
+  },
+  {
+    "text": "the",
+    "start": 238.85,
+    "end": 239.09
+  },
+  {
+    "text": "wait.",
+    "start": 239.09,
+    "end": 239.81
+  },
+  {
+    "text": "In",
+    "start": 239.81,
+    "end": 240.05
+  },
+  {
+    "text": "this",
+    "start": 240.05,
+    "end": 240.21
+  },
+  {
+    "text": "example,",
+    "start": 240.21,
+    "end": 240.77
+  },
+  {
+    "text": "the",
+    "start": 240.77,
+    "end": 240.93
+  },
+  {
+    "text": "model",
+    "start": 240.93,
+    "end": 241.25
+  },
+  {
+    "text": "predicts",
+    "start": 241.25,
+    "end": 241.65
+  },
+  {
+    "text": "a",
+    "start": 241.65,
+    "end": 241.73
+  },
+  {
+    "text": "difference",
+    "start": 241.73,
+    "end": 242.05
+  },
+  {
+    "text": "of",
+    "start": 242.05,
+    "end": 242.21
+  },
+  {
+    "text": "1.5",
+    "start": 242.21,
+    "end": 242.93
+  },
+  {
+    "text": "degrees.",
+    "start": 243.09,
+    "end": 243.89
+  },
+  {
+    "text": "In",
+    "start": 244.1,
+    "end": 244.34
+  },
+  {
+    "text": "practice,",
+    "start": 244.34,
+    "end": 244.82
+  },
+  {
+    "text": "adding",
+    "start": 244.82,
+    "end": 245.22
+  },
+  {
+    "text": "milk",
+    "start": 245.22,
+    "end": 245.54
+  },
+  {
+    "text": "changes",
+    "start": 245.54,
+    "end": 245.94
+  },
+  {
+    "text": "the",
+    "start": 245.94,
+    "end": 246.02
+  },
+  {
+    "text": "amount",
+    "start": 246.02,
+    "end": 246.34
+  },
+  {
+    "text": "and",
+    "start": 246.34,
+    "end": 246.58
+  },
+  {
+    "text": "makeup",
+    "start": 246.58,
+    "end": 246.98
+  },
+  {
+    "text": "of",
+    "start": 246.98,
+    "end": 247.06
+  },
+  {
+    "text": "the",
+    "start": 247.06,
+    "end": 247.14
+  },
+  {
+    "text": "liquid,",
+    "start": 247.14,
+    "end": 247.78
+  },
+  {
+    "text": "so",
+    "start": 247.78,
+    "end": 248.02
+  },
+  {
+    "text": "the",
+    "start": 248.02,
+    "end": 248.1
+  },
+  {
+    "text": "two",
+    "start": 248.1,
+    "end": 248.34
+  },
+  {
+    "text": "cups",
+    "start": 248.34,
+    "end": 248.66
+  },
+  {
+    "text": "can",
+    "start": 248.66,
+    "end": 248.82
+  },
+  {
+    "text": "cool",
+    "start": 248.82,
+    "end": 249.14
+  },
+  {
+    "text": "at",
+    "start": 249.14,
+    "end": 249.3
+  },
+  {
+    "text": "different",
+    "start": 249.3,
+    "end": 249.62
+  },
+  {
+    "text": "rates.",
+    "start": 249.62,
+    "end": 250.26
+  },
+  {
+    "text": "And",
+    "start": 250.26,
+    "end": 250.5
+  },
+  {
+    "text": "with",
+    "start": 250.5,
+    "end": 250.66
+  },
+  {
+    "text": "the",
+    "start": 250.66,
+    "end": 250.82
+  },
+  {
+    "text": "shared",
+    "start": 250.82,
+    "end": 251.22
+  },
+  {
+    "text": "half-life,",
+    "start": 251.22,
+    "end": 251.94
+  },
+  {
+    "text": "if",
+    "start": 251.94,
+    "end": 252.1
+  },
+  {
+    "text": "the",
+    "start": 252.1,
+    "end": 252.18
+  },
+  {
+    "text": "milk",
+    "start": 252.18,
+    "end": 252.5
+  },
+  {
+    "text": "started",
+    "start": 252.5,
+    "end": 252.82
+  },
+  {
+    "text": "at",
+    "start": 252.82,
+    "end": 252.98
+  },
+  {
+    "text": "room",
+    "start": 252.98,
+    "end": 253.3
+  },
+  {
+    "text": "temperature,",
+    "start": 253.3,
+    "end": 253.86
+  },
+  {
+    "text": "both",
+    "start": 253.86,
+    "end": 254.1
+  },
+  {
+    "text": "cups",
+    "start": 254.1,
+    "end": 254.5
+  },
+  {
+    "text": "would",
+    "start": 254.5,
+    "end": 254.66
+  },
+  {
+    "text": "end",
+    "start": 254.66,
+    "end": 254.9
+  },
+  {
+    "text": "at",
+    "start": 254.9,
+    "end": 255.06
+  },
+  {
+    "text": "46",
+    "start": 255.06,
+    "end": 255.46
+  },
+  {
+    "text": "degrees.",
+    "start": 255.62,
+    "end": 256.26
+  },
+  {
+    "text": "Timing",
+    "start": 256.26,
+    "end": 256.74
+  },
+  {
+    "text": "wouldn't",
+    "start": 256.74,
+    "end": 257.06
+  },
+  {
+    "text": "matter.",
+    "start": 257.06,
+    "end": 258.1
+  },
+  {
+    "text": "The",
+    "start": 258.1,
+    "end": 258.34
+  },
+  {
+    "text": "same",
+    "start": 258.34,
+    "end": 258.66
+  },
+  {
+    "text": "simple",
+    "start": 258.66,
+    "end": 259.06
+  },
+  {
+    "text": "model",
+    "start": 259.06,
+    "end": 259.38
+  },
+  {
+    "text": "shows",
+    "start": 259.38,
+    "end": 259.62
+  },
+  {
+    "text": "up",
+    "start": 259.62,
+    "end": 259.78
+  },
+  {
+    "text": "in",
+    "start": 259.78,
+    "end": 259.86
+  },
+  {
+    "text": "engineering.",
+    "start": 259.86,
+    "end": 260.66
+  },
+  {
+    "text": "A",
+    "start": 260.66,
+    "end": 260.82
+  },
+  {
+    "text": "computer",
+    "start": 260.82,
+    "end": 261.22
+  },
+  {
+    "text": "chip",
+    "start": 261.22,
+    "end": 261.54
+  },
+  {
+    "text": "cooling",
+    "start": 261.54,
+    "end": 261.94
+  },
+  {
+    "text": "after",
+    "start": 261.94,
+    "end": 262.1
+  },
+  {
+    "text": "it",
+    "start": 262.1,
+    "end": 262.26
+  },
+  {
+    "text": "shuts",
+    "start": 262.26,
+    "end": 262.5
+  },
+  {
+    "text": "down",
+    "start": 262.5,
+    "end": 262.66
+  },
+  {
+    "text": "behaves",
+    "start": 262.74,
+    "end": 263.22
+  },
+  {
+    "text": "roughly",
+    "start": 263.22,
+    "end": 263.54
+  },
+  {
+    "text": "this",
+    "start": 263.54,
+    "end": 263.7
+  },
+  {
+    "text": "way",
+    "start": 263.7,
+    "end": 263.86
+  },
+  {
+    "text": "over",
+    "start": 263.94,
+    "end": 264.18
+  },
+  {
+    "text": "a",
+    "start": 264.18,
+    "end": 264.34
+  },
+  {
+    "text": "useful",
+    "start": 264.34,
+    "end": 264.74
+  },
+  {
+    "text": "stretch",
+    "start": 264.74,
+    "end": 265.14
+  },
+  {
+    "text": "of",
+    "start": 265.14,
+    "end": 265.3
+  },
+  {
+    "text": "time,",
+    "start": 265.3,
+    "end": 265.7
+  },
+  {
+    "text": "and",
+    "start": 265.7,
+    "end": 265.94
+  },
+  {
+    "text": "a",
+    "start": 265.94,
+    "end": 266.1
+  },
+  {
+    "text": "capacitor",
+    "start": 266.1,
+    "end": 266.66
+  },
+  {
+    "text": "discharging",
+    "start": 266.66,
+    "end": 267.3
+  },
+  {
+    "text": "through",
+    "start": 267.3,
+    "end": 267.54
+  },
+  {
+    "text": "a",
+    "start": 267.54,
+    "end": 267.62
+  },
+  {
+    "text": "fixed",
+    "start": 267.62,
+    "end": 267.94
+  },
+  {
+    "text": "resistor",
+    "start": 267.94,
+    "end": 268.42
+  },
+  {
+    "text": "follows",
+    "start": 268.42,
+    "end": 268.82
+  },
+  {
+    "text": "it",
+    "start": 268.82,
+    "end": 268.98
+  },
+  {
+    "text": "almost",
+    "start": 268.98,
+    "end": 269.3
+  },
+  {
+    "text": "exactly.",
+    "start": 269.3,
+    "end": 270.18
+  },
+  {
+    "text": "Wherever",
+    "start": 270.18,
+    "end": 270.66
+  },
+  {
+    "text": "the",
+    "start": 270.66,
+    "end": 270.82
+  },
+  {
+    "text": "rate",
+    "start": 270.82,
+    "end": 271.06
+  },
+  {
+    "text": "of",
+    "start": 271.06,
+    "end": 271.22
+  },
+  {
+    "text": "change",
+    "start": 271.22,
+    "end": 271.54
+  },
+  {
+    "text": "is",
+    "start": 271.54,
+    "end": 271.78
+  },
+  {
+    "text": "proportional",
+    "start": 271.78,
+    "end": 272.34
+  },
+  {
+    "text": "to",
+    "start": 272.34,
+    "end": 272.5
+  },
+  {
+    "text": "the",
+    "start": 272.5,
+    "end": 272.58
+  },
+  {
+    "text": "remaining",
+    "start": 272.58,
+    "end": 273.06
+  },
+  {
+    "text": "gap,",
+    "start": 273.06,
+    "end": 273.54
+  },
+  {
+    "text": "with",
+    "start": 273.54,
+    "end": 273.78
+  },
+  {
+    "text": "a",
+    "start": 273.78,
+    "end": 273.86
+  },
+  {
+    "text": "constant",
+    "start": 273.86,
+    "end": 274.26
+  },
+  {
+    "text": "of",
+    "start": 274.26,
+    "end": 274.42
+  },
+  {
+    "text": "proportionality,",
+    "start": 274.42,
+    "end": 275.38
+  },
+  {
+    "text": "you",
+    "start": 275.38,
+    "end": 275.62
+  },
+  {
+    "text": "get",
+    "start": 275.62,
+    "end": 275.78
+  },
+  {
+    "text": "the",
+    "start": 275.78,
+    "end": 275.94
+  },
+  {
+    "text": "same",
+    "start": 275.94,
+    "end": 276.18
+  },
+  {
+    "text": "exponential.",
+    "start": 276.18,
+    "end": 277.54
+  },
+  {
+    "text": "Real",
+    "start": 277.54,
+    "end": 277.94
+  },
+  {
+    "text": "coffee",
+    "start": 277.94,
+    "end": 278.42
+  },
+  {
+    "text": "follows",
+    "start": 278.42,
+    "end": 278.74
+  },
+  {
+    "text": "this",
+    "start": 278.74,
+    "end": 278.9
+  },
+  {
+    "text": "model",
+    "start": 278.9,
+    "end": 279.22
+  },
+  {
+    "text": "only",
+    "start": 279.22,
+    "end": 279.54
+  },
+  {
+    "text": "approximately.",
+    "start": 279.54,
+    "end": 280.5
+  },
+  {
+    "text": "Evaporation",
+    "start": 280.5,
+    "end": 281.22
+  },
+  {
+    "text": "can",
+    "start": 281.22,
+    "end": 281.38
+  },
+  {
+    "text": "add",
+    "start": 281.38,
+    "end": 281.62
+  },
+  {
+    "text": "to",
+    "start": 281.62,
+    "end": 281.7
+  },
+  {
+    "text": "the",
+    "start": 281.7,
+    "end": 281.86
+  },
+  {
+    "text": "cooling",
+    "start": 281.86,
+    "end": 282.18
+  },
+  {
+    "text": "of",
+    "start": 282.18,
+    "end": 282.26
+  },
+  {
+    "text": "an",
+    "start": 282.26,
+    "end": 282.42
+  },
+  {
+    "text": "open",
+    "start": 282.42,
+    "end": 282.66
+  },
+  {
+    "text": "mug,",
+    "start": 282.66,
+    "end": 283.14
+  },
+  {
+    "text": "and",
+    "start": 283.14,
+    "end": 283.38
+  },
+  {
+    "text": "a",
+    "start": 283.38,
+    "end": 283.54
+  },
+  {
+    "text": "lid",
+    "start": 283.54,
+    "end": 283.86
+  },
+  {
+    "text": "generally",
+    "start": 283.94,
+    "end": 284.26
+  },
+  {
+    "text": "slows",
+    "start": 284.26,
+    "end": 284.74
+  },
+  {
+    "text": "cooling,",
+    "start": 284.74,
+    "end": 285.14
+  },
+  {
+    "text": "partly",
+    "start": 285.14,
+    "end": 285.46
+  },
+  {
+    "text": "by",
+    "start": 285.46,
+    "end": 285.62
+  },
+  {
+    "text": "limiting",
+    "start": 285.62,
+    "end": 286.02
+  },
+  {
+    "text": "evaporation.",
+    "start": 286.02,
+    "end": 287.06
+  },
+  {
+    "text": "But",
+    "start": 287.06,
+    "end": 287.38
+  },
+  {
+    "text": "in",
+    "start": 287.38,
+    "end": 287.54
+  },
+  {
+    "text": "this",
+    "start": 287.54,
+    "end": 287.7
+  },
+  {
+    "text": "model,",
+    "start": 287.7,
+    "end": 288.18
+  },
+  {
+    "text": "each",
+    "start": 288.18,
+    "end": 288.42
+  },
+  {
+    "text": "10",
+    "start": 288.42,
+    "end": 288.74
+  },
+  {
+    "text": "minute",
+    "start": 288.74,
+    "end": 289.06
+  },
+  {
+    "text": "stretch",
+    "start": 289.06,
+    "end": 289.46
+  },
+  {
+    "text": "cuts",
+    "start": 289.46,
+    "end": 289.78
+  },
+  {
+    "text": "the",
+    "start": 289.78,
+    "end": 289.86
+  },
+  {
+    "text": "remaining",
+    "start": 289.86,
+    "end": 290.26
+  },
+  {
+    "text": "temperature",
+    "start": 290.26,
+    "end": 290.66
+  },
+  {
+    "text": "gap",
+    "start": 290.66,
+    "end": 290.98
+  },
+  {
+    "text": "in",
+    "start": 290.98,
+    "end": 291.22
+  },
+  {
+    "text": "half,",
+    "start": 291.22,
+    "end": 291.86
+  },
+  {
+    "text": "fast",
+    "start": 291.86,
+    "end": 292.02
+  },
+  {
+    "text": "at",
+    "start": 292.18,
+    "end": 292.34
+  },
+  {
+    "text": "first,",
+    "start": 292.34,
+    "end": 292.74
+  },
+  {
+    "text": "then",
+    "start": 292.74,
+    "end": 293.06
+  },
+  {
+    "text": "slow.",
+    "start": 293.06,
+    "end": 293.78
+  },
+  {
+    "text": "And",
+    "start": 293.78,
+    "end": 294.02
+  },
+  {
+    "text": "in",
+    "start": 294.02,
+    "end": 294.18
+  },
+  {
+    "text": "our",
+    "start": 294.18,
+    "end": 294.34
+  },
+  {
+    "text": "example,",
+    "start": 294.34,
+    "end": 294.9
+  },
+  {
+    "text": "adding",
+    "start": 294.9,
+    "end": 295.3
+  },
+  {
+    "text": "the",
+    "start": 295.3,
+    "end": 295.38
+  },
+  {
+    "text": "cold",
+    "start": 295.38,
+    "end": 295.7
+  },
+  {
+    "text": "milk",
+    "start": 295.7,
+    "end": 296.02
+  },
+  {
+    "text": "first",
+    "start": 296.02,
+    "end": 296.26
+  },
+  {
+    "text": "kept",
+    "start": 296.26,
+    "end": 296.58
+  },
+  {
+    "text": "the",
+    "start": 296.58,
+    "end": 296.66
+  },
+  {
+    "text": "coffee",
+    "start": 296.66,
+    "end": 297.06
+  },
+  {
+    "text": "a",
+    "start": 297.06,
+    "end": 297.14
+  },
+  {
+    "text": "little",
+    "start": 297.14,
+    "end": 297.3
+  },
+  {
+    "text": "warmer",
+    "start": 297.3,
+    "end": 297.7
+  },
+  {
+    "text": "at",
+    "start": 297.7,
+    "end": 297.78
+  },
+  {
+    "text": "the",
+    "start": 297.78,
+    "end": 297.94
+  },
+  {
+    "text": "10",
+    "start": 297.94,
+    "end": 298.18
+  },
+  {
+    "text": "minute",
+    "start": 298.18,
+    "end": 298.5
+  },
+  {
+    "text": "mark.",
+    "start": 298.5,
+    "end": 299.22
+  },
+  {
+    "text": "If",
+    "start": 299.22,
+    "end": 299.38
+  },
+  {
+    "text": "you",
+    "start": 299.38,
+    "end": 299.54
+  },
+  {
+    "text": "like",
+    "start": 299.54,
+    "end": 299.78
+  },
+  {
+    "text": "this",
+    "start": 299.86,
+    "end": 300.02
+  },
+  {
+    "text": "video,",
+    "start": 300.02,
+    "end": 300.34
+  },
+  {
+    "text": "please",
+    "start": 300.34,
+    "end": 300.66
+  },
+  {
+    "text": "give",
+    "start": 300.66,
+    "end": 300.82
+  },
+  {
+    "text": "it",
+    "start": 300.82,
+    "end": 300.98
+  },
+  {
+    "text": "a",
+    "start": 300.98,
+    "end": 301.06
+  },
+  {
+    "text": "like",
+    "start": 301.06,
+    "end": 301.3
+  },
+  {
+    "text": "and",
+    "start": 301.38,
+    "end": 301.62
+  },
+  {
+    "text": "subscribe",
+    "start": 301.62,
+    "end": 302.02
+  },
+  {
+    "text": "for",
+    "start": 302.02,
+    "end": 302.18
+  },
+  {
+    "text": "more",
+    "start": 302.18,
+    "end": 302.42
+  },
+  {
+    "text": "everyday",
+    "start": 302.42,
+    "end": 302.9
+  },
+  {
+    "text": "engineering.",
+    "start": 302.9,
+    "end": 303.46
+  },
+  {
+    "text": "Thanks",
+    "start": 303.55,
+    "end": 303.87
+  },
+  {
+    "text": "for",
+    "start": 303.87,
+    "end": 304.03
+  },
+  {
+    "text": "watching.",
+    "start": 304.03,
+    "end": 304.43
+  }
+]
