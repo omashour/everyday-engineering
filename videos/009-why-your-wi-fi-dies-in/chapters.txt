@@ -1,0 +1,15 @@
+0:00 Why one room is dead
+0:18 Power spreads out
+0:42 The inverse square law
+1:09 The curve
+1:28 In decibels
+1:48 Measuring Wi-Fi in dBm
+2:02 What the numbers mean
+2:28 Distance alone
+2:57 Walls cost decibels
+3:25 Adding it up
+4:01 The signal staircase
+4:45 The fix
+5:11 Other ways around walls
+5:37 Same law, ideal conditions
+5:54 Remember this
