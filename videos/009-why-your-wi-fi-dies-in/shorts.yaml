@@ -1,81 +1,81 @@
 shorts:
-  - title: "Twice as far from your router = a quarter of the signal #shorts"
-    hook: "Twice as far, ¼ the Wi-Fi"
+  - title: "Twice as far from your router = a quarter of the power #shorts"
+    hook: "Twice as far, ¼ the power"
     end: "Full video on the channel"
-    description: "Why does Wi-Fi fade so fast near the router? The inverse square law.\n\nFull video: [paste the main video's link]"
+    description: "Why does Wi-Fi fade with distance? In ideal open space, the inverse square law.\n\nFull video: [paste the main video's link]"
     scenes:
       - id: A1
         component: photo-overlay
         say: >-
-          Move twice as far from your router, and in open space you get a quarter of the
-          signal. Here's why.
+          Move twice as far from your Wi-Fi router, and in ideal open space, the power you
+          receive drops to a quarter. Here's why.
         params:
           src: wifi-room.jpg
           credit: "Image: AI-generated"
-          title: "2× distance → ¼ signal"
+          title: "2× distance → ¼ power"
           overlays:
-            - {type: measure, from: [18, 78], to: [80, 78], label: "¼ the signal", cue: "a quarter"}
+            - {type: measure, from: [18, 78], to: [80, 78], label: "¼ the power", cue: "a quarter"}
       - id: A2
         component: equation-steps
         say: >-
-          Your router's power spreads over a sphere. Its area is four pi r squared. Double the
-          distance, and the same power covers four times the area. So each spot gets a quarter.
-          In decibels, that's minus six for every doubling.
+          Radio waves spread outward. A sphere's area is four pi r squared. Double the distance,
+          and the same power covers four times the area. That's a six decibel drop for every
+          doubling.
         params:
           size: l
           lines:
             - {tex: "A = 4\\pi r^2", cue: "four pi r squared"}
             - {tex: "(2r)^2 = 4r^2", cue: "four times the area"}
-            - {tex: "\\tfrac{1}{4} \\approx -6\\ \\text{dB}", box: true, cue: "minus six"}
+            - {tex: "\\tfrac{1}{4} \\approx -6\\ \\text{dB}", box: true, cue: "six decibel drop"}
       - id: A3
         component: graph
         say: >-
-          Plot it, and the signal drops steeply. At two meters, twenty five percent. Then the
-          curve flattens out. The full video shows what really kills Wi-Fi in one room.
+          At two meters, you receive twenty five percent of what you got at one meter. And inside
+          a home, walls can make it much worse. The full video shows why.
         params:
           x_range: [0, 10]
           y_range: [0, 110]
           x_label: "distance (m)"
-          y_label: "signal (%)"
+          y_label: "power (% of 1 m)"
           functions:
-            - {expr: "100/x^2", from: 1, to: 10, color: blue, cue: "Plot it"}
+            - {expr: "100/x^2", from: 1, to: 10, color: blue, cue: "At two meters"}
           points:
             - {x: 2, y: 25, label: "25%", cue: "twenty five percent"}
   - title: "Your walls are eating your Wi-Fi #shorts"
     hook: "Your walls eat Wi-Fi"
     end: "Full video on the channel"
-    description: "Distance isn't the only thing killing your Wi-Fi. Each wall takes a chunk of decibels.\n\nFull video: [paste the main video's link]"
+    description: "Distance isn't the only thing weakening your Wi-Fi. A simplified estimate shows how walls add up.\n\nFull video: [paste the main video's link]"
     scenes:
       - id: B1
         component: photo-overlay
         say: >-
-          Ten meters from your router, your phone should be fine. So why is that bedroom dead?
-          The walls.
+          Your Wi-Fi works near the router, but barely reaches the bedroom. Why? Let's estimate it.
         params:
           src: wifi-room.jpg
           credit: "Image: AI-generated"
-          title: "10 m away, almost dead"
+          title: "10 m away, barely working"
           overlays:
-            - {type: measure, from: [18, 78], to: [80, 78], label: "10 m", cue: "Ten meters"}
-            - {type: callout, pos: [80, 40], text: "the walls", side: right, cue: "The walls"}
+            - {type: measure, from: [18, 78], to: [80, 78], label: "10 m", cue: "barely reaches"}
+            - {type: callout, pos: [80, 40], text: "the walls?", side: right, cue: "estimate it"}
       - id: B2
         component: equation-steps
         say: >-
-          With minus thirty dBm at one meter, ten meters of open space costs twenty decibels.
-          Minus fifty. Excellent. But two drywall walls take about four each, and a concrete
-          wall about twelve. That's another twenty. Minus seventy.
+          Start at minus thirty dBm, one meter from the router. Ten meters of open space costs
+          twenty decibels. Minus fifty. Two drywall walls, four decibels each. Minus fifty eight.
+          And a thick concrete wall, twenty two in this example. Minus eighty.
         params:
           size: l
           lines:
-            - {tex: "-30 - 20 = -50\\ \\text{dBm}", cue: "costs twenty decibels"}
-            - {tex: "-50 - 4 - 4 - 12", cue: "two drywall walls"}
-            - {tex: "= -70\\ \\text{dBm}", box: true, cue: "Minus seventy"}
+            - {tex: "-30 - 20 = -50", cue: "costs twenty decibels"}
+            - {tex: "-50 - 4 - 4 = -58", cue: "Two drywall walls"}
+            - {tex: "-58 - 22 = -80\\ \\text{dBm}", box: true, cue: "thick concrete wall"}
       - id: B3
         component: big-fact
         say: >-
-          The walls cost as much as the distance. Move the router so the signal crosses fewer
-          walls. The full video shows the math.
+          That's weak enough to make the connection unreliable. Try moving the router so the
+          signal crosses fewer walls. The full video explains the math.
         params:
-          value: "walls = distance"
-          label: "−20 dB each"
-          cue: "cost as much"
+          value: "−80 dBm"
+          label: "weak enough to be unreliable"
+          sub: "simplified estimate"
+          cue: "weak enough"

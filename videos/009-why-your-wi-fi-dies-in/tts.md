@@ -6,7 +6,7 @@ Generated from scenes.yaml.
 - **Model:** gemini-3.8-flash-tts
 - **Voice:** Cruz
 - **Language:** English
-- **Chunks:** 4 (about 280 words max each, split at scene boundaries)
+- **Chunks:** 5 (about 280 words max each, split at scene boundaries)
 - **Shorts:** 2 separate recordings (short-1.wav …)
 
 ## How to record
@@ -34,77 +34,82 @@ A clear, warm, confident engineering teacher talking to one curious student. Ene
 | dBm | dee-bee-EM |
 
 ## Chunk 1 → save as `audio/narration-01.wav`
-Scenes S01–S05 · 264 words · about 1:46
+Scenes S01–S05 · 269 words · about 1:48
 
 ```text
-Wi-Fi is perfect next to the router and almost dead in one room. In open space, move twice as far away and you get a quarter of the signal. But that's only half the story. The rest is in your walls.
+Wi-Fi is perfect next to the router and almost dead in one room. In ideal open space, move twice as far and you receive a quarter of the power. But that's only half the story. The rest is in your walls.
 
 Let's follow your signal from the router to that room, with one law of physics and a little algebra.
 
-Think of your router as a tiny light bulb for radio waves. In open space, it spreads its power outward. One meter away, that power is spread over a sphere with a radius of one meter. Two meters away, the same power covers a sphere twice as wide. The surface area of a sphere is four pi r squared. Double r, and the area grows by two squared, four times. Same power, four times the area. So every square meter gets a quarter as much.
+Think of your router as a tiny light bulb for radio waves. In ideal open space, its power spreads outward. One meter away, it covers a sphere one meter in radius. Two meters away, the same power covers a sphere twice as wide. A sphere's area is four pi r squared. Double r, and the area grows by two squared, four times. So every square meter gets a quarter as much.
 
-As an equation, the power landing on each square meter, at distance r, is the power P divided by four pi r squared. That's the inverse square law. Now compare two distances. At twice the distance, the four pi and the P cancel, and you're left with one over two squared. One quarter. Three times as far, one ninth. Ten times as far, one hundredth.
+As an equation, the power passing through each square meter, at distance r, is the power P divided by four pi r squared. That's the inverse square law. Your phone's antenna catches a share of that, so if the antennas and frequency stay the same, the power your phone receives follows the same rule. At twice the distance, you're left with one over two squared. One quarter. Three times as far, one ninth. Ten times as far, one hundredth.
 
-Here's what that looks like. Start at one meter, and call that signal one hundred percent. At two meters, you're down to twenty five percent. At four meters, about six percent. The curve drops steeply at first, then flattens out. Most of the loss happens in the first few meters from the router.
+Here's what that looks like. Start at one meter, and call the power there one hundred percent. At two meters, you're down to twenty five percent. At four meters, about six percent. The curve looks like it flattens out, but it never really slows down. Every doubling of distance takes away another three quarters of whatever was left.
 ```
 
 ## Chunk 2 → save as `audio/narration-02.wav`
-Scenes S06–S09 · 256 words · about 1:42
+Scenes S06–S09 · 253 words · about 1:41
 
 ```text
-Engineers rarely use percentages for this. They use decibels, because signals cover such a huge range. A change in decibels is ten times the log of the power ratio. A quarter of the power is ten log of one quarter, about minus six decibels. One hundredth of the power is minus twenty. So in decibels, every doubling of distance costs about six decibels, and every ten times the distance costs twenty.
+Engineers usually use decibels for this, because signals cover such a huge range. A change in decibels is ten times the log of the power ratio. A quarter of the power is about minus six decibels. One hundredth is minus twenty. So every doubling of distance costs about six decibels, and every ten times the distance costs twenty.
 
-Your phone measures Wi-Fi in dBm, decibels compared to one milliwatt. Zero dBm is one milliwatt. Minus thirty is a thousandth of a milliwatt. Minus seventy, a signal you can still browse on, is one ten-billionth of a watt. Your phone pulls web pages out of that.
+Your phone measures Wi-Fi in dBm, decibels compared to one milliwatt. Minus thirty dBm is a thousandth of a milliwatt. Minus seventy is one ten-billionth of a watt, and a phone can often still browse on that.
 
-Here's a rough guide that Wi-Fi engineers use. Around minus thirty, you're right next to the router. Down to minus fifty is excellent. Minus sixty seven is about the minimum for video calls and streaming. Minus seventy is fine for light browsing and email. By minus eighty, the connection becomes unreliable. And at minus ninety, you'll struggle to connect at all.
+Here's a rough guide. Around minus thirty dBm is an extremely strong signal, right next to the router. Minus fifty is excellent. Around minus sixty seven is a common design target for demanding uses like voice calls. Minus seventy can still support everyday internet use. Around minus eighty, connections may become unreliable. And near minus ninety, staying connected can be difficult. These aren't hard cutoffs. Interference and crowded networks matter too.
 
-Now let's test distance alone. Say your phone reads minus thirty at one meter. Each doubling costs six decibels. Two meters, minus thirty six. Eight meters, minus forty eight. Thirty two meters, minus sixty. On a decibel scale, the steep curve becomes a straight line. And look where it ends. Even thirty two meters away, in open space, you'd still have a good signal. With these numbers, distance alone doesn't explain a dead room.
+Now let's test distance alone, in ideal open space. Say your phone reads minus thirty at one meter. Every time we double the distance, we lose another six decibels. Two meters, minus thirty six. Eight meters, minus forty eight. Thirty two meters, minus sixty. Because we're counting distance in doublings, which is a logarithmic scale, the points fall on a straight line. Even thirty two meters away, the model still gives a reasonably strong signal. With these numbers, distance alone doesn't explain a weak room.
 ```
 
 ## Chunk 3 → save as `audio/narration-03.wav`
-Scenes S10–S13 · 249 words · about 1:40
+Scenes S10–S12 · 245 words · about 1:38
 
 ```text
-So what's really happening in that one room? Usually, it's what the signal has to pass through. Every wall takes away a chunk of decibels, no matter how far you are. Typical values at two point four gigahertz: about four decibels for a drywall wall, about eight for brick, and ten to fifteen for concrete. Metal, like a steel door, can take even more.
+So what's happening in that one room? Usually, it's what the signal has to pass through. Every wall adds its own loss, measured in decibels. At two point four gigahertz, a drywall partition might cost a few decibels. Brick can cost several more. Thick or reinforced concrete can cost much more than that. And metal, like a steel door, can block the signal especially strongly. The exact amount depends on the material, the thickness and how the wall is built.
 
-Now the dead room. It's ten meters from the router, and the signal crosses two drywall walls and one concrete wall, say twelve decibels. Distance first. Ten meters is ten times one meter, so we lose twenty decibels. Minus thirty becomes minus fifty. Now the walls. Four, four and twelve. That's twenty more. Minus fifty becomes minus seventy. The walls cost as much as the distance did.
+Now let's build a simplified example. The bedroom is ten meters from the router. The signal crosses two drywall walls, which we'll call four decibels each, and one thick concrete wall, which we'll call twenty two. That's a tough wall, chosen for this example. Distance first. Ten times the distance costs twenty decibels, so minus thirty becomes minus fifty. Then the drywall: minus fifty four, minus fifty eight. Then the concrete: minus eighty. That's weak enough to make the connection unreliable. In a real house, reflections make the signal jump around, but adding the losses gives a useful first estimate.
 
-Here's the same path on a graph. The dashed curve is open space. It only drops to minus fifty at ten meters. The solid line follows your real signal. Every time it hits a wall, it steps straight down. Drywall at three meters, drywall at six, and concrete at eight. By the bedroom, you're at minus seventy, below what video calls need.
-
-So what can you do? Move the router toward the middle of the home, and away from that concrete wall. Now the bedroom is five meters away, through one drywall wall. Five meters costs about fourteen decibels. Minus thirty becomes minus forty four. One wall takes four more. Minus forty eight. That's excellent, without buying anything.
+Here's the same path on a graph. The dashed curve is ideal open space. It only drops to minus fifty at ten meters. The solid line is our example. Every time it hits a wall, it steps straight down. Drywall at three meters, drywall at six, and thick concrete at eight. By the bedroom, our estimate is minus eighty, around where connections can get unreliable.
 ```
 
 ## Chunk 4 → save as `audio/narration-04.wav`
-Scenes S14–S17 · 208 words · about 1:23
+Scenes S13–S15 · 203 words · about 1:21
 
 ```text
-If moving the router isn't possible, the goal is the same: fewer walls between the router and you. Keep it up off the floor and out in the open. Keep it away from big metal objects. And in a large home, or one with concrete walls, a second access point or a mesh system puts a transmitter on the other side of the wall.
+Now move the router toward the middle of the home, so the signal skips the concrete. In our example, the bedroom is now five meters away, through one drywall wall. Five meters costs about fourteen decibels, so minus forty four. One wall takes four more: minus forty eight. That's thirty two decibels better than before, in our simplified model. Real results vary, but fewer obstacles can make a big difference.
 
-The inverse square law isn't just about Wi-Fi. A lamp, a loudspeaker in an open field, a cell tower: anything that spreads out from a small source follows it. Twice the distance, a quarter of the power, minus six decibels. Ten times the distance, one hundredth, minus twenty. That's why engineers who design lighting, sound systems and antennas all start with the same equation.
+If you can't move the router, bring the Wi-Fi closer to the room. A second access point wired back to the router works especially well. A mesh system can help too, but its units need a good link to each other, so don't put one where the signal is already almost gone. Keep the router high, in the open, away from big metal objects. And two point four gigahertz usually gets through walls better, while five and six gigahertz can be faster up close.
 
-So why does your Wi-Fi die in one room? In open space, signal follows the inverse square law. Double the distance, a quarter of the power, minus six decibels. But inside a home, walls often cost as much as distance, or more. Count the walls, not just the meters. And the cheapest fix is often just moving the router.
+The same idea shows up elsewhere. Light from a small lamp and sound from a speaker in an open field behave this way under ideal conditions. Double the distance, a quarter of the power per square meter, minus six decibels. Ten times the distance, one hundredth, minus twenty.
+```
+
+## Chunk 5 → save as `audio/narration-05.wav`
+Scenes S16–S17 · 108 words · about 0:43
+
+```text
+So why does your Wi-Fi die in one room? In ideal open space, power follows the inverse square law: double the distance, a quarter of the power, minus six decibels. But inside a home, walls can cost as much as distance, or much more. Count the walls, not just the meters. Want to test it? A Wi-Fi analyzer app shows your signal in dBm. Check it near the router, then in the problem room. It measures strength, not speed, but it shows you where the decibels go.
 
 If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
 ```
 
-## Short 1 (Twice as far from your router = a quarter of the signal #shorts) → save as `audio/short-1.wav`
-Its own recording · 90 words · about 0:36. Same voice and style, with a little more energy.
+## Short 1 (Twice as far from your router = a quarter of the power #shorts) → save as `audio/short-1.wav`
+Its own recording · 86 words · about 0:34. Same voice and style, with a little more energy.
 
 ```text
-Move twice as far from your router, and in open space you get a quarter of the signal. Here's why.
+Move twice as far from your Wi-Fi router, and in ideal open space, the power you receive drops to a quarter. Here's why.
 
-Your router's power spreads over a sphere. Its area is four pi r squared. Double the distance, and the same power covers four times the area. So each spot gets a quarter. In decibels, that's minus six for every doubling.
+Radio waves spread outward. A sphere's area is four pi r squared. Double the distance, and the same power covers four times the area. That's a six decibel drop for every doubling.
 
-Plot it, and the signal drops steeply. At two meters, twenty five percent. Then the curve flattens out. The full video shows what really kills Wi-Fi in one room.
+At two meters, you receive twenty five percent of what you got at one meter. And inside a home, walls can make it much worse. The full video shows why.
 ```
 
 ## Short 2 (Your walls are eating your Wi-Fi #shorts) → save as `audio/short-2.wav`
-Its own recording · 78 words · about 0:31. Same voice and style, with a little more energy.
+Its own recording · 81 words · about 0:32. Same voice and style, with a little more energy.
 
 ```text
-Ten meters from your router, your phone should be fine. So why is that bedroom dead? The walls.
+Your Wi-Fi works near the router, but barely reaches the bedroom. Why? Let's estimate it.
 
-With minus thirty dBm at one meter, ten meters of open space costs twenty decibels. Minus fifty. Excellent. But two drywall walls take about four each, and a concrete wall about twelve. That's another twenty. Minus seventy.
+Start at minus thirty dBm, one meter from the router. Ten meters of open space costs twenty decibels. Minus fifty. Two drywall walls, four decibels each. Minus fifty eight. And a thick concrete wall, twenty two in this example. Minus eighty.
 
-The walls cost as much as the distance. Move the router so the signal crosses fewer walls. The full video shows the math.
+That's weak enough to make the connection unreliable. Try moving the router so the signal crosses fewer walls. The full video explains the math.
 ```

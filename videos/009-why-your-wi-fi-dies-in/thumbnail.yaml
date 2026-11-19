@@ -1,8 +1,8 @@
 variants:
   - template: equation
-    text: "2× FARTHER = ¼ SIGNAL"
+    text: "2× FARTHER = ¼ POWER"
     highlight: ["¼"]
-    tex: "S \\propto \\frac{1}{r^2}"
+    tex: "P \\propto \\frac{1}{r^2}"
     note: "+ the walls!"
   - template: photo
     image: wifi-room.jpg
