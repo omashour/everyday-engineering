@@ -1,5 +1,76 @@
 shorts:
-  - title: ""
-    hook: ""
-    scenes: []
+  - title: "Why your coffee cools fast, then slow #shorts"
+    hook: "Coffee cools fast, then slow"
     end: "Full video on the channel"
+    description: "Coffee cools fastest while it's hottest. The gap to room temperature shrinks exponentially.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: A1
+        component: photo-overlay
+        say: >-
+          Your coffee doesn't cool at a steady speed. Its cooling speed depends on the gap to room
+          temperature.
+        params:
+          src: mug-coffee.jpg
+          credit: "Image: AI-generated"
+          title: "Speed depends on the gap"
+          overlays:
+            - {type: label, pos: [22, 30], text: "gap to the room", cue: "gap to room"}
+      - id: A2
+        component: table
+        say: >-
+          Start at eighty five degrees in a twenty degree room: a gap of sixty five. If the gap
+          halves every ten minutes, the coffee is at fifty two and a half after ten minutes, about
+          thirty six after twenty, and about twenty eight after thirty.
+        params:
+          headers: ["Time", "Coffee"]
+          rows:
+            - ["0 min", "85 °C"]
+            - ["10 min", "52.5 °C"]
+            - ["20 min", "≈ 36 °C"]
+            - ["30 min", "≈ 28 °C"]
+          row_cues: ["Start at eighty five", "fifty two and a half", "thirty six", "twenty eight"]
+      - id: A3
+        component: big-fact
+        say: >-
+          That's thirty two and a half degrees lost in the first ten minutes, and only about eight
+          in the third ten. The full video shows the math.
+        params:
+          value: "32.5 °C → 8 °C"
+          label: "lost per 10 minutes, first vs. third"
+          cue: "thirty two and a half"
+  - title: "Milk now or later? Newton's law has an answer #shorts"
+    hook: "Milk now or later?"
+    end: "Full video on the channel"
+    description: "Want hotter coffee in ten minutes? Add the cold milk now. Here's why.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: B1
+        component: photo-overlay
+        say: >-
+          Want hotter coffee in ten minutes? Add the cold milk now, not later. Newton's law of
+          cooling explains why.
+        params:
+          src: mug-milk.jpg
+          credit: "Image: AI-generated"
+          title: "Milk now or later?"
+          overlays:
+            - {type: callout, pos: [78, 45], text: "cold milk: now", side: right, cue: "cold milk now"}
+      - id: B2
+        component: bullets
+        say: >-
+          Coffee loses heat faster the bigger its gap to the room. Adding cold milk now shrinks the
+          gap right away, so it cools more slowly. Wait, and the hot black coffee cools faster.
+          Then the cold milk knocks it down anyway.
+        params:
+          items:
+            - {text: "Cooling speed ∝ gap", icon: math-function, cue: "loses heat faster"}
+            - {text: "Milk now: smaller gap, slower loss", icon: arrow-down, cue: "shrinks the gap"}
+            - {text: "Milk later: fast loss, then a drop", icon: alert-triangle, cue: "Wait, and"}
+      - id: B3
+        component: big-fact
+        say: >-
+          In our example, that's about one and a half degrees warmer. Small, but real. The full
+          video does the math.
+        params:
+          value: "≈ 1.5 °C warmer"
+          label: "milk now vs. later (our example)"
+          cue: "one and a half"

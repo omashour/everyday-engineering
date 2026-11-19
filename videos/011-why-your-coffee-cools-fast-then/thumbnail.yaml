@@ -1,9 +1,10 @@
 variants:
   - template: equation
-    text: ""
-    highlight: []
-    tex: ""
+    text: "FAST, THEN SLOW"
+    highlight: ["SLOW"]
+    tex: "T = T_{room} + \\Delta T_0\\, e^{-kt}"
+    note: "the gap halves"
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: mug-milk.jpg
+    text: "Milk Now or Later?"
+    highlight: ["Now"]

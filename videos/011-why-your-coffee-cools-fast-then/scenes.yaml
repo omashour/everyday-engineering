@@ -1,25 +1,260 @@
-# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 011`.
 video:
   id: "011"
   topic: T09
   title: "Why Your Coffee Cools Fast, Then Slow"
-  style: ""            # e.g. "B hook + A body"
+  style: "B hook + C body"
   playlist: math-for-engineers
+  phase: math
+  series: null
   voice_note: ""
   pronounce: {}
 
 scenes:
   - id: S01
-    component: title-card
-    chapter: "Intro"
+    component: photo-overlay
+    chapter: "Fast, then slow"
     say: >-
-      Replace me with the hook.
+      Your coffee doesn't cool at a steady speed. It loses heat fastest while it's hottest, then
+      slower and slower. That one fact tells you when it's drinkable, and whether to add the milk
+      now or later.
     params:
-      title: "Why Your Coffee Cools Fast, Then Slow"
+      src: mug-coffee.jpg
+      credit: "Image: AI-generated"
+      title: "Why does coffee cool fast, then slow?"
+      overlays:
+        - {type: callout, pos: [78, 30], text: "fast at first", side: right, cue: "fastest while"}
+        - {type: callout, pos: [78, 55], text: "then slower", side: right, cue: "slower and slower"}
+        - {type: label, pos: [22, 30], text: "milk: now or later?", cue: "milk now"}
 
-  - id: S99
-    component: end-card
+  - id: S02
+    component: title-card
+    say: Let's work it out with one law of cooling and a little exponential math.
+    params: {kicker: "Everyday Engineering · Exponentials", title: "Why Your Coffee Cools Fast, Then Slow"}
+
+  - id: S03
+    component: photo-overlay
+    chapter: "The gap that matters"
     say: >-
-      See you in the next one.
+      Here's our setup. Fresh coffee at eighty five degrees Celsius, in a room at twenty degrees.
+      What matters isn't the temperature itself. It's the gap between the coffee and the room.
+      Right now, that gap is sixty five degrees.
     params:
-      line: ""
+      src: mug-coffee.jpg
+      credit: "Image: AI-generated"
+      title: "Our example"
+      overlays:
+        - {type: label, pos: [22, 30], text: "coffee: 85 °C", cue: "eighty five degrees"}
+        - {type: label, pos: [22, 45], text: "room: 20 °C", cue: "room at twenty"}
+        - {type: tex, pos: [22, 62], tex: "\\text{gap} = 85 - 20 = 65\\ °\\text{C}", cue: "sixty five degrees"}
+
+  - id: S04
+    component: equation-steps
+    chapter: "Newton's law of cooling"
+    say: >-
+      Newton's law of cooling says the coffee loses heat at a rate proportional to that gap. Twice
+      the gap, twice the cooling speed. In symbols, the rate of change of temperature is minus k
+      times T minus the room temperature. The constant k depends on the mug, the lid, how much
+      coffee there is, and the air around it.
+    params:
+      heading: "Newton's law of cooling"
+      lines:
+        - {text: "2× gap → 2× cooling speed", cue: "Twice the gap"}
+        - {tex: "\\dfrac{dT}{dt} = -k\\,(T - T_{room})", mark: true, cue: "In symbols"}
+        - {text: "$k$: mug, lid, volume, air", cue: "depends on the mug"}
+
+  - id: S05
+    component: equation-steps
+    chapter: "An exponential"
+    say: >-
+      The solution is an exponential. The gap shrinks by the same fraction in every equal stretch
+      of time. T equals room temperature, plus the starting gap times e to the minus k t. For our
+      mug, let's assume k is about point zero seven per minute. That means the gap halves about
+      every ten minutes. So e to the minus k t is the same as one half, to the power t over ten.
+    params:
+      heading: "The gap decays exponentially"
+      lines:
+        - {tex: "T(t) = T_{room} + (T_0 - T_{room})\\,e^{-kt}", cue: "T equals room"}
+        - {tex: "k \\approx 0.07\\ \\text{min}^{-1}", note: "assumed", cue: "point zero seven"}
+        - {tex: "t_{1/2} = \\dfrac{\\ln 2}{k} \\approx 10\\ \\text{min}", box: true, cue: "halves about every"}
+        - {tex: "e^{-kt} = \\left(\\tfrac{1}{2}\\right)^{t/10}", cue: "the same as one half"}
+
+  - id: S06
+    component: table
+    chapter: "Watch the gap"
+    say: >-
+      Watch the gap. It starts at sixty five degrees. After ten minutes, it's thirty two and a
+      half. After twenty, about sixteen. After thirty, about eight. So the coffee goes from eighty
+      five, to fifty two and a half, to about thirty six, to about twenty eight. It drops thirty
+      two and a half degrees in the first ten minutes, and only about eight in the third ten.
+      Fast, then slow.
+    params:
+      heading: "The gap halves every 10 minutes"
+      headers: ["Time", "Gap to room", "Coffee"]
+      rows:
+        - ["0 min", "65 °C", "85 °C"]
+        - ["10 min", "32.5 °C", "52.5 °C"]
+        - ["20 min", "≈ 16 °C", "≈ 36 °C"]
+        - ["30 min", "≈ 8 °C", "≈ 28 °C"]
+      row_cues: ["starts at sixty five", "After ten minutes", "After twenty", "After thirty"]
+
+  - id: S07
+    component: graph
+    chapter: "The cooling curve"
+    say: >-
+      Here's the whole curve. It falls steeply at first, fifty two and a half at ten minutes, then
+      levels off, twenty eight at thirty minutes, creeping toward the room temperature line. In
+      this model it never quite reaches it. Every ten minutes, the remaining gap is cut in half.
+    params:
+      heading: "Coffee temperature (model)"
+      x_range: [0, 60]
+      y_range: [0, 90]
+      x_label: "time (min)"
+      y_label: "temperature (°C)"
+      functions:
+        - {expr: "20+65*exp(-0.0693*x)", label: "$T(t)$", color: red, cue: "whole curve"}
+      tracer: {expr: "20+65*exp(-0.0693*x)", from: 0, to: 60, cue: "falls steeply", duration: 6}
+      hlines:
+        - {y: 20, cue: "room temperature line"}
+      points:
+        - {x: 10, y: 52.5, label: "10 min: 52.5", cue: "fifty two and a half"}
+        - {x: 30, y: 28.1, label: "30 min: 28", cue: "twenty eight at"}
+      side:
+        - {tex: "T_{room} = 20\\ °\\text{C}", cue: "room temperature line"}
+
+  - id: S08
+    component: equation-steps
+    chapter: "Why it slows down"
+    say: >-
+      Here's why it slows down. The cooling speed is k times the gap. At the start, the gap is
+      sixty five, so the coffee drops about four and a half degrees per minute. Ten minutes later,
+      the gap is half as big, and so is the speed: about two point three degrees per minute. The
+      hotter the coffee, the faster it cools.
+    params:
+      heading: "Cooling speed = k × gap"
+      lines:
+        - {tex: "\\text{speed} = k \\times \\text{gap}", mark: true, cue: "k times the gap"}
+        - {tex: "0.07 \\times 65 \\approx 4.5\\ °\\text{C/min}", cue: "four and a half"}
+        - {tex: "0.07 \\times 32.5 \\approx 2.3\\ °\\text{C/min}", note: "half the gap", note_cue: "half as big", cue: "two point three"}
+
+  - id: S09
+    component: equation-steps
+    chapter: "When is it drinkable?"
+    say: >-
+      So when can you drink it? Say you like coffee at sixty degrees. That's a gap of forty. So we
+      need sixty five times one half, to the power t over ten, to equal forty. Take logs, and t
+      equals ten times log base two of sixty five over forty. About seven minutes.
+    params:
+      heading: "Time to 60 °C"
+      size: l
+      lines:
+        - {tex: "20 + 65\\left(\\tfrac{1}{2}\\right)^{t/10} = 60", cue: "like coffee at sixty"}
+        - {tex: "\\left(\\tfrac{1}{2}\\right)^{t/10} = \\tfrac{40}{65}", cue: "gap of forty"}
+        - {tex: "t = 10\\log_2\\!\\left(\\tfrac{65}{40}\\right) \\approx 7\\ \\text{min}", box: true, cue: "About seven minutes"}
+
+  - id: S10
+    component: photo-overlay
+    chapter: "The milk puzzle"
+    say: >-
+      Now the milk puzzle. You'll drink your coffee in ten minutes, and your milk is cold from the
+      fridge. Do you pour it in now, or just before you drink? Does it even matter? Newton's law
+      says it does.
+    params:
+      src: mug-milk.jpg
+      credit: "Image: AI-generated"
+      title: "Milk now, or in 10 minutes?"
+      overlays:
+        - {type: label, pos: [22, 30], text: "drink in 10 min", cue: "in ten minutes"}
+        - {type: callout, pos: [78, 45], text: "cold milk", side: right, cue: "cold from the fridge"}
+
+  - id: S11
+    component: equation-steps
+    chapter: "Milk now"
+    say: >-
+      First, add the milk now. Assume the milk is a fifth of the drink, at five degrees, and the
+      mix is a simple weighted average. Point eight times eighty five, plus point two times five,
+      gives sixty nine degrees. That's a gap of forty nine. After ten minutes, the gap halves to
+      twenty four and a half. So you drink it at forty four and a half degrees.
+    params:
+      heading: "Milk now"
+      lines:
+        - {tex: "0.8(85) + 0.2(5) = 69\\ °\\text{C}", note: "20% milk, 5 °C", note_cue: "a fifth of the drink", cue: "gives sixty nine"}
+        - {tex: "\\text{gap: } 49 \\to 24.5", cue: "halves to twenty four"}
+        - {tex: "T = 20 + 24.5 = 44.5\\ °\\text{C}", box: true, cue: "forty four and a half"}
+
+  - id: S12
+    component: equation-steps
+    chapter: "Milk later"
+    say: >-
+      Now add it later. The black coffee cools first. Its gap halves from sixty five to thirty two
+      and a half, so it's at fifty two and a half. Then the cold milk goes in. Point eight times
+      fifty two and a half, plus point two times five, gives forty three degrees. Adding the milk
+      now leaves your coffee about one and a half degrees warmer.
+    params:
+      heading: "Milk later"
+      lines:
+        - {tex: "20 + 32.5 = 52.5\\ °\\text{C}", cue: "so it's at"}
+        - {tex: "0.8(52.5) + 0.2(5) = 43\\ °\\text{C}", box: true, cue: "gives forty three"}
+        - {text: "now: **44.5 °C** · later: **43 °C**", circle: true, cue: "one and a half degrees"}
+
+  - id: S13
+    component: graph
+    chapter: "Why milk now wins"
+    say: >-
+      Here's why. Adding the cold milk now shrinks the gap right away, so the coffee loses heat
+      more slowly for the whole ten minutes. Black coffee stays hotter, so it loses heat faster,
+      and then the cold milk knocks it down. The difference is small, about one and a half
+      degrees, but it's real. And in this model, if the milk were at room temperature, the timing
+      wouldn't matter at all.
+    params:
+      heading: "Milk now vs. later (same k assumed)"
+      x_range: [0, 12]
+      y_range: [30, 90]
+      x_label: "time (min)"
+      y_label: "temperature (°C)"
+      functions:
+        - {expr: "20+49*exp(-0.0693*x)", from: 0, to: 10, label: "milk now", color: blue, cue: "shrinks the gap"}
+        - {expr: "20+65*exp(-0.0693*x)", from: 0, to: 10, label: "black, milk later", color: red, dashed: true, cue: "Black coffee stays"}
+      points:
+        - {x: 10, y: 44.5, label: "now: 44.5", cue: "about one and a half"}
+        - {x: 10, y: 43, cue: "knocks it down"}
+      side:
+        - {tex: "\\text{later: } 52.5 \\to 43", cue: "knocks it down"}
+
+  - id: S14
+    component: table
+    chapter: "The same curve everywhere"
+    say: >-
+      The same curve shows up all over engineering. A hot engine or a computer chip cooling after
+      it shuts down. A house losing heat overnight with the heating off, roughly. And a capacitor
+      discharging in an electric circuit. Wherever the rate depends on the remaining gap, you get
+      the same exponential.
+    params:
+      heading: "Same exponential (approximately)"
+      headers: ["System", "The gap that decays"]
+      rows:
+        - ["Coffee in a mug", "coffee − room temperature"]
+        - ["Engine or chip after shutdown", "part − air temperature"]
+        - ["House at night, heat off", "inside − outside (roughly)"]
+        - ["Capacitor in a circuit", "voltage"]
+      row_cues: ["same curve shows", "hot engine", "house losing heat", "capacitor discharging"]
+
+  - id: S15
+    component: bullets
+    chapter: "Remember this"
+    say: >-
+      Real coffee follows Newton's law only approximately. Evaporation adds extra cooling while
+      it's hottest, and a lid slows everything down. But the main idea holds. The cooling speed is
+      proportional to the gap. So the gap shrinks by the same fraction in every equal stretch of
+      time: fast at first, then slow. And for hotter coffee later, add the cold milk now.
+    params:
+      heading: "Remember this"
+      items:
+        - {text: "A model: evaporation and lids matter", icon: alert-triangle, cue: "only approximately"}
+        - {text: "Cooling speed ∝ gap to room", icon: math-function, cue: "proportional to the gap"}
+        - {text: "Same fraction lost per stretch", icon: chart-line, cue: "same fraction"}
+        - {text: "Hotter later? Cold milk now", icon: coffee, cue: "add the cold milk"}
+
+  - id: S16
+    component: end-card
+    say: If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+    params: {line: "Thanks for watching"}
