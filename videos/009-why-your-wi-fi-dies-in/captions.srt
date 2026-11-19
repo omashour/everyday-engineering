@@ -1,0 +1,707 @@
+1
+00:00:00,160 --> 00:00:02,800
+Wi Fi is perfect next to the router and
+
+2
+00:00:02,800 --> 00:00:04,240
+almost dead in one room.
+
+3
+00:00:04,320 --> 00:00:07,040
+In ideal open space, move twice as far and
+
+4
+00:00:07,040 --> 00:00:09,200
+you receive a quarter of the power.
+
+5
+00:00:09,200 --> 00:00:10,960
+But that's only half the story.
+
+6
+00:00:10,960 --> 00:00:13,040
+The rest is in your walls.
+
+7
+00:00:13,040 --> 00:00:14,880
+Let's follow your signal from the router
+
+8
+00:00:14,880 --> 00:00:17,440
+to that room, with one law of physics and
+
+9
+00:00:17,440 --> 00:00:19,040
+a little algebra.
+
+10
+00:00:19,040 --> 00:00:21,360
+Think of your router as a tiny light bulb
+
+11
+00:00:21,360 --> 00:00:22,560
+for radio waves.
+
+12
+00:00:22,560 --> 00:00:25,040
+In ideal open space, its power spreads
+
+13
+00:00:25,040 --> 00:00:27,280
+outward. One meter away, it covers a
+
+14
+00:00:27,280 --> 00:00:29,120
+sphere one meter in radius.
+
+15
+00:00:29,120 --> 00:00:31,440
+Two meters away, the same power covers a
+
+16
+00:00:31,440 --> 00:00:32,960
+sphere twice as wide.
+
+17
+00:00:32,960 --> 00:00:36,080
+A sphere's area is four pi r squared.
+
+18
+00:00:36,080 --> 00:00:38,320
+Double r, and the area grows by two
+
+19
+00:00:38,480 --> 00:00:40,160
+squared, four times.
+
+20
+00:00:40,160 --> 00:00:42,160
+So every square meter gets a quarter as
+
+21
+00:00:42,160 --> 00:00:42,630
+much.
+
+22
+00:00:42,640 --> 00:00:44,960
+As an equation, the power passing through
+
+23
+00:00:44,960 --> 00:00:47,360
+each square meter, at distance r, is the
+
+24
+00:00:47,360 --> 00:00:50,960
+power P divided by four pi r squared.
+
+25
+00:00:50,960 --> 00:00:52,960
+That's the inverse square law.
+
+26
+00:00:52,960 --> 00:00:55,120
+Your phone's antenna catches a share of
+
+27
+00:00:55,120 --> 00:00:57,200
+that, so if the antennas and frequency
+
+28
+00:00:57,200 --> 00:00:58,630
+stay the same, the power your phone
+
+29
+00:00:58,640 --> 00:01:00,880
+receives follows the same rule.
+
+30
+00:01:00,880 --> 00:01:02,720
+At twice the distance, you're left with
+
+31
+00:01:02,720 --> 00:01:03,840
+one over two squared.
+
+32
+00:01:04,190 --> 00:01:06,670
+One quarter. Three times as far, one
+
+33
+00:01:06,830 --> 00:01:10,110
+ninth. Ten times as far, one hundredth.
+
+34
+00:01:10,110 --> 00:01:11,550
+Here's what that looks like.
+
+35
+00:01:11,550 --> 00:01:13,470
+Start at one meter, and call the power
+
+36
+00:01:13,470 --> 00:01:14,910
+there one hundred percent.
+
+37
+00:01:14,910 --> 00:01:17,070
+At two meters, you're down to twenty five
+
+38
+00:01:17,070 --> 00:01:19,390
+percent. At four meters, about six
+
+39
+00:01:19,470 --> 00:01:21,710
+percent. The curve looks like it flattens
+
+40
+00:01:21,710 --> 00:01:23,950
+out, but it never really slows down.
+
+41
+00:01:23,950 --> 00:01:25,870
+Every doubling of distance takes away
+
+42
+00:01:25,870 --> 00:01:27,630
+another three quarters of whatever was
+
+43
+00:01:27,630 --> 00:01:28,330
+left.
+
+44
+00:01:28,510 --> 00:01:30,990
+Engineers usually use decibels for this,
+
+45
+00:01:30,990 --> 00:01:33,230
+because signals cover such a huge range.
+
+46
+00:01:33,230 --> 00:01:35,950
+A change in decibels is ten times the log
+
+47
+00:01:36,030 --> 00:01:37,390
+of the power ratio.
+
+48
+00:01:37,390 --> 00:01:39,550
+A quarter of the power is about minus six
+
+49
+00:01:39,550 --> 00:01:42,510
+decibels. One hundredth is minus twenty.
+
+50
+00:01:42,510 --> 00:01:45,070
+So every doubling of distance costs about
+
+51
+00:01:45,070 --> 00:01:47,230
+six decibels, and every ten times the
+
+52
+00:01:47,230 --> 00:01:49,070
+distance costs twenty.
+
+53
+00:01:49,070 --> 00:01:52,430
+Your phone measures Wi Fi in dBm, decibels
+
+54
+00:01:52,430 --> 00:01:54,030
+compared to one milliwatt.
+
+55
+00:01:54,030 --> 00:01:56,510
+Minus thirty dBm is a thousandth of a
+
+56
+00:01:56,510 --> 00:01:58,910
+milliwatt. Minus seventy is one ten
+
+57
+00:01:59,070 --> 00:02:01,160
+billionth of a watt, and a phone can often
+
+58
+00:02:01,160 --> 00:02:02,600
+still browse on that.
+
+59
+00:02:02,600 --> 00:02:04,200
+Here's a rough guide.
+
+60
+00:02:04,200 --> 00:02:07,080
+Around minus thirty dBm is an extremely
+
+61
+00:02:07,080 --> 00:02:09,240
+strong signal, right next to the router.
+
+62
+00:02:09,240 --> 00:02:10,920
+Minus fifty is excellent.
+
+63
+00:02:10,920 --> 00:02:13,000
+Around minus sixty seven is a common
+
+64
+00:02:13,000 --> 00:02:15,240
+design target for demanding uses like
+
+65
+00:02:15,240 --> 00:02:17,400
+voice calls. Minus seventy can still
+
+66
+00:02:17,400 --> 00:02:19,000
+support everyday internet use.
+
+67
+00:02:19,000 --> 00:02:20,760
+Around minus eighty, connections may
+
+68
+00:02:20,760 --> 00:02:21,880
+become unreliable.
+
+69
+00:02:21,880 --> 00:02:24,040
+And near minus ninety, staying connected
+
+70
+00:02:24,040 --> 00:02:25,000
+can be difficult.
+
+71
+00:02:25,000 --> 00:02:26,520
+These aren't hard cutoffs.
+
+72
+00:02:26,520 --> 00:02:28,360
+Interference and crowded networks matter
+
+73
+00:02:28,440 --> 00:02:29,240
+too.
+
+74
+00:02:29,240 --> 00:02:31,880
+Now let's test distance alone, in ideal
+
+75
+00:02:31,880 --> 00:02:34,360
+open space. Say your phone reads minus
+
+76
+00:02:34,360 --> 00:02:35,800
+thirty at one meter.
+
+77
+00:02:35,800 --> 00:02:37,560
+Every time we double the distance, we lose
+
+78
+00:02:37,560 --> 00:02:39,000
+another six decibels.
+
+79
+00:02:39,000 --> 00:02:41,000
+Two meters, minus thirty six.
+
+80
+00:02:41,000 --> 00:02:42,030
+Eight meters, minus forty eight.
+
+81
+00:02:42,040 --> 00:02:44,920
+Thirty two meters, minus sixty.
+
+82
+00:02:44,920 --> 00:02:46,360
+Because we're counting distance in
+
+83
+00:02:46,360 --> 00:02:48,440
+doublings, which is a logarithmic scale,
+
+84
+00:02:48,440 --> 00:02:50,280
+the points fall on a straight line.
+
+85
+00:02:50,280 --> 00:02:52,280
+Even thirty two meters away, the model
+
+86
+00:02:52,440 --> 00:02:54,440
+still gives a reasonably strong signal.
+
+87
+00:02:54,440 --> 00:02:56,360
+With these numbers, distance alone doesn't
+
+88
+00:02:56,360 --> 00:02:57,800
+explain a weak room.
+
+89
+00:02:58,070 --> 00:03:00,470
+So what's happening in that one room?
+
+90
+00:03:00,470 --> 00:03:02,550
+Usually, it's what the signal has to pass
+
+91
+00:03:02,550 --> 00:03:05,270
+through. Every wall adds its own loss,
+
+92
+00:03:05,270 --> 00:03:06,630
+measured in decibels.
+
+93
+00:03:06,630 --> 00:03:09,110
+At two point four gigahertz, a drywall
+
+94
+00:03:09,110 --> 00:03:11,110
+partition might cost a few decibels.
+
+95
+00:03:11,110 --> 00:03:12,790
+Brick can cost several more.
+
+96
+00:03:12,790 --> 00:03:15,670
+Thick or reinforced concrete can cost much
+
+97
+00:03:15,670 --> 00:03:16,630
+more than that.
+
+98
+00:03:16,630 --> 00:03:19,030
+And metal, like a steel door, can block
+
+99
+00:03:19,030 --> 00:03:20,950
+the signal especially strongly.
+
+100
+00:03:20,950 --> 00:03:23,190
+The exact amount depends on the material,
+
+101
+00:03:23,190 --> 00:03:25,670
+the thickness and how the wall is built.
+
+102
+00:03:25,670 --> 00:03:27,990
+Now let's build a simplified example.
+
+103
+00:03:27,990 --> 00:03:30,310
+The bedroom is ten meters from the router.
+
+104
+00:03:30,310 --> 00:03:32,550
+The signal crosses two drywall walls,
+
+105
+00:03:32,550 --> 00:03:34,710
+which we'll call four decibels each, and
+
+106
+00:03:34,710 --> 00:03:36,660
+one thick concrete wall, which we'll call
+
+107
+00:03:36,670 --> 00:03:39,110
+twenty two. That's a tough wall, chosen
+
+108
+00:03:39,110 --> 00:03:40,310
+for this example.
+
+109
+00:03:40,310 --> 00:03:41,670
+Distance first.
+
+110
+00:03:41,670 --> 00:03:43,510
+Ten times the distance costs twenty
+
+111
+00:03:43,510 --> 00:03:46,150
+decibels, so minus thirty becomes minus
+
+112
+00:03:46,150 --> 00:03:49,191
+fifty. Then the drywall: minus fifty four,
+
+113
+00:03:49,201 --> 00:03:50,619
+minus fifty eight.
+
+114
+00:03:50,710 --> 00:03:53,030
+Then the concrete: minus eighty.
+
+115
+00:03:53,190 --> 00:03:54,790
+That's weak enough to make the connection
+
+116
+00:03:54,790 --> 00:03:57,670
+unreliable. In a real house, reflections
+
+117
+00:03:57,670 --> 00:03:59,590
+make the signal jump around, but adding
+
+118
+00:03:59,590 --> 00:04:02,070
+the losses gives a useful first estimate.
+
+119
+00:04:02,100 --> 00:04:04,020
+Here's the same path on a graph.
+
+120
+00:04:04,020 --> 00:04:06,580
+The dashed curve is ideal open space.
+
+121
+00:04:06,580 --> 00:04:08,580
+It only drops to minus fifty at ten
+
+122
+00:04:08,580 --> 00:04:11,380
+meters. The solid line is our example.
+
+123
+00:04:11,380 --> 00:04:13,380
+Every time it hits a wall, it steps
+
+124
+00:04:13,380 --> 00:04:14,340
+straight down.
+
+125
+00:04:14,340 --> 00:04:17,140
+Drywall at three meters, drywall at six,
+
+126
+00:04:17,140 --> 00:04:19,060
+and thick concrete at eight.
+
+127
+00:04:19,060 --> 00:04:20,500
+By the bedroom, our estimate
+
+128
+00:04:26,900 --> 00:04:29,620
+is minus
+
+129
+00:04:39,780 --> 00:04:43,300
+eighty, around where
+
+130
+00:04:43,540 --> 00:04:45,540
+connections can get unreliable.
+
+131
+00:04:45,540 --> 00:04:47,700
+Now move the router toward the middle of
+
+132
+00:04:47,700 --> 00:04:49,460
+the home, so the signal skips the
+
+133
+00:04:49,460 --> 00:04:51,780
+concrete. In our example, the bedroom is
+
+134
+00:04:51,780 --> 00:04:54,260
+now five meters away, through one drywall
+
+135
+00:04:54,340 --> 00:04:56,980
+wall. Five meters costs about fourteen
+
+136
+00:04:56,980 --> 00:04:59,300
+decibels, so minus forty four.
+
+137
+00:04:59,300 --> 00:05:01,530
+One wall takes four more: minus forty
+
+138
+00:05:01,540 --> 00:05:04,580
+eight. That's thirty two decibels better
+
+139
+00:05:04,580 --> 00:05:07,150
+than before, in our simplified model.
+
+140
+00:05:07,150 --> 00:05:09,710
+Real results vary, but fewer obstacles can
+
+141
+00:05:09,710 --> 00:05:11,470
+make a big difference.
+
+142
+00:05:11,470 --> 00:05:13,620
+If you can't move the router, bring the Wi
+
+143
+00:05:13,630 --> 00:05:15,390
+Fi closer to the room.
+
+144
+00:05:15,390 --> 00:05:17,390
+A second access point wired back to the
+
+145
+00:05:17,390 --> 00:05:19,230
+router works especially well.
+
+146
+00:05:19,230 --> 00:05:22,030
+A mesh system can help too, but its units
+
+147
+00:05:22,030 --> 00:05:24,190
+need a good link to each other, so don't
+
+148
+00:05:24,190 --> 00:05:26,190
+put one where the signal is already almost
+
+149
+00:05:26,190 --> 00:05:29,470
+gone. Keep the router high, in the open,
+
+150
+00:05:29,470 --> 00:05:31,470
+away from big metal objects.
+
+151
+00:05:31,470 --> 00:05:33,790
+And two point four gigahertz usually gets
+
+152
+00:05:33,790 --> 00:05:35,710
+through walls better, while five and six
+
+153
+00:05:35,710 --> 00:05:37,950
+gigahertz can be faster up close.
+
+154
+00:05:38,190 --> 00:05:40,350
+The same idea shows up elsewhere.
+
+155
+00:05:40,350 --> 00:05:42,510
+Light from a small lamp and sound from a
+
+156
+00:05:42,510 --> 00:05:44,670
+speaker in an open field behave this way
+
+157
+00:05:44,670 --> 00:05:46,430
+under ideal conditions.
+
+158
+00:05:46,430 --> 00:05:48,510
+Double the distance, a quarter of the
+
+159
+00:05:48,510 --> 00:05:50,350
+power per square meter, minus six
+
+160
+00:05:50,350 --> 00:05:52,910
+decibels. Ten times the distance, one
+
+161
+00:05:52,990 --> 00:05:55,070
+hundredth, minus twenty.
+
+162
+00:05:55,070 --> 00:05:58,270
+So why does your Wi Fi die in one room?
+
+163
+00:05:58,270 --> 00:06:00,910
+In ideal open space, power follows the
+
+164
+00:06:00,910 --> 00:06:03,460
+inverse square law: double the distance, a
+
+165
+00:06:03,460 --> 00:06:06,260
+quarter of the power, minus six decibels.
+
+166
+00:06:06,260 --> 00:06:09,060
+But inside a home, walls can cost as much
+
+167
+00:06:09,060 --> 00:06:11,140
+as distance, or much more.
+
+168
+00:06:11,140 --> 00:06:13,130
+Count the walls, not just the meters.
+
+169
+00:06:13,140 --> 00:06:14,660
+Want to test it?
+
+170
+00:06:14,660 --> 00:06:17,380
+A Wi Fi analyzer app shows your signal in
+
+171
+00:06:17,380 --> 00:06:20,020
+dBm. Check it near the router, then in the
+
+172
+00:06:20,020 --> 00:06:20,900
+problem room.
+
+173
+00:06:20,900 --> 00:06:23,380
+It measures strength, not speed, but it
+
+174
+00:06:23,380 --> 00:06:25,860
+shows you where the decibels go.
+
+175
+00:06:25,860 --> 00:06:27,700
+If you liked this video, please give it a
+
+176
+00:06:27,700 --> 00:06:29,700
+like and subscribe for more everyday
+
+177
+00:06:29,700 --> 00:06:31,300
+engineering. Thanks for watching!
