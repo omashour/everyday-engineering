@@ -1,9 +1,10 @@
 variants:
-  - template: equation
-    text: ""
-    highlight: []
-    tex: ""
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: tire-wheel.jpg
+    text: "One Digit Fools Your Speedometer"
+    highlight: ["One Digit"]
+  - template: equation
+    text: "YOUR TIRE IS MATH"
+    highlight: ["MATH"]
+    tex: "D = \\text{rim} + 2h"
+    note: "45 means 45%!"

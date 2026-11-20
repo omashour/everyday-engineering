@@ -1,25 +1,319 @@
-# Narration (say) and visuals for every scene. Written by Claude, checked by `npm run validate -- 013`.
 video:
-  id: "013"
+  id: "009"
   topic: T42
   title: "The Numbers on Your Tire Are a Math Problem"
-  style: ""            # e.g. "B hook + A body"
+  style: "B hook + B body (A whiteboard math scenes)"
   playlist: math-for-engineers
-  voice_note: ""
+  phase: math
+  series: null
+  voice_note: "Say tire codes as 'two twenty five, forty five, R seventeen', with a short pause at each comma."
   pronounce: {}
 
 scenes:
   - id: S01
-    component: title-card
-    chapter: "Intro"
+    component: photo-overlay
+    chapter: "The code on every tire"
     say: >-
-      Replace me with the hook.
+      Every tire has a code like this: two twenty five, forty five, R seventeen.
+      It's not a part number. It's a math problem. Solve it and you know the tire's
+      exact size, and why one digit makes your speedometer lie.
     params:
+      src: tire-wheel.jpg
+      credit: "Image: AI-generated"
+      title: "The math on your tire"
+      focus: [50, 54]
+      overlays:
+        - {type: label, pos: [50, 22], text: "225/45 R17", cue: "a code like"}
+        - {type: measure, from: [30, 54], to: [70, 54], label: "diameter = ?", cue: "exact size"}
+        - {type: callout, pos: [85, 80], text: "speedometer wrong?", side: right, cue: "one digit"}
+
+  - id: S02
+    component: title-card
+    say: Let's solve it with nothing more than percentages and a circle.
+    params:
+      kicker: "Everyday Engineering · Geometry"
       title: "The Numbers on Your Tire Are a Math Problem"
 
-  - id: S99
-    component: end-card
+  - id: S03
+    component: photo-overlay
+    chapter: "Reading the code"
     say: >-
-      See you in the next one.
+      Here's what each part means. Two twenty five is the width of the tire, in
+      millimeters, measured at its widest point. Forty five is the aspect ratio.
+      We'll come back to that one, because it's the tricky part. R means radial,
+      the way the layers inside the tire are built. And seventeen is the diameter
+      of the wheel rim it fits, in inches. Yes, one code mixes millimeters and
+      inches. The numbers that often follow, like ninety one V, are the load and
+      speed ratings. For size, we only need the first three numbers.
     params:
-      line: ""
+      src: tire-sidewall.jpg
+      credit: "Image: AI-generated"
+      title: "225/45 R17"
+      overlays:
+        - {type: callout, pos: [20, 30], text: "225 = width (mm)", side: left, cue: "width of the tire"}
+        - {type: callout, pos: [20, 72], text: "45 = aspect ratio", side: left, cue: "aspect ratio"}
+        - {type: callout, pos: [80, 30], text: "R = radial build", side: right, cue: "R means radial"}
+        - {type: callout, pos: [80, 72], text: "17 = rim (inches)", side: right, cue: "rim it fits"}
+
+  - id: S04
+    component: diagram
+    chapter: "The 45 is a percentage"
+    say: >-
+      Now the tricky number. Forty five does not mean forty five millimeters.
+      It's a percentage. It says the sidewall, the rubber between the rim and the
+      road, is forty five percent as tall as the tire is wide. So a tire with a
+      lower number has a shorter, stiffer sidewall. That's what people call a low
+      profile tire.
+    params:
+      heading: "45 is a percent, not mm"
+      view: [1000, 600]
+      items:
+        - {type: rect, pos: [320, 150], size: [360, 160], label: "tire", cue: "the rubber between"}
+        - {type: rect, pos: [340, 310], size: [320, 30], fill: muted}
+        - {type: dim, from: [320, 110], to: [680, 110], label: "width = 225 mm", cue: "as tall as"}
+        - {type: dim, from: [730, 150], to: [730, 310], label: "45% of width", label_side: right, cue: "forty five percent"}
+        - {type: text, pos: [500, 420], text: "aspect ratio = height ÷ width", cue: "It's a percentage"}
+        - {type: text, pos: [500, 500], text: "lower number = shorter sidewall", hand: true, color: red, cue: "lower number"}
+
+  - id: S05
+    component: equation-steps
+    say: >-
+      So the sidewall height is two twenty five times zero point four five.
+      That's one hundred one point two five millimeters. About ten centimeters of
+      rubber, above the rim and again below it.
+    params:
+      heading: "Sidewall height"
+      size: l
+      lines:
+        - {tex: "h = 225 \\times 0.45", cue: "two twenty five times"}
+        - {tex: "h = 101.25\\ \\text{mm}", box: true, note: "≈ 10 cm", cue: "one hundred one"}
+
+  - id: S06
+    component: equation-steps
+    chapter: "The overall diameter"
+    say: >-
+      Now the rim. Seventeen inches times twenty five point four millimeters per
+      inch is four hundred thirty one point eight millimeters. Look at the wheel
+      from the side. Going straight across, you cross the rim once, and the
+      sidewall twice, once above the rim and once below. So the diameter is the
+      rim plus two sidewalls. Four thirty one point eight, plus two times one oh
+      one point two five, gives six hundred thirty four point three millimeters.
+    params:
+      heading: "Rim + two sidewalls"
+      figure_side: left
+      figure:
+        view: [600, 600]
+        items:
+          - {type: circle, pos: [260, 300], r: 220, cue: "from the side"}
+          - {type: circle, pos: [260, 300], r: 150, fill: grid, label: "rim"}
+          - {type: dim, from: [260, 80], to: [260, 150], label: "h", cue: "sidewall twice"}
+          - {type: dim, from: [260, 450], to: [260, 520], label: "h", cue: "once below"}
+          - {type: dim, from: [530, 80], to: [530, 520], label: "D", label_side: left, cue: "rim plus two"}
+      lines:
+        - {tex: "17 \\times 25.4 = 431.8\\ \\text{mm}", cue: "Seventeen inches times"}
+        - {tex: "D = \\text{rim} + 2h", mark: true, cue: "rim plus two"}
+        - {tex: "D = 431.8 + 2(101.25)", cue: "Four thirty one"}
+        - {tex: "D = 634.3\\ \\text{mm}", box: true, cue: "six hundred thirty four"}
+
+  - id: S07
+    component: big-fact
+    say: >-
+      Six hundred thirty four millimeters is almost exactly twenty five inches.
+      Hold a tape measure across a tire with this code, and that's about what
+      you'll find. Worn tread makes it a little less.
+    params:
+      value: "634 mm"
+      label: "225/45 R17, top to bottom"
+      sub: "≈ 25 inches"
+      cue: "almost exactly"
+
+  - id: S08
+    component: equation-steps
+    chapter: "One turn of the wheel"
+    say: >-
+      Here's why the diameter matters. Every time the wheel turns once, the car
+      moves forward one circumference. That's pi times the diameter. Pi times six
+      hundred thirty four point three millimeters is about one point nine nine
+      meters. So in one kilometer this tire turns about five hundred and two
+      times. In one mile, about eight hundred and eight.
+    params:
+      heading: "One turn = one circumference"
+      lines:
+        - {tex: "C = \\pi D", cue: "pi times the diameter"}
+        - {tex: "C = \\pi \\times 0.6343\\ \\text{m} \\approx 1.99\\ \\text{m}", mark: true, cue: "one point nine nine"}
+        - {tex: "\\dfrac{1000\\ \\text{m}}{C} \\approx 502\\ \\text{turns}", box: true, note: "per km", cue: "five hundred and two"}
+        - {text: "≈ 808 turns per mile", cue: "eight hundred and eight"}
+
+  - id: S09
+    component: photo-overlay
+    chapter: "How your speedometer knows"
+    say: >-
+      Your car's speedometer doesn't measure the road. It measures how fast
+      something is turning, the wheels or a shaft that turns with them. Then it
+      multiplies by the circumference it was set up for at the factory. Speed
+      equals turns per second times circumference. The car trusts that the tires
+      are the size the factory fitted. Change the tire, and the car has no idea.
+    params:
+      src: speedometer.jpg
+      credit: "Image: AI-generated"
+      title: "Speed = turns × circumference"
+      overlays:
+        - {type: callout, pos: [18, 40], text: "counts wheel turns", side: left, cue: "how fast something"}
+        - {type: callout, pos: [18, 72], text: "assumes factory tire size", side: left, cue: "set up for"}
+        - {type: tex, pos: [82, 55], tex: "v = n \\times C", cue: "equals turns per"}
+
+  - id: S10
+    component: table
+    chapter: "Change one digit"
+    say: >-
+      So what happens if you change one digit? Say you fit a two twenty five,
+      fifty five, R seventeen instead. Same width, same rim. Only the forty five
+      became fifty five. The sidewall grows to one hundred twenty three point
+      seven five millimeters. The diameter grows to six hundred seventy nine point
+      three millimeters. And every turn now covers about two point one three
+      meters instead of one point nine nine.
+    params:
+      heading: "One digit: 45 → 55"
+      headers: ["Tire", "Sidewall", "Diameter", "One turn"]
+      rows:
+        - ["225/45 R17", "101.25 mm", "634.3 mm", "1.99 m"]
+        - ["225/55 R17", "123.75 mm", "679.3 mm", "2.13 m"]
+      row_cues: ["So what happens", "Say you fit"]
+      highlight: {row: 1, col: 2, cue: "six hundred seventy nine"}
+
+  - id: S11
+    component: equation-steps
+    say: >-
+      The new tire is bigger by six seventy nine point three over six thirty four
+      point three. That's one point zero seven one, about seven percent. The
+      speedometer still counts turns as if each one were one point nine nine
+      meters. So when it shows one hundred kilometers an hour, you're really doing
+      about one hundred seven. At an indicated sixty miles an hour, you're doing
+      about sixty four.
+    params:
+      heading: "Your speedometer lies"
+      lines:
+        - {tex: "\\dfrac{679.3}{634.3} = 1.071", mark: true, cue: "six seventy nine"}
+        - {text: "about 7% farther per turn", cue: "about seven percent"}
+        - {tex: "100 \\times 1.071 \\approx 107\\ \\text{km/h}", box: true, note: "dial shows 100", cue: "one hundred seven"}
+        - {tex: "60 \\times 1.071 \\approx 64\\ \\text{mph}", cue: "sixty four"}
+
+  - id: S12
+    component: graph
+    chapter: "Too big reads slow"
+    say: >-
+      Here's the whole picture. The navy line is the original tire, where the
+      speedometer is right. The red line is the bigger tire. At every speed, the
+      real speed is seven percent above what the dial shows. And a smaller tire
+      does the opposite. It makes the speedometer read high, so you're slower
+      than you think. The bigger tire is the risky one: the dial says you're fine
+      while you're speeding.
+    params:
+      heading: "Real speed vs. what the dial shows"
+      x_range: [0, 130]
+      y_range: [0, 140]
+      x_label: "speedometer shows (km/h)"
+      y_label: "real speed (km/h)"
+      functions:
+        - {expr: "x", color: navy, cue: "original tire"}
+        - {expr: "1.071*x", label: "225/55 R17", color: red, cue: "red line"}
+        - {expr: "0.929*x", color: blue, dashed: true, cue: "smaller tire"}
+      points:
+        - {x: 100, y: 107.1, label: "real: 107", cue: "seven percent above"}
+      side:
+        - {tex: "v_{\\text{real}} = 1.071\\, v_{\\text{shown}}", cue: "At every speed"}
+
+  - id: S13
+    component: big-fact
+    chapter: "The odometer too"
+    say: >-
+      Your odometer makes the same mistake, because it counts turns too. Drive
+      what it calls ten thousand kilometers on the bigger tires, and you've really
+      driven ten thousand seven hundred and nine. Oil changes, warranties and
+      resale value all lean on that number.
+    params:
+      value: "10,709 km"
+      count: {from: 10000, to: 10709, suffix: " km"}
+      label: "Odometer shows 10,000 km"
+      sub: "what you really drove"
+      cue: "seven hundred and nine"
+
+  - id: S14
+    component: photo-overlay
+    chapter: "Bigger wheels, thinner tires"
+    say: >-
+      So how do people fit bigger, flashier wheels without fooling the
+      speedometer? They lower the aspect ratio to keep the overall diameter
+      almost the same. Go from a seventeen inch rim to an eighteen, and from
+      forty five to forty. The rim adds about two and a half centimeters, and the
+      thinner sidewalls take almost all of it back. Tire shops call this plus
+      sizing.
+    params:
+      src: low-profile-wheel.jpg
+      credit: "Image: AI-generated"
+      title: "Plus sizing"
+      overlays:
+        - {type: callout, pos: [78, 32], text: "18-inch rim", side: right, cue: "seventeen inch rim"}
+        - {type: label, pos: [35, 88], text: "225/40 R18", cue: "forty five to forty"}
+        - {type: callout, pos: [78, 68], text: "thin 40% sidewall", side: right, cue: "thinner sidewalls"}
+
+  - id: S15
+    component: table
+    say: >-
+      Here are the numbers. Each step up in rim size comes with a lower aspect
+      ratio. The eighteen inch version is just half a percent bigger than the
+      original. The nineteen is under one percent. Compare that with the seven
+      percent from changing one digit. A common rule of thumb is to stay within
+      about three percent of the original diameter.
+    params:
+      heading: "Same width, different rims"
+      headers: ["Tire", "Sidewall", "Diameter", "Change"]
+      rows:
+        - ["225/45 R17", "101.25 mm", "634.3 mm", "—"]
+        - ["225/40 R18", "90.00 mm", "637.2 mm", "+0.5%"]
+        - ["225/35 R19", "78.75 mm", "640.1 mm", "+0.9%"]
+        - ["225/55 R17", "123.75 mm", "679.3 mm", "+7.1%"]
+      row_cues: ["Here are the numbers", "eighteen inch version", "nineteen is under", "Compare that"]
+      highlight: {row: 3, cue: "seven percent"}
+
+  - id: S16
+    component: bullets
+    chapter: "Same math, other machines"
+    say: >-
+      This is the same math engineers use anywhere a wheel measures distance. A
+      bike computer asks you for the wheel circumference before it shows your
+      speed. A robot vacuum tracks where it has been partly by counting wheel
+      turns. Measuring wheels, conveyors and train speed sensors work this way
+      too. Get the diameter wrong, and every distance after it is wrong by the
+      same percent.
+    params:
+      heading: "Wheels that measure distance"
+      items:
+        - {text: "Bike computers: enter wheel circumference", icon: bike, cue: "bike computer"}
+        - {text: "Robot vacuums: count wheel turns", icon: robot, cue: "robot vacuum"}
+        - {text: "Measuring wheels, conveyors, trains", icon: ruler-measure, cue: "Measuring wheels"}
+        - {text: "Wrong diameter → same % error", icon: alert-triangle, cue: "Get the diameter wrong"}
+
+  - id: S17
+    component: photo-overlay
+    chapter: "Remember this"
+    say: >-
+      So next time you look at a tire, read it like an engineer. Two twenty five
+      is the width. Forty five percent of that is the sidewall. Add two sidewalls
+      to the rim, and you get about six hundred thirty four millimeters. Multiply
+      by pi, and that's one point nine nine meters every turn. Change one digit,
+      and your speedometer is off by seven percent.
+    params:
+      src: tire-wheel.jpg
+      credit: "Image: AI-generated"
+      title: "225/45 R17, solved"
+      focus: [50, 54]
+      overlays:
+        - {type: measure, from: [30, 54], to: [70, 54], label: "634 mm", cue: "six hundred thirty four"}
+        - {type: callout, pos: [85, 30], text: "1.99 m per turn", side: right, cue: "every turn"}
+        - {type: callout, pos: [15, 30], text: "45 → 55: 7% off", side: left, cue: "Change one digit"}
+
+  - id: S18
+    component: end-card
+    say: If you liked this video, please give it a like and subscribe for more everyday engineering. Thanks for watching!
+    params: {line: "Thanks for watching"}
