@@ -79,6 +79,16 @@
     const measure = () => {
       if (!el.clientHeight) return; // not laid out yet (measured again once fonts are ready)
       el.style.zoom = ""; el.style.padding = ""; el.style.scale = "";
+      // a red side note that would run past the right margin goes under its line instead (keeps the scene full size)
+      const notes = [...el.querySelectorAll(".note")];
+      if (notes.length) {
+        notes.forEach((n) => n.classList.remove("below"));
+        measureCss();
+        el.classList.add("ee-measure");
+        const edge = el.getBoundingClientRect().right - parseFloat(getComputedStyle(el).paddingRight);
+        notes.forEach((n) => { if (n.getBoundingClientRect().right > edge) n.classList.add("below"); });
+        el.classList.remove("ee-measure");
+      }
       // Chrome misplaces SVG foreignObject labels under CSS zoom, so figures with them only shrink, by transform
       const fo = !!el.querySelector("foreignObject");
       const kids = [...el.children].filter((k) => getComputedStyle(k).position !== "absolute");
@@ -181,20 +191,33 @@
       const crossesLine = (r) => pts.some(([x, y, c]) => x > r.x0 - c && x < r.x1 + c && y > r.y0 - c && y < r.y1 + c);
       const meets = (a, b) => Math.min(a.x1, b.x1) - Math.max(a.x0, b.x0) > 2 && Math.min(a.y1, b.y1) - Math.max(a.y0, b.y0) > 2;
       const blocked = (r, i) => crossesLine(r) || texts.some((t) => meets(r, t)) || rects.some((o, j) => j !== i && meets(r, o));
-      labs.forEach((L, i) => {
-        const r = rects[i];
-        if (!crossesLine(r) && !texts.some((t) => meets(r, t))) return;
-        const h = r.y1 - r.y0, step = Math.max(8, h * 0.3);
-        const dirs = [[0, 1], [0, -1], [1, 0], [-1, 0], [0.7, 0.7], [-0.7, 0.7], [0.7, -0.7], [-0.7, -0.7]];
+      // labels tied to a dot pick their spot first; free labels (curve names, notes) then avoid them
+      const order = labs.map((_, i) => i).sort((a, b) => +labs[b].closest("foreignObject").hasAttribute("data-anchor") - +labs[a].closest("foreignObject").hasAttribute("data-anchor"));
+      order.forEach((i) => {
+        const L = labs[i], r = rects[i];
+        const fobj = L.closest("foreignObject");
+        const anchor = fobj.getAttribute("data-anchor"); // "x,y,radius": a label that belongs to a dot stays beside it
+        if (anchor ? !blocked(r, i) : !crossesLine(r) && !texts.some((t) => meets(r, t))) return;
+        const w = r.x1 - r.x0, h = r.y1 - r.y0, step = Math.max(8, h * 0.3);
+        const cands = [];
+        if (anchor) {
+          const [ax, ay, ar] = anchor.split(",").map(Number);
+          for (const extra of [10, 24, 40]) {
+            const g = ar + extra, d = g * 0.7;
+            cands.push([ax + d, ay - d - h], [ax - d - w, ay - d - h], [ax + d, ay + d], [ax - d - w, ay + d], [ax + g, ay - h / 2], [ax - g - w, ay - h / 2], [ax - w / 2, ay - g - h], [ax - w / 2, ay + g]);
+          }
+        } else {
+          const dirs = [[0, 1], [0, -1], [1, 0], [-1, 0], [0.7, 0.7], [-0.7, 0.7], [0.7, -0.7], [-0.7, -0.7]];
+          for (let k = 1; k <= 12; k++) for (const [ux, uy] of dirs) cands.push([r.x0 + ux * k * step * (uy ? 1 : 1.4), r.y0 + uy * k * step]);
+        }
         let best = null;
-        for (let k = 1; k <= 12 && !best; k++) for (const [ux, uy] of dirs) {
-          const dx = ux * k * step * (uy ? 1 : 1.4), dy = uy * k * step;
-          const c = { x0: r.x0 + dx, y0: r.y0 + dy, x1: r.x1 + dx, y1: r.y1 + dy };
+        for (const [cx, cy] of cands) {
+          const dx = cx - r.x0, dy = cy - r.y0;
+          const c = { x0: cx, y0: cy, x1: cx + w, y1: cy + h };
           if (vb && (c.x0 < vb.x - 10 || c.y0 < vb.y - 10 || c.x1 > vb.x + vb.width + 10 || c.y1 > vb.y + vb.height + 10)) continue;
           if (!blocked(c, i)) { best = [dx, dy, c]; break; }
         }
         if (!best) { stuck.push(L.textContent.trim().slice(0, 40)); return; }
-        const fobj = L.closest("foreignObject");
         fobj.setAttribute("x", String(parseFloat(fobj.getAttribute("x")) + best[0]));
         fobj.setAttribute("y", String(parseFloat(fobj.getAttribute("y")) + best[1]));
         rects[i] = best[2];

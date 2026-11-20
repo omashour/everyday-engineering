@@ -90,7 +90,7 @@ export default {
     pts.forEach((q, i) => {
       const id = ctx.uid("p" + i);
       const x = gf.X(q.x), y = gf.Y(q.y);
-      svg += `<g id="${id}"><line class="dashed" x1="${x}" y1="${y}" x2="${x}" y2="${zy}" stroke="${ctx.brand.colors.muted}" stroke-width="2"/><circle cx="${x}" cy="${y}" r="13" fill="${ctx.brand.colors.red}" stroke="#fff" stroke-width="4"/>${q.label ? (x > box.x + box.w * 0.6 ? fo(x - 20, y - 42, ctx.rich(q.label), 500, 80, "end") : fo(x + 20, y - 42, ctx.rich(q.label), 500, 80, "start")) : ""}</g>`; // labels on the right half go to the left of the point, so they stay on screen
+      svg += `<g id="${id}"><line class="dashed" x1="${x}" y1="${y}" x2="${x}" y2="${zy}" stroke="${ctx.brand.colors.muted}" stroke-width="2"/><circle cx="${x}" cy="${y}" r="13" fill="${ctx.brand.colors.red}" stroke="#fff" stroke-width="4"/>${q.label ? (x > box.x + box.w * 0.6 ? fo(x - 20, y - 42, ctx.rich(q.label), 500, 80, "end") : fo(x + 20, y - 42, ctx.rich(q.label), 500, 80, "start")).replace("<foreignObject ", `<foreignObject data-anchor="${x},${y},13" `) : ""}</g>`; // labels on the right half go to the left of the point, so they stay on screen; data-anchor keeps the label beside its dot if it has to move
       js += ctx.call("pop", `#${id}`, ptimes[i]);
     });
     // tracer

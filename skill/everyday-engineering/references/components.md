@@ -55,7 +55,7 @@ A whiteboard drawing built item by item: lines, arrows, shapes, labels, math, ic
 
 - `heading`: text
 - `view`: [width, height] coordinate space, default [1000, 600]; (0,0) is top-left
-- `items` **(required)**: list of items, each with type and cue?: line|arrow {from,to,label?}, rect {pos,size,label?,fill?}, circle {pos,r,label?,fill?}, polyline|polygon {points}, path {d}, text {pos,text,hand?,size?: s|l|xl,anchor?}, tex {pos,tex,size?}, icon {pos,name,size?}, dim {from,to,label}, angle {pos,from_deg,to_deg,r?,label}, force {pos,angle,length?,label,tail?}, support {pos,kind: pin|roller|fixed,side?}, ground {from,to}. Common: color (brand name or hex), width, dashed
+- `items` **(required)**: list of items, each with type and cue?: line|arrow {from,to,label?}, rect {pos,size,label?,fill?}, circle {pos,r,label?,fill?}, polyline|polygon {points}, path {d}, text {pos,text,hand?,size?: s|l|xl,anchor?}, tex {pos,tex,size?}, icon {pos,name,size?}, dim {from,to,label,label_side?: left|right (vertical dims; default toward the middle)}, angle {pos,from_deg,to_deg,r?,label}, force {pos,angle,length?,label,tail?}, support {pos,kind: pin|roller|fixed,side?}, ground {from,to}. Common: color (brand name or hex), width, dashed
 - `caption`: text under the drawing
 
 ### `equation-steps`
