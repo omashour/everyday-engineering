@@ -1,0 +1,603 @@
+1
+00:00:00,000 --> 00:00:02,320
+Your speedometer says sixty.
+
+2
+00:00:02,320 --> 00:00:04,000
+In this example, you're actually doing
+
+3
+00:00:04,000 --> 00:00:05,440
+about sixty four.
+
+4
+00:00:05,440 --> 00:00:07,440
+The difference starts with one digit on
+
+5
+00:00:07,440 --> 00:00:10,240
+the tire. Many passenger car tires carry a
+
+6
+00:00:10,240 --> 00:00:12,160
+code like this, and it lets you estimate
+
+7
+00:00:12,160 --> 00:00:13,760
+the tire's size.
+
+8
+00:00:13,760 --> 00:00:16,160
+Let's work it out with percentages and a
+
+9
+00:00:16,160 --> 00:00:16,880
+circle.
+
+10
+00:00:16,880 --> 00:00:18,123
+Here's what each part means.
+
+11
+00:00:18,133 --> 00:00:20,880
+Two twenty five is the nominal section
+
+12
+00:00:20,880 --> 00:00:22,950
+width, the tire's width in millimeters.
+
+13
+00:00:22,960 --> 00:00:25,280
+Forty five is the aspect ratio.
+
+14
+00:00:25,280 --> 00:00:26,560
+We'll come back to that one.
+
+15
+00:00:26,560 --> 00:00:28,960
+R means radial, the way the layers inside
+
+16
+00:00:28,960 --> 00:00:30,240
+the tire are built.
+
+17
+00:00:30,240 --> 00:00:32,560
+And seventeen is the rim diameter, in
+
+18
+00:00:32,560 --> 00:00:35,600
+inches. Yes, one code mixes millimeters
+
+19
+00:00:35,600 --> 00:00:38,640
+and inches. Numbers like ninety one V that
+
+20
+00:00:38,640 --> 00:00:40,400
+often follow are the load index and the
+
+21
+00:00:40,400 --> 00:00:41,360
+speed rating.
+
+22
+00:00:41,360 --> 00:00:43,630
+For size, we only need the first three.
+
+23
+00:00:43,640 --> 00:00:46,080
+Forty five does not mean forty five
+
+24
+00:00:46,240 --> 00:00:48,240
+millimeters. It's a percentage.
+
+25
+00:00:48,240 --> 00:00:50,160
+The sidewall height, from the rim to the
+
+26
+00:00:50,160 --> 00:00:52,720
+tread, is forty five percent of the tire's
+
+27
+00:00:52,720 --> 00:00:55,120
+width. So at the same width, a lower
+
+28
+00:00:55,120 --> 00:00:57,040
+number means a shorter sidewall.
+
+29
+00:00:57,040 --> 00:00:58,960
+That's what people call a low profile
+
+30
+00:00:58,960 --> 00:00:59,680
+tire.
+
+31
+00:00:59,850 --> 00:01:02,170
+So the sidewall height is two twenty five
+
+32
+00:01:02,170 --> 00:01:04,250
+times zero point four five.
+
+33
+00:01:04,250 --> 00:01:06,410
+That's one hundred one point two five
+
+34
+00:01:06,410 --> 00:01:08,730
+millimeters, about four inches of sidewall
+
+35
+00:01:08,730 --> 00:01:10,730
+height above the rim, and the same again
+
+36
+00:01:10,730 --> 00:01:11,850
+below it.
+
+37
+00:01:11,850 --> 00:01:14,480
+Now the rim. Seventeen inches times twenty
+
+38
+00:01:14,490 --> 00:01:16,107
+five point four is four hundred thirty one
+
+39
+00:01:16,117 --> 00:01:19,050
+point eight millimeters.
+
+40
+00:01:19,050 --> 00:01:21,120
+Look at the wheel from the side.
+
+41
+00:01:21,130 --> 00:01:23,210
+Straight across, you cross the rim once
+
+42
+00:01:23,210 --> 00:01:24,890
+and the sidewall twice.
+
+43
+00:01:24,890 --> 00:01:27,210
+So the estimated outside diameter is the
+
+44
+00:01:27,210 --> 00:01:29,008
+rim plus two sidewall heights.
+
+45
+00:01:29,018 --> 00:01:31,610
+Four thirty one point eight, plus two
+
+46
+00:01:31,610 --> 00:01:33,627
+times one oh one point two five, gives six
+
+47
+00:01:33,637 --> 00:01:35,770
+hundred thirty four point three
+
+48
+00:01:35,770 --> 00:01:36,970
+millimeters.
+
+49
+00:01:36,970 --> 00:01:39,130
+That's twenty four point nine seven
+
+50
+00:01:39,130 --> 00:01:41,450
+inches, just under twenty five.
+
+51
+00:01:41,450 --> 00:01:43,770
+Measure an unmounted, unloaded tire with
+
+52
+00:01:43,770 --> 00:01:45,690
+this code and you'll get roughly that.
+
+53
+00:01:45,690 --> 00:01:48,250
+It's an estimate, not an exact size.
+
+54
+00:01:48,250 --> 00:01:50,570
+Here's why the diameter matters.
+
+55
+00:01:50,570 --> 00:01:52,410
+In the simple model, each turn of the
+
+56
+00:01:52,410 --> 00:01:54,650
+wheel moves the car one circumference, pi
+
+57
+00:01:54,970 --> 00:01:56,090
+times the diameter.
+
+58
+00:01:56,300 --> 00:01:58,220
+That's about one point nine nine meters
+
+59
+00:01:58,220 --> 00:02:00,380
+per turn, or about five hundred two turns
+
+60
+00:02:00,380 --> 00:02:02,300
+per kilometer, and eight hundred eight per
+
+61
+00:02:02,300 --> 00:02:04,940
+mile. A real tire flexes under the car's
+
+62
+00:02:04,940 --> 00:02:06,860
+weight, so its actual distance per turn
+
+63
+00:02:06,860 --> 00:02:08,380
+can differ a little from this circle
+
+64
+00:02:08,380 --> 00:02:09,260
+estimate.
+
+65
+00:02:09,260 --> 00:02:11,420
+Your speedometer doesn't measure the road.
+
+66
+00:02:11,420 --> 00:02:13,580
+It measures how fast something is turning,
+
+67
+00:02:13,580 --> 00:02:15,500
+the wheels or a shaft that turns with
+
+68
+00:02:15,500 --> 00:02:17,660
+them, and multiplies by a distance per
+
+69
+00:02:17,660 --> 00:02:19,340
+turn set at the factory.
+
+70
+00:02:19,340 --> 00:02:21,820
+If the calibration stays the same, the car
+
+71
+00:02:21,820 --> 00:02:23,660
+keeps using the original distance per
+
+72
+00:02:23,660 --> 00:02:26,140
+turn, even after you change the tires.
+
+73
+00:02:26,140 --> 00:02:27,820
+Now change one digit.
+
+74
+00:02:27,820 --> 00:02:29,900
+Fit a two twenty five, fifty five, R
+
+75
+00:02:30,060 --> 00:02:31,660
+seventeen instead.
+
+76
+00:02:31,660 --> 00:02:33,580
+Same width, same rim.
+
+77
+00:02:33,580 --> 00:02:35,159
+The sidewall height grows to one hundred
+
+78
+00:02:35,169 --> 00:02:37,980
+twenty three point seven five millimeters,
+
+79
+00:02:37,980 --> 00:02:38,957
+and the diameter to six hundred seventy
+
+80
+00:02:38,967 --> 00:02:41,260
+nine point three.
+
+81
+00:02:41,260 --> 00:02:43,820
+Roll each tire through one full turn.
+
+82
+00:02:43,820 --> 00:02:45,170
+The original covers about one point nine
+
+83
+00:02:45,180 --> 00:02:48,210
+nine meters. The new one covers about two
+
+84
+00:02:48,220 --> 00:02:49,900
+point one three.
+
+85
+00:02:49,900 --> 00:02:52,220
+That's about fourteen centimeters farther,
+
+86
+00:02:52,490 --> 00:02:53,690
+every turn.
+
+87
+00:02:53,690 --> 00:02:55,088
+The new tire is bigger by six seventy nine
+
+88
+00:02:55,098 --> 00:02:56,880
+point three over six thirty four point
+
+89
+00:02:56,890 --> 00:02:59,200
+three. That's about one point zero seven
+
+90
+00:02:59,210 --> 00:03:02,810
+one. Assume the speedometer was
+
+91
+00:03:02,810 --> 00:03:04,890
+accurate on the original tires and its
+
+92
+00:03:04,890 --> 00:03:06,650
+calibration hasn't changed.
+
+93
+00:03:06,650 --> 00:03:09,000
+Then, in this model, actual speed is about
+
+94
+00:03:09,010 --> 00:03:10,840
+seven percent higher than indicated.
+
+95
+00:03:10,850 --> 00:03:13,370
+One hundred kilometers an hour on the dial
+
+96
+00:03:13,370 --> 00:03:14,890
+is about one hundred seven.
+
+97
+00:03:15,050 --> 00:03:18,250
+Sixty miles an hour is about sixty four.
+
+98
+00:03:18,250 --> 00:03:19,850
+Here's the whole picture.
+
+99
+00:03:19,850 --> 00:03:22,170
+The navy line is the original tire.
+
+100
+00:03:22,170 --> 00:03:24,240
+The red line is the larger tire, seven
+
+101
+00:03:24,250 --> 00:03:26,410
+percent above it at every speed.
+
+102
+00:03:26,410 --> 00:03:28,490
+A smaller tire would shift things the
+
+103
+00:03:28,490 --> 00:03:31,130
+other way. So with the larger tire, you
+
+104
+00:03:31,130 --> 00:03:32,810
+could be going faster than the dial
+
+105
+00:03:32,810 --> 00:03:33,690
+suggests.
+
+106
+00:03:33,690 --> 00:03:36,490
+The odometer counts turns the same way.
+
+107
+00:03:36,490 --> 00:03:38,360
+Under the same assumptions, when it reads
+
+108
+00:03:38,370 --> 00:03:40,730
+ten thousand kilometers, you've traveled
+
+109
+00:03:40,730 --> 00:03:42,810
+about ten thousand seven hundred.
+
+110
+00:03:42,810 --> 00:03:45,290
+So mileage based service reminders would
+
+111
+00:03:45,290 --> 00:03:46,730
+come a little late.
+
+112
+00:03:46,730 --> 00:03:49,210
+So how do people fit larger wheels and
+
+113
+00:03:49,210 --> 00:03:51,130
+keep the outside diameter close to the
+
+114
+00:03:51,130 --> 00:03:53,770
+original? They choose a larger rim and a
+
+115
+00:03:53,770 --> 00:03:55,450
+lower aspect ratio.
+
+116
+00:03:55,660 --> 00:03:57,260
+Go from a seventeen inch rim to an
+
+117
+00:03:57,260 --> 00:03:59,740
+eighteen, and from forty five to forty.
+
+118
+00:03:59,740 --> 00:04:01,180
+The rim adds about two and a half
+
+119
+00:04:01,180 --> 00:04:03,100
+centimeters, and the shorter sidewalls
+
+120
+00:04:03,100 --> 00:04:04,620
+take almost all of it back.
+
+121
+00:04:04,620 --> 00:04:05,980
+Here's the geometry.
+
+122
+00:04:05,980 --> 00:04:08,460
+The eighteen inch version is about half a
+
+123
+00:04:08,460 --> 00:04:10,060
+percent larger than the original.
+
+124
+00:04:10,060 --> 00:04:11,980
+The nineteen is under one percent.
+
+125
+00:04:11,980 --> 00:04:13,660
+Compare that with seven percent from
+
+126
+00:04:13,660 --> 00:04:15,180
+changing one digit.
+
+127
+00:04:15,180 --> 00:04:17,340
+But keeping the diameter close is only one
+
+128
+00:04:17,340 --> 00:04:18,460
+part of fitment.
+
+129
+00:04:18,460 --> 00:04:20,540
+Wheel fit, clearance and load capacity
+
+130
+00:04:20,540 --> 00:04:22,620
+matter too. Use a size approved by the
+
+131
+00:04:22,620 --> 00:04:24,220
+vehicle manufacturer.
+
+132
+00:04:24,220 --> 00:04:26,380
+Anywhere a wheel measures distance, the
+
+133
+00:04:26,380 --> 00:04:27,660
+same math applies.
+
+134
+00:04:27,660 --> 00:04:29,500
+A bike computer asks for your wheel
+
+135
+00:04:29,500 --> 00:04:31,420
+circumference before it shows your speed.
+
+136
+00:04:31,420 --> 00:04:33,740
+A surveyor's measuring wheel counts turns
+
+137
+00:04:33,740 --> 00:04:34,780
+to measure a path.
+
+138
+00:04:34,780 --> 00:04:37,020
+If the wheel rolls without slipping, a one
+
+139
+00:04:37,100 --> 00:04:39,100
+percent error in circumference becomes a
+
+140
+00:04:39,100 --> 00:04:41,500
+one percent error in every distance.
+
+141
+00:04:41,500 --> 00:04:43,820
+So read a tire like an engineer.
+
+142
+00:04:43,820 --> 00:04:44,957
+Two twenty five is the width.
+
+143
+00:04:44,967 --> 00:04:47,100
+Forty five percent of that is the sidewall
+
+144
+00:04:47,100 --> 00:04:49,420
+height. Add two of those to the rim and
+
+145
+00:04:49,420 --> 00:04:51,340
+you get about six hundred thirty four
+
+146
+00:04:51,340 --> 00:04:53,820
+millimeters. Change forty five to fifty
+
+147
+00:04:53,820 --> 00:04:55,900
+five, and under the same assumptions,
+
+148
+00:04:55,900 --> 00:04:58,300
+sixty on your speedometer is about sixty
+
+149
+00:04:58,300 --> 00:04:59,500
+four on the road.
+
+150
+00:04:59,710 --> 00:05:01,390
+If you liked this, give it a like and
+
+151
+00:05:01,390 --> 00:05:02,910
+subscribe. Thanks for watching!
