@@ -122,7 +122,7 @@
         const f = Math.min(lo < L - 1 ? (C - L) / (C - lo) : 1, hi > R + 1 ? (R - C) / (hi - C) : 1);
         if (f >= 0.995) break;
         z = Math.max(0.45, (fo ? Math.min(z, f) : z * f) * 0.97);
-        if (fo) break; // measured unscaled (transform is off while measuring): one pass is exact
+        if (fo) { apply(z); break; } // measured unscaled (transform is off while measuring): one pass is exact
         apply(z);
       }
       el.classList.remove("ee-measure");
@@ -138,6 +138,69 @@
     const st = document.createElement("style"); st.id = "ee-measure-css";
     st.textContent = ".ee-measure, .ee-measure * { transform: none !important; scale: none !important; }";
     document.head.appendChild(st);
+  }
+
+  /* Labels inside SVG figures and graphs (foreignObject text) must not sit on a drawn line, curve, dot,
+     arrow head or tick number. Each label that does is moved to the nearest free spot (up/down first,
+     then sideways, at most ~3.5 label heights away, inside the drawing). Returns the texts that could not
+     be freed. Runs in measuring mode (no animation transforms), so positions are the final ones. */
+  function offStrokes(root) {
+    const stuck = [];
+    for (const svg of root.querySelectorAll("svg")) {
+      const labs = [...svg.querySelectorAll(".fo > span")].filter((e) => e.textContent.trim() && e.getBoundingClientRect().width > 0);
+      if (!labs.length) continue;
+      const ctm = svg.getScreenCTM();
+      if (!ctm) continue;
+      const inv = ctm.inverse();
+      const box = (r) => {
+        const a = new DOMPoint(r.left, r.top).matrixTransform(inv), b = new DOMPoint(r.right, r.bottom).matrixTransform(inv);
+        return { x0: Math.min(a.x, b.x), y0: Math.min(a.y, b.y), x1: Math.max(a.x, b.x), y1: Math.max(a.y, b.y) };
+      };
+      // points along every drawn outline: [x, y, clearance]
+      const pts = [];
+      for (const g of svg.querySelectorAll("line, polyline, polygon, path, circle, rect, ellipse")) {
+        if (g.closest("foreignObject") || g.classList.contains("grid")) continue;
+        const stroke = g.getAttribute("stroke"), fill = g.getAttribute("fill");
+        const hasStroke = !!stroke && stroke !== "none", hasFill = fill !== "none" && (fill != null || g.tagName === "path");
+        if (!hasStroke && !hasFill) continue;
+        const pad = (hasStroke ? (parseFloat(g.getAttribute("stroke-width")) || 1) / 2 : 0) + 5;
+        if (g.tagName === "circle" && +g.getAttribute("r") <= 30 && hasFill) { pts.push([+g.getAttribute("cx"), +g.getAttribute("cy"), +g.getAttribute("r") + pad]); continue; }
+        const tmp = g.cloneNode(false);
+        ["pathLength", "class", "style", "id"].forEach((a) => tmp.removeAttribute(a));
+        svg.appendChild(tmp);
+        try {
+          const L = tmp.getTotalLength();
+          const step = Math.max(3, L / 800);
+          for (let d = 0; d <= L + 0.01; d += step) { const q = tmp.getPointAtLength(Math.min(d, L)); pts.push([q.x, q.y, pad]); }
+        } catch {}
+        tmp.remove();
+      }
+      const texts = [...svg.querySelectorAll("text")].map((t) => { try { const b = t.getBBox(); return { x0: b.x, y0: b.y, x1: b.x + b.width, y1: b.y + b.height }; } catch { return null; } }).filter(Boolean);
+      const vb = svg.viewBox && svg.viewBox.baseVal && svg.viewBox.baseVal.width ? svg.viewBox.baseVal : null;
+      const rects = labs.map((l) => box(l.getBoundingClientRect()));
+      const crossesLine = (r) => pts.some(([x, y, c]) => x > r.x0 - c && x < r.x1 + c && y > r.y0 - c && y < r.y1 + c);
+      const meets = (a, b) => Math.min(a.x1, b.x1) - Math.max(a.x0, b.x0) > 2 && Math.min(a.y1, b.y1) - Math.max(a.y0, b.y0) > 2;
+      const blocked = (r, i) => crossesLine(r) || texts.some((t) => meets(r, t)) || rects.some((o, j) => j !== i && meets(r, o));
+      labs.forEach((L, i) => {
+        const r = rects[i];
+        if (!crossesLine(r) && !texts.some((t) => meets(r, t))) return;
+        const h = r.y1 - r.y0, step = Math.max(8, h * 0.3);
+        const dirs = [[0, 1], [0, -1], [1, 0], [-1, 0], [0.7, 0.7], [-0.7, 0.7], [0.7, -0.7], [-0.7, -0.7]];
+        let best = null;
+        for (let k = 1; k <= 12 && !best; k++) for (const [ux, uy] of dirs) {
+          const dx = ux * k * step * (uy ? 1 : 1.4), dy = uy * k * step;
+          const c = { x0: r.x0 + dx, y0: r.y0 + dy, x1: r.x1 + dx, y1: r.y1 + dy };
+          if (vb && (c.x0 < vb.x - 10 || c.y0 < vb.y - 10 || c.x1 > vb.x + vb.width + 10 || c.y1 > vb.y + vb.height + 10)) continue;
+          if (!blocked(c, i)) { best = [dx, dy, c]; break; }
+        }
+        if (!best) { stuck.push(L.textContent.trim().slice(0, 40)); return; }
+        const fobj = L.closest("foreignObject");
+        fobj.setAttribute("x", String(parseFloat(fobj.getAttribute("x")) + best[0]));
+        fobj.setAttribute("y", String(parseFloat(fobj.getAttribute("y")) + best[1]));
+        rects[i] = best[2];
+      });
+    }
+    return stuck;
   }
 
   /* Labels placed by coordinates (figure/graph labels, photo pills) can land on top of each other.
@@ -174,6 +237,7 @@
         const k = layer.getBoundingClientRect().width / (layer.offsetWidth || 1) || 1;
         host.style.top = (parseFloat(host.style.top) + dyPx / k).toFixed(1) + "px";
       };
+      const onLines = offStrokes(root);
       for (let it = 0; it < 10; it++) {
         let any = false;
         for (let i = 0; i < labs.length; i++) for (let j = i + 1; j < labs.length; j++) {
@@ -196,6 +260,7 @@
         if (labs[i].contains(labs[j]) || labs[j].contains(labs[i])) continue;
         if (hit(labs[i].getBoundingClientRect(), labs[j].getBoundingClientRect())) left.push([labs[i].textContent.trim().slice(0, 40), labs[j].textContent.trim().slice(0, 40)]);
       }
+      for (const t of onLines) left.push([t, "a line or curve"]);
       root.classList.remove("ee-measure");
       window.__eeOverlaps = (window.__eeOverlaps || []).filter((x) => x.scene !== sel).concat(left.map((p) => ({ scene: sel, a: p[0], b: p[1] })));
     };

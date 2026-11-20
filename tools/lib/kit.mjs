@@ -57,7 +57,7 @@ function fo(x, y, html, cls = "", w = 600, h = 200, anchor = "middle") {
  * Diagram items -> list of {svg, kind, cue}. kind: draw | pop | fade
  * Coordinates are in the viewBox (default 1000 x 600).
  */
-export function diagramItems(items = [], ctx) {
+export function diagramItems(items = [], ctx, view = [1000, 600]) {
   const out = [];
   const ink = C(ctx, "ink"), red = C(ctx, "red");
   for (const it of items) {
@@ -112,7 +112,7 @@ export function diagramItems(items = [], ctx) {
         out.push({ svg: fo(it.pos[0], it.pos[1], tex(it.tex, true), `math ${it.size ? "sz-" + it.size : ""}`, it.box_width ?? 800, 220, it.anchor ?? "middle"), kind: "fade", cue: it.cue });
         break;
       case "icon": {
-        const s = it.size ?? 120;
+        const s = typeof it.size === "number" ? it.size : ({ s: 80, m: 120, l: 180, xl: 240 }[it.size] ?? 120);
         out.push({ svg: `<foreignObject x="${it.pos[0] - s / 2}" y="${it.pos[1] - s / 2}" width="${s}" height="${s}"><div xmlns="http://www.w3.org/1999/xhtml" class="ico" style="color:${color};width:${s}px;height:${s}px">${icon(it.name)}</div></foreignObject>`, kind: "pop", cue: it.cue });
         break;
       }
@@ -124,7 +124,11 @@ export function diagramItems(items = [], ctx) {
         let s = `<line class="stroke" pathLength="1" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${c2}" stroke-width="3"/>`;
         s += `<line class="pop" x1="${x1 - nx}" y1="${y1 - ny}" x2="${x1 + nx}" y2="${y1 + ny}" stroke="${c2}" stroke-width="3"/><line class="pop" x1="${x2 - nx}" y1="${y2 - ny}" x2="${x2 + nx}" y2="${y2 + ny}" stroke="${c2}" stroke-width="3"/>`;
         s += arrowHead(x2 - (x2 - x1) * 0.02, y2 - (y2 - y1) * 0.02, x2, y2, 14, c2) + arrowHead(x1 + (x2 - x1) * 0.02, y1 + (y2 - y1) * 0.02, x1, y1, 14, c2);
-        s += fo((x1 + x2) / 2 + (it.label_dx ?? 0), (y1 + y2) / 2 + (it.label_dy ?? -36), rich(it.label ?? ""), "lbl", Math.max(700, Math.abs(x2 - x1)), 100);
+        // a mostly vertical dimension gets its label beside the line (toward the middle of the view), never on it
+        const vert = Math.abs(y2 - y1) > Math.abs(x2 - x1), mx = (x1 + x2) / 2;
+        const side = it.label_side ?? (mx > view[0] * 0.6 ? "left" : "right");
+        if (vert && it.label_dx == null && it.label_dy == null) s += fo(mx + (side === "left" ? -22 : 22), (y1 + y2) / 2, rich(it.label ?? ""), "lbl", 700, 100, side === "left" ? "end" : "start");
+        else s += fo(mx + (it.label_dx ?? 0), (y1 + y2) / 2 + (it.label_dy ?? -36), rich(it.label ?? ""), "lbl", Math.max(700, Math.abs(x2 - x1)), 100);
         out.push({ svg: `<g>${s}</g>`, kind: "draw", cue: it.cue });
         break;
       }

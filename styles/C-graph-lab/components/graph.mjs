@@ -31,8 +31,8 @@ export default {
     // axes & grid
     const xt = niceTicks(gf.x0, gf.x1, 8), yt = niceTicks(gf.y0, gf.y1, 6);
     let ax = "";
-    for (const v of xt) ax += `<line x1="${gf.X(v)}" y1="${box.y}" x2="${gf.X(v)}" y2="${box.y + box.h}" stroke="${ctx.brand.colors.grid}" stroke-width="2"/><text x="${gf.X(v)}" y="${box.y + box.h + 42}" text-anchor="middle" font-size="36" fill="${ctx.brand.colors.muted}" font-family="Inter">${+v.toFixed(3)}</text>`;
-    for (const v of yt) ax += `<line x1="${box.x}" y1="${gf.Y(v)}" x2="${box.x + box.w}" y2="${gf.Y(v)}" stroke="${ctx.brand.colors.grid}" stroke-width="2"/><text x="${box.x - 16}" y="${gf.Y(v) + 12}" text-anchor="end" font-size="36" fill="${ctx.brand.colors.muted}" font-family="Inter">${+v.toFixed(3)}</text>`;
+    for (const v of xt) ax += `<line x1="${gf.X(v)}" y1="${box.y}" x2="${gf.X(v)}" y2="${box.y + box.h}" stroke="${ctx.brand.colors.grid}" stroke-width="2" class="grid"/><text x="${gf.X(v)}" y="${box.y + box.h + 42}" text-anchor="middle" font-size="36" fill="${ctx.brand.colors.muted}" font-family="Inter">${+v.toFixed(3)}</text>`;
+    for (const v of yt) ax += `<line x1="${box.x}" y1="${gf.Y(v)}" x2="${box.x + box.w}" y2="${gf.Y(v)}" stroke="${ctx.brand.colors.grid}" stroke-width="2" class="grid"/><text x="${box.x - 16}" y="${gf.Y(v) + 12}" text-anchor="end" font-size="36" fill="${ctx.brand.colors.muted}" font-family="Inter">${+v.toFixed(3)}</text>`;
     const ink = ctx.brand.colors.ink;
     const zx = gf.x0 <= 0 && gf.x1 >= 0 ? gf.X(0) : box.x, zy = gf.y0 <= 0 && gf.y1 >= 0 ? gf.Y(0) : box.y + box.h;
     ax += `<line x1="${box.x}" y1="${zy}" x2="${box.x + box.w + 20}" y2="${zy}" stroke="${ink}" stroke-width="4"/><line x1="${zx}" y1="${box.y + box.h}" x2="${zx}" y2="${box.y - 20}" stroke="${ink}" stroke-width="4"/>`;

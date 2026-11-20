@@ -19,7 +19,7 @@ export default {
 .eq-label { font-size:0.7rem; font-weight:700; color: var(--blue); text-transform:uppercase; letter-spacing:0.08em; min-width: 4.2rem; }
 .eq-body { position:relative; display:inline-block; z-index:0; }
 .eq-text { font-size:1.05rem; color: var(--text); max-width: 26rem; line-height:1.3; }
-.circ-border { position:absolute; inset:-0.35em -0.6em; border:0.11rem solid var(--red); border-radius:50%; transform: rotate(-2deg); display:block; }
+.circ-border { position:absolute; inset:calc(-35% - 0.3em) calc(-14% - 0.5em); /* an oval must be larger than the text box to pass outside its corners */ border:0.11rem solid var(--red); border-radius:50%; transform: rotate(-2deg); display:block; }
 .eq-box { position:absolute; inset:-0.4em -0.7em; border:0.13rem solid var(--red); border-radius:0.35rem; display:block; }
 .fmt-short .eq-line { font-size:0.95rem; }
 .fmt-short .eq-col.l .eq-line { font-size:1.2rem; }

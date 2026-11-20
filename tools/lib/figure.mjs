@@ -11,7 +11,7 @@ import { diagramItems } from "./kit.mjs";
 export function figure(fig, ctx, key = "fig", win) {
   if (!fig) return { html: "", js: "" };
   const [w, h] = fig.view ?? [1000, 600];
-  const parts = diagramItems(fig.items ?? [], ctx);
+  const parts = diagramItems(fig.items ?? [], ctx, [w, h]);
   const times = ctx.times(parts, win);
   let svg = `<svg class="fig" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet">`;
   let js = "";

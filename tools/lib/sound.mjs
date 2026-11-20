@@ -55,10 +55,10 @@ function duckCurve(env, total, endCardStart) {
   const held = new Uint8Array(n);
   for (let i = 0; i < n; i++) if (talking[i]) for (let k = Math.max(0, i - 8); k < Math.min(n, i + 40); k++) held[k] = 1;
   const g = new Float32Array(n);
-  let v = db(-8);
+  let v = db(-6);
   for (let i = 0; i < n; i++) {
     const t = i * 0.02;
-    let target = env.has && held[i] ? db(-8) : 1;
+    let target = env.has && held[i] ? db(-6) : 1;
     if (endCardStart != null && t >= endCardStart) target = Math.max(target, db(-4));
     const tau = target < v ? 0.12 : 0.9; // duck fast, recover slowly
     v += (target - v) * (1 - Math.exp(-0.02 / tau));
@@ -224,8 +224,8 @@ export function buildSound(o) {
   let tags = "";
   if (mLevel > 0 && !o.skipMusic) {
     const [L, R] = music(o.total);
-    // in pauses the music sits ~13 dB under the speaking voice; under speech another 8 dB lower
-    const scale = (env.speech * db(-13) * mLevel) / rmsOf(L);
+    // in pauses the music sits ~8 dB under the speaking voice; under speech another 6 dB lower
+    const scale = (env.speech * db(-8) * mLevel) / rmsOf(L);
     const g = duckCurve(env, o.total, o.endCardStart);
     for (let i = 0; i < L.length; i++) { const k = g[Math.min(g.length - 1, Math.floor(i / SR / 0.02))] * scale; L[i] *= k; R[i] *= k; }
     writeWav(path.join(o.outDir, "assets", "music.wav"), L, R);

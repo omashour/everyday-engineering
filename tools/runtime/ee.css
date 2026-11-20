@@ -22,7 +22,7 @@ body { font-family: "Inter", sans-serif; color: var(--text); }
 /* Highlighter: painted over the text with multiply, so text stays dark and the paper turns yellow. */
 .mk { position: relative; white-space: nowrap; }
 .mk::before { content: ""; position: absolute; left: -0.15em; right: -0.15em; top: 0.12em; bottom: 0.05em; background: var(--marker); mix-blend-mode: multiply; border-radius: 0.15em; }
-.mk-bar { position: absolute; left: -0.3em; right: -0.3em; top: 8%; bottom: 4%; background: var(--marker); mix-blend-mode: multiply; border-radius: 0.2em; display: block; }
+.mk-bar { position: absolute; left: -0.3em; right: -0.3em; top: -0.12em; bottom: -0.12em; background: var(--marker); mix-blend-mode: multiply; border-radius: 0.2em; display: block; }
 .icon { width: 100%; height: 100%; display: block; }
 
 /* SVG figures */
