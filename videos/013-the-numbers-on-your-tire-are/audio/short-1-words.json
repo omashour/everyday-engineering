@@ -1,0 +1,392 @@
+[
+  {
+    "text": "Your",
+    "start": 0,
+    "end": 0.24
+  },
+  {
+    "text": "speedometer",
+    "start": 0.24,
+    "end": 0.96
+  },
+  {
+    "text": "says",
+    "start": 0.96,
+    "end": 1.2
+  },
+  {
+    "text": "60.",
+    "start": 1.2,
+    "end": 1.92
+  },
+  {
+    "text": "Could",
+    "start": 1.92,
+    "end": 2.16
+  },
+  {
+    "text": "you",
+    "start": 2.16,
+    "end": 2.32
+  },
+  {
+    "text": "actually",
+    "start": 2.32,
+    "end": 2.56
+  },
+  {
+    "text": "be",
+    "start": 2.56,
+    "end": 2.72
+  },
+  {
+    "text": "doing",
+    "start": 2.72,
+    "end": 2.96
+  },
+  {
+    "text": "64?",
+    "start": 2.96,
+    "end": 3.84
+  },
+  {
+    "text": "Look",
+    "start": 4.08,
+    "end": 4.4
+  },
+  {
+    "text": "at",
+    "start": 4.4,
+    "end": 4.56
+  },
+  {
+    "text": "the",
+    "start": 4.56,
+    "end": 4.64
+  },
+  {
+    "text": "tire",
+    "start": 4.64,
+    "end": 5.12
+  },
+  {
+    "text": "code.",
+    "start": 5.12,
+    "end": 5.68
+  },
+  {
+    "text": "Change",
+    "start": 5.68,
+    "end": 6.16
+  },
+  {
+    "text": "22545R17",
+    "start": 6.16,
+    "end": 8.24
+  },
+  {
+    "text": "to",
+    "start": 8.56,
+    "end": 8.72
+  },
+  {
+    "text": "2255R17.",
+    "start": 8.72,
+    "end": 11.2
+  },
+  {
+    "text": "Only",
+    "start": 11.2,
+    "end": 11.44
+  },
+  {
+    "text": "one",
+    "start": 11.44,
+    "end": 11.6
+  },
+  {
+    "text": "digit",
+    "start": 11.68,
+    "end": 12.16
+  },
+  {
+    "text": "changes.",
+    "start": 12.16,
+    "end": 12.8
+  },
+  {
+    "text": "That",
+    "start": 13.04,
+    "end": 13.28
+  },
+  {
+    "text": "bigger",
+    "start": 13.28,
+    "end": 13.68
+  },
+  {
+    "text": "sidewall",
+    "start": 13.68,
+    "end": 14.32
+  },
+  {
+    "text": "makes",
+    "start": 14.32,
+    "end": 14.56
+  },
+  {
+    "text": "the",
+    "start": 14.56,
+    "end": 14.64
+  },
+  {
+    "text": "tire",
+    "start": 14.64,
+    "end": 15.04
+  },
+  {
+    "text": "about",
+    "start": 15.04,
+    "end": 15.28
+  },
+  {
+    "text": "679",
+    "start": 15.28,
+    "end": 16.32
+  },
+  {
+    "text": "millimeters",
+    "start": 16.32,
+    "end": 16.96
+  },
+  {
+    "text": "across",
+    "start": 16.96,
+    "end": 17.44
+  },
+  {
+    "text": "instead",
+    "start": 17.52,
+    "end": 17.84
+  },
+  {
+    "text": "of",
+    "start": 17.84,
+    "end": 18
+  },
+  {
+    "text": "634,",
+    "start": 18,
+    "end": 19.28
+  },
+  {
+    "text": "so",
+    "start": 19.28,
+    "end": 19.52
+  },
+  {
+    "text": "it",
+    "start": 19.52,
+    "end": 19.68
+  },
+  {
+    "text": "covers",
+    "start": 19.68,
+    "end": 20.16
+  },
+  {
+    "text": "about",
+    "start": 20.16,
+    "end": 20.32
+  },
+  {
+    "text": "7%",
+    "start": 20.32,
+    "end": 20.88
+  },
+  {
+    "text": "more",
+    "start": 21.04,
+    "end": 21.28
+  },
+  {
+    "text": "ground",
+    "start": 21.28,
+    "end": 21.68
+  },
+  {
+    "text": "every",
+    "start": 21.68,
+    "end": 22.08
+  },
+  {
+    "text": "turn.",
+    "start": 22.08,
+    "end": 22.8
+  },
+  {
+    "text": "If",
+    "start": 22.8,
+    "end": 22.96
+  },
+  {
+    "text": "the",
+    "start": 22.96,
+    "end": 23.12
+  },
+  {
+    "text": "speedometer",
+    "start": 23.12,
+    "end": 23.84
+  },
+  {
+    "text": "was",
+    "start": 23.84,
+    "end": 24
+  },
+  {
+    "text": "accurate",
+    "start": 24,
+    "end": 24.4
+  },
+  {
+    "text": "before",
+    "start": 24.4,
+    "end": 24.72
+  },
+  {
+    "text": "and",
+    "start": 24.8,
+    "end": 24.96
+  },
+  {
+    "text": "keeps",
+    "start": 24.96,
+    "end": 25.28
+  },
+  {
+    "text": "using",
+    "start": 25.28,
+    "end": 25.52
+  },
+  {
+    "text": "its",
+    "start": 25.52,
+    "end": 25.68
+  },
+  {
+    "text": "old",
+    "start": 25.68,
+    "end": 25.92
+  },
+  {
+    "text": "calibration,",
+    "start": 25.92,
+    "end": 26.8
+  },
+  {
+    "text": "60",
+    "start": 26.8,
+    "end": 27.28
+  },
+  {
+    "text": "on",
+    "start": 27.28,
+    "end": 27.36
+  },
+  {
+    "text": "the",
+    "start": 27.36,
+    "end": 27.52
+  },
+  {
+    "text": "dash",
+    "start": 27.52,
+    "end": 28.08
+  },
+  {
+    "text": "works",
+    "start": 28.08,
+    "end": 28.4
+  },
+  {
+    "text": "out",
+    "start": 28.4,
+    "end": 28.56
+  },
+  {
+    "text": "to",
+    "start": 28.56,
+    "end": 28.72
+  },
+  {
+    "text": "about",
+    "start": 28.72,
+    "end": 28.96
+  },
+  {
+    "text": "64",
+    "start": 28.96,
+    "end": 29.6
+  },
+  {
+    "text": "on",
+    "start": 29.6,
+    "end": 29.76
+  },
+  {
+    "text": "the",
+    "start": 29.76,
+    "end": 29.84
+  },
+  {
+    "text": "road",
+    "start": 29.84,
+    "end": 30.16
+  },
+  {
+    "text": "in",
+    "start": 30.16,
+    "end": 30.32
+  },
+  {
+    "text": "this",
+    "start": 30.32,
+    "end": 30.48
+  },
+  {
+    "text": "example.",
+    "start": 30.48,
+    "end": 31.2
+  },
+  {
+    "text": "The",
+    "start": 31.2,
+    "end": 31.36
+  },
+  {
+    "text": "full",
+    "start": 31.36,
+    "end": 31.68
+  },
+  {
+    "text": "video",
+    "start": 31.68,
+    "end": 32
+  },
+  {
+    "text": "shows",
+    "start": 32,
+    "end": 32.32
+  },
+  {
+    "text": "the",
+    "start": 32.32,
+    "end": 32.4
+  },
+  {
+    "text": "math.",
+    "start": 32.4,
+    "end": 33.04
+  }
+]
