@@ -1,8 +1,8 @@
 variants:
   - template: photo
     image: tire-wheel.jpg
-    text: "One Digit Fools Your Speedometer"
-    highlight: ["One Digit"]
+    text: "60 on the Dash? Maybe 64"
+    highlight: ["64"]
   - template: equation
     text: "YOUR TIRE IS MATH"
     highlight: ["MATH"]

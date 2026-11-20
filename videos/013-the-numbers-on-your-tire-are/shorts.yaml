@@ -1,82 +1,83 @@
 shorts:
-  - title: "Change one digit on your tire and your speedometer lies #shorts"
-    hook: "One digit fools your speedometer"
+  - title: "One tire digit can throw off your speedometer #shorts"
+    hook: "One digit, wrong speed?"
     end: "Full video on the channel"
-    description: "Change one digit on your tire, 45 to 55, and your speedometer reads about 7% low. Here's the math.\n\nFull video: [paste the main video's link]"
+    description: "Change 225/45R17 to 225/55R17 and, if the speedometer keeps its old calibration, 60 mph on the dash works out to about 64 mph on the road in this example.\n\nFull video: [paste the main video's link]"
     scenes:
       - id: A1
         component: photo-overlay
         say: >-
-          Change one digit on your tire and your speedometer starts lying. This
-          tire says two twenty five, forty five, R seventeen. Two hundred twenty
-          five millimeters wide, a sidewall forty five percent as tall, on a
-          seventeen inch rim.
+          Your speedometer says sixty. Could you actually be doing sixty four?
+          Look at the tire code. Change two twenty five, forty five, R seventeen
+          to two twenty five, fifty five, R seventeen. Only one digit changes.
         params:
           src: tire-wheel.jpg
           credit: "Image: AI-generated"
           focus: [50, 54]
           overlays:
-            - {type: label, pos: [50, 30], text: "225/45 R17", cue: "This tire says"}
-            - {type: measure, from: [32, 54], to: [68, 54], label: "diameter?", cue: "seventeen inch rim"}
+            - {type: label, pos: [50, 20], text: "60 mph?", cue: "says sixty"}
+            - {type: label, pos: [50, 75], text: "225/==45== R17", cue: "Look at the"}
+            - {type: label, pos: [50, 90], text: "225/==55== R17", cue: "Only one digit"}
       - id: A2
         component: equation-steps
         say: >-
-          Rim plus two sidewalls gives a diameter of six hundred thirty four
-          millimeters. Now swap the forty five for fifty five. The diameter jumps
-          to six hundred seventy nine. That's seven percent bigger.
+          That bigger sidewall makes the tire about six hundred seventy nine
+          millimeters across, instead of six hundred thirty four. So it covers
+          about seven percent more ground every turn.
         params:
           size: l
           lines:
-            - {tex: "D_{45} = 634\\ \\text{mm}", cue: "Rim plus two"}
-            - {tex: "D_{55} = 679\\ \\text{mm}", cue: "jumps to"}
-            - {tex: "\\dfrac{679}{634} \\approx 1.07", circle: true, cue: "seven percent bigger"}
+            - {tex: "D_{55} \\approx 679\\ \\text{mm}", cue: "That bigger sidewall"}
+            - {tex: "D_{45} \\approx 634\\ \\text{mm}", cue: "instead of"}
+            - {tex: "\\dfrac{679}{634} \\approx 1.07", circle: true, cue: "seven percent more"}
       - id: A3
         component: big-fact
         say: >-
-          Your speedometer only counts wheel turns, so it can't tell. When it
-          shows one hundred, you're really doing one hundred seven. The full video
-          works through the whole code.
+          If the speedometer was accurate before and keeps using its old
+          calibration, sixty on the dash works out to about sixty four on the road
+          in this example. The full video shows the math.
         params:
-          value: "107 km/h"
-          label: "Speedometer shows 100"
-          sub: "your real speed"
-          cue: "one hundred seven"
-  - title: "The 45 on your tire isn't millimeters #shorts"
-    hook: "The 45 isn't millimeters"
+          value: "≈ 64 mph"
+          label: "Dash shows 60 mph"
+          sub: "estimated actual speed"
+          cue: "about sixty four"
+  - title: "What the 45 on your tire actually means #shorts"
+    hook: "What the 45 really means"
     end: "Full video on the channel"
-    description: "The 45 in 225/45R17 is a percentage, not millimeters. Here's what it really means.\n\nFull video: [paste the main video's link]"
+    description: "The 45 in 225/45R17 isn't millimeters. It's the sidewall height as a percentage of the tire's width.\n\nFull video: [paste the main video's link]"
     scenes:
       - id: B1
         component: photo-overlay
         say: >-
-          The forty five on your tire isn't millimeters. It's a percentage. It
-          means the sidewall is forty five percent as tall as the tire is wide.
+          The forty five on your tire isn't millimeters. It's a percentage. The
+          sidewall height is forty five percent of the tire's nominal width.
         params:
           src: tire-sidewall.jpg
           credit: "Image: AI-generated"
           overlays:
-            - {type: label, pos: [50, 40], text: "225/45 R17", cue: "on your tire"}
+            - {type: label, pos: [50, 40], text: "225/==45== R17", cue: "on your tire"}
             - {type: label, pos: [50, 70], text: "45 = 45% of width", cue: "It's a percentage"}
       - id: B2
         component: equation-steps
         say: >-
           This tire is two hundred twenty five millimeters wide. Forty five
-          percent of that is one hundred one millimeters, about ten centimeters of
-          rubber. That's more than twice what forty five millimeters would be.
+          percent of that is about one hundred one millimeters, or about four
+          inches of sidewall height. That's more than twice what forty five
+          millimeters would be.
         params:
           size: l
           lines:
             - {tex: "225 \\times 0.45", cue: "Forty five percent"}
-            - {tex: "= 101\\ \\text{mm}", box: true, cue: "one hundred one"}
+            - {tex: "\\approx 101\\ \\text{mm} \\approx 4\\ \\text{in}", box: true, cue: "one hundred one"}
             - {tex: "\\text{not } 45\\ \\text{mm}", circle: true, cue: "more than twice"}
       - id: B3
         component: bullets
         say: >-
-          So a lower number means a thinner, low profile sidewall. Bigger wheels
-          get lower numbers, so the whole tire stays the same size. The full video
-          does the math.
+          At the same width, a lower percentage gives a shorter sidewall. That's
+          how a larger rim can fit inside a tire with nearly the same outside
+          diameter. The full video does the math.
         params:
           items:
-            - {text: "Lower number → thinner sidewall", icon: arrow-down, cue: "lower number"}
-            - {text: "Bigger rim → lower number", icon: circle-plus, cue: "Bigger wheels"}
-            - {text: "Same overall size", icon: equal, cue: "stays the same"}
+            - {text: "Same width, lower % → shorter sidewall", icon: arrow-down, cue: "lower percentage"}
+            - {text: "Larger rim fits inside", icon: circle-plus, cue: "larger rim"}
+            - {text: "Outside diameter nearly the same", icon: equal, cue: "nearly the same"}
