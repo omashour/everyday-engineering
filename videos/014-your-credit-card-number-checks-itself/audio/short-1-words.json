@@ -1,0 +1,492 @@
+[
+  {
+    "text": "A",
+    "start": 0,
+    "end": 0.24
+  },
+  {
+    "text": "checkout",
+    "start": 0.24,
+    "end": 0.72
+  },
+  {
+    "text": "form",
+    "start": 0.72,
+    "end": 1.04
+  },
+  {
+    "text": "can",
+    "start": 1.04,
+    "end": 1.2
+  },
+  {
+    "text": "spot",
+    "start": 1.2,
+    "end": 1.52
+  },
+  {
+    "text": "a",
+    "start": 1.52,
+    "end": 1.68
+  },
+  {
+    "text": "one-digit",
+    "start": 1.68,
+    "end": 2.24
+  },
+  {
+    "text": "typo",
+    "start": 2.24,
+    "end": 2.8
+  },
+  {
+    "text": "without",
+    "start": 2.8,
+    "end": 3.04
+  },
+  {
+    "text": "asking",
+    "start": 3.04,
+    "end": 3.36
+  },
+  {
+    "text": "your",
+    "start": 3.36,
+    "end": 3.52
+  },
+  {
+    "text": "bank.",
+    "start": 3.52,
+    "end": 4.16
+  },
+  {
+    "text": "The",
+    "start": 4.16,
+    "end": 4.4
+  },
+  {
+    "text": "last",
+    "start": 4.4,
+    "end": 4.64
+  },
+  {
+    "text": "digit",
+    "start": 4.64,
+    "end": 5.12
+  },
+  {
+    "text": "is",
+    "start": 5.12,
+    "end": 5.28
+  },
+  {
+    "text": "a",
+    "start": 5.28,
+    "end": 5.36
+  },
+  {
+    "text": "check",
+    "start": 5.36,
+    "end": 5.76
+  },
+  {
+    "text": "digit",
+    "start": 5.76,
+    "end": 6.08
+  },
+  {
+    "text": "calculated",
+    "start": 6.24,
+    "end": 6.88
+  },
+  {
+    "text": "from",
+    "start": 6.88,
+    "end": 7.04
+  },
+  {
+    "text": "all",
+    "start": 7.04,
+    "end": 7.2
+  },
+  {
+    "text": "the",
+    "start": 7.2,
+    "end": 7.36
+  },
+  {
+    "text": "others.",
+    "start": 7.36,
+    "end": 8
+  },
+  {
+    "text": "Here's",
+    "start": 8,
+    "end": 8.4
+  },
+  {
+    "text": "the",
+    "start": 8.4,
+    "end": 8.56
+  },
+  {
+    "text": "check.",
+    "start": 8.56,
+    "end": 9.28
+  },
+  {
+    "text": "Double",
+    "start": 9.28,
+    "end": 9.84
+  },
+  {
+    "text": "every",
+    "start": 9.84,
+    "end": 10.16
+  },
+  {
+    "text": "second",
+    "start": 10.16,
+    "end": 10.56
+  },
+  {
+    "text": "digit,",
+    "start": 10.56,
+    "end": 11.04
+  },
+  {
+    "text": "starting",
+    "start": 11.04,
+    "end": 11.44
+  },
+  {
+    "text": "next",
+    "start": 11.44,
+    "end": 11.68
+  },
+  {
+    "text": "to",
+    "start": 11.68,
+    "end": 11.76
+  },
+  {
+    "text": "the",
+    "start": 11.76,
+    "end": 11.84
+  },
+  {
+    "text": "check",
+    "start": 11.84,
+    "end": 12.16
+  },
+  {
+    "text": "digit.",
+    "start": 12.16,
+    "end": 12.72
+  },
+  {
+    "text": "If",
+    "start": 12.72,
+    "end": 12.88
+  },
+  {
+    "text": "you",
+    "start": 12.88,
+    "end": 13.04
+  },
+  {
+    "text": "get",
+    "start": 13.04,
+    "end": 13.2
+  },
+  {
+    "text": "two",
+    "start": 13.2,
+    "end": 13.44
+  },
+  {
+    "text": "digits,",
+    "start": 13.44,
+    "end": 14.08
+  },
+  {
+    "text": "add",
+    "start": 14.08,
+    "end": 14.4
+  },
+  {
+    "text": "them.",
+    "start": 14.4,
+    "end": 14.64
+  },
+  {
+    "text": "So",
+    "start": 14.8,
+    "end": 14.96
+  },
+  {
+    "text": "16",
+    "start": 15.04,
+    "end": 15.68
+  },
+  {
+    "text": "becomes",
+    "start": 15.68,
+    "end": 16.16
+  },
+  {
+    "text": "seven.",
+    "start": 16.16,
+    "end": 16.96
+  },
+  {
+    "text": "Then",
+    "start": 16.96,
+    "end": 17.2
+  },
+  {
+    "text": "add",
+    "start": 17.36,
+    "end": 17.68
+  },
+  {
+    "text": "everything",
+    "start": 17.68,
+    "end": 18.08
+  },
+  {
+    "text": "up.",
+    "start": 18.08,
+    "end": 18.56
+  },
+  {
+    "text": "If",
+    "start": 18.56,
+    "end": 18.72
+  },
+  {
+    "text": "the",
+    "start": 18.72,
+    "end": 18.88
+  },
+  {
+    "text": "total",
+    "start": 18.88,
+    "end": 19.2
+  },
+  {
+    "text": "ends",
+    "start": 19.2,
+    "end": 19.44
+  },
+  {
+    "text": "in",
+    "start": 19.44,
+    "end": 19.6
+  },
+  {
+    "text": "zero,",
+    "start": 19.6,
+    "end": 20.16
+  },
+  {
+    "text": "the",
+    "start": 20.16,
+    "end": 20.32
+  },
+  {
+    "text": "number",
+    "start": 20.32,
+    "end": 20.64
+  },
+  {
+    "text": "passes",
+    "start": 20.64,
+    "end": 21.04
+  },
+  {
+    "text": "the",
+    "start": 21.04,
+    "end": 21.12
+  },
+  {
+    "text": "lunch",
+    "start": 21.12,
+    "end": 21.52
+  },
+  {
+    "text": "check.",
+    "start": 21.68,
+    "end": 22.24
+  },
+  {
+    "text": "Replace",
+    "start": 22.24,
+    "end": 22.88
+  },
+  {
+    "text": "any",
+    "start": 22.88,
+    "end": 23.12
+  },
+  {
+    "text": "one",
+    "start": 23.12,
+    "end": 23.28
+  },
+  {
+    "text": "digit",
+    "start": 23.36,
+    "end": 23.76
+  },
+  {
+    "text": "in",
+    "start": 23.76,
+    "end": 23.92
+  },
+  {
+    "text": "a",
+    "start": 23.92,
+    "end": 24
+  },
+  {
+    "text": "number",
+    "start": 24,
+    "end": 24.24
+  },
+  {
+    "text": "that",
+    "start": 24.24,
+    "end": 24.4
+  },
+  {
+    "text": "passes,",
+    "start": 24.4,
+    "end": 24.96
+  },
+  {
+    "text": "and",
+    "start": 24.96,
+    "end": 25.2
+  },
+  {
+    "text": "the",
+    "start": 25.2,
+    "end": 25.28
+  },
+  {
+    "text": "new",
+    "start": 25.28,
+    "end": 25.6
+  },
+  {
+    "text": "total",
+    "start": 25.6,
+    "end": 25.92
+  },
+  {
+    "text": "can't",
+    "start": 25.92,
+    "end": 26.32
+  },
+  {
+    "text": "end",
+    "start": 26.32,
+    "end": 26.48
+  },
+  {
+    "text": "in",
+    "start": 26.48,
+    "end": 26.72
+  },
+  {
+    "text": "zero.",
+    "start": 26.72,
+    "end": 27.2
+  },
+  {
+    "text": "So",
+    "start": 27.2,
+    "end": 27.44
+  },
+  {
+    "text": "every",
+    "start": 27.44,
+    "end": 27.68
+  },
+  {
+    "text": "one-digit",
+    "start": 27.68,
+    "end": 28.32
+  },
+  {
+    "text": "typo",
+    "start": 28.32,
+    "end": 28.8
+  },
+  {
+    "text": "like",
+    "start": 28.8,
+    "end": 28.96
+  },
+  {
+    "text": "that",
+    "start": 28.96,
+    "end": 29.2
+  },
+  {
+    "text": "gets",
+    "start": 29.2,
+    "end": 29.44
+  },
+  {
+    "text": "caught.",
+    "start": 29.44,
+    "end": 30.08
+  },
+  {
+    "text": "The",
+    "start": 30.08,
+    "end": 30.24
+  },
+  {
+    "text": "full",
+    "start": 30.24,
+    "end": 30.56
+  },
+  {
+    "text": "video",
+    "start": 30.56,
+    "end": 30.88
+  },
+  {
+    "text": "works",
+    "start": 30.88,
+    "end": 31.12
+  },
+  {
+    "text": "through",
+    "start": 31.12,
+    "end": 31.36
+  },
+  {
+    "text": "an",
+    "start": 31.36,
+    "end": 31.44
+  },
+  {
+    "text": "example",
+    "start": 31.44,
+    "end": 31.76
+  },
+  {
+    "text": "by",
+    "start": 31.76,
+    "end": 31.84
+  },
+  {
+    "text": "hand.",
+    "start": 31.84,
+    "end": 32.08
+  }
+]

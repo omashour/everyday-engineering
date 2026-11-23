@@ -1,0 +1,5117 @@
+[
+  {
+    "text": "Mistype",
+    "start": 0.08,
+    "end": 0.88
+  },
+  {
+    "text": "one",
+    "start": 0.88,
+    "end": 0.96
+  },
+  {
+    "text": "digit",
+    "start": 1.04,
+    "end": 1.44
+  },
+  {
+    "text": "of",
+    "start": 1.44,
+    "end": 1.52
+  },
+  {
+    "text": "your",
+    "start": 1.52,
+    "end": 1.68
+  },
+  {
+    "text": "card",
+    "start": 1.68,
+    "end": 2
+  },
+  {
+    "text": "number,",
+    "start": 2,
+    "end": 2.4
+  },
+  {
+    "text": "and",
+    "start": 2.4,
+    "end": 2.56
+  },
+  {
+    "text": "a",
+    "start": 2.56,
+    "end": 2.72
+  },
+  {
+    "text": "check",
+    "start": 2.72,
+    "end": 2.96
+  },
+  {
+    "text": "out",
+    "start": 2.96,
+    "end": 3.04
+  },
+  {
+    "text": "form",
+    "start": 3.2,
+    "end": 3.36
+  },
+  {
+    "text": "can",
+    "start": 3.52,
+    "end": 3.68
+  },
+  {
+    "text": "spot",
+    "start": 3.68,
+    "end": 4
+  },
+  {
+    "text": "it",
+    "start": 4,
+    "end": 4.24
+  },
+  {
+    "text": "before",
+    "start": 4.24,
+    "end": 4.48
+  },
+  {
+    "text": "it",
+    "start": 4.48,
+    "end": 4.64
+  },
+  {
+    "text": "contacts",
+    "start": 4.64,
+    "end": 5.12
+  },
+  {
+    "text": "your",
+    "start": 5.12,
+    "end": 5.28
+  },
+  {
+    "text": "bank.",
+    "start": 5.28,
+    "end": 5.92
+  },
+  {
+    "text": "There's",
+    "start": 5.92,
+    "end": 6.32
+  },
+  {
+    "text": "no",
+    "start": 6.32,
+    "end": 6.56
+  },
+  {
+    "text": "list",
+    "start": 6.56,
+    "end": 6.8
+  },
+  {
+    "text": "of",
+    "start": 6.8,
+    "end": 6.96
+  },
+  {
+    "text": "real",
+    "start": 6.96,
+    "end": 7.28
+  },
+  {
+    "text": "cards",
+    "start": 7.28,
+    "end": 7.68
+  },
+  {
+    "text": "in",
+    "start": 7.68,
+    "end": 7.84
+  },
+  {
+    "text": "your",
+    "start": 7.84,
+    "end": 8
+  },
+  {
+    "text": "browser.",
+    "start": 8,
+    "end": 8.8
+  },
+  {
+    "text": "All",
+    "start": 8.8,
+    "end": 9.04
+  },
+  {
+    "text": "it",
+    "start": 9.04,
+    "end": 9.2
+  },
+  {
+    "text": "needs",
+    "start": 9.2,
+    "end": 9.52
+  },
+  {
+    "text": "is",
+    "start": 9.52,
+    "end": 9.68
+  },
+  {
+    "text": "a",
+    "start": 9.68,
+    "end": 9.76
+  },
+  {
+    "text": "little",
+    "start": 9.76,
+    "end": 10.08
+  },
+  {
+    "text": "arithmetic.",
+    "start": 10.08,
+    "end": 11.12
+  },
+  {
+    "text": "Here's",
+    "start": 11.36,
+    "end": 11.76
+  },
+  {
+    "text": "the",
+    "start": 11.76,
+    "end": 11.84
+  },
+  {
+    "text": "trick",
+    "start": 11.84,
+    "end": 12.08
+  },
+  {
+    "text": "behind",
+    "start": 12.08,
+    "end": 12.4
+  },
+  {
+    "text": "that",
+    "start": 12.4,
+    "end": 12.64
+  },
+  {
+    "text": "check.",
+    "start": 12.64,
+    "end": 13.6
+  },
+  {
+    "text": "A",
+    "start": 13.6,
+    "end": 13.84
+  },
+  {
+    "text": "card",
+    "start": 13.84,
+    "end": 14.24
+  },
+  {
+    "text": "number",
+    "start": 14.24,
+    "end": 14.56
+  },
+  {
+    "text": "isn't",
+    "start": 14.56,
+    "end": 14.88
+  },
+  {
+    "text": "random.",
+    "start": 14.88,
+    "end": 15.6
+  },
+  {
+    "text": "The",
+    "start": 15.6,
+    "end": 15.68
+  },
+  {
+    "text": "first",
+    "start": 15.68,
+    "end": 15.92
+  },
+  {
+    "text": "digits",
+    "start": 15.92,
+    "end": 16.48
+  },
+  {
+    "text": "identify",
+    "start": 16.48,
+    "end": 16.88
+  },
+  {
+    "text": "the",
+    "start": 16.88,
+    "end": 16.96
+  },
+  {
+    "text": "card",
+    "start": 16.96,
+    "end": 17.28
+  },
+  {
+    "text": "issuer.",
+    "start": 17.28,
+    "end": 18
+  },
+  {
+    "text": "The",
+    "start": 18,
+    "end": 18.16
+  },
+  {
+    "text": "digits",
+    "start": 18.16,
+    "end": 18.56
+  },
+  {
+    "text": "after",
+    "start": 18.56,
+    "end": 18.8
+  },
+  {
+    "text": "that",
+    "start": 18.8,
+    "end": 18.96
+  },
+  {
+    "text": "identify",
+    "start": 19.12,
+    "end": 19.68
+  },
+  {
+    "text": "the",
+    "start": 19.68,
+    "end": 19.84
+  },
+  {
+    "text": "account.",
+    "start": 19.84,
+    "end": 20.56
+  },
+  {
+    "text": "And",
+    "start": 20.56,
+    "end": 20.72
+  },
+  {
+    "text": "the",
+    "start": 20.72,
+    "end": 20.88
+  },
+  {
+    "text": "last",
+    "start": 20.88,
+    "end": 21.2
+  },
+  {
+    "text": "digit",
+    "start": 21.2,
+    "end": 21.68
+  },
+  {
+    "text": "is",
+    "start": 21.68,
+    "end": 21.92
+  },
+  {
+    "text": "a",
+    "start": 21.92,
+    "end": 22.08
+  },
+  {
+    "text": "check",
+    "start": 22.08,
+    "end": 22.48
+  },
+  {
+    "text": "digit,",
+    "start": 22.48,
+    "end": 23.04
+  },
+  {
+    "text": "calculated",
+    "start": 23.04,
+    "end": 23.68
+  },
+  {
+    "text": "from",
+    "start": 23.68,
+    "end": 23.92
+  },
+  {
+    "text": "all",
+    "start": 23.92,
+    "end": 24.16
+  },
+  {
+    "text": "the",
+    "start": 24.16,
+    "end": 24.32
+  },
+  {
+    "text": "others.",
+    "start": 24.32,
+    "end": 24.8
+  },
+  {
+    "text": "Its",
+    "start": 24.8,
+    "end": 25.12
+  },
+  {
+    "text": "only",
+    "start": 25.12,
+    "end": 25.36
+  },
+  {
+    "text": "job",
+    "start": 25.36,
+    "end": 25.76
+  },
+  {
+    "text": "is",
+    "start": 25.76,
+    "end": 25.92
+  },
+  {
+    "text": "to",
+    "start": 25.92,
+    "end": 26.08
+  },
+  {
+    "text": "catch",
+    "start": 26.08,
+    "end": 26.48
+  },
+  {
+    "text": "mistakes.",
+    "start": 26.48,
+    "end": 27.76
+  },
+  {
+    "text": "The",
+    "start": 27.76,
+    "end": 27.92
+  },
+  {
+    "text": "method",
+    "start": 27.92,
+    "end": 28.4
+  },
+  {
+    "text": "is",
+    "start": 28.4,
+    "end": 28.56
+  },
+  {
+    "text": "named",
+    "start": 28.56,
+    "end": 28.88
+  },
+  {
+    "text": "after",
+    "start": 28.88,
+    "end": 29.12
+  },
+  {
+    "text": "Hans",
+    "start": 29.12,
+    "end": 29.44
+  },
+  {
+    "text": "Peter",
+    "start": 29.52,
+    "end": 29.92
+  },
+  {
+    "text": "Lohn",
+    "start": 29.92,
+    "end": 30.24
+  },
+  {
+    "text": "of",
+    "start": 30.4,
+    "end": 30.56
+  },
+  {
+    "text": "IBM.",
+    "start": 30.56,
+    "end": 31.36
+  },
+  {
+    "text": "His",
+    "start": 31.36,
+    "end": 31.6
+  },
+  {
+    "text": "patent",
+    "start": 31.6,
+    "end": 32
+  },
+  {
+    "text": "for",
+    "start": 32,
+    "end": 32.16
+  },
+  {
+    "text": "a",
+    "start": 32.16,
+    "end": 32.24
+  },
+  {
+    "text": "device",
+    "start": 32.24,
+    "end": 32.56
+  },
+  {
+    "text": "that",
+    "start": 32.56,
+    "end": 32.72
+  },
+  {
+    "text": "calculated",
+    "start": 32.72,
+    "end": 33.36
+  },
+  {
+    "text": "and",
+    "start": 33.36,
+    "end": 33.52
+  },
+  {
+    "text": "checked",
+    "start": 33.52,
+    "end": 33.84
+  },
+  {
+    "text": "these",
+    "start": 33.84,
+    "end": 34.08
+  },
+  {
+    "text": "digits",
+    "start": 34.08,
+    "end": 34.48
+  },
+  {
+    "text": "was",
+    "start": 34.64,
+    "end": 34.8
+  },
+  {
+    "text": "granted",
+    "start": 34.8,
+    "end": 35.28
+  },
+  {
+    "text": "in",
+    "start": 35.28,
+    "end": 35.44
+  },
+  {
+    "text": "1960,",
+    "start": 35.44,
+    "end": 36.56
+  },
+  {
+    "text": "decades",
+    "start": 36.56,
+    "end": 37.12
+  },
+  {
+    "text": "before",
+    "start": 37.12,
+    "end": 37.44
+  },
+  {
+    "text": "online",
+    "start": 37.44,
+    "end": 37.68
+  },
+  {
+    "text": "shopping.",
+    "start": 37.84,
+    "end": 38.8
+  },
+  {
+    "text": "Grab",
+    "start": 38.8,
+    "end": 39.28
+  },
+  {
+    "text": "a",
+    "start": 39.28,
+    "end": 39.36
+  },
+  {
+    "text": "pen",
+    "start": 39.36,
+    "end": 39.6
+  },
+  {
+    "text": "if",
+    "start": 39.68,
+    "end": 39.76
+  },
+  {
+    "text": "you",
+    "start": 39.76,
+    "end": 39.92
+  },
+  {
+    "text": "want",
+    "start": 39.92,
+    "end": 40
+  },
+  {
+    "text": "to",
+    "start": 40,
+    "end": 40.08
+  },
+  {
+    "text": "follow",
+    "start": 40.08,
+    "end": 40.4
+  },
+  {
+    "text": "along.",
+    "start": 40.4,
+    "end": 40.8
+  },
+  {
+    "text": "Let's",
+    "start": 40.8,
+    "end": 41.12
+  },
+  {
+    "text": "run",
+    "start": 41.12,
+    "end": 41.28
+  },
+  {
+    "text": "it",
+    "start": 41.28,
+    "end": 41.44
+  },
+  {
+    "text": "on",
+    "start": 41.44,
+    "end": 41.52
+  },
+  {
+    "text": "a",
+    "start": 41.52,
+    "end": 41.68
+  },
+  {
+    "text": "short",
+    "start": 41.68,
+    "end": 41.92
+  },
+  {
+    "text": "made",
+    "start": 42,
+    "end": 42.4
+  },
+  {
+    "text": "up",
+    "start": 42.4,
+    "end": 42.48
+  },
+  {
+    "text": "number.",
+    "start": 42.64,
+    "end": 43.2
+  },
+  {
+    "text": "4539",
+    "start": 43.2,
+    "end": 44.48
+  },
+  {
+    "text": "1489.",
+    "start": 44.72,
+    "end": 46.56
+  },
+  {
+    "text": "Many",
+    "start": 46.56,
+    "end": 46.96
+  },
+  {
+    "text": "cards",
+    "start": 46.96,
+    "end": 47.36
+  },
+  {
+    "text": "have",
+    "start": 47.36,
+    "end": 47.52
+  },
+  {
+    "text": "16",
+    "start": 47.52,
+    "end": 47.92
+  },
+  {
+    "text": "digits.",
+    "start": 48,
+    "end": 48.64
+  },
+  {
+    "text": "American",
+    "start": 48.64,
+    "end": 49.04
+  },
+  {
+    "text": "Express",
+    "start": 49.04,
+    "end": 49.36
+  },
+  {
+    "text": "cards",
+    "start": 49.44,
+    "end": 49.84
+  },
+  {
+    "text": "have",
+    "start": 49.84,
+    "end": 50
+  },
+  {
+    "text": "15.",
+    "start": 50,
+    "end": 50.64
+  },
+  {
+    "text": "The",
+    "start": 50.64,
+    "end": 50.8
+  },
+  {
+    "text": "steps",
+    "start": 50.8,
+    "end": 51.2
+  },
+  {
+    "text": "are",
+    "start": 51.2,
+    "end": 51.36
+  },
+  {
+    "text": "the",
+    "start": 51.36,
+    "end": 51.44
+  },
+  {
+    "text": "same",
+    "start": 51.44,
+    "end": 51.68
+  },
+  {
+    "text": "either",
+    "start": 51.76,
+    "end": 52.16
+  },
+  {
+    "text": "way.",
+    "start": 52.16,
+    "end": 52.56
+  },
+  {
+    "text": "Start",
+    "start": 52.8,
+    "end": 53.2
+  },
+  {
+    "text": "at",
+    "start": 53.2,
+    "end": 53.36
+  },
+  {
+    "text": "the",
+    "start": 53.36,
+    "end": 53.6
+  },
+  {
+    "text": "right",
+    "start": 53.6,
+    "end": 53.76
+  },
+  {
+    "text": "with",
+    "start": 53.84,
+    "end": 54
+  },
+  {
+    "text": "the",
+    "start": 54,
+    "end": 54.16
+  },
+  {
+    "text": "check",
+    "start": 54.16,
+    "end": 54.48
+  },
+  {
+    "text": "digit.",
+    "start": 54.48,
+    "end": 55.04
+  },
+  {
+    "text": "Leave",
+    "start": 55.04,
+    "end": 55.28
+  },
+  {
+    "text": "it",
+    "start": 55.28,
+    "end": 55.44
+  },
+  {
+    "text": "alone.",
+    "start": 55.44,
+    "end": 56.16
+  },
+  {
+    "text": "Then",
+    "start": 56.16,
+    "end": 56.48
+  },
+  {
+    "text": "double",
+    "start": 56.48,
+    "end": 56.96
+  },
+  {
+    "text": "every",
+    "start": 56.96,
+    "end": 57.28
+  },
+  {
+    "text": "second",
+    "start": 57.28,
+    "end": 57.6
+  },
+  {
+    "text": "digit",
+    "start": 57.6,
+    "end": 58
+  },
+  {
+    "text": "as",
+    "start": 58,
+    "end": 58.16
+  },
+  {
+    "text": "you",
+    "start": 58.16,
+    "end": 58.24
+  },
+  {
+    "text": "move",
+    "start": 58.24,
+    "end": 58.56
+  },
+  {
+    "text": "left.",
+    "start": 58.56,
+    "end": 59.12
+  },
+  {
+    "text": "The",
+    "start": 59.12,
+    "end": 59.28
+  },
+  {
+    "text": "eight,",
+    "start": 59.28,
+    "end": 59.92
+  },
+  {
+    "text": "the",
+    "start": 59.92,
+    "end": 60.08
+  },
+  {
+    "text": "one,",
+    "start": 60.08,
+    "end": 60.64
+  },
+  {
+    "text": "the",
+    "start": 60.64,
+    "end": 60.8
+  },
+  {
+    "text": "three,",
+    "start": 60.8,
+    "end": 61.28
+  },
+  {
+    "text": "and",
+    "start": 61.28,
+    "end": 61.52
+  },
+  {
+    "text": "the",
+    "start": 61.52,
+    "end": 61.68
+  },
+  {
+    "text": "four.",
+    "start": 61.68,
+    "end": 62.24
+  },
+  {
+    "text": "Leave",
+    "start": 62.41,
+    "end": 62.81
+  },
+  {
+    "text": "the",
+    "start": 62.81,
+    "end": 62.89
+  },
+  {
+    "text": "others",
+    "start": 62.89,
+    "end": 63.21
+  },
+  {
+    "text": "as",
+    "start": 63.21,
+    "end": 63.45
+  },
+  {
+    "text": "they",
+    "start": 63.45,
+    "end": 63.69
+  },
+  {
+    "text": "are.",
+    "start": 63.69,
+    "end": 64.33
+  },
+  {
+    "text": "Now",
+    "start": 64.33,
+    "end": 64.57
+  },
+  {
+    "text": "double",
+    "start": 64.81,
+    "end": 65.29
+  },
+  {
+    "text": "them.",
+    "start": 65.29,
+    "end": 65.77
+  },
+  {
+    "text": "Four",
+    "start": 65.77,
+    "end": 66.17
+  },
+  {
+    "text": "becomes",
+    "start": 66.17,
+    "end": 66.57
+  },
+  {
+    "text": "eight.",
+    "start": 66.57,
+    "end": 67.21
+  },
+  {
+    "text": "Three",
+    "start": 67.21,
+    "end": 67.61
+  },
+  {
+    "text": "becomes",
+    "start": 67.61,
+    "end": 68.01
+  },
+  {
+    "text": "six.",
+    "start": 68.01,
+    "end": 68.65
+  },
+  {
+    "text": "One",
+    "start": 68.65,
+    "end": 68.97
+  },
+  {
+    "text": "becomes",
+    "start": 68.97,
+    "end": 69.45
+  },
+  {
+    "text": "two.",
+    "start": 69.45,
+    "end": 70.09
+  },
+  {
+    "text": "Eight",
+    "start": 70.09,
+    "end": 70.49
+  },
+  {
+    "text": "becomes",
+    "start": 70.49,
+    "end": 70.89
+  },
+  {
+    "text": "sixteen.",
+    "start": 70.89,
+    "end": 71.61
+  },
+  {
+    "text": "And",
+    "start": 71.61,
+    "end": 71.77
+  },
+  {
+    "text": "that's",
+    "start": 71.77,
+    "end": 72.01
+  },
+  {
+    "text": "two",
+    "start": 72.01,
+    "end": 72.09
+  },
+  {
+    "text": "digits,",
+    "start": 72.25,
+    "end": 72.81
+  },
+  {
+    "text": "so",
+    "start": 72.81,
+    "end": 73.05
+  },
+  {
+    "text": "add",
+    "start": 73.05,
+    "end": 73.29
+  },
+  {
+    "text": "them.",
+    "start": 73.29,
+    "end": 73.69
+  },
+  {
+    "text": "One",
+    "start": 73.69,
+    "end": 74.01
+  },
+  {
+    "text": "plus",
+    "start": 74.01,
+    "end": 74.25
+  },
+  {
+    "text": "six",
+    "start": 74.25,
+    "end": 74.57
+  },
+  {
+    "text": "is",
+    "start": 74.57,
+    "end": 74.73
+  },
+  {
+    "text": "seven.",
+    "start": 74.73,
+    "end": 75.37
+  },
+  {
+    "text": "That's",
+    "start": 75.37,
+    "end": 75.69
+  },
+  {
+    "text": "the",
+    "start": 75.69,
+    "end": 75.85
+  },
+  {
+    "text": "only",
+    "start": 75.85,
+    "end": 76.01
+  },
+  {
+    "text": "extra",
+    "start": 76.01,
+    "end": 76.41
+  },
+  {
+    "text": "rule.",
+    "start": 76.41,
+    "end": 76.81
+  },
+  {
+    "text": "If",
+    "start": 76.81,
+    "end": 76.97
+  },
+  {
+    "text": "doubling",
+    "start": 76.97,
+    "end": 77.45
+  },
+  {
+    "text": "gives",
+    "start": 77.45,
+    "end": 77.61
+  },
+  {
+    "text": "a",
+    "start": 77.61,
+    "end": 77.69
+  },
+  {
+    "text": "two",
+    "start": 77.69,
+    "end": 77.77
+  },
+  {
+    "text": "digit",
+    "start": 77.93,
+    "end": 78.25
+  },
+  {
+    "text": "number,",
+    "start": 78.25,
+    "end": 78.65
+  },
+  {
+    "text": "add",
+    "start": 78.65,
+    "end": 78.97
+  },
+  {
+    "text": "its",
+    "start": 78.97,
+    "end": 79.13
+  },
+  {
+    "text": "digits",
+    "start": 79.13,
+    "end": 79.61
+  },
+  {
+    "text": "together.",
+    "start": 79.61,
+    "end": 80.25
+  },
+  {
+    "text": "Or",
+    "start": 80.25,
+    "end": 80.49
+  },
+  {
+    "text": "just",
+    "start": 80.49,
+    "end": 80.65
+  },
+  {
+    "text": "subtract",
+    "start": 80.65,
+    "end": 81.21
+  },
+  {
+    "text": "nine.",
+    "start": 81.21,
+    "end": 81.69
+  },
+  {
+    "text": "Sixteen",
+    "start": 81.69,
+    "end": 82.17
+  },
+  {
+    "text": "minus",
+    "start": 82.25,
+    "end": 82.49
+  },
+  {
+    "text": "nine",
+    "start": 82.49,
+    "end": 82.81
+  },
+  {
+    "text": "is",
+    "start": 82.81,
+    "end": 82.97
+  },
+  {
+    "text": "also",
+    "start": 82.97,
+    "end": 83.29
+  },
+  {
+    "text": "seven.",
+    "start": 83.29,
+    "end": 84.33
+  },
+  {
+    "text": "Now",
+    "start": 84.33,
+    "end": 84.57
+  },
+  {
+    "text": "double",
+    "start": 84.81,
+    "end": 85.29
+  },
+  {
+    "text": "them.",
+    "start": 85.29,
+    "end": 85.77
+  },
+  {
+    "text": "Four",
+    "start": 85.77,
+    "end": 86.17
+  },
+  {
+    "text": "becomes",
+    "start": 86.17,
+    "end": 86.49
+  },
+  {
+    "text": "eight.",
+    "start": 86.49,
+    "end": 87.13
+  },
+  {
+    "text": "Three",
+    "start": 87.13,
+    "end": 87.53
+  },
+  {
+    "text": "becomes",
+    "start": 87.53,
+    "end": 87.93
+  },
+  {
+    "text": "six,",
+    "start": 87.93,
+    "end": 88.65
+  },
+  {
+    "text": "one",
+    "start": 88.65,
+    "end": 88.81
+  },
+  {
+    "text": "becomes",
+    "start": 89.05,
+    "end": 89.53
+  },
+  {
+    "text": "two,",
+    "start": 89.53,
+    "end": 90.25
+  },
+  {
+    "text": "eight",
+    "start": 90.25,
+    "end": 90.65
+  },
+  {
+    "text": "becomes",
+    "start": 90.65,
+    "end": 91.05
+  },
+  {
+    "text": "sixteen,",
+    "start": 91.05,
+    "end": 91.69
+  },
+  {
+    "text": "and",
+    "start": 91.69,
+    "end": 91.93
+  },
+  {
+    "text": "that's",
+    "start": 91.93,
+    "end": 92.17
+  },
+  {
+    "text": "two",
+    "start": 92.17,
+    "end": 92.25
+  },
+  {
+    "text": "digits.",
+    "start": 92.33,
+    "end": 92.81
+  },
+  {
+    "text": "So",
+    "start": 92.81,
+    "end": 93.05
+  },
+  {
+    "text": "add",
+    "start": 93.05,
+    "end": 93.29
+  },
+  {
+    "text": "them.",
+    "start": 93.29,
+    "end": 93.69
+  },
+  {
+    "text": "One",
+    "start": 93.69,
+    "end": 93.93
+  },
+  {
+    "text": "plus",
+    "start": 93.93,
+    "end": 94.17
+  },
+  {
+    "text": "six",
+    "start": 94.17,
+    "end": 94.49
+  },
+  {
+    "text": "is",
+    "start": 94.49,
+    "end": 94.65
+  },
+  {
+    "text": "seven.",
+    "start": 94.65,
+    "end": 95.29
+  },
+  {
+    "text": "That's",
+    "start": 95.29,
+    "end": 95.61
+  },
+  {
+    "text": "the",
+    "start": 95.61,
+    "end": 95.69
+  },
+  {
+    "text": "only",
+    "start": 95.69,
+    "end": 95.93
+  },
+  {
+    "text": "extra",
+    "start": 95.93,
+    "end": 96.25
+  },
+  {
+    "text": "rule.",
+    "start": 96.25,
+    "end": 96.65
+  },
+  {
+    "text": "If",
+    "start": 96.65,
+    "end": 96.89
+  },
+  {
+    "text": "doubling",
+    "start": 96.89,
+    "end": 97.37
+  },
+  {
+    "text": "gives",
+    "start": 97.37,
+    "end": 97.53
+  },
+  {
+    "text": "a",
+    "start": 97.53,
+    "end": 97.61
+  },
+  {
+    "text": "two",
+    "start": 97.61,
+    "end": 97.77
+  },
+  {
+    "text": "digit",
+    "start": 97.93,
+    "end": 98.25
+  },
+  {
+    "text": "number,",
+    "start": 98.25,
+    "end": 98.65
+  },
+  {
+    "text": "add",
+    "start": 98.65,
+    "end": 98.81
+  },
+  {
+    "text": "its",
+    "start": 98.97,
+    "end": 99.13
+  },
+  {
+    "text": "digits",
+    "start": 99.13,
+    "end": 99.53
+  },
+  {
+    "text": "together.",
+    "start": 99.53,
+    "end": 100.17
+  },
+  {
+    "text": "Or",
+    "start": 100.17,
+    "end": 100.41
+  },
+  {
+    "text": "just",
+    "start": 100.41,
+    "end": 100.57
+  },
+  {
+    "text": "subtract",
+    "start": 100.57,
+    "end": 101.13
+  },
+  {
+    "text": "nine.",
+    "start": 101.13,
+    "end": 101.61
+  },
+  {
+    "text": "Sixteen",
+    "start": 101.61,
+    "end": 102.17
+  },
+  {
+    "text": "minus",
+    "start": 102.17,
+    "end": 102.49
+  },
+  {
+    "text": "nine",
+    "start": 102.49,
+    "end": 102.73
+  },
+  {
+    "text": "is",
+    "start": 102.81,
+    "end": 102.97
+  },
+  {
+    "text": "also",
+    "start": 102.97,
+    "end": 103.29
+  },
+  {
+    "text": "seven.",
+    "start": 103.29,
+    "end": 103.93
+  },
+  {
+    "text": "Now",
+    "start": 104.17,
+    "end": 104.57
+  },
+  {
+    "text": "add",
+    "start": 104.73,
+    "end": 104.97
+  },
+  {
+    "text": "everything",
+    "start": 105.13,
+    "end": 105.61
+  },
+  {
+    "text": "up.",
+    "start": 105.61,
+    "end": 106.25
+  },
+  {
+    "text": "Eight,",
+    "start": 106.25,
+    "end": 106.89
+  },
+  {
+    "text": "five,",
+    "start": 106.89,
+    "end": 107.45
+  },
+  {
+    "text": "six,",
+    "start": 107.69,
+    "end": 108.49
+  },
+  {
+    "text": "nine,",
+    "start": 108.49,
+    "end": 109.61
+  },
+  {
+    "text": "two,",
+    "start": 109.61,
+    "end": 110.33
+  },
+  {
+    "text": "four,",
+    "start": 110.33,
+    "end": 111.13
+  },
+  {
+    "text": "seven,",
+    "start": 111.13,
+    "end": 111.93
+  },
+  {
+    "text": "nine.",
+    "start": 111.93,
+    "end": 112.97
+  },
+  {
+    "text": "That's",
+    "start": 112.97,
+    "end": 113.37
+  },
+  {
+    "text": "fifty.",
+    "start": 113.37,
+    "end": 114.25
+  },
+  {
+    "text": "And",
+    "start": 114.25,
+    "end": 114.49
+  },
+  {
+    "text": "here's",
+    "start": 114.49,
+    "end": 114.81
+  },
+  {
+    "text": "the",
+    "start": 114.81,
+    "end": 114.89
+  },
+  {
+    "text": "rule.",
+    "start": 114.89,
+    "end": 115.45
+  },
+  {
+    "text": "If",
+    "start": 115.45,
+    "end": 115.69
+  },
+  {
+    "text": "the",
+    "start": 115.69,
+    "end": 115.77
+  },
+  {
+    "text": "total",
+    "start": 115.77,
+    "end": 116.17
+  },
+  {
+    "text": "ends",
+    "start": 116.17,
+    "end": 116.41
+  },
+  {
+    "text": "in",
+    "start": 116.41,
+    "end": 116.57
+  },
+  {
+    "text": "zero,",
+    "start": 116.57,
+    "end": 117.13
+  },
+  {
+    "text": "the",
+    "start": 117.13,
+    "end": 117.29
+  },
+  {
+    "text": "number",
+    "start": 117.29,
+    "end": 117.69
+  },
+  {
+    "text": "passes.",
+    "start": 117.69,
+    "end": 118.49
+  },
+  {
+    "text": "Fifth",
+    "start": 118.49,
+    "end": 119.21
+  },
+  {
+    "text": "in",
+    "start": 119.21,
+    "end": 119.45
+  },
+  {
+    "text": "zero,",
+    "start": 119.45,
+    "end": 119.85
+  },
+  {
+    "text": "so",
+    "start": 119.85,
+    "end": 120.09
+  },
+  {
+    "text": "this",
+    "start": 120.09,
+    "end": 120.33
+  },
+  {
+    "text": "example",
+    "start": 120.33,
+    "end": 120.73
+  },
+  {
+    "text": "passes",
+    "start": 120.73,
+    "end": 121.13
+  },
+  {
+    "text": "the",
+    "start": 121.13,
+    "end": 121.29
+  },
+  {
+    "text": "loon",
+    "start": 121.29,
+    "end": 121.69
+  },
+  {
+    "text": "check.",
+    "start": 121.85,
+    "end": 122.41
+  },
+  {
+    "text": "The",
+    "start": 122.41,
+    "end": 122.57
+  },
+  {
+    "text": "check",
+    "start": 122.57,
+    "end": 122.97
+  },
+  {
+    "text": "digit,",
+    "start": 122.97,
+    "end": 123.45
+  },
+  {
+    "text": "that",
+    "start": 123.45,
+    "end": 123.69
+  },
+  {
+    "text": "last",
+    "start": 123.69,
+    "end": 124.01
+  },
+  {
+    "text": "nine,",
+    "start": 124.09,
+    "end": 124.49
+  },
+  {
+    "text": "was",
+    "start": 124.65,
+    "end": 124.81
+  },
+  {
+    "text": "chosen",
+    "start": 124.81,
+    "end": 125.21
+  },
+  {
+    "text": "to",
+    "start": 125.21,
+    "end": 125.37
+  },
+  {
+    "text": "make",
+    "start": 125.37,
+    "end": 125.53
+  },
+  {
+    "text": "that",
+    "start": 125.53,
+    "end": 125.69
+  },
+  {
+    "text": "happen.",
+    "start": 125.69,
+    "end": 126.33
+  },
+  {
+    "text": "So",
+    "start": 126.88,
+    "end": 127.12
+  },
+  {
+    "text": "how",
+    "start": 127.2,
+    "end": 127.52
+  },
+  {
+    "text": "is",
+    "start": 127.52,
+    "end": 127.76
+  },
+  {
+    "text": "that",
+    "start": 127.76,
+    "end": 127.92
+  },
+  {
+    "text": "last",
+    "start": 127.92,
+    "end": 128.16
+  },
+  {
+    "text": "digit",
+    "start": 128.16,
+    "end": 128.64
+  },
+  {
+    "text": "chosen?",
+    "start": 128.64,
+    "end": 129.52
+  },
+  {
+    "text": "Leave",
+    "start": 129.52,
+    "end": 130
+  },
+  {
+    "text": "a",
+    "start": 130,
+    "end": 130.16
+  },
+  {
+    "text": "space",
+    "start": 130.16,
+    "end": 130.48
+  },
+  {
+    "text": "for",
+    "start": 130.48,
+    "end": 130.64
+  },
+  {
+    "text": "the",
+    "start": 130.64,
+    "end": 130.72
+  },
+  {
+    "text": "check",
+    "start": 130.72,
+    "end": 131.04
+  },
+  {
+    "text": "digit,",
+    "start": 131.12,
+    "end": 131.6
+  },
+  {
+    "text": "then",
+    "start": 131.6,
+    "end": 131.76
+  },
+  {
+    "text": "work",
+    "start": 131.84,
+    "end": 132.08
+  },
+  {
+    "text": "from",
+    "start": 132.08,
+    "end": 132.24
+  },
+  {
+    "text": "right",
+    "start": 132.24,
+    "end": 132.56
+  },
+  {
+    "text": "to",
+    "start": 132.56,
+    "end": 132.72
+  },
+  {
+    "text": "left,",
+    "start": 132.72,
+    "end": 133.04
+  },
+  {
+    "text": "starting",
+    "start": 133.04,
+    "end": 133.44
+  },
+  {
+    "text": "by",
+    "start": 133.44,
+    "end": 133.6
+  },
+  {
+    "text": "doubling",
+    "start": 133.6,
+    "end": 134
+  },
+  {
+    "text": "the",
+    "start": 134,
+    "end": 134.08
+  },
+  {
+    "text": "digit",
+    "start": 134.08,
+    "end": 134.48
+  },
+  {
+    "text": "next",
+    "start": 134.48,
+    "end": 134.72
+  },
+  {
+    "text": "to",
+    "start": 134.72,
+    "end": 134.88
+  },
+  {
+    "text": "that",
+    "start": 134.88,
+    "end": 135.12
+  },
+  {
+    "text": "space.",
+    "start": 135.12,
+    "end": 135.92
+  },
+  {
+    "text": "Here",
+    "start": 135.92,
+    "end": 136.24
+  },
+  {
+    "text": "the",
+    "start": 136.32,
+    "end": 136.48
+  },
+  {
+    "text": "first",
+    "start": 136.48,
+    "end": 136.72
+  },
+  {
+    "text": "seven",
+    "start": 136.72,
+    "end": 137.04
+  },
+  {
+    "text": "digits",
+    "start": 137.04,
+    "end": 137.52
+  },
+  {
+    "text": "add",
+    "start": 137.52,
+    "end": 137.76
+  },
+  {
+    "text": "up",
+    "start": 137.76,
+    "end": 137.92
+  },
+  {
+    "text": "to",
+    "start": 137.92,
+    "end": 138.08
+  },
+  {
+    "text": "41.",
+    "start": 138.08,
+    "end": 138.96
+  },
+  {
+    "text": "The",
+    "start": 138.96,
+    "end": 139.12
+  },
+  {
+    "text": "next",
+    "start": 139.12,
+    "end": 139.36
+  },
+  {
+    "text": "number",
+    "start": 139.36,
+    "end": 139.6
+  },
+  {
+    "text": "that",
+    "start": 139.6,
+    "end": 139.76
+  },
+  {
+    "text": "ends",
+    "start": 139.76,
+    "end": 140
+  },
+  {
+    "text": "in",
+    "start": 140,
+    "end": 140.16
+  },
+  {
+    "text": "zero",
+    "start": 140.16,
+    "end": 140.56
+  },
+  {
+    "text": "is",
+    "start": 140.64,
+    "end": 140.8
+  },
+  {
+    "text": "50.",
+    "start": 140.8,
+    "end": 141.52
+  },
+  {
+    "text": "50",
+    "start": 141.52,
+    "end": 142
+  },
+  {
+    "text": "minus",
+    "start": 142,
+    "end": 142.32
+  },
+  {
+    "text": "41",
+    "start": 142.32,
+    "end": 142.8
+  },
+  {
+    "text": "is",
+    "start": 142.96,
+    "end": 143.2
+  },
+  {
+    "text": "9.",
+    "start": 143.2,
+    "end": 143.76
+  },
+  {
+    "text": "So",
+    "start": 143.76,
+    "end": 144
+  },
+  {
+    "text": "the",
+    "start": 144,
+    "end": 144.16
+  },
+  {
+    "text": "check",
+    "start": 144.16,
+    "end": 144.48
+  },
+  {
+    "text": "digit",
+    "start": 144.48,
+    "end": 144.88
+  },
+  {
+    "text": "is",
+    "start": 144.88,
+    "end": 145.12
+  },
+  {
+    "text": "9.",
+    "start": 145.12,
+    "end": 145.84
+  },
+  {
+    "text": "If",
+    "start": 145.84,
+    "end": 146.16
+  },
+  {
+    "text": "the",
+    "start": 146.16,
+    "end": 146.24
+  },
+  {
+    "text": "total",
+    "start": 146.24,
+    "end": 146.64
+  },
+  {
+    "text": "already",
+    "start": 146.64,
+    "end": 146.96
+  },
+  {
+    "text": "ended",
+    "start": 146.96,
+    "end": 147.28
+  },
+  {
+    "text": "in",
+    "start": 147.28,
+    "end": 147.44
+  },
+  {
+    "text": "zero,",
+    "start": 147.44,
+    "end": 147.84
+  },
+  {
+    "text": "the",
+    "start": 147.84,
+    "end": 147.92
+  },
+  {
+    "text": "check",
+    "start": 147.92,
+    "end": 148.24
+  },
+  {
+    "text": "digit",
+    "start": 148.24,
+    "end": 148.56
+  },
+  {
+    "text": "would",
+    "start": 148.56,
+    "end": 148.72
+  },
+  {
+    "text": "be",
+    "start": 148.72,
+    "end": 148.88
+  },
+  {
+    "text": "0.",
+    "start": 148.88,
+    "end": 149.6
+  },
+  {
+    "text": "Change",
+    "start": 149.6,
+    "end": 150
+  },
+  {
+    "text": "any",
+    "start": 150,
+    "end": 150.24
+  },
+  {
+    "text": "one",
+    "start": 150.24,
+    "end": 150.4
+  },
+  {
+    "text": "of",
+    "start": 150.4,
+    "end": 150.48
+  },
+  {
+    "text": "the",
+    "start": 150.48,
+    "end": 150.56
+  },
+  {
+    "text": "other",
+    "start": 150.56,
+    "end": 150.72
+  },
+  {
+    "text": "digits",
+    "start": 150.72,
+    "end": 151.12
+  },
+  {
+    "text": "and",
+    "start": 151.2,
+    "end": 151.36
+  },
+  {
+    "text": "you'd",
+    "start": 151.36,
+    "end": 151.6
+  },
+  {
+    "text": "get",
+    "start": 151.6,
+    "end": 151.76
+  },
+  {
+    "text": "a",
+    "start": 151.76,
+    "end": 151.84
+  },
+  {
+    "text": "different",
+    "start": 151.84,
+    "end": 152.08
+  },
+  {
+    "text": "check",
+    "start": 152.08,
+    "end": 152.4
+  },
+  {
+    "text": "digit.",
+    "start": 152.4,
+    "end": 152.96
+  },
+  {
+    "text": "That's",
+    "start": 152.96,
+    "end": 153.2
+  },
+  {
+    "text": "how",
+    "start": 153.2,
+    "end": 153.36
+  },
+  {
+    "text": "a",
+    "start": 153.36,
+    "end": 153.52
+  },
+  {
+    "text": "loon",
+    "start": 153.52,
+    "end": 153.92
+  },
+  {
+    "text": "check",
+    "start": 153.92,
+    "end": 154.16
+  },
+  {
+    "text": "digit",
+    "start": 154.16,
+    "end": 154.48
+  },
+  {
+    "text": "is",
+    "start": 154.48,
+    "end": 154.64
+  },
+  {
+    "text": "chosen.",
+    "start": 154.64,
+    "end": 155.36
+  },
+  {
+    "text": "Now",
+    "start": 155.36,
+    "end": 155.6
+  },
+  {
+    "text": "make",
+    "start": 155.76,
+    "end": 156.08
+  },
+  {
+    "text": "a",
+    "start": 156.08,
+    "end": 156.16
+  },
+  {
+    "text": "typo.",
+    "start": 156.16,
+    "end": 156.88
+  },
+  {
+    "text": "Say",
+    "start": 156.88,
+    "end": 157.12
+  },
+  {
+    "text": "you",
+    "start": 157.12,
+    "end": 157.28
+  },
+  {
+    "text": "type",
+    "start": 157.28,
+    "end": 157.52
+  },
+  {
+    "text": "a",
+    "start": 157.52,
+    "end": 157.68
+  },
+  {
+    "text": "7,",
+    "start": 157.68,
+    "end": 158.08
+  },
+  {
+    "text": "where",
+    "start": 158.08,
+    "end": 158.32
+  },
+  {
+    "text": "the",
+    "start": 158.32,
+    "end": 158.4
+  },
+  {
+    "text": "second",
+    "start": 158.4,
+    "end": 158.72
+  },
+  {
+    "text": "four",
+    "start": 158.72,
+    "end": 159.12
+  },
+  {
+    "text": "should",
+    "start": 159.12,
+    "end": 159.36
+  },
+  {
+    "text": "be.",
+    "start": 159.36,
+    "end": 159.76
+  },
+  {
+    "text": "45391789.",
+    "start": 159.76,
+    "end": 163.36
+  },
+  {
+    "text": "That",
+    "start": 163.36,
+    "end": 163.6
+  },
+  {
+    "text": "digit",
+    "start": 163.6,
+    "end": 164
+  },
+  {
+    "text": "wasn't",
+    "start": 164,
+    "end": 164.32
+  },
+  {
+    "text": "doubled,",
+    "start": 164.32,
+    "end": 164.88
+  },
+  {
+    "text": "so",
+    "start": 164.88,
+    "end": 165.04
+  },
+  {
+    "text": "the",
+    "start": 165.04,
+    "end": 165.2
+  },
+  {
+    "text": "total",
+    "start": 165.2,
+    "end": 165.52
+  },
+  {
+    "text": "goes",
+    "start": 165.52,
+    "end": 165.76
+  },
+  {
+    "text": "up",
+    "start": 165.76,
+    "end": 165.92
+  },
+  {
+    "text": "by",
+    "start": 165.92,
+    "end": 166.08
+  },
+  {
+    "text": "3",
+    "start": 166.08,
+    "end": 166.48
+  },
+  {
+    "text": "to",
+    "start": 166.56,
+    "end": 166.8
+  },
+  {
+    "text": "53.",
+    "start": 166.8,
+    "end": 167.76
+  },
+  {
+    "text": "53",
+    "start": 167.76,
+    "end": 168.24
+  },
+  {
+    "text": "doesn't",
+    "start": 168.48,
+    "end": 168.8
+  },
+  {
+    "text": "end",
+    "start": 168.8,
+    "end": 168.96
+  },
+  {
+    "text": "in",
+    "start": 168.96,
+    "end": 169.12
+  },
+  {
+    "text": "zero.",
+    "start": 169.12,
+    "end": 169.68
+  },
+  {
+    "text": "The",
+    "start": 169.68,
+    "end": 169.84
+  },
+  {
+    "text": "number",
+    "start": 169.84,
+    "end": 170.08
+  },
+  {
+    "text": "fails",
+    "start": 170.08,
+    "end": 170.56
+  },
+  {
+    "text": "the",
+    "start": 170.56,
+    "end": 170.72
+  },
+  {
+    "text": "check,",
+    "start": 170.72,
+    "end": 171.12
+  },
+  {
+    "text": "and",
+    "start": 171.12,
+    "end": 171.28
+  },
+  {
+    "text": "the",
+    "start": 171.28,
+    "end": 171.44
+  },
+  {
+    "text": "form",
+    "start": 171.44,
+    "end": 171.76
+  },
+  {
+    "text": "can",
+    "start": 171.76,
+    "end": 171.92
+  },
+  {
+    "text": "flag",
+    "start": 171.92,
+    "end": 172.32
+  },
+  {
+    "text": "it",
+    "start": 172.32,
+    "end": 172.56
+  },
+  {
+    "text": "right",
+    "start": 172.56,
+    "end": 172.88
+  },
+  {
+    "text": "there.",
+    "start": 172.88,
+    "end": 173.52
+  },
+  {
+    "text": "Here's",
+    "start": 173.52,
+    "end": 173.92
+  },
+  {
+    "text": "why",
+    "start": 173.92,
+    "end": 174.24
+  },
+  {
+    "text": "this",
+    "start": 174.24,
+    "end": 174.48
+  },
+  {
+    "text": "never",
+    "start": 174.48,
+    "end": 174.72
+  },
+  {
+    "text": "misses",
+    "start": 174.72,
+    "end": 175.12
+  },
+  {
+    "text": "a",
+    "start": 175.12,
+    "end": 175.2
+  },
+  {
+    "text": "typo",
+    "start": 175.2,
+    "end": 175.76
+  },
+  {
+    "text": "that",
+    "start": 175.76,
+    "end": 175.92
+  },
+  {
+    "text": "replaces",
+    "start": 175.92,
+    "end": 176.4
+  },
+  {
+    "text": "one",
+    "start": 176.4,
+    "end": 176.56
+  },
+  {
+    "text": "digit",
+    "start": 176.56,
+    "end": 176.96
+  },
+  {
+    "text": "with",
+    "start": 176.96,
+    "end": 177.12
+  },
+  {
+    "text": "another.",
+    "start": 177.12,
+    "end": 177.76
+  },
+  {
+    "text": "For",
+    "start": 177.76,
+    "end": 177.92
+  },
+  {
+    "text": "the",
+    "start": 177.92,
+    "end": 178.08
+  },
+  {
+    "text": "digits",
+    "start": 178.08,
+    "end": 178.48
+  },
+  {
+    "text": "that",
+    "start": 178.48,
+    "end": 178.56
+  },
+  {
+    "text": "aren't",
+    "start": 178.56,
+    "end": 178.8
+  },
+  {
+    "text": "doubled,",
+    "start": 178.8,
+    "end": 179.44
+  },
+  {
+    "text": "changing",
+    "start": 179.44,
+    "end": 179.92
+  },
+  {
+    "text": "one",
+    "start": 179.92,
+    "end": 180.08
+  },
+  {
+    "text": "changes",
+    "start": 180.32,
+    "end": 180.64
+  },
+  {
+    "text": "the",
+    "start": 180.64,
+    "end": 180.8
+  },
+  {
+    "text": "total",
+    "start": 180.8,
+    "end": 181.2
+  },
+  {
+    "text": "by",
+    "start": 181.2,
+    "end": 181.36
+  },
+  {
+    "text": "one",
+    "start": 181.36,
+    "end": 181.52
+  },
+  {
+    "text": "to",
+    "start": 181.68,
+    "end": 181.92
+  },
+  {
+    "text": "nine.",
+    "start": 181.92,
+    "end": 182.56
+  },
+  {
+    "text": "That",
+    "start": 182.56,
+    "end": 182.88
+  },
+  {
+    "text": "can",
+    "start": 182.88,
+    "end": 183.12
+  },
+  {
+    "text": "never",
+    "start": 183.12,
+    "end": 183.36
+  },
+  {
+    "text": "land",
+    "start": 183.36,
+    "end": 183.6
+  },
+  {
+    "text": "on",
+    "start": 183.6,
+    "end": 183.76
+  },
+  {
+    "text": "another",
+    "start": 183.76,
+    "end": 184
+  },
+  {
+    "text": "number",
+    "start": 184,
+    "end": 184.32
+  },
+  {
+    "text": "ending",
+    "start": 184.32,
+    "end": 184.56
+  },
+  {
+    "text": "in",
+    "start": 184.56,
+    "end": 184.8
+  },
+  {
+    "text": "zero.",
+    "start": 184.8,
+    "end": 185.36
+  },
+  {
+    "text": "For",
+    "start": 185.71,
+    "end": 185.87
+  },
+  {
+    "text": "double",
+    "start": 185.87,
+    "end": 186.27
+  },
+  {
+    "text": "digits,",
+    "start": 186.27,
+    "end": 186.91
+  },
+  {
+    "text": "look",
+    "start": 186.91,
+    "end": 187.15
+  },
+  {
+    "text": "at",
+    "start": 187.15,
+    "end": 187.31
+  },
+  {
+    "text": "what",
+    "start": 187.31,
+    "end": 187.55
+  },
+  {
+    "text": "each",
+    "start": 187.55,
+    "end": 187.79
+  },
+  {
+    "text": "one",
+    "start": 187.79,
+    "end": 188.03
+  },
+  {
+    "text": "turns",
+    "start": 188.03,
+    "end": 188.35
+  },
+  {
+    "text": "into.",
+    "start": 188.35,
+    "end": 188.99
+  },
+  {
+    "text": "Zero",
+    "start": 188.99,
+    "end": 189.39
+  },
+  {
+    "text": "through",
+    "start": 189.39,
+    "end": 189.71
+  },
+  {
+    "text": "nine",
+    "start": 189.71,
+    "end": 189.95
+  },
+  {
+    "text": "become",
+    "start": 190.03,
+    "end": 190.43
+  },
+  {
+    "text": "zero,",
+    "start": 190.43,
+    "end": 190.91
+  },
+  {
+    "text": "two,",
+    "start": 190.99,
+    "end": 191.31
+  },
+  {
+    "text": "four,",
+    "start": 191.39,
+    "end": 191.71
+  },
+  {
+    "text": "six,",
+    "start": 191.79,
+    "end": 192.19
+  },
+  {
+    "text": "eight,",
+    "start": 192.27,
+    "end": 192.59
+  },
+  {
+    "text": "one,",
+    "start": 192.75,
+    "end": 193.23
+  },
+  {
+    "text": "three,",
+    "start": 193.23,
+    "end": 193.47
+  },
+  {
+    "text": "five,",
+    "start": 193.55,
+    "end": 193.87
+  },
+  {
+    "text": "seven,",
+    "start": 193.95,
+    "end": 194.27
+  },
+  {
+    "text": "nine.",
+    "start": 194.35,
+    "end": 194.99
+  },
+  {
+    "text": "All",
+    "start": 194.99,
+    "end": 195.23
+  },
+  {
+    "text": "ten",
+    "start": 195.23,
+    "end": 195.47
+  },
+  {
+    "text": "results",
+    "start": 195.63,
+    "end": 196.03
+  },
+  {
+    "text": "are",
+    "start": 196.03,
+    "end": 196.19
+  },
+  {
+    "text": "different.",
+    "start": 196.19,
+    "end": 196.99
+  },
+  {
+    "text": "So",
+    "start": 196.99,
+    "end": 197.31
+  },
+  {
+    "text": "changing",
+    "start": 197.31,
+    "end": 197.87
+  },
+  {
+    "text": "any",
+    "start": 197.87,
+    "end": 198.11
+  },
+  {
+    "text": "one",
+    "start": 198.11,
+    "end": 198.35
+  },
+  {
+    "text": "digit",
+    "start": 198.35,
+    "end": 198.91
+  },
+  {
+    "text": "always",
+    "start": 198.91,
+    "end": 199.23
+  },
+  {
+    "text": "changes",
+    "start": 199.23,
+    "end": 199.71
+  },
+  {
+    "text": "the",
+    "start": 199.71,
+    "end": 199.79
+  },
+  {
+    "text": "total",
+    "start": 199.79,
+    "end": 200.19
+  },
+  {
+    "text": "by",
+    "start": 200.19,
+    "end": 200.43
+  },
+  {
+    "text": "something",
+    "start": 200.43,
+    "end": 200.67
+  },
+  {
+    "text": "that",
+    "start": 200.67,
+    "end": 200.83
+  },
+  {
+    "text": "isn't",
+    "start": 200.83,
+    "end": 201.15
+  },
+  {
+    "text": "a",
+    "start": 201.15,
+    "end": 201.31
+  },
+  {
+    "text": "multiple",
+    "start": 201.31,
+    "end": 201.71
+  },
+  {
+    "text": "of",
+    "start": 201.71,
+    "end": 201.95
+  },
+  {
+    "text": "ten.",
+    "start": 201.95,
+    "end": 202.67
+  },
+  {
+    "text": "Another",
+    "start": 202.67,
+    "end": 203.07
+  },
+  {
+    "text": "common",
+    "start": 203.07,
+    "end": 203.47
+  },
+  {
+    "text": "typing",
+    "start": 203.47,
+    "end": 203.87
+  },
+  {
+    "text": "mistake",
+    "start": 203.87,
+    "end": 204.27
+  },
+  {
+    "text": "is",
+    "start": 204.27,
+    "end": 204.43
+  },
+  {
+    "text": "swapping",
+    "start": 204.43,
+    "end": 204.91
+  },
+  {
+    "text": "two",
+    "start": 204.91,
+    "end": 205.15
+  },
+  {
+    "text": "neighbors.",
+    "start": 205.15,
+    "end": 205.79
+  },
+  {
+    "text": "Type",
+    "start": 205.79,
+    "end": 206.11
+  },
+  {
+    "text": "39",
+    "start": 206.11,
+    "end": 206.59
+  },
+  {
+    "text": "is",
+    "start": 206.75,
+    "end": 206.91
+  },
+  {
+    "text": "93,",
+    "start": 206.91,
+    "end": 207.79
+  },
+  {
+    "text": "and",
+    "start": 207.79,
+    "end": 207.95
+  },
+  {
+    "text": "a",
+    "start": 207.95,
+    "end": 208.11
+  },
+  {
+    "text": "plain",
+    "start": 208.11,
+    "end": 208.51
+  },
+  {
+    "text": "sum",
+    "start": 208.51,
+    "end": 208.75
+  },
+  {
+    "text": "wouldn't",
+    "start": 208.91,
+    "end": 209.23
+  },
+  {
+    "text": "notice,",
+    "start": 209.23,
+    "end": 209.71
+  },
+  {
+    "text": "because",
+    "start": 209.71,
+    "end": 209.95
+  },
+  {
+    "text": "the",
+    "start": 209.95,
+    "end": 210.03
+  },
+  {
+    "text": "same",
+    "start": 210.03,
+    "end": 210.27
+  },
+  {
+    "text": "digits",
+    "start": 210.27,
+    "end": 210.75
+  },
+  {
+    "text": "are",
+    "start": 210.75,
+    "end": 210.91
+  },
+  {
+    "text": "still",
+    "start": 210.91,
+    "end": 211.23
+  },
+  {
+    "text": "there.",
+    "start": 211.23,
+    "end": 211.79
+  },
+  {
+    "text": "But",
+    "start": 211.79,
+    "end": 212.11
+  },
+  {
+    "text": "one",
+    "start": 212.11,
+    "end": 212.35
+  },
+  {
+    "text": "of",
+    "start": 212.35,
+    "end": 212.43
+  },
+  {
+    "text": "the",
+    "start": 212.43,
+    "end": 212.59
+  },
+  {
+    "text": "pairs",
+    "start": 212.59,
+    "end": 213.15
+  },
+  {
+    "text": "doubled",
+    "start": 213.15,
+    "end": 213.63
+  },
+  {
+    "text": "and",
+    "start": 213.63,
+    "end": 213.79
+  },
+  {
+    "text": "the",
+    "start": 213.79,
+    "end": 213.95
+  },
+  {
+    "text": "other",
+    "start": 213.95,
+    "end": 214.19
+  },
+  {
+    "text": "isn't.",
+    "start": 214.19,
+    "end": 214.99
+  },
+  {
+    "text": "Three",
+    "start": 214.99,
+    "end": 215.39
+  },
+  {
+    "text": "double",
+    "start": 215.39,
+    "end": 215.79
+  },
+  {
+    "text": "plus",
+    "start": 215.87,
+    "end": 216.11
+  },
+  {
+    "text": "nine,",
+    "start": 216.11,
+    "end": 216.43
+  },
+  {
+    "text": "which",
+    "start": 216.51,
+    "end": 216.67
+  },
+  {
+    "text": "is",
+    "start": 216.67,
+    "end": 216.75
+  },
+  {
+    "text": "15,",
+    "start": 216.75,
+    "end": 217.47
+  },
+  {
+    "text": "becomes",
+    "start": 217.47,
+    "end": 217.79
+  },
+  {
+    "text": "nine",
+    "start": 217.79,
+    "end": 218.11
+  },
+  {
+    "text": "double",
+    "start": 218.19,
+    "end": 218.51
+  },
+  {
+    "text": "plus",
+    "start": 218.67,
+    "end": 218.91
+  },
+  {
+    "text": "three,",
+    "start": 218.91,
+    "end": 219.31
+  },
+  {
+    "text": "which",
+    "start": 219.31,
+    "end": 219.47
+  },
+  {
+    "text": "is",
+    "start": 219.47,
+    "end": 219.63
+  },
+  {
+    "text": "twelve.",
+    "start": 219.63,
+    "end": 220.43
+  },
+  {
+    "text": "The",
+    "start": 220.43,
+    "end": 220.59
+  },
+  {
+    "text": "total",
+    "start": 220.59,
+    "end": 220.91
+  },
+  {
+    "text": "drops",
+    "start": 220.91,
+    "end": 221.31
+  },
+  {
+    "text": "to",
+    "start": 221.31,
+    "end": 221.47
+  },
+  {
+    "text": "47.",
+    "start": 221.47,
+    "end": 222.51
+  },
+  {
+    "text": "Caught.",
+    "start": 222.51,
+    "end": 223.31
+  },
+  {
+    "text": "It",
+    "start": 223.55,
+    "end": 223.79
+  },
+  {
+    "text": "isn't",
+    "start": 223.79,
+    "end": 224.19
+  },
+  {
+    "text": "perfect.",
+    "start": 224.19,
+    "end": 224.91
+  },
+  {
+    "text": "Swap",
+    "start": 224.91,
+    "end": 225.39
+  },
+  {
+    "text": "a",
+    "start": 225.39,
+    "end": 225.55
+  },
+  {
+    "text": "zero",
+    "start": 225.55,
+    "end": 225.87
+  },
+  {
+    "text": "and",
+    "start": 225.87,
+    "end": 226.03
+  },
+  {
+    "text": "a",
+    "start": 226.03,
+    "end": 226.11
+  },
+  {
+    "text": "nine",
+    "start": 226.11,
+    "end": 226.43
+  },
+  {
+    "text": "that",
+    "start": 226.43,
+    "end": 226.59
+  },
+  {
+    "text": "sit",
+    "start": 226.59,
+    "end": 226.83
+  },
+  {
+    "text": "side",
+    "start": 226.83,
+    "end": 227.07
+  },
+  {
+    "text": "by",
+    "start": 227.07,
+    "end": 227.31
+  },
+  {
+    "text": "side,",
+    "start": 227.31,
+    "end": 227.71
+  },
+  {
+    "text": "and",
+    "start": 227.71,
+    "end": 227.87
+  },
+  {
+    "text": "the",
+    "start": 227.87,
+    "end": 228.03
+  },
+  {
+    "text": "total",
+    "start": 228.03,
+    "end": 228.35
+  },
+  {
+    "text": "doesn't",
+    "start": 228.35,
+    "end": 228.67
+  },
+  {
+    "text": "change",
+    "start": 228.67,
+    "end": 228.91
+  },
+  {
+    "text": "because",
+    "start": 228.99,
+    "end": 229.31
+  },
+  {
+    "text": "zero",
+    "start": 229.31,
+    "end": 229.63
+  },
+  {
+    "text": "doubled",
+    "start": 229.71,
+    "end": 230.19
+  },
+  {
+    "text": "is",
+    "start": 230.19,
+    "end": 230.35
+  },
+  {
+    "text": "zero,",
+    "start": 230.35,
+    "end": 230.75
+  },
+  {
+    "text": "and",
+    "start": 230.75,
+    "end": 230.99
+  },
+  {
+    "text": "nine",
+    "start": 230.99,
+    "end": 231.31
+  },
+  {
+    "text": "doubled",
+    "start": 231.39,
+    "end": 231.87
+  },
+  {
+    "text": "folds",
+    "start": 231.87,
+    "end": 232.19
+  },
+  {
+    "text": "back",
+    "start": 232.19,
+    "end": 232.35
+  },
+  {
+    "text": "to",
+    "start": 232.35,
+    "end": 232.51
+  },
+  {
+    "text": "nine.",
+    "start": 232.51,
+    "end": 233.07
+  },
+  {
+    "text": "That's",
+    "start": 233.07,
+    "end": 233.47
+  },
+  {
+    "text": "the",
+    "start": 233.47,
+    "end": 233.63
+  },
+  {
+    "text": "only",
+    "start": 233.63,
+    "end": 233.87
+  },
+  {
+    "text": "swap",
+    "start": 233.87,
+    "end": 234.27
+  },
+  {
+    "text": "of",
+    "start": 234.27,
+    "end": 234.43
+  },
+  {
+    "text": "two",
+    "start": 234.43,
+    "end": 234.59
+  },
+  {
+    "text": "different",
+    "start": 234.59,
+    "end": 234.83
+  },
+  {
+    "text": "neighbors",
+    "start": 234.83,
+    "end": 235.23
+  },
+  {
+    "text": "it",
+    "start": 235.31,
+    "end": 235.47
+  },
+  {
+    "text": "misses.",
+    "start": 235.47,
+    "end": 236.19
+  },
+  {
+    "text": "Two",
+    "start": 236.19,
+    "end": 236.59
+  },
+  {
+    "text": "wrong",
+    "start": 236.59,
+    "end": 236.91
+  },
+  {
+    "text": "digits",
+    "start": 236.91,
+    "end": 237.31
+  },
+  {
+    "text": "can",
+    "start": 237.39,
+    "end": 237.55
+  },
+  {
+    "text": "sometimes",
+    "start": 237.55,
+    "end": 237.95
+  },
+  {
+    "text": "cancel",
+    "start": 237.95,
+    "end": 238.35
+  },
+  {
+    "text": "each",
+    "start": 238.35,
+    "end": 238.59
+  },
+  {
+    "text": "other",
+    "start": 238.59,
+    "end": 238.83
+  },
+  {
+    "text": "out.",
+    "start": 238.83,
+    "end": 239.31
+  },
+  {
+    "text": "And",
+    "start": 239.31,
+    "end": 239.63
+  },
+  {
+    "text": "passing",
+    "start": 239.63,
+    "end": 240.03
+  },
+  {
+    "text": "the",
+    "start": 240.03,
+    "end": 240.19
+  },
+  {
+    "text": "check",
+    "start": 240.19,
+    "end": 240.51
+  },
+  {
+    "text": "only",
+    "start": 240.51,
+    "end": 240.75
+  },
+  {
+    "text": "tells",
+    "start": 240.75,
+    "end": 240.99
+  },
+  {
+    "text": "you",
+    "start": 240.99,
+    "end": 241.15
+  },
+  {
+    "text": "the",
+    "start": 241.15,
+    "end": 241.23
+  },
+  {
+    "text": "arithmetic",
+    "start": 241.23,
+    "end": 242.03
+  },
+  {
+    "text": "works.",
+    "start": 242.03,
+    "end": 242.43
+  },
+  {
+    "text": "It",
+    "start": 242.43,
+    "end": 242.59
+  },
+  {
+    "text": "can't",
+    "start": 242.67,
+    "end": 242.91
+  },
+  {
+    "text": "tell",
+    "start": 242.91,
+    "end": 243.07
+  },
+  {
+    "text": "you",
+    "start": 243.07,
+    "end": 243.15
+  },
+  {
+    "text": "whether",
+    "start": 243.15,
+    "end": 243.47
+  },
+  {
+    "text": "the",
+    "start": 243.47,
+    "end": 243.55
+  },
+  {
+    "text": "card",
+    "start": 243.55,
+    "end": 243.79
+  },
+  {
+    "text": "was",
+    "start": 243.79,
+    "end": 243.95
+  },
+  {
+    "text": "issued,",
+    "start": 243.95,
+    "end": 244.59
+  },
+  {
+    "text": "who",
+    "start": 244.59,
+    "end": 244.83
+  },
+  {
+    "text": "owns",
+    "start": 244.83,
+    "end": 245.15
+  },
+  {
+    "text": "it,",
+    "start": 245.15,
+    "end": 245.39
+  },
+  {
+    "text": "or",
+    "start": 245.39,
+    "end": 245.63
+  },
+  {
+    "text": "whether",
+    "start": 245.63,
+    "end": 245.95
+  },
+  {
+    "text": "a",
+    "start": 245.95,
+    "end": 246.11
+  },
+  {
+    "text": "payment",
+    "start": 246.11,
+    "end": 246.43
+  },
+  {
+    "text": "will",
+    "start": 246.43,
+    "end": 246.59
+  },
+  {
+    "text": "be",
+    "start": 246.59,
+    "end": 246.75
+  },
+  {
+    "text": "approved.",
+    "start": 246.75,
+    "end": 247.39
+  },
+  {
+    "text": "Once",
+    "start": 247.82,
+    "end": 248.14
+  },
+  {
+    "text": "you",
+    "start": 248.14,
+    "end": 248.38
+  },
+  {
+    "text": "know",
+    "start": 248.38,
+    "end": 248.54
+  },
+  {
+    "text": "the",
+    "start": 248.54,
+    "end": 248.7
+  },
+  {
+    "text": "trick,",
+    "start": 248.7,
+    "end": 249.1
+  },
+  {
+    "text": "you'll",
+    "start": 249.1,
+    "end": 249.42
+  },
+  {
+    "text": "find",
+    "start": 249.42,
+    "end": 249.66
+  },
+  {
+    "text": "check",
+    "start": 249.66,
+    "end": 249.98
+  },
+  {
+    "text": "digits",
+    "start": 249.98,
+    "end": 250.54
+  },
+  {
+    "text": "everywhere.",
+    "start": 250.54,
+    "end": 251.34
+  },
+  {
+    "text": "The",
+    "start": 251.34,
+    "end": 251.58
+  },
+  {
+    "text": "last",
+    "start": 251.58,
+    "end": 251.82
+  },
+  {
+    "text": "digit",
+    "start": 251.82,
+    "end": 252.22
+  },
+  {
+    "text": "in",
+    "start": 252.22,
+    "end": 252.38
+  },
+  {
+    "text": "a",
+    "start": 252.38,
+    "end": 252.46
+  },
+  {
+    "text": "standard",
+    "start": 252.46,
+    "end": 252.86
+  },
+  {
+    "text": "UPC",
+    "start": 252.86,
+    "end": 253.5
+  },
+  {
+    "text": "or",
+    "start": 253.5,
+    "end": 253.66
+  },
+  {
+    "text": "EAN",
+    "start": 253.66,
+    "end": 253.98
+  },
+  {
+    "text": "barcode",
+    "start": 254.3,
+    "end": 254.94
+  },
+  {
+    "text": "is",
+    "start": 254.94,
+    "end": 255.1
+  },
+  {
+    "text": "a",
+    "start": 255.1,
+    "end": 255.18
+  },
+  {
+    "text": "check",
+    "start": 255.18,
+    "end": 255.42
+  },
+  {
+    "text": "digit.",
+    "start": 255.42,
+    "end": 255.98
+  },
+  {
+    "text": "It",
+    "start": 255.98,
+    "end": 256.14
+  },
+  {
+    "text": "uses",
+    "start": 256.14,
+    "end": 256.46
+  },
+  {
+    "text": "alternating",
+    "start": 256.46,
+    "end": 257.1
+  },
+  {
+    "text": "weights",
+    "start": 257.1,
+    "end": 257.42
+  },
+  {
+    "text": "of",
+    "start": 257.42,
+    "end": 257.58
+  },
+  {
+    "text": "one",
+    "start": 257.58,
+    "end": 257.74
+  },
+  {
+    "text": "and",
+    "start": 257.9,
+    "end": 258.06
+  },
+  {
+    "text": "three.",
+    "start": 258.06,
+    "end": 258.62
+  },
+  {
+    "text": "A",
+    "start": 258.62,
+    "end": 258.78
+  },
+  {
+    "text": "book's",
+    "start": 258.78,
+    "end": 259.26
+  },
+  {
+    "text": "13",
+    "start": 259.26,
+    "end": 259.58
+  },
+  {
+    "text": "digit",
+    "start": 259.66,
+    "end": 260.06
+  },
+  {
+    "text": "ISBN",
+    "start": 260.06,
+    "end": 260.78
+  },
+  {
+    "text": "uses",
+    "start": 260.78,
+    "end": 261.02
+  },
+  {
+    "text": "those",
+    "start": 261.02,
+    "end": 261.26
+  },
+  {
+    "text": "same",
+    "start": 261.26,
+    "end": 261.5
+  },
+  {
+    "text": "weights,",
+    "start": 261.5,
+    "end": 262.06
+  },
+  {
+    "text": "and",
+    "start": 262.06,
+    "end": 262.22
+  },
+  {
+    "text": "the",
+    "start": 262.22,
+    "end": 262.38
+  },
+  {
+    "text": "15",
+    "start": 262.38,
+    "end": 262.7
+  },
+  {
+    "text": "digit",
+    "start": 262.78,
+    "end": 263.18
+  },
+  {
+    "text": "IMEI",
+    "start": 263.18,
+    "end": 263.98
+  },
+  {
+    "text": "you",
+    "start": 263.98,
+    "end": 264.14
+  },
+  {
+    "text": "see",
+    "start": 264.14,
+    "end": 264.3
+  },
+  {
+    "text": "on",
+    "start": 264.3,
+    "end": 264.46
+  },
+  {
+    "text": "your",
+    "start": 264.46,
+    "end": 264.54
+  },
+  {
+    "text": "phone",
+    "start": 264.54,
+    "end": 264.86
+  },
+  {
+    "text": "ends",
+    "start": 264.86,
+    "end": 265.18
+  },
+  {
+    "text": "in",
+    "start": 265.18,
+    "end": 265.26
+  },
+  {
+    "text": "a",
+    "start": 265.26,
+    "end": 265.42
+  },
+  {
+    "text": "lune",
+    "start": 265.42,
+    "end": 265.9
+  },
+  {
+    "text": "check",
+    "start": 265.9,
+    "end": 266.22
+  },
+  {
+    "text": "digit.",
+    "start": 266.22,
+    "end": 266.7
+  },
+  {
+    "text": "The",
+    "start": 266.7,
+    "end": 266.86
+  },
+  {
+    "text": "deta,",
+    "start": 266.86,
+    "end": 267.74
+  },
+  {
+    "text": "but",
+    "start": 267.74,
+    "end": 267.98
+  },
+  {
+    "text": "the",
+    "start": 267.98,
+    "end": 268.06
+  },
+  {
+    "text": "idea",
+    "start": 268.06,
+    "end": 268.38
+  },
+  {
+    "text": "is",
+    "start": 268.38,
+    "end": 268.54
+  },
+  {
+    "text": "the",
+    "start": 268.54,
+    "end": 268.62
+  },
+  {
+    "text": "same.",
+    "start": 268.62,
+    "end": 269.18
+  },
+  {
+    "text": "One",
+    "start": 269.18,
+    "end": 269.42
+  },
+  {
+    "text": "digit",
+    "start": 269.42,
+    "end": 269.82
+  },
+  {
+    "text": "computed",
+    "start": 269.82,
+    "end": 270.38
+  },
+  {
+    "text": "from",
+    "start": 270.38,
+    "end": 270.54
+  },
+  {
+    "text": "the",
+    "start": 270.54,
+    "end": 270.78
+  },
+  {
+    "text": "rest.",
+    "start": 270.78,
+    "end": 271.66
+  },
+  {
+    "text": "This",
+    "start": 271.66,
+    "end": 271.9
+  },
+  {
+    "text": "is",
+    "start": 271.9,
+    "end": 272.14
+  },
+  {
+    "text": "a",
+    "start": 272.14,
+    "end": 272.3
+  },
+  {
+    "text": "big",
+    "start": 272.3,
+    "end": 272.62
+  },
+  {
+    "text": "idea",
+    "start": 272.62,
+    "end": 272.94
+  },
+  {
+    "text": "in",
+    "start": 272.94,
+    "end": 273.1
+  },
+  {
+    "text": "engineering.",
+    "start": 273.1,
+    "end": 273.98
+  },
+  {
+    "text": "Add",
+    "start": 273.98,
+    "end": 274.22
+  },
+  {
+    "text": "a",
+    "start": 274.22,
+    "end": 274.3
+  },
+  {
+    "text": "little",
+    "start": 274.3,
+    "end": 274.54
+  },
+  {
+    "text": "redundancy,",
+    "start": 274.54,
+    "end": 275.42
+  },
+  {
+    "text": "one",
+    "start": 275.42,
+    "end": 275.58
+  },
+  {
+    "text": "digit",
+    "start": 275.58,
+    "end": 275.98
+  },
+  {
+    "text": "computed",
+    "start": 275.98,
+    "end": 276.46
+  },
+  {
+    "text": "from",
+    "start": 276.46,
+    "end": 276.62
+  },
+  {
+    "text": "the",
+    "start": 276.62,
+    "end": 276.7
+  },
+  {
+    "text": "others,",
+    "start": 276.7,
+    "end": 277.1
+  },
+  {
+    "text": "and",
+    "start": 277.1,
+    "end": 277.26
+  },
+  {
+    "text": "you",
+    "start": 277.26,
+    "end": 277.42
+  },
+  {
+    "text": "can",
+    "start": 277.42,
+    "end": 277.58
+  },
+  {
+    "text": "detect",
+    "start": 277.58,
+    "end": 277.98
+  },
+  {
+    "text": "errors",
+    "start": 277.98,
+    "end": 278.46
+  },
+  {
+    "text": "without",
+    "start": 278.46,
+    "end": 278.78
+  },
+  {
+    "text": "knowing",
+    "start": 278.78,
+    "end": 279.1
+  },
+  {
+    "text": "the",
+    "start": 279.1,
+    "end": 279.18
+  },
+  {
+    "text": "right",
+    "start": 279.18,
+    "end": 279.42
+  },
+  {
+    "text": "answer.",
+    "start": 279.42,
+    "end": 280.06
+  },
+  {
+    "text": "For",
+    "start": 280.06,
+    "end": 280.22
+  },
+  {
+    "text": "any",
+    "start": 280.22,
+    "end": 280.46
+  },
+  {
+    "text": "given",
+    "start": 280.46,
+    "end": 280.7
+  },
+  {
+    "text": "set",
+    "start": 280.7,
+    "end": 280.94
+  },
+  {
+    "text": "of",
+    "start": 280.94,
+    "end": 281.02
+  },
+  {
+    "text": "starting",
+    "start": 281.02,
+    "end": 281.42
+  },
+  {
+    "text": "digits,",
+    "start": 281.42,
+    "end": 282.06
+  },
+  {
+    "text": "only",
+    "start": 282.06,
+    "end": 282.3
+  },
+  {
+    "text": "one",
+    "start": 282.3,
+    "end": 282.46
+  },
+  {
+    "text": "of",
+    "start": 282.46,
+    "end": 282.62
+  },
+  {
+    "text": "the",
+    "start": 282.62,
+    "end": 282.78
+  },
+  {
+    "text": "ten",
+    "start": 282.78,
+    "end": 282.94
+  },
+  {
+    "text": "possible",
+    "start": 283.1,
+    "end": 283.42
+  },
+  {
+    "text": "last",
+    "start": 283.42,
+    "end": 283.74
+  },
+  {
+    "text": "digits",
+    "start": 283.74,
+    "end": 284.22
+  },
+  {
+    "text": "passes",
+    "start": 284.22,
+    "end": 284.62
+  },
+  {
+    "text": "the",
+    "start": 284.62,
+    "end": 284.78
+  },
+  {
+    "text": "check.",
+    "start": 284.78,
+    "end": 285.42
+  },
+  {
+    "text": "The",
+    "start": 285.42,
+    "end": 285.58
+  },
+  {
+    "text": "same",
+    "start": 285.58,
+    "end": 285.9
+  },
+  {
+    "text": "idea,",
+    "start": 285.9,
+    "end": 286.46
+  },
+  {
+    "text": "scaled",
+    "start": 286.46,
+    "end": 286.94
+  },
+  {
+    "text": "up,",
+    "start": 286.94,
+    "end": 287.26
+  },
+  {
+    "text": "helps",
+    "start": 287.26,
+    "end": 287.58
+  },
+  {
+    "text": "detect",
+    "start": 287.58,
+    "end": 287.9
+  },
+  {
+    "text": "errors",
+    "start": 287.9,
+    "end": 288.3
+  },
+  {
+    "text": "in",
+    "start": 288.3,
+    "end": 288.46
+  },
+  {
+    "text": "files",
+    "start": 288.46,
+    "end": 288.78
+  },
+  {
+    "text": "you",
+    "start": 288.78,
+    "end": 288.94
+  },
+  {
+    "text": "download",
+    "start": 288.94,
+    "end": 289.42
+  },
+  {
+    "text": "and",
+    "start": 289.42,
+    "end": 289.58
+  },
+  {
+    "text": "messages",
+    "start": 289.58,
+    "end": 290.06
+  },
+  {
+    "text": "your",
+    "start": 290.06,
+    "end": 290.22
+  },
+  {
+    "text": "phone",
+    "start": 290.22,
+    "end": 290.46
+  },
+  {
+    "text": "sends,",
+    "start": 290.46,
+    "end": 290.86
+  },
+  {
+    "text": "using",
+    "start": 290.86,
+    "end": 291.1
+  },
+  {
+    "text": "checksums",
+    "start": 291.1,
+    "end": 291.82
+  },
+  {
+    "text": "that",
+    "start": 291.82,
+    "end": 291.98
+  },
+  {
+    "text": "are",
+    "start": 291.98,
+    "end": 292.14
+  },
+  {
+    "text": "far",
+    "start": 292.14,
+    "end": 292.38
+  },
+  {
+    "text": "more",
+    "start": 292.38,
+    "end": 292.54
+  },
+  {
+    "text": "powerful.",
+    "start": 292.54,
+    "end": 293.58
+  },
+  {
+    "text": "Engineers",
+    "start": 293.58,
+    "end": 294.22
+  },
+  {
+    "text": "call",
+    "start": 294.22,
+    "end": 294.46
+  },
+  {
+    "text": "this",
+    "start": 294.46,
+    "end": 294.78
+  },
+  {
+    "text": "error",
+    "start": 294.78,
+    "end": 295.18
+  },
+  {
+    "text": "detection.",
+    "start": 295.18,
+    "end": 295.98
+  },
+  {
+    "text": "It",
+    "start": 295.98,
+    "end": 296.14
+  },
+  {
+    "text": "doesn't",
+    "start": 296.14,
+    "end": 296.38
+  },
+  {
+    "text": "fix",
+    "start": 296.38,
+    "end": 296.7
+  },
+  {
+    "text": "the",
+    "start": 296.7,
+    "end": 296.78
+  },
+  {
+    "text": "mistake,",
+    "start": 296.78,
+    "end": 297.34
+  },
+  {
+    "text": "it",
+    "start": 297.34,
+    "end": 297.5
+  },
+  {
+    "text": "just",
+    "start": 297.5,
+    "end": 297.66
+  },
+  {
+    "text": "tells",
+    "start": 297.66,
+    "end": 297.9
+  },
+  {
+    "text": "you",
+    "start": 297.9,
+    "end": 298.06
+  },
+  {
+    "text": "something",
+    "start": 298.06,
+    "end": 298.3
+  },
+  {
+    "text": "is",
+    "start": 298.3,
+    "end": 298.46
+  },
+  {
+    "text": "wrong,",
+    "start": 298.46,
+    "end": 298.78
+  },
+  {
+    "text": "so",
+    "start": 298.78,
+    "end": 299.02
+  },
+  {
+    "text": "you",
+    "start": 299.02,
+    "end": 299.1
+  },
+  {
+    "text": "can",
+    "start": 299.1,
+    "end": 299.26
+  },
+  {
+    "text": "type",
+    "start": 299.26,
+    "end": 299.5
+  },
+  {
+    "text": "it",
+    "start": 299.5,
+    "end": 299.66
+  },
+  {
+    "text": "again.",
+    "start": 299.66,
+    "end": 300.54
+  },
+  {
+    "text": "Your",
+    "start": 300.54,
+    "end": 300.94
+  },
+  {
+    "text": "turn.",
+    "start": 300.94,
+    "end": 301.42
+  },
+  {
+    "text": "What",
+    "start": 301.42,
+    "end": 301.74
+  },
+  {
+    "text": "check",
+    "start": 301.74,
+    "end": 302.06
+  },
+  {
+    "text": "digit",
+    "start": 302.06,
+    "end": 302.46
+  },
+  {
+    "text": "makes",
+    "start": 302.46,
+    "end": 302.7
+  },
+  {
+    "text": "one",
+    "start": 302.7,
+    "end": 302.86
+  },
+  {
+    "text": "two",
+    "start": 303.1,
+    "end": 303.26
+  },
+  {
+    "text": "three",
+    "start": 303.42,
+    "end": 303.58
+  },
+  {
+    "text": "four",
+    "start": 303.74,
+    "end": 304.14
+  },
+  {
+    "text": "pass",
+    "start": 304.14,
+    "end": 304.46
+  },
+  {
+    "text": "the",
+    "start": 304.46,
+    "end": 304.54
+  },
+  {
+    "text": "check?",
+    "start": 304.54,
+    "end": 305.26
+  },
+  {
+    "text": "Pause",
+    "start": 305.26,
+    "end": 305.74
+  },
+  {
+    "text": "and",
+    "start": 305.74,
+    "end": 305.9
+  },
+  {
+    "text": "try",
+    "start": 305.9,
+    "end": 306.22
+  },
+  {
+    "text": "it.",
+    "start": 306.22,
+    "end": 306.62
+  },
+  {
+    "text": "Start",
+    "start": 307.09,
+    "end": 307.49
+  },
+  {
+    "text": "from",
+    "start": 307.49,
+    "end": 307.65
+  },
+  {
+    "text": "the",
+    "start": 307.65,
+    "end": 307.81
+  },
+  {
+    "text": "right.",
+    "start": 307.81,
+    "end": 308.21
+  },
+  {
+    "text": "The",
+    "start": 308.21,
+    "end": 308.37
+  },
+  {
+    "text": "check",
+    "start": 308.37,
+    "end": 308.61
+  },
+  {
+    "text": "digit",
+    "start": 308.69,
+    "end": 309.01
+  },
+  {
+    "text": "goes",
+    "start": 309.01,
+    "end": 309.17
+  },
+  {
+    "text": "at",
+    "start": 309.17,
+    "end": 309.33
+  },
+  {
+    "text": "the",
+    "start": 309.33,
+    "end": 309.41
+  },
+  {
+    "text": "end,",
+    "start": 309.41,
+    "end": 309.65
+  },
+  {
+    "text": "so",
+    "start": 309.65,
+    "end": 309.81
+  },
+  {
+    "text": "the",
+    "start": 309.81,
+    "end": 309.97
+  },
+  {
+    "text": "four",
+    "start": 309.97,
+    "end": 310.29
+  },
+  {
+    "text": "next",
+    "start": 310.29,
+    "end": 310.45
+  },
+  {
+    "text": "to",
+    "start": 310.45,
+    "end": 310.61
+  },
+  {
+    "text": "it",
+    "start": 310.61,
+    "end": 310.77
+  },
+  {
+    "text": "gets",
+    "start": 310.77,
+    "end": 310.93
+  },
+  {
+    "text": "double",
+    "start": 310.93,
+    "end": 311.25
+  },
+  {
+    "text": "to",
+    "start": 311.33,
+    "end": 311.49
+  },
+  {
+    "text": "eight.",
+    "start": 311.49,
+    "end": 312.05
+  },
+  {
+    "text": "Keep",
+    "start": 312.05,
+    "end": 312.37
+  },
+  {
+    "text": "the",
+    "start": 312.37,
+    "end": 312.53
+  },
+  {
+    "text": "three.",
+    "start": 312.53,
+    "end": 313.01
+  },
+  {
+    "text": "Dou",
+    "start": 313.01,
+    "end": 313.41
+  },
+  {
+    "text": "the",
+    "start": 313.41,
+    "end": 313.57
+  },
+  {
+    "text": "two",
+    "start": 313.57,
+    "end": 313.73
+  },
+  {
+    "text": "to",
+    "start": 313.89,
+    "end": 314.13
+  },
+  {
+    "text": "four.",
+    "start": 314.13,
+    "end": 314.69
+  },
+  {
+    "text": "Keep",
+    "start": 314.69,
+    "end": 315.01
+  },
+  {
+    "text": "the",
+    "start": 315.01,
+    "end": 315.09
+  },
+  {
+    "text": "one.",
+    "start": 315.09,
+    "end": 315.73
+  },
+  {
+    "text": "Eight",
+    "start": 315.73,
+    "end": 316.13
+  },
+  {
+    "text": "plus",
+    "start": 316.29,
+    "end": 316.53
+  },
+  {
+    "text": "three",
+    "start": 316.53,
+    "end": 316.85
+  },
+  {
+    "text": "plus",
+    "start": 316.93,
+    "end": 317.25
+  },
+  {
+    "text": "four",
+    "start": 317.25,
+    "end": 317.49
+  },
+  {
+    "text": "plus",
+    "start": 317.57,
+    "end": 317.81
+  },
+  {
+    "text": "one",
+    "start": 317.81,
+    "end": 317.97
+  },
+  {
+    "text": "is",
+    "start": 318.13,
+    "end": 318.37
+  },
+  {
+    "text": "sixteen.",
+    "start": 318.37,
+    "end": 319.09
+  },
+  {
+    "text": "The",
+    "start": 319.09,
+    "end": 319.25
+  },
+  {
+    "text": "next",
+    "start": 319.25,
+    "end": 319.49
+  },
+  {
+    "text": "number",
+    "start": 319.49,
+    "end": 319.81
+  },
+  {
+    "text": "ending",
+    "start": 319.81,
+    "end": 320.05
+  },
+  {
+    "text": "in",
+    "start": 320.05,
+    "end": 320.21
+  },
+  {
+    "text": "zero",
+    "start": 320.21,
+    "end": 320.61
+  },
+  {
+    "text": "is",
+    "start": 320.61,
+    "end": 320.77
+  },
+  {
+    "text": "twenty,",
+    "start": 320.77,
+    "end": 321.17
+  },
+  {
+    "text": "so",
+    "start": 321.17,
+    "end": 321.41
+  },
+  {
+    "text": "the",
+    "start": 321.41,
+    "end": 321.49
+  },
+  {
+    "text": "check",
+    "start": 321.49,
+    "end": 321.81
+  },
+  {
+    "text": "digit",
+    "start": 321.81,
+    "end": 322.13
+  },
+  {
+    "text": "is",
+    "start": 322.13,
+    "end": 322.37
+  },
+  {
+    "text": "four.",
+    "start": 322.37,
+    "end": 322.93
+  },
+  {
+    "text": "One,",
+    "start": 322.93,
+    "end": 323.33
+  },
+  {
+    "text": "two,",
+    "start": 323.33,
+    "end": 323.65
+  },
+  {
+    "text": "three,",
+    "start": 323.65,
+    "end": 323.97
+  },
+  {
+    "text": "four,",
+    "start": 324.05,
+    "end": 324.29
+  },
+  {
+    "text": "four.",
+    "start": 324.45,
+    "end": 325.09
+  },
+  {
+    "text": "So",
+    "start": 325.41,
+    "end": 325.73
+  },
+  {
+    "text": "the",
+    "start": 325.73,
+    "end": 325.97
+  },
+  {
+    "text": "next",
+    "start": 325.97,
+    "end": 326.21
+  },
+  {
+    "text": "time",
+    "start": 326.21,
+    "end": 326.45
+  },
+  {
+    "text": "a",
+    "start": 326.45,
+    "end": 326.53
+  },
+  {
+    "text": "checkout",
+    "start": 326.53,
+    "end": 327.09
+  },
+  {
+    "text": "form",
+    "start": 327.09,
+    "end": 327.41
+  },
+  {
+    "text": "flags",
+    "start": 327.41,
+    "end": 327.97
+  },
+  {
+    "text": "a",
+    "start": 327.97,
+    "end": 328.05
+  },
+  {
+    "text": "completed",
+    "start": 328.05,
+    "end": 328.53
+  },
+  {
+    "text": "card",
+    "start": 328.53,
+    "end": 328.85
+  },
+  {
+    "text": "number",
+    "start": 328.85,
+    "end": 329.17
+  },
+  {
+    "text": "before",
+    "start": 329.17,
+    "end": 329.41
+  },
+  {
+    "text": "you",
+    "start": 329.41,
+    "end": 329.57
+  },
+  {
+    "text": "submit",
+    "start": 329.57,
+    "end": 329.89
+  },
+  {
+    "text": "it,",
+    "start": 329.89,
+    "end": 330.37
+  },
+  {
+    "text": "this",
+    "start": 330.37,
+    "end": 330.61
+  },
+  {
+    "text": "little",
+    "start": 330.61,
+    "end": 330.85
+  },
+  {
+    "text": "calculation",
+    "start": 330.85,
+    "end": 331.65
+  },
+  {
+    "text": "may",
+    "start": 331.65,
+    "end": 331.89
+  },
+  {
+    "text": "be",
+    "start": 331.89,
+    "end": 332.05
+  },
+  {
+    "text": "the",
+    "start": 332.05,
+    "end": 332.21
+  },
+  {
+    "text": "reason.",
+    "start": 332.21,
+    "end": 332.85
+  },
+  {
+    "text": "It",
+    "start": 332.85,
+    "end": 333.09
+  },
+  {
+    "text": "doubles",
+    "start": 333.09,
+    "end": 333.65
+  },
+  {
+    "text": "every",
+    "start": 333.65,
+    "end": 333.89
+  },
+  {
+    "text": "second",
+    "start": 333.89,
+    "end": 334.21
+  },
+  {
+    "text": "digit,",
+    "start": 334.21,
+    "end": 334.93
+  },
+  {
+    "text": "adds",
+    "start": 334.93,
+    "end": 335.25
+  },
+  {
+    "text": "everything",
+    "start": 335.25,
+    "end": 335.73
+  },
+  {
+    "text": "up,",
+    "start": 335.73,
+    "end": 336.05
+  },
+  {
+    "text": "and",
+    "start": 336.05,
+    "end": 336.21
+  },
+  {
+    "text": "checks",
+    "start": 336.21,
+    "end": 336.61
+  },
+  {
+    "text": "for",
+    "start": 336.61,
+    "end": 336.77
+  },
+  {
+    "text": "a",
+    "start": 336.77,
+    "end": 336.93
+  },
+  {
+    "text": "zero",
+    "start": 336.93,
+    "end": 337.33
+  },
+  {
+    "text": "at",
+    "start": 337.33,
+    "end": 337.57
+  },
+  {
+    "text": "the",
+    "start": 337.57,
+    "end": 337.81
+  },
+  {
+    "text": "end.",
+    "start": 337.81,
+    "end": 338.29
+  },
+  {
+    "text": "One",
+    "start": 338.29,
+    "end": 338.69
+  },
+  {
+    "text": "extra",
+    "start": 338.69,
+    "end": 339.01
+  },
+  {
+    "text": "digit",
+    "start": 339.01,
+    "end": 339.49
+  },
+  {
+    "text": "catches",
+    "start": 339.49,
+    "end": 340.05
+  },
+  {
+    "text": "every",
+    "start": 340.05,
+    "end": 340.37
+  },
+  {
+    "text": "one",
+    "start": 340.37,
+    "end": 340.53
+  },
+  {
+    "text": "digit",
+    "start": 340.69,
+    "end": 341.09
+  },
+  {
+    "text": "substitution,",
+    "start": 341.09,
+    "end": 341.97
+  },
+  {
+    "text": "and",
+    "start": 341.97,
+    "end": 342.21
+  },
+  {
+    "text": "all",
+    "start": 342.21,
+    "end": 342.45
+  },
+  {
+    "text": "but",
+    "start": 342.45,
+    "end": 342.69
+  },
+  {
+    "text": "one",
+    "start": 342.69,
+    "end": 342.93
+  },
+  {
+    "text": "kind",
+    "start": 342.93,
+    "end": 343.17
+  },
+  {
+    "text": "of",
+    "start": 343.17,
+    "end": 343.33
+  },
+  {
+    "text": "swap",
+    "start": 343.33,
+    "end": 343.73
+  },
+  {
+    "text": "between",
+    "start": 343.89,
+    "end": 344.21
+  },
+  {
+    "text": "different",
+    "start": 344.21,
+    "end": 344.53
+  },
+  {
+    "text": "neighboring",
+    "start": 344.53,
+    "end": 345.01
+  },
+  {
+    "text": "digits.",
+    "start": 345.01,
+    "end": 345.81
+  },
+  {
+    "text": "It's",
+    "start": 345.81,
+    "end": 346.05
+  },
+  {
+    "text": "a",
+    "start": 346.05,
+    "end": 346.21
+  },
+  {
+    "text": "tiny",
+    "start": 346.21,
+    "end": 346.53
+  },
+  {
+    "text": "piece",
+    "start": 346.53,
+    "end": 346.77
+  },
+  {
+    "text": "of",
+    "start": 346.77,
+    "end": 346.85
+  },
+  {
+    "text": "math",
+    "start": 346.85,
+    "end": 347.17
+  },
+  {
+    "text": "hiding",
+    "start": 347.17,
+    "end": 347.49
+  },
+  {
+    "text": "in",
+    "start": 347.49,
+    "end": 347.57
+  },
+  {
+    "text": "your",
+    "start": 347.57,
+    "end": 347.73
+  },
+  {
+    "text": "wallet.",
+    "start": 347.73,
+    "end": 348.29
+  },
+  {
+    "text": "If",
+    "start": 348.29,
+    "end": 348.45
+  },
+  {
+    "text": "you",
+    "start": 348.45,
+    "end": 348.61
+  },
+  {
+    "text": "enjoy",
+    "start": 348.61,
+    "end": 349.09
+  },
+  {
+    "text": "this",
+    "start": 349.09,
+    "end": 349.17
+  },
+  {
+    "text": "one,",
+    "start": 349.17,
+    "end": 349.49
+  },
+  {
+    "text": "please",
+    "start": 349.49,
+    "end": 349.81
+  },
+  {
+    "text": "give",
+    "start": 349.81,
+    "end": 350.05
+  },
+  {
+    "text": "it",
+    "start": 350.05,
+    "end": 350.21
+  },
+  {
+    "text": "a",
+    "start": 350.21,
+    "end": 350.29
+  },
+  {
+    "text": "like",
+    "start": 350.29,
+    "end": 350.61
+  },
+  {
+    "text": "and",
+    "start": 350.61,
+    "end": 350.77
+  },
+  {
+    "text": "subscribe",
+    "start": 350.77,
+    "end": 351.25
+  },
+  {
+    "text": "for",
+    "start": 351.25,
+    "end": 351.41
+  },
+  {
+    "text": "more",
+    "start": 351.41,
+    "end": 351.65
+  },
+  {
+    "text": "everyday",
+    "start": 351.65,
+    "end": 352.13
+  },
+  {
+    "text": "engineering.",
+    "start": 352.13,
+    "end": 352.85
+  },
+  {
+    "text": "Thanks",
+    "start": 352.85,
+    "end": 353.09
+  },
+  {
+    "text": "for",
+    "start": 353.09,
+    "end": 353.25
+  },
+  {
+    "text": "watching.",
+    "start": 353.25,
+    "end": 353.65
+  }
+]
