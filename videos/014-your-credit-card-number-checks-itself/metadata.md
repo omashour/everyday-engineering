@@ -1,11 +1,11 @@
 **Title:** Your Credit Card Number Checks Itself
-**Alternates:** The Hidden Math in Every Credit Card Number · Why One Typo in Your Card Number Gets Caught Instantly
+**Alternates:** The Hidden Math in Every Credit Card Number · Why One Typo in Your Card Number Gets Caught
 **Playlist:** math-for-engineers
-**Description:** Mistype one digit of your card number and many checkout forms reject it instantly, before contacting your bank. The reason is the last digit: a check digit calculated from all the others with the Luhn algorithm.
+**Description:** Mistype one digit of your card number and a checkout form can flag it before contacting your bank. The reason is the last digit: a check digit calculated from all the others with the Luhn algorithm.
 
-We run the check by hand on a short made-up number, see how the check digit is chosen, and show why the method catches every single-digit typo and almost every swap of neighboring digits. Then we look at what it can't catch, where else check digits hide (barcodes, ISBNs, your phone's IMEI) and why one extra digit is a big idea in engineering.
+We run the check by hand on a short made-up number, see how the check digit is chosen, and show why the method catches every one-digit substitution and all but one swap of different neighboring digits. Then we look at what it can't catch, where else check digits hide (UPC/EAN barcodes, ISBN-13, your phone's IMEI) and why one extra digit is a big idea in engineering.
 
-All numbers in this video are made up for illustration. The Luhn check only catches typing errors; it says nothing about whether a card is real or valid for payment.
+All numbers in this video are made up for illustration. Passing the Luhn check only means the arithmetic works. It says nothing about whether a card was issued, who owns it or whether a payment will be approved.
 
 Chapters
 [paste chapters.txt here]

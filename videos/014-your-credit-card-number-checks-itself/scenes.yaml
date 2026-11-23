@@ -14,20 +14,20 @@ scenes:
     component: photo-overlay
     chapter: "A number that checks itself"
     say: >-
-      Mistype one digit of your card number, and many websites know instantly.
-      Before they ever contact your bank. There's no list of real cards in your
-      browser. The number checks itself, with a bit of grade school arithmetic.
+      Mistype one digit of your card number, and a checkout form can spot it
+      before it contacts your bank. There's no list of real cards in your browser.
+      All it needs is a little arithmetic.
     params:
       src: checkout.jpg
       credit: "Image: AI-generated"
       overlays:
-        - {type: callout, pos: [72, 30], text: "✗ Invalid card number", side: right, cue: "know instantly"}
-        - {type: callout, pos: [72, 55], text: "bank not contacted yet", side: right, cue: "contact your bank"}
-        - {type: label, pos: [30, 20], text: "the number checks itself", cue: "checks itself"}
+        - {type: callout, pos: [72, 30], text: "✗ Invalid card number", side: right, cue: "can spot it"}
+        - {type: callout, pos: [72, 55], text: "bank not contacted yet", side: right, cue: "contacts your bank"}
+        - {type: label, pos: [30, 20], text: "the number checks itself", cue: "little arithmetic"}
 
   - id: S02
     component: title-card
-    say: Here's the trick hiding in every card number.
+    say: Here's the trick behind that check.
     params:
       kicker: "Everyday Engineering · Arithmetic"
       title: "Your Credit Card Number Checks Itself"
@@ -36,39 +36,38 @@ scenes:
     component: bullets
     chapter: "What's in a card number"
     say: >-
-      A card number isn't random. The first few digits identify the card network
-      and the bank that issued it. The middle digits identify your account. And
-      the very last digit isn't part of your account at all. It's a check digit,
+      A card number isn't random. The first digits identify the card issuer. The
+      digits after that identify the account. And the last digit is a check digit,
       calculated from all the others. Its only job is to catch mistakes.
     params:
       heading: "Inside a card number"
       items:
-        - {text: "First digits: network and bank", icon: building-bank, cue: "first few digits"}
-        - {text: "Middle digits: your account", icon: user, cue: "middle digits"}
-        - {text: "Last digit: the ==check digit==", icon: circle-check, cue: "very last digit"}
+        - {text: "First digits: the card issuer", icon: building-bank, cue: "first digits identify"}
+        - {text: "Next digits: the account", icon: user, cue: "digits after that"}
+        - {text: "Last digit: the ==check digit==", icon: circle-check, cue: "last digit is"}
         - {text: "Its job: catch typos", icon: alert-triangle, cue: "catch mistakes"}
 
   - id: S04
     component: big-fact
     chapter: "The Luhn algorithm"
     say: >-
-      The method is called the Luhn algorithm, after Hans Peter Luhn, an IBM
-      scientist who patented it in nineteen sixty. It was designed long before
-      online shopping, to catch errors when people copied or typed long numbers
-      by hand.
+      The method is named after Hans Peter Luhn of IBM. His patent for a device
+      that calculated and checked these digits was granted in nineteen sixty,
+      decades before online shopping.
     params:
       value: "1960"
-      label: "The Luhn algorithm is patented"
-      sub: "Hans Peter Luhn, IBM"
+      label: "Luhn's patent is granted"
+      sub: "Hans Peter Luhn, IBM (filed 1954)"
       cue: "nineteen sixty"
 
   - id: S05
     component: table
     chapter: "Running the check"
     say: >-
-      Grab a pen if you want to follow along. Let's run it on a short made-up number: four five three nine, one four
-      eight nine. Real cards have sixteen digits, but the steps are exactly the
-      same. Start at the right, with the check digit. Leave it alone. Then double
+      Grab a pen if you want to follow along. Let's run it on a short made-up
+      number: four five three nine, one four eight nine. Many cards have sixteen
+      digits. American Express cards have fifteen. The steps are the same either
+      way. Start at the right, with the check digit. Leave it alone. Then double
       every second digit as you move left: the eight, the one, the three and the
       four. Leave the others as they are.
     params:
@@ -102,41 +101,43 @@ scenes:
     say: >-
       Now add everything up. Eight, five, six, nine, two, four, seven, nine.
       That's fifty. And here's the rule. If the total ends in zero, the number
-      passes. Fifty ends in zero, so this number is valid. The check digit, that
-      last nine, was chosen to make that happen.
+      passes. Fifty ends in zero, so this example passes the Luhn check. The check
+      digit, that last nine, was chosen to make that happen.
     params:
       heading: "The total must end in 0"
       size: l
       lines:
         - {tex: "8+5+6+9+2+4+7+9", cue: "add everything up"}
         - {tex: "= 50", box: true, cue: "That's fifty"}
-        - {text: "ends in 0 → valid ✓", mark: true, cue: "passes"}
+        - {text: "ends in 0 → passes ✓", mark: true, cue: "the number passes"}
 
   - id: S08
     component: equation-steps
     chapter: "Making the check digit"
     say: >-
-      So how does the card company pick that last digit? Run the same steps on
-      the other seven digits. Here they add up to forty one. The next number that
-      ends in zero is fifty. Fifty minus forty one is nine. So the check digit is
-      nine. Change any of the other digits and you'd get a different check
-      digit, but the total would still end in zero. Every card number is built
-      this way.
+      So how is that last digit chosen? Leave a space for the check digit, then
+      work from right to left, starting by doubling the digit next to that space.
+      Here the first seven digits add up to forty one. The next number that ends
+      in zero is fifty. Fifty minus forty one is nine, so the check digit is nine.
+      If the total already ended in zero, the check digit would be zero. Change
+      any one of the other digits, and you'd get a different check digit. That's
+      how a Luhn check digit is chosen.
     params:
       heading: "Choosing the check digit"
       lines:
-        - {text: "first seven digits → 41", cue: "add up to"}
+        - {text: "_ _ _ _ _ _ _ ▢ → first seven give 41", cue: "add up to"}
         - {tex: "50 - 41 = 9", mark: true, cue: "Fifty minus forty"}
-        - {tex: "\\text{check digit} = 9", box: true, cue: "check digit is"}
+        - {tex: "\\text{check digit} = 9", box: true, cue: "check digit is nine"}
+        - {text: "total already ends in 0 → check digit 0", cue: "already ended in"}
 
   - id: S09
     component: table
     chapter: "Catching a typo"
     say: >-
-      Now make a typo. Say you type a seven where the second four should be.
-      Four five three nine, one seven eight nine. That digit wasn't doubled, so
-      the total goes up by three, to fifty three. Fifty three doesn't end in zero.
-      The form rejects it instantly, without asking anyone.
+      Now make a typo. Say you type a seven where the second four should be. Four
+      five three nine, one seven eight nine. That digit wasn't doubled, so the
+      total goes up by three, to fifty three. Fifty three doesn't end in zero. The
+      number fails the check, and the form can flag it right there.
     params:
       heading: "Typo: 4539 1789"
       headers: ["", "4", "5", "3", "9", "1", "7", "8", "9"]
@@ -148,15 +149,15 @@ scenes:
 
   - id: S10
     component: table
-    chapter: "Why every single typo is caught"
+    chapter: "Why every one-digit typo is caught"
     say: >-
-      Here's why this never misses a single wrong digit. For the digits that
-      aren't doubled, changing one changes the total by one to nine. That can
-      never land on another number ending in zero. For doubled digits, look at
-      what each one turns into. Zero through nine become zero, two, four, six,
-      eight, one, three, five, seven, nine. All ten results are different. So
-      changing any one digit always changes the total by something that isn't a
-      multiple of ten.
+      Here's why this never misses a typo that replaces one digit with another.
+      For the digits that aren't doubled, changing one changes the total by one to
+      nine. That can never land on another number ending in zero. For doubled
+      digits, look at what each one turns into. Zero through nine become zero,
+      two, four, six, eight, one, three, five, seven, nine. All ten results are
+      different. So changing any one digit always changes the total by something
+      that isn't a multiple of ten.
     params:
       heading: "Doubled digits never collide"
       headers: ["Digit", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
@@ -188,33 +189,35 @@ scenes:
     say: >-
       It isn't perfect. Swap a zero and a nine that sit side by side, and the
       total doesn't change, because zero doubled is zero and nine doubled folds
-      back to nine. Change two digits at once, and roughly one time in ten the
-      errors cancel. And it says nothing about whether a card is real, has money,
-      or belongs to you. It's a typo filter, not security.
+      back to nine. That's the only swap of two different neighbors it misses. Two
+      wrong digits can sometimes cancel each other out. And passing the check only
+      tells you the arithmetic works. It can't tell you whether the card was
+      issued, who owns it, or whether a payment will be approved.
     params:
       heading: "What it can't catch"
       items:
         - {text: "Swapping 09 ↔ 90: missed", icon: arrows-exchange, cue: "Swap a zero"}
-        - {text: "Two random errors: ≈ 1 in 10 slip", icon: dice, cue: "two digits at"}
-        - {text: "Can't prove a card is real", icon: shield-off, cue: "says nothing about"}
+        - {text: "Two wrong digits can cancel", icon: dice, cue: "Two wrong digits"}
+        - {text: "Passing ≠ a real, approved card", icon: shield-off, cue: "arithmetic works"}
 
   - id: S13
     component: photo-overlay
     chapter: "Check digits everywhere"
     say: >-
-      Once you know the trick, you'll find check digits everywhere. The last
-      digit under a supermarket barcode is a check digit, using weights of three
-      and one instead of doubling. Books have one in their ISBN. And your phone's
-      fifteen digit IMEI number ends with a Luhn check digit too. The details
-      differ, but the idea is the same: one digit computed from the rest.
+      Once you know the trick, you'll find check digits everywhere. The last digit
+      in a standard UPC or EAN barcode is a check digit. It uses alternating
+      weights of one and three. A book's thirteen digit ISBN uses those same
+      weights. And the fifteen digit IMEI you see on your phone ends in a Luhn
+      check digit. The details differ, but the idea is the same: one digit
+      computed from the rest.
     params:
       src: barcode.jpg
       credit: "Image: AI-generated"
       title: "Check digits everywhere"
       overlays:
-        - {type: callout, pos: [82, 80], text: "check digit", side: right, cue: "last digit under"}
-        - {type: callout, pos: [18, 40], text: "weights 3 and 1", side: left, cue: "three and one"}
-        - {type: callout, pos: [18, 70], text: "also: ISBN, phone IMEI", side: left, cue: "Books have one"}
+        - {type: callout, pos: [82, 80], text: "check digit", side: right, cue: "last digit in"}
+        - {type: callout, pos: [18, 40], text: "weights 1, 3, 1, 3…", side: left, cue: "one and three"}
+        - {type: callout, pos: [18, 70], text: "also: ISBN-13, phone IMEI", side: left, cue: "thirteen digit ISBN"}
 
   - id: S14
     component: diagram
@@ -222,11 +225,12 @@ scenes:
     say: >-
       This is a big idea in engineering. Add a little redundancy, one digit
       computed from the others, and you can detect errors without knowing the
-      right answer. A random wrong number only passes one time in ten. The same
-      idea, scaled up, protects files you download and messages your phone sends,
-      using checksums that are far more powerful. Engineers call this error
-      detection. It doesn't fix the mistake. It just tells you something is
-      wrong, so you can type it again.
+      right answer. For any given set of starting digits, only one of the ten
+      possible last digits passes the check. The same idea, scaled up, helps
+      detect errors in files you download and messages your phone sends, using
+      checksums that are far more powerful. Engineers call this error detection.
+      It doesn't fix the mistake. It just tells you something is wrong, so you can
+      type it again.
     params:
       heading: "Redundancy catches errors"
       view: [1000, 600]
@@ -234,15 +238,15 @@ scenes:
         - {type: rect, pos: [80, 180], size: [420, 120], label: "your digits", cue: "a little redundancy"}
         - {type: arrow, from: [500, 240], to: [600, 240], cue: "computed from the"}
         - {type: rect, pos: [600, 180], size: [200, 120], fill: marker, label: "check digit", cue: "computed from the"}
-        - {type: text, pos: [500, 410], text: "random wrong number passes 1 in 10", cue: "one time in"}
+        - {type: text, pos: [500, 410], text: "only 1 of 10 last digits passes", cue: "one of the ten"}
         - {type: text, pos: [500, 500], text: "scaled up: checksums for files", hand: true, color: red, cue: "scaled up"}
 
   - id: S15
     component: pause-try
     chapter: "Your turn"
     say: >-
-      Your turn. What check digit makes one two three four valid? Pause and try
-      it.
+      Your turn. What check digit makes one two three four pass the check? Pause
+      and try it.
     params:
       text: "What digit completes 1234_?"
       seconds: 5
@@ -267,18 +271,19 @@ scenes:
     component: photo-overlay
     chapter: "Remember this"
     say: >-
-      So the next time a form rejects your card number before you've even
-      finished, you'll know what happened. It doubled every second digit, added
-      everything up, and checked for a zero at the end. One extra digit catches
-      every single typo, and nearly every swap of neighbors. It's a tiny piece of
-      math hiding in your wallet.
+      So the next time a checkout form flags a completed card number before you
+      submit it, this little calculation may be the reason. It doubles every
+      second digit, adds everything up, and checks for a zero at the end. One
+      extra digit catches every one-digit substitution, and all but one kind of
+      swap between different neighboring digits. It's a tiny piece of math hiding
+      in your wallet.
     params:
       src: checkout.jpg
       credit: "Image: AI-generated"
       overlays:
-        - {type: callout, pos: [72, 30], text: "double every 2nd digit", side: right, cue: "doubled every second"}
-        - {type: callout, pos: [72, 55], text: "total ends in 0?", side: right, cue: "checked for a"}
-        - {type: label, pos: [30, 20], text: "every single typo caught", cue: "every single typo"}
+        - {type: callout, pos: [72, 30], text: "double every 2nd digit", side: right, cue: "doubles every second"}
+        - {type: callout, pos: [72, 55], text: "total ends in 0?", side: right, cue: "checks for a"}
+        - {type: label, pos: [30, 20], text: "every one-digit typo caught", cue: "every one-digit substitution"}
 
   - id: S18
     component: end-card
