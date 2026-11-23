@@ -1,0 +1,15 @@
+0:00 A number that checks itself
+0:13 What's in a card number
+0:27 The Luhn algorithm
+0:38 Running the check
+1:24 Doubling
+1:43 Add it up
+2:06 Making the check digit
+2:35 Catching a typo
+2:53 Why every one-digit typo is caught
+3:22 Swapped digits
+3:43 What it can't catch
+4:07 Check digits everywhere
+4:31 One extra digit
+5:00 Your turn
+5:25 Remember this
