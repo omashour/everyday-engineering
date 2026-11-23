@@ -1,0 +1,9 @@
+variants:
+  - template: equation
+    text: ""
+    highlight: []
+    tex: ""
+  - template: photo
+    image: ""
+    text: ""
+    highlight: []
