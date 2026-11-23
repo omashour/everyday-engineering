@@ -1,0 +1,643 @@
+1
+00:00:00,080 --> 00:00:02,560
+Mistype one digit of your card number, and
+
+2
+00:00:02,560 --> 00:00:04,640
+a checkout form can spot it before it
+
+3
+00:00:04,640 --> 00:00:05,920
+contacts your bank.
+
+4
+00:00:05,920 --> 00:00:08,000
+There's no list of real cards in your
+
+5
+00:00:08,000 --> 00:00:10,080
+browser. All it needs is a little
+
+6
+00:00:10,080 --> 00:00:11,120
+arithmetic.
+
+7
+00:00:11,360 --> 00:00:13,600
+Here's the trick behind that check.
+
+8
+00:00:13,600 --> 00:00:15,600
+A card number isn't random.
+
+9
+00:00:15,600 --> 00:00:18,000
+The first digits identify the card issuer.
+
+10
+00:00:18,000 --> 00:00:19,840
+The digits after that identify the
+
+11
+00:00:19,840 --> 00:00:22,480
+account. And the last digit is a check
+
+12
+00:00:22,480 --> 00:00:24,800
+digit, calculated from all the others.
+
+13
+00:00:24,800 --> 00:00:27,760
+Its only job is to catch mistakes.
+
+14
+00:00:27,760 --> 00:00:30,240
+The method is named after Hans Peter Luhn
+
+15
+00:00:30,400 --> 00:00:32,720
+of IBM. His patent for a device that
+
+16
+00:00:32,720 --> 00:00:34,800
+calculated and checked these digits was
+
+17
+00:00:34,800 --> 00:00:37,440
+granted in nineteen sixty, decades before
+
+18
+00:00:37,440 --> 00:00:38,800
+online shopping.
+
+19
+00:00:38,800 --> 00:00:40,800
+Grab a pen if you want to follow along.
+
+20
+00:00:40,800 --> 00:00:42,710
+Let's run it on a short made up number:
+
+21
+00:00:42,720 --> 00:00:46,560
+four five three nine, one four eight nine.
+
+22
+00:00:46,560 --> 00:00:48,640
+Many cards have sixteen digits.
+
+23
+00:00:48,640 --> 00:00:50,640
+American Express cards have fifteen.
+
+24
+00:00:50,640 --> 00:00:52,560
+The steps are the same either way.
+
+25
+00:00:52,800 --> 00:00:55,040
+Start at the right, with the check digit.
+
+26
+00:00:55,040 --> 00:00:56,160
+Leave it alone.
+
+27
+00:00:56,160 --> 00:00:58,560
+Then double every second digit as you move
+
+28
+00:00:58,560 --> 00:01:01,520
+left: the eight, the one, the three and
+
+29
+00:01:01,520 --> 00:01:04,330
+the four. Leave the others as they are.
+
+30
+00:01:24,330 --> 00:01:25,770
+Now double them.
+
+31
+00:01:25,770 --> 00:01:27,130
+Four becomes eight.
+
+32
+00:01:27,130 --> 00:01:28,650
+Three becomes six.
+
+33
+00:01:28,650 --> 00:01:30,250
+One becomes two.
+
+34
+00:01:30,250 --> 00:01:32,250
+Eight becomes sixteen, and that's two
+
+35
+00:01:32,330 --> 00:01:34,650
+digits. So add them: one plus six is
+
+36
+00:01:34,650 --> 00:01:36,650
+seven. That's the only extra rule.
+
+37
+00:01:36,650 --> 00:01:38,810
+If doubling gives a two digit number, add
+
+38
+00:01:38,970 --> 00:01:41,130
+its digits together, or just subtract
+
+39
+00:01:41,130 --> 00:01:43,930
+nine. Sixteen minus nine is also seven.
+
+40
+00:01:44,170 --> 00:01:46,250
+Now add everything up.
+
+41
+00:01:46,250 --> 00:01:49,610
+Eight, five, six, nine,
+
+42
+00:01:49,610 --> 00:01:52,970
+two, four, seven, nine.
+
+43
+00:01:52,970 --> 00:01:54,250
+That's fifty.
+
+44
+00:01:54,250 --> 00:01:55,450
+And here's the rule.
+
+45
+00:01:55,450 --> 00:01:57,690
+If the total ends in zero, the number
+
+46
+00:01:57,690 --> 00:02:00,330
+passes. Fifty ends in zero, so this
+
+47
+00:02:00,330 --> 00:02:02,410
+example passes the Luhn check.
+
+48
+00:02:02,410 --> 00:02:04,810
+The check digit, that last nine, was
+
+49
+00:02:04,810 --> 00:02:06,330
+chosen to make that happen.
+
+50
+00:02:06,880 --> 00:02:09,520
+So how is that last digit chosen?
+
+51
+00:02:09,520 --> 00:02:11,760
+Leave a space for the check digit, then
+
+52
+00:02:11,840 --> 00:02:13,600
+work from right to left, starting by
+
+53
+00:02:13,600 --> 00:02:15,920
+doubling the digit next to that space.
+
+54
+00:02:15,920 --> 00:02:17,990
+Here the first seven digits add up to
+
+55
+00:02:18,000 --> 00:02:20,160
+forty one. The next number that ends in
+
+56
+00:02:20,160 --> 00:02:21,520
+zero is fifty.
+
+57
+00:02:21,520 --> 00:02:24,160
+Fifty minus forty one is nine, so the
+
+58
+00:02:24,160 --> 00:02:25,840
+check digit is nine.
+
+59
+00:02:25,840 --> 00:02:27,920
+If the total already ended in zero, the
+
+60
+00:02:27,920 --> 00:02:29,600
+check digit would be zero.
+
+61
+00:02:29,600 --> 00:02:31,360
+Change any one of the other digits, and
+
+62
+00:02:31,360 --> 00:02:32,960
+you'd get a different check digit.
+
+63
+00:02:32,960 --> 00:02:35,360
+That's how a Luhn check digit is chosen.
+
+64
+00:02:35,360 --> 00:02:36,880
+Now make a typo.
+
+65
+00:02:36,880 --> 00:02:39,120
+Say you type a seven where the second four
+
+66
+00:02:39,120 --> 00:02:39,700
+should be. Four five three nine, one seven
+
+67
+00:02:39,710 --> 00:02:43,600
+eight nine. That
+
+68
+00:02:43,600 --> 00:02:45,920
+digit wasn't doubled, so the total goes up
+
+69
+00:02:45,920 --> 00:02:46,790
+by three, to fifty three.
+
+70
+00:02:46,800 --> 00:02:49,680
+Fifty three doesn't end in zero.
+
+71
+00:02:49,680 --> 00:02:51,760
+The number fails the check, and the form
+
+72
+00:02:51,760 --> 00:02:53,520
+can flag it right there.
+
+73
+00:02:53,520 --> 00:02:55,920
+Here's why this never misses a typo that
+
+74
+00:02:55,920 --> 00:02:57,760
+replaces one digit with another.
+
+75
+00:02:57,760 --> 00:02:59,440
+For the digits that aren't doubled,
+
+76
+00:02:59,440 --> 00:03:01,920
+changing one changes the total by one to
+
+77
+00:03:01,920 --> 00:03:04,000
+nine. That can never land on another
+
+78
+00:03:04,000 --> 00:03:05,360
+number ending in zero.
+
+79
+00:03:05,710 --> 00:03:08,030
+For doubled digits, look at what each one
+
+80
+00:03:08,030 --> 00:03:10,910
+turns into. Zero through nine become zero,
+
+81
+00:03:10,990 --> 00:03:13,870
+two, four, six, eight, one, three, five,
+
+82
+00:03:13,950 --> 00:03:16,190
+seven, nine. All ten results are
+
+83
+00:03:16,190 --> 00:03:18,910
+different. So changing any one digit
+
+84
+00:03:18,910 --> 00:03:20,830
+always changes the total by something that
+
+85
+00:03:20,830 --> 00:03:22,670
+isn't a multiple of ten.
+
+86
+00:03:22,670 --> 00:03:24,910
+Another common typing mistake is swapping
+
+87
+00:03:24,910 --> 00:03:25,790
+two neighbors.
+
+88
+00:03:25,790 --> 00:03:28,510
+Type three nine as nine three, and a plain
+
+89
+00:03:28,510 --> 00:03:30,270
+sum wouldn't notice, because the same
+
+90
+00:03:30,270 --> 00:03:31,790
+digits are still there.
+
+91
+00:03:31,790 --> 00:03:33,950
+But one of the pair is doubled and the
+
+92
+00:03:33,950 --> 00:03:36,430
+other isn't. Three doubled plus nine,
+
+93
+00:03:36,510 --> 00:03:38,510
+which is fifteen, becomes nine doubled
+
+94
+00:03:38,670 --> 00:03:40,430
+plus three, which is twelve.
+
+95
+00:03:40,430 --> 00:03:42,510
+The total drops to forty seven.
+
+96
+00:03:42,510 --> 00:03:43,310
+Caught.
+
+97
+00:03:43,550 --> 00:03:44,910
+It isn't perfect.
+
+98
+00:03:44,910 --> 00:03:47,310
+Swap a zero and a nine that sit side by
+
+99
+00:03:47,310 --> 00:03:48,910
+side, and the total doesn't change,
+
+100
+00:03:48,990 --> 00:03:51,310
+because zero doubled is zero and nine
+
+101
+00:03:51,390 --> 00:03:53,070
+doubled folds back to nine.
+
+102
+00:03:53,070 --> 00:03:54,830
+That's the only swap of two different
+
+103
+00:03:54,830 --> 00:03:56,190
+neighbors it misses.
+
+104
+00:03:56,190 --> 00:03:58,590
+Two wrong digits can sometimes cancel each
+
+105
+00:03:58,590 --> 00:04:00,750
+other out. And passing the check only
+
+106
+00:04:00,750 --> 00:04:02,430
+tells you the arithmetic works.
+
+107
+00:04:02,430 --> 00:04:03,950
+It can't tell you whether the card was
+
+108
+00:04:03,950 --> 00:04:06,430
+issued, who owns it, or whether a payment
+
+109
+00:04:06,430 --> 00:04:07,390
+will be approved.
+
+110
+00:04:07,820 --> 00:04:09,980
+Once you know the trick, you'll find check
+
+111
+00:04:09,980 --> 00:04:11,340
+digits everywhere.
+
+112
+00:04:11,340 --> 00:04:13,980
+The last digit in a standard UPC or EAN
+
+113
+00:04:14,300 --> 00:04:15,980
+barcode is a check digit.
+
+114
+00:04:15,980 --> 00:04:18,060
+It uses alternating weights of one and
+
+115
+00:04:18,060 --> 00:04:21,020
+three. A book's thirteen digit ISBN uses
+
+116
+00:04:21,020 --> 00:04:22,060
+those same weights.
+
+117
+00:04:22,060 --> 00:04:24,540
+And the fifteen digit IMEI you see on your
+
+118
+00:04:24,540 --> 00:04:26,700
+phone ends in a Luhn check digit.
+
+119
+00:04:26,700 --> 00:04:28,620
+The details differ, but the idea is the
+
+120
+00:04:28,620 --> 00:04:31,660
+same: one digit computed from the rest.
+
+121
+00:04:31,660 --> 00:04:33,980
+This is a big idea in engineering.
+
+122
+00:04:33,980 --> 00:04:35,980
+Add a little redundancy, one digit
+
+123
+00:04:35,980 --> 00:04:37,580
+computed from the others, and you can
+
+124
+00:04:37,580 --> 00:04:39,420
+detect errors without knowing the right
+
+125
+00:04:39,420 --> 00:04:41,420
+answer. For any given set of starting
+
+126
+00:04:41,420 --> 00:04:43,740
+digits, only one of the ten possible last
+
+127
+00:04:43,740 --> 00:04:45,420
+digits passes the check.
+
+128
+00:04:45,420 --> 00:04:47,900
+The same idea, scaled up, helps detect
+
+129
+00:04:47,900 --> 00:04:50,060
+errors in files you download and messages
+
+130
+00:04:50,060 --> 00:04:52,140
+your phone sends, using checksums that are
+
+131
+00:04:52,140 --> 00:04:53,580
+far more powerful.
+
+132
+00:04:53,580 --> 00:04:55,980
+Engineers call this error detection.
+
+133
+00:04:55,980 --> 00:04:57,340
+It doesn't fix the mistake.
+
+134
+00:04:57,340 --> 00:04:59,020
+It just tells you something is wrong, so
+
+135
+00:04:59,020 --> 00:05:00,540
+you can type it again.
+
+136
+00:05:00,540 --> 00:05:03,260
+Your turn. What check digit makes one two
+
+137
+00:05:03,420 --> 00:05:05,260
+three four pass the check?
+
+138
+00:05:05,260 --> 00:05:06,620
+Pause and try it.
+
+139
+00:05:07,090 --> 00:05:08,210
+Start from the right.
+
+140
+00:05:08,210 --> 00:05:09,970
+The check digit goes at the end, so the
+
+141
+00:05:09,970 --> 00:05:12,050
+four next to it gets doubled, to eight.
+
+142
+00:05:12,050 --> 00:05:13,010
+Keep the three.
+
+143
+00:05:13,010 --> 00:05:14,690
+Double the two, to four.
+
+144
+00:05:14,690 --> 00:05:15,730
+Keep the one.
+
+145
+00:05:15,730 --> 00:05:18,370
+Eight plus three plus four plus one is
+
+146
+00:05:18,370 --> 00:05:20,770
+sixteen. The next number ending in zero is
+
+147
+00:05:20,770 --> 00:05:22,930
+twenty, so the check digit is four.
+
+148
+00:05:22,930 --> 00:05:25,090
+One two three four four.
+
+149
+00:05:25,410 --> 00:05:28,050
+So the next time a checkout form flags a
+
+150
+00:05:28,050 --> 00:05:29,890
+completed card number before you submit
+
+151
+00:05:29,890 --> 00:05:32,210
+it, this little calculation may be the
+
+152
+00:05:32,210 --> 00:05:34,930
+reason. It doubles every second digit,
+
+153
+00:05:34,930 --> 00:05:37,330
+adds everything up, and checks for a zero
+
+154
+00:05:37,330 --> 00:05:40,370
+at the end. One extra digit catches every
+
+155
+00:05:40,370 --> 00:05:42,930
+one digit substitution, and all but one
+
+156
+00:05:42,930 --> 00:05:45,010
+kind of swap between different neighboring
+
+157
+00:05:45,010 --> 00:05:47,490
+digits. It's a tiny piece of math hiding
+
+158
+00:05:47,490 --> 00:05:48,290
+in your wallet.
+
+159
+00:05:48,290 --> 00:05:50,290
+If you enjoyed this one, please give it a
+
+160
+00:05:50,290 --> 00:05:52,130
+like and subscribe for more everyday
+
+161
+00:05:52,130 --> 00:05:53,650
+engineering. Thanks for watching!
