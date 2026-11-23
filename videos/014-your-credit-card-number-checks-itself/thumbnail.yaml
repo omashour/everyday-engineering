@@ -1,9 +1,10 @@
 variants:
   - template: equation
-    text: ""
-    highlight: []
-    tex: ""
+    text: "YOUR CARD CHECKS ITSELF"
+    highlight: ["CHECKS"]
+    tex: "8+5+6+9+2+4+7+9 = 50"
+    note: "ends in 0!"
   - template: photo
-    image: ""
-    text: ""
-    highlight: []
+    image: checkout.jpg
+    text: "One Typo? Caught Instantly"
+    highlight: ["Caught"]

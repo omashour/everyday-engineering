@@ -1,5 +1,79 @@
 shorts:
-  - title: ""
-    hook: ""
-    scenes: []
+  - title: "Your card number checks itself #shorts"
+    hook: "Your card number checks itself"
     end: "Full video on the channel"
+    description: "Mistype one digit of your card number and the form knows instantly. The last digit is a check digit.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: A1
+        component: photo-overlay
+        say: >-
+          Mistype one digit of your card number and many websites know
+          instantly, without asking your bank. That's because the last digit is
+          a check digit, calculated from all the others.
+        params:
+          src: checkout.jpg
+          credit: "Image: AI-generated"
+          overlays:
+            - {type: label, pos: [50, 25], text: "✗ Invalid card number", cue: "Mistype one digit"}
+            - {type: label, pos: [50, 75], text: "last digit = check digit", cue: "last digit is"}
+      - id: A2
+        component: equation-steps
+        say: >-
+          Here's the check. Double every second digit, starting next to the
+          check digit. If you get two digits, add them, so sixteen becomes seven.
+          Then add everything up. A real card number always totals something
+          ending in zero.
+        params:
+          lines:
+            - {text: "double every 2nd digit", cue: "Double every second"}
+            - {tex: "16 \\to 1 + 6 = 7", cue: "sixteen becomes seven"}
+            - {text: "total must end in 0", box: true, cue: "ending in zero"}
+      - id: A3
+        component: big-fact
+        say: >-
+          Change any single digit and the total can't end in zero anymore. So
+          every one digit typo gets caught, instantly. The full video works
+          through an example by hand.
+        params:
+          value: "100%"
+          label: "of single-digit typos"
+          sub: "caught by one extra digit"
+          cue: "every one digit"
+  - title: "Why swapping two digits doesn't fool your card #shorts"
+    hook: "Swap two digits? Still caught"
+    end: "Full video on the channel"
+    description: "Swap two neighboring digits in a card number and the check still catches it, except for one swap.\n\nFull video: [paste the main video's link]"
+    scenes:
+      - id: B1
+        component: photo-overlay
+        say: >-
+          Swap two neighboring digits in your card number, and the website still
+          catches it. A plain sum wouldn't. Here's the trick.
+        params:
+          src: checkout.jpg
+          credit: "Image: AI-generated"
+          overlays:
+            - {type: label, pos: [50, 25], text: "…39… → …93…", cue: "Swap two neighboring"}
+            - {type: label, pos: [50, 75], text: "still caught ✗", cue: "still catches it"}
+      - id: B2
+        component: equation-steps
+        say: >-
+          Every second digit gets doubled. So if three and nine swap places,
+          three doubled plus nine is fifteen. But nine doubled, folded to nine,
+          plus three is only twelve. The total changes, and the check fails.
+        params:
+          size: l
+          lines:
+            - {tex: "2 \\times 3 + 9 = 15", cue: "three doubled plus"}
+            - {tex: "9 + 3 = 12", note: "18 → 9", cue: "folded to nine"}
+            - {text: "total changes → rejected", box: true, cue: "check fails"}
+      - id: B3
+        component: bullets
+        say: >-
+          There's exactly one swap it misses: zero and nine, because zero doubled
+          is zero and nine doubled folds back to nine. The full video shows the
+          whole trick.
+        params:
+          items:
+            - {text: "Other neighbor swaps: caught", icon: circle-check, cue: "exactly one swap"}
+            - {text: "09 ↔ 90: missed", icon: alert-triangle, cue: "it misses"}
